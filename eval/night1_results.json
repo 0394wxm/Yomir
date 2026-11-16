@@ -7,7 +7,7 @@
       "source_url": "https://kanbun.info/koji/mujun.html",
       "hakubun": "楚人有鬻楯與矛者。",
       "expected_kakikudashi": "楚人に楯と矛とを鬻ぐ者有り。",
-      "udkundoku_kakikudashi": "楚の人は楯矛ともを鬻ぐ者有り。",
+      "udkundoku_kakikudashi": "楚人楯矛ともを鬻ぐ者有り。",
       "udkundoku_kaeriten_text": "楚人有下鬻二楯與一レ矛者上。\n",
       "exact_match": false
     },
@@ -43,7 +43,7 @@
       "source_url": "https://kanbun.info/koji/shimen.html",
       "hakubun": "項王軍壁垓下。",
       "expected_kakikudashi": "項王の軍、垓下に壁す。",
-      "udkundoku_kakikudashi": "項の王軍の壁垓下。",
+      "udkundoku_kakikudashi": "項王軍壁垓下。",
       "udkundoku_kaeriten_text": "項王軍壁垓下。\n",
       "exact_match": false
     },
@@ -52,8 +52,8 @@
       "source_url": "https://kanbun.info/koji/toranoi.html",
       "hakubun": "荊宣王問群臣曰、吾聞北方之畏昭奚恤也。果誠何如。群臣莫對。江乙對曰、",
       "expected_kakikudashi": "荊の宣王、群臣に問いて曰く、吾、北方の昭奚恤を畏るるを聞く。果たして誠に何如、と。群臣対うる莫し。江乙対えて曰く、",
-      "udkundoku_kakikudashi": "荊の宣王は群の臣に問ひて曰く、\n吾は北の方の畏昭がなんぞ恤むと聞くなり。\n果して誠に何の如し。\n群の臣は對へることなかれ。\n江乙は對へて曰く、",
-      "udkundoku_kaeriten_text": "荊宣王問二群臣一曰、\n吾聞二北方之畏昭奚恤一也。\n果誠何如。\n群臣莫レ對。\n江乙對曰、\n",
+      "udkundoku_kakikudashi": "荊宣王問ひて群臣曰ひて、吾は聞きて北の方の畏昭奚恤なりて。果して誠に何の如く。群臣對へることなく。江乙對へて曰ふ、は",
+      "udkundoku_kaeriten_text": "荊宣王問群臣曰、吾聞北方之畏昭奚恤也。果誠何如。群臣莫レ對。江乙對曰、\n",
       "exact_match": false
     },
     {
@@ -61,8 +61,8 @@
       "source_url": "https://kanbun.info/koji/garyo.html",
       "hakubun": "張僧繇、呉中人也。",
       "expected_kakikudashi": "張僧繇は、呉中の人なり。",
-      "udkundoku_kakikudashi": "張僧は繇す、\n呉は中の人なり。",
-      "udkundoku_kaeriten_text": "張僧繇、\n呉中人也。\n",
+      "udkundoku_kakikudashi": "張僧繇、呉は中の人なり。",
+      "udkundoku_kaeriten_text": "張僧繇、呉中人也。\n",
       "exact_match": false
     },
     {
@@ -70,7 +70,7 @@
       "source_url": "https://kanbun.info/koji/shushu.html",
       "hakubun": "宋人有耕田者。",
       "expected_kakikudashi": "宋人に田を耕す者有り。",
-      "udkundoku_kakikudashi": "宋の人は田を耕す者有り。",
+      "udkundoku_kakikudashi": "宋人田を耕す者有り。",
       "udkundoku_kaeriten_text": "宋人有二耕レ田者一。\n",
       "exact_match": false
     },
@@ -79,7 +79,7 @@
       "source_url": "https://kanbun.info/koji/gojippo.html",
       "hakubun": "梁惠王曰、",
       "expected_kakikudashi": "梁の恵王曰く、",
-      "udkundoku_kakikudashi": "梁の惠王は曰く、",
+      "udkundoku_kakikudashi": "梁惠王曰く、",
       "udkundoku_kaeriten_text": "梁惠王曰、\n",
       "exact_match": false
     },

@@ -15,11 +15,18 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 API = "http://127.0.0.1:8000/api/kundoku"
 
+# 用法: python -I tools/run_eval.py [--no-merge] [输出文件名]
+#   --no-merge  走后端基线路径（/api/kundoku?merge=0），验证 Night1 基线
+MERGE = "--no-merge" not in sys.argv
+ARGS = [a for a in sys.argv[1:] if not a.startswith("--")]
+OUTFILE = ARGS[0] if ARGS else ("night2_results_merge.json" if MERGE else "night2_results_baseline.json")
+
 
 def post(text: str):
+    url = API + ("" if MERGE else "?merge=0")
     body = json.dumps({"text": text}).encode("utf-8")
     req = urllib.request.Request(
-        API, data=body, headers={"Content-Type": "application/json"}, method="POST")
+        url, data=body, headers={"Content-Type": "application/json"}, method="POST")
     try:
         with urllib.request.urlopen(req, timeout=120) as r:
             return json.loads(r.read().decode("utf-8")), None
@@ -54,7 +61,7 @@ def main():
         print("[%s] %s" % ("EXACT" if exact_match else "DIFF ", g["id"]))
         print("   expected: %s" % g["expected_kakikudashi"])
         print("   got     : %s" % got.strip())
-    out = os.path.join(ROOT, "eval", "night1_results.json")
+    out = os.path.join(ROOT, "eval", OUTFILE)
     with open(out, "w", encoding="utf-8", newline="\n") as f:
         json.dump({"exact_match_count": exact, "total": len(results), "results": results},
                   f, ensure_ascii=False, indent=2)

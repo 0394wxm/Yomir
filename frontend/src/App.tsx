@@ -3,19 +3,89 @@ import './App.css'
 
 const DISCLAIMER = 'AI 初稿，仅供参考，请以原文和专业判断为准。'
 
+// udkanbun 的返り点合字（U+3191–U+319F）→ 通用写法
+const KAERITEN_MAP: Record<string, string> = {
+  '㆑': 'レ',
+  '㆒': '一', '㆓': '二', '㆔': '三', '㆕': '四',
+  '㆖': '上', '㆗': '中', '㆘': '下',
+  '㆙': '甲', '㆚': '乙', '㆛': '丙', '㆜': '丁',
+  '㆝': '天', '㆞': '地', '㆟': '人',
+}
+const KAERITEN_RX = /[㆑㆒㆓㆔㆕㆖㆗㆘㆙㆚㆛㆜㆝㆞㆟]+/g
+
+interface KaeritenChar { base: string; rt: string }
+
+// 把 raw 返り点文本（含合字）解析成 [字, 返り点] 序列。合字紧跟在字后面，无歧义。
+function parseKaeriten(line: string): KaeritenChar[] {
+  const out: KaeritenChar[] = []
+  let i = 0
+  while (i < line.length) {
+    const ch = line[i]
+    if (KAERITEN_MAP[ch] !== undefined) {
+      // 开头就出现合字（不该发生）：跳过
+      i += 1
+      continue
+    }
+    let j = i + 1
+    let rt = ''
+    while (j < line.length && KAERITEN_MAP[line[j]] !== undefined) {
+      rt += KAERITEN_MAP[line[j]]
+      j += 1
+    }
+    out.push({ base: ch, rt })
+    i = j
+  }
+  return out
+}
+
+function KaeritenLine({ line }: { line: string }) {
+  const chars = parseKaeriten(line)
+  return (
+    <div className="vcol">
+      {chars.map((c, idx) =>
+        c.rt ? (
+          <ruby key={idx}>{c.base}<rt>{c.rt}</rt></ruby>
+        ) : (
+          <ruby key={idx}>{c.base}<rt></rt></ruby>
+        ),
+      )}
+    </div>
+  )
+}
+
+function VerticalKaeriten({ raw }: { raw: string }) {
+  const lines = raw.replace(/\r/g, '').split('\n').filter((l) => l.trim() !== '')
+  return (
+    <div className="vertical">
+      {lines.map((l, i) => <KaeritenLine key={i} line={l} />)}
+    </div>
+  )
+}
+
+function VerticalPlain({ text }: { text: string }) {
+  const lines = text.replace(/\r/g, '').split('\n').filter((l) => l.trim() !== '')
+  return (
+    <div className="vertical">
+      {lines.map((l, i) => <div key={i} className="vcol">{l}</div>)}
+    </div>
+  )
+}
+
 interface KundokuResult {
   hakubun: string
   kaeriten_text: string
+  kaeriten_text_raw?: string
   kakikudashi: string
   modern: string
-  glossary: string[]
+  glossary: { word: string; reading?: string; meaning?: string }[]
   error?: string
 }
 
 interface OcrResult {
   hakubun: string
   status: string
-  note: string
+  note?: string
+  line_count?: number
 }
 
 export default function App() {
@@ -45,7 +115,14 @@ export default function App() {
       fd.append('file', file)
       const res = await fetch('/api/ocr', { method: 'POST', body: fd })
       const data: OcrResult = await res.json()
-      setOcrNote(data.note || data.status)
+      if (data.status === 'ok' && data.hakubun) {
+        setHakubun(data.hakubun)
+        setOcrNote(
+          `OCR 完成（${data.line_count ?? '?'} 行）。白文已填入下方，可直接修改后点「重新訓読」。${DISCLAIMER}`,
+        )
+      } else {
+        setOcrNote(data.note || data.status)
+      }
     } catch {
       setOcrNote('OCR 接口调用失败（后端未启动？）')
     } finally {
@@ -56,7 +133,7 @@ export default function App() {
   async function runKundoku() {
     const text = hakubun.trim()
     if (!text) {
-      setErrMsg('白文为空，请先粘贴漢文或手动输入。')
+      setErrMsg('白文为空，请先粘贴漢文、上传图片或手动输入。')
       return
     }
     setBusy(true)
@@ -86,7 +163,7 @@ export default function App() {
     <div className="layout">
       <header className="header">
         <h1>漢文 → 書き下し文</h1>
-        <p className="sub">Night 1 骨架：UD-Kundoku 本地引擎 / OCR 占位 / LLM 占位</p>
+        <p className="sub">Night 2：OCR 已接通（NDL 古典籍 OCR-Lite）/ 訓読 UD-Kundoku / LLM 占位</p>
       </header>
 
       <div className="left-pane">
@@ -117,8 +194,8 @@ export default function App() {
                 }}
                 disabled={ocrBusy}
               />
-              {ocrBusy && <p className="muted">上传中…</p>}
-              {ocrNote && <p className="warn">{ocrNote}</p>}
+              {ocrBusy && <p className="muted">OCR 处理中…（首次调用要加载模型，请稍候）</p>}
+              {ocrNote && <p className={ocrNote.startsWith('OCR 完成') ? 'muted' : 'warn'}>{ocrNote}</p>}
             </div>
           </div>
         </section>
@@ -147,22 +224,37 @@ export default function App() {
         <div className="outputs">
           <div className="out">
             <h3>① 返り点付き原文</h3>
-            <pre>{result?.kaeriten_text || '—'}</pre>
+            {result ? (
+              <VerticalKaeriten raw={result.kaeriten_text_raw || result.kaeriten_text} />
+            ) : (
+              <pre>—</pre>
+            )}
             <p className="muted small">{DISCLAIMER}</p>
           </div>
           <div className="out">
             <h3>② 書き下し文</h3>
-            <pre>{result?.kakikudashi || '—'}</pre>
+            {result?.kakikudashi ? <VerticalPlain text={result.kakikudashi} /> : <pre>—</pre>}
             <p className="muted small">{DISCLAIMER}</p>
           </div>
           <div className="out">
             <h3>③ 現代語訳</h3>
-            <pre className="placeholder">待接入 LLM（占位）</pre>
+            <pre className="placeholder">{result?.modern || '待接入 LLM（占位）'}</pre>
             <p className="muted small">{DISCLAIMER}</p>
           </div>
           <div className="out">
             <h3>④ 語釈</h3>
-            <pre className="placeholder">待接入 LLM（占位）</pre>
+            {result && result.glossary.length > 0 ? (
+              <ul className="glossary">
+                {result.glossary.map((g, i) => (
+                  <li key={i}>
+                    {g.word}
+                    {g.reading ? `（${g.reading}）` : ''}： {g.meaning}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <pre className="placeholder">待接入 LLM（占位）</pre>
+            )}
             <p className="muted small">{DISCLAIMER}</p>
           </div>
         </div>

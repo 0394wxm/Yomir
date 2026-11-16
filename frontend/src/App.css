@@ -109,6 +109,34 @@ button:disabled {
   color: #999;
 }
 
+/* 縦書き（Night 2）：返り点付き原文・書き下し文 */
+.vertical {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  height: 260px;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+  font-size: 1.15rem;
+  line-height: 2;
+  padding-right: 8px;
+}
+
+.vertical .vcol {
+  margin-left: 14px;
+}
+
+.vertical ruby rt {
+  font-size: 0.6rem;
+  color: #8a6d3b;
+}
+
+.glossary {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.95rem;
+}
+
 .muted {
   color: #888;
 }

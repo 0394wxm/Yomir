@@ -1,21 +1,27 @@
 # -*- coding: utf-8 -*-
 """
-kanbun-kakikudashi 后端骨架（Night 1）。
+kanbun-kakikudashi 后端（Night 2）。
 
 - GET  /health        健康检查
-- POST /api/kundoku   白文 -> 返り点付き原文 / 書き下し文（UD-Kundoku 本地引擎）
-- POST /api/ocr       图片 OCR（今晚占位，NDL 古典籍 OCR-Lite 尚未接入）
+- POST /api/kundoku   白文 -> 返り点付き原文 / 書き下し文（UD-Kundoku 本地引擎）+ SQLite 落库
+- POST /api/ocr       图片 -> 白文（NDL 古典籍 OCR-Lite，Night 2 接通）
 
-注意:
-- 現代語訳 (modern) 与 語釈 (glossary) 今晚不接任何 LLM API，留空 + TODO。
-  产品推理用的 key 由用户以后单独提供，绝不能写进代码。
-- 返回的每个输出都带免责说明，前端同样显示。
+Night 2 变更:
+- /api/ocr 从占位改为真实 OCR（backend/ocr_engine.py，NDL ndlkotenocr-lite CC BY 4.0）。
+- kundoku 结果落 SQLite（backend/db.py，requests/results 两表）。
+- 現代語訳/語釈走 backend/llm.py 适配层：无 KANBUN_LLM_API_KEY 时 mock 返回占位。
+  key 由用户以后经环境变量提供，代码里不写死、不从 ZCode 抓 token。
 """
 import logging
 import re
 
-from fastapi import FastAPI, HTTPException, UploadFile
+from fastapi import FastAPI, HTTPException, Query, UploadFile
+from fastapi.concurrency import run_in_threadpool
 from pydantic import BaseModel
+
+from backend import db, llm
+from backend.kundoku_rules import merge_proper_nouns
+from backend.ocr_engine import get_engine, is_available
 
 logger = logging.getLogger("kanbun")
 logging.basicConfig(level=logging.INFO)
@@ -45,6 +51,9 @@ class KundokuRequest(BaseModel):
 class KundokuResponse(BaseModel):
     hakubun: str
     kaeriten_text: str
+    # raw 版保留 udkanbun 的合字（㆒㆓㆑…），前端做ルビ用（合字无歧义，
+    # 不会把白文里的“一/上/中”等汉字误当返り点）
+    kaeriten_text_raw: str = ""
     kakikudashi: str
     modern: str
     glossary: list
@@ -53,7 +62,7 @@ class KundokuResponse(BaseModel):
     error: str = ""
 
 
-app = FastAPI(title="kanbun-kakikudashi", version="0.1.0-night1")
+app = FastAPI(title="kanbun-kakikudashi", version="0.2.0-night2")
 
 ENGINE = None          # udkundoku pipeline, 启动时惰性加载一次
 ENGINE_ERROR = ""
@@ -74,26 +83,28 @@ def _load_engine():
 
 @app.on_event("startup")
 def startup():
+    db.init_db()
     try:
         _load_engine()
         logger.info("udkundoku engine loaded")
     except Exception as e:  # 引擎失败也允许服务启动，/health 仍 ok，/api/kundoku 报错
         ENGINE_ERROR = repr(e)
         logger.exception("engine load failed: %r", e)
+    logger.info("ocr available: %s", is_available())
 
 
 @app.get("/")
 def root():
     return {
         "service": "kanbun-kakikudashi",
-        "version": "0.1.0-night1",
+        "version": "0.2.0-night2",
         "endpoints": ["/health", "/api/kundoku", "/api/ocr"],
     }
 
 
 @app.get("/health")
 def health():
-    return {"ok": True, "engine_loaded": ENGINE is not None}
+    return {"ok": True, "engine_loaded": ENGINE is not None, "ocr_available": is_available()}
 
 
 def _extract_kakikudashi(conllu: str) -> str:
@@ -105,7 +116,7 @@ def _extract_kakikudashi(conllu: str) -> str:
 
 
 @app.post("/api/kundoku", response_model=KundokuResponse)
-def kundoku(req: KundokuRequest):
+def kundoku(req: KundokuRequest, merge: bool = Query(default=True, description="是否启用专名合并等后处理规则")):
     text = (req.text or "").strip()
     if not text:
         raise HTTPException(status_code=400, detail="text 为空，请先输入白文")
@@ -118,30 +129,60 @@ def kundoku(req: KundokuRequest):
 
     try:
         entry = ENGINE(text)
-        kaeriten_text = _normalize_kaeriten(entry.kaeriten())
+        if merge:
+            entry = merge_proper_nouns(entry)  # Night 2: 专名切分错误的后处理（见 kundoku_rules.py）
+        kaeriten_raw = entry.kaeriten()
+        kaeriten_text = _normalize_kaeriten(kaeriten_raw)
         kakikudashi = _extract_kakikudashi(__import__("udkundoku").translate(entry, raw=True))
     except Exception as e:
         logger.exception("kundoku failed on %r", text[:50])
         raise HTTPException(status_code=500, detail="訓読処理失敗: %r" % (e,))
 
-    # TODO(Night2+): modern（現代語訳）与 glossary（語釈）接入 LLM。
-    # 约束: 推理 key 由用户单独提供，不在代码/环境里写死，也不从 ZCode 抓 token。
+    # 現代語訳 / 語釈：适配层在 backend/llm.py。
+    # 无 KANBUN_LLM_API_KEY 时 mock 返回占位，不联网、不写死 key。
+    modern = llm.modern_translate(text, kakikudashi)
+    glossary = llm.glossary(text)
+
+    try:
+        db.save_kundoku(text, kaeriten_text, kakikudashi)
+    except Exception:
+        logger.exception("db save failed (API 照常返回)")
+
     return KundokuResponse(
         hakubun=text,
         kaeriten_text=kaeriten_text,
+        kaeriten_text_raw=kaeriten_raw,
         kakikudashi=kakikudashi,
-        modern="",       # 占位: 待接入 LLM
-        glossary=[],     # 占位: 待接入 LLM
+        modern=modern,
+        glossary=glossary,
     )
 
 
 @app.post("/api/ocr")
 async def ocr(file: UploadFile):
-    # Night 1 占位: NDL 古典籍 OCR-Lite 只做了“GUI 能否启动”的验证，
-    # 命令行/管道方式接入留到下一夜。不要假装它能识别。
-    await file.read()  # 读掉内容避免连接悬挂，不做识别、不落盘
+    """图片 -> 白文。Night 2 接通 NDL 古典籍 OCR-Lite（进程内，首调用加载模型约 10~30 秒）。"""
+    data = await file.read()
+    if not data:
+        raise HTTPException(status_code=400, detail="上传内容为空")
+    if not is_available():
+        return {
+            "hakubun": "",
+            "status": "not_implemented_yet",
+            "note": "OCR 运行目录缺失：请按 backend/ocr_engine.py 头部注释解压 app.zip 到 ocr_runtime/。",
+        }
+    try:
+        engine = await run_in_threadpool(get_engine)
+        result = await run_in_threadpool(engine.recognize_bytes, data)
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.exception("ocr failed")
+        return {"hakubun": "", "status": "ocr_error", "note": "OCR 处理失败: %r" % (e,)}
     return {
-        "hakubun": "",
-        "status": "not_implemented_yet",
-        "note": "OCR agent 尚未接入（NDL 古典籍 OCR-Lite）。今晚请先粘贴文本或手动输入白文。",
+        "hakubun": result["text"],
+        "status": "ok",
+        "line_count": result["line_count"],
+        "elapsed_sec": result["elapsed_sec"],
+        "note": "NDL 古典籍 OCR-Lite（ndl-lab/ndlkotenocr-lite, CC BY 4.0）。白文可修改，请以原文为准。",
+        "disclaimer": DISCLAIMER,
     }

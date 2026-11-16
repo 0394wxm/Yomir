@@ -1,0 +1,96 @@
+{
+  "exact_match_count": 0,
+  "total": 10,
+  "results": [
+    {
+      "id": "mujun-1",
+      "source_url": "https://kanbun.info/koji/mujun.html",
+      "hakubun": "楚人有鬻楯與矛者。",
+      "expected_kakikudashi": "楚人に楯と矛とを鬻ぐ者有り。",
+      "udkundoku_kakikudashi": "楚人楯矛ともを鬻ぐ者有り。",
+      "udkundoku_kaeriten_text": "楚人有下鬻二楯與一レ矛者上。\n",
+      "exact_match": false
+    },
+    {
+      "id": "dasoku-1",
+      "source_url": "https://kanbun.info/koji/dasoku.html",
+      "hakubun": "楚有祠者。",
+      "expected_kakikudashi": "楚に祠る者有り。",
+      "udkundoku_kakikudashi": "楚は祠者有り。",
+      "udkundoku_kaeriten_text": "楚有二祠者一。\n",
+      "exact_match": false
+    },
+    {
+      "id": "chosan-1",
+      "source_url": "https://kanbun.info/koji/chosan.html",
+      "hakubun": "宋有狙公者。",
+      "expected_kakikudashi": "宋に狙公なる者有り。",
+      "udkundoku_kakikudashi": "宋は狙なりて公者有り。",
+      "udkundoku_kaeriten_text": "宋有二狙公者一。\n",
+      "exact_match": false
+    },
+    {
+      "id": "saio-1",
+      "source_url": "https://kanbun.info/koji/saio.html",
+      "hakubun": "近塞上之人、有善術者。",
+      "expected_kakikudashi": "塞上に近きの人に、術を善くする者有り。",
+      "udkundoku_kakikudashi": "近く上の人を塞ぐ、\n善術有る者。",
+      "udkundoku_kaeriten_text": "近塞二上之人一、\n有二善術一者。\n",
+      "exact_match": false
+    },
+    {
+      "id": "shimen-1",
+      "source_url": "https://kanbun.info/koji/shimen.html",
+      "hakubun": "項王軍壁垓下。",
+      "expected_kakikudashi": "項王の軍、垓下に壁す。",
+      "udkundoku_kakikudashi": "項王軍壁垓下。",
+      "udkundoku_kaeriten_text": "項王軍壁垓下。\n",
+      "exact_match": false
+    },
+    {
+      "id": "toranoi-1",
+      "source_url": "https://kanbun.info/koji/toranoi.html",
+      "hakubun": "荊宣王問群臣曰、吾聞北方之畏昭奚恤也。果誠何如。群臣莫對。江乙對曰、",
+      "expected_kakikudashi": "荊の宣王、群臣に問いて曰く、吾、北方の昭奚恤を畏るるを聞く。果たして誠に何如、と。群臣対うる莫し。江乙対えて曰く、",
+      "udkundoku_kakikudashi": "荊宣王問ひて群臣曰ひて、吾は聞きて北の方の畏昭奚恤なりて。果して誠に何の如く。群臣對へることなく。江乙對へて曰ふ、は",
+      "udkundoku_kaeriten_text": "荊宣王問群臣曰、吾聞北方之畏昭奚恤也。果誠何如。群臣莫レ對。江乙對曰、\n",
+      "exact_match": false
+    },
+    {
+      "id": "garyo-1",
+      "source_url": "https://kanbun.info/koji/garyo.html",
+      "hakubun": "張僧繇、呉中人也。",
+      "expected_kakikudashi": "張僧繇は、呉中の人なり。",
+      "udkundoku_kakikudashi": "張僧繇、呉は中の人なり。",
+      "udkundoku_kaeriten_text": "張僧繇、呉中人也。\n",
+      "exact_match": false
+    },
+    {
+      "id": "shushu-1",
+      "source_url": "https://kanbun.info/koji/shushu.html",
+      "hakubun": "宋人有耕田者。",
+      "expected_kakikudashi": "宋人に田を耕す者有り。",
+      "udkundoku_kakikudashi": "宋人田を耕す者有り。",
+      "udkundoku_kaeriten_text": "宋人有二耕レ田者一。\n",
+      "exact_match": false
+    },
+    {
+      "id": "gojippo-1",
+      "source_url": "https://kanbun.info/koji/gojippo.html",
+      "hakubun": "梁惠王曰、",
+      "expected_kakikudashi": "梁の恵王曰く、",
+      "udkundoku_kakikudashi": "梁惠王曰く、",
+      "udkundoku_kaeriten_text": "梁惠王曰、\n",
+      "exact_match": false
+    },
+    {
+      "id": "keiko-1",
+      "source_url": "https://kanbun.info/koji/keiko.html",
+      "hakubun": "且大王之地有盡、而秦之求無已。以有盡之地、而逆無已之求、此所謂市怨結禍者也。不戰而地已削矣。臣聞鄙諺曰、寧爲雞口、無爲牛後。今西面交臂而臣事秦、何異於牛後乎。夫以大王之賢、挾彊韓之兵、而有牛後之名、臣竊爲大王羞之。",
+      "expected_kakikudashi": "且つ大王の地は尽くること有り、而も秦の求めは已むこと無からん。尽くること有るの地を以て、已むこと無きの求めを逆うるは、此れ所謂怨みを市い禍を結ぶ者なり。戦わずして地已に削られん。臣聞く、鄙諺に曰く、寧ろ鶏口と為るとも、牛後と為る無かれ、と。今、西面し、臂を交えて秦に臣事するは、何ぞ牛後に異ならんや。夫れ大王の賢を以て、彊韓の兵を挟みて、而も牛後の名有るは、臣窃かに大王の為に之を羞ず、と。",
+      "udkundoku_kakikudashi": "且つ大王の地は盡す有り、\n而して秦の求めるは無きのみ。\n以て盡してこれ有りて地、\n而して逆して已むをこれ求めること無し、\n此はいはゆる市は禍を結ぶを怨む者なり。\n戰せずして而して地は已に削ぐか。\n臣は鄙諺を聞きて曰く、\n寧に雞の口にたり、\n牛の後にたること無し。\n今に西に面して臂を交して而して臣して秦を事す、\n何ぞ牛に異なりて後すや。\nそれ大王の賢を以てす、\n彊韓の兵を挾む、\n而して牛後の名有り、\n臣は竊して大王にこれを羞ぢるにたり。",
+      "udkundoku_kaeriten_text": "且大王之地有レ盡、\n而秦之求無已。\n以有二盡之一地、\n而逆無二已之求一、\n此所レ謂市怨レ結レ禍者也。\n不レ戰而地已削矣。\n臣聞二鄙諺一曰、\n寧爲二雞口一、\n無レ爲二牛後一。\n今西面交レ臂而臣事レ秦、\n何異二於牛一後乎。\n夫以二大王之賢一、\n挾二彊韓之兵一、\n而有二牛後之名一、\n臣竊爲二大王羞一レ之。\n",
+      "exact_match": false
+    }
+  ]
+}

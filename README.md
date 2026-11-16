@@ -17,10 +17,16 @@
 ## 结构
 
 ```
-backend/    FastAPI + Uvicorn（端口 8000），核心引擎 udkundoku
-frontend/   Vite + React + TypeScript 单页（端口 5173，/api 代理到 8000）
-eval/       golden.json 评测集（10 条 白文+書き下し文 成对样本）
-tools/      环境修复与实测脚本（qkana shim、UD-Kundoku 三句实测）
+backend/       FastAPI + Uvicorn（端口 8000），核心引擎 udkundoku
+  main.py      /health /api/kundoku /api/ocr（merge 查询参数可关后处理规则）
+  ocr_engine.py  NDL 古典籍 OCR-Lite 进程内包装（CC BY 4.0）
+  kundoku_rules.py  专名合并等后处理规则
+  db.py        SQLite（requests/results 两表）
+  llm.py       現代語訳/語釈 LLM 适配层（无 key 时 mock，key 走环境变量）
+frontend/      Vite + React + TypeScript 单页（5173，host:true 双栈监听，/api 代理到 8000）
+eval/          golden.json 评测集 + night2_results_*.json 实测结果
+tools/         环境修复与实测脚本（qkana shim、评测、OCR 测试、CLI 包装）
+ocr_runtime/   （不入库）D:\dlkotenocr-lite 的 app.zip 解压目录，OCR 引擎+模型
 ```
 
 ## 启动
@@ -28,11 +34,18 @@ tools/      环境修复与实测脚本（qkana shim、UD-Kundoku 三句实测�
 ```bat
 :: 后端（D:\Python312）
 set PATH=D:\Python312;D:\Python312\Scripts;%PATH%
-python -m uvicorn backend.main:app --port 8000
+python -X utf8 -m uvicorn backend.main:app --port 8000
 
 :: 前端
 set PATH=D:\nodejs;%PATH%
 cd frontend && npm install && npm run dev
+:: 浏览器打开 http://localhost:5173/ 或 http://127.0.0.1:5173/
+```
+
+OCR 首次调用前需解压引擎目录（详见 backend/ocr_engine.py 头部注释）：
+
+```bat
+python -I -m zipfile -e "D:\dlkotenocr-lite\data\flutter_assets\app\app.zip" ocr_runtime
 ```
 
 ## 环境备注（本机 NEC / Win10 IoT）
