@@ -1,0 +1,8 @@
+# Python 3.12.10 @ D:\Python312（本机已有，无需重装）
+# 安装: python -m pip install -r backend/requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+fastapi>=0.115
+uvicorn>=0.30
+python-multipart>=0.0.9
+udkundoku==2.3.0
+# udkundoku 会自动带上: udkanbun, unidic2ud, ufal.udpipe, mecab-python3, deplacy
+# 词典修复: python -I tools/make_qkana_shim.py （用已装的 unidic_lite 生成 qkana shim）

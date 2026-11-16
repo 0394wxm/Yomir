@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node
+node_modules/
+frontend/dist/
+
+# 上传的图片原文件（OCR 入口的临时存储）
+uploads/
+
+# 本地运行产物
+*.log
+*.pid
+nohup.out
+
+# 系统杂物
+Thumbs.db
+.DS_Store
+desktop.ini
