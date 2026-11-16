@@ -13,6 +13,7 @@ Night 2 变更:
   key 由用户以后经环境变量提供，代码里不写死、不从 ZCode 抓 token。
 """
 import logging
+import os
 import re
 
 from fastapi import FastAPI, HTTPException, Query, UploadFile
@@ -20,7 +21,7 @@ from fastapi.concurrency import run_in_threadpool
 from pydantic import BaseModel
 
 from backend import db, llm
-from backend.kundoku_rules import merge_proper_nouns
+from backend.kundoku_rules import merge_proper_nouns, normalize_shinjitai
 from backend.ocr_engine import get_engine, is_available
 
 logger = logging.getLogger("kanbun")
@@ -59,7 +60,28 @@ class KundokuResponse(BaseModel):
     glossary: list
     disclaimer: str = DISCLAIMER
     engine: str = "udkundoku"
+    # NIGHT3: 文本类型分流。kana（假名文学文本）不进 UD-Kundoku，
+    # 只回显原文 + 提示，避免输出乱插助词的“書き下し文”。
+    text_type: str = "kanbun"   # "kanbun" | "kana"
+    note: str = ""
     error: str = ""
+
+
+def detect_text_type(text: str) -> str:
+    """按假名比例分流：假名（平假名+片假名）占非标点字符 >30% 判为假名文学文本。
+
+    阈值可经 KANBUN_KANA_RATIO 环境变量调整。漢文白文（kanbun.info 等）
+    基本全汉字+句读点，比例接近 0；竹取物語等假名文远超 30%。
+    """
+    try:
+        threshold = float(os.environ.get("KANBUN_KANA_RATIO", "0.3"))
+    except ValueError:
+        threshold = 0.3
+    chars = [c for c in text if not c.isspace() and c not in "、。，．・「」『』（）！？―ー"]
+    if not chars:
+        return "kanbun"
+    kana = sum(1 for c in chars if ("\u3041" <= c <= "\u309f") or ("\u30a0" <= c <= "\u30ff"))
+    return "kana" if (kana / len(chars)) > threshold else "kanbun"
 
 
 app = FastAPI(title="kanbun-kakikudashi", version="0.2.0-night2")
@@ -116,10 +138,29 @@ def _extract_kakikudashi(conllu: str) -> str:
 
 
 @app.post("/api/kundoku", response_model=KundokuResponse)
-def kundoku(req: KundokuRequest, merge: bool = Query(default=True, description="是否启用专名合并等后处理规则")):
+def kundoku(
+    req: KundokuRequest,
+    merge: bool = Query(default=True, description="是否启用专名合并等后处理规则"),
+    ortho: bool = Query(default=True, description="是否对書き下し文做旧字体→新字体显示转换"),
+):
     text = (req.text or "").strip()
     if not text:
         raise HTTPException(status_code=400, detail="text 为空，请先输入白文")
+
+    # NIGHT3: 假名白文分流——假名文学文本（竹取物語等）与假名占多数的
+    # 训读体/明治文书（侯文）都不适用漢文訓読，不做二次插助词。
+    if detect_text_type(text) == "kana":
+        return KundokuResponse(
+            hakubun=text,
+            kaeriten_text="",
+            kaeriten_text_raw="",
+            kakikudashi="",
+            modern="",
+            glossary=[],
+            text_type="kana",
+            note="假名为主的文本（假名文学・训读体・侯文等）不适用漢文訓読，"
+                 "本接口不做訓読转换；请直接使用上方的白文转写。" + DISCLAIMER,
+        )
 
     if ENGINE is None:
         raise HTTPException(
@@ -152,7 +193,7 @@ def kundoku(req: KundokuRequest, merge: bool = Query(default=True, description="
         hakubun=text,
         kaeriten_text=kaeriten_text,
         kaeriten_text_raw=kaeriten_raw,
-        kakikudashi=kakikudashi,
+        kakikudashi=normalize_shinjitai(kakikudashi) if ortho else kakikudashi,
         modern=modern,
         glossary=glossary,
     )

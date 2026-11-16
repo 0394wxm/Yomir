@@ -68,6 +68,7 @@ def main():
     out_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                             "eval", "golden.json")
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    per_page = int(os.environ.get("GOLDEN_PER_PAGE", "5"))
     entries = []
     for pid, url in PAGES:
         try:
@@ -79,8 +80,12 @@ def main():
         if not pairs:
             print("[SKIP] %s: no genbun01/yomi02 pairs found" % pid)
             continue
-        # 任务要求只建 10 条：每页取第 1 对；白文混入读音注记（含全角括号）的丢弃
+        # 每页取前 N 对干净文本（NIGHT3: 5 对/页 × 10 页 = 50 条）；
+        # 白文混入读音注记（含全角括号）的丢弃
+        n = 0
         for i, (genbun, yomi) in enumerate(pairs, start=1):
+            if n >= per_page:
+                break
             hakubun = strip_white(genbun)
             kakikudashi = strip_yomi(yomi)
             if not hakubun or not kakikudashi:
@@ -93,8 +98,8 @@ def main():
                 "hakubun": hakubun,
                 "expected_kakikudashi": kakikudashi,
             })
-            break
-        print("[OK] %s: picked first clean pair" % pid)
+            n += 1
+        print("[OK] %s: %d pairs" % (pid, n))
     print("total entries:", len(entries))
     with open(out_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(entries, f, ensure_ascii=False, indent=2)

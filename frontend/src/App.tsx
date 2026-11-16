@@ -78,6 +78,8 @@ interface KundokuResult {
   kakikudashi: string
   modern: string
   glossary: { word: string; reading?: string; meaning?: string }[]
+  text_type?: string
+  note?: string
   error?: string
 }
 
@@ -148,8 +150,13 @@ export default function App() {
       if (!res.ok) {
         setResult(null)
         setErrMsg(typeof data.detail === 'string' ? data.detail : JSON.stringify(data))
+      } else if (data.text_type === 'kana') {
+        // NIGHT3: 假名白文分流——不进訓読，只提示
+        setResult(null)
+        setErrMsg(data.note || '假名文学文本不适用漢文訓読。')
       } else {
         setResult(data)
+        setErrMsg('')
       }
     } catch {
       setResult(null)

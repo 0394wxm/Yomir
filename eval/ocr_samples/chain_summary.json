@@ -1,0 +1,46 @@
+[
+  {
+    "sample": "ndl_1287221_R0000002_clean.jpg",
+    "ocr_status": "ok",
+    "ocr_lines": 16,
+    "junk_filtered": null,
+    "ocr_elapsed_sec": 48.0,
+    "ocr_first_line": "いまはむかしたけとりのおきなといふ",
+    "kundoku_text_type": "kana",
+    "kundoku_note": "假名文学文本不适用漢文訓読，本接口不做訓読转换；请直接使用上方的白文转写。AI 初稿，仅供参考，请以原文和专业判断为准。",
+    "kundoku_kakikudashi_head": ""
+  },
+  {
+    "sample": "ndl_10301438_R0000002_clean.jpg",
+    "ocr_status": "ok",
+    "ocr_lines": 10,
+    "junk_filtered": null,
+    "ocr_elapsed_sec": 42.12,
+    "ocr_first_line": "久間万",
+    "kundoku_text_type": "kanbun",
+    "kundoku_note": "",
+    "kundoku_kakikudashi_head": "久なりて間に万\nのさを笄してくゝ\n馬琴はあ\n事は基を塞ぐ\nかさしか\n九方を\n馬は"
+  },
+  {
+    "sample": "ndl_11892692_R0000003_clean.jpg",
+    "ocr_status": "ok",
+    "ocr_lines": 9,
+    "junk_filtered": null,
+    "ocr_elapsed_sec": 37.8,
+    "ocr_first_line": "明治十九年二月廿二日暗求",
+    "kundoku_text_type": "kanbun",
+    "kundoku_note": "",
+    "kundoku_kakikudashi_head": "明して治めて十九年は二月廿に二日に暗に求めて論語の序は説きて史が世の家を記すは孔"
+  },
+  {
+    "sample": "ndl_9973821_R0000002_clean.jpg",
+    "ocr_status": "ok",
+    "ocr_lines": 23,
+    "junk_filtered": null,
+    "ocr_elapsed_sec": 53.19,
+    "ocr_first_line": "之レナキ弊ヲ醸成セシムル者ノ如シ又内地人ノ裁宿ニ",
+    "kundoku_text_type": "kana",
+    "kundoku_note": "假名文学文本不适用漢文訓読，本接口不做訓読转换；请直接使用上方的白文转写。AI 初稿，仅供参考，请以原文和专业判断为准。",
+    "kundoku_kakikudashi_head": ""
+  }
+]
