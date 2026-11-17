@@ -54,7 +54,7 @@ pip 走清华镜像，npm 走项目级 .npmrc；不要删 qkana shim（tools/mak
 状态: DONE（REPORT_NIGHT12.md，提交 243b468，本地 tag v0.1）。一键脚本 ×3（start_backend/start_frontend/eval_all）；README v0.1 重写；已知问题 8 条按严重程度排（含精确 0/200、再読文字上限、OCR 盲区、guwenbert 未接入等）。
 
 ### Night 13–15 — 桌面壳（Tauri 2）
-状态: TODO
+状态: Night 13 部分完成（REPORT_NIGHT13.md，脚手架文件全就位；本地跑不起来——Rust 工具链下载卡住，45 分钟规则止损，恢复路径已写进报告；MSVC 14.44 + Windows SDK + WebView2 157.0.4341.60 已装）。Night 14/15 被链条阻塞顺延。
 - Night 13：Tauri 2 脚手架套现有 Web，本地能跑起来，体积记下来（目标 10–50MB，对照 Electron ~150MB）。
 - Night 14：桌面版离线：后端随壳启动、OCR 模型随壳打包、断网能跑訓読（現代語訳无 key 时仍占位）。
 - Night 15：桌面版安装包打出来，在本机装一次实测，记安装步骤与问题。

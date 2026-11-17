@@ -254,7 +254,12 @@ class OCREngine:
         # 竹取物語整页 17 行顺序正确）；官方 GUI 的反转只作用于“多页”列表，
         # 不作用于行列表，这里保持与其 full-image 路径一致。
         patterns = ["□□□", "、、、"]
-        keep = [i for i, s in enumerate(resultlines) if not any(p in s for p in patterns)]
+        # NIGHT6 建议: 纯 ASCII/符号行（信長公記 刊本界框被读成「}」）一并剔除
+        # ——行内不含假名或汉字即视为非内容行
+        def _has_text(s):
+            return any(("\u3040" <= c <= "\u30ff") or ("\u3400" <= c <= "\u9fff") or ("\u4e00" <= c <= "\u4dbf") for c in s)
+        keep = [i for i, s in enumerate(resultlines)
+                if s and not any(p in s for p in patterns) and _has_text(s)]
         resultlines = [resultlines[i] for i in keep]
         # boxes 必须与 resultlines 同步过滤（Night3 踩过：只筛了行文本没筛盒子，
         # cluster 输出的 index 越界 -> IndexError）

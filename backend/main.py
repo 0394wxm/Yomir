@@ -191,7 +191,7 @@ def _kundoku_result_for(text: str, merge: bool, ortho: bool, use_cache: bool):
         kaeriten_raw = entry.kaeriten()
         kaeriten_text = _normalize_kaeriten(kaeriten_raw)
         kakikudashi = _extract_kakikudashi(__import__("udkundoku").translate(entry, raw=True))
-    # NIGHT4 Rule A / NIGHT5 Rule C：显示风格修正（merge 开关下生效）
+    # NIGHT4 Rule A：显示风格修正（ふ→う、は曰く→曰く），merge 开关下生效
     if merge:
         kakikudashi = style_fix(kakikudashi)
     return kaeriten_text, kaeriten_raw, kakikudashi

@@ -137,6 +137,9 @@ def merge_proper_nouns(entry, words=None):
     """把相邻词元（表面形拼接后命中白名单）合并成一个词元。原地修改并返回 entry。
 
     仅当第一个词元是名词性时才合并，避免把动词序列粘在一起。
+    NIGHT5 护栏（merge_guard）：调用方应只在短句上启用合并——200 条实测中
+    6 条长句变差（toranoi-1/ichiji 系/bokutaku-1/ippai-2/keiko-2）均来自
+    长句树手术的连带效应；`MAX_MERGE_LINE_LEN` 由调用方按行长度控制。
     """
     wordset = set(words or MERGE_WORDS)
     try:
