@@ -1,33 +1,21 @@
-# kanbun-kakikudashi
+# kanbun-kakikudashi — 漢文→書き下し文 Web MVP v0.1
 
-漢文 → 書き下し文 Web MVP（第 3 夜完成：双入口 + 訓読 + OCR + 评测/测试基建）。
-
-两个入口汇到同一条訓読管线：
+漢文（白文）→ 書き下し文 Web MVP。两个入口汇到同一条訓読管线：
 
 - 入口 A：粘贴活字漢文文本
 - 入口 B：上传图片（くずし字，NDL 古典籍 OCR-Lite，已接通）
 
-输出四样：
+输出四样：①返り点付き原文（縦書き+ルビ）②書き下し文（含送り仮名）③現代語訳（占位）④語釈（词库/占位）。
+逐行纠错、历史翻回、行级缓存、导出（复制/txt/打印）齐备。
 
-1. 返り点付き原文（縦書き + 返り点ルビ）
-2. 書き下し文（含送り仮名，縦書き，旧字体→新字体显示转换）
-3. 現代語訳（占位：等用户给 LLM key）
-4. 語釈（占位：同上）
+---
 
-假名文学文本（竹取物語等）会自动分流：不进漢文訓読引擎，只回显白文 + 提示。
+## 一键启动（v0.1）
 
-## 启动
+双击 `start_backend.bat` → 后端 http://127.0.0.1:8000
+双击 `start_frontend.bat` → 前端 http://localhost:5173/ （或 127.0.0.1:5173）
 
-```bat
-:: 后端（Python 3.12 在 D:\Python312）
-set PATH=D:\Python312;D:\Python312\Scripts;%PATH%
-python -X utf8 -m uvicorn backend.main:app --port 8000
-
-:: 前端（Node 在 D:\nodejs）
-set PATH=D:\nodejs;%PATH%
-cd frontend && npm install && npm run dev
-:: 浏览器打开 http://localhost:5173/ 或 http://127.0.0.1:5173/（vite 双栈监听）
-```
+评测一键跑通（需后端已启动）：双击 `tools\eval_all.bat`（200 条基线+全规则+对比+分类）。
 
 OCR 首次调用前解压引擎目录（模型 ~80MB 不入库）：
 
@@ -35,81 +23,63 @@ OCR 首次调用前解压引擎目录（模型 ~80MB 不入库）：
 python -I -m zipfile -e "D:\dlkotenocr-lite\data\flutter_assets\app\app.zip" ocr_runtime
 ```
 
-OCR 依赖直接复用官方 GUI 自带的 `D:\dlkotenocr-lite\site-packages`（onnxruntime/numpy/PIL，零新装）。
-首次调用 /api/ocr 要加载两个 ONNX 模型（本机 Celeron 约 40~60s），单张图推理约 35~80s。
-
-## 用法
-
-- 贴文本：输入区粘漢文 → 「→ 送入白文」→ 白文区可改 → 「重新訓読」
-- 传图片：选一张くずし字扫描图 → OCR 自动填入白文区 → 修改后「重新訓読」
-- 输出①②是縦書き；返り点做成了ルビ；③④显示占位直到配置 LLM key
-
-环境变量（全部可选）：
+## 环境变量（全部可选）
 
 | 变量 | 作用 | 默认 |
 | --- | --- | --- |
-| `KANBUN_LLM_API_KEY` | 現代語訳/語釈 的 LLM key（没配就走 mock 占位） | 无 |
+| `KANBUN_LLM_API_KEY` | 現代語訳/語釈 的 LLM key（没配走 mock+词库） | 无 |
 | `KANBUN_LLM_BASE_URL` / `KANBUN_LLM_MODEL` | OpenAI 兼容端点/模型名 | openai / gpt-4o-mini |
-| `KANBUN_KANA_RATIO` | 假名分流阈值（假名字符占比） | 0.3 |
-| `KANBUN_OCR_ORDER` | OCR 行序：native（官方 xy_cut）/ cluster（列聚类） | native |
-| `KANBUN_OCR_JUNK_FILTER` | 色卡/标尺过滤开关 | 1（开） |
-| `KANBUN_OCR_SITE` / `KANBUN_OCR_SRC` | OCR 依赖包 / 引擎源码路径 | dlkotenocr-lite 侧 / ocr_runtime |
-| `KANBUN_DB` | SQLite 路径 | 项目根 kanbun.db |
+| `KANBUN_KANA_RATIO` | 假名分流阈值 | 0.3 |
+| `KANBUN_OCR_ORDER` | OCR 行序 native/cluster | cluster |
+| `KANBUN_OCR_JUNK_FILTER` | 垃圾框过滤开关 | 1 |
+| `KANBUN_DB` | SQLite 路径 | kanbun.db |
 
-## 测试与评测
+## 测试
 
-```bat
-:: API/规则测试（11 条，进程内 TestClient，不依赖 uvicorn 在跑）
-python -X utf8 -m pytest tests\test_api.py -v
-
-:: 评测（eval/golden.json 50 条，需后端在 8000 跑着）
-python -I tools\run_eval.py --no-merge --no-ortho night3_results_baseline.json   :: 引擎原始基线
-python -I tools\run_eval.py night3_results_full.json                             :: merge+正字化
-python -I tools\eval_summary.py night3_results_baseline.json night3_results_full.json
+```
+python -X utf8 -m pytest tests\test_api.py -v     # 14 条全过
 ```
 
-## 已知上限（如实记录，不要当它全能）
+## 评测分数（如实，v0.1 口径）
 
-- **訓読准确率**：eval/golden.json 50 条（kanbun.info 白文+書き下し文成对样本）
-  精确匹配 **0/50**；merge+正字化后平均编辑距离 13.2→12.3、28/50 条改善、0 条变差。
-  简单句（王顧左右而言他 等）正确；长难句的助词选择、名词化（祠る者）、
-  动词条目（壁す）是解析层问题，字符串后处理修不动。
-- **再読文字**：udkundoku 只对应「未」；應・當・須・蓋・宜・將等未对应；駢文和诗难。
-- **OCR**：无 ground truth，不给准确率数字；色卡/标尺过滤是启发式（饱和像素占比+
-  超宽条+贴边条），边界情况可能误滤/漏滤；多列密排页面的行序可选 cluster 模式改善。
-- **假名文本**：不适用漢文訓読，接口会自动分流（text_type=kana）并给提示。
-- **現代語訳/語釈**：占位。key 由用户单独提供（`KANBUN_LLM_API_KEY`），
-  不要写死在代码里，也不要从 ZCode 抓 token。
+- `eval/golden.json` 200 条（kanbun.info 白文+書き下し文成对）。
+- 精确匹配：**0/200**（引擎原始 / +全部规则 都是 0）。
+- 编辑距离（归一化口径）：基线 22.14 → 全规则 21.02；**改善 124 条 / 变差 6 条 / 持平 70 条**。
+- 分类（多标签）：助词错 92%、切分错 90%、旧字体 12%、专名 0.5%。
+- 夜5 规则 C（て而して→て）曾带来 26 条改善但破坏经典句而撤销（见 REPORT_NIGHT7 §4）。
 
-## qkana shim（重要）
+## 已知问题（v0.1，按严重程度排）
 
-`import udkundoku` 需要 UniDic qkana 词典，官方源 `clrd.ninjal.ac.jp` 在本机被墙
-（TLS 重置）。当前用 unidic_lite 冒充的 shim：
-`D:\Python312\Lib\site-packages\unidic2ud\download\qkana\`（unidic_lite + 自定义
-dicrc 输出标准 UniDic 29 列）。可复现：`python -I tools/make_qkana_shim.py`。
+1. **訓読精确匹配 0/200**——长难句的助词插入位置、名词化（祠る者）、动词条目（壁す）
+   是 mecab-kanbun 词典/解析层问题；简单句（王顧左右而言他 等）正确。
+2. **再読文字只有「未」**（udkundoku 已知上限）：應・當・須・蓋・宜・將 未对应；駢文・诗难。
+3. **OCR 无 ground truth**：不给准确率；刊本界框会被识别为「}」等符号行（过滤未覆盖）；
+   絵本散字页面输出碎片；密集页识别 ~2.2s/行（87 行≈137s）。
+4. **假名文本分流**：>30% 假名的输入不训读只转写——侯文/明治文书会被分流（行为正确但
+   note 措辞可能引起误解）。
+5. **語釈词库 209 条未经人工校对**（agent 整理），且功能词可能排进前 5 条。
+6. **cached 路径偶发 2.4s 离群值**（原因未定位）。
+7. guwenbert（BERT 依存）模型已下载但 PyPI supar 与 checkpoint 不兼容，未接入（Night5 报告）。
+8. 瀏覽器人工确认清单（Night10）未由用户打勾。
 
-在能直连 NINJAL 的网络环境运行 `python -X utf8 tools/fetch_official_qkana.py`
-即可下载官方词典并自动备份/替换 shim（280MB，脚本支持断点续传）。
-guwenbert BERT 模式同理：`tools/try_guwenbert.py`（还需 `pip install supar`，
-依赖 torch）。
+## qkana shim 说明
+
+`import udkundoku` 需要 UniDic qkana 词典；官方源 `clrd.ninjal.ac.jp` 在本机被墙
+（TLS 重置/半阻断）。当前用 unidic_lite 冒充的 shim：
+`D:\Python312\Lib\site-packages\unidic2ud\download\qkana\`（unidic_lite + 自定义 dicrc）。
+可复现：`python -I tools/make_qkana_shim.py`。
+在可达 NINJAL 的网络运行 `python -X utf8 tools/fetch_official_qkana.py` 即下载官方词典
+（280MB，断点续传）并自动备份/替换 shim。**不要删 shim。**
 
 ## 结构
 
 ```
-backend/       FastAPI + Uvicorn（8000）
-  main.py      /health /api/kundoku（merge/ortho 参数、假名分流）/api/ocr
-  ocr_engine.py  NDL 古典籍 OCR-Lite 进程内包装（CC BY 4.0）+ 垃圾框过滤 + 列序聚类
-  kundoku_rules.py  专名合并 + 旧→新字体映射（仅显示层）
-  db.py        SQLite（requests/results 两表）
-  llm.py       LLM 适配层（无 key 时 mock）
-frontend/      Vite + React + TS 单页（5173）
-eval/          golden.json 50 条 + night3_results_*.json + ocr_samples/ 实测文本
-tests/         pytest 套件（11 条）
-tools/         shim/评测/OCR/CLI 等脚本
-ocr_runtime/   不入库：app.zip 解压 + NDL 样张
+backend/       FastAPI(8000)：main / ocr_engine / kundoku_rules / db / llm / glossary_lexicon
+frontend/      Vite+React+TS(5173)：行別対照・履歴・导出・响应式
+tests/         pytest 14 条
+eval/          golden.json 200 条 + night4/5 结果 + ocr_samples/
+tools/         shim/评测/分类/挖掘/OCR 基准/下载脚本
+ocr_runtime/   不入库：OCR 引擎+样张库（batch20 等）
+ROADMAP.md     任务队列（Night 4-12 已 DONE，13+ 待做）
+REPORT_NIGHT*.md
 ```
-
-## 约束
-
-- 只本地 git 提交，不建远程仓库、不推远程。
-- 每句输出标注：「AI 初稿，仅供参考，请以原文和专业判断为准。」
