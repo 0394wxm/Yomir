@@ -51,10 +51,7 @@ pip 走清华镜像，npm 走项目级 .npmrc；不要删 qkana shim（tools/mak
 状态: DONE（REPORT_NIGHT11.md）。20 连调：unique avg 513ms / cached 最低 3ms、内存 140.5→143.1MB 稳定（2412ms 离群值如实记录）；OCR 批量端点 /api/ocr/batch 上线并实测 2 张 126.1s；npm run build 通过 dist 229KB。
 
 ### Night 12 — Web MVP v0.1 封版
-状态: TODO
-- 把 Night 1–11 的散活收拢：README 重写一遍（启动、用法、已知上限、评测分数如实写）、eval/ 评测一键跑通、后端 + 前端一键启动脚本（.bat 两个，双击能跑）。
-- 列出 v0.1 已知问题清单（按严重程度排），不要藏。
-- 产出：REPORT_NIGHT12.md，本地提交，v0.1 打个本地 tag（只本地，不推远程）。
+状态: DONE（REPORT_NIGHT12.md，提交 243b468，本地 tag v0.1）。一键脚本 ×3（start_backend/start_frontend/eval_all）；README v0.1 重写；已知问题 8 条按严重程度排（含精确 0/200、再読文字上限、OCR 盲区、guwenbert 未接入等）。
 
 ### Night 13–15 — 桌面壳（Tauri 2）
 状态: TODO
