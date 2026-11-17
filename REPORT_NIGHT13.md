@@ -30,7 +30,7 @@
      `%USERPROFILE%\.rustup\toolchains\stable-x86_64-pc-windows-msvc` 并写 settings.toml。
 - WebView2 per-user 安装已验证（注册表 HKCU pv=157.0.4341.60 + 目录存在）。
 
-## 3. Tauri 2 脚手架文件（全部就位，未编译）
+## 3. Tauri 2 脚手架文件（全部就位，cargo build 已完成）
 
 ```
 frontend/src-tauri/Cargo.toml        tauri 2 + tauri-build 2（release: strip+lto）
@@ -41,8 +41,16 @@ frontend/src-tauri/tauri.conf.json   productName/identifier/build(devUrl=5173,
 frontend/src-tauri/icons/icon.ico    32x32 占位图标（PIL 生成，196B）
 ```
 
-- 未跑 `cargo build`（Rust 未就绪）→ **体积未测**（目标 10–50MB vs Electron ~150MB 留待实测）。
-- 设计说明：本阶段窗口加载 devUrl(:5173)，API 需后端在 8000；Night 14 再做 sidecar 随壳启动。
+**Rust 通过 rsproxy 补装成功（第二次尝试）**：rustc/cargo 1.100.0 stable-msvc
+（第一次 attempt 卡在 static.rust-lang.org 限速，env 未穿透 `start`；
+第二次直接跑 rustup-init 且 env 同 shell 设置，rsproxy 下载完成）。
+`cargo build --release` 完成（400+ crates，rsproxy 镜像下载）：
+
+- **产物：`frontend/src-tauri/target/release/kanbun-kakikudashi.exe`，7.4 MB**
+  （目标 10–50MB 达标，对照 Electron ~150MB）。
+- 「本地能跑起来」的口径：exe 加载 devUrl(:5173)，需 start_frontend.bat + start_backend.bat
+  同时开着（Night 14 做 sidecar 随壳启动后才真正离线可跑）。exe 本体已产出并实测存在。
+- crates 下载走 rsproxy（~/.cargo/config.toml），git-fetch-with-cli=true。
 
 ## 4. 本夜附带改动（护栏实验判定 + OCR 过滤加强）
 
