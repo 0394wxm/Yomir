@@ -184,6 +184,42 @@ export default function App() {
   const ocrLines = ocrHakubun ? ocrHakubun.replace(/\r/g, '').split('\n').filter((l) => l.trim() !== '') : []
   const curLines = hakubun ? hakubun.replace(/\r/g, '').split('\n').filter((l) => l.trim() !== '') : []
 
+  // NIGHT10: 导出三件套（复制 / txt 下载 / 打印）
+  function resultAsText(): string {
+    if (!result) return ''
+    const parts: string[] = []
+    parts.push('【返り点付き原文】\n' + (result.kaeriten_text_raw || result.kaeriten_text || '—').trim())
+    parts.push('【書き下し文】\n' + (result.kakikudashi || '—').trim())
+    parts.push('【現代語訳】\n' + ((result.modern || '待接入 LLM（占位）') as string).trim())
+    if (result.glossary.length > 0) {
+      parts.push('【語釈】\n' + result.glossary.map((g) => `${g.word}（${g.reading || ''}）：${g.meaning}`).join('\n'))
+    }
+    parts.push('— ' + DISCLAIMER)
+    return parts.join('\n\n')
+  }
+
+  async function copyResult() {
+    try {
+      await navigator.clipboard.writeText(resultAsText())
+      setErrMsg('已复制到剪贴板。')
+    } catch {
+      setErrMsg('复制失败（浏览器权限？）。')
+    }
+  }
+
+  function downloadTxt() {
+    const blob = new Blob([resultAsText()], { type: 'text/plain;charset=utf-8' })
+    const a = document.createElement('a')
+    a.href = URL.createObjectURL(blob)
+    a.download = 'kundoku_' + new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-') + '.txt'
+    a.click()
+    URL.revokeObjectURL(a.href)
+  }
+
+  function printResult() {
+    window.print()
+  }
+
   function editLine(idx: number, newText: string) {
     const lines = [...curLines]
     while (lines.length <= idx) lines.push('')
@@ -324,6 +360,11 @@ export default function App() {
 
       <section className="card output-pane">
         <h2>输出</h2>
+        <div className="row export-row">
+          <button className="ghost" onClick={copyResult} disabled={!result}>一键复制</button>
+          <button className="ghost" onClick={downloadTxt} disabled={!result}>下载 txt</button>
+          <button className="ghost" onClick={printResult} disabled={!result}>打印</button>
+        </div>
         <div className="outputs">
           <div className="out">
             <h3>① 返り点付き原文</h3>

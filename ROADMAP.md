@@ -45,11 +45,7 @@ pip 走清华镜像，npm 走项目级 .npmrc；不要删 qkana shim（tools/mak
 - 产出：REPORT_NIGHT9.md，本地提交。
 
 ### Night 10 — 前端打磨第二轮
-状态: TODO
-- 导出：訓読结果一键复制、下载 txt / 打印友好的页面；返り点 / 書き下し文 / 現代語訳 / 語釈四栏排版再打磨一轮。
-- 移动端窄屏能看：一屏四栏在窄屏下改上下排列，不做 App，只做响应式。
-- 人工浏览器确认清单写进报告（agent 无浏览器自动化，留给用户打勾）。
-- 产出：REPORT_NIGHT10.md，本地提交。
+状态: DONE（REPORT_NIGHT10.md）。导出三件套（复制/txt 下载/打印+@media print 样式）；窄屏 ≤900px 单列响应式；tsc --noEmit 零错误；浏览器人工确认清单 5 项留待用户。
 
 ### Night 11 — 性能与稳定性
 状态: TODO

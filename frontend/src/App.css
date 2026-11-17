@@ -210,6 +210,76 @@ button.ghost.small {
   margin-bottom: 4px;
 }
 
+/* NIGHT10: 导出行 */
+.export-row {
+  margin-bottom: 10px;
+}
+
+.export-row button {
+  margin-top: 0;
+}
+
+/* NIGHT10: 窄屏响应式（≤900px 上下排列） */
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .entries {
+    grid-template-columns: 1fr;
+  }
+
+  .outputs {
+    grid-template-columns: 1fr;
+  }
+
+  .linecompare {
+    grid-template-columns: 1fr;
+  }
+
+  .imgcol img {
+    max-height: 260px;
+    width: auto;
+  }
+}
+
+/* NIGHT10: 打印友好（只打印输出区，隐藏交互件） */
+@media print {
+  body {
+    background: #fff;
+  }
+
+  #root {
+    max-width: none;
+    padding: 0;
+  }
+
+  .header .sub,
+  .left-pane,
+  button,
+  .export-row,
+  .muted.small {
+    display: none !important;
+  }
+
+  .layout {
+    display: block;
+  }
+
+  .card {
+    border: none;
+    padding: 0;
+    margin-bottom: 12mm;
+  }
+
+  .vertical {
+    height: auto;
+    writing-mode: vertical-rl;
+    max-height: 120mm;
+    overflow: visible;
+  }
+}
+
 .muted {
   color: #888;
 }
