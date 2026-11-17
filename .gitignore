@@ -9,6 +9,9 @@ venv/
 node_modules/
 frontend/dist/
 
+# Tauri / Rust 编译产物
+frontend/src-tauri/target/
+
 # 上传的图片原文件（OCR 入口的临时存储）
 uploads/
 

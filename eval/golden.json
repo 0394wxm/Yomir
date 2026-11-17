@@ -462,6 +462,12 @@
     "expected_kakikudashi": "子張、善人の道を問う。子曰く、迹を践まず。亦た室に入らず。"
   },
   {
+    "id": "abakite-1",
+    "source_url": "https://kanbun.info/koji/abakite.html",
+    "hakubun": "子貢曰、君子亦有惡乎。子曰、有惡。惡称人之惡者。惡居下流而訕上者。惡勇而無禮者。惡果敢而窒者。曰、賜也亦有惡乎。惡徼以爲知者。惡不孫以爲勇者。惡訐以爲直者。",
+    "expected_kakikudashi": "子貢曰く、君子も亦た悪むこと有るか。子曰く、悪むこと有り。人の悪を称する者を悪む。下流に居て上を訕る者を悪む。勇にして礼無き者を悪む。果敢にして窒がる者を悪む。曰く、賜や亦た悪むこと有るか。徼めて以て知と為す者を悪む。不孫にして以て勇と為す者を悪む。訐いて以て直と為す者を悪む。"
+  },
+  {
     "id": "ayaukikotoru-1",
     "source_url": "https://kanbun.info/koji/ayaukikotoru.html",
     "hakubun": "魏有張祿先生。天下辯士也。曰、秦王之國、危於累卵。得臣則安。然不可以書傳也。臣故載來。",
@@ -492,6 +498,12 @@
     "expected_kakikudashi": "子曰く、過ちて改めざる、是れを過ちと謂う。"
   },
   {
+    "id": "ayamachiteh-1",
+    "source_url": "https://kanbun.info/koji/ayamachiteh.html",
+    "hakubun": "子曰、君子不重則不威。學則不固。主忠信、無友不如己者。過則勿憚改。",
+    "expected_kakikudashi": "子曰く、君子は重からざれば則ち威あらず。学べば則ち固ならず。忠信を主とし、己に如かざる者を友とすること無かれ。過ちては則ち改むるに憚ること勿かれ。"
+  },
+  {
     "id": "shojinaya-1",
     "source_url": "https://kanbun.info/koji/shojinaya.html",
     "hakubun": "子夏曰、小人之過也必文。",
@@ -502,6 +514,12 @@
     "source_url": "https://kanbun.info/koji/ayamachifu.html",
     "hakubun": "哀公問、弟子孰爲好學。孔子對曰、有顏回者、好學。不遷怒、不貳過。不幸短命死矣。今也則亡。未聞好學者也。",
     "expected_kakikudashi": "哀公問う、弟子、孰か学を好むと為す。孔子対えて曰く、顔回なる者有り、学を好む。怒りを遷さず、過ちを弐びせず。不幸短命にして死せり。今や則ち亡し。未だ学を好む者を聞かざるなり。"
+  },
+  {
+    "id": "ayamachimi-1",
+    "source_url": "https://kanbun.info/koji/ayamachimi.html",
+    "hakubun": "子曰、人之過也、各於其黨。觀過斯知仁矣。",
+    "expected_kakikudashi": "子曰く、人の過ちや、各〻其の党に於いてす。過ちを観て斯に仁を知る。"
   },
   {
     "id": "aredomona-1",
@@ -942,6 +960,12 @@
     "expected_kakikudashi": "滅国を興し、絶世を継ぎ、逸民を挙ぐれば、天下の民心を帰す。"
   },
   {
+    "id": "itsumotte-1",
+    "source_url": "https://kanbun.info/koji/itsumotte.html",
+    "hakubun": "子曰、參乎、吾道一以貫之。曾子曰、唯。子出。門人問曰、何謂也。曾子曰、夫子之道、忠恕而已矣。",
+    "expected_kakikudashi": "子曰く、参や、吾が道は一以て之を貫く。曾子曰く、唯。子出づ。門人問うて曰く、何の謂ぞや。曾子曰く、夫子の道は、忠恕のみ。"
+  },
+  {
     "id": "itsuwarimu-1",
     "source_url": "https://kanbun.info/koji/itsuwarimu.html",
     "hakubun": "子曰、不逆詐、不億不信。抑亦先覺者、是賢乎。",
@@ -1122,6 +1146,12 @@
     "expected_kakikudashi": "季路、鬼神に事うることを問う。子曰く、未だ人に事うること能わず、焉くんぞ能く鬼に事えん。曰く、敢えて死を問う。曰く、未だ生を知らず、焉くんぞ死を知らん。"
   },
   {
+    "id": "imadahito-1",
+    "source_url": "https://kanbun.info/koji/imadahito.html",
+    "hakubun": "季路問事鬼神。子曰、未能事人、焉能事鬼。曰、敢問死。曰、未知生、焉知死。",
+    "expected_kakikudashi": "季路、鬼神に事うることを問う。子曰く、未だ人に事うること能わず、焉くんぞ能く鬼に事えん。曰く、敢えて死を問う。曰く、未だ生を知らず、焉くんぞ死を知らん。"
+  },
+  {
     "id": "imananji-1",
     "source_url": "https://kanbun.info/koji/imananji.html",
     "hakubun": "冉求曰、非不説子之道。力不足也。子曰、力不足者、中道而廢。今女畫。",
@@ -1188,15 +1218,1785 @@
     "expected_kakikudashi": "子夏、孝を問う。子曰く、色難し。事有れば、弟子其の労に服し、酒食有れば、先生に饌す。曾ち是を以て孝と為さんや。"
   },
   {
-    "id": "irojinwo-1",
-    "source_url": "https://kanbun.info/koji/irojinwo.html",
-    "hakubun": "子張問、士何如斯可謂之達矣。子曰、何哉、爾所謂達者。子張對曰、在邦必聞、在家必聞。子曰、是聞也。非達也。夫達也者、質直而好義、察言而觀色、慮以下人。在邦必達、在家必達。夫聞也者、色取仁而行違、居之不疑。在邦必聞、在家必聞。",
-    "expected_kakikudashi": "子張問う、士は何如なるを斯に之を達と謂う可きか。子曰く、何ぞや、爾の所謂達とは。子張対えて曰く、邦に在りても必ず聞こえ、家に在りても必ず聞こゆ。子曰く、是れ聞なり。達に非ざるなり。夫れ達なる者は、質直にして義を好み、言を察して色を観、慮りて以て人に下る。邦に在りても必ず達し、家に在りても必ず達す。夫れ聞なる者は、色仁を取りて行いは違い、之に居りて疑わず。邦に在りても必ず聞こえ、家に在りても必ず聞こゆ。"
-  },
-  {
     "id": "iroashiki-1",
     "source_url": "https://kanbun.info/koji/iroashiki.html",
     "hakubun": "色惡不食。臭惡不食。",
     "expected_kakikudashi": "色の悪しきは食らわず。臭いの悪しきは食らわず。"
+  },
+  {
+    "id": "iroonomou-1",
+    "source_url": "https://kanbun.info/koji/iroonomou.html",
+    "hakubun": "孔子曰、君子有九思。視思明、聽思聰、色思温、貌思恭、言思忠、事思敬、疑思問、忿思難、見得思義。",
+    "expected_kakikudashi": "孔子曰く、君子に九思有り。視るには明を思い、聴くには聡を思い、色は温を思い、貌は恭を思い、言は忠を思い、事は敬を思い、疑いには問うを思い、忿りには難を思い、得るを見ては義を思う。"
+  },
+  {
+    "id": "irohage-1",
+    "source_url": "https://kanbun.info/koji/irohage.html",
+    "hakubun": "子曰、色厲而内荏、譬諸小人、其猶穿窬之盜也與。",
+    "expected_kakikudashi": "子曰く、色厲しくして内荏らかなるは、諸を小人に譬うれば、其れ猶お穿窬の盗のごときか。"
+  },
+  {
+    "id": "iwaku-1",
+    "source_url": "https://kanbun.info/koji/iwaku.html",
+    "hakubun": "敢問、何謂浩然之氣。曰、難言也。其爲氣也、至大至剛、以直養而無害、則塞于天地之閒。",
+    "expected_kakikudashi": "敢えて問う、何をか浩然の気と謂う、と。曰く、言い難きなり。其の気たるや、至大至剛、直を以て養うて害すること無ければ、則ち天地の間に塞がる。"
+  },
+  {
+    "id": "iwadaijin-1",
+    "source_url": "https://kanbun.info/koji/iwadaijin.html",
+    "hakubun": "季子然問、仲由冉求可謂大臣與。子曰、吾以子爲異之問。曾由與求之問。所謂大臣者、以道事君、不可則止。今由與求也、可謂具臣矣。曰、然則從之者與。子曰、弑父與君、亦不從也。",
+    "expected_kakikudashi": "季子然問う、仲由・冉求は大臣と謂う可きか。子曰く、吾子を以て異なるを之れ問うと為す。曾ち由と求とを之れ問う。所謂大臣とは、道を以て君に事え、不可なれば則ち止む。今、由と求とは、具臣と謂う可し。曰く、然らば則ち之に従う者か。子曰く、父と君とを弑せんには、亦た従わざるなり。"
+  },
+  {
+    "id": "inkan-1",
+    "source_url": "https://kanbun.info/koji/inkan.html",
+    "hakubun": "文王曰咨咨女殷商",
+    "expected_kakikudashi": "文王曰く　咨　　咨　女　殷商"
+  },
+  {
+    "id": "inkan-2",
+    "source_url": "https://kanbun.info/koji/inkan.html",
+    "hakubun": "人亦有言顚沛之掲",
+    "expected_kakikudashi": "人亦た言う有り　　顚沛の掲たる"
+  },
+  {
+    "id": "inkan-3",
+    "source_url": "https://kanbun.info/koji/inkan.html",
+    "hakubun": "枝葉未有害本實先撥",
+    "expected_kakikudashi": "枝葉未だ害有らざるも　　本　実に先ず撥す"
+  },
+  {
+    "id": "inkan-4",
+    "source_url": "https://kanbun.info/koji/inkan.html",
+    "hakubun": "殷鑒不遠在夏后之世",
+    "expected_kakikudashi": "殷鑑遠からず　　夏后の世に在り"
+  },
+  {
+    "id": "inkyoho-1",
+    "source_url": "https://kanbun.info/koji/inkyoho.html",
+    "hakubun": "謂虞仲・夷逸。隱居放言、身中清、廢中權。我則異於是。無可無不可。",
+    "expected_kakikudashi": "虞仲・夷逸を謂う。隠居して放言し、身は清に中り、廃せられて権に中る。我は則ち是に異なり。可も無く不可も無し。"
+  },
+  {
+    "id": "inkyoshi-1",
+    "source_url": "https://kanbun.info/koji/inkyoshi.html",
+    "hakubun": "孔子曰、見善如不及、見不善如探湯。吾見其人矣。吾聞其語矣。隱居以求其志、行義以達其道。吾聞其語矣。未見其人也。",
+    "expected_kakikudashi": "孔子曰く、善を見ては及ばざるが如くし、不善を見ては湯を探るが如くす。吾其の人を見る。吾其の語を聞く。隠居して以て其の志を求め、義を行いて以て其の道を達す。吾其の語を聞く。未だ其の人を見ざるなり。"
+  },
+  {
+    "id": "intoku-1",
+    "source_url": "https://kanbun.info/koji/intoku.html",
+    "hakubun": "聖王布德施惠、非求其報於百姓也。郊望禘嘗、非求福於鬼神也。",
+    "expected_kakikudashi": "聖王、徳を布き恵を施すは、其の報を百姓に求むるに非ざるなり。郊望禘嘗するは、福を鬼神に求むるに非ざるなり。"
+  },
+  {
+    "id": "intoku-2",
+    "source_url": "https://kanbun.info/koji/intoku.html",
+    "hakubun": "山致其高而雲起焉、水致其深而蛟龍生焉、君子致其道而福祿歸焉。",
+    "expected_kakikudashi": "山は其の高きを致して雲起り、水は其の深きを致して蛟竜生じ、君子は其の道を致して福禄帰す。"
+  },
+  {
+    "id": "intoku-3",
+    "source_url": "https://kanbun.info/koji/intoku.html",
+    "hakubun": "夫有陰德者、必有陽報、有陰行者、必有昭名。",
+    "expected_kakikudashi": "夫れ陰徳有る者は必ず陽報有り、陰行有る者は必ず昭名有り。"
+  },
+  {
+    "id": "insanjin-1",
+    "source_url": "https://kanbun.info/koji/insanjin.html",
+    "hakubun": "微子去之、箕子爲之奴、比干諫而死。孔子曰、殷有三仁焉。",
+    "expected_kakikudashi": "微子は之を去り、箕子は之が奴と為り、比干は諫めて死す。孔子曰く、殷に三仁有り。"
+  },
+  {
+    "id": "uowoete-1",
+    "source_url": "https://kanbun.info/koji/uowoete.html",
+    "hakubun": "筌者所以在魚、得魚而忘筌。",
+    "expected_kakikudashi": "筌は魚に在る所以なるも、魚を得て筌を忘る。"
+  },
+  {
+    "id": "uowoete-2",
+    "source_url": "https://kanbun.info/koji/uowoete.html",
+    "hakubun": "蹄者所以在兎、得兔而忘蹄。",
+    "expected_kakikudashi": "蹄は兎に在る所以なるも、兎を得て蹄を忘る。"
+  },
+  {
+    "id": "uka-1",
+    "source_url": "https://kanbun.info/koji/uka.html",
+    "hakubun": "浩浩乎如馮虚御風、而不知其所止、飄飄乎遺世獨立、羽化而登仙。",
+    "expected_kakikudashi": "浩浩乎として虚に馮り風に御して、其の止まる所を知らざるが如く、飄飄乎として世を遺れて独立し、羽化して登仙するが如し。"
+  },
+  {
+    "id": "ugo-1",
+    "source_url": "https://kanbun.info/koji/ugo.html",
+    "hakubun": "發突騎以轔烏合之衆、如摧枯折腐耳。",
+    "expected_kakikudashi": "突騎を発して、以て烏合の衆を轔するは、枯を摧き腐を折る如きのみ。"
+  },
+  {
+    "id": "utagaini-1",
+    "source_url": "https://kanbun.info/koji/utagaini.html",
+    "hakubun": "孔子曰、君子有九思。視思明、聽思聰、色思溫、貌思恭、言思忠、事思敬、疑思問、忿思難、見得思義。",
+    "expected_kakikudashi": "孔子曰く、君子に九思有り。視るには明を思い、聴くには聡を思い、色は温を思い、貌は恭を思い、言は忠を思い、事は敬を思い、疑いには問うを思い、忿りには難を思い、得るを見ては義を思う。"
+  },
+  {
+    "id": "uchinikae-1",
+    "source_url": "https://kanbun.info/koji/uchinikae.html",
+    "hakubun": "司馬牛問君子。子曰、君子不憂不懼。曰、不憂不懼、斯謂之君子已乎。子曰、内省不疚、夫何憂何懼。",
+    "expected_kakikudashi": "司馬牛君子を問う。子曰く、君子は憂えず懼れず。曰く、憂えず懼れず、斯に之を君子と謂うか。子曰く、内に省みて疚しからずんば、夫れ何をか憂え何をか懼れん。"
+  },
+  {
+    "id": "uchinimako-1",
+    "source_url": "https://kanbun.info/koji/uchinimako.html",
+    "hakubun": "小人閒居爲不善、無所不至。見君子、而后厭然、揜其不善、而著其善。人之視己、如見其肺肝然、則何益矣。此謂誠於中、形於外。",
+    "expected_kakikudashi": "小人 間居して不善を為し、至らざる所無し。君子を見て、而して后に厭然として、其の不善を揜いて、其の善を著す。人の己を視ること、其の肺肝を見るが如く然れば、則ち何の益かあらん。此を中に誠あれば、外に形ると謂う。"
+  },
+  {
+    "id": "uchoku-1",
+    "source_url": "https://kanbun.info/koji/uchoku.html",
+    "hakubun": "軍爭之難者、以迂爲直、以患爲利。",
+    "expected_kakikudashi": "軍争の難きは、迂を以て直と為し、患を以て利と為す。"
+  },
+  {
+    "id": "uchoku-2",
+    "source_url": "https://kanbun.info/koji/uchoku.html",
+    "hakubun": "故迂其途、而誘之以利、後人發、先人至、此知迂直之計者也。",
+    "expected_kakikudashi": "故に其の途を迂にして、之を誘うに利を以てし、人に後れて発し、人に先んじて至る。此れ迂直の計を知る者なり。"
+  },
+  {
+    "id": "uttaenaki-1",
+    "source_url": "https://kanbun.info/koji/uttaenaki.html",
+    "hakubun": "子曰、聽訟、吾猶人也。必也使無訟乎。",
+    "expected_kakikudashi": "子曰く、訟えを聴くは、吾猶お人のごとし。必ずや訟え無からしめんか。"
+  },
+  {
+    "id": "uttaenaki-2",
+    "source_url": "https://kanbun.info/koji/uttaenaki.html",
+    "hakubun": "楊氏曰、子路片言可以折獄、而不知以禮遜爲國、則未能使民無訟者也。故又記孔子之言、以見聖人不以聽訟爲難、而以使民無訟爲貴。",
+    "expected_kakikudashi": "楊氏曰く、子路片言以て獄を折む可くも、礼遜を以て国を為むるを知らざれば、則ち未だ民をして訟え無からしむること能わざる者なり。故に又た孔子の言を記し、以て聖人訟えを聴くを以て難しと為さずして、民をして訟え無からしむを以て貴しと為すを見わせり、と。"
+  },
+  {
+    "id": "sokonaeru-1",
+    "source_url": "https://kanbun.info/koji/sokonaeru.html",
+    "hakubun": "廏焚。子退朝。曰、傷人乎。不問馬。",
+    "expected_kakikudashi": "厩焚けたり。子、朝より退く。曰く、人を傷えるかと。馬を問わず。"
+  },
+  {
+    "id": "wareumare-1",
+    "source_url": "https://kanbun.info/koji/wareumare.html",
+    "hakubun": "子曰、我非生而知之者。好古敏以求之者也。",
+    "expected_kakikudashi": "子曰く、我は生まれながらにして之を知る者に非ず。古を好み、敏にして以て之を求めし者なり。"
+  },
+  {
+    "id": "umareshiru-1",
+    "source_url": "https://kanbun.info/koji/umareshiru.html",
+    "hakubun": "孔子曰、生而知之者上也。學而知之者次也。困而學之又其次也。困而不學、民斯爲下矣。",
+    "expected_kakikudashi": "孔子曰く、生まれながらにして之を知る者は上なり。学びて之を知る者は次なり。困しみて之を学ぶは又其の次なり。困しみて学ばざるは、民斯を下と為す。"
+  },
+  {
+    "id": "umarena-1",
+    "source_url": "https://kanbun.info/koji/umarena.html",
+    "hakubun": "生而無貴者。習修成智德。",
+    "expected_kakikudashi": "生れながらにして貴き者無し。習い修めて智徳を成す。"
+  },
+  {
+    "id": "umukotona-1",
+    "source_url": "https://kanbun.info/koji/umukotona.html",
+    "hakubun": "子路問政。子曰、先之、勞之。請益。曰、無倦。",
+    "expected_kakikudashi": "子路政を問う。子曰く、之に先んじ、之を労う。益さんことを請う。曰く、倦むこと無かれ。"
+  },
+  {
+    "id": "onhageshi-1",
+    "source_url": "https://kanbun.info/koji/onhageshi.html",
+    "hakubun": "子温而厲。威而不猛。恭而安。",
+    "expected_kakikudashi": "子は温にして厲し。威ありて猛からず。恭にして安し。"
+  },
+  {
+    "id": "uyu-1",
+    "source_url": "https://kanbun.info/koji/uyu.html",
+    "hakubun": "居久之、蜀人楊得意爲狗監侍上。上讀子虚賦而善之曰、朕獨不得與此人同時哉。得意曰、臣邑人司馬相如自言爲此賦。上驚、乃召問相如。相如曰、有是。然此乃諸侯之事、未足觀也。請爲天子游獵賦。賦成奏之。上許、令尚書給筆札。",
+    "expected_kakikudashi": "居ること之を久しくし、蜀人楊得意、狗監と為りて上に侍す。上、子虚の賦を読みて之を善して曰く、朕独り此の人と時を同じくするを得ざるか、と。得意曰く、臣の邑人司馬相如、自ら此の賦を為ると言えり、と。上驚き、乃ち召して相如に問う。相如曰く、是れ有り。然れども此れ乃ち諸侯の事にして、未だ観るに足らざるなり。請う天子の游猟の賦を為らん。賦成らば之を奏せん、と。上許し、尚書をして筆札を給せしむ。"
+  },
+  {
+    "id": "uyu-2",
+    "source_url": "https://kanbun.info/koji/uyu.html",
+    "hakubun": "相如以、子虚虚言也。爲楚稱。烏有先生者、烏有此事也。爲齊難。無是公者、無是人也。明天子之義。",
+    "expected_kakikudashi": "相如以えらく、子虚とは虚言なり。楚の為に称す。烏有先生とは、烏くんぞ此の事有らんやなり。斉の為に難ず。無是公とは、是の人無きなり。天子の義を明らかにす、と。"
+  },
+  {
+    "id": "uyu-3",
+    "source_url": "https://kanbun.info/koji/uyu.html",
+    "hakubun": "故空藉此三人爲辭、以推天子諸侯之苑囿、其卒章歸之於節儉、因以風諫。奏之天子。天子大説。",
+    "expected_kakikudashi": "故に空しく此の三人を藉りて辞を為し、以て天子諸侯の苑囿を推し、其の卒章は之を節倹に帰し、因りて以て風諫す。之を天子に奏す。天子大いに説ぶ。"
+  },
+  {
+    "id": "uramikotsu-1",
+    "source_url": "https://kanbun.info/koji/uramikotsu.html",
+    "hakubun": "文公夫人秦女也。爲秦三囚將請曰、繆公之怨此三人、入於骨髓。願令此三人歸、令我君得自快烹之。",
+    "expected_kakikudashi": "文公の夫人は秦の女なり。秦の三囚将の為に請いて曰く、繆公の此の三人を怨むや、骨髄に入れり。願わくは此の三人をして帰らしめ、我が君をして自ら快く之を烹るを得しめよ、と。"
+  },
+  {
+    "id": "uramimuku-1",
+    "source_url": "https://kanbun.info/koji/uramimuku.html",
+    "hakubun": "大小多少、報怨以德。圖難於其易、爲大於其細。天下難事必作於易、天下大事必作於細。是以聖人終不爲大。故能成其大。",
+    "expected_kakikudashi": "小を大とし少を多とし、怨みに報ゆるに徳を以てす。難きを其の易きに図り、大を其の細に為す。天下の難事は必ず易きより作り、天下の大事は必ず細より作る。是を以て聖人は終に大を為さず。故に能く其の大を成す。"
+  },
+  {
+    "id": "uramikaku-1",
+    "source_url": "https://kanbun.info/koji/uramikaku.html",
+    "hakubun": "子曰、巧言令色足恭、左丘明恥之。丘亦恥之。匿怨而友其人、左丘明恥之。丘亦恥之。",
+    "expected_kakikudashi": "子曰く、巧言、令色、足恭なるは、左丘明之を恥ず。丘も亦た之を恥ず。怨みを匿して其の人を友とするは、左丘明之を恥ず。丘も亦た之を恥ず。"
+  },
+  {
+    "id": "uruwomite-1",
+    "source_url": "https://kanbun.info/koji/uruwomite.html",
+    "hakubun": "孔子曰、君子有九思。視思明、聽思聰、色思溫、貌思恭、言思忠、事思敬、疑思問、忿思難、見得思義。",
+    "expected_kakikudashi": "孔子曰く、君子に九思有り。視るには明を思い、聴くには聡を思い、色は温を思い、貌は恭を思い、言は忠を思い、事は敬を思い、疑いには問うを思い、忿りには難を思い、得るを見ては義を思う。"
+  },
+  {
+    "id": "eidatsu-1",
+    "source_url": "https://kanbun.info/koji/eidatsu.html",
+    "hakubun": "平原君曰、夫賢士之處世也、譬若錐之處囊中、其末立見。今先生處勝之門下、三年於此矣。左右未有所稱誦、勝未有所聞、是先生無所有也。先生不能、先生留。",
+    "expected_kakikudashi": "平原君曰く、夫れ賢士の世に処るや、譬えば錐の囊中に処るが若く、其の末立ちどころに見る。今、先生、勝の門下に処ること、此に三年なり。左右、未だ称誦する所有らず、勝も未だ聞く所有らざるは、是れ先生、有する所無きなり。先生能わず、先生留まれ、と。"
+  },
+  {
+    "id": "eidatsu-2",
+    "source_url": "https://kanbun.info/koji/eidatsu.html",
+    "hakubun": "毛遂曰、臣乃今日請處囊中耳。使遂蚤得處囊中、乃穎脱而出。非特其末見而已。平原君竟與毛遂偕。",
+    "expected_kakikudashi": "毛遂曰く、臣、乃ち今日、囊中に処らんことを請うのみ。遂をして蚤く囊中に処るを得しめば、乃ち穎脱して出でん。特だに其の末の見るるのみに非ず、と。平原君、竟に毛遂と偕にす。"
+  },
+  {
+    "id": "ekisango-1",
+    "source_url": "https://kanbun.info/koji/ekisango.html",
+    "hakubun": "孔子曰、益者三樂、損者三樂。樂節禮樂、樂道人之善、樂多賢友益矣。樂驕樂、樂佚遊、樂宴樂損矣。",
+    "expected_kakikudashi": "孔子曰く、益者三楽、損者三楽あり。礼楽を節するを楽しみ、人の善を道うを楽しみ、賢友多きを楽しむは益なり。驕楽を楽しみ、佚遊を楽しみ、宴楽を楽しむは損なり。"
+  },
+  {
+    "id": "ekisanyu-1",
+    "source_url": "https://kanbun.info/koji/ekisanyu.html",
+    "hakubun": "孔子曰、益者三友、損者三友。友直、友諒、友多聞、益矣。友便辟、友善柔、友便佞、損矣。",
+    "expected_kakikudashi": "孔子曰く、益者三友、損者三友あり。直を友とし、諒を友とし、多聞を友とするは、益なり。便辟を友とし、善柔を友とし、便佞を友とするは、損なり。"
+  },
+  {
+    "id": "ekiseika-1",
+    "source_url": "https://kanbun.info/koji/ekiseika.html",
+    "hakubun": "王者易姓受命、必愼始初。改正朔、易服色、推本天元、順承厥意。",
+    "expected_kakikudashi": "王者、姓を易え命を受くるに、必ず始初を慎む。正朔を改め、服色を易うるに、天元を推本し、厥の意を順承す。"
+  },
+  {
+    "id": "ekiseika-2",
+    "source_url": "https://kanbun.info/koji/ekiseika.html",
+    "hakubun": "湯武革命、順乎天而應乎人。",
+    "expected_kakikudashi": "湯武命を革めて、天に順いて人に応ず。"
+  },
+  {
+    "id": "ekimoto-1",
+    "source_url": "https://kanbun.info/koji/ekimoto.html",
+    "hakubun": "闕黨童子將命。或問之曰、益者與。子曰、吾見其居於位也。見其與先生並行也。非求益者也。欲速成者也。",
+    "expected_kakikudashi": "闕党の童子、命を将う。或ひと之を問いて曰く、益する者か。子曰く、吾其の位に居るを見るなり。其の先生と並び行くを見るなり。益を求むる者に非ざるなり。速やかに成らんことを欲する者なり。"
+  },
+  {
+    "id": "kaijisono-1",
+    "source_url": "https://kanbun.info/koji/kaijisono.html",
+    "hakubun": "子夏問曰、巧笑倩兮、美目盼兮、素以爲絢兮、何謂也。子曰、繪事後素。曰、禮後乎。子曰、起予者商也。始可與言詩已矣。",
+    "expected_kakikudashi": "子夏問いて曰く、巧笑倩たり、美目盼たり、素以て絢を為すとは、何の謂ぞや。子曰く、絵事は素を後にす。曰く、礼は後なるか。子曰く、予を起す者は商なり。始めて与に詩を言う可きのみ。"
+  },
+  {
+    "id": "enou-1",
+    "source_url": "https://kanbun.info/koji/enou.html",
+    "hakubun": "王曰、爾夫婦、相愛不已。若能使冢合、則吾弗阻也。",
+    "expected_kakikudashi": "王曰く、爾ら夫婦、相愛して已まず。若し能く冢をして合せしむれば、則ち吾も阻まざるなり、と。"
+  },
+  {
+    "id": "enou-2",
+    "source_url": "https://kanbun.info/koji/enou.html",
+    "hakubun": "宿昔之間、便有大梓木、生於二冢之端、旬日而大盈抱、屈體相就、根交於下、枝錯於上。",
+    "expected_kakikudashi": "宿昔の間、便ち大なる梓木有りて、二つの冢の端に生じ、旬日にして大なること抱に盈ち、体を屈して相就き、根は下に交わり、枝は上に錯わる。"
+  },
+  {
+    "id": "enou-3",
+    "source_url": "https://kanbun.info/koji/enou.html",
+    "hakubun": "又有鴛鴦、雌雄各一。恆棲樹上、晨夕不去、交頸悲鳴、音聲感人。",
+    "expected_kakikudashi": "又鴛鴦有り、雌雄各〻一なり。恒に樹上に棲み、晨夕去らず、頸を交えて悲しく鳴き、音声人を感ぜしむ。"
+  },
+  {
+    "id": "enjaku-1",
+    "source_url": "https://kanbun.info/koji/enjaku.html",
+    "hakubun": "陳渉少時、嘗與人傭耕。輟耕之壟上、悵恨久之、曰、苟富貴無相忘。",
+    "expected_kakikudashi": "陳渉少き時、嘗て人と与に傭耕す。耕を輟めて壟上に之き、悵恨すること之を久しうし、曰く、苟し富貴なりとも、相忘るること無からん、と。"
+  },
+  {
+    "id": "enjaku-2",
+    "source_url": "https://kanbun.info/koji/enjaku.html",
+    "hakubun": "庸者笑而應曰、若爲庸耕。何富貴也。",
+    "expected_kakikudashi": "庸者笑って応えて曰く、若、庸耕を為す。何ぞ富貴ならんや、と。"
+  },
+  {
+    "id": "enjaku-3",
+    "source_url": "https://kanbun.info/koji/enjaku.html",
+    "hakubun": "陳渉太息曰、嗟乎、燕雀安知鴻鵠之志哉。",
+    "expected_kakikudashi": "陳渉太息して曰く、嗟乎、燕雀安くんぞ鴻鵠の志を知らんや、と。"
+  },
+  {
+    "id": "ensui-1",
+    "source_url": "https://kanbun.info/koji/ensui.html",
+    "hakubun": "魯穆公使衆公子或宦於晉、或宦於荊。",
+    "expected_kakikudashi": "魯の穆公、衆公子をして或いは晋に宦し、或いは荊に宦せしむ。"
+  },
+  {
+    "id": "enryona-1",
+    "source_url": "https://kanbun.info/koji/enryona.html",
+    "hakubun": "子曰、人無遠慮、必有近憂。",
+    "expected_kakikudashi": "子曰く、人遠慮無ければ、必ず近憂有り。"
+  },
+  {
+    "id": "robanochi-1",
+    "source_url": "https://kanbun.info/koji/robanochi.html",
+    "hakubun": "管仲隰朋從於桓公而伐孤竹。春往冬反。迷惑失道。管仲曰、老馬之智可用也。乃放老馬而隨之、遂得道。",
+    "expected_kakikudashi": "管仲・隰朋、桓公に従いて孤竹を伐つ。春往きて冬反る。迷惑して道を失う。管仲曰く、老馬の智用う可きなり、と。乃ち老馬を放ちて之に随い、遂に道を得たり。"
+  },
+  {
+    "id": "oiteshise-1",
+    "source_url": "https://kanbun.info/koji/oiteshise.html",
+    "hakubun": "原壤夷俟。子曰、幼而不孫弟、長而無述焉、老而不死。是爲賊。以杖叩其脛。",
+    "expected_kakikudashi": "原壌夷して俟つ。子曰く、幼にして孫弟ならず、長じて述ぶること無く、老いて死せず。是れを賊と為すと。杖を以て其の脛を叩く。"
+  },
+  {
+    "id": "oirunio-1",
+    "source_url": "https://kanbun.info/koji/oirunio.html",
+    "hakubun": "孔子曰、君子有三戒。少之時、血氣未定、戒之在色。及其壯也、血氣方剛、戒之在鬪。及其老也、血氣既衰、戒之在得。",
+    "expected_kakikudashi": "孔子曰く、君子に三戒有り。少き時は、血気未だ定まらず、之を戒むること色に在り。其の壮なるに及びてや、血気方に剛なり、之を戒むること闘に在り。其の老いるに及びてや、血気既に衰う、之を戒むること得るに在り。"
+  },
+  {
+    "id": "oko-1",
+    "source_url": "https://kanbun.info/koji/oko.html",
+    "hakubun": "呉廣素愛人。士卒多爲用者。將尉醉。廣故數言欲亡、忿恚尉、令辱之、以激怒其衆。尉果笞廣。尉劍挺。廣起奪而殺尉。陳勝佐之、幷殺兩尉。",
+    "expected_kakikudashi": "呉広素より人を愛す。士卒、用を為さんとする者多し。将尉酔う。広、故に数〻亡げんと欲すと言い、尉を忿恚せしめ、之を辱めしめ、以て其の衆を激怒せしめんとす。尉果たして広を笞つ。尉の剣挺く。広起ちて奪いて尉を殺す。陳勝之を佐け、幷せて両尉を殺す。"
+  },
+  {
+    "id": "oko-2",
+    "source_url": "https://kanbun.info/koji/oko.html",
+    "hakubun": "召令徒屬曰、公等遇雨、皆已失期。失期當斬。藉第令毋斬、而戍死者、固十六七。且壯士不死即已。死即舉大名耳。王侯將相寧有種乎。徒屬皆曰、敬受命。",
+    "expected_kakikudashi": "召して徒属に令して曰く、公等雨に遇い、皆な已に期を失えり。期を失うは斬に当たる。藉い第だ斬らるること毋からしむとも、戍の死する者は、固に十に六七なり。且つ壮士死せずんば即ち已まん。死せば即ち大名を挙げんのみ。王侯将相寧くんぞ種有らんや、と。徒属皆な曰く、敬みて命を受けん、と。"
+  },
+  {
+    "id": "yukumonoi-1",
+    "source_url": "https://kanbun.info/koji/yukumonoi.html",
+    "hakubun": "鳳兮鳳兮、何德之衰。往者不可諫、來者猶可追。已而、已而。今之從政者殆而。",
+    "expected_kakikudashi": "鳳や鳳や、何ぞ徳の衰えたる。往く者は諫む可からず、来たる者は猶お追う可し。已みなん、已みなん。今の政に従う者は殆うし。"
+  },
+  {
+    "id": "osetsu-1",
+    "source_url": "https://kanbun.info/koji/osetsu.html",
+    "hakubun": "王子敬云、從山陰道上行、山川自相映發、使人應接不暇。若秋冬之際、尤難爲壞。",
+    "expected_kakikudashi": "王子敬云う、山陰道上より行けば、山川自ずから相映発し、人をして応接に暇あらざらしむ。秋冬の際の若きは、尤も壊を為し難し、と。"
+  },
+  {
+    "id": "sonooniko-1",
+    "source_url": "https://kanbun.info/koji/sonooniko.html",
+    "hakubun": "王孫賈問曰、與其媚於奧、寧媚於竈、何謂也。子曰、不然。獲罪於天、無所禱也。",
+    "expected_kakikudashi": "王孫賈、問いて曰く、其の奥に媚びんよりは、寧ろ竈に媚びよ、とは何の謂ぞや。子曰く、然らず。罪を天に獲れば、禱る所無きなり。"
+  },
+  {
+    "id": "ouwotsuge-1",
+    "source_url": "https://kanbun.info/koji/ouwotsuge.html",
+    "hakubun": "子貢曰、貧而無諂、富而無驕、何如。子曰、可也。未若貧而樂、富而好禮者也。子貢曰、詩云、如切如磋、如琢如磨、其斯之謂與。子曰、賜也、始可與言詩已矣。告諸往而知來者。",
+    "expected_kakikudashi": "子貢曰く、貧しくして諂うこと無く、富みて驕ること無きは、何如。子曰く、可なり。未だ貧しくして楽しみ、富みて礼を好む者に若かざるなり。子貢曰く、詩に云う、切するが如く、磋するが如く、琢するが如く、磨するが如しとは、其れ斯を之れ謂うか。子曰く、賜や、始めて与に詩を言う可きのみ。諸に往を告げて、来を知る者なり。"
+  },
+  {
+    "id": "ookukiki-1",
+    "source_url": "https://kanbun.info/koji/ookukiki.html",
+    "hakubun": "子張學干祿。子曰、多聞闕疑、愼言其餘、則寡尤。多見闕殆、愼行其餘、則寡悔。言寡尤、行寡悔、祿在其中矣。",
+    "expected_kakikudashi": "子張、禄を干めんことを学ぶ。子曰く、多く聞きて疑わしきを闕き、慎みて其の余りを言えば、則ち尤め寡なし。多く見て殆うきを闕き、慎みて其の余りを行えば、則ち悔い寡なし。言に尤め寡なく、行いに悔い寡なければ、禄其の中に在り。"
+  },
+  {
+    "id": "ooshitoie-1",
+    "source_url": "https://kanbun.info/koji/ooshitoie.html",
+    "hakubun": "子曰、誦詩三百、授之以政不達。使於四方、不能專對、雖多亦奚以爲。",
+    "expected_kakikudashi": "子曰く、詩三百を誦すれども、之に授くるに政を以てして達せず。四方に使いして、専対すること能わずんば、多しと雖も亦た奚を以て為さん。"
+  },
+  {
+    "id": "okuka-1",
+    "source_url": "https://kanbun.info/koji/okuka.html",
+    "hakubun": "庾仲初作揚都賦成、以呈庾亮。亮以親族之懷、大爲其名價云、可三二京、四三都。於此人人競寫、都下紙爲之貴。謝太傅云、不得爾。此是屋下架屋耳。事事擬學、而不免儉狹。",
+    "expected_kakikudashi": "庾仲初、揚都の賦を作りて成り、以て庾亮に呈す。亮、親族の懐を以て、大いに其の名価を為して云う、二京を三とし、三都を四とす可し、と。此に於いて人人競いて写し、都下の紙之が為に貴し。謝太傅云う、爾るを得ず。此は是れ屋下に屋を架するのみ。事事擬学して倹狭たるを免れず、と。"
+  },
+  {
+    "id": "okuka-2",
+    "source_url": "https://kanbun.info/koji/okuka.html",
+    "hakubun": "夫聖賢之書、教人誠孝、愼言檢迹、立身揚名、亦已備矣。魏、晉已來、所著諸子、理重事複、遞相模斅、猶屋下架屋、牀上施牀耳。",
+    "expected_kakikudashi": "夫れ聖賢の書は、人に誠孝なること、言を慎み迹を検すること、身を立て名を揚ぐることを教え、亦た已に備われり。魏・晋已来、著す所の諸子は、理重なり事複し、逓いに相模斅すること、猶お屋下に屋を架し、牀上に牀を施すがごときのみ。"
+  },
+  {
+    "id": "okonaiteyo-1",
+    "source_url": "https://kanbun.info/koji/okonaiteyo.html",
+    "hakubun": "子曰、弟子入則孝、出則弟、謹而信、汎愛衆而親仁、行有餘力、則以學文。",
+    "expected_kakikudashi": "子曰く、弟子入りては則ち孝、出でては則ち弟、謹みて信あり、汎く衆を愛して仁に親しみ、行いて余力有らば、則ち以て文を学べ。"
+  },
+  {
+    "id": "ogoreba-1",
+    "source_url": "https://kanbun.info/koji/ogoreba.html",
+    "hakubun": "子曰、奢則不孫、儉則固。與其不孫也、寧固。",
+    "expected_kakikudashi": "子曰く、奢れば則ち不孫、倹なれば則ち固なり。其の不孫ならんよりは、寧ろ固なれ。"
+  },
+  {
+    "id": "oshiikana-1",
+    "source_url": "https://kanbun.info/koji/oshiikana.html",
+    "hakubun": "子謂顏淵曰、惜乎、吾見其進也。未見其止也。",
+    "expected_kakikudashi": "子、顔淵を謂いて曰く、惜しいかな、吾其の進むを見るなり。未だ其の止まるを見ざるなり。"
+  },
+  {
+    "id": "oshierui-1",
+    "source_url": "https://kanbun.info/koji/oshierui.html",
+    "hakubun": "子曰、有教無類。",
+    "expected_kakikudashi": "子曰く、教え有りて類無し。"
+  },
+  {
+    "id": "oshiezaru-1",
+    "source_url": "https://kanbun.info/koji/oshiezaru.html",
+    "hakubun": "子曰、以不教民戰。是謂棄之。",
+    "expected_kakikudashi": "子曰く、教えざるの民を以て戦う。是れ之を棄つと謂う。"
+  },
+  {
+    "id": "oshiezushi-1",
+    "source_url": "https://kanbun.info/koji/oshiezushi.html",
+    "hakubun": "子張曰、何謂四惡。子曰、不教而殺、謂之虐。不戒視成、謂之暴。慢令致期、謂之賊。猶之與人也、出納之吝、謂之有司。",
+    "expected_kakikudashi": "子張曰く、何をか四悪と謂う。子曰く、教えずして殺す、之を虐と謂う。戒めずして成るを視る、之を暴と謂う。令を慢りにして期を致す、之を賊と謂う。猶しく之れ人に与うるに、出納の吝かなる、之を有司と謂う。"
+  },
+  {
+    "id": "jinshaono-1",
+    "source_url": "https://kanbun.info/koji/jinshaono.html",
+    "hakubun": "子貢曰、如有博施於民、而能濟衆、何如。可謂仁乎。子曰、何事於仁。必也聖乎。堯舜其猶病諸。夫仁者己欲立而立人、己欲達而達人。能近取譬。可謂仁之方也已。",
+    "expected_kakikudashi": "子貢曰く、如し博く民に施して、能く衆を済うもの有らば、何如。仁と謂う可きか。子曰く、何ぞ仁を事とせん。必ずや聖か。堯舜も其れ猶お諸を病めり。夫れ仁者は己立たんと欲して人を立て、己達せんと欲して人を達す。能く近く譬えを取る。仁の方と謂う可きのみ。"
+  },
+  {
+    "id": "onorenika-1",
+    "source_url": "https://kanbun.info/koji/onorenika.html",
+    "hakubun": "顏淵問仁。子曰、克己復禮爲仁。一日克己復禮、天下歸仁焉。爲仁由己。而由人乎哉。",
+    "expected_kakikudashi": "顔淵仁を問う。子曰く、己に克ちて礼に復るを仁と為す。一日己に克ちて礼に復れば、天下仁に帰せん。仁を為すは己に由る。而して人に由らんや。"
+  },
+  {
+    "id": "onoreshika-1",
+    "source_url": "https://kanbun.info/koji/onoreshika.html",
+    "hakubun": "子曰、君子不重則不威。學則不固。主忠信、無友不如己者。過則勿憚改。",
+    "expected_kakikudashi": "子曰く、君子重からざれば則ち威あらず。学べば則ち固ならず。忠信を主とし、己に如かざる者を友とすること無かれ。過ちては則ち改むるに憚ること勿かれ。"
+  },
+  {
+    "id": "onoreshika-2",
+    "source_url": "https://kanbun.info/koji/onoreshika.html",
+    "hakubun": "子曰、主忠信、毋友不如己者。過則勿憚改。",
+    "expected_kakikudashi": "子曰く、忠信を主とし、己に如かざる者を友とする毋かれ。過ちては則ち改むるに憚かること勿かれ。"
+  },
+  {
+    "id": "onorenoho-1",
+    "source_url": "https://kanbun.info/koji/onorenoho.html",
+    "hakubun": "仲弓問仁。子曰、出門如見大賓、使民如承大祭。己所不欲、勿施於人。",
+    "expected_kakikudashi": "仲弓、仁を問う。子曰く、門を出でては大賓を見るが如く、民を使うには大祭を承くるが如くす。己の欲せざる所は、人に施すこと勿かれ。"
+  },
+  {
+    "id": "onorenoho-2",
+    "source_url": "https://kanbun.info/koji/onorenoho.html",
+    "hakubun": "子貢問曰、有一言而可以終身行之者乎。子曰、其恕乎。己所不欲、勿施於人。",
+    "expected_kakikudashi": "子貢問うて曰く、一言にして以て終身之を行う可き者有るか。子曰く、其れ恕か。己の欲せざる所は、人に施すこと勿かれ。"
+  },
+  {
+    "id": "onoreuya-1",
+    "source_url": "https://kanbun.info/koji/onoreuya.html",
+    "hakubun": "子曰、無爲而治者、其舜也與。夫何爲哉。恭己正南面而已矣。",
+    "expected_kakikudashi": "子曰く、無為にして治むる者は、其れ舜か。夫れ何をか為すや。己を恭しくし、正しく南面するのみ。"
+  },
+  {
+    "id": "onorehaji-1",
+    "source_url": "https://kanbun.info/koji/onorehaji.html",
+    "hakubun": "子貢問曰、何如斯可謂之士矣。子曰、行己有恥、使於四方、不辱君命、可謂士矣。",
+    "expected_kakikudashi": "子貢問いて曰く、何如なるを斯れ之を士と謂う可きか。子曰く、己を行うに恥有り、四方に使いして、君命を辱めざるを、士と謂う可し。"
+  },
+  {
+    "id": "kunshiyotsu-1",
+    "source_url": "https://kanbun.info/koji/kunshiyotsu.html",
+    "hakubun": "子謂子産、有君子之道四焉。其行己也恭。其事上也敬。其養民也惠。其使民也義。",
+    "expected_kakikudashi": "子、子産を謂う、君子の道、四つ有り。其の己を行うや恭。其の上に事うるや敬。其の民を養うや恵。其の民を使うや義。"
+  },
+  {
+    "id": "onoreosame-1",
+    "source_url": "https://kanbun.info/koji/onoreosame.html",
+    "hakubun": "子路問君子。子曰、脩己以敬。曰、如斯而已乎。曰、脩己以安人。曰、如斯而已乎。曰、脩己以安百姓。脩己以安百姓、堯舜其猶病諸。",
+    "expected_kakikudashi": "子路君子を問う。子曰く、己を脩めて以て敬す。曰く、斯の如きのみか。曰く、己を脩めて以て人を安んず。曰く、斯の如きのみか。曰く、己を脩めて以て百姓を安んず。己を脩めて以て百姓を安んずるは、堯舜も其れ猶お諸を病めり。"
+  },
+  {
+    "id": "onoreosaya-1",
+    "source_url": "https://kanbun.info/koji/onoreosaya.html",
+    "hakubun": "子路問君子。子曰、脩己以敬。曰、如斯而已乎。曰、脩己以安人。曰、如斯而已乎。曰、脩己以安百姓。脩己以安百姓、堯舜其猶病諸。",
+    "expected_kakikudashi": "子路君子を問う。子曰く、己を脩めて以て敬す。曰く、斯の如きのみか。曰く、己を脩めて以て人を安んず。曰く、斯の如きのみか。曰く、己を脩めて以て百姓を安んず。己を脩めて以て百姓を安んずるは、堯舜も其れ猶お諸を病めり。"
+  },
+  {
+    "id": "onorekiyo-1",
+    "source_url": "https://kanbun.info/koji/onorekiyo.html",
+    "hakubun": "互郷難與言。童子見。門人惑。子曰、與其進也。不與其退也。唯何甚。人絜己以進、與其絜也。不保其往也。",
+    "expected_kakikudashi": "互郷与に言い難し。童子見ゆ。門人惑う。子曰く、其の進むに与するなり。其の退くに与せざるなり。唯だ何ぞ甚だしきや。人、己を絜くして以て進めば、其の絜きに与するなり。其の往を保せざるなり。"
+  },
+  {
+    "id": "onoreshiru-1",
+    "source_url": "https://kanbun.info/koji/onoreshiru.html",
+    "hakubun": "子曰、不患無位、患所以立。不患莫己知、求爲可知也。",
+    "expected_kakikudashi": "子曰く、位無きを患えず、立つ所以を患う。己を知る莫きを患えず、知らる可きを為すを求むるなり。"
+  },
+  {
+    "id": "omoi-1",
+    "source_url": "https://kanbun.info/koji/omoi.html",
+    "hakubun": "噫亦要存亡吉凶、則居可知矣。知者觀其彖辭、則思過半矣。",
+    "expected_kakikudashi": "噫、亦た存亡吉凶を要するは、則ち居ながらにして知るべし。知者其の彖辞を観れば、則ち思い半ばに過ぎん。"
+  },
+  {
+    "id": "manabiteo-1",
+    "source_url": "https://kanbun.info/koji/manabiteo.html",
+    "hakubun": "子曰、學而不思則罔、思而不學則殆。",
+    "expected_kakikudashi": "子曰く、学びて思わざれば則ち罔く、思いて学ばざれば則ち殆うし。"
+  },
+  {
+    "id": "omoiyoko-1",
+    "source_url": "https://kanbun.info/koji/omoiyoko.html",
+    "hakubun": "子曰、詩三百、一言以蔽之、曰、思無邪。",
+    "expected_kakikudashi": "子曰く、詩三百、一言以て之を蔽えば、曰く、思い邪無し。"
+  },
+  {
+    "id": "omoedomo-1",
+    "source_url": "https://kanbun.info/koji/omoedomo.html",
+    "hakubun": "子曰、吾嘗終日不食、終夜不寢、以思無益、不如學也。",
+    "expected_kakikudashi": "子曰く、吾嘗て終日食わず、終夜寝ねず、以て思えども益無し、学ぶに如かざるなり。"
+  },
+  {
+    "id": "omonpaku-1",
+    "source_url": "https://kanbun.info/koji/omonpaku.html",
+    "hakubun": "子張問、士何如斯可謂之達矣。子曰、何哉、爾所謂達者。子張對曰、在邦必聞、在家必聞。子曰、是聞也。非達也。夫達也者、質直而好義、察言而觀色、慮以下人。在邦必達、在家必達。夫聞也者、色取仁而行違、居之不疑。在邦必聞、在家必聞。",
+    "expected_kakikudashi": "子張問う、士は何如なるを斯に之を達と謂う可きか。子曰く、何ぞや、爾の所謂達とは。子張対えて曰く、邦に在りても必ず聞こえ、家に在りても必ず聞こゆ。子曰く、是れ聞なり。達に非ざるなり。夫れ達なる者は、質直にして義を好み、言を察して色を観、慮りて以て人に下る。邦に在りても必ず達し、家に在りても必ず達す。夫れ聞なる者は、色仁を取りて行いは違い、之に居りて疑わず。邦に在りても必ず聞こえ、家に在りても必ず聞こゆ。"
+  },
+  {
+    "id": "orutokoro-1",
+    "source_url": "https://kanbun.info/koji/orutokoro.html",
+    "hakubun": "樊遲問仁。子曰、居處恭、執事敬、與人忠、雖之夷狄、不可棄也。",
+    "expected_kakikudashi": "樊遅仁を問う。子曰く、居る処恭、事を執りて敬、人に与わりて忠なるは、夷狄に之くと雖も、棄つ可からざるなり。"
+  },
+  {
+    "id": "owaritsu-1",
+    "source_url": "https://kanbun.info/koji/owaritsu.html",
+    "hakubun": "曾子曰、愼終追遠、民德歸厚矣。",
+    "expected_kakikudashi": "曾子曰く、終わりを慎み遠きを追えば、民の徳厚きに帰せん。"
+  },
+  {
+    "id": "owariwotsu-1",
+    "source_url": "https://kanbun.info/koji/owariwotsu.html",
+    "hakubun": "爲者敗之、執者失之。是以聖人、無爲、故無敗。無執、故無失。民之從事、常於幾成而敗之。愼終如始、則無敗事。",
+    "expected_kakikudashi": "為す者は之を敗り、執る者は之を失う。是を以て聖人は、為すこと無し、故に敗るること無し。執ること無し、故に失うこと無し。民の事に従うや、常に幾んど成るに於いて之を敗る。終わりを慎しむこと始めの如くすれば、則ち事を敗ること無し。"
+  },
+  {
+    "id": "owotochu-1",
+    "source_url": "https://kanbun.info/koji/owotochu.html",
+    "hakubun": "莊子持竿不顧。曰、吾聞、楚有神龜、死已三千歳矣。王巾笥而藏之廟堂之上。此龜者寧其死爲留骨而貴乎、寧其生而曳尾於塗中乎。",
+    "expected_kakikudashi": "荘子竿を持して顧みず。曰く、吾聞く、楚に神亀有り、死して已に三千歳なり。王、巾笥して之を廟堂の上に蔵すと。此の亀なる者は、寧ろ其れ死して骨を留めて貴ばるるを為さんか、寧ろ其れ生きて尾を塗中に曳かんか、と。"
+  },
+  {
+    "id": "onkochi-1",
+    "source_url": "https://kanbun.info/koji/onkochi.html",
+    "hakubun": "子曰、溫故而知新、可以爲師矣。",
+    "expected_kakikudashi": "子曰く、故きを温ねて新しきを知れば、以て師為る可し。"
+  },
+  {
+    "id": "shiwaonore-1",
+    "source_url": "https://kanbun.info/koji/shiwaonore.html",
+    "hakubun": "豫讓者、晉人也。故嘗事范氏及中行氏、而無所知名。去而事智伯。智伯甚尊寵之。及智伯伐趙襄子、趙襄子與韓・魏合謀滅智伯、滅智伯之後而三分其地。",
+    "expected_kakikudashi": "予譲は、晋の人なり。故嘗て范氏及び中行氏に事えしも、名を知らるる所無し。去りて智伯に事う。智伯、甚だ之を尊寵す。智伯の趙襄子を伐つに及び、趙襄子、韓・魏と合謀して智伯を滅ぼし、智伯の後を滅ぼして其の地を三分す。"
+  },
+  {
+    "id": "shiwaonore-2",
+    "source_url": "https://kanbun.info/koji/shiwaonore.html",
+    "hakubun": "趙襄子最怨智伯、漆其頭以爲飮器。豫讓遁逃山中曰、嗟乎、士爲知己者死、女爲説己者容。今智伯知我。我必爲報讎而死、以報智伯、則吾魂魄不愧矣。",
+    "expected_kakikudashi": "趙襄子、最も智伯を怨み、其の頭に漆して以て飲器と為す。予譲、山中に遁逃して曰く、嗟乎、士は己を知る者の為に死し、女は己を説ぶ者の為に容づくる。今、智伯、我を知る。我、必ず為に讎を報いて死し、以て智伯に報ぜん。則ち吾が魂魄、愧じざらん、と。"
+  },
+  {
+    "id": "onryokyo-1",
+    "source_url": "https://kanbun.info/koji/onryokyo.html",
+    "hakubun": "子禽問於子貢曰、夫子至於是邦也、必聞其政。求之與、抑與之與。子貢曰、夫子温良恭儉讓、以得之。夫子之求之也、其諸異乎人之求之與。",
+    "expected_kakikudashi": "子禽、子貢に問いて曰く、夫子の是の邦に至るや、必ず其の政を聞く。之を求めたるか、抑〻之を与えたるか。子貢曰く、夫子は温・良・恭・倹・譲、以て之を得たり。夫子の之を求むるや、其れ諸れ人の之を求むるに異なるか。"
+  },
+  {
+    "id": "gaikotsu-1",
+    "source_url": "https://kanbun.info/koji/gaikotsu.html",
+    "hakubun": "晏子對曰、前臣之治東阿也、屬託不行、貨賂不至、陂池之魚、以利貧民。當此之時、民無飢、君反以罪臣。今臣後之東阿也、屬託行、貨賂至、并重賦斂、倉庫少内、便事左右、陂池之魚、入于權宗。當此之時、飢者過半矣。君迺反迎而賀。臣愚不能復治東阿。願乞骸骨、避賢者之路。再拜便僻。",
+    "expected_kakikudashi": "〔晏子再び東阿を治めて上計し景公迎え賀するも晏子辞す　第二十〕晏子対えて曰く、前に臣の東阿を治むるや、属託行われず、貨賂至らず、陂池の魚は、以て貧民を利す。此の時に当たり、民飢うる無きに、君反りて以て臣を罪す。今臣後に東阿に之くや、属託行われ、貨賂至り、賦斂を并重して、倉庫は内るること少なく、左右に便事して、陂池の魚は、権宗に入る。此の時に当たり、飢うる者半ばを過ぎたり。君迺ち反りて迎えて賀す。臣愚復た東阿を治むること能わじ。願わくば骸骨を乞い、賢者の路を避けん、と。再拝して便ち僻く。"
+  },
+  {
+    "id": "gaisyu-1",
+    "source_url": "https://kanbun.info/koji/gaisyu.html",
+    "hakubun": "至如平清盛輩、臣鎧袖一觸、皆自倒耳。",
+    "expected_kakikudashi": "平清盛 輩の如きに至りては、臣の鎧袖一たび触れなば、皆自ずから倒れんのみ。"
+  },
+  {
+    "id": "kaiyaware-1",
+    "source_url": "https://kanbun.info/koji/kaiyaware.html",
+    "hakubun": "子曰、回也、非助我者也。於吾言、無所不説。",
+    "expected_kakikudashi": "子曰く、回や、我を助くる者に非ざるなり。吾が言に於いて、説ばざる所無し。"
+  },
+  {
+    "id": "mazukai-1",
+    "source_url": "https://kanbun.info/koji/mazukai.html",
+    "hakubun": "燕人立太子平爲君。",
+    "expected_kakikudashi": "燕人、太子の平を立てて君と為す。"
+  },
+  {
+    "id": "mazukai-2",
+    "source_url": "https://kanbun.info/koji/mazukai.html",
+    "hakubun": "是爲昭王。",
+    "expected_kakikudashi": "是れを昭王と為す。"
+  },
+  {
+    "id": "mazukai-3",
+    "source_url": "https://kanbun.info/koji/mazukai.html",
+    "hakubun": "弔死問生、卑辭厚幣、以招賢者。",
+    "expected_kakikudashi": "死を弔い生を問い、辞を卑くし幣を厚くし、以て賢者を招く。"
+  },
+  {
+    "id": "mazukai-4",
+    "source_url": "https://kanbun.info/koji/mazukai.html",
+    "hakubun": "問郭隗曰、齊因孤之國亂而襲破燕。",
+    "expected_kakikudashi": "郭隗に問いて曰く、斉、孤の国の乱るるに因りて襲いて燕を破る。"
+  },
+  {
+    "id": "mazukai-5",
+    "source_url": "https://kanbun.info/koji/mazukai.html",
+    "hakubun": "孤極知燕小不足以報。",
+    "expected_kakikudashi": "孤、極めて燕の小にして以て報ゆるに足らざるを知る。"
+  },
+  {
+    "id": "kyorankito-1",
+    "source_url": "https://kanbun.info/koji/kyorankito.html",
+    "hakubun": "觝排異端、攘斥佛老、補苴罅漏、張皇幽眇、尋墜緒之茫茫、獨旁搜而遠紹。",
+    "expected_kakikudashi": "異端を觝排し、仏老を攘斥し、罅漏を補苴し、幽眇を張皇し、墜緒の茫茫たるを尋ね、独り旁く捜りて遠く紹ぐ。"
+  },
+  {
+    "id": "kyorankito-2",
+    "source_url": "https://kanbun.info/koji/kyorankito.html",
+    "hakubun": "障百川而東之、廻狂瀾於既倒。先生之於儒、可謂有勞矣。",
+    "expected_kakikudashi": "百川を障えて之を東せしめ、狂瀾を既倒に廻らす。先生の儒に於ける、労有りと謂う可し。"
+  },
+  {
+    "id": "kairyoku-1",
+    "source_url": "https://kanbun.info/koji/kairyoku.html",
+    "hakubun": "子不語怪力亂神。",
+    "expected_kakikudashi": "子、怪・力・乱・神を語らず。"
+  },
+  {
+    "id": "kairodo-1",
+    "source_url": "https://kanbun.info/koji/kairodo.html",
+    "hakubun": "死生契闊",
+    "expected_kakikudashi": "死生契闊"
+  },
+  {
+    "id": "kairodo-3",
+    "source_url": "https://kanbun.info/koji/kairodo.html",
+    "hakubun": "死則同穴",
+    "expected_kakikudashi": "死しては則ち穴を同じくせん"
+  },
+  {
+    "id": "kaeranka-1",
+    "source_url": "https://kanbun.info/koji/kaeranka.html",
+    "hakubun": "子在陳曰、歸與、歸與。吾黨之小子狂簡、斐然成章。不知所以裁之。",
+    "expected_kakikudashi": "子、陳に在りて曰く、帰らんか、帰らんか。吾が党の小子、狂簡にして、斐然として章を成す。之を裁する所以を知らず。"
+  },
+  {
+    "id": "kagakujota-1",
+    "source_url": "https://kanbun.info/koji/kagakujota.html",
+    "hakubun": "子曰、莫我知也夫。子貢曰、何爲其莫知子也。子曰、不怨天、不尤人、下學而上達。知我者其天乎。",
+    "expected_kakikudashi": "子曰く、我を知ること莫きかな。子貢曰く、何為れぞ其れ子を知る莫からんや。子曰く、天を怨みず、人を尤めず、下学して上達す。我を知る者は其れ天か。"
+  },
+  {
+    "id": "kakanfusa-1",
+    "source_url": "https://kanbun.info/koji/kakanfusa.html",
+    "hakubun": "子貢曰、君子亦有惡乎。子曰、有惡。惡称人之惡者。惡居下流而訕上者。惡勇而無禮者。惡果敢而窒者。曰、賜也亦有惡乎。惡徼以爲知者。惡不孫以爲勇者。惡訐以爲直者。",
+    "expected_kakikudashi": "子貢曰く、君子も亦た悪むこと有るか。子曰く、悪むこと有り。人の悪を称する者を悪む。下流に居て上を訕る者を悪む。勇にして礼無き者を悪む。果敢にして窒がる者を悪む。曰く、賜や亦た悪むこと有るか。徼めて以て知と為す者を悪む。不孫にして以て勇と為す者を悪む。訐いて以て直と為す者を悪む。"
+  },
+  {
+    "id": "kakini-1",
+    "source_url": "https://kanbun.info/koji/kakini.html",
+    "hakubun": "古者有二言。牆有耳、伏寇在側。牆有耳者、微謀外泄之謂也。伏寇在側者、沈疑得民之道也。",
+    "expected_kakikudashi": "古者に二言有り。牆に耳有り、伏寇側に在り。牆に耳有りとは、微謀の外に泄るるの謂なり。伏寇側に在りとは、沈疑民を得るの道なり。"
+  },
+  {
+    "id": "kakini-2",
+    "source_url": "https://kanbun.info/koji/kakini.html",
+    "hakubun": "微謀之泄也、狡婦襲主之請、而資游慝也。沈疑之得民也者、前貴而後賤者、爲之驅也。",
+    "expected_kakikudashi": "微謀の泄るるや、狡婦、主の請を襲りて、游慝を資くればなり。沈疑の民を得るや、前に貴くして後に賤しき者、之が駆を為せばなり。"
+  },
+  {
+    "id": "shonimen-1",
+    "source_url": "https://kanbun.info/koji/shonimen.html",
+    "hakubun": "子謂伯魚曰、女爲周南召南矣乎。人而不爲周南召南、其猶正牆面而立也與。",
+    "expected_kakikudashi": "子、伯魚に謂いて曰く、女は周南・召南を為びたるか。人にして周南・召南を為ばずんば、其れ猶お正しく牆に面して立つがごときか。"
+  },
+  {
+    "id": "kagyu-1",
+    "source_url": "https://kanbun.info/koji/kagyu.html",
+    "hakubun": "惠子聞之而見戴晉人。戴晉人曰、有所謂蝸者、君知之乎。曰、然。",
+    "expected_kakikudashi": "恵子、之を聞きて戴晋人を見えしむ。戴晋人曰く、所謂蝸なる者有り、君之を知るか、と。曰く、然り、と。"
+  },
+  {
+    "id": "kagyu-2",
+    "source_url": "https://kanbun.info/koji/kagyu.html",
+    "hakubun": "有國於蝸之左角者、曰觸氏。有國於蝸之右角者、曰蠻氏。時相與爭地而戰、伏尸數萬、逐北旬有五日而後反。",
+    "expected_kakikudashi": "蝸の左角に国する者有り、触氏と曰う。蝸の右角に国する者有り、蛮氏と曰う。時に相与に地を争いて戦い、伏尸数万、北ぐるを逐いて旬有五日にして後反る、と。"
+  },
+  {
+    "id": "kagyu-3",
+    "source_url": "https://kanbun.info/koji/kagyu.html",
+    "hakubun": "君曰、噫其虚言與。曰、臣請爲君實之。君以意在四方上下、有窮乎。君曰、無窮。曰、知遊心於無窮、而反在通達之國、若存若亡乎。",
+    "expected_kakikudashi": "君曰く、噫、其れ虚言か、と。曰く、臣請う、君の為に之を実にせん。君、意を以て四方上下に在りて、窮まり有るか、と。君曰く、窮まり無し、と。曰く、心を無窮に遊ばしむるを知りて、反りて通達の国に在るは、存するが若く亡きが若きか、と。"
+  },
+  {
+    "id": "gakutoii-1",
+    "source_url": "https://kanbun.info/koji/gakutoii.html",
+    "hakubun": "子曰、禮云禮云、玉帛云乎哉。樂云樂云、鐘鼓云乎哉。",
+    "expected_kakikudashi": "子曰く、礼と云い礼と云う、玉帛を云わんや。楽と云い楽と云う、鐘鼓を云わんや。"
+  },
+  {
+    "id": "jochikagu-1",
+    "source_url": "https://kanbun.info/koji/jochikagu.html",
+    "hakubun": "子曰、唯上知與下愚不移。",
+    "expected_kakikudashi": "子曰く、唯だ上知と下愚とは移らず。"
+  },
+  {
+    "id": "gakuoyoba-1",
+    "source_url": "https://kanbun.info/koji/gakuoyoba.html",
+    "hakubun": "子曰、學如不及、猶恐失之。",
+    "expected_kakikudashi": "子曰く、学は及ばざるが如くするも、猶お之を失わんことを恐る。"
+  },
+  {
+    "id": "kakubutsu-1",
+    "source_url": "https://kanbun.info/koji/kakubutsu.html",
+    "hakubun": "欲誠其意者、先致其知。致知在格物。",
+    "expected_kakikudashi": "其の意を誠にせんと欲する者は、先ず其の知を致す。知を致すは物に格るに在り。"
+  },
+  {
+    "id": "kakubutsu-2",
+    "source_url": "https://kanbun.info/koji/kakubutsu.html",
+    "hakubun": "所謂致知在格物者、言欲致吾之知、在即物而窮其理也。",
+    "expected_kakikudashi": "所謂知を致すは物に格るに在りとは、吾れの知を致さんと欲せば、物に即いて其の理を窮むるに在るを言うなり。"
+  },
+  {
+    "id": "kakubutsu-3",
+    "source_url": "https://kanbun.info/koji/kakubutsu.html",
+    "hakubun": "問格物。先生曰、格者正也。正其不正、以歸於正也。",
+    "expected_kakikudashi": "格物を問う。先生曰く、格とは正すなり。其の正しからざるを正して、以て正に帰するなり、と。"
+  },
+  {
+    "id": "kakubutsu-4",
+    "source_url": "https://kanbun.info/koji/kakubutsu.html",
+    "hakubun": "若鄙人所謂致知格物者、致吾心之良知於事事物物也。吾心之良知、卽所謂天理也。致吾心良知之天理於事事物物、則事事物物皆得其理矣。致吾心之良知者致知也。事事物物皆得其理者格物也。",
+    "expected_kakikudashi": "鄙人の所謂致知格物の若き者は、吾が心の良知を事事物物に致すなり。吾が心の良知は、即ち所謂天理なり。吾が心の良知の天理を事事物物に致せば、則ち事事物物は皆其の理を得るなり。吾が心の良知を致すは致知なり。事事物物皆其の理を得るは格物なり。"
+  },
+  {
+    "id": "gashin-1",
+    "source_url": "https://kanbun.info/koji/gashin.html",
+    "hakubun": "闔廬擧伍員、謀國事。",
+    "expected_kakikudashi": "寿夢の後、四君にして-->闔廬伍員を挙げて国事を謀らしむ。"
+  },
+  {
+    "id": "gashin-2",
+    "source_url": "https://kanbun.info/koji/gashin.html",
+    "hakubun": "員、字子胥、楚人伍奢之子。",
+    "expected_kakikudashi": "員、字は子胥、楚人伍奢の子なり。"
+  },
+  {
+    "id": "gashin-3",
+    "source_url": "https://kanbun.info/koji/gashin.html",
+    "hakubun": "奢誅而奔呉、以呉兵入郢。",
+    "expected_kakikudashi": "奢誅せられて呉に奔り、呉の兵を以いて郢に入る。"
+  },
+  {
+    "id": "gashin-4",
+    "source_url": "https://kanbun.info/koji/gashin.html",
+    "hakubun": "呉伐越、闔廬傷而死。",
+    "expected_kakikudashi": "呉、越を伐ち、闔廬傷つきて死す。"
+  },
+  {
+    "id": "gashin-5",
+    "source_url": "https://kanbun.info/koji/gashin.html",
+    "hakubun": "子夫差立。",
+    "expected_kakikudashi": "子の夫差立つ。"
+  },
+  {
+    "id": "kajinhaku-1",
+    "source_url": "https://kanbun.info/koji/kajinhaku.html",
+    "hakubun": "雙頰凝酥髮抹漆",
+    "expected_kakikudashi": "双頬は凝酥　髪は漆を抹す"
+  },
+  {
+    "id": "kajinhaku-2",
+    "source_url": "https://kanbun.info/koji/kajinhaku.html",
+    "hakubun": "眼光入簾珠的皪",
+    "expected_kakikudashi": "眼光は簾に入りて　珠　的皪"
+  },
+  {
+    "id": "kajinhaku-3",
+    "source_url": "https://kanbun.info/koji/kajinhaku.html",
+    "hakubun": "故將白練作仙衣",
+    "expected_kakikudashi": "故に白練を将て仙衣と作す"
+  },
+  {
+    "id": "kajinhaku-5",
+    "source_url": "https://kanbun.info/koji/kajinhaku.html",
+    "hakubun": "無限閑愁總未知",
+    "expected_kakikudashi": "無限の閑愁　総て未だ知らず"
+  },
+  {
+    "id": "kasumete-1",
+    "source_url": "https://kanbun.info/koji/kasumete.html",
+    "hakubun": "子貢曰、君子亦有惡乎。子曰、有惡。惡称人之惡者。惡居下流而訕上者。惡勇而無禮者。惡果敢而窒者。曰、賜也亦有惡乎。惡徼以爲知者。惡不孫以爲勇者。惡訐以爲直者。",
+    "expected_kakikudashi": "子貢曰く、君子も亦た悪むこと有るか。子曰く、悪むこと有り。人の悪を称する者を悪む。下流に居て上を訕る者を悪む。勇にして礼無き者を悪む。果敢にして窒がる者を悪む。曰く、賜や亦た悪むこと有るか。徼めて以て知と為す者を悪む。不孫にして以て勇と為す者を悪む。訐いて以て直と為す者を悪む。"
+  },
+  {
+    "id": "kasei-1",
+    "source_url": "https://kanbun.info/koji/kasei.html",
+    "hakubun": "孔子過泰山側。",
+    "expected_kakikudashi": "孔子、泰山の側を過ぐ。"
+  },
+  {
+    "id": "kasei-2",
+    "source_url": "https://kanbun.info/koji/kasei.html",
+    "hakubun": "有婦人哭於墓者而哀。",
+    "expected_kakikudashi": "婦人の墓に哭する者有りて哀し。"
+  },
+  {
+    "id": "kasei-3",
+    "source_url": "https://kanbun.info/koji/kasei.html",
+    "hakubun": "夫子式而聽之、使子路問之曰、",
+    "expected_kakikudashi": "夫子、式して之を聴き、子路をして之に問わしめて曰く、"
+  },
+  {
+    "id": "kasei-4",
+    "source_url": "https://kanbun.info/koji/kasei.html",
+    "hakubun": "子之哭也、壹似重有憂者。",
+    "expected_kakikudashi": "子の哭するや、壱に重ねて憂い有る者に似たり、と。"
+  },
+  {
+    "id": "kasei-5",
+    "source_url": "https://kanbun.info/koji/kasei.html",
+    "hakubun": "而曰、然。",
+    "expected_kakikudashi": "而ち曰く、然り。"
+  },
+  {
+    "id": "hyakukasei-1",
+    "source_url": "https://kanbun.info/koji/hyakukasei.html",
+    "hakubun": "子駟曰、周詩有之、曰、俟河之清、人壽幾何。兆云詢多、職競作羅。",
+    "expected_kakikudashi": "子駟曰く、周詩に之れ有り、曰く、河の清むを俟つも、人寿幾何ぞ。兆して云に詢ること多ければ、職として競いて羅を作す、と。"
+  },
+  {
+    "id": "kataikana-1",
+    "source_url": "https://kanbun.info/koji/kataikana.html",
+    "hakubun": "子曰、善人吾不得而見之矣。得見有恆者、斯可矣。亡而爲有、虚而爲盈、約而爲泰。難乎有恆矣。",
+    "expected_kakikudashi": "子曰く、善人は吾得て之を見ず。恒有る者を見ることを得れば、斯に可なり。亡くして有りと為し、虚しくして盈てりと為し、約にして泰なりと為す。難いかな恒有ること。"
+  },
+  {
+    "id": "kataifu-1",
+    "source_url": "https://kanbun.info/koji/kataifu.html",
+    "hakubun": "朝與下大夫言、侃侃如也。與上大夫言、誾誾如也。君在、踧踖如也、與與如也。",
+    "expected_kakikudashi": "朝にて下大夫と言うときは、侃侃如たり。上大夫と言うときは、誾誾如たり。君在せば、踧踖如たり、与与如たり。"
+  },
+  {
+    "id": "katakisaki-1",
+    "source_url": "https://kanbun.info/koji/katakisaki.html",
+    "hakubun": "樊遲問知。子曰、務民之義、敬鬼神而遠之。可謂知矣。問仁。曰、仁者先難而後獲。可謂仁矣。",
+    "expected_kakikudashi": "樊遅、知を問う。子曰く、民の義を務め、鬼神を敬して之を遠ざく。知と謂う可し。仁を問う。曰く、仁者は難きを先にし獲るを後にす。仁と謂う可し。"
+  },
+  {
+    "id": "gasshoren-1",
+    "source_url": "https://kanbun.info/koji/gasshoren.html",
+    "hakubun": "蘇秦始將連横、説秦惠王曰、大王之國、西有巴蜀漢中之利、北有胡貉代馬之用、南有巫山黔中之限、東有殽函之固、田肥美、民殷富、戰車萬乘、奮撃百萬、沃野千里、蓄積饒多、地勢形便。此所謂天府、天下之雄國也。以大王之賢、士民之衆、車騎之用、兵法之教、可以并諸侯、吞天下、稱帝而治。願大王少留意。臣請奏其効。",
+    "expected_kakikudashi": "蘇秦始め将に連横せんとし、秦の恵王に説きて曰く、大王の国は、西に巴・蜀・漢中の利有り、北に胡貉・代馬の用有り、南に巫山・黔中の限り有り、東に殽・函の固め有り、田は肥美に、民は殷富に、戦車万乗、奮撃百万、沃野千里、蓄積饒多にして、地勢形便なり。此れ所謂天府にして、天下の雄国なり。大王の賢、士民の衆、車騎の用、兵法の教えを以てせば、以て諸侯を并せ、天下を吞み、帝と称して治む可し。願わくは大王少しく意を留めよ。臣請う其の効を奏せん。と。"
+  },
+  {
+    "id": "katsumoku-1",
+    "source_url": "https://kanbun.info/koji/katsumoku.html",
+    "hakubun": "權將呂蒙、初不學。",
+    "expected_kakikudashi": "権の将呂蒙、初め学ばず。"
+  },
+  {
+    "id": "katsumoku-3",
+    "source_url": "https://kanbun.info/koji/katsumoku.html",
+    "hakubun": "大驚曰、卿非復呉下阿蒙。",
+    "expected_kakikudashi": "大いに驚いて曰く、卿は復た呉下の阿蒙に非ず。"
+  },
+  {
+    "id": "katsumoku-4",
+    "source_url": "https://kanbun.info/koji/katsumoku.html",
+    "hakubun": "蒙曰、士別三日、即當刮目相待。",
+    "expected_kakikudashi": "蒙曰く、士別れて三日なれば、即ち当に刮目して相待つべし、と。"
+  },
+  {
+    "id": "kaden-1",
+    "source_url": "https://kanbun.info/koji/kaden.html",
+    "hakubun": "君子防未然、不處嫌疑間。瓜田不納履、李下不正冠。",
+    "expected_kakikudashi": "君子は未然に防ぎ、嫌疑の間に処らず。瓜田に履を納れず、李下に冠を正さず。"
+  },
+  {
+    "id": "katowoida-1",
+    "source_url": "https://kanbun.info/koji/katowoida.html",
+    "hakubun": "子曰、鳳鳥不至。河不出圖。吾已矣夫。",
+    "expected_kakikudashi": "子曰く、鳳鳥至らず。河、図を出ださず。吾已んぬるかな。"
+  },
+  {
+    "id": "kanae-1",
+    "source_url": "https://kanbun.info/koji/kanae.html",
+    "hakubun": "楚子伐陸渾之戎、遂至于雒、觀兵于周疆。定王使王孫滿勞楚子。楚子問鼎之大小輕重焉。",
+    "expected_kakikudashi": "楚子、陸渾の戎を伐ち、遂に雒に至り、兵を周の疆に観す。定王、王孫満をして楚子を労らわしむ。楚子、鼎の大小軽重を問う。"
+  },
+  {
+    "id": "kanae-2",
+    "source_url": "https://kanbun.info/koji/kanae.html",
+    "hakubun": "對曰、在德不在鼎。昔、夏之方有德也、遠方圖物、貢金九牧、鑄鼎象物、百物而為之備、使民知神姦。故民入川澤山林、不逢不若。螭魅罔兩、莫能逢之。用能協于上下、以承天休。",
+    "expected_kakikudashi": "対えて曰く、徳に在りて鼎に在らず。昔、夏の方に徳有るや、遠方には物を図き、金を九牧に貢せしめ、鼎を鋳て物を象り、百物にして之が備えを為し、民をして神姦を知らしむ。故に民は川沢山林に入りて、不若に逢わず。螭魅罔両、能く之に逢うこと莫し。用て能く上下を協え、以て天休を承く。"
+  },
+  {
+    "id": "kanae-3",
+    "source_url": "https://kanbun.info/koji/kanae.html",
+    "hakubun": "桀有昏德、鼎遷于商。載祀六百。商紂暴虐、鼎遷于周。德之休明、雖小重也。其姦回昏亂、雖大輕也。",
+    "expected_kakikudashi": "桀に昏徳有りて、鼎は商に遷る。載祀六百。商紂暴虐にして、鼎は周に遷る。徳の休明ならば、小なりと雖も重きなり。其の姦回昏乱ならば、大なりと雖も軽きなり。"
+  },
+  {
+    "id": "kanae-4",
+    "source_url": "https://kanbun.info/koji/kanae.html",
+    "hakubun": "天祚明德、有所底止。成王定鼎于郟鄏、卜世三十、卜年七百。天所命也。今周德雖衰、天命未改。鼎之輕重、未可問也。",
+    "expected_kakikudashi": "天の明徳に祚するや、底止する所有り。成王、鼎を郟鄏に定め、世を卜すること三十、年を卜するに七百。天の命ずる所なり。今、周の徳衰うと雖も、天命未だ改まらず。鼎の軽重、未だ問う可からざるなり、と。"
+  },
+  {
+    "id": "kanashimi-1",
+    "source_url": "https://kanbun.info/koji/kanashimi.html",
+    "hakubun": "子曰、關雎樂而不淫、哀而不傷。",
+    "expected_kakikudashi": "子曰く、関雎は楽しみて淫せず、哀しみて傷らず。"
+  },
+  {
+    "id": "kanarazuya-1",
+    "source_url": "https://kanbun.info/koji/kanarazuya.html",
+    "hakubun": "子曰、聽訟、吾猶人也。必也使無訟乎。",
+    "expected_kakikudashi": "子曰く、訟えを聴くは、吾猶お人のごとし。必ずや訟え無からしめんか。"
+  },
+  {
+    "id": "kanohitono-1",
+    "source_url": "https://kanbun.info/koji/kanohitono.html",
+    "hakubun": "子路使子羔爲費宰。子曰、賊夫人之子。子路曰、有民人焉、有社稷焉。何必讀書、然後爲學。子曰、是故惡夫佞者。",
+    "expected_kakikudashi": "子路、子羔をして費の宰為らしむ。子曰く、夫の人の子を賊わん。子路曰く、民人有り、社稷有り。何ぞ必ずしも書を読みて、然る後に学と為さん。子曰く、是の故に夫の佞者を悪む。"
+  },
+  {
+    "id": "kanohitodo-1",
+    "source_url": "https://kanbun.info/koji/kanohitodo.html",
+    "hakubun": "顏淵死。子哭之慟。從者曰、子慟矣。曰、有慟乎。非夫人之爲慟、而誰爲。",
+    "expected_kakikudashi": "顔淵死す。子、之を哭して慟す。従者曰く、子慟せりと。曰く、慟する有るか。夫の人の為に慟するに非ずして、誰が為にかせんと。"
+  },
+  {
+    "id": "shukateki-1",
+    "source_url": "https://kanbun.info/koji/shukateki.html",
+    "hakubun": "曰、楚人勝。曰、然則小固不可以敵大。寡固不可以敵衆。弱固不可以敵彊。",
+    "expected_kakikudashi": "曰く、楚人勝たん、と。曰く、然らば則ち小は固より以て大に敵すべからず。寡は固より以て衆に敵すべからず。弱は固より以て彊に敵すべからず。"
+  },
+  {
+    "id": "shukateki-2",
+    "source_url": "https://kanbun.info/koji/shukateki.html",
+    "hakubun": "今欲誅卓、衆寡不敵。且起一朝之謀、戰阡陌之民。士不素撫、兵不練習。難以成功。",
+    "expected_kakikudashi": "今、卓を誅せんと欲するも、衆寡敵せず。且つ一朝の謀を起して、阡陌の民を戦わしむ。士素より撫せず、兵練習せず。以て功を成すこと難し。"
+  },
+  {
+    "id": "kafuku-1",
+    "source_url": "https://kanbun.info/koji/kafuku.html",
+    "hakubun": "太史公曰、尉佗之王、本由任囂。遭漢初定、列爲諸侯。隆慮離溼疫、佗得以益驕。甌駱相攻、南越動搖。漢兵臨境、嬰齊入朝。其後亡國、徴自樛女。呂嘉小忠、令佗無後。樓船從欲、怠傲失惑。",
+    "expected_kakikudashi": "太史公曰く、尉佗の王たる、本、任囂に由る。漢初めて定まるに遭い、列して諸侯と為る。隆慮、溼疫に離り、佗、以て益〻驕るを得たり。甌・駱相攻め、南越動揺す。漢兵、境に臨み、嬰斉入朝す。其の後国を亡ぼすは、徴、樛女よりす。呂嘉は小忠にして、佗をして後無からしむ。楼船は欲を従にして、怠傲失惑す。"
+  },
+  {
+    "id": "kafuku-2",
+    "source_url": "https://kanbun.info/koji/kafuku.html",
+    "hakubun": "伏波困窮、智慮愈殖、因禍爲福。成敗之轉、譬若糾墨。",
+    "expected_kakikudashi": "伏波は困窮して、智慮愈〻殖え、禍に因りて福と為す。成敗の転ずること、譬えば糾墨の若し。"
+  },
+  {
+    "id": "gabei-1",
+    "source_url": "https://kanbun.info/koji/gabei.html",
+    "hakubun": "前此諸葛誕鄧颺等馳名譽、有四窗八達之誚。帝疾之。",
+    "expected_kakikudashi": "此れより前、諸葛誕・鄧颺等、名誉を馳せ、四窗八達の誚り有り。帝之を疾む。"
+  },
+  {
+    "id": "gabei-2",
+    "source_url": "https://kanbun.info/koji/gabei.html",
+    "hakubun": "時舉中書郎、詔曰、得其人與否、在盧生耳。選舉莫取有名。名如畫地作餠。不可啖也。",
+    "expected_kakikudashi": "時に中書郎に挙げ、詔して曰く、其の人を得ると否とは、盧生に在るのみ。選び挙ぐるに名有るを取ること莫かれ。名は地に画きて餅を作るが如し。啖らう可からざるなり、と。"
+  },
+  {
+    "id": "kamiitekan-1",
+    "source_url": "https://kanbun.info/koji/kamiitekan.html",
+    "hakubun": "子曰、居上不寛、爲禮不敬、臨喪不哀、吾何以觀之哉。",
+    "expected_kakikudashi": "子曰く、上に居て寛ならず、礼を為して敬せず、喪に臨んで哀しまずんば、吾何を以てか之を観んや。"
+  },
+  {
+    "id": "kamireikei-1",
+    "source_url": "https://kanbun.info/koji/kamireikei.html",
+    "hakubun": "樊遲請學稼。子曰、吾不如老農。請學爲圃。曰、吾不如老圃。樊遲出。子曰、小人哉樊須也。上好禮、則民莫敢不敬。上好義、則民莫敢不服。上好信、則民莫敢不用情。夫如是、則四方之民、襁負其子而至矣。焉用稼。",
+    "expected_kakikudashi": "樊遅稼を学ばんと請う。子曰く、吾は老農に如かず。圃を為ることを学ばんと請う。曰く、吾は老圃に如かず。樊遅出づ。子曰く、小人なるかな樊須や。上礼を好めば、則ち民敢えて敬せざる莫し。上義を好めば、則ち民敢えて服せざる莫し。上信を好めば、則ち民敢えて情を用いざる莫し。夫れ是くの如くなれば、則ち四方の民、其の子を襁負して至らん。焉くんぞ稼を用いん。"
+  },
+  {
+    "id": "kamireiko-1",
+    "source_url": "https://kanbun.info/koji/kamireiko.html",
+    "hakubun": "子曰、上好禮、則民易使也。",
+    "expected_kakikudashi": "子曰く、上礼を好めば、則ち民使い易し。"
+  },
+  {
+    "id": "kamotorite-1",
+    "source_url": "https://kanbun.info/koji/kamotorite.html",
+    "hakubun": "是故言悖而出者、亦悖而入。貨悖而入者、亦悖而出。",
+    "expected_kakikudashi": "是の故に言悖りて出づる者は、亦た悖りて入る。貨悖りて入る者は、亦た悖りて出づ。"
+  },
+  {
+    "id": "kamonaku-1",
+    "source_url": "https://kanbun.info/koji/kamonaku.html",
+    "hakubun": "謂虞仲・夷逸。隱居放言、身中清、廢中權。我則異於是。無可無不可。",
+    "expected_kakikudashi": "虞仲・夷逸を謂う。隠居して放言し、身は清に中り、廃せられて権に中る。我は則ち是に異なり。可も無く不可も無し。"
+  },
+  {
+    "id": "kamon-1",
+    "source_url": "https://kanbun.info/koji/kamon.html",
+    "hakubun": "子貢問曰、孔文子何以謂之文也。子曰、敏而好學、不恥下問。是以謂之文也。",
+    "expected_kakikudashi": "子貢問いて曰く、孔文子は何を以て之を文と謂うや。子曰く、敏にして学を好み、下問を恥じず。是を以て之を文と謂うなり。"
+  },
+  {
+    "id": "karyuite-1",
+    "source_url": "https://kanbun.info/koji/karyuite.html",
+    "hakubun": "子貢曰、君子亦有惡乎。子曰、有惡。惡称人之惡者。惡居下流而訕上者。惡勇而無禮者。惡果敢而窒者。曰、賜也亦有惡乎。惡徼以爲知者。惡不孫以爲勇者。惡訐以爲直者。",
+    "expected_kakikudashi": "子貢曰く、君子も亦た悪むこと有るか。子曰く、悪むこと有り。人の悪を称する者を悪む。下流に居て上を訕る者を悪む。勇にして礼無き者を悪む。果敢にして窒がる者を悪む。曰く、賜や亦た悪むこと有るか。徼めて以て知と為す者を悪む。不孫にして以て勇と為す者を悪む。訐きて以て直と為す者を悪む。"
+  },
+  {
+    "id": "karewoshiri-1",
+    "source_url": "https://kanbun.info/koji/karewoshiri.html",
+    "hakubun": "知彼知己者、百戰不殆。",
+    "expected_kakikudashi": "彼を知り己を知れば、百戦殆うからず。"
+  },
+  {
+    "id": "karewoshiri-2",
+    "source_url": "https://kanbun.info/koji/karewoshiri.html",
+    "hakubun": "不知彼而知己、一勝一負。",
+    "expected_kakikudashi": "彼を知らずして己を知れば、一勝一負す。"
+  },
+  {
+    "id": "karewoshiri-3",
+    "source_url": "https://kanbun.info/koji/karewoshiri.html",
+    "hakubun": "不知彼不知己、毎戰必殆。",
+    "expected_kakikudashi": "彼を知らず己を知らざれば、戦う毎に必ず殆うし。"
+  },
+  {
+    "id": "karewoya-1",
+    "source_url": "https://kanbun.info/koji/karewoya.html",
+    "hakubun": "或問子産。子曰、惠人也。問子西。曰、彼哉彼哉。",
+    "expected_kakikudashi": "或ひと子産を問う。子曰く、恵人なり。子西を問う。曰く、彼をや彼をや。"
+  },
+  {
+    "id": "karoto-1",
+    "source_url": "https://kanbun.info/koji/karoto.html",
+    "hakubun": "作無益之能、納無補之説、以夏進鑪、以冬奏扇。爲所不欲得之事、獻所不欲聞之語。其不遇禍幸矣。何福祐之有乎。",
+    "expected_kakikudashi": "無益の能を作し、補い無きの説を納れ、夏を以て鈩を進め、冬を以て扇を奏むるなり。得んことを欲せざる所の事を為し、聞かんことを欲せざる所の語を献ず。其れ禍いに遇わざるは幸いなり。何の福祐か之れ有らん、と。"
+  },
+  {
+    "id": "ganenkaku-1",
+    "source_url": "https://kanbun.info/koji/ganenkaku.html",
+    "hakubun": "顏淵死。顏路請子之車以爲之椁。子曰、才不才、亦各言其子也。鯉也死、有棺而無椁。吾不徒行以爲之椁、以吾從大夫之後、不可徒行也。",
+    "expected_kakikudashi": "顔淵死す。顔路子の車以て之が椁を為らんと請う。子曰く、才も不才も、亦た各〻其の子を言うなり。鯉や死せしとき、棺有りて椁無し。吾徒行して以て之が椁を為らざりしは、吾大夫の後に従い、徒行す可からざるを以てなり。"
+  },
+  {
+    "id": "ganenfuka-1",
+    "source_url": "https://kanbun.info/koji/ganenfuka.html",
+    "hakubun": "顏淵死。門人欲厚葬之。子曰、不可。門人厚葬之。子曰、回也視予猶父也。予不得視猶子也。非我也。夫二三子也。",
+    "expected_kakikudashi": "顔淵死す。門人厚く之を葬らんと欲す。子曰く、不可なりと。門人厚く之を葬る。子曰く、回や予を視ること猶お父のごときなり。予は視ること猶お子のごとくするを得ざるなり。我には非ざるなり。夫の二三子なり。"
+  },
+  {
+    "id": "kankakodoku-1",
+    "source_url": "https://kanbun.info/koji/kankakodoku.html",
+    "hakubun": "老而無妻曰鰥、老而無夫曰寡、老而無子曰獨、幼而無父曰孤。此四者、天下之窮民而無告者。",
+    "expected_kakikudashi": "老いて妻無きを鰥と曰い、老いて夫無きを寡と曰い、老いて子無きを独と曰い、幼にして父無きを孤と曰う。此の四者は、天下の窮民にして告ぐる無き者なり。"
+  },
+  {
+    "id": "kangyujyu-1",
+    "source_url": "https://kanbun.info/koji/kangyujyu.html",
+    "hakubun": "其爲書、處則充棟宇、出則汗牛馬。",
+    "expected_kakikudashi": "其の書為るや、処けば則ち棟宇に充ち、出せば則ち牛馬に汗す。"
+  },
+  {
+    "id": "kankotsu-1",
+    "source_url": "https://kanbun.info/koji/kankotsu.html",
+    "hakubun": "山谷云、詩意無窮、而人之才有限。以有限之才、追無窮之意、雖淵明少陵、不得工也。",
+    "expected_kakikudashi": "山谷云う、詩意窮まり無くして、人の才限り有り。限り有るの才を以て、窮まり無きの意を追えば、淵明・少陵と雖も、工みなるを得ざるなり。"
+  },
+  {
+    "id": "kankotsu-2",
+    "source_url": "https://kanbun.info/koji/kankotsu.html",
+    "hakubun": "然不易其意而造其語、謂之換骨法、規模其意形容之、謂之奪胎法。",
+    "expected_kakikudashi": "然れども其の意を易えずして其の語を造る、之を換骨法と謂い、其の意を規模として之を形容する、之を奪胎法と謂う。"
+  },
+  {
+    "id": "ganshoku-1",
+    "source_url": "https://kanbun.info/koji/ganshoku.html",
+    "hakubun": "曾子有疾。孟敬子問之。曾子言曰、鳥之將死、其鳴也哀。人之將死、其言也善。君子所貴乎道者三。動容貌、斯遠暴慢矣。正顏色、斯近信矣。出辭氣、斯遠鄙倍矣。籩豆之事、則有司存。",
+    "expected_kakikudashi": "曾子、疾有り。孟敬子之を問う。曾子言いて曰く、鳥の将に死なんとする、其の鳴くや哀し。人の将に死なんとする、其の言や善し。君子の道に貴ぶ所の者三あり。容貌を動かしては、斯に暴慢に遠ざかる。顔色を正しては、斯に信に近づく。辞気を出しては、斯に鄙倍に遠ざかる。籩豆の事は、則ち有司存す。"
+  },
+  {
+    "id": "tanoshiin-1",
+    "source_url": "https://kanbun.info/koji/tanoshiin.html",
+    "hakubun": "子曰、關雎樂而不淫、哀而不傷。",
+    "expected_kakikudashi": "子曰く、関雎は楽しみて淫せず、哀しみて傷らず。"
+  },
+  {
+    "id": "kanzensuru-1",
+    "source_url": "https://kanbun.info/koji/kanzensuru.html",
+    "hakubun": "子曰、禹吾無閒然矣。菲飮食、而致孝乎鬼神、惡衣服、而致美乎黻冕、卑宮室、而盡力乎溝洫。禹吾無閒然矣。",
+    "expected_kakikudashi": "子曰く、禹は吾間然すること無し。飲食を菲くして、孝を鬼神に致し、衣服を悪しくして、美を黻冕に致し、宮室を卑くして、力を溝洫に尽くす。禹は吾間然すること無し。"
+  },
+  {
+    "id": "tentokuwa-1",
+    "source_url": "https://kanbun.info/koji/tentokuwa.html",
+    "hakubun": "子曰、天生德於予。桓魋其如予何。",
+    "expected_kakikudashi": "子曰く、天、徳を予に生ぜり。桓魋其れ予を如何せん。"
+  },
+  {
+    "id": "kantanayu-1",
+    "source_url": "https://kanbun.info/koji/kantanayu.html",
+    "hakubun": "且子獨不聞夫壽陵餘子之學行於邯鄲與。",
+    "expected_kakikudashi": "且つ子独り夫の寿陵の余子の行を邯鄲に学びしを聞かずや。"
+  },
+  {
+    "id": "kantanayu-2",
+    "source_url": "https://kanbun.info/koji/kantanayu.html",
+    "hakubun": "未得國能、又失其故行矣。",
+    "expected_kakikudashi": "未だ国能を得ず、又其の故行を失う。"
+  },
+  {
+    "id": "kantanayu-3",
+    "source_url": "https://kanbun.info/koji/kantanayu.html",
+    "hakubun": "直匍匐而歸耳。",
+    "expected_kakikudashi": "直に匍匐して帰るのみ。"
+  },
+  {
+    "id": "kanchuna-1",
+    "source_url": "https://kanbun.info/koji/kanchuna.html",
+    "hakubun": "子貢曰、管仲非仁者與。桓公殺公子糾、不能死。又相之。子曰、管仲相桓公、霸諸侯、一匡天下。民到于今受其賜。微管仲、吾其被髮左衽矣。豈若匹夫匹婦之爲諒也、自經於溝瀆、而莫之知也。",
+    "expected_kakikudashi": "子貢曰く、管仲は仁者に非ざるか。桓公、公子糾を殺すに、死する能わず。又之を相く。子曰く、管仲桓公を相けて、諸侯に覇たらしめ、天下を一匡す。民今に到るまで其の賜を受く。管仲微かりせば、吾其れ被髪左衽せん。豈に匹夫匹婦の諒を為すや、自ら溝瀆に経れて、之を知るもの莫きが若くならんや。"
+  },
+  {
+    "id": "kannareba-1",
+    "source_url": "https://kanbun.info/koji/kannareba.html",
+    "hakubun": "子張問仁於孔子。孔子曰、能行五者於天下爲仁矣。請問之。曰、恭寛信敏惠。恭則不侮、寛則得衆、信則人任焉、敏則有功、惠則足以使人。",
+    "expected_kakikudashi": "子張仁を孔子に問う。孔子曰く、能く五つの者を天下に行うを仁と為す。之を請い問う。曰く、恭・寛・信・敏・恵なり。恭なれば則ち侮られず、寛なれば則ち衆を得、信なれば則ち人任じ、敏なれば則ち功有り、恵なれば則ち以て人を使うに足る。"
+  },
+  {
+    "id": "kannareba-2",
+    "source_url": "https://kanbun.info/koji/kannareba.html",
+    "hakubun": "寛則得衆、信則民任焉。敏則有功、公則説。",
+    "expected_kakikudashi": "寛なれば則ち衆を得、信なれば則ち民任ず。敏なれば則ち功有り、公なれば則ち説ぶ。"
+  },
+  {
+    "id": "kanniite-1",
+    "source_url": "https://kanbun.info/koji/kanniite.html",
+    "hakubun": "仲弓問子桑伯子。子曰、可也。簡。仲弓曰、居敬而行簡、以臨其民、不亦可乎。居簡而行簡、無乃大簡乎。子曰、雍之言然。",
+    "expected_kakikudashi": "仲弓、子桑伯子を問う。子曰く、可なり。簡なり。仲弓曰く、敬に居て簡を行い、以て其の民に臨むは、亦た可ならずや。簡に居て簡を行うは、乃ち大簡なること無からんや。子曰く、雍の言然り。"
+  },
+  {
+    "id": "kanpeki4k-1",
+    "source_url": "https://kanbun.info/koji/kanpeki4k.html",
+    "hakubun": "於是王召見、問藺相如曰、秦王以十五城請易寡人之璧。可予不。相如曰、秦彊而趙弱。不可不許。王曰、取吾璧、不予我城、奈何。相如曰、秦以城求璧、而趙不許、曲在趙。趙予璧而秦不予趙城、曲在秦。均之二策、寧許以負秦曲。",
+    "expected_kakikudashi": "是に於いて、王、召見し、藺相如に問いて曰く、秦王、十五城を以て寡人の璧に易えんことを請う。予う可きや不や、と。相如曰く、秦は彊くして趙は弱し。許さざる可からず、と。王曰く、吾が璧を取りて、我に城を予えずんば、奈何せん、と。相如曰く、秦、城を以て璧を求むるに、趙許さずんば、曲は趙に在り。趙、璧を予うるに、秦、趙に城を予えずんば、曲は秦に在り。之の二策を均るに、寧ろ許して以て秦に曲を負わしめん、と。"
+  },
+  {
+    "id": "kanpeki4k-2",
+    "source_url": "https://kanbun.info/koji/kanpeki4k.html",
+    "hakubun": "王曰、誰可使者。相如曰、王必無人、臣願奉璧往使。城入趙而璧留秦。城不入、臣請完璧歸趙。趙王於是、遂遣相如奉璧西入秦。",
+    "expected_kakikudashi": "王曰く、誰か使いす可き者ぞ、と。相如曰く、王必ず人無くんば、臣願わくは璧を奉じて往きて使いせん。城趙に入らば璧は秦に留めん。城入らずんば、臣請う璧を完うして趙に帰らん。趙王是に於いて、遂に相如をして璧を奉じて西して秦に入らしむ。"
+  },
+  {
+    "id": "kanpeki4k-3",
+    "source_url": "https://kanbun.info/koji/kanpeki4k.html",
+    "hakubun": "秦王坐章臺見相如。相如奉璧奏秦王。秦王大喜、傳以示美人及左右。左右皆呼萬歳。",
+    "expected_kakikudashi": "秦王、章台に坐して相如を見る。相如、璧を奉じて秦王に奏む。秦王大いに喜び、伝えて以て美人及び左右に示す。左右皆な万歳と呼ぶ。"
+  },
+  {
+    "id": "kanpeki4k-4",
+    "source_url": "https://kanbun.info/koji/kanpeki4k.html",
+    "hakubun": "相如視秦王無意償趙城、乃前曰、璧有瑕。請指示王。王授璧。相如因持璧、卻立倚柱、怒髮上衝冠。",
+    "expected_kakikudashi": "相如、秦王の趙に城を償うに意無きを視て、乃ち前みて曰く、璧に瑕有り。請う王に指示せん、と。王、璧を授く。相如、因りて璧を持ち、却立して柱に倚り、怒髪上りて冠を衝く。"
+  },
+  {
+    "id": "kanpeki4k-5",
+    "source_url": "https://kanbun.info/koji/kanpeki4k.html",
+    "hakubun": "謂秦王曰、大王欲得璧、使人發書至趙王。趙王悉召群臣議。皆曰、秦貪負其彊、以空言求璧。償城恐不可得。議不欲予秦璧。",
+    "expected_kakikudashi": "秦王に謂いて曰く、大王、璧を得んと欲し、人をして書を発して趙王に至らしむ。趙王悉く群臣を召して議せしむ。皆な曰く、秦は貪にして其の彊きを負み、空言を以て璧を求む。償城恐らくは得可からざらん、と。議、秦に璧を予うるを欲せず。"
+  },
+  {
+    "id": "kanpeki18-1",
+    "source_url": "https://kanbun.info/koji/kanpeki18.html",
+    "hakubun": "惠文嘗得楚和氏璧。",
+    "expected_kakikudashi": "恵文嘗て楚の和氏の璧を得たり。"
+  },
+  {
+    "id": "kanpeki18-2",
+    "source_url": "https://kanbun.info/koji/kanpeki18.html",
+    "hakubun": "秦昭王請以十五城易之。",
+    "expected_kakikudashi": "秦の昭王、十五城を以て之に易えんことを請う。"
+  },
+  {
+    "id": "kanpeki18-3",
+    "source_url": "https://kanbun.info/koji/kanpeki18.html",
+    "hakubun": "欲不與、畏秦強、欲與、恐見欺。",
+    "expected_kakikudashi": "与えざらんと欲すれば、秦の強きを畏れ、与えんと欲すれば、欺かるるを恐る。"
+  },
+  {
+    "id": "kanpeki18-4",
+    "source_url": "https://kanbun.info/koji/kanpeki18.html",
+    "hakubun": "藺相如曰、願奉璧往。",
+    "expected_kakikudashi": "藺相如曰く、願わくは璧を奉じて往かん。"
+  },
+  {
+    "id": "kanpeki18-5",
+    "source_url": "https://kanbun.info/koji/kanpeki18.html",
+    "hakubun": "城不入、則臣請完璧而歸。",
+    "expected_kakikudashi": "城入らずんば、則ち臣請う璧を完うして帰らん、と。"
+  },
+  {
+    "id": "kanpo-1",
+    "source_url": "https://kanbun.info/koji/kanpo.html",
+    "hakubun": "管仲夷吾者、潁上人也。少時常與鮑叔牙游。鮑叔知其賢。管仲貧困、常欺鮑叔、鮑叔終善遇之、不以爲言。",
+    "expected_kakikudashi": "管仲夷吾は、潁の上の人なり。少かりし時常に鮑叔牙と游ぶ。鮑叔其の賢なるを知る。管仲貧困、常に鮑叔を欺くも、鮑叔は終に善く之を遇し、以て言を為さず。"
+  },
+  {
+    "id": "kanpo-2",
+    "source_url": "https://kanbun.info/koji/kanpo.html",
+    "hakubun": "已而鮑叔事齊公子小白、管仲事公子糾。及小白立爲桓公、公子糾死、管仲囚焉。鮑叔遂進管仲。管仲既用、任政於齊。齊桓公以霸。九合諸侯、一匡天下、管仲之謀也。",
+    "expected_kakikudashi": "已にして鮑叔は斉の公子小白に事え、管仲は公子糾に事う。小白立ちて桓公と為り、公子糾死するに及び、管仲囚えらる。鮑叔遂に管仲を進む。管仲既に用いられ、政に斉に任ず。斉の桓公以て覇たり。諸侯を九合し、天下を一匡したるは、管仲の謀なり。"
+  },
+  {
+    "id": "kanpo-3",
+    "source_url": "https://kanbun.info/koji/kanpo.html",
+    "hakubun": "管仲曰、吾始困時、嘗與鮑叔賈。分財利、多自與。鮑叔不以我爲貪。知我貧也。吾嘗爲鮑叔謀事而更窮困。鮑叔不以我爲愚。知時有利不利也。吾嘗三仕三見逐於君。鮑叔不以我爲不肖。知我不遭時也。",
+    "expected_kakikudashi": "管仲曰く、吾始め困しみし時、嘗て鮑叔と賈す。財利を分かつに、多く自ら与う。鮑叔、我を以て貪と為さず。我が貧なるを知れればなり。吾嘗て鮑叔の為に事を謀るも更に窮困す。鮑叔、我を以て愚と為さず。時に利不利有るを知れればなり。吾嘗て三たび仕え三たび君に逐わる。鮑叔、我を以て不肖と為さず。我が時に遭わざるを知れればなり。"
+  },
+  {
+    "id": "kanpo-4",
+    "source_url": "https://kanbun.info/koji/kanpo.html",
+    "hakubun": "吾嘗三戰三走。鮑叔不以我爲怯。知我有老母也。公子糾敗、召忽死之。吾幽囚受辱。鮑叔不以我爲無恥。知我不羞小節、而恥功名不顯于天下也。生我者父母、知我者鮑子也。",
+    "expected_kakikudashi": "吾嘗て三たび戦いて三たび走る。鮑叔、我を以て怯と為さず。我に老母有るを知れればなり。公子糾敗れ、召忽之に死す。吾幽囚せられ辱めを受く。鮑叔、我を以て無恥と為さず。我が小節に羞じずして、功名天下に顕れざるを恥ずるを知れればなり。我を生みし者は父母なるも、我を知れる者は鮑子なり、と。"
+  },
+  {
+    "id": "kanpo-5",
+    "source_url": "https://kanbun.info/koji/kanpo.html",
+    "hakubun": "鮑叔既進管仲、以身下之。子孫世祿於齊、有封邑者十餘世、常爲名大夫。天下不多管仲之賢、而多鮑叔能知人也。",
+    "expected_kakikudashi": "鮑叔、既に管仲を進め、身を以て之に下る。子孫世に斉に禄せられ、封邑を有つこと十余世、常に名大夫たり。天下、管仲の賢を多とせずして、鮑叔の能く人を知るを多とす。"
+  },
+  {
+    "id": "kanwomo-1",
+    "source_url": "https://kanbun.info/koji/kanwomo.html",
+    "hakubun": "其後扁鵲過虢。虢太子死。扁鵲至虢宮門下、問中庶子喜方者曰、太子何病。國中治穰過於衆事。中庶子曰、太子病、血氣不時、交錯而不得泄、暴發於外、則爲中害。",
+    "expected_kakikudashi": "其の後、扁鵲、虢に過る。虢の太子死す。扁鵲、虢の宮門の下に至り、中庶子の方を喜む者に問いて曰く、太子は何の病ぞ。国中の治穣、衆事に過ぐ、と。中庶子曰く、太子の病は、血気時ならず、交錯して泄するを得ず、外に暴発して、則ち中害を為す、と。"
+  },
+  {
+    "id": "kanwomo-2",
+    "source_url": "https://kanbun.info/koji/kanwomo.html",
+    "hakubun": "……言、臣齊勃海秦越人也。家在於鄭。未嘗得望精光侍謁於前也。聞太子不幸而死。臣能生之。",
+    "expected_kakikudashi": "……言う、臣は斉の勃海の秦越人なり。家は鄭に在り。未だ嘗て精光を望みて前に侍謁するを得ざるなり。太子不幸にして死すと聞く。臣能く之を生かさん、と。"
+  },
+  {
+    "id": "kanwomo-3",
+    "source_url": "https://kanbun.info/koji/kanwomo.html",
+    "hakubun": "中庶子曰、先生得無誕之乎。何以言太子可生也。",
+    "expected_kakikudashi": "中庶子曰く、先生、之を誕する無きを得んや。何を以て太子生く可しと言うや、と。"
+  },
+  {
+    "id": "kanwomo-4",
+    "source_url": "https://kanbun.info/koji/kanwomo.html",
+    "hakubun": "……扁鵲仰天歎曰、夫子之爲方也、若以管窺天、以郄視文。",
+    "expected_kakikudashi": "……扁鵲、天を仰ぎて歎じて曰く、夫子の方たるや、管を以て天を窺い、郄を以て文を視るが若し、と。"
+  },
+  {
+    "id": "kanwomo-5",
+    "source_url": "https://kanbun.info/koji/kanwomo.html",
+    "hakubun": "……扁鵲曰、若太子病、所謂尸蹷者也。……扁鵲乃使弟子子陽厲鍼砥石、以取外三陽五會。有閒、太子蘇。",
+    "expected_kakikudashi": "……扁鵲曰く、太子の病の若きは、所謂尸蹷なる者なり、と。……扁鵲乃ち弟子子陽をして鍼を厲ぎ石を砥がしめ、以て外の三陽・五会を取る。間く有りて、太子蘇る。"
+  },
+  {
+    "id": "giarite-1",
+    "source_url": "https://kanbun.info/koji/giarite.html",
+    "hakubun": "子問公叔文子於公明賈曰、信乎、夫子不言、不笑、不取乎。公明賈對曰、以告者過也。夫子時然後言。人不厭其言。樂然後笑。人不厭其笑。義然後取。人不厭其取。子曰、其然、豈其然乎。",
+    "expected_kakikudashi": "子、公叔文子を公明賈に問いて曰く、信なるか、夫子は言わず、笑わず、取らずとは。公明賈対えて曰く、以て告ぐる者の過ちなり。夫子は時にして然る後に言う。人其の言うことを厭わず。楽しみて然る後に笑う。人其の笑うことを厭わず。義ありて然る後に取る。人其の取ることを厭わず。子曰く、其れ然り、豈に其れ然らんや。"
+  },
+  {
+    "id": "kio-1",
+    "source_url": "https://kanbun.info/koji/kio.html",
+    "hakubun": "成事不説、遂事不諫、既往不咎。",
+    "expected_kakikudashi": "成事は説かず、遂事は諫めず、既往は咎めず。"
+  },
+  {
+    "id": "kika-1",
+    "source_url": "https://kanbun.info/koji/kika.html",
+    "hakubun": "子楚、秦諸庶孽孫、質於諸侯。車乘進用不饒、居處困、不得意。呂不韋賈邯鄲、見而憐之曰、此奇貨可居。",
+    "expected_kakikudashi": "子楚は秦の諸庶孽孫にして、諸侯に質たり。車乗進用饒かならず、居処困しみ、意を得ず。呂不韋、邯鄲に賈し、見て之を憐れんで曰く、此の奇貨居く可し、と。"
+  },
+  {
+    "id": "kika-2",
+    "source_url": "https://kanbun.info/koji/kika.html",
+    "hakubun": "……曰、子貧、客於此、非有以奉獻於親、及結賓客也。不韋雖貧、請以千金爲子西遊、事安國君及華陽夫人、立子爲適嗣。子楚乃頓首曰、必如君策、請得分秦國與君共之。",
+    "expected_kakikudashi": "……曰く、子貧しくして、此に客たれば、以て親に奉献し、及び賓客に結ぶ有るに非ざるなり。不韋、貧しと雖も、請う千金を以て子の為に西遊し、安国君及び華陽夫人に事え、子を立てて適嗣と為さん、と。子楚乃ち頓首して曰く、必ず君が策の如くならば、請う秦国を分かちて君と之を共にするを得ん、と。"
+  },
+  {
+    "id": "gigikota-1",
+    "source_url": "https://kanbun.info/koji/gigikota.html",
+    "hakubun": "子曰、巍巍乎、舜禹之有天下也、而不與焉。",
+    "expected_kakikudashi": "子曰く、巍巍乎たり、舜・禹の天下を有つや、而して与らず。"
+  },
+  {
+    "id": "kikyu-1",
+    "source_url": "https://kanbun.info/koji/kikyu.html",
+    "hakubun": "臣亮言。先帝創業未半、而中道崩殂。今天下三分、益州疲弊。此誠危急存亡之秋也。",
+    "expected_kakikudashi": "臣亮言す。先帝創業未だ半ばならずして、中道にして崩殂す。今天下三分して、益州疲弊せり。此れ誠に危急存亡の秋なり。"
+  },
+  {
+    "id": "kikugama-1",
+    "source_url": "https://kanbun.info/koji/kikugama.html",
+    "hakubun": "子路問、聞斯行諸。子曰、有父兄在。如之何其聞斯行之。冉有問、聞斯行諸。子曰、聞斯行之。公西華曰、由也問、聞斯行諸。子曰、有父兄在。求也問、聞斯行諸。子曰、聞斯行之。赤也惑。敢問。子曰、求也退。故進之。由也兼人。故退之。",
+    "expected_kakikudashi": "子路問う、聞くがままに斯に諸を行わんか。子曰く、父兄の在す有り。之を如何ぞ其れ聞くがままに斯に之を行わん。冉有問う、聞くがままに斯に諸を行わんか。子曰く、聞くがままに斯に之を行え。公西華曰く、由や問う、聞くがままに斯に諸を行わんかと。子曰く、父兄の在す有りと。求や問う、聞くがままに斯に諸を行わんかと。子曰く、聞くがままに斯に之を行えと。赤や惑う。敢えて問う。子曰く、求や退く。故に之を進む。由や人を兼ぬ。故に之を退く。"
+  },
+  {
+    "id": "kikonoi-1",
+    "source_url": "https://kanbun.info/koji/kikonoi.html",
+    "hakubun": "及周宣帝崩、高祖居禁中、總百揆。后使人謂高祖曰、大事已然。騎獸之勢、必不得下。勉之。",
+    "expected_kakikudashi": "周の宣帝崩ずるに及び、高祖禁中に居り、百揆を総ぶ。后、人をして高祖に謂わしめて曰く、大事已に然り。騎獣の勢い、必ず下ることを得ず。之を勉めよ、と。"
+  },
+  {
+    "id": "gishin-1",
+    "source_url": "https://kanbun.info/koji/gishin.html",
+    "hakubun": "人有亡鈇者、意其鄰之子、視其行歩、竊鈇也。顏色竊鈇也。言語竊鈇也。動作態度、無爲而不竊鈇也。俄而抇其谷、而得其鈇、他日復見其鄰人之子、動作態度、無似竊鈇者。",
+    "expected_kakikudashi": "人に鈇を亡える者有り、其の隣の子を意う。其の行歩を視るに、鈇を窃めるなり。顔色も鈇を窃めるなり。言語も鈇を窃めるなり。作動・態度、為すとして鈇を窃まざるは無し。俄かにして其の谷を抇りて、其の鈇を得たり、他日復た其の隣人の子を見るに、動作・態度、鈇を窃めるに似たる者無し。"
+  },
+  {
+    "id": "gishin-2",
+    "source_url": "https://kanbun.info/koji/gishin.html",
+    "hakubun": "此章猶諺言。諺曰、疑心生暗鬼也。心有所疑、其人雖不竊鈇、而我以疑心視之、則其件件皆可疑。",
+    "expected_kakikudashi": "此の章は猶お諺言のごとし。諺に曰く、疑心、暗鬼を生ず、と。心疑う所有れば、其の人鈇を窃まずと雖も、我疑心を以て之を視れば、則ち其の件件皆疑う可し。"
+  },
+  {
+    "id": "kishinkei-1",
+    "source_url": "https://kanbun.info/koji/kishinkei.html",
+    "hakubun": "樊遲問知。子曰、務民之義、敬鬼神而遠之。可謂知矣。",
+    "expected_kakikudashi": "樊遅、知を問う。子曰く、民の義を務め、鬼神を敬して之を遠ざく。知と謂う可し。"
+  },
+  {
+    "id": "washosho-1",
+    "source_url": "https://kanbun.info/koji/washosho.html",
+    "hakubun": "吾恐季孫之憂、不在顓臾、而在蕭牆之内也。",
+    "expected_kakikudashi": "吾季孫の憂いは、顓臾に在らずして、蕭牆の内に在らんことを恐るるなり。"
+  },
+  {
+    "id": "rinkiohen-1",
+    "source_url": "https://kanbun.info/koji/rinkiohen.html",
+    "hakubun": "朗弟明、字靖通、少被武帝親愛、封貞陽侯。",
+    "expected_kakikudashi": "朗の弟明、字は靖通、少くして武帝の親愛を被り、貞陽侯に封ぜらる。"
+  },
+  {
+    "id": "rinkiohen-2",
+    "source_url": "https://kanbun.info/koji/rinkiohen.html",
+    "hakubun": "……明、謀略不出、號令莫行。諸將每諮事、輒怒曰、吾自臨機制變。勿多言。",
+    "expected_kakikudashi": "……明、謀略出ださず、号令行う莫し。諸将事を諮る毎に、輒ち怒りて曰く、吾自ら機に臨み変を制す。多言すること勿かれ、と。"
+  },
+  {
+    "id": "giniyoku-1",
+    "source_url": "https://kanbun.info/koji/giniyoku.html",
+    "hakubun": "子曰、何傷乎。亦各言其志也。曰、莫春者、春服既成。冠者五六人、童子六七人、浴乎沂、風乎舞雩、詠而歸。夫子喟然歎曰、吾與點也。",
+    "expected_kakikudashi": "子曰く、何ぞ傷まんや。亦た各〻其の志を言うなり。曰く、莫春には、春服既に成る。冠者五六人、童子六七人、沂に浴し、舞雩に風し、詠じて帰らん。夫子喟然として歎じて曰く、吾は点に与せん。"
+  },
+  {
+    "id": "kiniyori-1",
+    "source_url": "https://kanbun.info/koji/kiniyori.html",
+    "hakubun": "以若所爲、求若所欲、猶縁木而求魚也。",
+    "expected_kakikudashi": "若き為す所を以て、若き欲する所を求むるは、猶お木に縁りて魚を求むるがごときなり。"
+  },
+  {
+    "id": "kichikara-1",
+    "source_url": "https://kanbun.info/koji/kichikara.html",
+    "hakubun": "子曰、驥不稱其力。稱其德也。",
+    "expected_kakikudashi": "子曰く、驥は其の力を称せず。其の徳を称するなり。"
+  },
+  {
+    "id": "kibini-1",
+    "source_url": "https://kanbun.info/koji/kibini.html",
+    "hakubun": "伯夷・叔齊雖賢、得夫子而名益彰。顏淵雖篤學、附驥尾而行益顯。……非附靑雲之士、惡能施於後世哉。",
+    "expected_kakikudashi": "伯夷・叔斉は賢なりと雖も、夫子を得て名益〻彰かなり。顔淵は篤学なりと雖も、驥尾に附して行い益〻顕る。……青雲の士に附くに非ざれば、悪くんぞ能く後世に施かんや。"
+  },
+  {
+    "id": "kihoranpo-1",
+    "source_url": "https://kanbun.info/koji/kihoranpo.html",
+    "hakubun": "子曰、篤信好學、守死善道。危邦不入、亂邦不居。天下有道則見、無道則隱。",
+    "expected_kakikudashi": "子曰く、篤く信じて学を好み、死を守りて道を善くす。危邦には入らず、乱邦には居らず。天下道有れば則ち見れ、道無ければ則ち隠る。"
+  },
+  {
+    "id": "kimikimi-1",
+    "source_url": "https://kanbun.info/koji/kimikimi.html",
+    "hakubun": "齊景公問政於孔子。孔子對曰、君君、臣臣、父父、子子。",
+    "expected_kakikudashi": "斉の景公、政を孔子に問う。孔子対えて曰く、君君たり、臣臣たり、父父たり、子子たり、と。"
+  },
+  {
+    "id": "kimishin-1",
+    "source_url": "https://kanbun.info/koji/kimishin.html",
+    "hakubun": "定公問、君使臣、臣事君、如之何。孔子對曰、君使臣以禮、臣事君以忠。",
+    "expected_kakikudashi": "定公問う、君、臣を使い、臣、君に事うるには、之を如何せん。孔子対えて曰く、君、臣を使うに礼を以てし、臣、君に事うるに忠を以てす。"
+  },
+  {
+    "id": "kimitaru-1",
+    "source_url": "https://kanbun.info/koji/kimitaru.html",
+    "hakubun": "定公問、一言而可以興邦、有諸。孔子對曰、言不可以若是其幾也。人之言曰、爲君難、爲臣不易。如知爲君之難也、不幾乎一言而興邦乎。",
+    "expected_kakikudashi": "定公問う、一言にして以て邦を興す可きもの、諸有りや。孔子対えて曰く、言は以て是くの若くなる可からざるも、其れ幾きなり。人の言に曰く、君為ること難く、臣為ること易からずと。如し君為ることの難きを知らば、一言にして邦を興すに幾からずや。"
+  },
+  {
+    "id": "kimijisho-1",
+    "source_url": "https://kanbun.info/koji/kimijisho.html",
+    "hakubun": "君賜食、必正席先嘗之。君賜腥、必熟而薦之。君賜生、必畜之。侍食於君、君祭先飯。",
+    "expected_kakikudashi": "君、食を賜えば、必ず席を正して先ず之を嘗む。君、腥を賜えば、必ず熟して之を薦む。君、生を賜えば、必ず之を畜う。君に侍食するに、君祭れば先ず飯す。"
+  },
+  {
+    "id": "kiminochi-1",
+    "source_url": "https://kanbun.info/koji/kiminochi.html",
+    "hakubun": "子曰、事君、敬其事、而後其食。",
+    "expected_kakikudashi": "子曰く、君に事うるには、其の事を敬して、其の食を後にす。"
+  },
+  {
+    "id": "kimihetsu-1",
+    "source_url": "https://kanbun.info/koji/kimihetsu.html",
+    "hakubun": "子曰、事君盡禮、人以爲諂也。",
+    "expected_kakikudashi": "子曰く、君に事うるに礼を尽くせば、人以て諂いと為すなり。"
+  },
+  {
+    "id": "kimitsuka-1",
+    "source_url": "https://kanbun.info/koji/kimitsuka.html",
+    "hakubun": "子游曰、事君數、斯辱矣。朋友數、斯疏矣。",
+    "expected_kakikudashi": "子游曰く、君に事えて数〻すれば、斯に辱めらる。朋友に数〻すれば、斯に疏んぜらる。"
+  },
+  {
+    "id": "kimimeiji-1",
+    "source_url": "https://kanbun.info/koji/kimimeiji.html",
+    "hakubun": "疾、君視之、東首加朝服、拖紳。君命召、不俟駕行矣。",
+    "expected_kakikudashi": "疾むとき、君之を視れば、東首して朝服を加え、紳を拖く。君、命じて召せば、駕を俟たずして行く。"
+  },
+  {
+    "id": "kiyu-1",
+    "source_url": "https://kanbun.info/koji/kiyu.html",
+    "hakubun": "杞國有人憂天地崩墜、身亡所寄、廢寢食者。",
+    "expected_kakikudashi": "杞国に人の天地崩墜して、身の寄する所亡きを憂え、寝食を廃する者有り。"
+  },
+  {
+    "id": "kiyu-2",
+    "source_url": "https://kanbun.info/koji/kiyu.html",
+    "hakubun": "又有憂彼之所憂者。",
+    "expected_kakikudashi": "又彼の憂うる所あるを憂うる者有り。"
+  },
+  {
+    "id": "kiyu-3",
+    "source_url": "https://kanbun.info/koji/kiyu.html",
+    "hakubun": "因往曉之曰、",
+    "expected_kakikudashi": "因りて往きて之を暁して曰く、"
+  },
+  {
+    "id": "kiyu-4",
+    "source_url": "https://kanbun.info/koji/kiyu.html",
+    "hakubun": "天積氣耳。",
+    "expected_kakikudashi": "天は積気のみ。"
+  },
+  {
+    "id": "kiyu-5",
+    "source_url": "https://kanbun.info/koji/kiyu.html",
+    "hakubun": "亡處亡氣。",
+    "expected_kakikudashi": "処として気亡きは亡し。"
+  },
+  {
+    "id": "kyuakuwo-1",
+    "source_url": "https://kanbun.info/koji/kyuakuwo.html",
+    "hakubun": "子曰、伯夷叔齊、不念舊惡。怨是用希。",
+    "expected_kakikudashi": "子曰く、伯夷・叔斉は、旧悪を念わず。怨み是を用て希なり。"
+  },
+  {
+    "id": "kyugyu-1",
+    "source_url": "https://kanbun.info/koji/kyugyu.html",
+    "hakubun": "僕之先、非有剖符丹書之功。文史星暦、近乎卜祝之間。固主上所戲弄、倡優所畜、流俗之所輕也。",
+    "expected_kakikudashi": "僕の先、剖符丹書の功有るに非ず。文史星暦、卜祝の間に近し。固より主上の戯弄する所、倡優の畜う所、流俗の軽んずる所なり。"
+  },
+  {
+    "id": "kyugyu-2",
+    "source_url": "https://kanbun.info/koji/kyugyu.html",
+    "hakubun": "假令僕伏法受誅、若九牛亡一毛、與螻蟻何以異。而世又不與能死節者、特以爲智窮罪極、不能自免、卒就死耳。何也、素所自樹立使然也。",
+    "expected_kakikudashi": "仮令僕、法に伏し誅を受くるも、九牛の一毛を亡うが若し、螻蟻と何を以て異ならんや。而して世は又能く死節する者を与さず、特だ以て智窮し罪極まり、自ら免るる能わず、卒に死に就くと為すのみ。何ぞや、素より自ら樹立する所の然らしむるなり。"
+  },
+  {
+    "id": "kyugyu-3",
+    "source_url": "https://kanbun.info/koji/kyugyu.html",
+    "hakubun": "人固有一死、或重於太山、或輕於鴻毛。用之所趨異也。",
+    "expected_kakikudashi": "人固より一死有り、或いは太山より重く、或いは鴻毛より軽し。用の趨く所異なればなり。"
+  },
+  {
+    "id": "kyugyu-4",
+    "source_url": "https://kanbun.info/koji/kyugyu.html",
+    "hakubun": "太上不辱先、其次不辱身、其次不辱理色、其次不辱辭令、其次詘體受辱、其次易服受辱、其次關木索被箠楚受辱、其次剔毛髮嬰金鐵受辱、其次毀肌膚斷肢體受辱、最下腐刑極矣。",
+    "expected_kakikudashi": "太上は先を辱めず、其の次は身を辱めず、其の次は理色を辱めず、其の次は辞令を辱めず、其の次は体を詘して辱めを受く、其の次は服を易えて辱めを受く、其の次は木索に関せられ箠楚を被りて辱めを受く、其の次は毛髪を剔られ金鉄を嬰らされて辱めを受く、其の次は肌膚を毀り肢体を断ちて辱めを受く、最下は腐刑極まれり。"
+  },
+  {
+    "id": "kunshikyu-1",
+    "source_url": "https://kanbun.info/koji/kunshikyu.html",
+    "hakubun": "孔子曰、君子有九思。視思明、聽思聰、色思溫、貌思恭、言思忠、事思敬、疑思問、忿思難、見得思義。",
+    "expected_kakikudashi": "孔子曰く、君子に九思有り。視るには明を思い、聴くには聡を思い、色は温を思い、貌は恭を思い、言は忠を思い、事は敬を思い、疑いには問うを思い、忿りには難を思い、得るを見ては義を思う。"
+  },
+  {
+    "id": "kyushitsu-1",
+    "source_url": "https://kanbun.info/koji/kyushitsu.html",
+    "hakubun": "子曰、禹吾無閒然矣。菲飮食、而致孝乎鬼神、惡衣服、而致美乎黻冕、卑宮室、而盡力乎溝洫。禹吾無閒然矣。",
+    "expected_kakikudashi": "子曰く、禹は吾間然すること無し。飲食を菲くして、孝を鬼神に致し、衣服を悪しくして、美を黻冕に致し、宮室を卑くして、力を溝洫に尽くす。禹は吾間然すること無し。"
+  },
+  {
+    "id": "gyushu-1",
+    "source_url": "https://kanbun.info/koji/gyushu.html",
+    "hakubun": "靈公好婦人而丈夫飾者。國人盡服之。公使吏禁之曰、女子而男子飾者、裂其衣斷其帶。裂衣斷帶、相望而不止。",
+    "expected_kakikudashi": "霊公、婦人にして丈夫の飾りする者を好む。国人尽く之を服す。公、吏をして之を禁ぜしめて曰く、女子にして男子の飾りする者は、其の衣を裂き其の帯を断たん、と。衣を裂き帯を断つも、相望みて止まず。"
+  },
+  {
+    "id": "gyushu-2",
+    "source_url": "https://kanbun.info/koji/gyushu.html",
+    "hakubun": "晏子見。公問曰、寡人使吏禁女子而男子飾、裂斷其衣帶、相望而不止者何也。",
+    "expected_kakikudashi": "晏子見ゆ。公問いて曰く、寡人、吏をして女子にして男子の飾りするを禁じ、其の衣帯を裂断せしむるに、相望みて止まざる者は、何ぞや、と。"
+  },
+  {
+    "id": "gyujiwo-1",
+    "source_url": "https://kanbun.info/koji/gyujiwo.html",
+    "hakubun": "衞人請執牛耳。成何曰、衞吾温原也。焉得視諸侯。",
+    "expected_kakikudashi": "衛人、牛耳を執らんことを請う。成何曰く、衛は吾が温・原なり。焉くんぞ諸侯に視うるを得んや、と。"
+  },
+  {
+    "id": "kyujinnoko-1",
+    "source_url": "https://kanbun.info/koji/kyujinnoko.html",
+    "hakubun": "嗚呼、夙夜罔或不勤。不矜細行、終累大德。爲山九仞、功虧一簣。",
+    "expected_kakikudashi": "嗚呼、夙夜勤めざる或る罔かれ。細行を矜まざれば、終に大徳を累わす。山を為ること九仞、功一簣に虧く。"
+  },
+  {
+    "id": "kyusu-1",
+    "source_url": "https://kanbun.info/koji/kyusu.html",
+    "hakubun": "履和而至、謙尊而光、復小而辨於物、恆雜而不厭、損先難而後易、益長裕而不設、困窮而通、井居其所而遷、巽稱而隱。",
+    "expected_kakikudashi": "履は和して至り、謙は尊くして光あり、復は小にして物を弁じ、恒は雑わりて厭わず、損は難を先にして易を後にし、益は長裕して設けず、困は窮して通じ、井は其の所に居りて遷り、巽は称りて隠る。"
+  },
+  {
+    "id": "kunmotokyu-1",
+    "source_url": "https://kanbun.info/koji/kunmotokyu.html",
+    "hakubun": "在陳絶糧。從者病、莫能興。子路慍見曰、君子亦有窮乎。子曰、君子固窮。小人窮斯濫矣。",
+    "expected_kakikudashi": "陳に在りて糧を絶つ。従者病みて、能く興つこと莫し。子路慍りて見えて曰く、君子も亦た窮すること有るか。子曰く、君子固より窮す。小人窮すれば斯に濫る。"
+  },
+  {
+    "id": "niwatori-1",
+    "source_url": "https://kanbun.info/koji/niwatori.html",
+    "hakubun": "子之武城、聞弦歌之聲。夫子莞爾而笑曰、割雞焉用牛刀。",
+    "expected_kakikudashi": "子、武城に之き、絃歌の声を聞く。夫子莞爾として笑いて曰く、鶏を割くに焉くんぞ牛刀を用いん。"
+  },
+  {
+    "id": "kunshisuku-1",
+    "source_url": "https://kanbun.info/koji/kunshisuku.html",
+    "hakubun": "子華使於齊。冉子爲其母請粟。子曰、與之釜。請益。曰、與之庾。冉子與之粟五秉。子曰、赤之適齊也、乗肥馬、衣輕裘。吾聞之也。君子周急不繼富。",
+    "expected_kakikudashi": "子華、斉に使いす。冉子其の母の為に粟を請う。子曰く、之に釜を与えよ。益さんことを請う。曰く、之に庾を与えよ。冉子之に粟五秉を与う。子曰く、赤の斉に適くや、肥馬に乗り、軽裘を衣る。吾之を聞く。君子は急なるを周うて富めるに継がず。"
+  },
+  {
+    "id": "kyuinoru-1",
+    "source_url": "https://kanbun.info/koji/kyuinoru.html",
+    "hakubun": "子疾病。子路請禱。子曰、有諸。子路對曰、有之。誄曰、禱爾于上下神祇。子曰、丘之禱久矣。",
+    "expected_kakikudashi": "子の疾、病なり。子路、禱らんことを請う。子曰く、諸有りや。子路対えて曰く、之有り。誄に曰く、爾を上下の神祇に禱る、と。子曰く、丘の禱ること久し。"
+  },
+  {
+    "id": "kyubokue-1",
+    "source_url": "https://kanbun.info/koji/kyubokue.html",
+    "hakubun": "宰予晝寝。子曰、朽木不可雕也。糞土之牆。不可杇也。於予與何誅。",
+    "expected_kakikudashi": "宰予、昼寝ぬ。子曰く、朽木は雕る可からず。糞土の牆は杇る可からず。予に於いてか何ぞ誅めん。"
+  },
+  {
+    "id": "kyuyasai-1",
+    "source_url": "https://kanbun.info/koji/kyuyasai.html",
+    "hakubun": "子曰、丘也幸。苟有過、人必知之。",
+    "expected_kakikudashi": "子曰く、丘や幸なり。苟くも過ち有れば、人必ず之を知る、と。"
+  },
+  {
+    "id": "kyuyashi-1",
+    "source_url": "https://kanbun.info/koji/kyuyashi.html",
+    "hakubun": "子路問、聞斯行諸。子曰、有父兄在。如之何其聞斯行之。冉有問、聞斯行諸。子曰、聞斯行之。公西華曰、由也問、聞斯行諸。子曰、有父兄在。求也問、聞斯行諸。子曰、聞斯行之。赤也惑。敢問。子曰、求也退。故進之。由也兼人。故退之。",
+    "expected_kakikudashi": "子路問う、聞くがままに斯に諸を行わんか。子曰く、父兄の在す有り。之を如何ぞ其れ聞くがままに斯に之を行わん。冉有問う、聞くがままに斯に諸を行わんか。子曰く、聞くがままに斯に之を行え。公西華曰く、由や問う、聞くがままに斯に諸を行わんかと。子曰く、父兄の在す有りと。求や問う、聞くがままに斯に諸を行わんかと。子曰く、聞くがままに斯に之を行えと。赤や惑う。敢えて問う。子曰く、求や退く。故に之を進む。由や人を兼ぬ。故に之を退く。"
+  },
+  {
+    "id": "kyuyohei-1",
+    "source_url": "https://kanbun.info/koji/kyuyohei.html",
+    "hakubun": "子路問成人。子曰、若臧武仲之知、公綽之不欲、卞莊子之勇、冉求之藝、文之以禮樂、亦可以爲成人矣。曰、今之成人者、何必然。見利思義、見危授命、久要不忘平生之言、亦可以爲成人矣。",
+    "expected_kakikudashi": "子路、成人を問う。子曰く、臧武仲の知、公綽の不欲、卞荘子の勇、冉求の芸の若き、之を文るに礼楽を以てせば、亦た以て成人と為す可し。曰く、今の成人なる者は何ぞ必ずしも然らん。利を見ては義を思い、危うきを見ては命を授け、久要に平生の言を忘れざれば、亦た以て成人と為す可し。"
+  },
+  {
+    "id": "kyogenzoku-1",
+    "source_url": "https://kanbun.info/koji/kyogenzoku.html",
+    "hakubun": "子曰、郷原德之賊也。",
+    "expected_kakikudashi": "子曰く、郷原は徳の賊なり。"
+  },
+  {
+    "id": "chukoete-1",
+    "source_url": "https://kanbun.info/koji/chukoete.html",
+    "hakubun": "子曰、不得中行而與之、必也狂狷乎。狂者進取、狷者有所不爲也。",
+    "expected_kakikudashi": "子曰く、中行を得て之に与せずんば、必ずや狂狷か。狂者は進みて取り、狷者は為さざる所有るなり。"
+  },
+  {
+    "id": "kyojinnoin-1",
+    "source_url": "https://kanbun.info/koji/kyojinnoin.html",
+    "hakubun": "郷人飮酒、杖者出、斯出矣。郷人儺、朝服而立於阼階。",
+    "expected_kakikudashi": "郷人の飲酒には、杖者出づれば、斯に出づ。郷人の儺には、朝服して阼階に立つ。"
+  },
+  {
+    "id": "kyojinyoki-1",
+    "source_url": "https://kanbun.info/koji/kyojinyoki.html",
+    "hakubun": "子貢問曰、郷人皆好之、何如。子曰、未可也。郷人皆惡之、何如。子曰、未可也。不如郷人之善者好之、其不善者惡之。",
+    "expected_kakikudashi": "子貢問いて曰く、郷人皆之を好まば、何如。子曰く、未だ可ならざるなり。郷人皆之を悪まば、何如。子曰く、未だ可ならざるなり。郷人の善き者は之を好み、其の善からざる者は之を悪むに如かず。"
+  },
+  {
+    "id": "kyotooite-1",
+    "source_url": "https://kanbun.info/koji/kyotooite.html",
+    "hakubun": "孔子於鄉黨、恂恂如也。似不能言者。其在宗廟朝廷、便便言。唯謹爾。",
+    "expected_kakikudashi": "孔子、郷党に於いては、恂恂如たり。言うこと能わざる者に似たり。其の宗廟・朝廷に在るや、便便として言う。唯だ謹めるのみ。"
+  },
+  {
+    "id": "kyonareba-1",
+    "source_url": "https://kanbun.info/koji/kyonareba.html",
+    "hakubun": "子張問仁於孔子。孔子曰、能行五者於天下爲仁矣。請問之。曰、恭寛信敏惠。恭則不侮、寛則得衆、信則人任焉、敏則有功、惠則足以使人。",
+    "expected_kakikudashi": "子張仁を孔子に問う。孔子曰く、能く五つの者を天下に行うを仁と為す。之を請い問う。曰く、恭・寛・信・敏・恵なり。恭なれば則ち侮られず、寛なれば則ち衆を得、信なれば則ち人任じ、敏なれば則ち功有り、恵なれば則ち以て人を使うに足る。"
+  },
+  {
+    "id": "kyochoku-1",
+    "source_url": "https://kanbun.info/koji/kyochoku.html",
+    "hakubun": "子曰、狂而不直、侗而不愿、悾悾而不信、吾不知之矣。",
+    "expected_kakikudashi": "子曰く、狂にして直ならず、侗にして愿ならず、悾悾として信ならざるは、吾之を知らず。"
+  },
+  {
+    "id": "kyoreina-1",
+    "source_url": "https://kanbun.info/koji/kyoreina.html",
+    "hakubun": "子曰、恭而無禮則勞。愼而無禮則葸。勇而無禮則亂。直而無禮則絞。君子篤於親、則民興於仁。故舊不遺、則民不偸。",
+    "expected_kakikudashi": "子曰く、恭にして礼無ければ則ち労す。慎にして礼無ければ則ち葸る。勇にして礼無ければ則ち乱る。直にして礼無ければ則ち絞し。君子親に篤ければ、則ち民仁に興る。故旧遺れざれば、則ち民偸からず。"
+  },
+  {
+    "id": "kyofuku-1",
+    "source_url": "https://kanbun.info/koji/kyofuku.html",
+    "hakubun": "凶服者式之。式負版者。",
+    "expected_kakikudashi": "凶服の者には之に式す。負版の者に式す。"
+  },
+  {
+    "id": "kyoreichi-1",
+    "source_url": "https://kanbun.info/koji/kyoreichi.html",
+    "hakubun": "有子曰、信近於義、言可復也。恭近於禮、遠恥辱也。因不失其親、亦可宗也。",
+    "expected_kakikudashi": "有子曰く、信、義に近ければ、言復む可きなり。恭、礼に近ければ、恥辱に遠ざかる。因ること其の親を失わざれば、亦た宗ぶ可きなり。"
+  },
+  {
+    "id": "kyokugaku-1",
+    "source_url": "https://kanbun.info/koji/kyokugaku.html",
+    "hakubun": "今上初即位、復以賢良徴固。諸諛儒多疾毀固曰、固老。罷歸之。時固已九十餘矣。固之徴也、薛人公孫弘亦徴、側目而視固。固曰、公孫子、務正學以言。無曲學以阿世。",
+    "expected_kakikudashi": "今上初めて位に即き、復た賢良を以て固を徴す。諸〻の諛儒多く固を疾み毀りて曰く、固老いたり、と。之を罷め帰す。時に固已に九十余なり。固の徴さるるや、薛人公孫弘も亦た徴され、目を側だてて固を視る。固曰く、公孫子、正学を務めて以て言え。学を曲げて以て世に阿ること無かれ、と。"
+  },
+  {
+    "id": "kyokukou-1",
+    "source_url": "https://kanbun.info/koji/kyokukou.html",
+    "hakubun": "子曰、飯疏食飮水、曲肱而枕之。樂亦在其中矣。不義而富且貴、於我如浮雲。",
+    "expected_kakikudashi": "子曰く、疏食を飯い水を飲み、肱を曲げて之を枕とす。楽しみ亦た其の中に在り。不義にして富み且つ貴きは、我に於いて浮雲の如し。"
+  },
+  {
+    "id": "kyokutotsu-1",
+    "source_url": "https://kanbun.info/koji/kyokutotsu.html",
+    "hakubun": "霍氏謀反、伏誅。夷其族。告者皆封列侯。初霍氏奢縱。茂陵徐福上疏言、宣以時抑制、無使至亡。書三上。不聽。",
+    "expected_kakikudashi": "霍氏謀反し、誅に伏す。其の族を夷ぐ。告ぐる者皆列侯に封ぜらる。初め霍氏、奢縦なり。茂陵の徐福、上疏して言う、宣しく時を以て抑制し、亡に至らしむること無かるべし、と。書三たび上る。聴かず。"
+  },
+  {
+    "id": "kyokutotsu-2",
+    "source_url": "https://kanbun.info/koji/kyokutotsu.html",
+    "hakubun": "至是、人爲徐生上書曰、客有過主人。見其竈直突、傍有積薪、謂主人、更爲曲突、速徙其薪。主人不應。俄失火。郷里共救之、幸而得息。",
+    "expected_kakikudashi": "是に至りて、人、徐生の為に上書して曰く、客に主人を過るもの有り。其の竈の直突にして、傍らに積薪有るを見て、主人に謂う、更めて曲突を為り、速やかに其の薪を徙せ、と。主人応ぜず。俄かに火を失す。郷里共に之を救い、幸いにして息むを得たり。"
+  },
+  {
+    "id": "kyokutotsu-3",
+    "source_url": "https://kanbun.info/koji/kyokutotsu.html",
+    "hakubun": "殺牛置酒、謝其郷人。人謂主人曰、郷使聽客之言、不費牛酒、終無火患。今、論功而賞、曲突徙薪無恩澤、焦頭爛額爲上客邪。上乃賜福帛以爲郎。",
+    "expected_kakikudashi": "牛を殺し酒を置いて、其の郷人に謝す。人、主人に謂いて曰く、郷に客の言を聴かしめば、牛酒を費やさず、終に火患無からん。今、功を論じて賞するに、曲突薪を徙せというものに恩沢無く、頭を焦がし額を爛らすものを上客と為すか、と。上、乃ち福に帛を賜い、以て郎と為す。"
+  },
+  {
+    "id": "gyokuseki-1",
+    "source_url": "https://kanbun.info/koji/gyokuseki.html",
+    "hakubun": "或貴愛詩賦淺近之細文、忽薄深美富博之子書。以磋切之至言爲騃拙、以虚華之小辯爲妍巧、眞僞顚倒、玉石混淆。",
+    "expected_kakikudashi": "或いは詩賦浅近の細文を貴愛し、深美富博の子書を忽薄す。磋切の至言を以て騃拙と為し、虚華の小弁を以て妍巧と為し、真偽顛倒し、玉石混淆す。"
+  },
+  {
+    "id": "kyohakana-1",
+    "source_url": "https://kanbun.info/koji/kyohakana.html",
+    "hakubun": "君子居必擇郷、遊必就士、所以防邪僻而近中正也。",
+    "expected_kakikudashi": "君子は居るに必ず郷を択び、遊ぶに必ず士に就くは、邪僻を防ぎ中正に近づく所以なり。"
+  },
+  {
+    "id": "kyowa-1",
+    "source_url": "https://kanbun.info/koji/kyowa.html",
+    "hakubun": "孟子自范之齊、望見齊王之子、喟然嘆曰、居移氣、養移體。大哉居乎。夫非盡人之子與。",
+    "expected_kakikudashi": "孟子范より斉に之き、斉王の子を望見し、喟然として嘆じて曰く、居は気を移し、養は体を移す、と。大なるかな居や。夫れ尽く人の子に非ざるか、と。"
+  },
+  {
+    "id": "kyowa-2",
+    "source_url": "https://kanbun.info/koji/kyowa.html",
+    "hakubun": "孟子曰、王子宮室車馬衣服多與人同。而王子若彼者、其居使之然也。況居天下之廣居者乎。",
+    "expected_kakikudashi": "孟子曰く、王子の宮室・車馬・衣服は多く人と同じ。而るに王子の彼の若き者は、其の居之をして然らしむるなり。況んや天下の広居に居る者をや。"
+  },
+  {
+    "id": "gyofu-1",
+    "source_url": "https://kanbun.info/koji/gyofu.html",
+    "hakubun": "趙且伐燕。",
+    "expected_kakikudashi": "趙、且に燕を伐たんとす。"
+  },
+  {
+    "id": "gyofu-2",
+    "source_url": "https://kanbun.info/koji/gyofu.html",
+    "hakubun": "蘇代爲燕謂惠王曰、",
+    "expected_kakikudashi": "蘇代、燕の為に恵王に謂いて曰く、"
+  },
+  {
+    "id": "gyofu-3",
+    "source_url": "https://kanbun.info/koji/gyofu.html",
+    "hakubun": "今者臣來過易水。",
+    "expected_kakikudashi": "今者、臣来たるとき易水を過ぐ。"
+  },
+  {
+    "id": "gyofu-4",
+    "source_url": "https://kanbun.info/koji/gyofu.html",
+    "hakubun": "蚌方出曝。",
+    "expected_kakikudashi": "蚌方に出でて曝す。"
+  },
+  {
+    "id": "gyofu-5",
+    "source_url": "https://kanbun.info/koji/gyofu.html",
+    "hakubun": "而鷸啄其肉。",
+    "expected_kakikudashi": "而して鷸其の肉を啄む。"
+  },
+  {
+    "id": "giwomite-1",
+    "source_url": "https://kanbun.info/koji/giwomite.html",
+    "hakubun": "子曰、非其鬼而祭之、諂也。見義不爲、無勇也。",
+    "expected_kakikudashi": "子曰く、其の鬼に非ずして之を祭るは、諂うなり。義を見て為ざるは、勇無きなり。"
+  },
+  {
+    "id": "kinkaichi-1",
+    "source_url": "https://kanbun.info/koji/kinkaichi.html",
+    "hakubun": "泰山不要欺毫末",
+    "expected_kakikudashi": "泰山は　毫末を欺くを要せず"
+  },
+  {
+    "id": "kinkaichi-2",
+    "source_url": "https://kanbun.info/koji/kinkaichi.html",
+    "hakubun": "顏子無心羨老彭",
+    "expected_kakikudashi": "顔子は　老彭を羨むに心無し"
+  },
+  {
+    "id": "kinkaichi-3",
+    "source_url": "https://kanbun.info/koji/kinkaichi.html",
+    "hakubun": "松樹千年終是朽",
+    "expected_kakikudashi": "松樹千年なるも　終に是れ朽ち"
   }
 ]
