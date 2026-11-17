@@ -18,8 +18,8 @@ import urllib.request
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-# 10 个故事页（故事名言，均为古文散文；出处页内注明）
-PAGES = [
+# 10 个故事页（故事名言，均为古文散文；出处页内注明）——Night1-3 的 10 页基础
+BASE_PAGES = [
     ("mujun", "https://kanbun.info/koji/mujun.html"),        # 矛盾（韓非子）
     ("dasoku", "https://kanbun.info/koji/dasoku.html"),      # 蛇足（史記）
     ("chosan", "https://kanbun.info/koji/chosan.html"),      # 朝三暮四（列子）
@@ -31,6 +31,53 @@ PAGES = [
     ("gojippo", "https://kanbun.info/koji/gojippo.html"),    # 五十歩百歩（孟子）
     ("keiko", "https://kanbun.info/koji/keiko.html"),        # 鶏口牛後（戦国策）
 ]
+
+# Night4: 五十音分类索引页（koji00a あ行 … koji00rongo 論語），从中汇总全部故事页
+CATEGORY_PAGES = [
+    "https://kanbun.info/koji/koji00a.html",
+    "https://kanbun.info/koji/koji00ka.html",
+    "https://kanbun.info/koji/koji00sa.html",
+    "https://kanbun.info/koji/koji00ta.html",
+    "https://kanbun.info/koji/koji00na.html",
+    "https://kanbun.info/koji/koji00ha.html",
+    "https://kanbun.info/koji/koji00ma.html",
+    "https://kanbun.info/koji/koji00ya.html",
+    "https://kanbun.info/koji/koji00ra.html",
+    "https://kanbun.info/koji/koji00rongo.html",
+]
+
+
+def discover_pages():
+    """BASE_PAGES 优先（保证 Night1-3 的 50 条子集稳定），再从分类页发现其余故事页。"""
+    import re as _re
+    import time as _t
+    import urllib.request as _rq
+
+    pages = list(BASE_PAGES)
+    seen = {pid for pid, _ in pages}
+    for cat in CATEGORY_PAGES:
+        html_txt = None
+        for attempt in range(3):
+            try:
+                req = _rq.Request(cat, headers={"User-Agent": "Mozilla/5.0 (kanbun-eval-builder)"})
+                with _rq.urlopen(req, timeout=45) as r:
+                    html_txt = r.read().decode("utf-8", errors="replace")
+                break
+            except Exception as e:
+                print("[CAT-RETRY] %s attempt %d: %r" % (cat.rsplit('/', 1)[-1], attempt + 1, e))
+                _t.sleep(3)
+        if not html_txt:
+            print("[CAT-SKIP] %s" % cat.rsplit('/', 1)[-1])
+            continue
+        # 分类页链接两种形态：../koji/xxx.html（索引页）与裸 xxx.html（同目录）
+        for m in _re.finditer(r'href="(?:\.\./koji/)?([a-z0-9_]+)\.html"', html_txt):
+            pid = m.group(1)
+            if pid.startswith("koji00") or pid in ("koji", "index") or pid in seen:
+                continue
+            seen.add(pid)
+            pages.append((pid, "https://kanbun.info/koji/%s.html" % pid))
+    print("[discover] total story pages:", len(pages))
+    return pages
 
 TAG_RX = re.compile(r"<[^>]+>")
 RT_RX = re.compile(r"<rt>.*?</rt>", re.S)
@@ -69,8 +116,12 @@ def main():
                             "eval", "golden.json")
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     per_page = int(os.environ.get("GOLDEN_PER_PAGE", "5"))
+    total_cap = int(os.environ.get("GOLDEN_TOTAL", "200"))
+    pages = discover_pages()
     entries = []
-    for pid, url in PAGES:
+    for pid, url in pages:
+        if len(entries) >= total_cap:
+            break
         try:
             page = fetch(url)
         except Exception as e:
@@ -80,11 +131,10 @@ def main():
         if not pairs:
             print("[SKIP] %s: no genbun01/yomi02 pairs found" % pid)
             continue
-        # 每页取前 N 对干净文本（NIGHT3: 5 对/页 × 10 页 = 50 条）；
-        # 白文混入读音注记（含全角括号）的丢弃
+        # 每页取前 N 对干净文本；白文混入读音注记（含全角括号）的丢弃
         n = 0
         for i, (genbun, yomi) in enumerate(pairs, start=1):
-            if n >= per_page:
+            if n >= per_page or len(entries) >= total_cap:
                 break
             hakubun = strip_white(genbun)
             kakikudashi = strip_yomi(yomi)
@@ -99,7 +149,7 @@ def main():
                 "expected_kakikudashi": kakikudashi,
             })
             n += 1
-        print("[OK] %s: %d pairs" % (pid, n))
+        print("[OK] %s: %d pairs (total %d)" % (pid, n, len(entries)))
     print("total entries:", len(entries))
     with open(out_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(entries, f, ensure_ascii=False, indent=2)

@@ -7,6 +7,7 @@ run_eval.py — 把 eval/golden.json 的 10 条白文逐条 POST 到本地 /api/
 """
 import json
 import os
+import re
 import sys
 import urllib.request
 
@@ -71,8 +72,12 @@ def main():
             continue
         got = resp.get("kakikudashi", "")
         expected = g["expected_kakikudashi"]
-        exact_match = got.strip() == expected.strip()
-        dist = levenshtein(got.strip(), expected.strip())
+        # NIGHT4: 比较前归一化——got 的句读换行是显示产物（expected 为单行），
+        # 把 \n/空白从两侧剥掉再比，避免把版式差异算成训读错误。
+        got_norm = re.sub(r"\s+", "", got)
+        exp_norm = re.sub(r"\s+", "", expected)
+        exact_match = got_norm == exp_norm
+        dist = levenshtein(got_norm, exp_norm)
         if exact_match:
             exact += 1
         results.append({
@@ -81,14 +86,15 @@ def main():
             "hakubun": g["hakubun"],
             "expected_kakikudashi": expected,
             "udkundoku_kakikudashi": got,
+            "udkundoku_kakikudashi_norm": got_norm,
             "udkundoku_kaeriten_text": resp.get("kaeriten_text", ""),
             "text_type": resp.get("text_type", ""),
             "exact_match": exact_match,
             "edit_distance": dist,
         })
         print("[%s] %s dist=%d" % ("EXACT" if exact_match else "DIFF ", g["id"], dist))
-        print("   expected: %s" % expected)
-        print("   got     : %s" % got.strip())
+        print("   expected: %s" % exp_norm)
+        print("   got     : %s" % got_norm)
     out = os.path.join(ROOT, "eval", OUTFILE)
     with open(out, "w", encoding="utf-8", newline="\n") as f:
         json.dump({"exact_match_count": exact, "total": len(results), "results": results},

@@ -21,7 +21,7 @@ from fastapi.concurrency import run_in_threadpool
 from pydantic import BaseModel
 
 from backend import db, llm
-from backend.kundoku_rules import merge_proper_nouns, normalize_shinjitai
+from backend.kundoku_rules import merge_proper_nouns, normalize_shinjitai, style_fix
 from backend.ocr_engine import get_engine, is_available
 
 logger = logging.getLogger("kanbun")
@@ -188,6 +188,10 @@ def kundoku(
         db.save_kundoku(text, kaeriten_text, kakikudashi)
     except Exception:
         logger.exception("db save failed (API 照常返回)")
+
+    # NIGHT4 Rule A：显示风格修正（ふ→う、は曰く→曰く），merge 开关下生效
+    if merge:
+        kakikudashi = style_fix(kakikudashi)
 
     return KundokuResponse(
         hakubun=text,

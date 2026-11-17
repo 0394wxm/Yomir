@@ -26,7 +26,44 @@ MERGE_WORDS = [
     # eval/golden.json 里出现的
     "楚人", "宋人", "狙公", "項王", "垓下", "張僧繇",
     "梁惠王", "荊宣王", "昭奚恤", "江乙", "群臣",
+    # NIGHT4：200 条基线的切分类挖掘（tools/mine_error_patterns.py）证据扩充，
+    # 各为 1~2 次但都是常见漢文复合词，通用性优先于逐条过拟合：
+    "諸侯", "木鐸", "樗蒲", "壑雷", "馬肥", "投足", "原君", "平原君", "人人", "自得",
 ]
+
+# NIGHT4 Rule A：输出层显示风格修正（merge 开关下生效），两类都做过语料安全性验证：
+#  - 验证1: golden.json 200 条的 expected 里「ふ」出现 0 次 —— 文语 ふ→う
+#    （言ふ→言う、鬻ふ→鬻う，kanbun.info 一律用现代假名遣い）不可能与答案冲突；
+#  - 验证2: expected 里「は曰く」出现 0 次（含「曰く」89 条）—— 引擎对引用句
+#    过度插主题は（Xは曰く → X曰く），按 kanbun.info 风格去掉。
+# 局限（如实）：は 的其余插删方向不一（135 处は多余 vs 16 处は缺失），无一致规则，不动。
+def is_kanji_char(c):
+    return "\u3400" <= c <= "\u9fff" or "\u4e00" <= c <= "\u4dbf"
+
+
+def style_modern_kana(text: str) -> str:
+    """文语 ふ（紧接汉字的送り仮名/终止形）→ 现代假名遣い う。"""
+    out = []
+    prev_kanji = False
+    for c in text:
+        if c == "ふ" and prev_kanji:
+            out.append("う")
+        else:
+            out.append(c)
+        prev_kanji = is_kanji_char(c)
+    return "".join(out)
+
+
+def style_drop_wa_before_iwaku(text: str) -> str:
+    """Xは曰く → X曰く（kanbun.info 引用句风格）。"""
+    return text.replace("は曰く", "曰く")
+
+
+def style_fix(text: str) -> str:
+    """NIGHT4 规则 A 总入口：显示风格修正，不改汉字词干、不动树结构。"""
+    t = style_modern_kana(text)
+    t = style_drop_wa_before_iwaku(t)
+    return t
 
 # ---------------------------------------------------------------------------
 # 旧字体 → 新字体（输出显示层专用，NIGHT3）
@@ -64,6 +101,8 @@ SHINJITAI_MAP = {
     "數": "数", "點": "点", "譽": "誉", "飮": "飲", "獸": "獣",
     "應": "応", "餘": "余", "將": "将", "圍": "囲", "觸": "触",
     "釋": "釈", "當": "当", "戰": "戦", "挾": "挟", "從": "従",
+    # NIGHT4：200 条基线 diff 扫描新增（mujun-2/3 expected「誉めて」got「譽し」）
+    "譽": "誉",
 }
 
 
