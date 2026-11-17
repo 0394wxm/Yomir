@@ -39,7 +39,7 @@ pip 走清华镜像，npm 走项目级 .npmrc；不要删 qkana shim（tools/mak
 状态: DONE（REPORT_NIGHT8.md）。提示词模板两条正式化（MODERN/GLOSSARY）；文语词库 209 条（backend/glossary_lexicon.py，来源=agent 整理、未人工校对，声明两处）；glossary 无 key 时先查词库（source:lexicon）；端到端实测矛盾句命中「鬻ぐ」；10 条评测句命中率 100%（含功能词命中——如实注明选词策略待优化）；pytest 14/14。
 
 ### Night 9 — LLM 适配层启用准备（有门禁）
-状态: TODO（门禁：用户给 key 才做，没给跳过并写"门禁未过，跳过"）
+状态: DONE（REPORT_NIGHT9.md）——**门禁未过，跳过**（用户未提供 key / 未选供应商）；报告写明恢复后 3 步操作清单。
 - 门禁：只有用户给了产品推理 API 的 key / 选了哪家，才能做这夜；没给就跳过这夜，直接做 Night 10，并在报告里写"门禁未过，跳过"。
 - 给了就做：按 KANBUN_LLM_API_KEY 等环境变量接通真实调用，10 条评测句跑一次現代語訳 / 語釈，人工核对质量，记 token 成本（按官方价折算）。
 - 产出：REPORT_NIGHT9.md，本地提交。
