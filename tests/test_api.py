@@ -9,6 +9,7 @@ test_api.py — API/规则自动化测试（NIGHT3）。
 - SQLite 用临时库（环境变量在 import 前设置），不污染正式 kanbun.db。
 """
 import os
+import re
 import sqlite3
 import sys
 import tempfile
@@ -42,11 +43,15 @@ def test_health(client):
 
 
 def test_kundoku_classic(client):
-    """三句经典句之一做真实断言（Night1 已人工核对过）。"""
+    """三句经典句之一做真实断言。
+
+    NIGHT5 note: ふ→う 现代假名遣い规则上线后，言ふ→言う（kanbun.info 语料 0 处ふ）；
+    而して 保留——Rule C（て而して→て）被 test 抓出破坏规范训读后已撤销。
+    """
     r = client.post("/api/kundoku", json={"text": "王顧左右而言他"})
     assert r.status_code == 200
     body = r.json()
-    assert body["kakikudashi"].strip() == "王は左右を顧みて而して他を言ふ"
+    assert body["kakikudashi"].strip() == "王は左右を顧みて而して他を言う"
     assert body["text_type"] == "kanbun"
     for field in ("hakubun", "kaeriten_text", "kaeriten_text_raw", "kakikudashi", "modern", "glossary"):
         assert field in body
@@ -134,6 +139,47 @@ def test_ocr_empty_upload(client):
     r = client.post("/api/ocr", files={"file": ("empty.png", b"", "image/png")})
     assert r.status_code == 400
     assert "上传内容为空" in r.json()["detail"]
+
+
+def test_cache_path_equivalent_to_whole_text(client):
+    """NIGHT7: 行级缓存路径与整段路径的訓読结果必须一致。"""
+    text = "王顧左右而言他。\n不入虎穴不得虎子。"
+    r_cache = client.post("/api/kundoku?cache=1", json={"text": text})
+    r_whole = client.post("/api/kundoku?cache=0", json={"text": text})
+    assert r_cache.status_code == r_whole.status_code == 200
+    c = r_cache.json()
+    w = r_whole.json()
+    assert re.sub(r"\s+", "", c["kakikudashi"]) == re.sub(r"\s+", "", w["kakikudashi"])
+    assert re.sub(r"\s+", "", c["kaeriten_text"]) == re.sub(r"\s+", "", w["kaeriten_text"])
+    # 缓存第二次命中也要一致
+    r_cache2 = client.post("/api/kundoku?cache=1", json={"text": text})
+    assert r_cache2.json()["kakikudashi"] == c["kakikudashi"]
+
+
+def test_history_roundtrip(client):
+    """NIGHT7: request_id 返回 + ocr_hakubun/prev_request_id 落库 + /api/history 可翻回。"""
+    r1 = client.post("/api/kundoku", json={"text": "不入虎穴不得虎子", "ocr_hakubun": "不入虎穴不得虎子。"})
+    assert r1.status_code == 200
+    id1 = r1.json()["request_id"]
+    assert id1 is not None
+    r2 = client.post("/api/kundoku", json={
+        "text": "王顧左右而言他", "ocr_hakubun": "王顧左右而言他。", "prev_request_id": id1})
+    id2 = r2.json()["request_id"]
+    assert id2 is not None and id2 > id1
+    h = client.get("/api/history?limit=5").json()["items"]
+    assert h[0]["id"] == id2
+    assert h[0]["prev_request_id"] == id1
+    assert h[0]["ocr_hakubun"] == "王顧左右而言他。"
+    assert h[0]["kakikudashi"] and "言う" in h[0]["kakikudashi"]
+    # 翻回 id1 的内容
+    entry1 = [x for x in h if x["id"] == id1][0]
+    assert entry1["ocr_hakubun"] == "不入虎穴不得虎子。"
+
+
+def test_history_limit_clamped(client):
+    r = client.get("/api/history?limit=999")
+    assert r.status_code == 200
+    assert len(r.json()["items"]) <= 100
 
 
 def test_ocr_missing_runtime_message_shape():

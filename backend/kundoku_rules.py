@@ -60,20 +60,22 @@ def style_drop_wa_before_iwaku(text: str) -> str:
 
 
 def style_dedup_shite_soshite(text: str) -> str:
-    """て而して → て（NIGHT5 规则 C）。
+    """て而して → て（NIGHT5 规则 C）—— **已撤销，不要启用**。
 
-    证据（tools/measure_rule_candidate.py 对 200 条 full_v2 的测量）：
-    「て而して」命中 26 条，26/26 处 expected 都是「〜て」直接续接
-    （而を二次接续として重複使用しない）。删除方向一致，零反向证据。
+    eval 语料里 26/26 方向一致（见 tools/measure_rule_candidate.py），但
+    语料外的经典句「王顧左右而言他」的规范训读是「顧みて而して他を言ふ」，
+    本规则把它破坏成「顧みて他を言う」（pytest test_kundoku_classic 抓出）。
+    而 して 续接在文语里合法且常见，语料证据不足以支撑删改。保留函数与
+    注释作为证据存档。
     """
     return text.replace("て而して", "て")
 
 
 def style_fix(text: str) -> str:
-    """NIGHT4 规则 A / NIGHT5 规则 C 总入口：显示风格修正，不改汉字词干、不动树结构。"""
+    """NIGHT4 规则 A 总入口：显示风格修正（ふ→う、は曰く→曰く）。
+    不含已撤销的 Rule C（て而して→て），不改汉字词干、不动树结构。"""
     t = style_modern_kana(text)
     t = style_drop_wa_before_iwaku(t)
-    t = style_dedup_shite_soshite(t)
     return t
 
 # ---------------------------------------------------------------------------

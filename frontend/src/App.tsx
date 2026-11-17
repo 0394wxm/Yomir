@@ -11,8 +11,6 @@ const KAERITEN_MAP: Record<string, string> = {
   '㆙': '甲', '㆚': '乙', '㆛': '丙', '㆜': '丁',
   '㆝': '天', '㆞': '地', '㆟': '人',
 }
-const KAERITEN_RX = /[㆑㆒㆓㆔㆕㆖㆗㆘㆙㆚㆛㆜㆝㆞㆟]+/g
-
 interface KaeritenChar { base: string; rt: string }
 
 // 把 raw 返り点文本（含合字）解析成 [字, 返り点] 序列。合字紧跟在字后面，无歧义。
@@ -22,7 +20,6 @@ function parseKaeriten(line: string): KaeritenChar[] {
   while (i < line.length) {
     const ch = line[i]
     if (KAERITEN_MAP[ch] !== undefined) {
-      // 开头就出现合字（不该发生）：跳过
       i += 1
       continue
     }
@@ -80,6 +77,7 @@ interface KundokuResult {
   glossary: { word: string; reading?: string; meaning?: string }[]
   text_type?: string
   note?: string
+  request_id?: number
   error?: string
 }
 
@@ -90,18 +88,28 @@ interface OcrResult {
   line_count?: number
 }
 
+interface HistoryItem {
+  id: number
+  hakubun: string
+  created_at: string
+  kaeriten_text?: string
+  kakikudashi?: string
+}
+
 export default function App() {
-  // 输入区（入口 A：粘贴文本）
   const [inputText, setInputText] = useState('')
-  // 入口 B：上传图片
   const [ocrNote, setOcrNote] = useState('')
   const [ocrBusy, setOcrBusy] = useState(false)
-  // 白文编辑区
+  const [ocrHakubun, setOcrHakubun] = useState('')       // OCR 原始白文（纠错基线）
+  const [ocrImgUrl, setOcrImgUrl] = useState('')         // 原图预览
   const [hakubun, setHakubun] = useState('')
-  // 输出区
   const [result, setResult] = useState<KundokuResult | null>(null)
   const [busy, setBusy] = useState(false)
   const [errMsg, setErrMsg] = useState('')
+  // NIGHT7: 历史翻回
+  const [historyItems, setHistoryItems] = useState<HistoryItem[]>([])
+  const [historyOpen, setHistoryOpen] = useState(false)
+  const [lastRequestId, setLastRequestId] = useState<number | null>(null)
 
   function sendToHakubun() {
     setErrMsg('')
@@ -119,8 +127,10 @@ export default function App() {
       const data: OcrResult = await res.json()
       if (data.status === 'ok' && data.hakubun) {
         setHakubun(data.hakubun)
+        setOcrHakubun(data.hakubun)                     // 纠错基线
+        setOcrImgUrl(URL.createObjectURL(file))         // 行对照用原图
         setOcrNote(
-          `OCR 完成（${data.line_count ?? '?'} 行）。白文已填入下方，可直接修改后点「重新訓読」。${DISCLAIMER}`,
+          `OCR 完成（${data.line_count ?? '?'} 行）。白文已填入下方，可用「行別対照」逐行校改。${DISCLAIMER}`,
         )
       } else {
         setOcrNote(data.note || data.status)
@@ -144,18 +154,22 @@ export default function App() {
       const res = await fetch('/api/kundoku', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text }),
+        body: JSON.stringify({
+          text,
+          ocr_hakubun: ocrHakubun,
+          prev_request_id: lastRequestId,
+        }),
       })
       const data = await res.json()
       if (!res.ok) {
         setResult(null)
         setErrMsg(typeof data.detail === 'string' ? data.detail : JSON.stringify(data))
       } else if (data.text_type === 'kana') {
-        // NIGHT3: 假名白文分流——不进訓読，只提示
         setResult(null)
         setErrMsg(data.note || '假名文学文本不适用漢文訓読。')
       } else {
         setResult(data)
+        if (data.request_id) setLastRequestId(data.request_id)
         setErrMsg('')
       }
     } catch {
@@ -166,15 +180,52 @@ export default function App() {
     }
   }
 
+  // NIGHT7: 行別対照——OCR 行与当前白文行并排，改过的行高亮
+  const ocrLines = ocrHakubun ? ocrHakubun.replace(/\r/g, '').split('\n').filter((l) => l.trim() !== '') : []
+  const curLines = hakubun ? hakubun.replace(/\r/g, '').split('\n').filter((l) => l.trim() !== '') : []
+
+  function editLine(idx: number, newText: string) {
+    const lines = [...curLines]
+    while (lines.length <= idx) lines.push('')
+    lines[idx] = newText
+    setHakubun(lines.join('\n'))
+  }
+
+  async function loadHistory() {
+    try {
+      const res = await fetch('/api/history?limit=20')
+      const data = await res.json()
+      setHistoryItems(data.items || [])
+      setHistoryOpen(true)
+    } catch {
+      setErrMsg('履歴の取得に失敗（后端未启动？）')
+    }
+  }
+
+  function restoreHistory(item: HistoryItem) {
+    setHakubun(item.hakubun)
+    if (item.kaeriten_text && item.kakikudashi) {
+      setResult({
+        hakubun: item.hakubun,
+        kaeriten_text: item.kaeriten_text,
+        kakikudashi: item.kakikudashi,
+        modern: '',
+        glossary: [],
+        request_id: item.id,
+      })
+      setLastRequestId(item.id)
+    }
+    setErrMsg('')
+  }
+
   return (
     <div className="layout">
       <header className="header">
         <h1>漢文 → 書き下し文</h1>
-        <p className="sub">Night 2：OCR 已接通（NDL 古典籍 OCR-Lite）/ 訓読 UD-Kundoku / LLM 占位</p>
+        <p className="sub">Night 7：OCR 行別対照 + 纠错 + 历史翻回 / 訓読 UD-Kundoku / LLM 占位</p>
       </header>
 
       <div className="left-pane">
-        {/* 左上：输入区，两个入口并排 */}
         <section className="card">
           <h2>输入</h2>
           <div className="entries">
@@ -207,7 +258,6 @@ export default function App() {
           </div>
         </section>
 
-        {/* 左下：白文编辑区 */}
         <section className="card">
           <h2>白文（可编辑）</h2>
           <textarea
@@ -220,12 +270,58 @@ export default function App() {
             <button onClick={runKundoku} disabled={busy || !hakubun.trim()}>
               {busy ? '訓読中…' : '重新訓読'}
             </button>
+            <button className="ghost" onClick={loadHistory}>履歴（翻回上一条）</button>
           </div>
           {errMsg && <p className="error">{errMsg}</p>}
         </section>
+
+        {/* NIGHT7: 行別対照（OCR ↔ 手改） */}
+        {ocrLines.length > 0 && (
+          <section className="card">
+            <h2>行別対照（改过的行会高亮，重新訓読只重算提交的文本）</h2>
+            <div className="linecompare">
+              <div className="imgcol">
+                {ocrImgUrl && <img src={ocrImgUrl} alt="原图" />}
+              </div>
+              <div className="linescol">
+                {curLines.map((line, idx) => {
+                  const orig = ocrLines[idx] ?? ''
+                  const changed = line !== orig
+                  return (
+                    <div key={idx} className={'linerow' + (changed ? ' changed' : '')}>
+                      <span className="lineno">{idx + 1}</span>
+                      <span className="origline">{orig || '（新行）'}</span>
+                      <input
+                        value={line}
+                        onChange={(e) => editLine(idx, e.target.value)}
+                      />
+                    </div>
+                  )
+                })}
+                {curLines.length === 0 && <p className="muted">白文为空。</p>}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* NIGHT7: 历史翻回 */}
+        {historyOpen && (
+          <section className="card">
+            <h2>履歴（最近 20 条，点一条翻回）</h2>
+            <ul className="historylist">
+              {historyItems.map((h) => (
+                <li key={h.id}>
+                  <button className="ghost small" onClick={() => restoreHistory(h)}>
+                    #{h.id} {h.created_at} — {h.hakubun.slice(0, 24)}…
+                  </button>
+                </li>
+              ))}
+              {historyItems.length === 0 && <li className="muted">还没有记录。</li>}
+            </ul>
+          </section>
+        )}
       </div>
 
-      {/* 右侧：输出区，四栏并列 */}
       <section className="card output-pane">
         <h2>输出</h2>
         <div className="outputs">

@@ -12,6 +12,7 @@ Night 2 变更:
 - 現代語訳/語釈走 backend/llm.py 适配层：无 KANBUN_LLM_API_KEY 时 mock 返回占位。
   key 由用户以后经环境变量提供，代码里不写死、不从 ZCode 抓 token。
 """
+import collections
 import logging
 import os
 import re
@@ -47,6 +48,9 @@ def _normalize_kaeriten(text: str) -> str:
 
 class KundokuRequest(BaseModel):
     text: str
+    # NIGHT7: 纠错工作流——OCR 原始白文（纠错基线）与上一条请求 id（翻回链）
+    ocr_hakubun: str = ""
+    prev_request_id: int = None
 
 
 class KundokuResponse(BaseModel):
@@ -64,6 +68,7 @@ class KundokuResponse(BaseModel):
     # 只回显原文 + 提示，避免输出乱插助词的“書き下し文”。
     text_type: str = "kanbun"   # "kanbun" | "kana"
     note: str = ""
+    request_id: int = None      # NIGHT7: 落库后的请求 id（前端翻回链用）
     error: str = ""
 
 
@@ -137,11 +142,66 @@ def _extract_kakikudashi(conllu: str) -> str:
     return "\n".join(lines)
 
 
+# NIGHT7: 行级缓存——"改一行只重跑一行"。键 = (行文本, merge)；
+# 值 = (kaeriten_raw, kakikudashi_raw)。风格/正字化在取用时按开关叠加。
+_SENT_CACHE = collections.OrderedDict()
+_SENT_CACHE_MAX = 500
+
+
+def _kundoku_line_cached(line: str, merge: bool):
+    key = (line, merge)
+    if key in _SENT_CACHE:
+        _SENT_CACHE.move_to_end(key)
+        return _SENT_CACHE[key]
+    entry = ENGINE(line)
+    if merge:
+        entry = merge_proper_nouns(entry)
+    k_raw = entry.kaeriten()
+    kk_raw = _extract_kakikudashi(__import__("udkundoku").translate(entry, raw=True))
+    _SENT_CACHE[key] = (k_raw, kk_raw)
+    if len(_SENT_CACHE) > _SENT_CACHE_MAX:
+        _SENT_CACHE.popitem(last=False)
+    return _SENT_CACHE[key]
+
+
+def _kundoku_result_for(text: str, merge: bool, ortho: bool, use_cache: bool):
+    """返回 (kaeriten_text, kaeriten_text_raw, kakikudashi)。
+
+    use_cache=True 时按行拆分、逐行查缓存（改过的行才重算）；
+    False 时走整段路径（Night1-3 原始行为，供测试对照）。
+    """
+    if use_cache:
+        k_parts, kk_parts, kraw_parts = [], [], []
+        for ln in text.split("\n"):
+            s = ln.strip()
+            if not s:
+                continue
+            k_raw, kk_raw = _kundoku_line_cached(s, merge)
+            kraw_parts.append(k_raw)
+            k_parts.append(_normalize_kaeriten(k_raw))
+            kk_parts.append(kk_raw)
+        kaeriten_raw = "\n".join(kraw_parts)
+        kaeriten_text = "\n".join(k_parts)
+        kakikudashi = "\n".join(kk_parts)
+    else:
+        entry = ENGINE(text)
+        if merge:
+            entry = merge_proper_nouns(entry)
+        kaeriten_raw = entry.kaeriten()
+        kaeriten_text = _normalize_kaeriten(kaeriten_raw)
+        kakikudashi = _extract_kakikudashi(__import__("udkundoku").translate(entry, raw=True))
+    # NIGHT4 Rule A / NIGHT5 Rule C：显示风格修正（merge 开关下生效）
+    if merge:
+        kakikudashi = style_fix(kakikudashi)
+    return kaeriten_text, kaeriten_raw, kakikudashi
+
+
 @app.post("/api/kundoku", response_model=KundokuResponse)
 def kundoku(
     req: KundokuRequest,
     merge: bool = Query(default=True, description="是否启用专名合并等后处理规则"),
     ortho: bool = Query(default=True, description="是否对書き下し文做旧字体→新字体显示转换"),
+    cache: bool = Query(default=True, description="NIGHT7: 行级缓存（改过的行才重算）；false 走整段路径"),
 ):
     text = (req.text or "").strip()
     if not text:
@@ -169,12 +229,7 @@ def kundoku(
         )
 
     try:
-        entry = ENGINE(text)
-        if merge:
-            entry = merge_proper_nouns(entry)  # Night 2: 专名切分错误的后处理（见 kundoku_rules.py）
-        kaeriten_raw = entry.kaeriten()
-        kaeriten_text = _normalize_kaeriten(kaeriten_raw)
-        kakikudashi = _extract_kakikudashi(__import__("udkundoku").translate(entry, raw=True))
+        kaeriten_text, kaeriten_raw, kakikudashi = _kundoku_result_for(text, merge, ortho, use_cache=cache)
     except Exception as e:
         logger.exception("kundoku failed on %r", text[:50])
         raise HTTPException(status_code=500, detail="訓読処理失敗: %r" % (e,))
@@ -184,14 +239,15 @@ def kundoku(
     modern = llm.modern_translate(text, kakikudashi)
     glossary = llm.glossary(text)
 
+    request_id = None
     try:
-        db.save_kundoku(text, kaeriten_text, kakikudashi)
+        request_id = db.save_kundoku(
+            text, kaeriten_text, kakikudashi,
+            ocr_hakubun=(req.ocr_hakubun or None),
+            prev_request_id=req.prev_request_id,
+        )
     except Exception:
         logger.exception("db save failed (API 照常返回)")
-
-    # NIGHT4 Rule A：显示风格修正（ふ→う、は曰く→曰く），merge 开关下生效
-    if merge:
-        kakikudashi = style_fix(kakikudashi)
 
     return KundokuResponse(
         hakubun=text,
@@ -200,7 +256,15 @@ def kundoku(
         kakikudashi=normalize_shinjitai(kakikudashi) if ortho else kakikudashi,
         modern=modern,
         glossary=glossary,
+        request_id=request_id,
     )
+
+
+@app.get("/api/history")
+def history(limit: int = Query(default=20, description="返回最近 N 条（1~100）")):
+    """NIGHT7: 历史记录——翻回上一条訓読请求。"""
+    limit = max(1, min(limit, 100))
+    return {"items": db.get_history(limit)}
 
 
 @app.post("/api/ocr")
