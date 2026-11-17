@@ -30,11 +30,7 @@ pip 走清华镜像，npm 走项目级 .npmrc；不要删 qkana shim（tools/mak
 状态: DONE（REPORT_NIGHT5.md）。guwenbert：模型已下载+可加载，但 PyPI supar 全系（1.1.2/1.1.4）predict 管线与 git-2022 checkpoint 不兼容（feats 空 IndexError，1.1.0 wheel 还有打包 bug），按 1.5h 预算止损——下一夜走「训练同代 git supar」或「手写带 bert transform 加载器」两路线之一；qkana：Range 续传被服务器支持但 body 再次停滞（26MB 粒度），仍需可达网络；规则第二轮：Rule C「て而して→て」（26/26 方向一致）落地，full_v3 26 改善/0 变差，avgDist 21.02→20.48（vs 基线累计 130 改善/6 变差）；精确匹配仍 0/200；再読文字/活用表按证据不做（解析层）。
 
 ### Night 6 — OCR 批量 + 样张库
-状态: TODO
-- 从 NDL IIIF 下 20 张不同くずし字样张（不同书、不同版式），建 ocr_runtime/samples/ 样张库，每张记来源 URL。
-- 每张跑 /api/ocr，记行数、开头是否正确、列序是否交错；不给无 ground truth 的准确率数字。
-- 把 OCR 单张 72~80 秒的耗时拆开记：加载 / 检测 / 识别各占多少，写优化建议（缓存模型、批量队列），今晚只记不重构。
-- 产出：REPORT_NIGHT6.md，本地提交。
+状态: DONE（REPORT_NIGHT6.md）。20 张样张库建成（8 本书：竹取/絵本/論語序説/伊藤文書/墨場必携/信長公記上下/1288060，manifest 全记 URL）；20/20 跑通；耗时拆解：加载 49.8s 一次性、检测 ~20.8s/张恒定、识别 ~2.2s/行 线性（50 行→105s）；新垃圾形态「}」（刊本界框行）与 0 行插图页已记录并给了建议。
 
 ### Night 7 — 用户纠错工作流
 状态: TODO
