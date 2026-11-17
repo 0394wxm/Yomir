@@ -59,10 +59,21 @@ def style_drop_wa_before_iwaku(text: str) -> str:
     return text.replace("は曰く", "曰く")
 
 
+def style_dedup_shite_soshite(text: str) -> str:
+    """て而して → て（NIGHT5 规则 C）。
+
+    证据（tools/measure_rule_candidate.py 对 200 条 full_v2 的测量）：
+    「て而して」命中 26 条，26/26 处 expected 都是「〜て」直接续接
+    （而を二次接续として重複使用しない）。删除方向一致，零反向证据。
+    """
+    return text.replace("て而して", "て")
+
+
 def style_fix(text: str) -> str:
-    """NIGHT4 规则 A 总入口：显示风格修正，不改汉字词干、不动树结构。"""
+    """NIGHT4 规则 A / NIGHT5 规则 C 总入口：显示风格修正，不改汉字词干、不动树结构。"""
     t = style_modern_kana(text)
     t = style_drop_wa_before_iwaku(t)
+    t = style_dedup_shite_soshite(t)
     return t
 
 # ---------------------------------------------------------------------------

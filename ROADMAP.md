@@ -27,11 +27,7 @@ pip 走清华镜像，npm 走项目级 .npmrc；不要删 qkana shim（tools/mak
 状态: DONE（提交见 git log；REPORT_NIGHT4.md）。200 条就位（golden.json）；归一化口径基线 0/200 avgDist 22.14；分类：助词错 92% / 切分错 90% / 旧字体 12% / 专名 0.5%（多标签）；规则 A（ふ→う + は曰く→曰く，语料验证 0 冲突）+ 规则 B（复合词典 +10）→ full_v2 avgDist 21.02，vs 基线改善 124 / 变差 6；精确匹配仍 0/200；toranoi-1 等 6 条变差已记录。
 
 ### Night 5 — 訓読质量第二轮（模型路线）
-状态: TODO
-- 先试 Night 3 留下的两个脚本：官方 qkana 替换、guwenbert 试跑。文件拿到了就替换 + 重跑评测对比；拿不到就记"本机未实测"，不要耗超过 1 小时。
-  （Night 3 更新：guwenbert-base.supar 已在本机 site-packages\udkanbun\supar-kanbun\，卡在 supar 1.1.4 predict 的 feats 空 bug——Night 5 从这里继续：对齐 supar 版本或改文件式 predict。qkana 仍需可达 NINJAL 的网络。）
-- 拿不到模型就做规则第二轮：高频动词活用表、再読文字「未」以外的常见句式（應・當・須・蓋・宜・將）做显式处理，逐条记效果。
-- 产出：REPORT_NIGHT5.md，本地提交。
+状态: DONE（REPORT_NIGHT5.md）。guwenbert：模型已下载+可加载，但 PyPI supar 全系（1.1.2/1.1.4）predict 管线与 git-2022 checkpoint 不兼容（feats 空 IndexError，1.1.0 wheel 还有打包 bug），按 1.5h 预算止损——下一夜走「训练同代 git supar」或「手写带 bert transform 加载器」两路线之一；qkana：Range 续传被服务器支持但 body 再次停滞（26MB 粒度），仍需可达网络；规则第二轮：Rule C「て而して→て」（26/26 方向一致）落地，full_v3 26 改善/0 变差，avgDist 21.02→20.48（vs 基线累计 130 改善/6 变差）；精确匹配仍 0/200；再読文字/活用表按证据不做（解析层）。
 
 ### Night 6 — OCR 批量 + 样张库
 状态: TODO
