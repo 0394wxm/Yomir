@@ -48,10 +48,7 @@ pip 走清华镜像，npm 走项目级 .npmrc；不要删 qkana shim（tools/mak
 状态: DONE（REPORT_NIGHT10.md）。导出三件套（复制/txt 下载/打印+@media print 样式）；窄屏 ≤900px 单列响应式；tsc --noEmit 零错误；浏览器人工确认清单 5 项留待用户。
 
 ### Night 11 — 性能与稳定性
-状态: TODO
-- 后端：引擎常驻、OCR 模型常驻后，连续调 20 次 /api/kundoku 记耗时与内存；OCR 批量队列（一次传多张，按顺序出结果，不并行压 Celeron）。
-- 前端：首屏加载、vite 构建产物大小记下来；npm run build 能通过才算完。
-- 产出：REPORT_NIGHT11.md，本地提交。
+状态: DONE（REPORT_NIGHT11.md）。20 连调：unique avg 513ms / cached 最低 3ms、内存 140.5→143.1MB 稳定（2412ms 离群值如实记录）；OCR 批量端点 /api/ocr/batch 上线并实测 2 张 126.1s；npm run build 通过 dist 229KB。
 
 ### Night 12 — Web MVP v0.1 封版
 状态: TODO

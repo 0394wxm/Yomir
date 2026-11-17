@@ -16,6 +16,7 @@ import collections
 import logging
 import os
 import re
+import time
 
 from fastapi import FastAPI, HTTPException, Query, UploadFile
 from fastapi.concurrency import run_in_threadpool
@@ -265,6 +266,43 @@ def history(limit: int = Query(default=20, description="返回最近 N 条（1~1
     """NIGHT7: 历史记录——翻回上一条訓読请求。"""
     limit = max(1, min(limit, 100))
     return {"items": db.get_history(limit)}
+
+
+@app.post("/api/ocr/batch")
+async def ocr_batch(files: list[UploadFile]):
+    """NIGHT11: OCR 批量端点——多张图按顺序串行识别（不并行压 Celeron）。"""
+    if not files:
+        raise HTTPException(status_code=400, detail="files 为空")
+    results = []
+    t0 = time.time()
+    for f in files:
+        data = await f.read()
+        if not data:
+            results.append({"file": f.filename or "", "status": "empty"})
+            continue
+        if not is_available():
+            results.append({"file": f.filename or "", "hakubun": "", "status": "not_implemented_yet",
+                            "note": "OCR 运行目录缺失"})
+            continue
+        try:
+            engine = await run_in_threadpool(get_engine)
+            r = await run_in_threadpool(engine.recognize_bytes, data)
+            results.append({
+                "file": f.filename or "",
+                "hakubun": r["text"],
+                "status": "ok",
+                "line_count": r["line_count"],
+                "elapsed_sec": r["elapsed_sec"],
+            })
+        except Exception as e:
+            results.append({"file": f.filename or "", "hakubun": "", "status": "ocr_error",
+                            "note": "%r" % (e,)})
+    return {
+        "n": len(results),
+        "total_elapsed_sec": round(time.time() - t0, 1),
+        "results": results,
+        "disclaimer": DISCLAIMER,
+    }
 
 
 @app.post("/api/ocr")
