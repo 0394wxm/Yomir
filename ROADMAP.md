@@ -36,10 +36,7 @@ pip 走清华镜像，npm 走项目级 .npmrc；不要删 qkana shim（tools/mak
 状态: DONE（REPORT_NIGHT7.md）。行別対照面板（原图预览+逐行编辑+改动高亮）；SQLite 历史记录（ocr_hakubun/prev_request_id 列 + /api/history 翻回）；行级缓存（改一行只重算一行，cache=0 可回退整段路径，等价性已测）；**撤销 Night5 Rule C**（test_kundoku_classic 抓出其破坏「顧みて而して他を言う」规范训读——报告 §4 记录全过程）；pytest 14/14。
 
 ### Night 8 — 現代語訳 / 語釈的提示词与词库（无 key 也能做）
-状态: TODO
-- 不接任何 LLM key。只做两件离线能做的事：① 写好現代語訳 / 語釈的提示词模板（放 backend/llm.py 的 TODO 段旁边）；② 建一个小词库（常用文语词 200 条：词、读音、释义，来源记清楚），glossary 先从词库查，查不到再留空。
-- 用 10 条评测句人工核对词库命中情况，记命中率。
-- 产出：REPORT_NIGHT8.md，本地提交。
+状态: DONE（REPORT_NIGHT8.md）。提示词模板两条正式化（MODERN/GLOSSARY）；文语词库 209 条（backend/glossary_lexicon.py，来源=agent 整理、未人工校对，声明两处）；glossary 无 key 时先查词库（source:lexicon）；端到端实测矛盾句命中「鬻ぐ」；10 条评测句命中率 100%（含功能词命中——如实注明选词策略待优化）；pytest 14/14。
 
 ### Night 9 — LLM 适配层启用准备（有门禁）
 状态: TODO（门禁：用户给 key 才做，没给跳过并写"门禁未过，跳过"）

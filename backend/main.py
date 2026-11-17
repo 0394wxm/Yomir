@@ -235,9 +235,9 @@ def kundoku(
         raise HTTPException(status_code=500, detail="訓読処理失敗: %r" % (e,))
 
     # 現代語訳 / 語釈：适配层在 backend/llm.py。
-    # 无 KANBUN_LLM_API_KEY 时 mock 返回占位，不联网、不写死 key。
+    # 无 KANBUN_LLM_API_KEY 时：語釈先查 209 条文语词库（NIGHT8）、modern 留占位。
     modern = llm.modern_translate(text, kakikudashi)
-    glossary = llm.glossary(text)
+    glossary = llm.glossary(text, kakikudashi)
 
     request_id = None
     try:
