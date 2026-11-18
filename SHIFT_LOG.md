@@ -26,3 +26,5 @@
 - 2026-11-18 22:58 | D2/D4/D7 复验（发现今晚任务单是旧清单，三件白天已完成，不重做） | D2：accept_night.py 21 → PASS 6/6（23.4s，内含 pytest 15 passed，expected 未改，Rule C 仍撤销）；D7：test_ocr_batch_progress.py → 6 passed（7.6s，桩引擎）；D4：day4_raw_io.py 复测 D: fsync 93.6ms vs C: 2.4ms（39×，结论仍成立；定位报告 29cfb8c 未动 db.py，5 个候选方案仍等拍板） | 三件以复验通过计，直接进 Night 22
 
 - 2026-11-18 23:40 | Night 22 DONE | 「而して」解剖：256 处输出层分布 kana 191/punct 50/kanji 13/BOS 2；R1 汉字前置删假设否决(+0.01)；上线 Rule C'（て而して→て+顧み护栏）：真机 500 条 avgDist 27.02→26.21，107 改善/0 变差，精确 0→1（kantanayu-3）；pytest 33 passed；模拟与真机逐项一致 | 提交后终跑验收门 22 → 进 Night 23
+
+- 2026-11-19 00:20 | Night 23 DONE | 論語分文体落地：golden_rongo 117 条（0 抓取失败）、评测 0 错、avgDist 35.55 vs 故事名言 26.21（>40 字占 44% 是主因；≤20 档 13.74 vs 10.32 更难、20-40 档 20.33 vs 24.71 反而更好）；Night21 §5 honbun02 记录修正为 yomi03 | 提交 + 验收门 23 → 下一夜

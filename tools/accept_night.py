@@ -50,6 +50,7 @@ NIGHT_ARTIFACTS = {
     21: ["night21_results_full.json", "night21_results_full_v4.json",
          "night21_results_full_v4_500.json"],
     22: ["night22_results_full.json"],
+    23: ["night23_results_rongo.json"],
 }
 
 # Night 4 之后 expected 应保持的经典句（防止有人改评测数据来「提分」）
