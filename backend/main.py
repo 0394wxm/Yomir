@@ -40,6 +40,15 @@ KAERITEN_MAP = {
 
 DISCLAIMER = "AI 初稿，仅供参考，请以原文和专业判断为准。"
 
+# NIGHT-D4: 分段计时开关。默认关闭（不改变生产路径的性能与行为）；
+# 设 KANBUN_TIMING=1 后，每次 /api/kundoku 往 logger 打一行
+# `TIMING <request> <总ms> = engine X | merge X | kaeriten X | translate X | style X | glossary X | db X`
+_TIMING = os.environ.get("KANBUN_TIMING", "").strip() in ("1", "true", "yes", "on")
+
+
+def _now_ms():
+    return time.perf_counter() * 1000.0
+
 
 def _normalize_kaeriten(text: str) -> str:
     for k, v in KAERITEN_MAP.items():
@@ -150,34 +159,55 @@ _SENT_CACHE_MAX = 500
 
 
 def _kundoku_line_cached(line: str, merge: bool):
+    """行级缓存查询（Night 7）。计时版本 _kundoku_line_timed 复用本函数。"""
+    return _kundoku_line_timed(line, merge, {})
+
+
+def _kundoku_line_timed(line: str, merge: bool, seg: dict):
+    """与 _kundoku_line_cached 同逻辑，但把各段耗时累加进 seg（NIGHT-D4 定位用）。
+
+    seg 的键：engine / merge / kaeriten / translate / cache_hit
+    """
     key = (line, merge)
     if key in _SENT_CACHE:
         _SENT_CACHE.move_to_end(key)
+        seg["cache_hit"] += 1
         return _SENT_CACHE[key]
+    t = _now_ms()
     entry = ENGINE(line)
+    seg["engine"] += _now_ms() - t
     if merge:
+        t = _now_ms()
         entry = merge_proper_nouns(entry)
+        seg["merge"] += _now_ms() - t
+    t = _now_ms()
     k_raw = entry.kaeriten()
+    seg["kaeriten"] += _now_ms() - t
+    t = _now_ms()
     kk_raw = _extract_kakikudashi(__import__("udkundoku").translate(entry, raw=True))
+    seg["translate"] += _now_ms() - t
     _SENT_CACHE[key] = (k_raw, kk_raw)
     if len(_SENT_CACHE) > _SENT_CACHE_MAX:
         _SENT_CACHE.popitem(last=False)
     return _SENT_CACHE[key]
 
 
-def _kundoku_result_for(text: str, merge: bool, ortho: bool, use_cache: bool):
+def _kundoku_result_for(text: str, merge: bool, ortho: bool, use_cache: bool, seg=None):
     """返回 (kaeriten_text, kaeriten_text_raw, kakikudashi)。
 
     use_cache=True 时按行拆分、逐行查缓存（改过的行才重算）；
     False 时走整段路径（Night1-3 原始行为，供测试对照）。
+    seg 不为 None 时累加分段耗时（NIGHT-D4）。
     """
+    if seg is None:
+        seg = {}
     if use_cache:
         k_parts, kk_parts, kraw_parts = [], [], []
         for ln in text.split("\n"):
             s = ln.strip()
             if not s:
                 continue
-            k_raw, kk_raw = _kundoku_line_cached(s, merge)
+            k_raw, kk_raw = _kundoku_line_timed(s, merge, seg)
             kraw_parts.append(k_raw)
             k_parts.append(_normalize_kaeriten(k_raw))
             kk_parts.append(kk_raw)
@@ -185,15 +215,25 @@ def _kundoku_result_for(text: str, merge: bool, ortho: bool, use_cache: bool):
         kaeriten_text = "\n".join(k_parts)
         kakikudashi = "\n".join(kk_parts)
     else:
+        t = _now_ms()
         entry = ENGINE(text)
+        seg["engine"] += _now_ms() - t
         if merge:
+            t = _now_ms()
             entry = merge_proper_nouns(entry)
+            seg["merge"] += _now_ms() - t
+        t = _now_ms()
         kaeriten_raw = entry.kaeriten()
+        seg["kaeriten"] += _now_ms() - t
+        t = _now_ms()
         kaeriten_text = _normalize_kaeriten(kaeriten_raw)
         kakikudashi = _extract_kakikudashi(__import__("udkundoku").translate(entry, raw=True))
+        seg["translate"] += _now_ms() - t
     # NIGHT4 Rule A：显示风格修正（ふ→う、は曰く→曰く），merge 开关下生效
     if merge:
+        t = _now_ms()
         kakikudashi = style_fix(kakikudashi)
+        seg["style"] += _now_ms() - t
     return kaeriten_text, kaeriten_raw, kakikudashi
 
 
@@ -208,9 +248,15 @@ def kundoku(
     if not text:
         raise HTTPException(status_code=400, detail="text 为空，请先输入白文")
 
+    t_req = _now_ms()
+    seg = collections.defaultdict(float)
+
     # NIGHT3: 假名白文分流——假名文学文本（竹取物語等）与假名占多数的
     # 训读体/明治文书（侯文）都不适用漢文訓読，不做二次插助词。
     if detect_text_type(text) == "kana":
+        if _TIMING:
+            logger.info("TIMING %d chars cache=%s hit=0 total=%.1fms | kana-branch (no kundoku)",
+                        len(text), cache, _now_ms() - t_req)
         return KundokuResponse(
             hakubun=text,
             kaeriten_text="",
@@ -230,17 +276,21 @@ def kundoku(
         )
 
     try:
-        kaeriten_text, kaeriten_raw, kakikudashi = _kundoku_result_for(text, merge, ortho, use_cache=cache)
+        kaeriten_text, kaeriten_raw, kakikudashi = _kundoku_result_for(
+            text, merge, ortho, use_cache=cache, seg=seg)
     except Exception as e:
         logger.exception("kundoku failed on %r", text[:50])
         raise HTTPException(status_code=500, detail="訓読処理失敗: %r" % (e,))
 
     # 現代語訳 / 語釈：适配层在 backend/llm.py。
-    # 无 KANBUN_LLM_API_KEY 时：語釈先查 209 条文语词库（NIGHT8）、modern 留占位。
+    # 无 KANBUN_LLM_API_KEY 时：語釈先查 500 条文语词库（NIGHT8/D3）、modern 留占位。
+    t = _now_ms()
     modern = llm.modern_translate(text, kakikudashi)
     glossary = llm.glossary(text, kakikudashi)
+    seg["glossary"] = _now_ms() - t
 
     request_id = None
+    t = _now_ms()
     try:
         request_id = db.save_kundoku(
             text, kaeriten_text, kakikudashi,
@@ -249,6 +299,16 @@ def kundoku(
         )
     except Exception:
         logger.exception("db save failed (API 照常返回)")
+    seg["db"] = _now_ms() - t
+
+    if _TIMING:
+        logger.info(
+            "TIMING %d chars cache=%s hit=%d total=%.1fms | engine %.1f | merge %.1f | "
+            "kaeriten %.1f | translate %.1f | style %.1f | glossary %.1f | db %.1f",
+            len(text), cache, int(seg.get("cache_hit", 0)), _now_ms() - t_req,
+            seg["engine"], seg["merge"], seg["kaeriten"], seg["translate"],
+            seg["style"], seg["glossary"], seg["db"],
+        )
 
     return KundokuResponse(
         hakubun=text,
