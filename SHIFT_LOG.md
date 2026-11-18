@@ -16,3 +16,11 @@
 - 2026-11-18 02:20 | Night 12 DONE | v0.1 ?? tag(243b468)+????x3+README+????8? | Night 13 Tauri:?? Rust ??? 
 - 2026-11-18 04:40 | Night 13 ???? | Tauri ?????? Rust ????;MSVC/SDK/WebView2 ??;??????(v4 ??) | ? Night 21 ????:?? 500 ?+???(agent-detailed) 
 - 2026-11-18 05:00 | Night 21(agent-detailed) | golden 500 ???(koji ????);500 ? full ?????(? 100 ??) | Tauri cargo build(Rust 1.100+MSVC14.44 ??)????  06:45 ??+?? 
+
+# —— 2026-11-18 22:55 ～（晚班/旗舰 GLM-5.3，用户令：烧到 23:59，Flash 到了直接进夜班）——
+
+注：上方历史条目在早前会话写入时已发生编码损坏（大量 ? 与 0x1a 控制符），不回改、不猜测原文；
+本条起新增内容均为 UTF-8 正常文本。
+
+- 2026-11-18 22:55 | 班次交接核对 | 89c20de 与 84cdbbf 的关系已查明：同一天 master 上的先后提交，无分叉无冲突。89c20de=15:55 早前会话做 full_v4 对比（清单 D1 下半场；报告文件名误编为 REPORT_DAY9.md，非第九天班次）；84cdbbf=22:24 本会话 D8 盘点。中间依次：836d996(D2 验收门 16:03)→7992994(D3 词库 16:59)→2228ff5(gate PASS 17:00)→571d36e(D5 人工标注 17:08)→29cfb8c(D4 离群值 17:37)→9c3790a(D7 OCR 进度 18:18)→899894b(D6 sidecar 21:46) | 复验 D2/D4/D7 现状后进 Night 22
+- 2026-11-18 22:58 | D2/D4/D7 复验（发现今晚任务单是旧清单，三件白天已完成，不重做） | D2：accept_night.py 21 → PASS 6/6（23.4s，内含 pytest 15 passed，expected 未改，Rule C 仍撤销）；D7：test_ocr_batch_progress.py → 6 passed（7.6s，桩引擎）；D4：day4_raw_io.py 复测 D: fsync 93.6ms vs C: 2.4ms（39×，结论仍成立；定位报告 29cfb8c 未动 db.py，5 个候选方案仍等拍板） | 三件以复验通过计，直接进 Night 22

@@ -1,8 +1,8 @@
 {
   "night": 21,
   "verdict": "PASS",
-  "checked_at": "2026-11-18T17:00:06",
-  "elapsed_sec": 32.2,
+  "checked_at": "2026-11-18T22:38:25",
+  "elapsed_sec": 23.4,
   "n_checks": 6,
   "n_fail": 0,
   "n_skip": 0,
@@ -25,16 +25,16 @@
       "title": "tests/test_api.py 全过",
       "status": "pass",
       "notes": [
-        "14 passed（15.8s）"
+        "15 passed（10.9s）"
       ],
       "detail": {
-        "elapsed_sec": 15.8,
+        "elapsed_sec": 10.9,
         "tail": [
           "",
           "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html",
-          "14 passed, 2 warnings in 11.36s"
+          "15 passed, 2 warnings in 7.75s"
         ],
-        "passed": 14
+        "passed": 15
       }
     },
     {
@@ -111,7 +111,8 @@
         "health": {
           "ok": true,
           "engine_loaded": true,
-          "ocr_available": true
+          "ocr_available": true,
+          "engine_error": ""
         },
         "outputs": {
           "classic": "王は左右を顧みて而して他を言う",
@@ -132,15 +133,15 @@
       "title": "单句训读耗时在包络内",
       "status": "pass",
       "notes": [
-        "短句中位 10ms（包络 3000ms）"
+        "短句中位 6ms（包络 3000ms）"
       ],
       "detail": {
         "ms": [
-          21.0,
-          10.0,
-          7.0
+          22.0,
+          6.0,
+          6.0
         ],
-        "median_ms": 10.0,
+        "median_ms": 6.0,
         "limit_ms": 3000.0
       }
     }
