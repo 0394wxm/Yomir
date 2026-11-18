@@ -184,10 +184,12 @@ class OCREngine:
             idx.extend(b["index"] for b in u["items"])
         return idx
 
-    def recognize_bytes(self, data: bytes, order: str | None = None) -> dict:
+    def recognize_bytes(self, data: bytes, order: str | None = None, progress_cb=None) -> dict:
         """图片字节 → OCR 文本。流程与官方 GUI main.py 的 ocr_button_result 一致。
 
         order: "native"（默认，eval_xml 顺序）| "cluster"（Night3 列序聚类）
+        progress_cb: 可选回调 progress_cb(phase, done, total)，D7 批量进度用。
+                     phase ∈ {"detect", "recognize"}；不传则与旧行为完全一致。
         """
         np = self._np
         from ndl_parser import convert_to_xml_string3
@@ -205,7 +207,11 @@ class OCREngine:
         img_h, img_w = img.shape[:2]
         imgname = "upload"
 
+        if progress_cb:
+            progress_cb("detect", 0, 1)
         detections = self.detector.detect(img)
+        if progress_cb:
+            progress_cb("detect", 1, 1)
         classeslist = list(self.detector.classes.values())
 
         resultobj = [dict(), dict()]
@@ -246,8 +252,19 @@ class OCREngine:
             lineimgs.append(img[b["y"]:b["y"] + b["h"], b["x"]:b["x"] + b["w"], :])
 
         # 官方 GUI 的 cascade 最终都用同一个 PARSeq 模型；这里直接单模型多线程识别
-        with ThreadPoolExecutor(max_workers=4, thread_name_prefix="ocr") as ex:
-            resultlines = list(ex.map(self.recognizer.read, lineimgs))
+        # D7: 逐行回传进度（一行约 1~3 秒，进度条不会长时间不动）
+        n_lines = len(lineimgs)
+        resultlines = []
+        if progress_cb:
+            progress_cb("recognize", 0, n_lines)
+        if n_lines:
+            with ThreadPoolExecutor(max_workers=4, thread_name_prefix="ocr") as ex:
+                for done, line in enumerate(ex.map(self.recognizer.read, lineimgs), 1):
+                    resultlines.append(line)
+                    if progress_cb:
+                        progress_cb("recognize", done, n_lines)
+        else:
+            resultlines = []
 
         # 剔除明显的检测废框（与官方一致的过滤模式）。
         # 注意：不做行序反转——eval_xml 的阅读顺序输出已经是右→左（实测

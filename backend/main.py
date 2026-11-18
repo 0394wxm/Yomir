@@ -16,7 +16,11 @@ import collections
 import logging
 import os
 import re
+import threading
 import time
+import uuid
+
+from typing import Optional
 
 from fastapi import FastAPI, HTTPException, Query, UploadFile
 from fastapi.concurrency import run_in_threadpool
@@ -60,7 +64,11 @@ class KundokuRequest(BaseModel):
     text: str
     # NIGHT7: 纠错工作流——OCR 原始白文（纠错基线）与上一条请求 id（翻回链）
     ocr_hakubun: str = ""
-    prev_request_id: int = None
+    # D7 修正: 原为 `int = None`，pydantic v2 下 None 不满足 int，前端首次訓読
+    # 必带 prev_request_id=null -> 422 "Input should be a valid integer"。
+    # 前端 runKundoku() 在 lastRequestId 为 null 时就是发 null，所以旧代码
+    # 「第一次点重新訓読」必然失败。这里允许 None。
+    prev_request_id: Optional[int] = None
 
 
 class KundokuResponse(BaseModel):
@@ -135,7 +143,8 @@ def root():
     return {
         "service": "kanbun-kakikudashi",
         "version": "0.2.0-night2",
-        "endpoints": ["/health", "/api/kundoku", "/api/ocr"],
+        "endpoints": ["/health", "/api/kundoku", "/api/ocr",
+                      "/api/ocr/batch", "/api/ocr/batch/async", "/api/ocr/batch/{job_id}"],
     }
 
 
@@ -363,6 +372,198 @@ async def ocr_batch(files: list[UploadFile]):
         "results": results,
         "disclaimer": DISCLAIMER,
     }
+
+
+# ---------------------------------------------------------------------------
+# D7: OCR 批量作业（后台跑 + 轮询进度）
+#
+# 原 POST /api/ocr/batch 是同步的：2 张图要 126 秒，期间没有任何反馈。
+# 这里加一对端点，不改原端点：
+#   POST /api/ocr/batch/async  -> {"job_id": ...}，立即返回，识别在后台线程串行跑
+#   GET  /api/ocr/batch/<id>   -> 进度快照（percent / done / total / 当前文件）
+#
+# 作业只存在进程内存里（重启即丢）。OCR 结果本来就是「草稿」，落库的只有
+# 训读结果，所以不做持久化；这也是 Night 11 串行不并行的延续。
+# ---------------------------------------------------------------------------
+_JOBS = {}
+_JOBS_LOCK = threading.Lock()
+_JOB_KEEP = 20          # 最多保留最近 20 个作业快照
+_JOB_TTL_SEC = 3600     # 一小时前的作业，下一次创建时清掉
+
+
+def _job_percent(job):
+    """总进度百分比。
+
+    只按「整张图完成数」算的话，单张图内部 30~50 秒 percent 一动不动
+    （2 张图时前 47 秒全是 0%，然后一步跳到 50%）——实测就是这么难看。
+    这里把当前这张图内部的行级进度折算进去：detect 占该图的 0~15%，
+    recognize 占 15~100%。done 增加时 frac 归零，但 (done+1) 的跳幅
+    始终大于丢失的 frac，所以整体仍然单调不减。
+    """
+    total = job["total"]
+    if not total:
+        return 0.0
+    frac = 0.0
+    if job["status"] == "running" and job["phase"]:
+        pt = job["phase_total"]
+        r = (job["phase_done"] / pt) if pt else 0.0
+        if job["phase"] == "detect":
+            frac = 0.15 * r
+        elif job["phase"] == "recognize":
+            frac = 0.15 + 0.85 * r
+    return round(100.0 * (job["done"] + frac) / total, 1)
+
+
+def _job_snapshot(job):
+    """给 API 返回的作业视图（副本，避免调用方看到半更新的 dict）。"""
+    with _JOBS_LOCK:
+        return {
+            "job_id": job["job_id"],
+            "status": job["status"],            # queued|loading|running|done|error|cancelled
+            "total": job["total"],
+            "done": job["done"],
+            "percent": _job_percent(job),
+            "current_file": job["current_file"],
+            "phase": job["phase"],              # 当前图片内部阶段：detect|recognize|""
+            "phase_done": job["phase_done"],
+            "phase_total": job["phase_total"],
+            "elapsed_sec": round(time.time() - job["t0"], 1),
+            "results": list(job["results"]),
+            "error": job["error"],
+            "disclaimer": DISCLAIMER,
+        }
+
+
+def _run_batch_job(job_id, files):
+    """后台线程体：串行识别，边跑边更新 job 快照。"""
+    with _JOBS_LOCK:
+        job = _JOBS[job_id]
+        job["status"] = "loading"
+    try:
+        if not is_available():
+            with _JOBS_LOCK:
+                job["status"] = "error"
+                job["error"] = "OCR 运行目录缺失（ocr_runtime/），无法识别"
+            return
+        engine = get_engine()          # 首次可能 10~50 秒
+        with _JOBS_LOCK:
+            if job["status"] == "cancelled":
+                return
+            job["status"] = "running"
+
+        for idx, (name, data) in enumerate(files):
+            with _JOBS_LOCK:
+                if job["status"] == "cancelled":
+                    return
+                job["current_file"] = name
+                job["phase"] = ""
+                job["phase_done"] = 0
+                job["phase_total"] = 0
+
+            if not data:
+                item = {"file": name, "status": "empty"}
+            else:
+                def _cb(phase, d, t, _jid=job_id):
+                    with _JOBS_LOCK:
+                        j = _JOBS.get(_jid)
+                        if j is None:
+                            return
+                        j["phase"] = phase
+                        j["phase_done"] = d
+                        j["phase_total"] = t
+
+                try:
+                    r = engine.recognize_bytes(data, progress_cb=_cb)
+                    item = {
+                        "file": name,
+                        "hakubun": r["text"],
+                        "status": "ok",
+                        "line_count": r["line_count"],
+                        "elapsed_sec": r["elapsed_sec"],
+                    }
+                except Exception as e:
+                    logger.exception("batch ocr failed on %r", name)
+                    item = {"file": name, "hakubun": "", "status": "ocr_error",
+                            "note": "%r" % (e,)}
+
+            with _JOBS_LOCK:
+                job["results"].append(item)
+                job["done"] = idx + 1
+                job["phase"] = ""
+                job["current_file"] = ""
+
+        with _JOBS_LOCK:
+            if job["status"] != "cancelled":     # 取消优先，别被收尾覆盖
+                job["status"] = "done"
+            job["elapsed_sec"] = round(time.time() - job["t0"], 1)
+    except Exception as e:
+        logger.exception("batch job %s crashed", job_id)
+        with _JOBS_LOCK:
+            job["status"] = "error"
+            job["error"] = "%r" % (e,)
+
+
+@app.post("/api/ocr/batch/async")
+async def ocr_batch_async(files: list[UploadFile]):
+    """D7: 提交批量 OCR 作业，立即返回 job_id；进度查 GET /api/ocr/batch/<id>。"""
+    if not files:
+        raise HTTPException(status_code=400, detail="files 为空")
+    payload = []
+    for f in files:
+        payload.append((f.filename or "", await f.read()))
+
+    job_id = uuid.uuid4().hex[:12]
+    job = {
+        "job_id": job_id,
+        "status": "queued",
+        "total": len(payload),
+        "done": 0,
+        "current_file": "",
+        "phase": "",
+        "phase_done": 0,
+        "phase_total": 0,
+        "results": [],
+        "error": "",
+        "t0": time.time(),
+    }
+    with _JOBS_LOCK:
+        # 顺手清理：超 TTL 的、或超出保留条数的旧作业
+        now = time.time()
+        for k in [k for k, v in _JOBS.items()
+                  if v["status"] in ("done", "error", "cancelled")
+                  and now - v["t0"] > _JOB_TTL_SEC]:
+            _JOBS.pop(k, None)
+        while len(_JOBS) >= _JOB_KEEP:
+            oldest = min(_JOBS.values(), key=lambda v: v["t0"])
+            _JOBS.pop(oldest["job_id"], None)
+        _JOBS[job_id] = job
+
+    threading.Thread(target=_run_batch_job, args=(job_id, payload),
+                     name="ocr-batch-%s" % job_id, daemon=True).start()
+    return {"job_id": job_id, "total": len(payload), "status": "queued"}
+
+
+@app.get("/api/ocr/batch/{job_id}")
+def ocr_batch_progress(job_id: str):
+    """D7: 查询批量 OCR 进度。完成前 done 单调递增；done==total 且 status=done 即结束。"""
+    with _JOBS_LOCK:
+        job = _JOBS.get(job_id)
+    if job is None:
+        raise HTTPException(status_code=404, detail="job 不存在（进程重启会清空作业表）")
+    return _job_snapshot(job)
+
+
+@app.post("/api/ocr/batch/{job_id}/cancel")
+def ocr_batch_cancel(job_id: str):
+    """D7: 请求取消作业。当前这张图跑完后停止，已在跑的推理不打断。"""
+    with _JOBS_LOCK:
+        job = _JOBS.get(job_id)
+        if job is None:
+            raise HTTPException(status_code=404, detail="job 不存在")
+        if job["status"] in ("done", "error"):
+            return {"job_id": job_id, "status": job["status"], "note": "已结束，无需取消"}
+        job["status"] = "cancelled"
+    return {"job_id": job_id, "status": "cancelled"}
 
 
 @app.post("/api/ocr")

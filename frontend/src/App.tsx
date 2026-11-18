@@ -88,6 +88,37 @@ interface OcrResult {
   line_count?: number
 }
 
+// D7: 批量 OCR 作业的进度快照（GET /api/ocr/batch/<job_id>）
+interface BatchProgress {
+  job_id: string
+  status: 'queued' | 'loading' | 'running' | 'done' | 'error' | 'cancelled'
+  total: number
+  done: number
+  percent: number
+  current_file: string
+  phase: 'detect' | 'recognize' | ''
+  phase_done: number
+  phase_total: number
+  elapsed_sec: number
+  results: { file: string; hakubun?: string; status: string; line_count?: number; elapsed_sec?: number }[]
+  error: string
+}
+
+const PHASE_LABEL: Record<string, string> = {
+  '': '准备中',
+  detect: '检测行框',
+  recognize: '识别文字',
+}
+
+const STATUS_LABEL: Record<string, string> = {
+  queued: '排队中',
+  loading: '加载模型（首次约 10–50 秒）',
+  running: '识别中',
+  done: '已完成',
+  error: '失败',
+  cancelled: '已取消',
+}
+
 interface HistoryItem {
   id: number
   hakubun: string
@@ -110,6 +141,10 @@ export default function App() {
   const [historyItems, setHistoryItems] = useState<HistoryItem[]>([])
   const [historyOpen, setHistoryOpen] = useState(false)
   const [lastRequestId, setLastRequestId] = useState<number | null>(null)
+  // D7: 批量 OCR 进度
+  const [batch, setBatch] = useState<BatchProgress | null>(null)
+  const [batchFiles, setBatchFiles] = useState<File[]>([])
+  const [batchErr, setBatchErr] = useState('')
 
   function sendToHakubun() {
     setErrMsg('')
@@ -178,6 +213,70 @@ export default function App() {
     } finally {
       setBusy(false)
     }
+  }
+
+  // D7: 批量 OCR——提交后台作业后轮询进度，进度条按 done/total 走
+  async function runBatchOcr() {
+    if (batchFiles.length === 0) {
+      setBatchErr('请先选择至少一张图片。')
+      return
+    }
+    setBatchErr('')
+    setBatch(null)
+    setOcrNote('')
+    try {
+      const fd = new FormData()
+      for (const f of batchFiles) fd.append('files', f)
+      const res = await fetch('/api/ocr/batch/async', { method: 'POST', body: fd })
+      const data = await res.json()
+      if (!res.ok) {
+        setBatchErr(typeof data.detail === 'string' ? data.detail : '提交失败')
+        return
+      }
+      await pollBatch(data.job_id)
+    } catch {
+      setBatchErr('批量 OCR 提交失败（后端未启动？）')
+    }
+  }
+
+  async function pollBatch(jobId: string) {
+    const started = Date.now()
+    // 首次加载模型要几十秒，轮询上限放到 15 分钟（20 张图实测约 8 分钟）
+    while (Date.now() - started < 15 * 60 * 1000) {
+      try {
+        const r = await fetch(`/api/ocr/batch/${jobId}`)
+        if (!r.ok) {
+          const e = await r.json().catch(() => ({}))
+          setBatchErr(typeof e.detail === 'string' ? e.detail : `进度查询失败 ${r.status}`)
+          return
+        }
+        const s: BatchProgress = await r.json()
+        setBatch(s)
+        if (s.status === 'done' || s.status === 'error' || s.status === 'cancelled') {
+          if (s.status === 'done') {
+            const ok = s.results.filter((x) => x.status === 'ok').length
+            const text = s.results
+              .filter((x) => x.status === 'ok' && x.hakubun)
+              .map((x) => x.hakubun)
+              .join('\n')
+            if (text) {
+              setHakubun(text)
+              setOcrHakubun(text)
+              setOcrImgUrl('')
+            }
+            setOcrNote(`批量 OCR 完成：${ok}/${s.total} 张成功，用时 ${s.elapsed_sec}s。白文已填入下方。${DISCLAIMER}`)
+          } else if (s.status === 'error') {
+            setBatchErr(s.error || '批量 OCR 失败')
+          }
+          return
+        }
+      } catch {
+        setBatchErr('进度查询中断（后端断开？）')
+        return
+      }
+      await new Promise((r) => setTimeout(r, 1000))
+    }
+    setBatchErr('轮询超时（15 分钟），作业可能仍在后台跑。')
   }
 
   // NIGHT7: 行別対照——OCR 行与当前白文行并排，改过的行高亮
@@ -289,7 +388,63 @@ export default function App() {
                 disabled={ocrBusy}
               />
               {ocrBusy && <p className="muted">OCR 处理中…（首次调用要加载模型，请稍候）</p>}
-              {ocrNote && <p className={ocrNote.startsWith('OCR 完成') ? 'muted' : 'warn'}>{ocrNote}</p>}
+              {ocrNote && <p className={ocrNote.startsWith('OCR 完成') || ocrNote.startsWith('批量 OCR 完成') ? 'muted' : 'warn'}>{ocrNote}</p>}
+            </div>
+            <div className="entry">
+              <h3>入口 C：批量上传（多张，带进度）</h3>
+              <input
+                type="file"
+                accept="image/*"
+                multiple
+                onChange={(e) => {
+                  setBatchFiles(Array.from(e.target.files ?? []))
+                  setBatch(null)
+                  setBatchErr('')
+                }}
+                disabled={batch !== null && (batch.status === 'running' || batch.status === 'loading' || batch.status === 'queued')}
+              />
+              <div className="row">
+                <button
+                  onClick={runBatchOcr}
+                  disabled={batchFiles.length === 0 || (batch !== null && (batch.status === 'running' || batch.status === 'loading' || batch.status === 'queued'))}
+                >
+                  {batch && (batch.status === 'running' || batch.status === 'loading' || batch.status === 'queued')
+                    ? '批量識別中…'
+                    : `批量識別（${batchFiles.length} 张）`}
+                </button>
+                {batch && batch.status === 'running' && (
+                  <button className="ghost" onClick={() => void fetch(`/api/ocr/batch/${batch.job_id}/cancel`, { method: 'POST' })}>
+                    取消
+                  </button>
+                )}
+              </div>
+
+              {batch && (
+                <div className="progressbox">
+                  <div className="progressbar" role="progressbar"
+                       aria-valuenow={batch.percent} aria-valuemin={0} aria-valuemax={100}>
+                    <div className="progressfill" style={{ width: `${batch.percent}%` }} />
+                  </div>
+                  <p className="muted small progressline">
+                    {STATUS_LABEL[batch.status] ?? batch.status}　
+                    {batch.done}/{batch.total} 张（{batch.percent}%）
+                    {batch.phase ? `　·　${PHASE_LABEL[batch.phase] ?? batch.phase} ${batch.phase_done}/${batch.phase_total}` : ''}
+                    {`　·　${batch.elapsed_sec}s`}
+                  </p>
+                  {batch.current_file && <p className="muted small">当前：{batch.current_file}</p>}
+                  {batch.error && <p className="error">{batch.error}</p>}
+                  {batch.results.length > 0 && (
+                    <ul className="batchresults">
+                      {batch.results.map((x, i) => (
+                        <li key={i} className={x.status === 'ok' ? '' : 'warn'}>
+                          {x.file} — {x.status === 'ok' ? `${x.line_count ?? '?'} 行 / ${x.elapsed_sec ?? '?'}s` : `${x.status}`}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              )}
+              {batchErr && <p className="error">{batchErr}</p>}
             </div>
           </div>
         </section>

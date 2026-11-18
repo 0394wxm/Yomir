@@ -1,0 +1,434 @@
+{
+ "submit_elapsed_sec": 0.03,
+ "final": {
+  "job_id": "d4a6ff4a8a23",
+  "status": "done",
+  "total": 2,
+  "done": 2,
+  "percent": 100.0,
+  "current_file": "",
+  "phase": "",
+  "phase_done": 9,
+  "phase_total": 9,
+  "elapsed_sec": 117.6,
+  "results": [
+   {
+    "file": "ndl_1287221_R0000002.jpg",
+    "hakubun": "いまはむかしたけとりのおきなといふ\nものありけり野山にましりてたけ\nをとりつゝよろつの事につかひけり\n名をはさるきのみやつことなんいひ\nける其竹の中にもとひかる竹なん\n一すちありけりあやしかりてよりて\n見るにつゝの中ひかりたりそれをみ\nれは三すんはかりなる人いとうつくしう\nてゐたりおきないふやうわれ朝こと夕\nことに見るたけの中におはするにて\nしりぬ子になり給ふへき人なめり\nとて手にうち入て家へもちてきぬ\nめの女にあつけてやしなはすうつ\nくしき事かきりなしいとおさなけ\nれははこに入てやしなふ竹とりのお\nきな竹とるに此子を見つけてのちに",
+    "status": "ok",
+    "line_count": 16,
+    "elapsed_sec": 43.51
+   },
+   {
+    "file": "ndl_11892692_R0000003.jpg",
+    "hakubun": "明治十九年二月廿二日暗求\n論語序説\n史記世家曰孔子名丘字仲尼。其先宋人父\n同叔梁紅母顔氏以魯襄公二十二年庚戌\n之歳十一月庚子。生孔子於魯昌平郷陬。\n邑爲見嬉戯常陳組豆設禮容及長爲委\n吏料量平。爲司職吏畜蕃息。適周問禮於\n老子。既反而弟子益進。昭公二十五年甲\n申孔子年三十五而昭公奔齊魯亂於是",
+    "status": "ok",
+    "line_count": 9,
+    "elapsed_sec": 44.62
+   }
+  ],
+  "error": "",
+  "disclaimer": "AI 初稿，仅供参考，请以原文和专业判断为准。"
+ },
+ "curve": [
+  {
+   "t": 0.1,
+   "status": "loading",
+   "done": 0,
+   "percent": 0.0,
+   "phase": "",
+   "phase_progress": "0/0",
+   "current_file": ""
+  },
+  {
+   "t": 2.2,
+   "status": "loading",
+   "done": 0,
+   "percent": 0.0,
+   "phase": "",
+   "phase_progress": "0/0",
+   "current_file": ""
+  },
+  {
+   "t": 4.5,
+   "status": "loading",
+   "done": 0,
+   "percent": 0.0,
+   "phase": "",
+   "phase_progress": "0/0",
+   "current_file": ""
+  },
+  {
+   "t": 29.1,
+   "status": "running",
+   "done": 0,
+   "percent": 0.0,
+   "phase": "",
+   "phase_progress": "0/0",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 31.3,
+   "status": "running",
+   "done": 0,
+   "percent": 0.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 33.5,
+   "status": "running",
+   "done": 0,
+   "percent": 0.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 35.6,
+   "status": "running",
+   "done": 0,
+   "percent": 0.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 37.7,
+   "status": "running",
+   "done": 0,
+   "percent": 0.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 39.8,
+   "status": "running",
+   "done": 0,
+   "percent": 0.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 42.1,
+   "status": "running",
+   "done": 0,
+   "percent": 0.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 44.3,
+   "status": "running",
+   "done": 0,
+   "percent": 0.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 46.4,
+   "status": "running",
+   "done": 0,
+   "percent": 7.5,
+   "phase": "recognize",
+   "phase_progress": "0/16",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 48.6,
+   "status": "running",
+   "done": 0,
+   "percent": 7.5,
+   "phase": "recognize",
+   "phase_progress": "0/16",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 50.9,
+   "status": "running",
+   "done": 0,
+   "percent": 7.5,
+   "phase": "recognize",
+   "phase_progress": "0/16",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 53.0,
+   "status": "running",
+   "done": 0,
+   "percent": 12.8,
+   "phase": "recognize",
+   "phase_progress": "2/16",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 55.2,
+   "status": "running",
+   "done": 0,
+   "percent": 18.1,
+   "phase": "recognize",
+   "phase_progress": "4/16",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 57.4,
+   "status": "running",
+   "done": 0,
+   "percent": 18.1,
+   "phase": "recognize",
+   "phase_progress": "4/16",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 59.8,
+   "status": "running",
+   "done": 0,
+   "percent": 28.7,
+   "phase": "recognize",
+   "phase_progress": "8/16",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 62.0,
+   "status": "running",
+   "done": 0,
+   "percent": 28.7,
+   "phase": "recognize",
+   "phase_progress": "8/16",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 64.3,
+   "status": "running",
+   "done": 0,
+   "percent": 28.7,
+   "phase": "recognize",
+   "phase_progress": "8/16",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 66.6,
+   "status": "running",
+   "done": 0,
+   "percent": 36.7,
+   "phase": "recognize",
+   "phase_progress": "11/16",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 68.8,
+   "status": "running",
+   "done": 0,
+   "percent": 39.4,
+   "phase": "recognize",
+   "phase_progress": "12/16",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 71.1,
+   "status": "running",
+   "done": 0,
+   "percent": 39.4,
+   "phase": "recognize",
+   "phase_progress": "12/16",
+   "current_file": "ndl_1287221_R0000002.jpg"
+  },
+  {
+   "t": 73.3,
+   "status": "running",
+   "done": 1,
+   "percent": 50.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 75.5,
+   "status": "running",
+   "done": 1,
+   "percent": 50.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 77.7,
+   "status": "running",
+   "done": 1,
+   "percent": 50.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 79.9,
+   "status": "running",
+   "done": 1,
+   "percent": 50.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 82.1,
+   "status": "running",
+   "done": 1,
+   "percent": 50.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 84.3,
+   "status": "running",
+   "done": 1,
+   "percent": 50.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 86.4,
+   "status": "running",
+   "done": 1,
+   "percent": 50.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 88.8,
+   "status": "running",
+   "done": 1,
+   "percent": 50.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 91.0,
+   "status": "running",
+   "done": 1,
+   "percent": 50.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 93.1,
+   "status": "running",
+   "done": 1,
+   "percent": 50.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 95.2,
+   "status": "running",
+   "done": 1,
+   "percent": 50.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 97.5,
+   "status": "running",
+   "done": 1,
+   "percent": 50.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 99.7,
+   "status": "running",
+   "done": 1,
+   "percent": 50.0,
+   "phase": "detect",
+   "phase_progress": "0/1",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 101.9,
+   "status": "running",
+   "done": 1,
+   "percent": 57.5,
+   "phase": "recognize",
+   "phase_progress": "0/9",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 104.1,
+   "status": "running",
+   "done": 1,
+   "percent": 57.5,
+   "phase": "recognize",
+   "phase_progress": "0/9",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 106.5,
+   "status": "running",
+   "done": 1,
+   "percent": 57.5,
+   "phase": "recognize",
+   "phase_progress": "0/9",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 108.7,
+   "status": "running",
+   "done": 1,
+   "percent": 76.4,
+   "phase": "recognize",
+   "phase_progress": "4/9",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 111.0,
+   "status": "running",
+   "done": 1,
+   "percent": 76.4,
+   "phase": "recognize",
+   "phase_progress": "4/9",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 113.3,
+   "status": "running",
+   "done": 1,
+   "percent": 76.4,
+   "phase": "recognize",
+   "phase_progress": "4/9",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 115.4,
+   "status": "running",
+   "done": 1,
+   "percent": 95.3,
+   "phase": "recognize",
+   "phase_progress": "8/9",
+   "current_file": "ndl_11892692_R0000003.jpg"
+  },
+  {
+   "t": 117.6,
+   "status": "done",
+   "done": 2,
+   "percent": 100.0,
+   "phase": "",
+   "phase_progress": "9/9",
+   "current_file": ""
+  }
+ ],
+ "total_elapsed_sec": 117.6,
+ "monotonic": true,
+ "saw_recognize": true
+}

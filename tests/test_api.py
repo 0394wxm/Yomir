@@ -182,6 +182,21 @@ def test_history_limit_clamped(client):
     assert len(r.json()["items"]) <= 100
 
 
+def test_prev_request_id_null_accepted(client):
+    """D7 回归: 前端首次訓読会发 "prev_request_id": null。
+
+    旧模型写的是 `prev_request_id: int = None`，pydantic v2 把 None 判为非法，
+    导致「第一次点重新訓読」直接 422。既有用例都没发 null，所以一直没抓到。
+    """
+    r = client.post("/api/kundoku", json={
+        "text": "王顧左右而言他", "ocr_hakubun": "", "prev_request_id": None})
+    assert r.status_code == 200, r.text
+    assert r.json()["kakikudashi"].strip() == "王は左右を顧みて而して他を言う"
+    # 字段整体省略也必须能跑（默认值路径）
+    r2 = client.post("/api/kundoku", json={"text": "不入虎穴不得虎子"})
+    assert r2.status_code == 200
+
+
 def test_ocr_missing_runtime_message_shape():
     """ocr_runtime 缺失时 /api/ocr 返回 not_implemented_yet 结构（构造假路径验证）。"""
     import importlib
