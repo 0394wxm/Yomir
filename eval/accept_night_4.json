@@ -1,0 +1,161 @@
+{
+  "night": 4,
+  "verdict": "PASS",
+  "checked_at": "2026-11-18T16:00:37",
+  "elapsed_sec": 41.1,
+  "n_checks": 6,
+  "n_fail": 0,
+  "n_skip": 0,
+  "checks": [
+    {
+      "name": "repo_clean",
+      "title": "git 工作区干净",
+      "status": "pass",
+      "notes": [
+        "已跟踪文件无改动",
+        "未跟踪：ACCEPT_LOG.md, eval/accept_night_21.json, tools/accept_night.py"
+      ],
+      "detail": {
+        "changed": [
+          "?? ACCEPT_LOG.md",
+          "?? eval/accept_night_21.json",
+          "?? tools/accept_night.py"
+        ],
+        "tracked_changes": [],
+        "untracked": [
+          "?? ACCEPT_LOG.md",
+          "?? eval/accept_night_21.json",
+          "?? tools/accept_night.py"
+        ]
+      }
+    },
+    {
+      "name": "pytest",
+      "title": "tests/test_api.py 全过",
+      "status": "pass",
+      "notes": [
+        "14 passed（18.7s）"
+      ],
+      "detail": {
+        "elapsed_sec": 18.7,
+        "tail": [
+          "",
+          "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html",
+          "14 passed, 2 warnings in 13.53s"
+        ],
+        "passed": 14
+      }
+    },
+    {
+      "name": "eval_integrity",
+      "title": "评测归档完整、id 唯一、expected 未被改",
+      "status": "pass",
+      "notes": [
+        "检查 3 个归档，id 唯一、自报数一致、expected 未改"
+      ],
+      "detail": {
+        "golden_n": 500,
+        "files": [
+          {
+            "file": "night4_results_baseline.json",
+            "n": 200,
+            "unique": 200,
+            "avg": 22.145,
+            "exact": 0,
+            "self_total": 200,
+            "self_exact": 0,
+            "expected_mismatch": [],
+            "not_in_golden": [
+              "irojinwo-1"
+            ]
+          },
+          {
+            "file": "night4_results_full_v1.json",
+            "n": 200,
+            "unique": 200,
+            "avg": 21.445,
+            "exact": 0,
+            "self_total": 200,
+            "self_exact": 0,
+            "expected_mismatch": [],
+            "not_in_golden": [
+              "irojinwo-1"
+            ]
+          },
+          {
+            "file": "night4_results_full_v2.json",
+            "n": 200,
+            "unique": 200,
+            "avg": 20.975,
+            "exact": 0,
+            "self_total": 200,
+            "self_exact": 0,
+            "expected_mismatch": [],
+            "not_in_golden": [
+              "irojinwo-1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "rule_regression",
+      "title": "已撤销规则未复活 / 规则表未破坏",
+      "status": "pass",
+      "notes": [
+        "Rule C 仍撤销；ふ→う/は曰く 正常；正字化幂等；合并词表 21 条"
+      ],
+      "detail": {
+        "style_fix_rule_c": "顧みて而して他を言う",
+        "style_fix_fu": "云う",
+        "style_fix_wa_iwaku": "子曰く",
+        "merge_words_n": 21,
+        "merge_words_missing": []
+      }
+    },
+    {
+      "name": "engine_smoke",
+      "title": "引擎实际可用（3 句 + 分流 + 400）",
+      "status": "pass",
+      "notes": [
+        "健康检查/经典句/合并/正字化/假名分流/空输入 全部符合约定"
+      ],
+      "detail": {
+        "health": {
+          "ok": true,
+          "engine_loaded": true,
+          "ocr_available": true
+        },
+        "outputs": {
+          "classic": "王は左右を顧みて而して他を言う",
+          "merge": "宋人田を耕す者有り。",
+          "ortho": "梁恵王曰く",
+          "ortho_hakubun": "梁惠王曰",
+          "kana": {
+            "status": 200,
+            "text_type": "kana",
+            "kk": ""
+          },
+          "empty": 400
+        }
+      }
+    },
+    {
+      "name": "perf_envelope",
+      "title": "单句训读耗时在包络内",
+      "status": "pass",
+      "notes": [
+        "短句中位 13ms（包络 3000ms）"
+      ],
+      "detail": {
+        "ms": [
+          13.0,
+          25.0,
+          8.0
+        ],
+        "median_ms": 13.0,
+        "limit_ms": 3000.0
+      }
+    }
+  ]
+}

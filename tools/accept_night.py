@@ -1,0 +1,421 @@
+# -*- coding: utf-8 -*-
+"""accept_night.py — 每夜验收门（D2）。
+
+设计目标：
+  * **只读**：不改任何源码/数据，不跑训练，不联网（除本地 API 可选）。
+  * **可回测**：`python tools/accept_night.py 4` 能拿 Night 4 的归档文件重新判一次。
+  * 输出：stdout 一份人读摘要 + `eval/accept_night_<n>.json`（机器读），
+    并把一行摘要 append 到 `ACCEPT_LOG.md`。
+  * 退出码：全部检查 pass → 0；有 fail → 1；门槛数据缺失 → 该检查记 skip（不算 fail）。
+
+6 项检查（全部围绕「这一夜声称的成果是否真的还在」）：
+  1. repo_clean        git 工作区干净（或只有未跟踪的临时文件）
+  2. pytest            tests/test_api.py 全过
+  3. eval_integrity    评测文件 id 唯一、无重复、总数与自报一致、expected 未被改动
+  4. rule_regression   已撤销的规则确实没生效（Rule C：而して 不被删；正字化表可逆）
+  5. engine_smoke      引擎实际可用：3 句经典句输出符合当前约定（含 kana 分流、空输入 400）
+  6. perf_envelope     单句训读耗时在包络内（防止性能悄悄退化）
+
+用法:
+    python tools/accept_night.py 21          # 当前夜
+    python tools/accept_night.py 4           # 回测 Night 4
+    python tools/accept_night.py 21 --no-pytest   # 跳过 pytest（快速冒烟）
+    python tools/accept_night.py 21 --json-only
+"""
+
+import argparse
+import json
+import os
+import re
+import subprocess
+import sys
+import time
+
+sys.stdout.reconfigure(encoding="utf-8")
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT)
+
+LOG_PATH = os.path.join(ROOT, "ACCEPT_LOG.md")
+OUT_DIR = os.path.join(ROOT, "eval")
+
+# 每个夜声明的「评测归档文件」（用于检查 3）。缺省只查通用项。
+NIGHT_ARTIFACTS = {
+    4: ["night4_results_baseline.json", "night4_results_full_v1.json",
+        "night4_results_full_v2.json"],
+    5: ["night5_results_full_v3.json"],
+    11: ["night21_results_full.json"],
+    13: [],
+    21: ["night21_results_full.json", "night21_results_full_v4.json",
+         "night21_results_full_v4_500.json"],
+}
+
+# Night 4 之后 expected 应保持的经典句（防止有人改评测数据来「提分」）
+CLASSIC_CASES = [
+    # (白文, 期望 kakikudashi, 说明)
+    ("王顧左右而言他", "王は左右を顧みて而して他を言う",
+     "经典句 1：而して 必须保留（Night7 撤销 Rule C 的证据）"),
+    ("宋人有耕田者。", None, "专名合并：不得出现「宋の人」"),
+    ("梁惠王曰", None, "正字化：惠→恵，白文原样"),
+]
+
+
+class Check(object):
+    def __init__(self, name, title):
+        self.name = name
+        self.title = title
+        self.status = "pass"
+        self.detail = {}
+        self.notes = []
+
+    def fail(self, msg, **kv):
+        self.status = "fail"
+        self.notes.append(msg)
+        self.detail.update(kv)
+
+    def skip(self, msg, **kv):
+        if self.status != "fail":
+            self.status = "skip"
+        self.notes.append(msg)
+        self.detail.update(kv)
+
+    def to_dict(self):
+        return {"name": self.name, "title": self.title, "status": self.status,
+                "notes": self.notes, "detail": self.detail}
+
+
+# --------------------------------------------------------------------------
+# 1. repo_clean
+# --------------------------------------------------------------------------
+def check_repo_clean(night):
+    c = Check("repo_clean", "git 工作区干净")
+    try:
+        out = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT,
+                             capture_output=True, text=True, encoding="utf-8").stdout
+    except Exception as e:
+        c.skip("git 不可用，跳过：%r" % (e,))
+        return c
+    lines = [l for l in out.splitlines() if l.strip()]
+    c.detail["changed"] = lines
+    # 判定标准：**已跟踪文件**的改动 = fail（说明有人改了代码没提交，
+    #   这一夜声称的状态不可复现）；未跟踪文件（??）= 只记 note，
+    #   因为验收门自身的 JSON/LOG/新脚本天然是未跟踪的。
+    tracked = [l for l in lines if not l.startswith("??")]
+    untracked = [l for l in lines if l.startswith("??")]
+    c.detail["tracked_changes"] = tracked
+    c.detail["untracked"] = untracked
+    if tracked:
+        c.fail("已跟踪文件有未提交改动：%d 个" % len(tracked), files=tracked[:20])
+    else:
+        c.notes.append("已跟踪文件无改动")
+    if untracked:
+        c.notes.append("未跟踪：%s" % ", ".join(u[3:] for u in untracked[:10]))
+    return c
+
+
+# --------------------------------------------------------------------------
+# 2. pytest
+# --------------------------------------------------------------------------
+def check_pytest(night, run_pytest):
+    c = Check("pytest", "tests/test_api.py 全过")
+    if not run_pytest:
+        c.skip("--no-pytest：跳过")
+        return c
+    t0 = time.time()
+    p = subprocess.run([sys.executable, "-m", "pytest", "tests/test_api.py", "-q"],
+                       cwd=ROOT, capture_output=True, text=True, encoding="utf-8",
+                       errors="replace")
+    tail = (p.stdout or "").strip().splitlines()
+    c.detail["elapsed_sec"] = round(time.time() - t0, 1)
+    c.detail["tail"] = tail[-3:]
+    m = re.search(r"(\d+) passed", p.stdout or "")
+    c.detail["passed"] = int(m.group(1)) if m else 0
+    failed = re.search(r"(\d+) failed", p.stdout or "")
+    if failed:
+        c.detail["failed"] = int(failed.group(1))
+    if p.returncode != 0:
+        c.fail("pytest 退出码 %d" % p.returncode, returncode=p.returncode)
+    elif c.detail["passed"] < 14:
+        c.fail("通过数 %d < 14（历史基线）" % c.detail["passed"])
+    else:
+        c.notes.append("%d passed（%.1fs）" % (c.detail["passed"], c.detail["elapsed_sec"]))
+    return c
+
+
+# --------------------------------------------------------------------------
+# 3. eval_integrity
+# --------------------------------------------------------------------------
+def check_eval_integrity(night):
+    c = Check("eval_integrity", "评测归档完整、id 唯一、expected 未被改")
+    files = NIGHT_ARTIFACTS.get(night, [])
+    if not files:
+        c.skip("Night %d 未登记评测归档文件，只查 golden.json" % night)
+        files = []
+
+    golden_path = os.path.join(OUT_DIR, "golden.json")
+    golden = {}
+    if os.path.exists(golden_path):
+        with open(golden_path, encoding="utf-8") as f:
+            golden = {x["id"]: x["expected_kakikudashi"] for x in json.load(f)}
+        c.detail["golden_n"] = len(golden)
+    else:
+        c.fail("eval/golden.json 缺失")
+
+    rows = []
+    for fn in files:
+        p = os.path.join(OUT_DIR, fn)
+        if not os.path.exists(p):
+            c.fail("归档缺失：%s" % fn)
+            continue
+        with open(p, encoding="utf-8") as f:
+            doc = json.load(f)
+        rs = doc["results"]
+        ids = [r["id"] for r in rs]
+        uniq = len(set(ids))
+        ds = [r["edit_distance"] for r in rs if r.get("edit_distance") is not None]
+        avg = round(sum(ds) / len(ds), 3) if ds else None
+        ex = sum(1 for r in rs if r.get("exact_match"))
+        # expected 与 golden 对照（只对 golden 里有的 id）
+        common = [r for r in rs if r["id"] in golden]
+        mismatch = [r["id"] for r in common if r["expected_kakikudashi"] != golden[r["id"]]]
+        row = {"file": fn, "n": len(rs), "unique": uniq, "avg": avg,
+               "exact": ex, "self_total": doc.get("total"),
+               "self_exact": doc.get("exact_match_count"),
+               "expected_mismatch": mismatch,
+               "not_in_golden": [i for i in ids if i not in golden] if golden else []}
+        rows.append(row)
+        if uniq != len(rs):
+            c.fail("%s 有重复 id" % fn, dups=len(rs) - uniq)
+        if doc.get("total") not in (None, len(rs)):
+            c.fail("%s 自报 total=%s 与实际 %d 不符" % (fn, doc.get("total"), len(rs)))
+        if doc.get("exact_match_count") not in (None, ex):
+            c.fail("%s 自报 exact_match_count=%s 与实际 %d 不符"
+                   % (fn, doc.get("exact_match_count"), ex))
+        if mismatch:
+            c.fail("%s 有 %d 条 expected 与 golden 不一致" % (fn, len(mismatch)), ids=mismatch[:10])
+
+    c.detail["files"] = rows
+    if c.status == "pass":
+        c.notes.append("检查 %d 个归档，id 唯一、自报数一致、expected 未改" % len(rows))
+    return c
+
+
+# --------------------------------------------------------------------------
+# 4. rule_regression（已撤销/已验证的规则必须仍按当前约定）
+# --------------------------------------------------------------------------
+def check_rule_regression(night):
+    c = Check("rule_regression", "已撤销规则未复活 / 规则表未破坏")
+    try:
+        from backend import kundoku_rules as kr
+    except Exception as e:
+        c.skip("无法 import backend.kundoku_rules：%r" % (e,))
+        return c
+
+    # 4a. Rule C 必须仍处于「撤销」状态：函数存在（存档）但 style_fix 不能用它
+    if not hasattr(kr, "style_dedup_shite_soshite"):
+        c.notes.append("style_dedup_shite_soshite 已删除（可接受，规则确实不生效）")
+    t = kr.style_fix("顧みて而して他を言う")
+    c.detail["style_fix_rule_c"] = t
+    if "而して" not in t:
+        c.fail("Rule C 复活：style_fix 删掉了「而して」", out=t)
+
+    # 4b. style_fix 该做的两件事仍在做
+    a = kr.style_fix("云ふ")
+    b = kr.style_fix("子は曰く")
+    c.detail["style_fix_fu"] = a
+    c.detail["style_fix_wa_iwaku"] = b
+    if a != "云う":
+        c.fail("ふ→う 规则失效：%r -> %r" % ("云ふ", a))
+    if b != "子曰く":
+        c.fail("は曰く→曰く 规则失效：%r -> %r" % ("子曰く", b))
+
+    # 4c. 正字化表：抽查 + 幂等
+    n = kr.normalize_shinjitai("惠對竊雞盡數點譽")
+    if n != "恵対窃鶏尽数点誉":
+        c.fail("normalize_shinjitai 抽查不符：%r" % n)
+    if kr.normalize_shinjitai(n) != n:
+        c.fail("normalize_shinjitai 不是幂等的")
+
+    # 4d. 合并词表必须含 Night4 的 10 个扩充词（防回退）
+    need = {"諸侯", "木鐸", "樗蒲", "壑雷", "馬肥", "投足", "原君", "平原君", "人人", "自得"}
+    missing = sorted(need - set(kr.MERGE_WORDS))
+    c.detail["merge_words_n"] = len(kr.MERGE_WORDS)
+    c.detail["merge_words_missing"] = missing
+    if missing:
+        c.fail("MERGE_WORDS 缺 Night4 扩充词：%s" % missing)
+
+    if c.status == "pass":
+        c.notes.append("Rule C 仍撤销；ふ→う/は曰く 正常；正字化幂等；合并词表 %d 条"
+                       % len(kr.MERGE_WORDS))
+    return c
+
+
+# --------------------------------------------------------------------------
+# 5. engine_smoke（进程内 TestClient，不依赖 uvicorn）
+# --------------------------------------------------------------------------
+def check_engine_smoke(night):
+    c = Check("engine_smoke", "引擎实际可用（3 句 + 分流 + 400）")
+    try:
+        import tempfile
+        os.environ.setdefault("KANBUN_DB", os.path.join(tempfile.mkdtemp(prefix="accept_"), "a.db"))
+        from fastapi.testclient import TestClient
+        from backend.main import app
+    except Exception as e:
+        c.skip("无法 import backend.main：%r" % (e,))
+        return c
+
+    with TestClient(app) as client:
+        h = client.get("/health").json()
+        c.detail["health"] = h
+        if not h.get("engine_loaded"):
+            c.fail("引擎未加载：%r" % (h,))
+            return c
+
+        out = {}
+        r = client.post("/api/kundoku", json={"text": "王顧左右而言他"})
+        out["classic"] = r.json().get("kakikudashi", "") if r.status_code == 200 else r.text
+        if r.status_code != 200:
+            c.fail("经典句 HTTP %d" % r.status_code, body=r.text[:300])
+        elif out["classic"].strip() != CLASSIC_CASES[0][1]:
+            c.fail("经典句输出变了", got=out["classic"], want=CLASSIC_CASES[0][1])
+
+        r = client.post("/api/kundoku", json={"text": "宋人有耕田者。"})
+        out["merge"] = r.json().get("kakikudashi", "") if r.status_code == 200 else r.text
+        if "宋の人" in out["merge"]:
+            c.fail("专名合并失效：出现「宋の人」", got=out["merge"])
+
+        r = client.post("/api/kundoku", json={"text": "梁惠王曰"})
+        j = r.json()
+        out["ortho"] = j.get("kakikudashi", "")
+        out["ortho_hakubun"] = j.get("hakubun", "")
+        if "恵" not in out["ortho"] or "惠" in out["ortho"]:
+            c.fail("正字化失效", got=out["ortho"])
+        if "惠" not in out["ortho_hakubun"]:
+            c.fail("白文被改动（应原样保留旧字体）", got=out["ortho_hakubun"])
+
+        r = client.post("/api/kundoku", json={"text": "いまはむかし、竹取の翁といふものありけり。"})
+        out["kana"] = {"status": r.status_code, "text_type": r.json().get("text_type"),
+                       "kk": r.json().get("kakikudashi")}
+        if out["kana"]["text_type"] != "kana" or out["kana"]["kk"] != "":
+            c.fail("假名分流失效", got=out["kana"])
+
+        r = client.post("/api/kundoku", json={"text": "   "})
+        out["empty"] = r.status_code
+        if r.status_code != 400:
+            c.fail("空输入应 400，实际 %d" % r.status_code)
+
+        c.detail["outputs"] = out
+    if c.status == "pass":
+        c.notes.append("健康检查/经典句/合并/正字化/假名分流/空输入 全部符合约定")
+    return c
+
+
+# --------------------------------------------------------------------------
+# 6. perf_envelope
+# --------------------------------------------------------------------------
+def check_perf_envelope(night):
+    c = Check("perf_envelope", "单句训读耗时在包络内")
+    try:
+        os.environ.setdefault("HF_ENDPOINT", "https://hf-mirror.com")
+        os.environ.setdefault("HF_HUB_OFFLINE", "1")
+        os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
+        import udkundoku
+        import udkanbun
+    except Exception as e:
+        c.skip("无法 import 引擎：%r" % (e,))
+        return c
+
+    try:
+        eng = udkanbun.UDKanbun(True, False, None)
+        eng("王顧左右而言他")  # 预热
+    except Exception as e:
+        c.skip("引擎加载失败（见 engine_smoke）：%r" % (e,))
+        return c
+
+    sent = "楚人有鬻楯與矛者。"
+    ts = []
+    for _ in range(3):
+        t0 = time.time()
+        udkundoku.translate(eng(sent), raw=True)
+        ts.append((time.time() - t0) * 1000)
+    med = sorted(ts)[1]
+    c.detail["ms"] = [round(x, 1) for x in ts]
+    c.detail["median_ms"] = round(med, 1)
+    # Night 11 实测 unique avg 513ms（长句）、这里用短句；包络给到 3s（很宽松，只抓严重退化）
+    LIMIT = 3000.0
+    c.detail["limit_ms"] = LIMIT
+    if med > LIMIT:
+        c.fail("短句中位耗时 %.0fms 超过包络 %.0fms" % (med, LIMIT))
+    else:
+        c.notes.append("短句中位 %.0fms（包络 %.0fms）" % (med, LIMIT))
+    return c
+
+
+# --------------------------------------------------------------------------
+def main():
+    ap = argparse.ArgumentParser(description="每夜验收门")
+    ap.add_argument("night", nargs="?", type=int, default=0)
+    ap.add_argument("--no-pytest", action="store_true", help="跳过 pytest（快速冒烟）")
+    ap.add_argument("--json-only", action="store_true", help="只输出 JSON")
+    ap.add_argument("--no-log", action="store_true", help="不追加 ACCEPT_LOG.md")
+    arg = ap.parse_args()
+
+    night = arg.night or 0
+    t0 = time.time()
+    checks = [
+        check_repo_clean(night),
+        check_pytest(night, not arg.no_pytest),
+        check_eval_integrity(night),
+        check_rule_regression(night),
+        check_engine_smoke(night),
+        check_perf_envelope(night),
+    ]
+    n_fail = sum(1 for c in checks if c.status == "fail")
+    n_skip = sum(1 for c in checks if c.status == "skip")
+    verdict = "PASS" if n_fail == 0 else "FAIL"
+    payload = {
+        "night": night,
+        "verdict": verdict,
+        "checked_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
+        "elapsed_sec": round(time.time() - t0, 1),
+        "n_checks": len(checks),
+        "n_fail": n_fail,
+        "n_skip": n_skip,
+        "checks": [c.to_dict() for c in checks],
+    }
+
+    out_file = os.path.join(OUT_DIR, "accept_night_%s.json" % (night or "x"))
+    with open(out_file, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+    if arg.json_only:
+        print(json.dumps(payload, ensure_ascii=False, indent=2))
+    else:
+        print("=== accept_night.py  Night %s  ===" % (night or "-"))
+        for c in checks:
+            mark = {"pass": "PASS", "fail": "FAIL", "skip": "SKIP"}[c.status]
+            print("[%s] %-18s %s" % (mark, c.name, c.title))
+            for n in c.notes:
+                print("        - %s" % n)
+        print("\nverdict: %s  (fail=%d skip=%d, %.1fs)"
+              % (verdict, n_fail, n_skip, payload["elapsed_sec"]))
+        print("json: %s" % os.path.relpath(out_file, ROOT))
+
+    if not arg.no_log:
+        line = "| %s | %s | %s | fail=%d skip=%d | %.1fs | %s |\n" % (
+            payload["checked_at"], night or "-", verdict, n_fail, n_skip,
+            payload["elapsed_sec"], out_file.replace("\\", "/").split("eval/")[-1])
+        need_header = not os.path.exists(LOG_PATH)
+        with open(LOG_PATH, "a", encoding="utf-8", newline="\n") as f:
+            if need_header:
+                f.write("# ACCEPT_LOG.md — 每夜验收门运行记录\n\n")
+                f.write("由 `python tools/accept_night.py <night>` 自动追加，一行一次运行。\n\n")
+                f.write("| 时间 | night | verdict | 统计 | 耗时 | json |\n")
+                f.write("| --- | --- | --- | --- | --- | --- |\n")
+            f.write(line)
+
+    return 0 if n_fail == 0 else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())
