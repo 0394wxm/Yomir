@@ -1,0 +1,34 @@
+{
+  "bundle_files": 733,
+  "bundle_mb": 493.4,
+  "top20_mb": {
+    "_internal\\unidic2ud\\download": 258.0,
+    "_internal\\ocr_runtime\\src": 78.9,
+    "_internal\\ocr_site\\onnxruntime": 37.3,
+    "_internal\\numpy.libs\\libscipy_openblas64_-4e39871015dc1470c682dc512497ee22.dll": 19.6,
+    "_internal": 18.9,
+    "_internal\\udkanbun\\ud-kanbun.udpipe": 16.2,
+    "kanbun-sidecar.exe": 14.1,
+    "_internal\\ocr_site\\PIL": 13.8,
+    "_internal\\udkanbun\\mecab-kanbun": 7.4,
+    "_internal\\ocr_site\\lxml": 7.1,
+    "_internal\\pydantic_core\\_pydantic_core.cp312-win_amd64.pyd": 5.5,
+    "_internal\\numpy\\_core": 3.7,
+    "_internal\\ufal\\udpipe": 2.3,
+    "_internal\\numpy\\random": 2.0,
+    "_internal\\fugashi.libs\\libmecab-d8ddc0791437ce8c4a187ae7c69a2f68.dll": 1.8,
+    "_internal\\MeCab\\libmecab.dll": 1.8,
+    "_internal\\google\\_upb": 0.7,
+    "_internal\\regex\\_regex.cp312-win_amd64.pyd": 0.7,
+    "_internal\\numpy.libs\\msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll": 0.5,
+    "_internal\\numpy\\fft": 0.3
+  },
+  "tauri_exe_mb": 7.54,
+  "staged_files": 734,
+  "staged_mb": 493.5,
+  "v1_notes": {
+    "total_mb": 946.8,
+    "torch_cpu_dll_mb": 295.2,
+    "qkana_part_mb": 30.0
+  }
+}

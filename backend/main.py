@@ -16,6 +16,7 @@ import collections
 import logging
 import os
 import re
+import sys
 import threading
 import time
 import uuid
@@ -48,6 +49,18 @@ DISCLAIMER = "AI 初稿，仅供参考，请以原文和专业判断为准。"
 # 设 KANBUN_TIMING=1 后，每次 /api/kundoku 往 logger 打一行
 # `TIMING <request> <总ms> = engine X | merge X | kaeriten X | translate X | style X | glossary X | db X`
 _TIMING = os.environ.get("KANBUN_TIMING", "").strip() in ("1", "true", "yes", "on")
+
+# NIGHT-D6: 桌面壳模式下后端兼顾托管前端。这里是 StaticFiles 的挂载点与
+# index.html 的绝对路径；为 None 表示「纯 API 模式」。
+# 之所以用模块级变量而不是在 _mount_web() 里再定义 @app.get("/")：Starlette
+# 的路由按注册顺序匹配，本文件前面的 root() 会先命中，后注册的同路径永远不可达。
+_WEB_DIST = None
+_WEB_INDEX = None
+
+
+def _web_index():
+    from fastapi.responses import FileResponse
+    return FileResponse(_WEB_INDEX)
 
 
 def _now_ms():
@@ -129,17 +142,38 @@ def _load_engine():
 @app.on_event("startup")
 def startup():
     db.init_db()
-    try:
-        _load_engine()
-        logger.info("udkundoku engine loaded")
-    except Exception as e:  # 引擎失败也允许服务启动，/health 仍 ok，/api/kundoku 报错
-        ENGINE_ERROR = repr(e)
-        logger.exception("engine load failed: %r", e)
+    # D6: sidecar 模式下先把端口让出来、再后台加载引擎。
+    # 目的：桌面壳能在 1~2 秒内连上 /health（此时 engine_loaded=false），
+    # 前端显示「引擎加载中」，而不是让用户对着白窗口等 10~30 秒。
+    # 普通模式仍同步加载——tests 依赖 startup 返回时引擎已就绪。
+    lazy = os.environ.get("KANBUN_LAZY_ENGINE", "").strip() in ("1", "true", "yes", "on")
+    if lazy:
+        def _bg():
+            try:
+                _load_engine()
+                logger.info("udkundoku engine loaded")
+            except Exception as e:
+                global ENGINE_ERROR
+                ENGINE_ERROR = repr(e)
+                logger.exception("engine load failed: %r", e)
+        threading.Thread(target=_bg, name="engine-loader", daemon=True).start()
+    else:
+        try:
+            _load_engine()
+            logger.info("udkundoku engine loaded")
+        except Exception as e:  # 引擎失败也允许服务启动，/health 仍 ok，/api/kundoku 报错
+            ENGINE_ERROR = repr(e)
+            logger.exception("engine load failed: %r", e)
     logger.info("ocr available: %s", is_available())
 
 
 @app.get("/")
 def root():
+    # D6: 桌面壳里后端同时托管前端，这时 / 要给 index.html 而不是 JSON。
+    # 不能靠 _mount_web() 里再注册一个 @app.get("/")——Starlette 按注册顺序
+    # 匹配，本函数在文件靠前处注册，永远先命中。所以这里查一个模块级变量。
+    if _WEB_DIST:
+        return _web_index()
     return {
         "service": "kanbun-kakikudashi",
         "version": "0.2.0-night2",
@@ -150,7 +184,8 @@ def root():
 
 @app.get("/health")
 def health():
-    return {"ok": True, "engine_loaded": ENGINE is not None, "ocr_available": is_available()}
+    return {"ok": True, "engine_loaded": ENGINE is not None, "ocr_available": is_available(),
+            "engine_error": ENGINE_ERROR}
 
 
 def _extract_kakikudashi(conllu: str) -> str:
@@ -594,3 +629,58 @@ async def ocr(file: UploadFile):
         "note": "NDL 古典籍 OCR-Lite（ndl-lab/ndlkotenocr-lite, CC BY 4.0）。白文可修改，请以原文为准。",
         "disclaimer": DISCLAIMER,
     }
+
+
+# ---------------------------------------------------------------------------
+# D6: 桌面壳模式——后端顺便把构建好的前端一起发出去。
+#
+# 为什么不是让 Tauri 直接加载 dist/ 再跨域调 127.0.0.1:8000：
+#   那样每个请求都要 CORS 预检，还要在 CSP 里开白名单；而且端口是动态的。
+# 改成后端托管后，页面与 API 同源（都是 http://127.0.0.1:<port>），
+# 前端一行 CORS 配置都不用改。
+#
+# 只在 KANBUN_SERVE_WEB=1 或 sidecar 模式（KANBUN_SIDECAR=1）下挂载，
+# 检测到 frontend/dist 才挂；开发时用 vite 代理，行为完全不变。
+# ---------------------------------------------------------------------------
+def _mount_web():
+    global _WEB_DIST, _WEB_INDEX
+    from fastapi.staticfiles import StaticFiles
+    from fastapi.responses import FileResponse
+
+    root = getattr(sys, "_MEIPASS", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    dist = os.path.join(root, "frontend_dist")
+    if not os.path.isdir(dist):
+        dist = os.path.join(root, "frontend", "dist")
+    if not os.path.isdir(dist):
+        logger.info("web: dist 不存在，仅提供 API（%s）", root)
+        return False
+
+    index = os.path.join(dist, "index.html")
+    if not os.path.isfile(index):
+        logger.info("web: %s 下没有 index.html，跳过", dist)
+        return False
+
+    _WEB_DIST = dist
+    _WEB_INDEX = index
+
+    app.mount("/assets", StaticFiles(directory=os.path.join(dist, "assets")), name="assets")
+
+    # / 由前面注册的 root() 按 _WEB_DIST 分流，这里不再重复注册。
+
+    # 单页应用：未命中的非 API 路径一律回 index.html（现在只有一屏，但便宜）
+    @app.get("/{full_path:path}", include_in_schema=False)
+    def _spa(full_path: str):
+        if full_path.startswith("api/") or full_path in ("health", "docs", "openapi.json"):
+            raise HTTPException(status_code=404, detail="Not Found")
+        candidate = os.path.join(dist, full_path)
+        if os.path.isfile(candidate):
+            return FileResponse(candidate)
+        return FileResponse(index)
+
+    logger.info("web: 已挂载 %s", dist)
+    return True
+
+
+if os.environ.get("KANBUN_SERVE_WEB", "").strip() in ("1", "true", "yes", "on") \
+        or os.environ.get("KANBUN_SIDECAR", "") == "1":
+    _mount_web()

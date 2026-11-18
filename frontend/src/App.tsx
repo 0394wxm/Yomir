@@ -1,7 +1,22 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 
 const DISCLAIMER = 'AI 初稿，仅供参考，请以原文和专业判断为准。'
+
+// D6: API 前缀。实际采用的方案是「后端同源托管前端」——桌面壳把窗口直接指向
+// http://127.0.0.1:<port>/，页面和 /api 都由同一个 FastAPI 进程发出，所以
+// 默认空前缀就够了（见 backend/main.py 的 _mount_web 与 main.rs）。
+//   - 浏览器 / 开发：空串，走 vite 代理，行为不变
+//   - 构建到别处：设 VITE_API_BASE
+//   - 预留（当前**未实现**，Rust 侧没有注入代码）：window.__KANBUN_API_BASE__
+//     如果将来改成「页面由 Tauri 资源提供 + 跨域调后端」，再在 Rust 侧注入它。
+function apiBase(): string {
+  const injected = (window as unknown as { __KANBUN_API_BASE__?: string }).__KANBUN_API_BASE__
+  if (injected) return injected.replace(/\/$/, '')
+  return (import.meta.env.VITE_API_BASE as string | undefined) ?? ''
+}
+
+const API = apiBase()
 
 // udkanbun 的返り点合字（U+3191–U+319F）→ 通用写法
 const KAERITEN_MAP: Record<string, string> = {
@@ -129,6 +144,9 @@ interface HistoryItem {
 
 export default function App() {
   const [inputText, setInputText] = useState('')
+  // D6: 桌面壳里后端先让出端口、引擎在后台加载，前端要能看出「还没好」
+  const [engine, setEngine] = useState<'unknown' | 'loading' | 'ready' | 'failed'>('unknown')
+  const [engineErr, setEngineErr] = useState('')
   const [ocrNote, setOcrNote] = useState('')
   const [ocrBusy, setOcrBusy] = useState(false)
   const [ocrHakubun, setOcrHakubun] = useState('')       // OCR 原始白文（纠错基线）
@@ -151,6 +169,37 @@ export default function App() {
     setHakubun(inputText.trim())
   }
 
+  // D6: 引擎就绪探测。sidecar 模式下后端先响应 /health（engine_loaded=false），
+  // 引擎在后台线程加载，10~30 秒后才 ready。轮询期间禁用「重新訓読」并提示，
+  // 避免用户对着「訓読中…」干等 30 秒还以为卡死了。
+  useEffect(() => {
+    let cancelled = false
+    let tries = 0
+    async function tick() {
+      tries += 1
+      try {
+        const r = await fetch(`${API}/health`)
+        const d = await r.json()
+        if (cancelled) return
+        if (d.engine_loaded) {
+          setEngine('ready')
+          return
+        }
+        if (d.engine_error) {
+          setEngine('failed')
+          setEngineErr(String(d.engine_error))
+          return
+        }
+        setEngine('loading')
+      } catch {
+        if (!cancelled) setEngine('failed')
+      }
+      if (!cancelled && tries < 90) setTimeout(tick, 1000)
+    }
+    void tick()
+    return () => { cancelled = true }
+  }, [])
+
   async function handleUpload(file: File) {
     setOcrBusy(true)
     setOcrNote('')
@@ -158,7 +207,7 @@ export default function App() {
     try {
       const fd = new FormData()
       fd.append('file', file)
-      const res = await fetch('/api/ocr', { method: 'POST', body: fd })
+      const res = await fetch(`${API}/api/ocr`, { method: 'POST', body: fd })
       const data: OcrResult = await res.json()
       if (data.status === 'ok' && data.hakubun) {
         setHakubun(data.hakubun)
@@ -186,7 +235,7 @@ export default function App() {
     setBusy(true)
     setErrMsg('')
     try {
-      const res = await fetch('/api/kundoku', {
+      const res = await fetch(`${API}/api/kundoku`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -227,7 +276,7 @@ export default function App() {
     try {
       const fd = new FormData()
       for (const f of batchFiles) fd.append('files', f)
-      const res = await fetch('/api/ocr/batch/async', { method: 'POST', body: fd })
+      const res = await fetch(`${API}/api/ocr/batch/async`, { method: 'POST', body: fd })
       const data = await res.json()
       if (!res.ok) {
         setBatchErr(typeof data.detail === 'string' ? data.detail : '提交失败')
@@ -244,7 +293,7 @@ export default function App() {
     // 首次加载模型要几十秒，轮询上限放到 15 分钟（20 张图实测约 8 分钟）
     while (Date.now() - started < 15 * 60 * 1000) {
       try {
-        const r = await fetch(`/api/ocr/batch/${jobId}`)
+        const r = await fetch(`${API}/api/ocr/batch/${jobId}`)
         if (!r.ok) {
           const e = await r.json().catch(() => ({}))
           setBatchErr(typeof e.detail === 'string' ? e.detail : `进度查询失败 ${r.status}`)
@@ -328,7 +377,7 @@ export default function App() {
 
   async function loadHistory() {
     try {
-      const res = await fetch('/api/history?limit=20')
+      const res = await fetch(`${API}/api/history?limit=20`)
       const data = await res.json()
       setHistoryItems(data.items || [])
       setHistoryOpen(true)
@@ -358,6 +407,8 @@ export default function App() {
       <header className="header">
         <h1>漢文 → 書き下し文</h1>
         <p className="sub">Night 7：OCR 行別対照 + 纠错 + 历史翻回 / 訓読 UD-Kundoku / LLM 占位</p>
+        {engine === 'loading' && <p className="warn">引擎加载中…（首次启动约 10–30 秒，加载完即可訓読）</p>}
+        {engine === 'failed' && <p className="error">引擎未就绪：{engineErr || '后端无响应'}</p>}
       </header>
 
       <div className="left-pane">
@@ -413,7 +464,7 @@ export default function App() {
                     : `批量識別（${batchFiles.length} 张）`}
                 </button>
                 {batch && batch.status === 'running' && (
-                  <button className="ghost" onClick={() => void fetch(`/api/ocr/batch/${batch.job_id}/cancel`, { method: 'POST' })}>
+                  <button className="ghost" onClick={() => void fetch(`${API}/api/ocr/batch/${batch.job_id}/cancel`, { method: 'POST' })}>
                     取消
                   </button>
                 )}

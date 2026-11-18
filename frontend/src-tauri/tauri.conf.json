@@ -10,21 +10,15 @@
     "beforeDevCommand": ""
   },
   "app": {
-    "windows": [
-      {
-        "title": "漢文 → 書き下し文",
-        "width": 1280,
-        "height": 860,
-        "url": "http://localhost:5173"
-      }
-    ],
+    "windows": [],
     "security": {
-      "csp": null
+      "csp": "default-src 'self'; connect-src 'self' http://127.0.0.1:*; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'"
     }
   },
   "bundle": {
     "active": true,
     "targets": ["nsis"],
-    "icon": ["icons/icon.ico"]
+    "icon": ["icons/icon.ico"],
+    "resources": ["sidecar/**/*"]
   }
 }

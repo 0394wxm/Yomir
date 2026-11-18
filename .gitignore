@@ -12,6 +12,14 @@ frontend/dist/
 # Tauri / Rust 编译产物
 frontend/src-tauri/target/
 
+# D6: 暂存给 Tauri resources 的 sidecar（PyInstaller 产物 ~500MB，只在本机）
+# 由 tools/day6_stage_sidecar.py 从 dist/kanbun-sidecar 复制而来
+frontend/src-tauri/sidecar/
+
+# PyInstaller 产物与中间目录
+build/
+dist/
+
 # 上传的图片原文件（OCR 入口的临时存储）
 uploads/
 
