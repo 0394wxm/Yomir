@@ -240,27 +240,85 @@ GLOSSARY_LEXICON = [
     {"word": "酔生夢死", "reading": "すいせいむし", "meaning": "むなしく生きむなしく死ぬ。"},
 ]
 
+# ---- D3 扩充：209 → 500（新增 291 条，全部经 200 条语料硬校验） ----
+# 文件由 tools/build_lexicon_extra.py 从 eval/lexicon_extra_src.txt 生成；
+# 未人工校对，来源说明见 glossary_lexicon_extra.LEXICON_EXTRA_SOURCE。
+from backend.glossary_lexicon_extra import as_dicts as _extra_dicts  # noqa: E402
+
+# 旧 209 条里属于「功能词」的条目（接续词・副词・代名詞・助動詞・形式名詞）。
+# D3 要求内容词排前、功能词排后，故显式标注，供 _ordered_entries() 分组。
+_OLD_FUNCTION_WORDS = {
+    "乃ち", "而して", "然れども", "然らば", "抑", "且つ", "乃至", "況んや", "所謂",
+    "或いは", "既に", "曾て", "將に", "俄かに", "屢〻", "遽", "何遽ぞ", "猶", "殆ど",
+    "唯", "凡そ", "始め", "忽ち", "聊か", "甚だ", "少く", "大いに", "皆", "直ちに",
+    "即ち", "敢えて", "果たして", "因りて", "故に", "但し", "要するに", "時に", "俄",
+    "之", "其", "彼", "誰", "何", "孰", "焉", "某", "吾", "我", "汝", "爾", "己",
+    "たり", "なり", "べし", "まし", "む", "ず", "勿", "得", "可", "曰", "曰く",
+    "謂ふ", "而も", "而るに", "然り", "然りて", "謂いて", "対えて", "奚", "女",
+    "莫し", "可からず", "べからざる", " 得べからず", "ごとし", "如くは", "ざる",
+    "けり", "らむ", "つ", "ぬ", "猶", "犹ほ",
+}
+for _e in GLOSSARY_LEXICON:
+    if "kind" not in _e and _e.get("word") in _OLD_FUNCTION_WORDS:
+        _e["kind"] = "function"
+
+_OLD_SIZE = len(GLOSSARY_LEXICON)
+GLOSSARY_LEXICON = GLOSSARY_LEXICON + _extra_dicts()
+LEXICON_SIZE_TOTAL = len(GLOSSARY_LEXICON)
+
+
+def _ordered_entries():
+    """词库条目按「内容词先 → 功能词后」排序，同组内长词在前。
+
+    D3：语义解释先给实词（孔子・君子・学），功能词（之・而・也）排后面，
+    否则「之」「而」这类高频助词会把 5 条名额占满，用户看不到内容。
+    长词在前避免「子」抢先匹配掉「孔子」这类更具体的词条。
+    """
+    content = [e for e in GLOSSARY_LEXICON if e.get("kind") != "function"]
+    function = [e for e in GLOSSARY_LEXICON if e.get("kind") == "function"]
+    key = lambda e: (-len(e.get("word", "")),)  # noqa: E731
+    return sorted(content, key=key) + sorted(function, key=key)
+
 
 def find_in_lexicon(text: str, max_hits: int = 5):
-    """文本（白文+書き下し文の連結）に词形が現れた词库条目を返す。"""
+    """文本（白文+書き下し文の連結）に词形が現れた词库条目を返す。
+
+    内容词优先、长词优先；已被更长词条覆盖的位置不再用短词重复命中
+    （例如「孔子」命中后不再把其中的「子」再算一条）。
+    """
     hits = []
     if not text:
         return hits
+    covered = [False] * len(text)
     seen = set()
-    for item in GLOSSARY_LEXICON:
+    for item in _ordered_entries():
         w = item.get("word", "")
         if not w or w in seen:
             continue
-        if w in text:
-            hits.append({
-                "word": w,
-                "reading": item.get("reading", ""),
-                "meaning": item.get("meaning", ""),
-                "source": "lexicon",
-            })
-            seen.add(w)
-            if len(hits) >= max_hits:
+        start = text.find(w)
+        if start < 0:
+            continue
+        # 跳过完全落在已命中词条内部的匹配
+        pos = start
+        free = -1
+        while pos >= 0:
+            if not any(covered[pos:pos + len(w)]):
+                free = pos
                 break
+            pos = text.find(w, pos + 1)
+        if free < 0:
+            continue
+        for i in range(free, free + len(w)):
+            covered[i] = True
+        hits.append({
+            "word": w,
+            "reading": item.get("reading", ""),
+            "meaning": item.get("meaning", ""),
+            "source": "lexicon",
+        })
+        seen.add(w)
+        if len(hits) >= max_hits:
+            break
     return hits
 
 

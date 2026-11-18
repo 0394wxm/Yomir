@@ -1,31 +1,87 @@
 {
   "night": 21,
-  "verdict": "PASS",
-  "checked_at": "2026-11-18T15:59:38",
-  "elapsed_sec": 38.2,
+  "verdict": "FAIL",
+  "checked_at": "2026-11-18T16:54:35",
+  "elapsed_sec": 31.4,
   "n_checks": 6,
-  "n_fail": 0,
+  "n_fail": 1,
   "n_skip": 0,
   "checks": [
     {
       "name": "repo_clean",
       "title": "git 工作区干净",
-      "status": "pass",
+      "status": "fail",
       "notes": [
-        "已跟踪文件无改动",
-        "未跟踪：ACCEPT_LOG.md, eval/accept_night_21.json, tools/accept_night.py"
+        "已跟踪文件有未提交改动：1 个",
+        "未跟踪：backend/glossary_lexicon_extra.py, eval/kundoku_words.txt, eval/lexicon_candidates.txt, eval/lexicon_extra_src.txt, eval/lexicon_surface_all.txt, eval/lexicon_surface_candidates.txt, eval/lexicon_targets.txt, eval/lexicon_targets_clean.txt, tools/add_kind_column.py, tools/apply_swaps.py"
       ],
       "detail": {
         "changed": [
-          "?? ACCEPT_LOG.md",
-          "?? eval/accept_night_21.json",
-          "?? tools/accept_night.py"
+          " M backend/glossary_lexicon.py",
+          "?? backend/glossary_lexicon_extra.py",
+          "?? eval/kundoku_words.txt",
+          "?? eval/lexicon_candidates.txt",
+          "?? eval/lexicon_extra_src.txt",
+          "?? eval/lexicon_surface_all.txt",
+          "?? eval/lexicon_surface_candidates.txt",
+          "?? eval/lexicon_targets.txt",
+          "?? eval/lexicon_targets_clean.txt",
+          "?? tools/add_kind_column.py",
+          "?? tools/apply_swaps.py",
+          "?? tools/build_lexicon_extra.py",
+          "?? tools/check_entries.py",
+          "?? tools/check_hits.py",
+          "?? tools/compare_lexicon_before_after.py",
+          "?? tools/diff_src_vs_targets.py",
+          "?? tools/export_lexicon_candidates.py",
+          "?? tools/export_surface_all.py",
+          "?? tools/export_surface_candidates.py",
+          "?? tools/gen_lexicon_src.py",
+          "?? tools/list_lexicon_targets.py",
+          "?? tools/mecab_shim.py",
+          "?? tools/mine_glossary_candidates.py",
+          "?? tools/mine_kundoku_words.py",
+          "?? tools/mine_lexicon_words.py",
+          "?? tools/pick_lexicon_targets.py",
+          "?? tools/probe_words.py",
+          "?? tools/swap_src.py",
+          "?? tools/verify_lexicon.py"
         ],
-        "tracked_changes": [],
+        "tracked_changes": [
+          " M backend/glossary_lexicon.py"
+        ],
         "untracked": [
-          "?? ACCEPT_LOG.md",
-          "?? eval/accept_night_21.json",
-          "?? tools/accept_night.py"
+          "?? backend/glossary_lexicon_extra.py",
+          "?? eval/kundoku_words.txt",
+          "?? eval/lexicon_candidates.txt",
+          "?? eval/lexicon_extra_src.txt",
+          "?? eval/lexicon_surface_all.txt",
+          "?? eval/lexicon_surface_candidates.txt",
+          "?? eval/lexicon_targets.txt",
+          "?? eval/lexicon_targets_clean.txt",
+          "?? tools/add_kind_column.py",
+          "?? tools/apply_swaps.py",
+          "?? tools/build_lexicon_extra.py",
+          "?? tools/check_entries.py",
+          "?? tools/check_hits.py",
+          "?? tools/compare_lexicon_before_after.py",
+          "?? tools/diff_src_vs_targets.py",
+          "?? tools/export_lexicon_candidates.py",
+          "?? tools/export_surface_all.py",
+          "?? tools/export_surface_candidates.py",
+          "?? tools/gen_lexicon_src.py",
+          "?? tools/list_lexicon_targets.py",
+          "?? tools/mecab_shim.py",
+          "?? tools/mine_glossary_candidates.py",
+          "?? tools/mine_kundoku_words.py",
+          "?? tools/mine_lexicon_words.py",
+          "?? tools/pick_lexicon_targets.py",
+          "?? tools/probe_words.py",
+          "?? tools/swap_src.py",
+          "?? tools/verify_lexicon.py"
+        ],
+        "files": [
+          " M backend/glossary_lexicon.py"
         ]
       }
     },
@@ -34,14 +90,14 @@
       "title": "tests/test_api.py 全过",
       "status": "pass",
       "notes": [
-        "14 passed（17.8s）"
+        "14 passed（14.8s）"
       ],
       "detail": {
-        "elapsed_sec": 17.8,
+        "elapsed_sec": 14.8,
         "tail": [
           "",
           "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html",
-          "14 passed, 2 warnings in 12.73s"
+          "14 passed, 2 warnings in 10.61s"
         ],
         "passed": 14
       }
@@ -145,8 +201,8 @@
       ],
       "detail": {
         "ms": [
-          13.0,
-          11.0,
+          23.0,
+          10.0,
           11.0
         ],
         "median_ms": 11.0,
