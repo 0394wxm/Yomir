@@ -1,0 +1,244 @@
+{
+  "night": 23,
+  "verdict": "PASS",
+  "checked_at": "2026-11-18T23:43:33",
+  "elapsed_sec": 23.5,
+  "n_checks": 6,
+  "n_fail": 0,
+  "n_skip": 0,
+  "checks": [
+    {
+      "name": "repo_clean",
+      "title": "git 工作区干净",
+      "status": "pass",
+      "notes": [
+        "已跟踪文件无改动"
+      ],
+      "detail": {
+        "changed": [],
+        "tracked_changes": [],
+        "untracked": []
+      }
+    },
+    {
+      "name": "pytest",
+      "title": "tests/test_api.py 全过",
+      "status": "pass",
+      "notes": [
+        "15 passed（10.7s）"
+      ],
+      "detail": {
+        "elapsed_sec": 10.7,
+        "tail": [
+          "",
+          "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html",
+          "15 passed, 2 warnings in 7.31s"
+        ],
+        "passed": 15
+      }
+    },
+    {
+      "name": "eval_integrity",
+      "title": "评测归档完整、id 唯一、expected 未被改",
+      "status": "pass",
+      "notes": [
+        "检查 1 个归档，id 唯一、自报数一致、expected 未改"
+      ],
+      "detail": {
+        "golden_n": 500,
+        "files": [
+          {
+            "file": "night23_results_rongo.json",
+            "n": 117,
+            "unique": 117,
+            "avg": 35.547,
+            "exact": 0,
+            "self_total": 117,
+            "self_exact": null,
+            "expected_mismatch": [],
+            "not_in_golden": [
+              "rongo0101-1",
+              "rongo0102-1",
+              "rongo0103-1",
+              "rongo0104-1",
+              "rongo0105-1",
+              "rongo0106-1",
+              "rongo0201-1",
+              "rongo0202-1",
+              "rongo0203-1",
+              "rongo0204-1",
+              "rongo0205-1",
+              "rongo0206-1",
+              "rongo0301-1",
+              "rongo0302-1",
+              "rongo0303-1",
+              "rongo0304-1",
+              "rongo0305-1",
+              "rongo0306-1",
+              "rongo0401-1",
+              "rongo0402-1",
+              "rongo0403-1",
+              "rongo0404-1",
+              "rongo0405-1",
+              "rongo0406-1",
+              "rongo0501-1",
+              "rongo0502-1",
+              "rongo0503-1",
+              "rongo0504-1",
+              "rongo0505-1",
+              "rongo0506-1",
+              "rongo0601-1",
+              "rongo0602-1",
+              "rongo0603-1",
+              "rongo0604-1",
+              "rongo0605-1",
+              "rongo0606-1",
+              "rongo0701-1",
+              "rongo0702-1",
+              "rongo0703-1",
+              "rongo0704-1",
+              "rongo0705-1",
+              "rongo0706-1",
+              "rongo0801-1",
+              "rongo0802-1",
+              "rongo0803-1",
+              "rongo0804-1",
+              "rongo0805-1",
+              "rongo0806-1",
+              "rongo0901-1",
+              "rongo0902-1",
+              "rongo0903-1",
+              "rongo0904-1",
+              "rongo0905-1",
+              "rongo0906-1",
+              "rongo1001-1",
+              "rongo1002-1",
+              "rongo1003-1",
+              "rongo1004-1",
+              "rongo1005-1",
+              "rongo1006-1",
+              "rongo1101-1",
+              "rongo1102-1",
+              "rongo1103-1",
+              "rongo1104-1",
+              "rongo1105-1",
+              "rongo1106-1",
+              "rongo1201-1",
+              "rongo1202-1",
+              "rongo1203-1",
+              "rongo1204-1",
+              "rongo1205-1",
+              "rongo1206-1",
+              "rongo1301-1",
+              "rongo1302-1",
+              "rongo1303-1",
+              "rongo1304-1",
+              "rongo1305-1",
+              "rongo1306-1",
+              "rongo1401-1",
+              "rongo1402-1",
+              "rongo1403-1",
+              "rongo1404-1",
+              "rongo1405-1",
+              "rongo1406-1",
+              "rongo1501-1",
+              "rongo1502-1",
+              "rongo1503-1",
+              "rongo1504-1",
+              "rongo1505-1",
+              "rongo1506-1",
+              "rongo1601-1",
+              "rongo1602-1",
+              "rongo1603-1",
+              "rongo1604-1",
+              "rongo1605-1",
+              "rongo1606-1",
+              "rongo1701-1",
+              "rongo1702-1",
+              "rongo1703-1",
+              "rongo1704-1",
+              "rongo1705-1",
+              "rongo1706-1",
+              "rongo1801-1",
+              "rongo1802-1",
+              "rongo1803-1",
+              "rongo1804-1",
+              "rongo1805-1",
+              "rongo1806-1",
+              "rongo1901-1",
+              "rongo1902-1",
+              "rongo1903-1",
+              "rongo1904-1",
+              "rongo1905-1",
+              "rongo1906-1",
+              "rongo2001-1",
+              "rongo2002-1",
+              "rongo2003-1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "rule_regression",
+      "title": "已撤销规则未复活 / 规则表未破坏",
+      "status": "pass",
+      "notes": [
+        "Rule C' 护栏正常（顧みて留/て而して删）；ふ→う/は曰く 正常；正字化幂等；合并词表 21 条"
+      ],
+      "detail": {
+        "style_fix_rule_c_guard": "顧みて而して他を言う",
+        "style_fix_rule_c_prime": "見て思う",
+        "style_fix_fu": "云う",
+        "style_fix_wa_iwaku": "子曰く",
+        "merge_words_n": 21,
+        "merge_words_missing": []
+      }
+    },
+    {
+      "name": "engine_smoke",
+      "title": "引擎实际可用（3 句 + 分流 + 400）",
+      "status": "pass",
+      "notes": [
+        "健康检查/经典句/合并/正字化/假名分流/空输入 全部符合约定"
+      ],
+      "detail": {
+        "health": {
+          "ok": true,
+          "engine_loaded": true,
+          "ocr_available": true,
+          "engine_error": ""
+        },
+        "outputs": {
+          "classic": "王は左右を顧みて而して他を言う",
+          "merge": "宋人田を耕す者有り。",
+          "ortho": "梁恵王曰く",
+          "ortho_hakubun": "梁惠王曰",
+          "kana": {
+            "status": 200,
+            "text_type": "kana",
+            "kk": ""
+          },
+          "empty": 400
+        }
+      }
+    },
+    {
+      "name": "perf_envelope",
+      "title": "单句训读耗时在包络内",
+      "status": "pass",
+      "notes": [
+        "短句中位 12ms（包络 3000ms）"
+      ],
+      "detail": {
+        "ms": [
+          12.0,
+          6.0,
+          17.0
+        ],
+        "median_ms": 12.0,
+        "limit_ms": 3000.0
+      }
+    }
+  ]
+}
