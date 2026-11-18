@@ -1,88 +1,23 @@
 {
   "night": 21,
-  "verdict": "FAIL",
-  "checked_at": "2026-11-18T16:54:35",
-  "elapsed_sec": 31.4,
+  "verdict": "PASS",
+  "checked_at": "2026-11-18T17:00:06",
+  "elapsed_sec": 32.2,
   "n_checks": 6,
-  "n_fail": 1,
+  "n_fail": 0,
   "n_skip": 0,
   "checks": [
     {
       "name": "repo_clean",
       "title": "git 工作区干净",
-      "status": "fail",
+      "status": "pass",
       "notes": [
-        "已跟踪文件有未提交改动：1 个",
-        "未跟踪：backend/glossary_lexicon_extra.py, eval/kundoku_words.txt, eval/lexicon_candidates.txt, eval/lexicon_extra_src.txt, eval/lexicon_surface_all.txt, eval/lexicon_surface_candidates.txt, eval/lexicon_targets.txt, eval/lexicon_targets_clean.txt, tools/add_kind_column.py, tools/apply_swaps.py"
+        "已跟踪文件无改动"
       ],
       "detail": {
-        "changed": [
-          " M backend/glossary_lexicon.py",
-          "?? backend/glossary_lexicon_extra.py",
-          "?? eval/kundoku_words.txt",
-          "?? eval/lexicon_candidates.txt",
-          "?? eval/lexicon_extra_src.txt",
-          "?? eval/lexicon_surface_all.txt",
-          "?? eval/lexicon_surface_candidates.txt",
-          "?? eval/lexicon_targets.txt",
-          "?? eval/lexicon_targets_clean.txt",
-          "?? tools/add_kind_column.py",
-          "?? tools/apply_swaps.py",
-          "?? tools/build_lexicon_extra.py",
-          "?? tools/check_entries.py",
-          "?? tools/check_hits.py",
-          "?? tools/compare_lexicon_before_after.py",
-          "?? tools/diff_src_vs_targets.py",
-          "?? tools/export_lexicon_candidates.py",
-          "?? tools/export_surface_all.py",
-          "?? tools/export_surface_candidates.py",
-          "?? tools/gen_lexicon_src.py",
-          "?? tools/list_lexicon_targets.py",
-          "?? tools/mecab_shim.py",
-          "?? tools/mine_glossary_candidates.py",
-          "?? tools/mine_kundoku_words.py",
-          "?? tools/mine_lexicon_words.py",
-          "?? tools/pick_lexicon_targets.py",
-          "?? tools/probe_words.py",
-          "?? tools/swap_src.py",
-          "?? tools/verify_lexicon.py"
-        ],
-        "tracked_changes": [
-          " M backend/glossary_lexicon.py"
-        ],
-        "untracked": [
-          "?? backend/glossary_lexicon_extra.py",
-          "?? eval/kundoku_words.txt",
-          "?? eval/lexicon_candidates.txt",
-          "?? eval/lexicon_extra_src.txt",
-          "?? eval/lexicon_surface_all.txt",
-          "?? eval/lexicon_surface_candidates.txt",
-          "?? eval/lexicon_targets.txt",
-          "?? eval/lexicon_targets_clean.txt",
-          "?? tools/add_kind_column.py",
-          "?? tools/apply_swaps.py",
-          "?? tools/build_lexicon_extra.py",
-          "?? tools/check_entries.py",
-          "?? tools/check_hits.py",
-          "?? tools/compare_lexicon_before_after.py",
-          "?? tools/diff_src_vs_targets.py",
-          "?? tools/export_lexicon_candidates.py",
-          "?? tools/export_surface_all.py",
-          "?? tools/export_surface_candidates.py",
-          "?? tools/gen_lexicon_src.py",
-          "?? tools/list_lexicon_targets.py",
-          "?? tools/mecab_shim.py",
-          "?? tools/mine_glossary_candidates.py",
-          "?? tools/mine_kundoku_words.py",
-          "?? tools/mine_lexicon_words.py",
-          "?? tools/pick_lexicon_targets.py",
-          "?? tools/probe_words.py",
-          "?? tools/swap_src.py",
-          "?? tools/verify_lexicon.py"
-        ],
-        "files": [
-          " M backend/glossary_lexicon.py"
-        ]
+        "changed": [],
+        "tracked_changes": [],
+        "untracked": []
       }
     },
     {
@@ -90,14 +25,14 @@
       "title": "tests/test_api.py 全过",
       "status": "pass",
       "notes": [
-        "14 passed（14.8s）"
+        "14 passed（15.8s）"
       ],
       "detail": {
-        "elapsed_sec": 14.8,
+        "elapsed_sec": 15.8,
         "tail": [
           "",
           "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html",
-          "14 passed, 2 warnings in 10.61s"
+          "14 passed, 2 warnings in 11.36s"
         ],
         "passed": 14
       }
@@ -197,15 +132,15 @@
       "title": "单句训读耗时在包络内",
       "status": "pass",
       "notes": [
-        "短句中位 11ms（包络 3000ms）"
+        "短句中位 10ms（包络 3000ms）"
       ],
       "detail": {
         "ms": [
-          23.0,
+          21.0,
           10.0,
-          11.0
+          7.0
         ],
-        "median_ms": 11.0,
+        "median_ms": 10.0,
         "limit_ms": 3000.0
       }
     }
