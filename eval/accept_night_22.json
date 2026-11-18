@@ -1,0 +1,159 @@
+{
+  "night": 22,
+  "verdict": "FAIL",
+  "checked_at": "2026-11-18T23:25:55",
+  "elapsed_sec": 21.7,
+  "n_checks": 6,
+  "n_fail": 1,
+  "n_skip": 0,
+  "checks": [
+    {
+      "name": "repo_clean",
+      "title": "git 工作区干净",
+      "status": "fail",
+      "notes": [
+        "已跟踪文件有未提交改动：3 个",
+        "未跟踪：eval/accept_night_22.json, eval/night22_results_full.json, eval/night22_sodashite_scan.json, tests/test_sodashite_guard.py, tools/night22_compare.py, tools/night22_exact.py, tools/night22_grep_sodashite.py, tools/night22_rule_sim.py, tools/night22_sodashite_scan.py"
+      ],
+      "detail": {
+        "changed": [
+          " M ACCEPT_LOG.md",
+          " M backend/kundoku_rules.py",
+          " M tools/accept_night.py",
+          "?? eval/accept_night_22.json",
+          "?? eval/night22_results_full.json",
+          "?? eval/night22_sodashite_scan.json",
+          "?? tests/test_sodashite_guard.py",
+          "?? tools/night22_compare.py",
+          "?? tools/night22_exact.py",
+          "?? tools/night22_grep_sodashite.py",
+          "?? tools/night22_rule_sim.py",
+          "?? tools/night22_sodashite_scan.py"
+        ],
+        "tracked_changes": [
+          " M ACCEPT_LOG.md",
+          " M backend/kundoku_rules.py",
+          " M tools/accept_night.py"
+        ],
+        "untracked": [
+          "?? eval/accept_night_22.json",
+          "?? eval/night22_results_full.json",
+          "?? eval/night22_sodashite_scan.json",
+          "?? tests/test_sodashite_guard.py",
+          "?? tools/night22_compare.py",
+          "?? tools/night22_exact.py",
+          "?? tools/night22_grep_sodashite.py",
+          "?? tools/night22_rule_sim.py",
+          "?? tools/night22_sodashite_scan.py"
+        ],
+        "files": [
+          " M ACCEPT_LOG.md",
+          " M backend/kundoku_rules.py",
+          " M tools/accept_night.py"
+        ]
+      }
+    },
+    {
+      "name": "pytest",
+      "title": "tests/test_api.py 全过",
+      "status": "pass",
+      "notes": [
+        "15 passed（9.7s）"
+      ],
+      "detail": {
+        "elapsed_sec": 9.7,
+        "tail": [
+          "",
+          "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html",
+          "15 passed, 2 warnings in 6.38s"
+        ],
+        "passed": 15
+      }
+    },
+    {
+      "name": "eval_integrity",
+      "title": "评测归档完整、id 唯一、expected 未被改",
+      "status": "pass",
+      "notes": [
+        "检查 1 个归档，id 唯一、自报数一致、expected 未改"
+      ],
+      "detail": {
+        "golden_n": 500,
+        "files": [
+          {
+            "file": "night22_results_full.json",
+            "n": 500,
+            "unique": 500,
+            "avg": 26.214,
+            "exact": 1,
+            "self_total": 500,
+            "self_exact": 1,
+            "expected_mismatch": [],
+            "not_in_golden": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "rule_regression",
+      "title": "已撤销规则未复活 / 规则表未破坏",
+      "status": "pass",
+      "notes": [
+        "Rule C' 护栏正常（顧みて留/て而して删）；ふ→う/は曰く 正常；正字化幂等；合并词表 21 条"
+      ],
+      "detail": {
+        "style_fix_rule_c_guard": "顧みて而して他を言う",
+        "style_fix_rule_c_prime": "見て思う",
+        "style_fix_fu": "云う",
+        "style_fix_wa_iwaku": "子曰く",
+        "merge_words_n": 21,
+        "merge_words_missing": []
+      }
+    },
+    {
+      "name": "engine_smoke",
+      "title": "引擎实际可用（3 句 + 分流 + 400）",
+      "status": "pass",
+      "notes": [
+        "健康检查/经典句/合并/正字化/假名分流/空输入 全部符合约定"
+      ],
+      "detail": {
+        "health": {
+          "ok": true,
+          "engine_loaded": true,
+          "ocr_available": true,
+          "engine_error": ""
+        },
+        "outputs": {
+          "classic": "王は左右を顧みて而して他を言う",
+          "merge": "宋人田を耕す者有り。",
+          "ortho": "梁恵王曰く",
+          "ortho_hakubun": "梁惠王曰",
+          "kana": {
+            "status": 200,
+            "text_type": "kana",
+            "kk": ""
+          },
+          "empty": 400
+        }
+      }
+    },
+    {
+      "name": "perf_envelope",
+      "title": "单句训读耗时在包络内",
+      "status": "pass",
+      "notes": [
+        "短句中位 9ms（包络 3000ms）"
+      ],
+      "detail": {
+        "ms": [
+          12.0,
+          7.0,
+          9.0
+        ],
+        "median_ms": 9.0,
+        "limit_ms": 3000.0
+      }
+    }
+  ]
+}

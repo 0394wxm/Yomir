@@ -12,7 +12,8 @@
   1. repo_clean        git 工作区干净（或只有未跟踪的临时文件）
   2. pytest            tests/test_api.py 全过
   3. eval_integrity    评测文件 id 唯一、无重复、总数与自报一致、expected 未被改动
-  4. rule_regression   已撤销的规则确实没生效（Rule C：而して 不被删；正字化表可逆）
+  4. rule_regression   规则按当前约定生效（NIGHT22 起：顧みて而して 保留、
+                       无护栏 て而して 删除；正字化表可逆）
   5. engine_smoke      引擎实际可用：3 句经典句输出符合当前约定（含 kana 分流、空输入 400）
   6. perf_envelope     单句训读耗时在包络内（防止性能悄悄退化）
 
@@ -48,6 +49,7 @@ NIGHT_ARTIFACTS = {
     13: [],
     21: ["night21_results_full.json", "night21_results_full_v4.json",
          "night21_results_full_v4_500.json"],
+    22: ["night22_results_full.json"],
 }
 
 # Night 4 之后 expected 应保持的经典句（防止有人改评测数据来「提分」）
@@ -211,13 +213,18 @@ def check_rule_regression(night):
         c.skip("无法 import backend.kundoku_rules：%r" % (e,))
         return c
 
-    # 4a. Rule C 必须仍处于「撤销」状态：函数存在（存档）但 style_fix 不能用它
+    # 4a. Rule C 语义检查（NIGHT22 起带护栏复活）：护栏处「顧みて而して」必须保留，
+    #     无护栏的「て而して」必须被删。无护栏旧版 style_dedup_shite_soshite 仍是存档函数。
     if not hasattr(kr, "style_dedup_shite_soshite"):
-        c.notes.append("style_dedup_shite_soshite 已删除（可接受，规则确实不生效）")
+        c.notes.append("无护栏版 style_dedup_shite_soshite 已删除（可接受）")
     t = kr.style_fix("顧みて而して他を言う")
-    c.detail["style_fix_rule_c"] = t
+    c.detail["style_fix_rule_c_guard"] = t
     if "而して" not in t:
-        c.fail("Rule C 复活：style_fix 删掉了「而して」", out=t)
+        c.fail("护栏失效：style_fix 删掉了「顧みて而して」", out=t)
+    t2 = kr.style_fix("見て而して思ふ")
+    c.detail["style_fix_rule_c_prime"] = t2
+    if t2 != "見て思う":  # ふ→う 先行（思ふ→思う），Night22 单测同款坑
+        c.fail("Rule C' 未生效：style_fix 没删无护栏的「て而して」", out=t2)
 
     # 4b. style_fix 该做的两件事仍在做
     a = kr.style_fix("云ふ")
@@ -245,7 +252,7 @@ def check_rule_regression(night):
         c.fail("MERGE_WORDS 缺 Night4 扩充词：%s" % missing)
 
     if c.status == "pass":
-        c.notes.append("Rule C 仍撤销；ふ→う/は曰く 正常；正字化幂等；合并词表 %d 条"
+        c.notes.append("Rule C' 护栏正常（顧みて留/て而して删）；ふ→う/は曰く 正常；正字化幂等；合并词表 %d 条"
                        % len(kr.MERGE_WORDS))
     return c
 

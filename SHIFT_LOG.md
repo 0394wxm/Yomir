@@ -24,3 +24,5 @@
 
 - 2026-11-18 22:55 | 班次交接核对 | 89c20de 与 84cdbbf 的关系已查明：同一天 master 上的先后提交，无分叉无冲突。89c20de=15:55 早前会话做 full_v4 对比（清单 D1 下半场；报告文件名误编为 REPORT_DAY9.md，非第九天班次）；84cdbbf=22:24 本会话 D8 盘点。中间依次：836d996(D2 验收门 16:03)→7992994(D3 词库 16:59)→2228ff5(gate PASS 17:00)→571d36e(D5 人工标注 17:08)→29cfb8c(D4 离群值 17:37)→9c3790a(D7 OCR 进度 18:18)→899894b(D6 sidecar 21:46) | 复验 D2/D4/D7 现状后进 Night 22
 - 2026-11-18 22:58 | D2/D4/D7 复验（发现今晚任务单是旧清单，三件白天已完成，不重做） | D2：accept_night.py 21 → PASS 6/6（23.4s，内含 pytest 15 passed，expected 未改，Rule C 仍撤销）；D7：test_ocr_batch_progress.py → 6 passed（7.6s，桩引擎）；D4：day4_raw_io.py 复测 D: fsync 93.6ms vs C: 2.4ms（39×，结论仍成立；定位报告 29cfb8c 未动 db.py，5 个候选方案仍等拍板） | 三件以复验通过计，直接进 Night 22
+
+- 2026-11-18 23:40 | Night 22 DONE | 「而して」解剖：256 处输出层分布 kana 191/punct 50/kanji 13/BOS 2；R1 汉字前置删假设否决(+0.01)；上线 Rule C'（て而して→て+顧み护栏）：真机 500 条 avgDist 27.02→26.21，107 改善/0 变差，精确 0→1（kantanayu-3）；pytest 33 passed；模拟与真机逐项一致 | 提交后终跑验收门 22 → 进 Night 23

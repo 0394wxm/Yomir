@@ -20,6 +20,7 @@ MeCab(mecab-kanbun 词典) 把专名拆散（楚人→楚+人、項王→項+王
     entry = ENGINE(text)
     entry = merge_proper_nouns(entry)   # 返回原地修改后的 entry
 """
+import re
 
 # 被引擎拆散的专名（白名单，后续可扩充；只允许 2~3 字）
 MERGE_WORDS = [
@@ -71,11 +72,28 @@ def style_dedup_shite_soshite(text: str) -> str:
     return text.replace("て而して", "て")
 
 
+def style_dedup_shite_soshite_guarded(text: str) -> str:
+    """て而して → て，护栏：顧みて而して 保留（NIGHT22 Rule C'，带护栏复活）。
+
+    历史：NIGHT5 Rule C（无护栏）26/26 方向一致 → NIGHT7 因唯一反例「顧みて而して
+    他を言う」（规范训读保留而して，pytest test_kundoku_classic 抓出）撤销。
+    NIGHT22 用 500 条语料重新量化（tools/night22_rule_sim.py）：输出里「て而して」
+    共 191 处（kana 前置），逐条核对 expected 无一处需要它；带护栏模拟
+    107 改善 / 0 变差 / avgDist 27.02→26.21（-0.81）。护栏 = て 的前 2 字是
+    「顧み」时不删——覆盖经典句，代价是放弃 archive 里 15 处「みて」中非经典
+    部分的少量收益（见 REPORT_NIGHT22.md §3）。
+    已撤销的无护栏版本见 style_dedup_shite_soshite（存档，不要启用）。
+    """
+    return re.sub(r"(?<!顧み)て而して", "て", text)
+
+
 def style_fix(text: str) -> str:
-    """NIGHT4 规则 A 总入口：显示风格修正（ふ→う、は曰く→曰く）。
-    不含已撤销的 Rule C（て而して→て），不改汉字词干、不动树结构。"""
+    """规则总入口：显示风格修正（NIGHT4 Rule A + NIGHT22 Rule C'）。
+    不改汉字词干、不动树结构。Rule C（て而して→て）以带护栏形式于 NIGHT22
+    复活（style_dedup_shite_soshite_guarded），无护栏版本仍处撤销状态。"""
     t = style_modern_kana(text)
     t = style_drop_wa_before_iwaku(t)
+    t = style_dedup_shite_soshite_guarded(t)
     return t
 
 # ---------------------------------------------------------------------------
