@@ -95,7 +95,9 @@ def main():
     out = {"total": len(results), "exact_match_count": exact,
            "avg_edit_distance": round(sum(r["edit_distance"] for r in ok) / n, 3) if n else None,
            "results": results}
-    out_path = os.path.join(ROOT, "eval", "night29_results_parallel.json")
+    args = [a for a in sys.argv[1:] if not a.startswith("-")]
+    out_name = args[0] if args else "night29_results_parallel.json"
+    out_path = os.path.join(ROOT, "eval", out_name)
     with open(out_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print("written:", out_path)
