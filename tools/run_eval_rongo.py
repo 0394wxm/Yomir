@@ -44,7 +44,10 @@ def main():
     from backend.main import app
     import backend.db as dbmod
 
-    with open(os.path.join(ROOT, "eval", "golden_rongo.json"), encoding="utf-8") as f:
+    in_args = [a for a in sys.argv[1:] if not a.startswith("-")]
+    in_name = in_args[0] if in_args else "golden_rongo.json"
+    out_name = in_args[1] if len(in_args) >= 2 else "night23_results_rongo.json"
+    with open(os.path.join(ROOT, "eval", in_name), encoding="utf-8") as f:
         golden = json.load(f)
     print("golden_rongo entries:", len(golden))
 
@@ -113,8 +116,8 @@ def main():
 
     out = {"total": len(results), "engine_ok": n, "exact_match": exact,
            "avg_edit_distance": round(avg, 3), "results": results}
-    args = [a for a in sys.argv[1:] if not a.startswith("-")]
-    out_name = args[0] if args else "night23_results_rongo.json"
+    # 输入/输出文件名统一在 main() 开头解析（in_args[0]=输入 golden，in_args[1]=输出归档）。
+    # 修复 NIGHT32 事故：这里残留的旧版解析曾把结果归档写到 args[0]（语料文件）上。
     out_path = os.path.join(ROOT, "eval", out_name)
     with open(out_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)

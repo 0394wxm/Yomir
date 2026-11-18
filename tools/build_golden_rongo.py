@@ -124,7 +124,9 @@ def main():
                 })
             time.sleep(0.2)
     print("total entries:", len(entries), "fetch failures:", fail)
-    out_path = os.path.join(ROOT, "eval", "golden_rongo.json")
+    args = [a for a in sys.argv[1:] if not a.startswith("-")]
+    out_name = args[0] if args else "golden_rongo.json"
+    out_path = os.path.join(ROOT, "eval", out_name)
     with open(out_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(entries, f, ensure_ascii=False, indent=2)
     print("written:", out_path)
