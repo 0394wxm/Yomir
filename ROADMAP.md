@@ -54,21 +54,21 @@ pip 走清华镜像，npm 走项目级 .npmrc；不要删 qkana shim（tools/mak
 状态: DONE（REPORT_NIGHT12.md，提交 243b468，本地 tag v0.1）。一键脚本 ×3（start_backend/start_frontend/eval_all）；README v0.1 重写；已知问题 8 条按严重程度排（含精确 0/200、再読文字上限、OCR 盲区、guwenbert 未接入等）。
 
 ### Night 13–15 — 桌面壳（Tauri 2）
-状态: Night 13 DONE-范围限定（REPORT_NIGHT13.md §3 更新：Rust 1.100.0 via rsproxy、MSVC 14.44、WebView2 157 全装；cargo build --release 完成，**exe 7.4MB**（目标 10-50MB 达标）；「本地能跑起来」限定为 devUrl 模式——需前后端同时开着，Night 14 sidecar 顺延）。Night 14/15 顺延。
+状态: Night 13 DONE-范围限定（REPORT_NIGHT13.md §3 更新：Rust 1.100.0 via rsproxy、MSVC 14.44、WebView2 157 全装；cargo build --release 完成，**exe 7.4MB**（目标 10-50MB 达标）；「本地能跑起来」限定为 devUrl 模式——需前后端同时开着，Night 14 sidecar 顺延）。Night 14 **DONE**（白天 D6 完成，提交 899894b：sidecar 随壳打包 493.4MB、断网訓読+OCR 实测通过——断网审计 12/12、e2e 6/6，见 REPORT_DAY6.md；无独立 REPORT_NIGHT14.md，去向登记在 REPORT_DAY8.md）。Night 15 **延期（TODO）**：壳已验证（cargo build --release 成功）、只缺 NSIS 封装——① tauri CLI 传参报错 unexpected argument ';'、② 需联网下载 NSIS 插件而本机是孤立沙盒；恢复需能联网的机器 + 用户拍板（REPORT_DAY6.md §7.1/§9、REPORT_DAY8.md §2）。
 - Night 13：Tauri 2 脚手架套现有 Web，本地能跑起来，体积记下来（目标 10–50MB，对照 Electron ~150MB）。
 - Night 14：桌面版离线：后端随壳启动、OCR 模型随壳打包、断网能跑訓読（現代語訳无 key 时仍占位）。
 - Night 15：桌面版安装包打出来，在本机装一次实测，记安装步骤与问题。
 - 每夜产出对应 REPORT_NIGHTn.md，本地提交。
 
 ### Night 16–18 — 找真用户验证（门禁：用户拍板找谁试，没拍板就跳过）
-状态: TODO（门禁）
+状态: TODO（门禁）——2026-11-18 D8 盘点：门禁未拍板，跳过，逐夜去向见 REPORT_DAY8.md §3；拍板后按下面三夜顺序做。
 - Night 16：写一份给初级研究者的试用说明（5 分钟能看懂怎么用），准备 10 句史料样例。
 - Night 17：把 v0.1 的试用反馈表做出来（哪里看不懂、哪里训错了、愿不愿意付费），先自己走一遍流程。
 - Night 18：按反馈修最痛的 3 个问题，不要一次修 10 个。
 - 每夜产出对应报告，本地提交。这三夜要不要做、找谁试，由用户拍板，没拍板就跳过。
 
 ### Night 19–20 — 上线准备（全是门禁）
-状态: TODO（门禁）
+状态: TODO（门禁）——2026-11-18 D8 盘点：门禁未拍板，跳过，逐夜去向见 REPORT_DAY8.md §4。
 - Night 19：域名 + 远程仓库 + 部署方案三选一写进报告，只写方案不执行，等用户拍板。
 - Night 20：定价页草稿（按 ¥980/月锚点写三档：免费试用 / 月付 / 机构授权），只写文案不接支付。
 - 每夜产出对应报告，本地提交。
