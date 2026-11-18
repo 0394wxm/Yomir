@@ -113,7 +113,9 @@ def main():
 
     out = {"total": len(results), "engine_ok": n, "exact_match": exact,
            "avg_edit_distance": round(avg, 3), "results": results}
-    out_path = os.path.join(ROOT, "eval", "night23_results_rongo.json")
+    args = [a for a in sys.argv[1:] if not a.startswith("-")]
+    out_name = args[0] if args else "night23_results_rongo.json"
+    out_path = os.path.join(ROOT, "eval", out_name)
     with open(out_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print("\nwritten:", out_path)
