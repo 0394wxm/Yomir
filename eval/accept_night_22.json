@@ -1,23 +1,22 @@
 {
   "night": 22,
-  "verdict": "FAIL",
-  "checked_at": "2026-11-19T19:04:07",
-  "elapsed_sec": 25.9,
+  "verdict": "PASS",
+  "checked_at": "2026-11-19T19:09:26",
+  "elapsed_sec": 27.3,
   "n_checks": 6,
-  "n_fail": 1,
+  "n_fail": 0,
   "n_skip": 0,
   "checks": [
     {
       "name": "repo_clean",
       "title": "git 工作区干净",
-      "status": "fail",
+      "status": "pass",
       "notes": [
-        "已跟踪文件有未提交改动：1 个",
+        "已跟踪文件无改动",
         "未跟踪：eval/ocr_gt_100.tsv, eval/ocr_samples/gt36/, eval/ocr_samples/gt36_hr/, eval/ocr_samples/gt36_probe.png, eval/ocr_samples/gt36_view/, eval/ocr_samples/hr_test.jpg, tools/night36_boxes.py, tools/night36_gt_crops.py, tools/night36_hires_dl.py, tools/night36_line_stats.py"
       ],
       "detail": {
         "changed": [
-          " M tools/accept_night.py",
           "?? eval/ocr_gt_100.tsv",
           "?? eval/ocr_samples/gt36/",
           "?? eval/ocr_samples/gt36_hr/",
@@ -32,9 +31,7 @@
           "?? tools/night36_status.py",
           "?? tools/night36_view.py"
         ],
-        "tracked_changes": [
-          " M tools/accept_night.py"
-        ],
+        "tracked_changes": [],
         "untracked": [
           "?? eval/ocr_gt_100.tsv",
           "?? eval/ocr_samples/gt36/",
@@ -49,9 +46,6 @@
           "?? tools/night36_sheet.py",
           "?? tools/night36_status.py",
           "?? tools/night36_view.py"
-        ],
-        "files": [
-          " M tools/accept_night.py"
         ]
       }
     },
@@ -60,13 +54,13 @@
       "title": "tests 全量通过",
       "status": "pass",
       "notes": [
-        "50 passed（13.9s）"
+        "50 passed（15.3s）"
       ],
       "detail": {
-        "elapsed_sec": 13.9,
+        "elapsed_sec": 15.3,
         "tail": [
           "..................................................                       [100%]",
-          "50 passed in 10.96s"
+          "50 passed in 12.07s"
         ],
         "passed": 50
       }
@@ -144,15 +138,15 @@
       "title": "单句训读耗时在包络内",
       "status": "pass",
       "notes": [
-        "短句中位 10ms（包络 3000ms）"
+        "短句中位 12ms（包络 3000ms）"
       ],
       "detail": {
         "ms": [
-          10.0,
-          17.0,
-          6.0
+          14.0,
+          12.0,
+          5.0
         ],
-        "median_ms": 10.0,
+        "median_ms": 12.0,
         "limit_ms": 3000.0
       }
     }
