@@ -11,6 +11,7 @@
 - 781193 目録页的 B 操作含渗墨对齐残余（Night 37 §4），不据此建词。
 """
 from typing import List, Tuple
+import unicodedata
 
 # (OCR 侧错串, 正确串, 依据)——串长降序应用
 FIXES: List[Tuple[str, str, str]] = [
@@ -47,3 +48,34 @@ def fix_kanji_confusions(text: str) -> str:
     for wrong, right, _note in sorted(FIXES, key=lambda t: -len(t[0])):
         text = text.replace(wrong, right)
     return text
+
+
+def is_junk_repeat_line(text: str) -> bool:
+    """同一汉字整行重复 ≥3 次 → 界框/装饰线被识别的垃圾行（NIGHT39）。
+    Night 6 的 _has_text 过滤挡不住它（一/十 都是汉字）。'一'/'一一' 等短行不拦。"""
+    if not text or len(text) < 3:
+        return False
+    if len(set(text)) != 1:
+        return False
+    c = text[0]
+    return ("\u3400" <= c <= "\u9fff") or ("\u4e00" <= c <= "\u4dbf") or ("\u3007" == c)
+
+
+def normalize_compat_ideographs(text: str) -> str:
+    """CJK 兼容表记（U+F900–U+FA6B，NEC/IBM 选字）→ Unicode 正则等价。
+    实测来源：OCR 输出含 U+FA42（旣形）、U+FA5B（者形）——Night 37 C 类证据。
+    只动 FA 兼容区，不做全串 NFKC（避免波及半角假名等）。"""
+    if not text:
+        return text
+    out = []
+    for c in text:
+        if "\uF900" <= c <= "\uFA6B":
+            out.append(unicodedata.normalize("NFKC", c))
+        else:
+            out.append(c)
+    return "".join(out)
+
+
+def postprocess_line(text: str) -> str:
+    """NIGHT39 引擎输出行的完整后处理：兼容码位归一 → B 类护栏校正。"""
+    return fix_kanji_confusions(normalize_compat_ideographs(text))

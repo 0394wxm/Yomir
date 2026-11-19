@@ -28,6 +28,10 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+from backend.ocr_postfix import is_junk_repeat_line, normalize_compat_ideographs  # noqa: E402
+
 OCR_SITE = os.environ.get("KANBUN_OCR_SITE", r"D:\dlkotenocr-lite\site-packages")
 OCR_SRC = os.environ.get("KANBUN_OCR_SRC", os.path.join(PROJECT_ROOT, "ocr_runtime", "src"))
 
@@ -275,9 +279,12 @@ class OCREngine:
         # ——行内不含假名或汉字即视为非内容行
         def _has_text(s):
             return any(("\u3040" <= c <= "\u30ff") or ("\u3400" <= c <= "\u9fff") or ("\u4e00" <= c <= "\u4dbf") for c in s)
+        # NIGHT39: 同一汉字整行重复 ≥3 次（界框被读成「一一一一」串）一并剔除；
+        # 同时把 CJK 兼容码位（U+FA 区，NEC/IBM 选字）归一到正则等价
         keep = [i for i, s in enumerate(resultlines)
-                if s and not any(p in s for p in patterns) and _has_text(s)]
-        resultlines = [resultlines[i] for i in keep]
+                if s and not any(p in s for p in patterns) and _has_text(s)
+                and not is_junk_repeat_line(s)]
+        resultlines = [normalize_compat_ideographs(resultlines[i]) for i in keep]
         # boxes 必须与 resultlines 同步过滤（Night3 踩过：只筛了行文本没筛盒子，
         # cluster 输出的 index 越界 -> IndexError）
         boxes = [dict(boxes[i], index=j) for j, i in enumerate(keep)]
