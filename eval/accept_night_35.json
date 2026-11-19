@@ -1,8 +1,8 @@
 {
   "night": 35,
   "verdict": "PASS",
-  "checked_at": "2026-11-19T03:30:00",
-  "elapsed_sec": 23.7,
+  "checked_at": "2026-11-19T15:16:41",
+  "elapsed_sec": 20.6,
   "n_checks": 6,
   "n_fail": 0,
   "n_skip": 1,
@@ -12,12 +12,50 @@
       "title": "git 工作区干净",
       "status": "pass",
       "notes": [
-        "已跟踪文件无改动"
+        "验收门自身产物有更新（不计脏）：ACCEPT_LOG.md, eval/accept_night_22.json, eval/accept_night_35.json",
+        "已跟踪文件无改动",
+        "未跟踪：eval/ocr_gt_100.tsv, eval/ocr_samples/gt36/, eval/ocr_samples/gt36_hr/, eval/ocr_samples/gt36_probe.png, eval/ocr_samples/gt36_view/, eval/ocr_samples/hr_test.jpg, tools/night36_boxes.py, tools/night36_gt_crops.py, tools/night36_hires_dl.py, tools/night36_line_stats.py"
       ],
       "detail": {
-        "changed": [],
+        "changed": [
+          " M ACCEPT_LOG.md",
+          " M eval/accept_night_22.json",
+          " M eval/accept_night_35.json",
+          "?? eval/ocr_gt_100.tsv",
+          "?? eval/ocr_samples/gt36/",
+          "?? eval/ocr_samples/gt36_hr/",
+          "?? eval/ocr_samples/gt36_probe.png",
+          "?? eval/ocr_samples/gt36_view/",
+          "?? eval/ocr_samples/hr_test.jpg",
+          "?? tools/night36_boxes.py",
+          "?? tools/night36_gt_crops.py",
+          "?? tools/night36_hires_dl.py",
+          "?? tools/night36_line_stats.py",
+          "?? tools/night36_sheet.py",
+          "?? tools/night36_status.py",
+          "?? tools/night36_view.py"
+        ],
+        "gate_owned_changes": [
+          " M ACCEPT_LOG.md",
+          " M eval/accept_night_22.json",
+          " M eval/accept_night_35.json"
+        ],
         "tracked_changes": [],
-        "untracked": []
+        "untracked": [
+          "?? eval/ocr_gt_100.tsv",
+          "?? eval/ocr_samples/gt36/",
+          "?? eval/ocr_samples/gt36_hr/",
+          "?? eval/ocr_samples/gt36_probe.png",
+          "?? eval/ocr_samples/gt36_view/",
+          "?? eval/ocr_samples/hr_test.jpg",
+          "?? tools/night36_boxes.py",
+          "?? tools/night36_gt_crops.py",
+          "?? tools/night36_hires_dl.py",
+          "?? tools/night36_line_stats.py",
+          "?? tools/night36_sheet.py",
+          "?? tools/night36_status.py",
+          "?? tools/night36_view.py"
+        ]
       }
     },
     {
@@ -25,14 +63,14 @@
       "title": "tests/test_api.py 全过",
       "status": "pass",
       "notes": [
-        "15 passed（11.0s）"
+        "15 passed（9.7s）"
       ],
       "detail": {
-        "elapsed_sec": 11.0,
+        "elapsed_sec": 9.7,
         "tail": [
           "",
           "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html",
-          "15 passed, 2 warnings in 7.38s"
+          "15 passed, 2 warnings in 6.64s"
         ],
         "passed": 15
       }
@@ -98,15 +136,15 @@
       "title": "单句训读耗时在包络内",
       "status": "pass",
       "notes": [
-        "短句中位 9ms（包络 3000ms）"
+        "短句中位 6ms（包络 3000ms）"
       ],
       "detail": {
         "ms": [
-          9.0,
-          7.0,
-          35.0
+          6.0,
+          6.0,
+          10.0
         ],
-        "median_ms": 9.0,
+        "median_ms": 6.0,
         "limit_ms": 3000.0
       }
     }

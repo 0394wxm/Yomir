@@ -1,134 +1,165 @@
-# REPORT_DAY2.md — 白天 D2：每夜验收门 `tools/accept_night.py`（2026-11-18）
+# REPORT_DAY2.md — 白天 D2：验收门复验（2026-11-19）
 
-任务单：白天清单第 2 项（D2 验收门补做）。
-起点：`git log -1` = `89c20de day9: full_v4 ...`。
+任务单：白天清单第 1 项（D2 验收门：写 `tools/accept_night.py`，6 项检查，JSON + exit 0/1，追加 `ACCEPT_LOG.md`，先跑 22 号回测再跑 35 号）。
 
-**结果：验收门建成，Night 21 PASS、Night 4 回测 PASS，注入 5 种故障 5/5 全部被抓到。**
+起点：`git log -1` = `4117d1c night35: accept gate PASS (5/6 + 1 skip)`，`pytest tests -q` = **33 passed**。
+工作分支：`ds/dayshift-text-mining`（全程只本地提交，未动 master）。
+
+**结果：验收门已存在（上一班建成），本班做的是复验 + 修掉一个真 bug。最终 22 号 PASS 6/6、35 号 PASS 5/6+1 skip，自检 5/5。**
 
 ---
 
-## 1. 交付物
+## 1. 现状核对：验收门本来就在
 
-| 文件 | 作用 |
-| --- | --- |
-| `tools/accept_night.py` | 验收门本体，6 项检查，JSON + exit 0/1 + 追加 `ACCEPT_LOG.md` |
-| `tools/accept_selftest.py` | 自检：往临时副本里注入故障，确认验收门会 FAIL |
-| `ACCEPT_LOG.md` | 运行记录（验收门自己追加） |
-| `eval/accept_night_<n>.json` | 每次运行的机器可读结果 |
+`tools/accept_night.py` 已由上一班（commit 见 REPORT_DAY2 旧版）交付，6 项检查齐全：
 
-## 2. 6 项检查的设计与判定标准
+| # | 检查名 | 判定内容 |
+| --- | --- | --- |
+| 1 | `repo_clean` | 已跟踪文件无未提交改动（未跟踪只记 note） |
+| 2 | `pytest` | `tests/test_api.py` 全过且 ≥14 条 |
+| 3 | `eval_integrity` | 归档存在、id 唯一、自报数一致、expected 与 golden 逐条一致 |
+| 4 | `rule_regression` | Rule C' 护栏、ふ→う、は曰く、正字化幂等、合并词表 21 条 |
+| 5 | `engine_smoke` | 6 个真实 HTTP 请求（健康/经典句/合并/正字化/假名分流/空输入 400） |
+| 6 | `perf_envelope` | 短句中位 < 3000ms |
 
-| # | 检查名 | 判定什么 | 为什么这么判（防止什么） |
-| --- | --- | --- | --- |
-| 1 | `repo_clean` | **已跟踪文件**无未提交改动 | 防止「报告说改了、代码没提交」→ 状态不可复现。未跟踪文件（验收门自己的 JSON/LOG）只记 note 不判失败 |
-| 2 | `pytest` | `tests/test_api.py` 全过且 ≥14 条 | 防止功能和回归断言被悄悄破坏；14 是 Night 7 以来的基线 |
-| 3 | `eval_integrity` | 归档存在、id 唯一、自报 total/exact 与实际一致、**expected 与 golden 逐条一致** | 防止「改答案提分」和「结果文件手工编辑」 |
-| 4 | `rule_regression` | Rule C 仍处撤销状态、ふ→う/は曰く 仍在生效、正字化幂等、Night4 的 10 个合并词还在 | 防止迟到的合并把 Night 7 撤销的规则又带回来（这个项目已经发生过一次） |
-| 5 | `engine_smoke` | 进程内 TestClient 跑 6 个真实请求：健康检查、经典句精确串、专名合并、正字化+白文原样、假名分流、空输入 400 | 防止「pytest 绿了但引擎其实没加载」这类事故 |
-| 6 | `perf_envelope` | 短句训读中位耗时 < 3000ms | 防止性能悄悄退化（包络刻意很宽，只抓数量级退化） |
+所以本班的任务实际是**复验它还能不能用**，不是重写。
 
-设计取舍（如实写）：
+## 2. 第一次跑：22 PASS，35 FAIL（抓到真 bug）
 
-- **检查 4 和 5 有重叠但都保留**：检查 4 只看规则函数的纯函数行为（快、不依赖引擎），
-  检查 5 走完整 HTTP 栈（慢、能抓「规则对了但接错地方」）。在自检里可以看到，破坏 Rule C 时
-  两项同时 fail——这是预期行为，不是误报。
-- **`perf_envelope` 的 3000ms 很松**：本机实测短句中位 11–13ms，包络是它的 230 倍。
-  故意放松，因为 Celeron 机器上偶发 GC/杀毒抖动会到几百毫秒；这个检查只该拦「退化两个数量级」。
-- **不做**「跑完 500 条评测」这类检查：太慢（32 分钟），验收门要能在 1 分钟内跑完。
+`python tools/accept_night.py 22` → PASS（fail=0 skip=0，21.4s）。
 
-## 3. Night 21 实测（PASS）
+紧接着 `python tools/accept_night.py 35` → **FAIL**：
 
 ```
-[PASS] repo_clean        已跟踪文件无改动；未跟踪：ACCEPT_LOG.md / eval/accept_night_21.json / tools/accept_night.py
-[PASS] pytest            14 passed（17.8s）
-[PASS] eval_integrity    检查 3 个归档（night21_results_full / _v4 / _v4_500），id 唯一、自报数一致、expected 未改
-[PASS] rule_regression   Rule C 仍撤销；ふ→う/は曰く 正常；正字化幂等；合并词表 21 条
+[FAIL] repo_clean   已跟踪文件有未提交改动：2 个
+        M ACCEPT_LOG.md
+        M eval/accept_night_22.json
+```
+
+### 根因
+
+**验收门自指**。`ACCEPT_LOG.md` 和 `eval/accept_night_*.json` 都是**受 git 跟踪**的文件，
+而验收门每次运行都要写这两个东西。于是：
+
+```
+跑 22 号 → 验收门写 ACCEPT_LOG.md + accept_night_22.json（工作区变脏）
+跑 35 号 → repo_clean 看到上一轮自己写的文件 → 判脏 → FAIL
+```
+
+上一班没暴露这个问题，因为每次跑完立刻 `git add` + commit，脏状态被清掉了。
+本班按任务书「先跑 22 再跑 35」连跑两夜，bug 就现形了。
+
+这是**上一班 D2 遗留的缺陷**，`REPORT_DAY2.md` §6 记录了当时修过一版自指错误
+（未跟踪文件不算脏），但没覆盖「验收门自己写的是**已跟踪**文件」这种情况。
+
+### 修法
+
+`check_repo_clean` 增加一份「验收门自有产物」白名单，只排除两个精确模式：
+
+- `ACCEPT_LOG.md`
+- `eval/accept_night_*.json`
+
+其余已跟踪改动照旧判 fail。排除项记入 `detail.gate_owned_changes` 并在 notes 里明示
+「验收门自身产物有更新（不计脏）」，不是静默忽略。
+
+改动 `tools/accept_night.py:99-122`，提交 `8c20507`。
+
+### 为什么不放宽整个 repo_clean
+
+如果把「已跟踪文件脏」整个降级成 note，验收门就抓不到「改了代码没提交」这个最核心的风险。
+只白名单两个模式，爆炸半径最小。
+
+## 3. 修复后复验
+
+### 3.1 自检 5/5（确认没把检测能力改没）
+
+`python tools/accept_selftest.py`：
+
+```
+[OK  ] Rule C 复活              verdict=FAIL  fail项=['rule_regression', 'engine_smoke']
+[OK  ] 改 expected             verdict=FAIL  fail项=['eval_integrity']
+[OK  ] 清空合并词表                 verdict=FAIL  fail项=['rule_regression', 'engine_smoke']
+[OK  ] 归档重复 id                verdict=FAIL  fail项=['eval_integrity']
+[OK  ] 已跟踪文件脏                 verdict=FAIL  fail项=['repo_clean']
+
+5/5 个故障被正确抓到
+```
+
+「已跟踪文件脏」注入的是 `backend/main.py`（不在白名单里），仍被正确抓到。
+
+### 3.2 Night 22 回测（PASS）
+
+```
+[PASS] repo_clean        验收门自身产物有更新（不计脏）：ACCEPT_LOG.md, eval/accept_night_22.json, eval/accept_night_35.json
+                         已跟踪文件无改动
+[PASS] pytest            15 passed（9.9s）
+[PASS] eval_integrity    检查 1 个归档，id 唯一、自报数一致、expected 未改
+[PASS] rule_regression   Rule C' 护栏正常；ふ→う/は曰く 正常；正字化幂等；合并词表 21 条
 [PASS] engine_smoke      健康检查/经典句/合并/正字化/假名分流/空输入 全部符合约定
 [PASS] perf_envelope     短句中位 11ms（包络 3000ms）
 
-verdict: PASS  (fail=0 skip=0, 38.2s)
+verdict: PASS  (fail=0 skip=0, 21.9s)
 ```
 
-exit code 0。
-
-## 4. Night 4 回测（PASS）
+### 3.3 Night 35 回测（PASS，1 skip）
 
 ```
 [PASS] repo_clean        已跟踪文件无改动
-[PASS] pytest            14 passed（18.7s）
-[PASS] eval_integrity    检查 3 个归档（baseline / full_v1 / full_v2），id 唯一、自报数一致、expected 未改
-[PASS] rule_regression   Rule C 仍撤销；ふ→う/は曰く 正常；正字化幂等；合并词表 21 条
+[PASS] pytest            15 passed（9.7s）
+[SKIP] eval_integrity    Night 35 未登记评测归档文件，只查 golden.json
+[PASS] rule_regression   Rule C' 护栏正常；ふ→う/は曰く 正常；正字化幂等；合并词表 21 条
 [PASS] engine_smoke      6 项全部符合约定
-[PASS] perf_envelope     短句中位 13ms
+[PASS] perf_envelope     短句中位 6ms（包络 3000ms）
 
-verdict: PASS  (fail=0 skip=0, 41.1s)
+verdict: PASS  (fail=0 skip=1, 20.6s)
 ```
 
-**回测说明（必须写清楚）**：Night 4 的归档本身还在、expected 没被改、那 3 个归档的 id 唯一性也都过；
-但**规则相关项检查的是「今天」的代码**，不是 Night 4 当天的代码——Night 4 之后 Night 5 加了 Rule C、
-Night 7 又撤销了它，`MERGE_WORDS` 也从 20 条变成 21 条。所以 Night 4 回测的 PASS 含义是
-「Night 4 的产出到今天仍然完整、且当前代码没违反当时的约定」，**不是**「Night 4 当天代码的回归测试」。
+`eval_integrity` 是 SKIP 不是 FAIL：`NIGHT_ARTIFACTS` 里没有 35 号的条目。
+Night 35 的产物是 `eval/night35_glossary_coverage.json`（词库覆盖率统计，不是评测归档格式），
+所以没有登记。**如实记录：这一项对 35 号没有检查力**，不是「过了」。
 
-这一点是刻意的设计：验收门是**当前状态体检**，不是历史快照回放。要真做历史回放得 checkout 旧 commit，
-那会改工作区，跟「只读」冲突。
+## 4. 关于 35 号回测的说明
 
-## 5. 自检：故障注入 5/5 全部抓到（`tools/accept_selftest.py`）
+和上一班 §4 一样的限制：验收门检查的是**今天**的代码，不是 Night 35 当天的代码。
+35 号的 PASS 含义是「35 号声称的成果（词库命中率饱和的结论）没有被后续改动推翻，
+且当前代码符合所有既有约定」。
 
-| 注入的故障 | verdict | 抓到它的检查项 |
-| --- | --- | --- |
-| 把 Rule C 塞回 `style_fix` | FAIL | `rule_regression` + `engine_smoke` |
-| 改一条 `expected` 使其等于引擎输出 | FAIL | `eval_integrity` |
-| 清空 `MERGE_WORDS` | FAIL | `rule_regression` + `engine_smoke` |
-| 归档里复制一条制造重复 id | FAIL | `eval_integrity` |
-| 已跟踪文件改动未提交 | FAIL | `repo_clean` |
+35 号本身是「只测不改」的负结果夜（词库泛化确证 1705 语料命中 99.5%），
+它的产物是统计 JSON，不是评测归档，所以 `eval_integrity` 对它是 skip 是合理的。
 
-自检在临时目录里做，不碰仓库本体；跑完 `5/5 个故障被正确抓到`，退出码 0。
+## 5. 交付物
 
-## 6. 一处如实记录的返工
+| 文件 | 变化 |
+| --- | --- |
+| `tools/accept_night.py` | `check_repo_clean` 增加验收门自有产物白名单（1 处逻辑，+18/-2 行） |
+| `ACCEPT_LOG.md` | 验收门自动追加 5 行运行记录 |
+| `eval/accept_night_22.json`、`eval/accept_night_35.json` | 验收门自动写 |
+| `REPORT_DAY2.md` | 本文件（覆盖旧版，旧版内容已在 git 历史里） |
 
-第一次跑 Night 21 是 **FAIL**（`ACCEPT_LOG.md` 里保留了这条记录，没有删）：
+## 6. 运行记录（ACCEPT_LOG.md 本次新增）
 
-```
-| 2026-11-18T15:58:15 | 21 | FAIL | fail=1 skip=0 | 35.4s | accept_night_21.json |
-```
+| 时间 | night | verdict | 统计 | 耗时 |
+| --- | --- | --- | --- | --- |
+| 2026-11-19T15:11:52 | 35 | FAIL | fail=1 skip=1 | 21.6s | ← 修复前，自指 bug |
+| 2026-11-19T15:16:06 | 35 | FAIL | fail=1 skip=1 | 24.4s | ← 修复后但 accept_night.py 本身未提交 |
+| 2026-11-19T15:18:19 | 22 | PASS | fail=0 skip=0 | 21.9s |
+| 2026-11-19T15:19:22 | 35 | PASS | fail=0 skip=1 | 20.6s |
 
-原因：`repo_clean` 那时把**未跟踪的 `tools/accept_night.py` 自己**也算成「工作区不干净」——
-自指错误（验收门是新文件，它一出生就未跟踪，于是永远 FAIL）。
+**中间那次 FAIL 没有删**：它记录的是「改了工具但还没提交」这个真实状态，
+验收门判它脏是对的——这正是 repo_clean 该抓的东西。
 
-修法：判定标准改成「**已跟踪文件**有改动才算脏，未跟踪只记 note」。理由：验收门自己的
-JSON/LOG 天然未跟踪；而「未提交的代码改动」才是真正要让验收门拦下的风险。
-修完重跑 → PASS；自检里「已跟踪文件脏」still 能抓到（5/5），说明修改没把检测能力改没。
+## 7. 未覆盖的部分（沿用上一班，无变化）
 
-## 7. 用法
+1. 不检查 `REPORT_NIGHTn.md` 里的数字与归档是否对得上。
+2. 不检查前端（`tsc --noEmit` / `npm run build`）。
+3. `perf_envelope` 只测短句，长句退化抓不到。
+4. 不做历史夜代码回放（要 checkout 旧 commit，与只读冲突）。
 
-```
-python tools/accept_night.py 21               # 完整跑（约 40s）
-python tools/accept_night.py 4                # 回测其它夜
-python tools/accept_night.py 21 --no-pytest   # 跳过 pytest（约 20s，快速冒烟）
-python tools/accept_night.py 21 --json-only   # 只输出 JSON（给 CI/脚本用）
-python tools/accept_selftest.py               # 自检（约 2 分钟）
-```
+## 8. 禁止事项自查
 
-退出码：`0` 全过；`1` 有 fail。`skip` 不算失败（比如某个夜没登记评测归档、或引擎 import 失败时，
-会记 skip 并在 notes 里写原因，而不是假报 pass）。
-
-## 8. 未覆盖的部分（如实）
-
-1. **不检查报告内容**：`REPORT_NIGHTn.md` 里的数字与归档文件是否对得上，仍要人工核对。
-   技术上可做（解析报告里的 avgDist 与 JSON 比对），但每个夜的报告格式不统一，先不做。
-2. **不检查前端**：`tsc --noEmit`、`npm run build` 没进验收门（需要 node，且慢）。
-3. **`perf_envelope` 只测短句**：长句（>60 字）实测 137ms，如果将来退化到 10s 这个检查抓不到。
-4. **历史夜回放能力缺失**：见 §4，需要 checkout 旧 commit，与只读冲突。
-
-## 9. 验收
-
-- `python tools/accept_night.py 21` → PASS，exit 0。
-- `python tools/accept_night.py 4` → PASS，exit 0。
-- `python tools/accept_selftest.py` → 5/5，exit 0。
-- `pytest tests/test_api.py -q` → 14 passed（验收门内部也跑了一遍）。
-- 未改任何源码/评测数据；未推远程；无 key/token。
-
-## 10. 禁止事项自查
-
-未改 expected（改完还会被自己的检查 3 抓到）；第一次 FAIL 的记录保留在 ACCEPT_LOG.md 未删；
-自检是真实注入故障而非空跑；「回测 PASS」的含义在 §4 明确写了它不是历史回放；只本地提交。
+- 未改 `expected`（改完会被自己的 `eval_integrity` 抓到，自检里验证过）。
+- 未碰 `eval/ocr_gt_*`、`REPORT_NIGHT36/37/38.md`、`backend/ocr*.py`、`ocr_runtime/`、
+  `eval/golden.json`、已有评测归档。
+- 未编造通过：中间两次 FAIL 都保留在 `ACCEPT_LOG.md` 里，没删。
+- 只本地提交到 `ds/dayshift-text-mining`，未推远程，未动 master。
+- 工作区里的 Night36 未跟踪文件（`tools/night36_*.py`、`eval/ocr_samples/gt36*`）一个没 add。
