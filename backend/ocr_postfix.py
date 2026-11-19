@@ -61,6 +61,17 @@ def is_junk_repeat_line(text: str) -> bool:
     return ("\u3400" <= c <= "\u9fff") or ("\u4e00" <= c <= "\u4dbf") or ("\u3007" == c)
 
 
+def is_junk_border_line(text: str) -> bool:
+    """整行剔标点后仅由 一/二 组成且 ≥6 字 → 刊本界框双线被读成混合串
+    （NIGHT40，781193 目录页实测：『一一一一一一二二二二一二二二二二、、一二』
+    ——混着圈点/句读，纯 set 判断会漏）。
+    只含 一/二 的 ≥6 字行在训读白文中不存在（十一日/十二月 等日期必含 月/日/年/十）。"""
+    if not text or len(text) < 6:
+        return False
+    chars = set(text) - set("。、｡，・ ")
+    return chars <= {"一", "二"}
+
+
 def normalize_compat_ideographs(text: str) -> str:
     """CJK 兼容表记（U+F900–U+FA6B，NEC/IBM 选字）→ Unicode 正则等价。
     实测来源：OCR 输出含 U+FA42（旣形）、U+FA5B（者形）——Night 37 C 类证据。
