@@ -1,8 +1,8 @@
 {
   "night": 22,
   "verdict": "PASS",
-  "checked_at": "2026-11-19T19:09:26",
-  "elapsed_sec": 27.3,
+  "checked_at": "2026-11-19T19:41:00",
+  "elapsed_sec": 26.2,
   "n_checks": 6,
   "n_fail": 0,
   "n_skip": 0,
@@ -54,15 +54,15 @@
       "title": "tests 全量通过",
       "status": "pass",
       "notes": [
-        "50 passed（15.3s）"
+        "65 passed（14.7s）"
       ],
       "detail": {
-        "elapsed_sec": 15.3,
+        "elapsed_sec": 14.7,
         "tail": [
-          "..................................................                       [100%]",
-          "50 passed in 12.07s"
+          ".................................................................        [100%]",
+          "65 passed in 11.63s"
         ],
-        "passed": 50
+        "passed": 65
       }
     },
     {
@@ -138,15 +138,15 @@
       "title": "单句训读耗时在包络内",
       "status": "pass",
       "notes": [
-        "短句中位 12ms（包络 3000ms）"
+        "短句中位 8ms（包络 3000ms）"
       ],
       "detail": {
         "ms": [
-          14.0,
-          12.0,
-          5.0
+          7.0,
+          9.0,
+          8.0
         ],
-        "median_ms": 12.0,
+        "median_ms": 8.0,
         "limit_ms": 3000.0
       }
     }
