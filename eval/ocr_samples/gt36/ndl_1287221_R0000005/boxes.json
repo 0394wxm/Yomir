@@ -1,0 +1,33 @@
+{
+ "file": "ndl_1287221_R0000005.jpg",
+ "pid": 1287221,
+ "page": "R0000005",
+ "source_url": "https://dl.ndl.go.jp/api/iiif/1287221/R0000005/full/1400,/0/default.jpg",
+ "n_lines": 3,
+ "lines": [
+  {
+   "x": 797,
+   "y": 224,
+   "w": 67,
+   "h": 54,
+   "line_no": 1,
+   "junk": false
+  },
+  {
+   "x": 167,
+   "y": 183,
+   "w": 41,
+   "h": 537,
+   "line_no": 2,
+   "junk": false
+  },
+  {
+   "x": 122,
+   "y": 184,
+   "w": 35,
+   "h": 536,
+   "line_no": 3,
+   "junk": false
+  }
+ ]
+}

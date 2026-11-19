@@ -1,0 +1,49 @@
+{
+ "file": "ndl_1033232_R0000003.jpg",
+ "pid": 1033232,
+ "page": "R0000003",
+ "source_url": "https://dl.ndl.go.jp/api/iiif/1033232/R0000003/full/1400,/0/default.jpg",
+ "n_lines": 5,
+ "lines": [
+  {
+   "x": 546,
+   "y": 175,
+   "w": 47,
+   "h": 301,
+   "line_no": 1,
+   "junk": false
+  },
+  {
+   "x": 459,
+   "y": 172,
+   "w": 53,
+   "h": 630,
+   "line_no": 2,
+   "junk": false
+  },
+  {
+   "x": 376,
+   "y": 173,
+   "w": 56,
+   "h": 631,
+   "line_no": 3,
+   "junk": false
+  },
+  {
+   "x": 294,
+   "y": 172,
+   "w": 55,
+   "h": 630,
+   "line_no": 4,
+   "junk": false
+  },
+  {
+   "x": 214,
+   "y": 169,
+   "w": 53,
+   "h": 634,
+   "line_no": 5,
+   "junk": false
+  }
+ ]
+}

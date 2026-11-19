@@ -1,0 +1,89 @@
+{
+ "file": "ndl_781192_R0000003.jpg",
+ "pid": 781192,
+ "page": "R0000003",
+ "source_url": "https://dl.ndl.go.jp/api/iiif/781192/R0000003/full/1400,/0/default.jpg",
+ "n_lines": 10,
+ "lines": [
+  {
+   "x": 1247,
+   "y": 87,
+   "w": 37,
+   "h": 1048,
+   "line_no": 1,
+   "junk": false
+  },
+  {
+   "x": 434,
+   "y": 160,
+   "w": 139,
+   "h": 816,
+   "line_no": 2,
+   "junk": false
+  },
+  {
+   "x": 420,
+   "y": 147,
+   "w": 38,
+   "h": 62,
+   "line_no": 3,
+   "junk": false
+  },
+  {
+   "x": 411,
+   "y": 148,
+   "w": 34,
+   "h": 61,
+   "line_no": 4,
+   "junk": false
+  },
+  {
+   "x": 371,
+   "y": 139,
+   "w": 26,
+   "h": 83,
+   "line_no": 5,
+   "junk": false
+  },
+  {
+   "x": 342,
+   "y": 140,
+   "w": 27,
+   "h": 57,
+   "line_no": 6,
+   "junk": false
+  },
+  {
+   "x": 335,
+   "y": 333,
+   "w": 36,
+   "h": 97,
+   "line_no": 7,
+   "junk": false
+  },
+  {
+   "x": 262,
+   "y": 236,
+   "w": 79,
+   "h": 339,
+   "line_no": 8,
+   "junk": false
+  },
+  {
+   "x": 103,
+   "y": 521,
+   "w": 74,
+   "h": 452,
+   "line_no": 9,
+   "junk": false
+  },
+  {
+   "x": 49,
+   "y": 67,
+   "w": 24,
+   "h": 963,
+   "line_no": 10,
+   "junk": true
+  }
+ ]
+}
