@@ -265,6 +265,36 @@ def check_eval_integrity(night):
             c.fail("%s 有 %d 条 expected 与 golden 不一致" % (fn, len(mismatch)), ids=mismatch[:10])
 
     c.detail["files"] = rows
+
+    # D16：golden_2000 的独立完整性检查（2000 条 id 都不在 golden.json 里，
+    # 上面的对照对它们无效）。查三件事：2000 条、id 唯一、前 1000 条与
+    # golden_1000 逐字段一致（防止有人改 expected 来「提分」）。
+    g2_path = os.path.join(OUT_DIR, "golden_2000.json")
+    g1_path = os.path.join(OUT_DIR, "golden_1000.json")
+    if os.path.exists(g2_path) and os.path.exists(g1_path):
+        with open(g2_path, encoding="utf-8") as f:
+            g2 = json.load(f)
+        with open(g1_path, encoding="utf-8") as f:
+            g1 = json.load(f)
+        ids2 = [x["id"] for x in g2]
+        c.detail["golden_2000"] = {"n": len(g2), "unique": len(set(ids2))}
+        if len(g2) != 2000:
+            c.fail("golden_2000 条数 %d != 2000" % len(g2))
+        if len(set(ids2)) != len(ids2):
+            c.fail("golden_2000 有重复 id", dups=len(ids2) - len(set(ids2)))
+        if len(g2) >= 1000:
+            head_mismatch = [g1[i]["id"] for i in range(min(len(g1), 1000))
+                             if g2[i].get("id") != g1[i].get("id")
+                             or g2[i].get("hakubun") != g1[i].get("hakubun")
+                             or g2[i].get("expected_kakikudashi")
+                             != g1[i].get("expected_kakikudashi")]
+            c.detail["golden_2000"]["head_mismatch"] = len(head_mismatch)
+            if head_mismatch:
+                c.fail("golden_2000 前 1000 条与 golden_1000 不一致",
+                       ids=head_mismatch[:10])
+        c.notes.append("golden_2000 %d 条、id 唯一、前 1000 条与 golden_1000 逐字段一致"
+                       % len(g2))
+
     if c.status == "pass":
         c.notes.append("检查 %d 个归档，id 唯一、自报数一致、expected 未改" % len(rows))
     return c
