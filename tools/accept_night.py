@@ -41,9 +41,10 @@ LOG_PATH = os.path.join(ROOT, "ACCEPT_LOG.md")
 OUT_DIR = os.path.join(ROOT, "eval")
 
 # D13: pytest 检查的历史基线（全量 tests 的通过数下限）。
-# 原来是写死的 14（test_api.py 的旧口径），现在全量是 50 例，
-# 取 50 作为基线：任何一条测试消失都会让门 FAIL，防止「删测试换绿灯」。
-MIN_PASSED = 50
+# 原来是写死的 14（test_api.py 的旧口径），D13 改成全量并取 50。
+# D14 加 Rule E 的 15 个测试后总数 65，基线同步上调：
+# 任何一条测试消失都会让门 FAIL，防止「删测试换绿灯」。
+MIN_PASSED = 65
 
 # 每个夜声明的「评测归档文件」（用于检查 3）。缺省只查通用项。
 NIGHT_ARTIFACTS = {

@@ -1,0 +1,438 @@
+{
+ "n": 1000,
+ "base_avg": 25.201,
+ "candidates": [
+  {
+   "label": "E1 すでに→既",
+   "kana": "すでに",
+   "kanji": "既",
+   "guard_forms": [
+    "既",
+    "旣"
+   ],
+   "cross": {
+    "hb_yes_got_yes": 23,
+    "hb_yes_got_no": 0,
+    "hb_no_got_yes": 0,
+    "hb_no_got_no": 977
+   },
+   "F": {
+    "name": "F 全替换",
+    "changed": 23,
+    "avg": 25.168,
+    "delta": -0.033,
+    "better": 23,
+    "worse": 0,
+    "same": 977,
+    "worse_ids": []
+   },
+   "G": {
+    "name": "G 白文护栏",
+    "changed": 23,
+    "avg": 25.168,
+    "delta": -0.033,
+    "better": 23,
+    "worse": 0,
+    "same": 977,
+    "worse_ids": []
+   },
+   "G2": {
+    "name": "G2 护栏+词界",
+    "changed": 12,
+    "avg": 25.182,
+    "delta": -0.019,
+    "better": 12,
+    "worse": 0,
+    "same": 988,
+    "worse_ids": []
+   }
+  },
+  {
+   "label": "E2 ただ→唯",
+   "kana": "ただ",
+   "kanji": "唯",
+   "guard_forms": [
+    "唯"
+   ],
+   "cross": {
+    "hb_yes_got_yes": 16,
+    "hb_yes_got_no": 0,
+    "hb_no_got_yes": 0,
+    "hb_no_got_no": 984
+   },
+   "F": {
+    "name": "F 全替换",
+    "changed": 16,
+    "avg": 25.199,
+    "delta": -0.002,
+    "better": 1,
+    "worse": 0,
+    "same": 999,
+    "worse_ids": []
+   },
+   "G": {
+    "name": "G 白文护栏",
+    "changed": 16,
+    "avg": 25.199,
+    "delta": -0.002,
+    "better": 1,
+    "worse": 0,
+    "same": 999,
+    "worse_ids": []
+   },
+   "G2": {
+    "name": "G2 护栏+词界",
+    "changed": 13,
+    "avg": 25.199,
+    "delta": -0.002,
+    "better": 1,
+    "worse": 0,
+    "same": 999,
+    "worse_ids": []
+   }
+  },
+  {
+   "label": "E3 あに→豈",
+   "kana": "あに",
+   "kanji": "豈",
+   "guard_forms": [
+    "豈"
+   ],
+   "cross": {
+    "hb_yes_got_yes": 10,
+    "hb_yes_got_no": 0,
+    "hb_no_got_yes": 0,
+    "hb_no_got_no": 990
+   },
+   "F": {
+    "name": "F 全替换",
+    "changed": 10,
+    "avg": 25.199,
+    "delta": -0.002,
+    "better": 2,
+    "worse": 0,
+    "same": 998,
+    "worse_ids": []
+   },
+   "G": {
+    "name": "G 白文护栏",
+    "changed": 10,
+    "avg": 25.199,
+    "delta": -0.002,
+    "better": 2,
+    "worse": 0,
+    "same": 998,
+    "worse_ids": []
+   },
+   "G2": {
+    "name": "G2 护栏+词界",
+    "changed": 5,
+    "avg": 25.201,
+    "delta": 0.0,
+    "better": 0,
+    "worse": 0,
+    "same": 1000,
+    "worse_ids": []
+   }
+  },
+  {
+   "label": "E4 みな→皆",
+   "kana": "みな",
+   "kanji": "皆",
+   "guard_forms": [
+    "皆"
+   ],
+   "cross": {
+    "hb_yes_got_yes": 30,
+    "hb_yes_got_no": 0,
+    "hb_no_got_yes": 0,
+    "hb_no_got_no": 970
+   },
+   "F": {
+    "name": "F 全替换",
+    "changed": 30,
+    "avg": 25.143,
+    "delta": -0.058,
+    "better": 26,
+    "worse": 0,
+    "same": 974,
+    "worse_ids": []
+   },
+   "G": {
+    "name": "G 白文护栏",
+    "changed": 30,
+    "avg": 25.143,
+    "delta": -0.058,
+    "better": 26,
+    "worse": 0,
+    "same": 974,
+    "worse_ids": []
+   },
+   "G2": {
+    "name": "G2 护栏+词界",
+    "changed": 14,
+    "avg": 25.179,
+    "delta": -0.022,
+    "better": 12,
+    "worse": 0,
+    "same": 988,
+    "worse_ids": []
+   }
+  },
+  {
+   "label": "E5 なかれ→勿",
+   "kana": "なかれ",
+   "kanji": "勿",
+   "guard_forms": [
+    "勿"
+   ],
+   "cross": {
+    "hb_yes_got_yes": 10,
+    "hb_yes_got_no": 2,
+    "hb_no_got_yes": 16,
+    "hb_no_got_no": 972
+   },
+   "F": {
+    "name": "F 全替换",
+    "changed": 26,
+    "avg": 25.178,
+    "delta": -0.023,
+    "better": 12,
+    "worse": 11,
+    "same": 977,
+    "worse_ids": [
+     "moshisono-1",
+     "ayamachiteh-1",
+     "onoreshika-1",
+     "onoreshika-2",
+     "onorenoho-1",
+     "onorenoho-2",
+     "gabei-2",
+     "rongo0603-1",
+     "rongo1201-1",
+     "rongo1202-1",
+     "rongo1223-1"
+    ]
+   },
+   "G": {
+    "name": "G 白文护栏",
+    "changed": 10,
+    "avg": 25.208,
+    "delta": 0.007,
+    "better": 1,
+    "worse": 8,
+    "same": 991,
+    "worse_ids": [
+     "moshisono-1",
+     "ayamachiteh-1",
+     "onoreshika-1",
+     "onoreshika-2",
+     "onorenoho-1",
+     "onorenoho-2",
+     "rongo1201-1",
+     "rongo1202-1"
+    ]
+   },
+   "G2": {
+    "name": "G2 护栏+词界",
+    "changed": 0,
+    "avg": 25.201,
+    "delta": 0.0,
+    "better": 0,
+    "worse": 0,
+    "same": 1000,
+    "worse_ids": []
+   }
+  },
+  {
+   "label": "E6 いずくんぞ→焉",
+   "kana": "いずくんぞ",
+   "kanji": "焉",
+   "guard_forms": [
+    "焉"
+   ],
+   "cross": {
+    "hb_yes_got_yes": 26,
+    "hb_yes_got_no": 64,
+    "hb_no_got_yes": 3,
+    "hb_no_got_no": 907
+   },
+   "F": {
+    "name": "F 全替换",
+    "changed": 29,
+    "avg": 25.216,
+    "delta": 0.015,
+    "better": 6,
+    "worse": 21,
+    "same": 973,
+    "worse_ids": [
+     "ayaukushi-1",
+     "izukunei-1",
+     "imadasei-1",
+     "imadahito-1",
+     "enjaku-3",
+     "kamireikei-1",
+     "kibini-1",
+     "gyujiwo-1",
+     "niwatori-1",
+     "rongo0210-1",
+     "rongo0322-1",
+     "rongo0401-1",
+     "rongo0510-1",
+     "rongo0518-1",
+     "rongo0922-1",
+     "rongo1302-1",
+     "rongo1601-1",
+     "rongo1704-1",
+     "rongo1707-1",
+     "rongo1902-1"
+    ]
+   },
+   "G": {
+    "name": "G 白文护栏",
+    "changed": 26,
+    "avg": 25.214,
+    "delta": 0.013,
+    "better": 5,
+    "worse": 19,
+    "same": 976,
+    "worse_ids": [
+     "ayaukushi-1",
+     "izukunei-1",
+     "imadasei-1",
+     "imadahito-1",
+     "kamireikei-1",
+     "gyujiwo-1",
+     "niwatori-1",
+     "rongo0210-1",
+     "rongo0322-1",
+     "rongo0401-1",
+     "rongo0510-1",
+     "rongo0518-1",
+     "rongo0922-1",
+     "rongo1302-1",
+     "rongo1601-1",
+     "rongo1704-1",
+     "rongo1707-1",
+     "rongo1902-1",
+     "rongo1912-1"
+    ]
+   },
+   "G2": {
+    "name": "G2 护栏+词界",
+    "changed": 18,
+    "avg": 25.215,
+    "delta": 0.014,
+    "better": 2,
+    "worse": 14,
+    "same": 984,
+    "worse_ids": [
+     "izukunei-1",
+     "imadasei-1",
+     "imadahito-1",
+     "kamireikei-1",
+     "gyujiwo-1",
+     "rongo0322-1",
+     "rongo0401-1",
+     "rongo0510-1",
+     "rongo0518-1",
+     "rongo0922-1",
+     "rongo1302-1",
+     "rongo1707-1",
+     "rongo1902-1",
+     "rongo1912-1"
+    ]
+   }
+  },
+  {
+   "label": "E7 なお→猶",
+   "kana": "なお",
+   "kanji": "猶",
+   "guard_forms": [
+    "猶"
+   ],
+   "cross": {
+    "hb_yes_got_yes": 20,
+    "hb_yes_got_no": 9,
+    "hb_no_got_yes": 0,
+    "hb_no_got_no": 971
+   },
+   "F": {
+    "name": "F 全替换",
+    "changed": 20,
+    "avg": 25.197,
+    "delta": -0.004,
+    "better": 4,
+    "worse": 0,
+    "same": 996,
+    "worse_ids": []
+   },
+   "G": {
+    "name": "G 白文护栏",
+    "changed": 20,
+    "avg": 25.197,
+    "delta": -0.004,
+    "better": 4,
+    "worse": 0,
+    "same": 996,
+    "worse_ids": []
+   },
+   "G2": {
+    "name": "G2 护栏+词界",
+    "changed": 10,
+    "avg": 25.197,
+    "delta": -0.004,
+    "better": 4,
+    "worse": 0,
+    "same": 996,
+    "worse_ids": []
+   }
+  },
+  {
+   "label": "E8 ごとし→如",
+   "kana": "ごとし",
+   "kanji": "如",
+   "guard_forms": [
+    "如"
+   ],
+   "cross": {
+    "hb_yes_got_yes": 1,
+    "hb_yes_got_no": 142,
+    "hb_no_got_yes": 13,
+    "hb_no_got_no": 844
+   },
+   "F": {
+    "name": "F 全替换",
+    "changed": 14,
+    "avg": 25.198,
+    "delta": -0.003,
+    "better": 5,
+    "worse": 1,
+    "same": 994,
+    "worse_ids": [
+     "gishin-2"
+    ]
+   },
+   "G": {
+    "name": "G 白文护栏",
+    "changed": 1,
+    "avg": 25.201,
+    "delta": 0.0,
+    "better": 0,
+    "worse": 0,
+    "same": 1000,
+    "worse_ids": []
+   },
+   "G2": {
+    "name": "G2 护栏+词界",
+    "changed": 0,
+    "avg": 25.201,
+    "delta": 0.0,
+    "better": 0,
+    "worse": 0,
+    "same": 1000,
+    "worse_ids": []
+   }
+  }
+ ]
+}

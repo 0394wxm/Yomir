@@ -94,7 +94,6 @@ def style_dedup_shite_soshite_guarded(text: str) -> str:
 
 def style_kore_to_shi(text: str, hakubun: str = "") -> str:
     """これ → 之（汉文训读规范字形）。NIGHT/D11 Rule D。
-
     依据（D11，1000 条评测集）：
       * expected（kanbun.info 規範書き下し）里「これ」出现 **0 次**，「之」522 处；
       * 引擎输出「これ」527 处，93.4% 的条目两者计数 1:1；
@@ -118,11 +117,106 @@ def style_kore_to_shi(text: str, hakubun: str = "") -> str:
     return text.replace("これ", "之")
 
 
+# ---------------------------------------------------------------------------
+# D14 Rule E：假名 → 汉字（kanbun.info 慣用表記）
+#
+# 与 Rule D 同一个模式：kanbun.info 的規範書き下し把某些汉语虚词写成**汉字**，
+# 引擎一律写成**假名**。D11 只挖了「之」，D14 在 Rule D 之后的基线上系统性地
+# 找同类，得到下面这张表。
+#
+# 数据（eval/day14_*.json，1000 条，基线 avgDist 25.201）：
+#   字   expected 次数  引擎输出次数  输出里的假名   expected 里该字的真实词形
+#   皆       36            0           みな 36       皆 裸 31 / 皆な 5
+#   既       25            0           すでに 25     既に 20 / 既 3 / 既にし 2
+#   猶       33            1           なお 21       猶お 29 / 猶しく 4
+#   豈       10            0           あに 10       豈に 10
+#   唯       17            0           ただ 17       唯だ 16 / 唯 1
+#
+# **词形按 expected 的真实形态，不是裸汉字替换**（tools/day14_shape2.py 实测）：
+#   裸替 みな→皆 -0.058 / すでに→既 -0.033 / なお→猶 -0.004 / あに→豈 -0.002 / ただ→唯 -0.002
+#   词形 みな→皆 -0.058 / すでに→既に -0.049 / なお→猶お -0.021 / あに→豈に -0.010 / ただ→唯だ -0.017
+#
+# 两道护栏（都是数据验证过的，不是猜的）：
+#   1. 白文判据：白文里没有对应汉字（含异体，如 旣/既）就跳过该条。
+#      交叉表（1000 条）这五条的「白文无此字 & 输出有假名」**全部为 0** →
+#      语料内零成本，语料外保证现代和文不被改。
+#   2. 词界判据：命中「更长词」清单时不替换（保护 みなす/なおす/ただいま/みんな）。
+#      **不能用「后接假名就挡」**——相邻两个候选词会互相干扰（すでに+なお 的 な），
+#      这是测试抓出来的（tools/day14_boundary.py）。
+#
+# 最终（tools/day14_boundary.py 逐条核对）：
+#   改写 96 条 | avgDist 25.201 → 25.046（**-0.155**）| 改善 92 / **变差 0** / 持平 908
+#   幂等 1000/1000；语料外 9 条探针全部一字不动。
+#
+# 被拒绝的候选（有变差，一律不上线，如实记录）：
+#   なかれ→勿     全替换 12 改善/11 变差；白文护栏下仍 1/8（勿 也用于「勿論」等，
+#                 白文有 勿 不等于输出该写 勿）
+#   いずくんぞ→焉  全替换 6/21；护栏下 5/19（焉 的用法远多于疑问副词）
+#   ごとし→如     全替换 5/1；护栏下 0 改写（白文有如 & 输出有ごとし 仅 1 条）
+#   また→亦       全替换 9/2（亦/又 两个汉字都对应 また，无法二选一）
+# ---------------------------------------------------------------------------
+E_KANA_TO_KANJI = [
+    # (假名, 替换成的汉字词形, 白文里可接受的写法)
+    ("みな", "皆", ("皆",)),
+    ("すでに", "既に", ("既", "旣")),
+    ("なお", "猶お", ("猶",)),
+    ("あに", "豈に", ("豈",)),
+    ("ただ", "唯だ", ("唯",)),
+]
+
+# 词界护栏：以候选假名开头、但不是该副词的更长词（命中则不替换）
+# 不能改成「后接假名就挡」——相邻候选词会互相干扰（如 すでになお… 里的 な）。
+E_LONGER_WORDS = {
+    "みな": ("みなす", "みなれた", "みなれる", "みなし", "みなもと", "みなぎる", "みなみ"),
+    "すでに": ("すでにして",),
+    "なお": ("なおす", "なおさ", "なおし", "なおく", "なおざり"),
+    "あに": ("あにす",),
+    "ただ": ("ただいま", "ただす", "ただし", "ただちに", "ただならぬ"),
+}
+
+
+def _replace_word_boundary(text: str, kana: str, repl: str) -> str:
+    """把 kana 换成 repl；命中 E_LONGER_WORDS 的更长词时整段保持不动。"""
+    longer = sorted(E_LONGER_WORDS.get(kana, ()), key=len, reverse=True)
+    out = []
+    i = 0
+    n = len(kana)
+    while True:
+        j = text.find(kana, i)
+        if j < 0:
+            out.append(text[i:])
+            break
+        tail = text[j:]
+        hit = next((w for w in longer if tail.startswith(w)), None)
+        if hit:
+            out.append(text[i:j + len(hit)])
+            i = j + len(hit)
+        else:
+            out.append(text[i:j] + repl)
+            i = j + n
+    return "".join(out)
+
+
+def style_kana_to_kanji(text: str, hakubun: str = "") -> str:
+    """假名 → 汉字（kanbun.info 慣用表記）。D14 Rule E。
+
+    两道护栏：白文没有对应汉字就跳过该条；命中更长词清单则不做替换。
+    `hakubun` 为空时只做词界护栏（离线脚本沿用「无白文=纯函数」语义）。
+    """
+    hb = re.sub(r"\s+", "", hakubun) if hakubun else ""
+    for kana, repl, guard in E_KANA_TO_KANJI:
+        if hb and not any(g in hb for g in guard):
+            continue
+        text = _replace_word_boundary(text, kana, repl)
+    return text
+
+
 def style_fix(text: str) -> str:
     """规则总入口：显示风格修正（NIGHT4 Rule A + NIGHT22 Rule C'）。
     不改汉字词干、不动树结构。Rule C（て而して→て）以带护栏形式于 NIGHT22
     复活（style_dedup_shite_soshite_guarded），无护栏版本仍处撤销状态。
-    注：D11 Rule D（これ→之）需要白文，走 style_fix_with_hakubun。"""
+    注：D11 Rule D（これ→之）与 D14 Rule E（假名→汉字）需要白文，
+    走 style_fix_with_hakubun。"""
     t = style_modern_kana(text)
     t = style_drop_wa_before_iwaku(t)
     t = style_dedup_shite_soshite_guarded(t)
@@ -133,11 +227,13 @@ def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     """带白文上下文的规则总入口（D11 起后端实际调用这个）。
 
     Rule D 的白文护栏需要原始输入，所以不能只传输出串。
+    D14 的 Rule E 同理（护栏也是白文判据）。
     """
     t = style_modern_kana(text)
     t = style_drop_wa_before_iwaku(t)
     t = style_dedup_shite_soshite_guarded(t)
     t = style_kore_to_shi(t, hakubun)
+    t = style_kana_to_kanji(t, hakubun)
     return t
 
 # ---------------------------------------------------------------------------

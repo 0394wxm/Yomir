@@ -1,0 +1,401 @@
+{
+ "candidates": [
+  {
+   "kana": "また",
+   "kanji": "亦",
+   "note": "副词「也」",
+   "exp_kanji": 70,
+   "got_kanji": 0,
+   "got_kana": 115,
+   "exp_kana": 0,
+   "ratio": 1.643
+  },
+  {
+   "kana": "また",
+   "kanji": "又",
+   "note": "副词「又」",
+   "exp_kanji": 29,
+   "got_kanji": 0,
+   "got_kana": 115,
+   "exp_kana": 0,
+   "ratio": 3.966
+  },
+  {
+   "kana": "みな",
+   "kanji": "皆",
+   "note": "副词「皆」",
+   "exp_kanji": 36,
+   "got_kanji": 0,
+   "got_kana": 36,
+   "exp_kana": 6,
+   "ratio": 1.0
+  },
+  {
+   "kana": "すでに",
+   "kanji": "既",
+   "note": "副词「既」",
+   "exp_kanji": 25,
+   "got_kanji": 0,
+   "got_kana": 25,
+   "exp_kana": 0,
+   "ratio": 1.0
+  },
+  {
+   "kana": "ただ",
+   "kanji": "唯",
+   "note": "副词「唯」",
+   "exp_kanji": 17,
+   "got_kanji": 0,
+   "got_kana": 17,
+   "exp_kana": 0,
+   "ratio": 1.0
+  },
+  {
+   "kana": "なお",
+   "kanji": "猶",
+   "note": "副词「犹」",
+   "exp_kanji": 33,
+   "got_kanji": 1,
+   "got_kana": 21,
+   "exp_kana": 0,
+   "ratio": 0.636
+  },
+  {
+   "kana": "なかれ",
+   "kanji": "勿",
+   "note": "禁止「勿」",
+   "exp_kanji": 16,
+   "got_kanji": 0,
+   "got_kana": 42,
+   "exp_kana": 0,
+   "ratio": 2.625
+  },
+  {
+   "kana": "なかれ",
+   "kanji": "毋",
+   "note": "禁止「毋」",
+   "exp_kanji": 14,
+   "got_kanji": 0,
+   "got_kana": 42,
+   "exp_kana": 0,
+   "ratio": 3.0
+  },
+  {
+   "kana": "あに",
+   "kanji": "豈",
+   "note": "反语「岂」",
+   "exp_kanji": 10,
+   "got_kanji": 0,
+   "got_kana": 10,
+   "exp_kana": 0,
+   "ratio": 1.0
+  },
+  {
+   "kana": "いやしくも",
+   "kanji": "苟",
+   "note": "假定「苟」",
+   "exp_kanji": 13,
+   "got_kanji": 1,
+   "got_kana": 12,
+   "exp_kana": 0,
+   "ratio": 0.923
+  },
+  {
+   "kana": "いずくんぞ",
+   "kanji": "焉",
+   "note": "疑问「焉」",
+   "exp_kanji": 37,
+   "got_kanji": 14,
+   "got_kana": 37,
+   "exp_kana": 0,
+   "ratio": 1.0
+  },
+  {
+   "kana": "なんぞ",
+   "kanji": "焉",
+   "note": "疑问「焉」",
+   "exp_kanji": 37,
+   "got_kanji": 14,
+   "got_kana": 7,
+   "exp_kana": 0,
+   "ratio": 0.189
+  },
+  {
+   "kana": "ごとし",
+   "kanji": "如",
+   "note": "比况「如」",
+   "exp_kanji": 220,
+   "got_kanji": 176,
+   "got_kana": 14,
+   "exp_kana": 5,
+   "ratio": 0.064
+  },
+  {
+   "kana": "ごとく",
+   "kanji": "如",
+   "note": "比况「如」",
+   "exp_kanji": 220,
+   "got_kanji": 176,
+   "got_kana": 11,
+   "exp_kana": 2,
+   "ratio": 0.05
+  },
+  {
+   "kana": "ごとく",
+   "kanji": "若",
+   "note": "比况「若」",
+   "exp_kanji": 44,
+   "got_kanji": 4,
+   "got_kana": 11,
+   "exp_kana": 2,
+   "ratio": 0.25
+  },
+  {
+   "kana": "およそ",
+   "kanji": "凡",
+   "note": "副词「凡」",
+   "exp_kanji": 3,
+   "got_kanji": 3,
+   "got_kana": 0,
+   "exp_kana": 0,
+   "ratio": 0.0
+  },
+  {
+   "kana": "たとひ",
+   "kanji": "縦",
+   "note": "假定「縦」",
+   "exp_kanji": 3,
+   "got_kanji": 1,
+   "got_kana": 0,
+   "exp_kana": 0,
+   "ratio": 0.0
+  },
+  {
+   "kana": "もし",
+   "kanji": "若",
+   "note": "假定「若」",
+   "exp_kanji": 44,
+   "got_kanji": 4,
+   "got_kana": 27,
+   "exp_kana": 0,
+   "ratio": 0.614
+  },
+  {
+   "kana": "ここに",
+   "kanji": "茲",
+   "note": "指示「茲」",
+   "exp_kanji": 2,
+   "got_kanji": 2,
+   "got_kana": 0,
+   "exp_kana": 0,
+   "ratio": 0.0
+  },
+  {
+   "kana": "すなはち",
+   "kanji": "即",
+   "note": "即「即」",
+   "exp_kanji": 15,
+   "got_kanji": 6,
+   "got_kana": 0,
+   "exp_kana": 0,
+   "ratio": 0.0
+  },
+  {
+   "kana": "すなわち",
+   "kanji": "即",
+   "note": "即「即」",
+   "exp_kanji": 15,
+   "got_kanji": 6,
+   "got_kana": 0,
+   "exp_kana": 0,
+   "ratio": 0.0
+  }
+ ],
+ "kana_got_heavy": [
+  [
+   "なりて",
+   229,
+   0
+  ],
+  [
+   "ひて",
+   169,
+   0
+  ],
+  [
+   "へて",
+   109,
+   0
+  ],
+  [
+   "するを",
+   115,
+   7
+  ],
+  [
+   "すを",
+   78,
+   5
+  ],
+  [
+   "さず",
+   76,
+   17
+  ],
+  [
+   "また",
+   58,
+   0
+  ],
+  [
+   "とも",
+   56,
+   0
+  ],
+  [
+   "なるは",
+   60,
+   4
+  ],
+  [
+   "するな",
+   52,
+   5
+  ],
+  [
+   "はまた",
+   41,
+   0
+  ],
+  [
+   "はず",
+   40,
+   0
+  ],
+  [
+   "するか",
+   35,
+   1
+  ],
+  [
+   "うべき",
+   33,
+   0
+  ],
+  [
+   "それ",
+   29,
+   0
+  ],
+  [
+   "なかれ",
+   27,
+   0
+  ],
+  [
+   "もし",
+   26,
+   0
+  ],
+  [
+   "いずく",
+   25,
+   0
+  ],
+  [
+   "するべ",
+   23,
+   0
+  ],
+  [
+   "くあら",
+   23,
+   0
+  ],
+  [
+   "んぞ",
+   24,
+   2
+  ],
+  [
+   "でて",
+   26,
+   6
+  ],
+  [
+   "せずし",
+   23,
+   3
+  ],
+  [
+   "なるな",
+   20,
+   0
+  ],
+  [
+   "はざる",
+   19,
+   0
+  ],
+  [
+   "にたり",
+   19,
+   0
+  ],
+  [
+   "なりや",
+   18,
+   0
+  ],
+  [
+   "はみな",
+   17,
+   0
+  ],
+  [
+   "すや",
+   22,
+   5
+  ],
+  [
+   "がため",
+   16,
+   0
+  ],
+  [
+   "すか",
+   20,
+   4
+  ],
+  [
+   "みな",
+   15,
+   0
+  ],
+  [
+   "べるな",
+   15,
+   0
+  ],
+  [
+   "べず",
+   15,
+   0
+  ],
+  [
+   "てしむ",
+   15,
+   0
+  ],
+  [
+   "なるの",
+   15,
+   1
+  ],
+  [
+   "るべき",
+   15,
+   1
+  ]
+ ]
+}

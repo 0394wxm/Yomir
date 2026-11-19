@@ -1,0 +1,377 @@
+{
+ "n": 1000,
+ "base_avg": 25.201,
+ "runs": [
+  {
+   "keys": [
+    "E1"
+   ],
+   "label": "E1 すでに→既",
+   "changed": 23,
+   "avg": 25.168,
+   "delta": -0.033,
+   "better": 23,
+   "worse": 0,
+   "same": 977,
+   "worse_ids": []
+  },
+  {
+   "keys": [
+    "E2"
+   ],
+   "label": "E2 ただ→唯",
+   "changed": 16,
+   "avg": 25.199,
+   "delta": -0.002,
+   "better": 1,
+   "worse": 0,
+   "same": 999,
+   "worse_ids": []
+  },
+  {
+   "keys": [
+    "E3"
+   ],
+   "label": "E3 あに→豈",
+   "changed": 10,
+   "avg": 25.199,
+   "delta": -0.002,
+   "better": 2,
+   "worse": 0,
+   "same": 998,
+   "worse_ids": []
+  },
+  {
+   "keys": [
+    "E4"
+   ],
+   "label": "E4 みな→皆",
+   "changed": 30,
+   "avg": 25.143,
+   "delta": -0.058,
+   "better": 26,
+   "worse": 0,
+   "same": 974,
+   "worse_ids": []
+  },
+  {
+   "keys": [
+    "E7"
+   ],
+   "label": "E7 なお→猶",
+   "changed": 20,
+   "avg": 25.197,
+   "delta": -0.004,
+   "better": 4,
+   "worse": 0,
+   "same": 996,
+   "worse_ids": []
+  },
+  {
+   "keys": [
+    "E5"
+   ],
+   "label": "E5 なかれ→勿",
+   "changed": 10,
+   "avg": 25.208,
+   "delta": 0.007,
+   "better": 1,
+   "worse": 8,
+   "same": 991,
+   "worse_ids": [
+    "moshisono-1",
+    "ayamachiteh-1",
+    "onoreshika-1",
+    "onoreshika-2",
+    "onorenoho-1",
+    "onorenoho-2",
+    "rongo1201-1",
+    "rongo1202-1"
+   ]
+  },
+  {
+   "keys": [
+    "E6"
+   ],
+   "label": "E6 いずくんぞ→焉",
+   "changed": 26,
+   "avg": 25.214,
+   "delta": 0.013,
+   "better": 5,
+   "worse": 19,
+   "same": 976,
+   "worse_ids": [
+    "ayaukushi-1",
+    "izukunei-1",
+    "imadasei-1",
+    "imadahito-1",
+    "kamireikei-1",
+    "gyujiwo-1",
+    "niwatori-1",
+    "rongo0210-1",
+    "rongo0322-1",
+    "rongo0401-1",
+    "rongo0510-1",
+    "rongo0518-1",
+    "rongo0922-1",
+    "rongo1302-1",
+    "rongo1601-1",
+    "rongo1704-1",
+    "rongo1707-1",
+    "rongo1902-1",
+    "rongo1912-1"
+   ]
+  },
+  {
+   "keys": [
+    "E8"
+   ],
+   "label": "E8 ごとし→如",
+   "changed": 1,
+   "avg": 25.201,
+   "delta": 0.0,
+   "better": 0,
+   "worse": 0,
+   "same": 1000,
+   "worse_ids": []
+  },
+  {
+   "keys": [
+    "E9"
+   ],
+   "label": "E9 また→亦",
+   "changed": 55,
+   "avg": 25.194,
+   "delta": -0.007,
+   "better": 9,
+   "worse": 2,
+   "same": 989,
+   "worse_ids": [
+    "kyokugaku-1",
+    "rongo2002-1"
+   ]
+  },
+  {
+   "keys": [
+    "E4"
+   ],
+   "label": "E4",
+   "changed": 30,
+   "avg": 25.143,
+   "delta": -0.058,
+   "better": 26,
+   "worse": 0,
+   "same": 974,
+   "worse_ids": []
+  },
+  {
+   "keys": [
+    "E4",
+    "E1"
+   ],
+   "label": "E4+E1",
+   "changed": 52,
+   "avg": 25.11,
+   "delta": -0.091,
+   "better": 48,
+   "worse": 0,
+   "same": 952,
+   "worse_ids": []
+  },
+  {
+   "keys": [
+    "E4",
+    "E1",
+    "E7"
+   ],
+   "label": "E4+E1+E7",
+   "changed": 72,
+   "avg": 25.106,
+   "delta": -0.095,
+   "better": 52,
+   "worse": 0,
+   "same": 948,
+   "worse_ids": []
+  },
+  {
+   "keys": [
+    "E4",
+    "E1",
+    "E7",
+    "E3"
+   ],
+   "label": "E4+E1+E7+E3",
+   "changed": 81,
+   "avg": 25.104,
+   "delta": -0.097,
+   "better": 54,
+   "worse": 0,
+   "same": 946,
+   "worse_ids": []
+  },
+  {
+   "keys": [
+    "E4",
+    "E1",
+    "E7",
+    "E3",
+    "E2"
+   ],
+   "label": "E4+E1+E7+E3+E2",
+   "changed": 96,
+   "avg": 25.102,
+   "delta": -0.099,
+   "better": 55,
+   "worse": 0,
+   "same": 945,
+   "worse_ids": []
+  },
+  {
+   "keys": [
+    "E4",
+    "E1",
+    "E7",
+    "E3",
+    "E2",
+    "E9"
+   ],
+   "label": "…+E9 また→亦",
+   "changed": 147,
+   "avg": 25.095,
+   "delta": -0.106,
+   "better": 63,
+   "worse": 2,
+   "same": 935,
+   "worse_ids": [
+    "kyokugaku-1",
+    "rongo2002-1"
+   ]
+  },
+  {
+   "keys": [
+    "E5"
+   ],
+   "label": "E5（仅白文护栏）",
+   "changed": 10,
+   "avg": 25.208,
+   "delta": 0.007,
+   "better": 1,
+   "worse": 8,
+   "same": 991,
+   "worse_ids": [
+    "moshisono-1",
+    "ayamachiteh-1",
+    "onoreshika-1",
+    "onoreshika-2",
+    "onorenoho-1",
+    "onorenoho-2",
+    "rongo1201-1",
+    "rongo1202-1"
+   ]
+  },
+  {
+   "keys": [
+    "E6"
+   ],
+   "label": "E6（仅白文护栏）",
+   "changed": 26,
+   "avg": 25.214,
+   "delta": 0.013,
+   "better": 5,
+   "worse": 19,
+   "same": 976,
+   "worse_ids": [
+    "ayaukushi-1",
+    "izukunei-1",
+    "imadasei-1",
+    "imadahito-1",
+    "kamireikei-1",
+    "gyujiwo-1",
+    "niwatori-1",
+    "rongo0210-1",
+    "rongo0322-1",
+    "rongo0401-1",
+    "rongo0510-1",
+    "rongo0518-1",
+    "rongo0922-1",
+    "rongo1302-1",
+    "rongo1601-1",
+    "rongo1704-1",
+    "rongo1707-1",
+    "rongo1902-1",
+    "rongo1912-1"
+   ]
+  },
+  {
+   "keys": [
+    "E8"
+   ],
+   "label": "E8（仅白文护栏）",
+   "changed": 1,
+   "avg": 25.201,
+   "delta": 0.0,
+   "better": 0,
+   "worse": 0,
+   "same": 1000,
+   "worse_ids": []
+  },
+  {
+   "keys": [
+    "E9"
+   ],
+   "label": "E9（仅白文护栏）",
+   "changed": 55,
+   "avg": 25.194,
+   "delta": -0.007,
+   "better": 9,
+   "worse": 2,
+   "same": 989,
+   "worse_ids": [
+    "kyokugaku-1",
+    "rongo2002-1"
+   ]
+  },
+  {
+   "keys": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E7",
+    "E5",
+    "E6",
+    "E8",
+    "E9"
+   ],
+   "label": "全部 9 条（对照，预期有变差）",
+   "changed": 176,
+   "avg": 25.115,
+   "delta": -0.086,
+   "better": 67,
+   "worse": 27,
+   "same": 906,
+   "worse_ids": [
+    "moshisono-1",
+    "ayaukushi-1",
+    "ayamachiteh-1",
+    "izukunei-1",
+    "imadasei-1",
+    "imadahito-1",
+    "onoreshika-1",
+    "onoreshika-2",
+    "onorenoho-1",
+    "onorenoho-2",
+    "kamireikei-1",
+    "gyujiwo-1",
+    "niwatori-1",
+    "kyokugaku-1",
+    "rongo0210-1",
+    "rongo0322-1",
+    "rongo0401-1",
+    "rongo0510-1",
+    "rongo0518-1",
+    "rongo0922-1"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "n": 1000,
+ "base_avg": 25.201,
+ "new_avg": 25.048,
+ "delta": -0.153,
+ "changed": 95,
+ "better": 91,
+ "worse": 0,
+ "same": 909,
+ "worse_rows": [],
+ "idempotent": true,
+ "outside_safe": true,
+ "table": [
+  {
+   "kana": "みな",
+   "repl": "皆",
+   "guard": [
+    "皆"
+   ]
+  },
+  {
+   "kana": "すでに",
+   "repl": "既に",
+   "guard": [
+    "既",
+    "旣"
+   ]
+  },
+  {
+   "kana": "なお",
+   "repl": "猶お",
+   "guard": [
+    "猶"
+   ]
+  },
+  {
+   "kana": "あに",
+   "repl": "豈に",
+   "guard": [
+    "豈"
+   ]
+  },
+  {
+   "kana": "ただ",
+   "repl": "唯だ",
+   "guard": [
+    "唯"
+   ]
+  }
+ ]
+}

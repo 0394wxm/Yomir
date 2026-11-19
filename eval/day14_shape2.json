@@ -1,0 +1,225 @@
+{
+ "base_avg": 25.201,
+ "variants": [
+  {
+   "kana": "みな",
+   "repl": "皆",
+   "boundary": false,
+   "changed": 30,
+   "avg": 25.143,
+   "delta": -0.058,
+   "better": 26,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "みな",
+   "repl": "皆な",
+   "boundary": false,
+   "changed": 30,
+   "avg": 25.167,
+   "delta": -0.034,
+   "better": 28,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "すでに",
+   "repl": "既",
+   "boundary": false,
+   "changed": 23,
+   "avg": 25.168,
+   "delta": -0.033,
+   "better": 23,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "すでに",
+   "repl": "既に",
+   "boundary": false,
+   "changed": 23,
+   "avg": 25.152,
+   "delta": -0.049,
+   "better": 23,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "なお",
+   "repl": "猶",
+   "boundary": false,
+   "changed": 20,
+   "avg": 25.197,
+   "delta": -0.004,
+   "better": 4,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "なお",
+   "repl": "猶お",
+   "boundary": false,
+   "changed": 20,
+   "avg": 25.18,
+   "delta": -0.021,
+   "better": 20,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "あに",
+   "repl": "豈",
+   "boundary": false,
+   "changed": 10,
+   "avg": 25.199,
+   "delta": -0.002,
+   "better": 2,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "あに",
+   "repl": "豈に",
+   "boundary": false,
+   "changed": 10,
+   "avg": 25.191,
+   "delta": -0.01,
+   "better": 10,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "ただ",
+   "repl": "唯",
+   "boundary": false,
+   "changed": 16,
+   "avg": 25.199,
+   "delta": -0.002,
+   "better": 1,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "ただ",
+   "repl": "唯だ",
+   "boundary": false,
+   "changed": 16,
+   "avg": 25.184,
+   "delta": -0.017,
+   "better": 16,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "みな",
+   "repl": "皆",
+   "boundary": true,
+   "changed": 30,
+   "avg": 25.143,
+   "delta": -0.058,
+   "better": 26,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "みな",
+   "repl": "皆な",
+   "boundary": true,
+   "changed": 30,
+   "avg": 25.167,
+   "delta": -0.034,
+   "better": 28,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "すでに",
+   "repl": "既",
+   "boundary": true,
+   "changed": 22,
+   "avg": 25.17,
+   "delta": -0.031,
+   "better": 22,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "すでに",
+   "repl": "既に",
+   "boundary": true,
+   "changed": 22,
+   "avg": 25.154,
+   "delta": -0.047,
+   "better": 22,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "なお",
+   "repl": "猶",
+   "boundary": true,
+   "changed": 20,
+   "avg": 25.197,
+   "delta": -0.004,
+   "better": 4,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "なお",
+   "repl": "猶お",
+   "boundary": true,
+   "changed": 20,
+   "avg": 25.18,
+   "delta": -0.021,
+   "better": 20,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "あに",
+   "repl": "豈",
+   "boundary": true,
+   "changed": 10,
+   "avg": 25.199,
+   "delta": -0.002,
+   "better": 2,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "あに",
+   "repl": "豈に",
+   "boundary": true,
+   "changed": 10,
+   "avg": 25.191,
+   "delta": -0.01,
+   "better": 10,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "ただ",
+   "repl": "唯",
+   "boundary": true,
+   "changed": 16,
+   "avg": 25.199,
+   "delta": -0.002,
+   "better": 1,
+   "worse": 0,
+   "worse_ids": []
+  },
+  {
+   "kana": "ただ",
+   "repl": "唯だ",
+   "boundary": true,
+   "changed": 16,
+   "avg": 25.184,
+   "delta": -0.017,
+   "better": 16,
+   "worse": 0,
+   "worse_ids": []
+  }
+ ]
+}
