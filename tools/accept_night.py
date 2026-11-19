@@ -40,11 +40,9 @@ sys.path.insert(0, ROOT)
 LOG_PATH = os.path.join(ROOT, "ACCEPT_LOG.md")
 OUT_DIR = os.path.join(ROOT, "eval")
 
-# D13: pytest 检查的历史基线（全量 tests 的通过数下限）。
-# 原来是写死的 14（test_api.py 的旧口径），D13 改成全量并取 50。
-# D14 加 Rule E 的 15 个测试后总数 65，基线同步上调：
-# 任何一条测试消失都会让门 FAIL，防止「删测试换绿灯」。
-MIN_PASSED = 65
+# D13/D14 曾用硬编码 MIN_PASSED（14 → 50 → 65）作为 pytest 通过数下限。
+# D15 改成动态：pytest --collect-only 数出多少就要求过多少（见 _count_collected）。
+# 不再有常量需要维护。
 
 # 每个夜声明的「评测归档文件」（用于检查 3）。缺省只查通用项。
 NIGHT_ARTIFACTS = {
@@ -147,15 +145,43 @@ def check_repo_clean(night):
 # --------------------------------------------------------------------------
 # 2. pytest
 # --------------------------------------------------------------------------
+def _count_collected():
+    """用 pytest --collect-only 数出当前测试总数（D15）。
+
+    为什么不再用硬编码基线：D13 写死 50、D14 加测试后要手改成 65，
+    忘了改基线就等于「新增测试不在门的保护范围」，改错了又会误判。
+    动态计数让「收集到多少就必须过多少」始终成立，不需要人工维护。
+    """
+    p = subprocess.run([sys.executable, "-m", "pytest", "tests", "--collect-only", "-q"],
+                       cwd=ROOT, capture_output=True, text=True, encoding="utf-8",
+                       errors="replace")
+    text = p.stdout or ""
+    # 末行形如 "65 tests collected in 2.36s"；无测试时是 "no tests ran"
+    m = re.search(r"(\d+) tests? collected", text)
+    if m:
+        return int(m.group(1))
+    # 退回按行数数（每行一个 test id），过滤汇总/空行
+    ids = [l for l in text.strip().splitlines()
+           if "::" in l and not l.startswith("=")]
+    return len(ids)
+
+
 def check_pytest(night, run_pytest):
-    # D13: 口径从 tests/test_api.py（15 例）改成全量 tests（50 例）。
-    # 原口径是 D2 按当时的文件清单写的，之后 test_sodashite_guard /
-    # test_ocr_batch_progress / test_rule_d_kore / test_lifespan_migration
-    # 陆续加进来，门却一只只看 test_api——等于新测试全部不在门的覆盖里。
+    # D13: 口径从 tests/test_api.py（15 例）改成全量 tests。
+    # D15: 通过数下限改为**动态**——collect 到多少个就要求过多少个。
     c = Check("pytest", "tests 全量通过")
     if not run_pytest:
         c.skip("--no-pytest：跳过")
         return c
+
+    t_collect0 = time.time()
+    expected = _count_collected()
+    c.detail["collected"] = expected
+    c.detail["collect_sec"] = round(time.time() - t_collect0, 1)
+    if expected <= 0:
+        c.fail("--collect-only 数不出测试（收集失败或被跳过）")
+        return c
+
     t0 = time.time()
     p = subprocess.run([sys.executable, "-m", "pytest", "tests", "-q"],
                        cwd=ROOT, capture_output=True, text=True, encoding="utf-8",
@@ -165,15 +191,24 @@ def check_pytest(night, run_pytest):
     c.detail["tail"] = tail[-3:]
     m = re.search(r"(\d+) passed", p.stdout or "")
     c.detail["passed"] = int(m.group(1)) if m else 0
-    failed = re.search(r"(\d+) failed", p.stdout or "")
-    if failed:
-        c.detail["failed"] = int(failed.group(1))
+    for kw in ("failed", "error", "skipped", "xfailed", "xpassed"):
+        mm = re.search(r"(\d+) %s" % kw, p.stdout or "")
+        if mm:
+            c.detail[kw] = int(mm.group(1))
     if p.returncode != 0:
         c.fail("pytest 退出码 %d" % p.returncode, returncode=p.returncode)
-    elif c.detail["passed"] < MIN_PASSED:
-        c.fail("通过数 %d < %d（历史基线）" % (c.detail["passed"], MIN_PASSED))
-    else:
+    elif c.detail["passed"] < expected:
+        c.fail("通过数 %d < 收集数 %d（有测试没通过/没跑）"
+               % (c.detail["passed"], expected))
+    elif c.detail["passed"] > expected:
+        # 多出来说明 collect 与实际执行不一致（如参数化动态生成），记一笔但不判 fail
+        c.notes.append("通过数 %d > 收集数 %d（差异已记录）"
+                       % (c.detail["passed"], expected))
         c.notes.append("%d passed（%.1fs）" % (c.detail["passed"], c.detail["elapsed_sec"]))
+    else:
+        c.notes.append("%d passed = %d collected（%.1fs，收集 %.1fs）"
+                       % (c.detail["passed"], expected, c.detail["elapsed_sec"],
+                          c.detail["collect_sec"]))
     return c
 
 

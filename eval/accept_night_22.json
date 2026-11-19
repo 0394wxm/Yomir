@@ -1,22 +1,28 @@
 {
   "night": 22,
-  "verdict": "PASS",
-  "checked_at": "2026-11-19T19:41:00",
-  "elapsed_sec": 26.2,
+  "verdict": "FAIL",
+  "checked_at": "2026-11-19T20:04:41",
+  "elapsed_sec": 34.7,
   "n_checks": 6,
-  "n_fail": 0,
+  "n_fail": 1,
   "n_skip": 0,
   "checks": [
     {
       "name": "repo_clean",
       "title": "git 工作区干净",
-      "status": "pass",
+      "status": "fail",
       "notes": [
-        "已跟踪文件无改动",
-        "未跟踪：eval/ocr_gt_100.tsv, eval/ocr_samples/gt36/, eval/ocr_samples/gt36_hr/, eval/ocr_samples/gt36_probe.png, eval/ocr_samples/gt36_view/, eval/ocr_samples/hr_test.jpg, tools/night36_boxes.py, tools/night36_gt_crops.py, tools/night36_hires_dl.py, tools/night36_line_stats.py"
+        "验收门自身产物有更新（不计脏）：ACCEPT_LOG.md, eval/accept_night_22.json, eval/accept_night_35.json",
+        "已跟踪文件有未提交改动：1 个",
+        "未跟踪：REPORT_DAY15.md, eval/ocr_gt_100.tsv, eval/ocr_samples/gt36/, eval/ocr_samples/gt36_hr/, eval/ocr_samples/gt36_probe.png, eval/ocr_samples/gt36_view/, eval/ocr_samples/hr_test.jpg, tools/night36_boxes.py, tools/night36_gt_crops.py, tools/night36_hires_dl.py"
       ],
       "detail": {
         "changed": [
+          " M ACCEPT_LOG.md",
+          " M eval/accept_night_22.json",
+          " M eval/accept_night_35.json",
+          " M tools/accept_night.py",
+          "?? REPORT_DAY15.md",
           "?? eval/ocr_gt_100.tsv",
           "?? eval/ocr_samples/gt36/",
           "?? eval/ocr_samples/gt36_hr/",
@@ -31,8 +37,16 @@
           "?? tools/night36_status.py",
           "?? tools/night36_view.py"
         ],
-        "tracked_changes": [],
+        "gate_owned_changes": [
+          " M ACCEPT_LOG.md",
+          " M eval/accept_night_22.json",
+          " M eval/accept_night_35.json"
+        ],
+        "tracked_changes": [
+          " M tools/accept_night.py"
+        ],
         "untracked": [
+          "?? REPORT_DAY15.md",
           "?? eval/ocr_gt_100.tsv",
           "?? eval/ocr_samples/gt36/",
           "?? eval/ocr_samples/gt36_hr/",
@@ -46,6 +60,9 @@
           "?? tools/night36_sheet.py",
           "?? tools/night36_status.py",
           "?? tools/night36_view.py"
+        ],
+        "files": [
+          " M tools/accept_night.py"
         ]
       }
     },
@@ -54,13 +71,15 @@
       "title": "tests 全量通过",
       "status": "pass",
       "notes": [
-        "65 passed（14.7s）"
+        "65 passed = 65 collected（15.6s，收集 5.9s）"
       ],
       "detail": {
-        "elapsed_sec": 14.7,
+        "collected": 65,
+        "collect_sec": 5.9,
+        "elapsed_sec": 15.6,
         "tail": [
           ".................................................................        [100%]",
-          "65 passed in 11.63s"
+          "65 passed in 12.82s"
         ],
         "passed": 65
       }
@@ -138,15 +157,15 @@
       "title": "单句训读耗时在包络内",
       "status": "pass",
       "notes": [
-        "短句中位 8ms（包络 3000ms）"
+        "短句中位 9ms（包络 3000ms）"
       ],
       "detail": {
         "ms": [
-          7.0,
           9.0,
-          8.0
+          47.0,
+          7.0
         ],
-        "median_ms": 8.0,
+        "median_ms": 9.0,
         "limit_ms": 3000.0
       }
     }
