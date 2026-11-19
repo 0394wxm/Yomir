@@ -1,0 +1,200 @@
+{
+ "n": 2000,
+ "candidates": [
+  {
+   "kana": "また",
+   "repl": "亦た",
+   "guard": [
+    "亦"
+   ],
+   "note": "亦た — D14 因亦/又歧义拒绝，现用白文消歧",
+   "A": 85,
+   "B": 0,
+   "C": 68,
+   "exp_kana": 0,
+   "got_kana": 184,
+   "exp_kanji": 103,
+   "got_kanji": 0
+  },
+  {
+   "kana": "また",
+   "repl": "又",
+   "guard": [
+    "又"
+   ],
+   "note": "又 — 同上，另一个方向",
+   "A": 47,
+   "B": 0,
+   "C": 106,
+   "exp_kana": 0,
+   "got_kana": 184,
+   "exp_kanji": 56,
+   "got_kanji": 0
+  },
+  {
+   "kana": "ごとく",
+   "repl": "若く",
+   "guard": [
+    "若"
+   ],
+   "note": "若く",
+   "A": 21,
+   "B": 50,
+   "C": 6,
+   "exp_kana": 5,
+   "got_kana": 29,
+   "exp_kanji": 88,
+   "got_kanji": 4
+  },
+  {
+   "kana": "ごとし",
+   "repl": "若し",
+   "guard": [
+    "若"
+   ],
+   "note": "若し",
+   "A": 19,
+   "B": 52,
+   "C": 3,
+   "exp_kana": 8,
+   "got_kana": 27,
+   "exp_kanji": 88,
+   "got_kanji": 4
+  },
+  {
+   "kana": "ごとき",
+   "repl": "若き",
+   "guard": [
+    "若"
+   ],
+   "note": "若き",
+   "A": 11,
+   "B": 60,
+   "C": 8,
+   "exp_kana": 18,
+   "got_kana": 23,
+   "exp_kanji": 88,
+   "got_kanji": 4
+  },
+  {
+   "kana": "べし",
+   "repl": "可し",
+   "guard": [
+    "可"
+   ],
+   "note": "可し（べし系列，词形多，先看量）",
+   "A": 49,
+   "B": 153,
+   "C": 5,
+   "exp_kana": 14,
+   "got_kana": 67,
+   "exp_kanji": 285,
+   "got_kanji": 41
+  },
+  {
+   "kana": "べき",
+   "repl": "可き",
+   "guard": [
+    "可"
+   ],
+   "note": "可き",
+   "A": 75,
+   "B": 127,
+   "C": 0,
+   "exp_kana": 5,
+   "got_kana": 97,
+   "exp_kanji": 285,
+   "got_kanji": 41
+  },
+  {
+   "kana": "べく",
+   "repl": "可く",
+   "guard": [
+    "可"
+   ],
+   "note": "可く",
+   "A": 7,
+   "B": 195,
+   "C": 3,
+   "exp_kana": 0,
+   "got_kana": 10,
+   "exp_kanji": 285,
+   "got_kanji": 41
+  },
+  {
+   "kana": "べから",
+   "repl": "可から",
+   "guard": [
+    "可"
+   ],
+   "note": "可から（べからず）",
+   "A": 77,
+   "B": 125,
+   "C": 3,
+   "exp_kana": 7,
+   "got_kana": 94,
+   "exp_kanji": 285,
+   "got_kanji": 41
+  },
+  {
+   "kana": "なし",
+   "repl": "莫し",
+   "guard": [
+    "莫"
+   ],
+   "note": "莫し",
+   "A": 0,
+   "B": 56,
+   "C": 0,
+   "exp_kana": 11,
+   "got_kana": 0,
+   "exp_kanji": 66,
+   "got_kanji": 2
+  },
+  {
+   "kana": "なし",
+   "repl": "無し",
+   "guard": [
+    "無"
+   ],
+   "note": "無し（对照：这个引擎已在写）",
+   "A": 0,
+   "B": 259,
+   "C": 0,
+   "exp_kana": 11,
+   "got_kana": 0,
+   "exp_kanji": 351,
+   "got_kanji": 351
+  },
+  {
+   "kana": "ともに",
+   "repl": "与に",
+   "guard": [
+    "与"
+   ],
+   "note": "与に",
+   "A": 0,
+   "B": 0,
+   "C": 0,
+   "exp_kana": 0,
+   "got_kana": 0,
+   "exp_kanji": 103,
+   "got_kanji": 55
+  },
+  {
+   "kana": "いかん",
+   "repl": "如何",
+   "guard": [
+    "何"
+   ],
+   "note": "如何（いかん）",
+   "A": 28,
+   "B": 139,
+   "C": 0,
+   "exp_kana": 0,
+   "got_kana": 32,
+   "exp_kanji": 312,
+   "got_kanji": 265
+  }
+ ]
+}

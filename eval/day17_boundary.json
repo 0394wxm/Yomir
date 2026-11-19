@@ -1,0 +1,106 @@
+{
+ "n": 2000,
+ "changed": 158,
+ "avg_old": 21.218,
+ "avg_new": 21.116,
+ "delta": -0.102,
+ "better": 147,
+ "worse": 0,
+ "same": 1853,
+ "worse_detail": [],
+ "idempotent": true,
+ "probes": [
+  {
+   "in": "また明日会いましょう",
+   "hakubun": "また明日会いましょう",
+   "out": "また明日会いましょう",
+   "changed": false
+  },
+  {
+   "in": "またたく間に",
+   "hakubun": "またたく間に",
+   "out": "またたく間に",
+   "changed": false
+  },
+  {
+   "in": "またがり",
+   "hakubun": "またがり",
+   "out": "またがり",
+   "changed": false
+  },
+  {
+   "in": "またいとこ",
+   "hakubun": "またいとこ",
+   "out": "またいとこ",
+   "changed": false
+  },
+  {
+   "in": "またしても",
+   "hakubun": "またしても",
+   "out": "またしても",
+   "changed": false
+  },
+  {
+   "in": "またとない",
+   "hakubun": "またとない",
+   "out": "またとない",
+   "changed": false
+  },
+  {
+   "in": "またの機会",
+   "hakubun": "またの機会",
+   "out": "またの機会",
+   "changed": false
+  },
+  {
+   "in": "いかんせん",
+   "hakubun": "いかんせん",
+   "out": "いかんせん",
+   "changed": false
+  },
+  {
+   "in": "いかんだ",
+   "hakubun": "いかんだ",
+   "out": "いかんだ",
+   "changed": false
+  },
+  {
+   "in": "べき論",
+   "hakubun": "べき論",
+   "out": "べき論",
+   "changed": false
+  },
+  {
+   "in": "べし",
+   "hakubun": "べし",
+   "out": "べし",
+   "changed": false
+  },
+  {
+   "in": "べくして",
+   "hakubun": "べくして",
+   "out": "べくして",
+   "changed": false
+  },
+  {
+   "in": "吾十有五而志于学",
+   "hakubun": "吾十有五而志于学",
+   "out": "吾十有五而志于学",
+   "changed": false
+  }
+ ],
+ "probes_empty_hakubun": [
+  {
+   "in": "また明日",
+   "out": "亦た明日"
+  },
+  {
+   "in": "べし",
+   "out": "可し"
+  },
+  {
+   "in": "いかんだ",
+   "out": "如何だ"
+  }
+ ]
+}

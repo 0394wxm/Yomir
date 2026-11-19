@@ -175,9 +175,14 @@ E_LONGER_WORDS = {
 }
 
 
-def _replace_word_boundary(text: str, kana: str, repl: str) -> str:
-    """把 kana 换成 repl；命中 E_LONGER_WORDS 的更长词时整段保持不动。"""
-    longer = sorted(E_LONGER_WORDS.get(kana, ()), key=len, reverse=True)
+def _replace_word_boundary(text: str, kana: str, repl: str, longer_map=None) -> str:
+    """把 kana 换成 repl；命中更长词清单时整段保持不动。
+
+    longer_map 默认用 E_LONGER_WORDS（Rule E）；Rule F 传入自己的清单，
+    两张表分开维护，避免 F 的新词影响 E 的既有行为。
+    """
+    lm = E_LONGER_WORDS if longer_map is None else longer_map
+    longer = sorted(lm.get(kana, ()), key=len, reverse=True)
     out = []
     i = 0
     n = len(kana)
@@ -211,6 +216,58 @@ def style_kana_to_kanji(text: str, hakubun: str = "") -> str:
     return text
 
 
+# ---------------------------------------------------------------------------
+# D17 Rule F：假名 → 汉字（第二批，2000 条语料挖掘）
+#
+# 数据来源 eval/day17_charstat.json（2000 条，Rule E 之后）：
+#   expected 里 亦 103 次 / got 0；又 56/0；何 208/176；可 285/41
+# 1:1 交叉验证（eval/day17_kana.json，A=白文有字&输出有假名 / C=白文无字&输出有假名）：
+#   また→亦た   A 85  C 68   白文含「亦」时改；含「又」时是另一個词（见下，被拒）
+#   いかん→如何 A 28  C  0   白文含「何」时改（C=0，护栏零成本）
+#   べし→可し   A 49  C  5   白文含「可」时改
+#   べく→可く   A  7  C  3   白文含「可」时改
+# 2000 条离线+真机核对（eval/day17_combo.json）：
+#   改写 158 条 | avgDist 21.218 → 21.116（**-0.102**）| 改善 147 / **变差 0** / 持平 1853
+#   幂等 PASS；语料外 12 条探针全部一字不动。
+#
+# 被拒绝的候选（变差 > 0，一律不上线，如实记录）：
+#   また→又   白文含「又」时 47 条可改，但 38 改善 / **1 变差**（「又た/又」两种词形并存）
+#   べき→可き 白文含「可」时 75 条可改，63 改善 / **4 变差**
+#   べから→可から 77 条可改，67 改善 / **4 变差**（べからず 的上接词形不定）
+#   なし→莫し 白文含「莫」时 A=0（引擎已写「無し」，莫/無 无法区分）
+#   ごとく/ごとし/ごとき→若く/若し/若き  C=3~8（白文无若却会命中，护栏不干净）
+# ---------------------------------------------------------------------------
+F_KANA_TO_KANJI = [
+    # (假名, 替换成的词形, 白文里可接受的写法)
+    ("また", "亦た", ("亦",)),
+    ("いかん", "如何", ("何",)),
+    ("べし", "可し", ("可",)),
+    ("べく", "可く", ("可",)),
+]
+
+# Rule F 的词界护栏（与 E_LONGER_WORDS 分开维护）
+F_LONGER_WORDS = {
+    "また": ("またたく", "またがり", "またがる", "またぎ", "またぐ",
+             "またたき", "またしても", "またと", "またの"),
+    "いかん": (),
+    "べし": (),
+    "べく": (),
+}
+
+
+def style_kana_to_kanji_f(text: str, hakubun: str = "") -> str:
+    """假名 → 汉字（第二批）。D17 Rule F。
+
+    与 Rule E 同构的两道护栏，但用 F 自己的更长词表。
+    """
+    hb = re.sub(r"\s+", "", hakubun) if hakubun else ""
+    for kana, repl, guard in F_KANA_TO_KANJI:
+        if hb and not any(g in hb for g in guard):
+            continue
+        text = _replace_word_boundary(text, kana, repl, F_LONGER_WORDS)
+    return text
+
+
 def style_fix(text: str) -> str:
     """规则总入口：显示风格修正（NIGHT4 Rule A + NIGHT22 Rule C'）。
     不改汉字词干、不动树结构。Rule C（て而して→て）以带护栏形式于 NIGHT22
@@ -227,13 +284,14 @@ def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     """带白文上下文的规则总入口（D11 起后端实际调用这个）。
 
     Rule D 的白文护栏需要原始输入，所以不能只传输出串。
-    D14 的 Rule E 同理（护栏也是白文判据）。
+    D14 的 Rule E / D17 的 Rule F 同理（护栏也是白文判据）。
     """
     t = style_modern_kana(text)
     t = style_drop_wa_before_iwaku(t)
     t = style_dedup_shite_soshite_guarded(t)
     t = style_kore_to_shi(t, hakubun)
     t = style_kana_to_kanji(t, hakubun)
+    t = style_kana_to_kanji_f(t, hakubun)   # D17 Rule F
     return t
 
 # ---------------------------------------------------------------------------

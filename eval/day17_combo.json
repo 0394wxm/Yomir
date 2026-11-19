@@ -1,0 +1,162 @@
+{
+ "n": 2000,
+ "changed": 158,
+ "avg_old": 21.218,
+ "avg_new": 21.116,
+ "delta": -0.102,
+ "better": 147,
+ "worse": 0,
+ "same": 1853,
+ "worse_detail": [],
+ "per_rule": {
+  "また→亦た": 107,
+  "いかん→如何": 32,
+  "べし→可し": 62,
+  "べく→可く": 7
+ },
+ "idempotent_400": true,
+ "probes": [
+  {
+   "text": "また明日会いましょう",
+   "hakubun": "",
+   "result": "また明日会いましょう",
+   "changed": 0
+  },
+  {
+   "text": "またたく間に",
+   "hakubun": "",
+   "result": "またたく間に",
+   "changed": 0
+  },
+  {
+   "text": "またがり",
+   "hakubun": "",
+   "result": "またがり",
+   "changed": 0
+  },
+  {
+   "text": "またいとこ",
+   "hakubun": "",
+   "result": "またいとこ",
+   "changed": 0
+  },
+  {
+   "text": "またしても失敗",
+   "hakubun": "",
+   "result": "またしても失敗",
+   "changed": 0
+  },
+  {
+   "text": "いかんせん",
+   "hakubun": "",
+   "result": "いかんせん",
+   "changed": 0
+  },
+  {
+   "text": "いかんだ",
+   "hakubun": "",
+   "result": "いかんだ",
+   "changed": 0
+  },
+  {
+   "text": "べき論",
+   "hakubun": "",
+   "result": "べき論",
+   "changed": 0
+  },
+  {
+   "text": "べし",
+   "hakubun": "",
+   "result": "べし",
+   "changed": 0
+  },
+  {
+   "text": "べくして",
+   "hakubun": "",
+   "result": "べくして",
+   "changed": 0
+  },
+  {
+   "text": "吾十有五而志于学",
+   "hakubun": "吾十有五而志于学",
+   "result": "吾十有五而志于学",
+   "changed": 0
+  },
+  {
+   "text": "学而時習之",
+   "hakubun": "学而時習之",
+   "result": "学而時習之",
+   "changed": 0
+  }
+ ],
+ "positives": [
+  {
+   "in": "また",
+   "hakubun": "亦",
+   "out": "亦た",
+   "n": 1
+  },
+  {
+   "in": "いかん",
+   "hakubun": "何",
+   "out": "如何",
+   "n": 1
+  },
+  {
+   "in": "べし",
+   "hakubun": "可",
+   "out": "可し",
+   "n": 1
+  },
+  {
+   "in": "べく",
+   "hakubun": "可",
+   "out": "可く",
+   "n": 1
+  }
+ ],
+ "rule_f": [
+  {
+   "kana": "また",
+   "repl": "亦た",
+   "guard": [
+    "亦"
+   ],
+   "longer": [
+    "またたく",
+    "またがり",
+    "またがる",
+    "またぎ",
+    "またぐ",
+    "またたき",
+    "またしても",
+    "またと",
+    "またの"
+   ]
+  },
+  {
+   "kana": "いかん",
+   "repl": "如何",
+   "guard": [
+    "何"
+   ],
+   "longer": []
+  },
+  {
+   "kana": "べし",
+   "repl": "可し",
+   "guard": [
+    "可"
+   ],
+   "longer": []
+  },
+  {
+   "kana": "べく",
+   "repl": "可く",
+   "guard": [
+    "可"
+   ],
+   "longer": []
+  }
+ ]
+}
