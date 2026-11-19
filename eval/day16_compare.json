@@ -1,0 +1,108 @@
+{
+ "rule": {
+  "n": 1000,
+  "exact": 6,
+  "avg": 17.389
+ },
+ "guwenbert": {
+  "n": 1000,
+  "exact": 4,
+  "avg": 17.062
+ },
+ "delta": 0.327,
+ "by_bucket": {
+  "21-40字": {
+   "rule": {
+    "n": 217,
+    "exact": 0,
+    "avg": 23.083
+   },
+   "guwenbert": {
+    "n": 217,
+    "exact": 0,
+    "avg": 22.71
+   }
+  },
+  "41-60字": {
+   "rule": {
+    "n": 78,
+    "exact": 0,
+    "avg": 38.487
+   },
+   "guwenbert": {
+    "n": 78,
+    "exact": 0,
+    "avg": 36.628
+   }
+  },
+  "≤20字": {
+   "rule": {
+    "n": 655,
+    "exact": 6,
+    "avg": 9.612
+   },
+   "guwenbert": {
+    "n": 655,
+    "exact": 4,
+    "avg": 9.501
+   }
+  },
+  ">60字": {
+   "rule": {
+    "n": 50,
+    "exact": 0,
+    "avg": 61.64
+   },
+   "guwenbert": {
+    "n": 50,
+    "exact": 0,
+    "avg": 61.08
+   }
+  }
+ },
+ "by_genre": {
+  "故事": {
+   "rule": {
+    "n": 664,
+    "exact": 3,
+    "avg": 19.849
+   },
+   "guwenbert": {
+    "n": 664,
+    "exact": 2,
+    "avg": 19.426
+   }
+  },
+  "大学": {
+   "rule": {
+    "n": 189,
+    "exact": 0,
+    "avg": 14.926
+   },
+   "guwenbert": {
+    "n": 189,
+    "exact": 0,
+    "avg": 14.683
+   }
+  },
+  "孝経": {
+   "rule": {
+    "n": 147,
+    "exact": 3,
+    "avg": 9.442
+   },
+   "guwenbert": {
+    "n": 147,
+    "exact": 2,
+    "avg": 9.442
+   }
+  }
+ },
+ "pairwise": {
+  "rule_better": 330,
+  "guwenbert_better": 325,
+  "same": 345
+ },
+ "guwenbert_runtime_sec": 3802,
+ "guwenbert_build_sec": 110
+}
