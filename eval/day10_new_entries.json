@@ -1,0 +1,68 @@
+[
+ {
+  "id": "anshi-6",
+  "source_url": "https://kanbun.info/koji/anshi.html",
+  "hakubun": "妻曰、晏子長不滿六尺。",
+  "expected_kakikudashi": "妻曰く、晏子は長六尺に満たず。"
+ },
+ {
+  "id": "anshi-7",
+  "source_url": "https://kanbun.info/koji/anshi.html",
+  "hakubun": "身相齊國、名顯諸侯。",
+  "expected_kakikudashi": "身、斉国の相として、名、諸侯に顕る。"
+ },
+ {
+  "id": "anshi-8",
+  "source_url": "https://kanbun.info/koji/anshi.html",
+  "hakubun": "今者妾觀其出、志念深矣。",
+  "expected_kakikudashi": "今者、妾其の出づるを観るに、志念深し。"
+ },
+ {
+  "id": "anshi-9",
+  "source_url": "https://kanbun.info/koji/anshi.html",
+  "hakubun": "常有以自下者。",
+  "expected_kakikudashi": "常に自らを以て下くすること有り。"
+ },
+ {
+  "id": "anshi-10",
+  "source_url": "https://kanbun.info/koji/anshi.html",
+  "hakubun": "今子長八尺、乃爲人僕御。",
+  "expected_kakikudashi": "今、子長八尺、乃ち人の僕御たり。"
+ },
+ {
+  "id": "anshi-11",
+  "source_url": "https://kanbun.info/koji/anshi.html",
+  "hakubun": "然子之意自以爲足。",
+  "expected_kakikudashi": "然るに子の意自ら以て足れりと為す。"
+ },
+ {
+  "id": "anshi-12",
+  "source_url": "https://kanbun.info/koji/anshi.html",
+  "hakubun": "妾是以求去也。",
+  "expected_kakikudashi": "妾、是を以て去らんことを求むるなり、と。"
+ },
+ {
+  "id": "anshi-13",
+  "source_url": "https://kanbun.info/koji/anshi.html",
+  "hakubun": "其後夫自抑損。",
+  "expected_kakikudashi": "其の後、夫自ら抑損す。"
+ },
+ {
+  "id": "anshi-14",
+  "source_url": "https://kanbun.info/koji/anshi.html",
+  "hakubun": "晏子怪而問之。",
+  "expected_kakikudashi": "晏子怪しみて之を問う。"
+ },
+ {
+  "id": "anshi-15",
+  "source_url": "https://kanbun.info/koji/anshi.html",
+  "hakubun": "御以實對。",
+  "expected_kakikudashi": "御、実を以て対う。"
+ },
+ {
+  "id": "anshi-16",
+  "source_url": "https://kanbun.info/koji/anshi.html",
+  "hakubun": "晏子薦以爲大夫。",
+  "expected_kakikudashi": "晏子薦めて以て大夫と為す。"
+ }
+]

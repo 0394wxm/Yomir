@@ -1,0 +1,4554 @@
+[
+ {
+  "id": "aatenware",
+  "url": "https://kanbun.info/koji/aatenware.html"
+ },
+ {
+  "id": "moshisono",
+  "url": "https://kanbun.info/koji/moshisono.html"
+ },
+ {
+  "id": "aeteokure",
+  "url": "https://kanbun.info/koji/aeteokure.html"
+ },
+ {
+  "id": "aetenei",
+  "url": "https://kanbun.info/koji/aetenei.html"
+ },
+ {
+  "id": "aogitesho",
+  "url": "https://kanbun.info/koji/aogitesho.html"
+ },
+ {
+  "id": "aowa",
+  "url": "https://kanbun.info/koji/aowa.html"
+ },
+ {
+  "id": "akitakaku",
+  "url": "https://kanbun.info/koji/akitakaku.html"
+ },
+ {
+  "id": "akuiakusho",
+  "url": "https://kanbun.info/koji/akuiakusho.html"
+ },
+ {
+  "id": "akujisenri",
+  "url": "https://kanbun.info/koji/akujisenri.html"
+ },
+ {
+  "id": "murasakino",
+  "url": "https://kanbun.info/koji/murasakino.html"
+ },
+ {
+  "id": "azamukuko",
+  "url": "https://kanbun.info/koji/azamukuko.html"
+ },
+ {
+  "id": "azamukube",
+  "url": "https://kanbun.info/koji/azamukube.html"
+ },
+ {
+  "id": "ashitani",
+  "url": "https://kanbun.info/koji/ashitani.html"
+ },
+ {
+  "id": "asobunika",
+  "url": "https://kanbun.info/koji/asobunika.html"
+ },
+ {
+  "id": "atauruno",
+  "url": "https://kanbun.info/koji/atauruno.html"
+ },
+ {
+  "id": "atarazuto",
+  "url": "https://kanbun.info/koji/atarazuto.html"
+ },
+ {
+  "id": "atawaza",
+  "url": "https://kanbun.info/koji/atawaza.html"
+ },
+ {
+  "id": "atsumono",
+  "url": "https://kanbun.info/koji/atsumono.html"
+ },
+ {
+  "id": "atofumazu",
+  "url": "https://kanbun.info/koji/atofumazu.html"
+ },
+ {
+  "id": "abakite",
+  "url": "https://kanbun.info/koji/abakite.html"
+ },
+ {
+  "id": "ayaukikotoru",
+  "url": "https://kanbun.info/koji/ayaukikotoru.html"
+ },
+ {
+  "id": "ayaukimei",
+  "url": "https://kanbun.info/koji/ayaukimei.html"
+ },
+ {
+  "id": "ayaukushi",
+  "url": "https://kanbun.info/koji/ayaukushi.html"
+ },
+ {
+  "id": "ayamachitea",
+  "url": "https://kanbun.info/koji/ayamachitea.html"
+ },
+ {
+  "id": "ayamachiteh",
+  "url": "https://kanbun.info/koji/ayamachiteh.html"
+ },
+ {
+  "id": "shojinaya",
+  "url": "https://kanbun.info/koji/shojinaya.html"
+ },
+ {
+  "id": "ayamachifu",
+  "url": "https://kanbun.info/koji/ayamachifu.html"
+ },
+ {
+  "id": "ayamachimi",
+  "url": "https://kanbun.info/koji/ayamachimi.html"
+ },
+ {
+  "id": "aredomona",
+  "url": "https://kanbun.info/koji/aredomona.html"
+ },
+ {
+  "id": "anshi",
+  "url": "https://kanbun.info/koji/anshi.html"
+ },
+ {
+  "id": "hisashiku",
+  "url": "https://kanbun.info/koji/hisashiku.html"
+ },
+ {
+  "id": "iaritake",
+  "url": "https://kanbun.info/koji/iaritake.html"
+ },
+ {
+  "id": "iukotoata",
+  "url": "https://kanbun.info/koji/iukotoata.html"
+ },
+ {
+  "id": "kanohiiwa",
+  "url": "https://kanbun.info/koji/kanohiiwa.html"
+ },
+ {
+  "id": "michioko",
+  "url": "https://kanbun.info/koji/michioko.html"
+ },
+ {
+  "id": "ikarinan",
+  "url": "https://kanbun.info/koji/ikarinan.html"
+ },
+ {
+  "id": "ikariutsu",
+  "url": "https://kanbun.info/koji/ikariutsu.html"
+ },
+ {
+  "id": "ikidoori",
+  "url": "https://kanbun.info/koji/ikidoori.html"
+ },
+ {
+  "id": "ishinita",
+  "url": "https://kanbun.info/koji/ishinita.html"
+ },
+ {
+  "id": "ishiniku",
+  "url": "https://kanbun.info/koji/ishiniku.html"
+ },
+ {
+  "id": "ishoku",
+  "url": "https://kanbun.info/koji/ishoku.html"
+ },
+ {
+  "id": "ishiwoidaki",
+  "url": "https://kanbun.info/koji/ishiwoidaki.html"
+ },
+ {
+  "id": "ishin",
+  "url": "https://kanbun.info/koji/ishin.html"
+ },
+ {
+  "id": "izukunei",
+  "url": "https://kanbun.info/koji/izukunei.html"
+ },
+ {
+  "id": "iyashikuko",
+  "url": "https://kanbun.info/koji/iyashikuko.html"
+ },
+ {
+  "id": "itanosamu",
+  "url": "https://kanbun.info/koji/itanosamu.html"
+ },
+ {
+  "id": "ichii",
+  "url": "https://kanbun.info/koji/ichii.html"
+ },
+ {
+  "id": "ichiguuage",
+  "url": "https://kanbun.info/koji/ichiguuage.html"
+ },
+ {
+  "id": "ichigo",
+  "url": "https://kanbun.info/koji/ichigo.html"
+ },
+ {
+  "id": "ichigenoko",
+  "url": "https://kanbun.info/koji/ichigenoko.html"
+ },
+ {
+  "id": "ichigenoou",
+  "url": "https://kanbun.info/koji/ichigenoou.html"
+ },
+ {
+  "id": "ichigenchi",
+  "url": "https://kanbun.info/koji/ichigenchi.html"
+ },
+ {
+  "id": "ichiji",
+  "url": "https://kanbun.info/koji/ichiji.html"
+ },
+ {
+  "id": "shunjunohi",
+  "url": "https://kanbun.info/koji/shunjunohi.html"
+ },
+ {
+  "id": "ichijitsuse",
+  "url": "https://kanbun.info/koji/ichijitsuse.html"
+ },
+ {
+  "id": "ichijicho",
+  "url": "https://kanbun.info/koji/ichijicho.html"
+ },
+ {
+  "id": "ichimo",
+  "url": "https://kanbun.info/koji/ichimo.html"
+ },
+ {
+  "id": "ichinitora",
+  "url": "https://kanbun.info/koji/ichinitora.html"
+ },
+ {
+  "id": "ikken",
+  "url": "https://kanbun.info/koji/ikken.html"
+ },
+ {
+  "id": "ichinenkoku",
+  "url": "https://kanbun.info/koji/ichinenkoku.html"
+ },
+ {
+  "id": "ichiyo",
+  "url": "https://kanbun.info/koji/ichiyo.html"
+ },
+ {
+  "id": "ichiyorai",
+  "url": "https://kanbun.info/koji/ichiyorai.html"
+ },
+ {
+  "id": "ichiwokiite",
+  "url": "https://kanbun.info/koji/ichiwokiite.html"
+ },
+ {
+  "id": "ichikiiteni",
+  "url": "https://kanbun.info/koji/ichikiiteni.html"
+ },
+ {
+  "id": "ikkinoko",
+  "url": "https://kanbun.info/koji/ikkinoko.html"
+ },
+ {
+  "id": "ikkyosyu",
+  "url": "https://kanbun.info/koji/ikkyosyu.html"
+ },
+ {
+  "id": "isshiissei",
+  "url": "https://kanbun.info/koji/isshiissei.html"
+ },
+ {
+  "id": "isshoko",
+  "url": "https://kanbun.info/koji/isshoko.html"
+ },
+ {
+  "id": "bokutaku",
+  "url": "https://kanbun.info/koji/bokutaku.html"
+ },
+ {
+  "id": "ittanno",
+  "url": "https://kanbun.info/koji/ittanno.html"
+ },
+ {
+  "id": "icchoisseki",
+  "url": "https://kanbun.info/koji/icchoisseki.html"
+ },
+ {
+  "id": "icchoikari",
+  "url": "https://kanbun.info/koji/icchoikari.html"
+ },
+ {
+  "id": "itteiji",
+  "url": "https://kanbun.info/koji/itteiji.html"
+ },
+ {
+  "id": "ippai",
+  "url": "https://kanbun.info/koji/ippai.html"
+ },
+ {
+  "id": "ippanwo",
+  "url": "https://kanbun.info/koji/ippanwo.html"
+ },
+ {
+  "id": "ippin",
+  "url": "https://kanbun.info/koji/ippin.html"
+ },
+ {
+  "id": "ippukan",
+  "url": "https://kanbun.info/koji/ippukan.html"
+ },
+ {
+  "id": "itsumina",
+  "url": "https://kanbun.info/koji/itsumina.html"
+ },
+ {
+  "id": "itsumotte",
+  "url": "https://kanbun.info/koji/itsumotte.html"
+ },
+ {
+  "id": "itsuwarimu",
+  "url": "https://kanbun.info/koji/itsuwarimu.html"
+ },
+ {
+  "id": "itsuworo",
+  "url": "https://kanbun.info/koji/itsuworo.html"
+ },
+ {
+  "id": "itekikimi",
+  "url": "https://kanbun.info/koji/itekikimi.html"
+ },
+ {
+  "id": "idetekou",
+  "url": "https://kanbun.info/koji/idetekou.html"
+ },
+ {
+  "id": "shiwotatsu",
+  "url": "https://kanbun.info/koji/shiwotatsu.html"
+ },
+ {
+  "id": "inishiegen",
+  "url": "https://kanbun.info/koji/inishiegen.html"
+ },
+ {
+  "id": "inishiegaku",
+  "url": "https://kanbun.info/koji/inishiegaku.html"
+ },
+ {
+  "id": "inishiegu",
+  "url": "https://kanbun.info/koji/inishiegu.html"
+ },
+ {
+  "id": "kowokaete",
+  "url": "https://kanbun.info/koji/kowokaete.html"
+ },
+ {
+  "id": "inishieta",
+  "url": "https://kanbun.info/koji/inishieta.html"
+ },
+ {
+  "id": "inurunishi",
+  "url": "https://kanbun.info/koji/inurunishi.html"
+ },
+ {
+  "id": "seia",
+  "url": "https://kanbun.info/koji/seia.html"
+ },
+ {
+  "id": "inochi",
+  "url": "https://kanbun.info/koji/inochi.html"
+ },
+ {
+  "id": "shitaizan",
+  "url": "https://kanbun.info/koji/shitaizan.html"
+ },
+ {
+  "id": "ihen",
+  "url": "https://kanbun.info/koji/ihen.html"
+ },
+ {
+  "id": "iboku",
+  "url": "https://kanbun.info/koji/iboku.html"
+ },
+ {
+  "id": "imashimezu",
+  "url": "https://kanbun.info/koji/imashimezu.html"
+ },
+ {
+  "id": "imadagan",
+  "url": "https://kanbun.info/koji/imadagan.html"
+ },
+ {
+  "id": "imadaezaru",
+  "url": "https://kanbun.info/koji/imadaezaru.html"
+ },
+ {
+  "id": "imadakore",
+  "url": "https://kanbun.info/koji/imadakore.html"
+ },
+ {
+  "id": "imadasei",
+  "url": "https://kanbun.info/koji/imadasei.html"
+ },
+ {
+  "id": "imadahito",
+  "url": "https://kanbun.info/koji/imadahito.html"
+ },
+ {
+  "id": "imananji",
+  "url": "https://kanbun.info/koji/imananji.html"
+ },
+ {
+  "id": "kenbanoya",
+  "url": "https://kanbun.info/koji/kenbanoya.html"
+ },
+ {
+  "id": "imayanashi",
+  "url": "https://kanbun.info/koji/imayanashi.html"
+ },
+ {
+  "id": "imayukyu",
+  "url": "https://kanbun.info/koji/imayukyu.html"
+ },
+ {
+  "id": "iyashikunu",
+  "url": "https://kanbun.info/koji/iyashikunu.html"
+ },
+ {
+  "id": "iyashikujin",
+  "url": "https://kanbun.info/koji/iyashikujin.html"
+ },
+ {
+  "id": "iyashikumi",
+  "url": "https://kanbun.info/koji/iyashikumi.html"
+ },
+ {
+  "id": "iyashikuwa",
+  "url": "https://kanbun.info/koji/iyashikuwa.html"
+ },
+ {
+  "id": "iriteko",
+  "url": "https://kanbun.info/koji/iriteko.html"
+ },
+ {
+  "id": "irokatashi",
+  "url": "https://kanbun.info/koji/irokatashi.html"
+ },
+ {
+  "id": "irojinwo",
+  "url": "https://kanbun.info/koji/irojinwo.html"
+ },
+ {
+  "id": "iroashiki",
+  "url": "https://kanbun.info/koji/iroashiki.html"
+ },
+ {
+  "id": "iroonomou",
+  "url": "https://kanbun.info/koji/iroonomou.html"
+ },
+ {
+  "id": "irohage",
+  "url": "https://kanbun.info/koji/irohage.html"
+ },
+ {
+  "id": "iwaku",
+  "url": "https://kanbun.info/koji/iwaku.html"
+ },
+ {
+  "id": "iwadaijin",
+  "url": "https://kanbun.info/koji/iwadaijin.html"
+ },
+ {
+  "id": "inkan",
+  "url": "https://kanbun.info/koji/inkan.html"
+ },
+ {
+  "id": "inkyoho",
+  "url": "https://kanbun.info/koji/inkyoho.html"
+ },
+ {
+  "id": "inkyoshi",
+  "url": "https://kanbun.info/koji/inkyoshi.html"
+ },
+ {
+  "id": "intoku",
+  "url": "https://kanbun.info/koji/intoku.html"
+ },
+ {
+  "id": "insanjin",
+  "url": "https://kanbun.info/koji/insanjin.html"
+ },
+ {
+  "id": "uowoete",
+  "url": "https://kanbun.info/koji/uowoete.html"
+ },
+ {
+  "id": "uka",
+  "url": "https://kanbun.info/koji/uka.html"
+ },
+ {
+  "id": "ugo",
+  "url": "https://kanbun.info/koji/ugo.html"
+ },
+ {
+  "id": "utagaini",
+  "url": "https://kanbun.info/koji/utagaini.html"
+ },
+ {
+  "id": "uchinikae",
+  "url": "https://kanbun.info/koji/uchinikae.html"
+ },
+ {
+  "id": "uchinimako",
+  "url": "https://kanbun.info/koji/uchinimako.html"
+ },
+ {
+  "id": "uchoku",
+  "url": "https://kanbun.info/koji/uchoku.html"
+ },
+ {
+  "id": "uttaenaki",
+  "url": "https://kanbun.info/koji/uttaenaki.html"
+ },
+ {
+  "id": "sokonaeru",
+  "url": "https://kanbun.info/koji/sokonaeru.html"
+ },
+ {
+  "id": "wareumare",
+  "url": "https://kanbun.info/koji/wareumare.html"
+ },
+ {
+  "id": "umareshiru",
+  "url": "https://kanbun.info/koji/umareshiru.html"
+ },
+ {
+  "id": "umarena",
+  "url": "https://kanbun.info/koji/umarena.html"
+ },
+ {
+  "id": "umukotona",
+  "url": "https://kanbun.info/koji/umukotona.html"
+ },
+ {
+  "id": "onhageshi",
+  "url": "https://kanbun.info/koji/onhageshi.html"
+ },
+ {
+  "id": "uyu",
+  "url": "https://kanbun.info/koji/uyu.html"
+ },
+ {
+  "id": "uramikotsu",
+  "url": "https://kanbun.info/koji/uramikotsu.html"
+ },
+ {
+  "id": "uramimuku",
+  "url": "https://kanbun.info/koji/uramimuku.html"
+ },
+ {
+  "id": "uramikaku",
+  "url": "https://kanbun.info/koji/uramikaku.html"
+ },
+ {
+  "id": "uruwomite",
+  "url": "https://kanbun.info/koji/uruwomite.html"
+ },
+ {
+  "id": "eidatsu",
+  "url": "https://kanbun.info/koji/eidatsu.html"
+ },
+ {
+  "id": "ekisango",
+  "url": "https://kanbun.info/koji/ekisango.html"
+ },
+ {
+  "id": "ekisanyu",
+  "url": "https://kanbun.info/koji/ekisanyu.html"
+ },
+ {
+  "id": "ekiseika",
+  "url": "https://kanbun.info/koji/ekiseika.html"
+ },
+ {
+  "id": "ekimoto",
+  "url": "https://kanbun.info/koji/ekimoto.html"
+ },
+ {
+  "id": "kaijisono",
+  "url": "https://kanbun.info/koji/kaijisono.html"
+ },
+ {
+  "id": "enou",
+  "url": "https://kanbun.info/koji/enou.html"
+ },
+ {
+  "id": "enjaku",
+  "url": "https://kanbun.info/koji/enjaku.html"
+ },
+ {
+  "id": "ensui",
+  "url": "https://kanbun.info/koji/ensui.html"
+ },
+ {
+  "id": "enryona",
+  "url": "https://kanbun.info/koji/enryona.html"
+ },
+ {
+  "id": "robanochi",
+  "url": "https://kanbun.info/koji/robanochi.html"
+ },
+ {
+  "id": "oiteshise",
+  "url": "https://kanbun.info/koji/oiteshise.html"
+ },
+ {
+  "id": "oirunio",
+  "url": "https://kanbun.info/koji/oirunio.html"
+ },
+ {
+  "id": "oko",
+  "url": "https://kanbun.info/koji/oko.html"
+ },
+ {
+  "id": "yukumonoi",
+  "url": "https://kanbun.info/koji/yukumonoi.html"
+ },
+ {
+  "id": "osetsu",
+  "url": "https://kanbun.info/koji/osetsu.html"
+ },
+ {
+  "id": "sonooniko",
+  "url": "https://kanbun.info/koji/sonooniko.html"
+ },
+ {
+  "id": "ouwotsuge",
+  "url": "https://kanbun.info/koji/ouwotsuge.html"
+ },
+ {
+  "id": "ookukiki",
+  "url": "https://kanbun.info/koji/ookukiki.html"
+ },
+ {
+  "id": "ooshitoie",
+  "url": "https://kanbun.info/koji/ooshitoie.html"
+ },
+ {
+  "id": "okuka",
+  "url": "https://kanbun.info/koji/okuka.html"
+ },
+ {
+  "id": "okonaiteyo",
+  "url": "https://kanbun.info/koji/okonaiteyo.html"
+ },
+ {
+  "id": "ogoreba",
+  "url": "https://kanbun.info/koji/ogoreba.html"
+ },
+ {
+  "id": "oshiikana",
+  "url": "https://kanbun.info/koji/oshiikana.html"
+ },
+ {
+  "id": "oshierui",
+  "url": "https://kanbun.info/koji/oshierui.html"
+ },
+ {
+  "id": "oshiezaru",
+  "url": "https://kanbun.info/koji/oshiezaru.html"
+ },
+ {
+  "id": "oshiezushi",
+  "url": "https://kanbun.info/koji/oshiezushi.html"
+ },
+ {
+  "id": "jinshaono",
+  "url": "https://kanbun.info/koji/jinshaono.html"
+ },
+ {
+  "id": "onorenika",
+  "url": "https://kanbun.info/koji/onorenika.html"
+ },
+ {
+  "id": "onoreshika",
+  "url": "https://kanbun.info/koji/onoreshika.html"
+ },
+ {
+  "id": "onorenoho",
+  "url": "https://kanbun.info/koji/onorenoho.html"
+ },
+ {
+  "id": "onoreuya",
+  "url": "https://kanbun.info/koji/onoreuya.html"
+ },
+ {
+  "id": "onorehaji",
+  "url": "https://kanbun.info/koji/onorehaji.html"
+ },
+ {
+  "id": "kunshiyotsu",
+  "url": "https://kanbun.info/koji/kunshiyotsu.html"
+ },
+ {
+  "id": "onoreosame",
+  "url": "https://kanbun.info/koji/onoreosame.html"
+ },
+ {
+  "id": "onoreosaya",
+  "url": "https://kanbun.info/koji/onoreosaya.html"
+ },
+ {
+  "id": "onorekiyo",
+  "url": "https://kanbun.info/koji/onorekiyo.html"
+ },
+ {
+  "id": "onoreshiru",
+  "url": "https://kanbun.info/koji/onoreshiru.html"
+ },
+ {
+  "id": "omoi",
+  "url": "https://kanbun.info/koji/omoi.html"
+ },
+ {
+  "id": "manabiteo",
+  "url": "https://kanbun.info/koji/manabiteo.html"
+ },
+ {
+  "id": "omoiyoko",
+  "url": "https://kanbun.info/koji/omoiyoko.html"
+ },
+ {
+  "id": "omoedomo",
+  "url": "https://kanbun.info/koji/omoedomo.html"
+ },
+ {
+  "id": "omonpaku",
+  "url": "https://kanbun.info/koji/omonpaku.html"
+ },
+ {
+  "id": "orutokoro",
+  "url": "https://kanbun.info/koji/orutokoro.html"
+ },
+ {
+  "id": "owaritsu",
+  "url": "https://kanbun.info/koji/owaritsu.html"
+ },
+ {
+  "id": "owariwotsu",
+  "url": "https://kanbun.info/koji/owariwotsu.html"
+ },
+ {
+  "id": "owotochu",
+  "url": "https://kanbun.info/koji/owotochu.html"
+ },
+ {
+  "id": "onkochi",
+  "url": "https://kanbun.info/koji/onkochi.html"
+ },
+ {
+  "id": "shiwaonore",
+  "url": "https://kanbun.info/koji/shiwaonore.html"
+ },
+ {
+  "id": "onryokyo",
+  "url": "https://kanbun.info/koji/onryokyo.html"
+ },
+ {
+  "id": "gaikotsu",
+  "url": "https://kanbun.info/koji/gaikotsu.html"
+ },
+ {
+  "id": "gaisyu",
+  "url": "https://kanbun.info/koji/gaisyu.html"
+ },
+ {
+  "id": "kaiyaware",
+  "url": "https://kanbun.info/koji/kaiyaware.html"
+ },
+ {
+  "id": "mazukai",
+  "url": "https://kanbun.info/koji/mazukai.html"
+ },
+ {
+  "id": "kyorankito",
+  "url": "https://kanbun.info/koji/kyorankito.html"
+ },
+ {
+  "id": "kairyoku",
+  "url": "https://kanbun.info/koji/kairyoku.html"
+ },
+ {
+  "id": "kairodo",
+  "url": "https://kanbun.info/koji/kairodo.html"
+ },
+ {
+  "id": "kaeranka",
+  "url": "https://kanbun.info/koji/kaeranka.html"
+ },
+ {
+  "id": "kagakujota",
+  "url": "https://kanbun.info/koji/kagakujota.html"
+ },
+ {
+  "id": "kakanfusa",
+  "url": "https://kanbun.info/koji/kakanfusa.html"
+ },
+ {
+  "id": "kakini",
+  "url": "https://kanbun.info/koji/kakini.html"
+ },
+ {
+  "id": "shonimen",
+  "url": "https://kanbun.info/koji/shonimen.html"
+ },
+ {
+  "id": "kagyu",
+  "url": "https://kanbun.info/koji/kagyu.html"
+ },
+ {
+  "id": "gakutoii",
+  "url": "https://kanbun.info/koji/gakutoii.html"
+ },
+ {
+  "id": "jochikagu",
+  "url": "https://kanbun.info/koji/jochikagu.html"
+ },
+ {
+  "id": "gakuoyoba",
+  "url": "https://kanbun.info/koji/gakuoyoba.html"
+ },
+ {
+  "id": "kakubutsu",
+  "url": "https://kanbun.info/koji/kakubutsu.html"
+ },
+ {
+  "id": "gashin",
+  "url": "https://kanbun.info/koji/gashin.html"
+ },
+ {
+  "id": "kajinhaku",
+  "url": "https://kanbun.info/koji/kajinhaku.html"
+ },
+ {
+  "id": "kasumete",
+  "url": "https://kanbun.info/koji/kasumete.html"
+ },
+ {
+  "id": "kasei",
+  "url": "https://kanbun.info/koji/kasei.html"
+ },
+ {
+  "id": "hyakukasei",
+  "url": "https://kanbun.info/koji/hyakukasei.html"
+ },
+ {
+  "id": "kataikana",
+  "url": "https://kanbun.info/koji/kataikana.html"
+ },
+ {
+  "id": "kataifu",
+  "url": "https://kanbun.info/koji/kataifu.html"
+ },
+ {
+  "id": "katakisaki",
+  "url": "https://kanbun.info/koji/katakisaki.html"
+ },
+ {
+  "id": "gasshoren",
+  "url": "https://kanbun.info/koji/gasshoren.html"
+ },
+ {
+  "id": "katsumoku",
+  "url": "https://kanbun.info/koji/katsumoku.html"
+ },
+ {
+  "id": "kaden",
+  "url": "https://kanbun.info/koji/kaden.html"
+ },
+ {
+  "id": "katowoida",
+  "url": "https://kanbun.info/koji/katowoida.html"
+ },
+ {
+  "id": "kanae",
+  "url": "https://kanbun.info/koji/kanae.html"
+ },
+ {
+  "id": "kanashimi",
+  "url": "https://kanbun.info/koji/kanashimi.html"
+ },
+ {
+  "id": "kanarazuya",
+  "url": "https://kanbun.info/koji/kanarazuya.html"
+ },
+ {
+  "id": "kanohitono",
+  "url": "https://kanbun.info/koji/kanohitono.html"
+ },
+ {
+  "id": "kanohitodo",
+  "url": "https://kanbun.info/koji/kanohitodo.html"
+ },
+ {
+  "id": "shukateki",
+  "url": "https://kanbun.info/koji/shukateki.html"
+ },
+ {
+  "id": "kafuku",
+  "url": "https://kanbun.info/koji/kafuku.html"
+ },
+ {
+  "id": "shushu",
+  "url": "https://kanbun.info/koji/shushu.html"
+ },
+ {
+  "id": "gabei",
+  "url": "https://kanbun.info/koji/gabei.html"
+ },
+ {
+  "id": "kamiitekan",
+  "url": "https://kanbun.info/koji/kamiitekan.html"
+ },
+ {
+  "id": "kamireikei",
+  "url": "https://kanbun.info/koji/kamireikei.html"
+ },
+ {
+  "id": "kamireiko",
+  "url": "https://kanbun.info/koji/kamireiko.html"
+ },
+ {
+  "id": "kamotorite",
+  "url": "https://kanbun.info/koji/kamotorite.html"
+ },
+ {
+  "id": "kamonaku",
+  "url": "https://kanbun.info/koji/kamonaku.html"
+ },
+ {
+  "id": "kamon",
+  "url": "https://kanbun.info/koji/kamon.html"
+ },
+ {
+  "id": "karyuite",
+  "url": "https://kanbun.info/koji/karyuite.html"
+ },
+ {
+  "id": "garyo",
+  "url": "https://kanbun.info/koji/garyo.html"
+ },
+ {
+  "id": "karewoshiri",
+  "url": "https://kanbun.info/koji/karewoshiri.html"
+ },
+ {
+  "id": "karewoya",
+  "url": "https://kanbun.info/koji/karewoya.html"
+ },
+ {
+  "id": "karoto",
+  "url": "https://kanbun.info/koji/karoto.html"
+ },
+ {
+  "id": "ganenkaku",
+  "url": "https://kanbun.info/koji/ganenkaku.html"
+ },
+ {
+  "id": "ganenfuka",
+  "url": "https://kanbun.info/koji/ganenfuka.html"
+ },
+ {
+  "id": "kankakodoku",
+  "url": "https://kanbun.info/koji/kankakodoku.html"
+ },
+ {
+  "id": "kangyujyu",
+  "url": "https://kanbun.info/koji/kangyujyu.html"
+ },
+ {
+  "id": "kankotsu",
+  "url": "https://kanbun.info/koji/kankotsu.html"
+ },
+ {
+  "id": "ganshoku",
+  "url": "https://kanbun.info/koji/ganshoku.html"
+ },
+ {
+  "id": "tanoshiin",
+  "url": "https://kanbun.info/koji/tanoshiin.html"
+ },
+ {
+  "id": "kanzensuru",
+  "url": "https://kanbun.info/koji/kanzensuru.html"
+ },
+ {
+  "id": "tentokuwa",
+  "url": "https://kanbun.info/koji/tentokuwa.html"
+ },
+ {
+  "id": "kantanayu",
+  "url": "https://kanbun.info/koji/kantanayu.html"
+ },
+ {
+  "id": "kanchuna",
+  "url": "https://kanbun.info/koji/kanchuna.html"
+ },
+ {
+  "id": "kannareba",
+  "url": "https://kanbun.info/koji/kannareba.html"
+ },
+ {
+  "id": "kanniite",
+  "url": "https://kanbun.info/koji/kanniite.html"
+ },
+ {
+  "id": "kanpeki4k",
+  "url": "https://kanbun.info/koji/kanpeki4k.html"
+ },
+ {
+  "id": "kanpeki18",
+  "url": "https://kanbun.info/koji/kanpeki18.html"
+ },
+ {
+  "id": "kanpo",
+  "url": "https://kanbun.info/koji/kanpo.html"
+ },
+ {
+  "id": "kanwomo",
+  "url": "https://kanbun.info/koji/kanwomo.html"
+ },
+ {
+  "id": "giarite",
+  "url": "https://kanbun.info/koji/giarite.html"
+ },
+ {
+  "id": "kio",
+  "url": "https://kanbun.info/koji/kio.html"
+ },
+ {
+  "id": "kika",
+  "url": "https://kanbun.info/koji/kika.html"
+ },
+ {
+  "id": "gigikota",
+  "url": "https://kanbun.info/koji/gigikota.html"
+ },
+ {
+  "id": "kikyu",
+  "url": "https://kanbun.info/koji/kikyu.html"
+ },
+ {
+  "id": "kikugama",
+  "url": "https://kanbun.info/koji/kikugama.html"
+ },
+ {
+  "id": "kikonoi",
+  "url": "https://kanbun.info/koji/kikonoi.html"
+ },
+ {
+  "id": "gishin",
+  "url": "https://kanbun.info/koji/gishin.html"
+ },
+ {
+  "id": "kishinkei",
+  "url": "https://kanbun.info/koji/kishinkei.html"
+ },
+ {
+  "id": "washosho",
+  "url": "https://kanbun.info/koji/washosho.html"
+ },
+ {
+  "id": "rinkiohen",
+  "url": "https://kanbun.info/koji/rinkiohen.html"
+ },
+ {
+  "id": "giniyoku",
+  "url": "https://kanbun.info/koji/giniyoku.html"
+ },
+ {
+  "id": "kiniyori",
+  "url": "https://kanbun.info/koji/kiniyori.html"
+ },
+ {
+  "id": "kichikara",
+  "url": "https://kanbun.info/koji/kichikara.html"
+ },
+ {
+  "id": "kibini",
+  "url": "https://kanbun.info/koji/kibini.html"
+ },
+ {
+  "id": "kihoranpo",
+  "url": "https://kanbun.info/koji/kihoranpo.html"
+ },
+ {
+  "id": "kimikimi",
+  "url": "https://kanbun.info/koji/kimikimi.html"
+ },
+ {
+  "id": "kimishin",
+  "url": "https://kanbun.info/koji/kimishin.html"
+ },
+ {
+  "id": "kimitaru",
+  "url": "https://kanbun.info/koji/kimitaru.html"
+ },
+ {
+  "id": "kimijisho",
+  "url": "https://kanbun.info/koji/kimijisho.html"
+ },
+ {
+  "id": "kiminochi",
+  "url": "https://kanbun.info/koji/kiminochi.html"
+ },
+ {
+  "id": "kimihetsu",
+  "url": "https://kanbun.info/koji/kimihetsu.html"
+ },
+ {
+  "id": "kimitsuka",
+  "url": "https://kanbun.info/koji/kimitsuka.html"
+ },
+ {
+  "id": "kimimeiji",
+  "url": "https://kanbun.info/koji/kimimeiji.html"
+ },
+ {
+  "id": "kiyu",
+  "url": "https://kanbun.info/koji/kiyu.html"
+ },
+ {
+  "id": "kyuakuwo",
+  "url": "https://kanbun.info/koji/kyuakuwo.html"
+ },
+ {
+  "id": "kyugyu",
+  "url": "https://kanbun.info/koji/kyugyu.html"
+ },
+ {
+  "id": "kunshikyu",
+  "url": "https://kanbun.info/koji/kunshikyu.html"
+ },
+ {
+  "id": "kyushitsu",
+  "url": "https://kanbun.info/koji/kyushitsu.html"
+ },
+ {
+  "id": "gyushu",
+  "url": "https://kanbun.info/koji/gyushu.html"
+ },
+ {
+  "id": "gyujiwo",
+  "url": "https://kanbun.info/koji/gyujiwo.html"
+ },
+ {
+  "id": "kyujinnoko",
+  "url": "https://kanbun.info/koji/kyujinnoko.html"
+ },
+ {
+  "id": "kyusu",
+  "url": "https://kanbun.info/koji/kyusu.html"
+ },
+ {
+  "id": "kunmotokyu",
+  "url": "https://kanbun.info/koji/kunmotokyu.html"
+ },
+ {
+  "id": "niwatori",
+  "url": "https://kanbun.info/koji/niwatori.html"
+ },
+ {
+  "id": "kunshisuku",
+  "url": "https://kanbun.info/koji/kunshisuku.html"
+ },
+ {
+  "id": "kyuinoru",
+  "url": "https://kanbun.info/koji/kyuinoru.html"
+ },
+ {
+  "id": "kyubokue",
+  "url": "https://kanbun.info/koji/kyubokue.html"
+ },
+ {
+  "id": "kyuyasai",
+  "url": "https://kanbun.info/koji/kyuyasai.html"
+ },
+ {
+  "id": "kyuyashi",
+  "url": "https://kanbun.info/koji/kyuyashi.html"
+ },
+ {
+  "id": "kyuyohei",
+  "url": "https://kanbun.info/koji/kyuyohei.html"
+ },
+ {
+  "id": "kyogenzoku",
+  "url": "https://kanbun.info/koji/kyogenzoku.html"
+ },
+ {
+  "id": "chukoete",
+  "url": "https://kanbun.info/koji/chukoete.html"
+ },
+ {
+  "id": "kyojinnoin",
+  "url": "https://kanbun.info/koji/kyojinnoin.html"
+ },
+ {
+  "id": "kyojinyoki",
+  "url": "https://kanbun.info/koji/kyojinyoki.html"
+ },
+ {
+  "id": "kyotooite",
+  "url": "https://kanbun.info/koji/kyotooite.html"
+ },
+ {
+  "id": "kyonareba",
+  "url": "https://kanbun.info/koji/kyonareba.html"
+ },
+ {
+  "id": "kyochoku",
+  "url": "https://kanbun.info/koji/kyochoku.html"
+ },
+ {
+  "id": "kyoreina",
+  "url": "https://kanbun.info/koji/kyoreina.html"
+ },
+ {
+  "id": "kyofuku",
+  "url": "https://kanbun.info/koji/kyofuku.html"
+ },
+ {
+  "id": "kyoreichi",
+  "url": "https://kanbun.info/koji/kyoreichi.html"
+ },
+ {
+  "id": "kyokugaku",
+  "url": "https://kanbun.info/koji/kyokugaku.html"
+ },
+ {
+  "id": "kyokukou",
+  "url": "https://kanbun.info/koji/kyokukou.html"
+ },
+ {
+  "id": "kyokutotsu",
+  "url": "https://kanbun.info/koji/kyokutotsu.html"
+ },
+ {
+  "id": "gyokuseki",
+  "url": "https://kanbun.info/koji/gyokuseki.html"
+ },
+ {
+  "id": "kyohakana",
+  "url": "https://kanbun.info/koji/kyohakana.html"
+ },
+ {
+  "id": "kyowa",
+  "url": "https://kanbun.info/koji/kyowa.html"
+ },
+ {
+  "id": "gyofu",
+  "url": "https://kanbun.info/koji/gyofu.html"
+ },
+ {
+  "id": "giwomite",
+  "url": "https://kanbun.info/koji/giwomite.html"
+ },
+ {
+  "id": "kinkaichi",
+  "url": "https://kanbun.info/koji/kinkaichi.html"
+ },
+ {
+  "id": "koukoujo",
+  "url": "https://kanbun.info/koji/koukoujo.html"
+ },
+ {
+  "id": "guko",
+  "url": "https://kanbun.info/koji/guko.html"
+ },
+ {
+  "id": "kunshikaze",
+  "url": "https://kanbun.info/koji/kunshikaze.html"
+ },
+ {
+  "id": "kuniiyashi",
+  "url": "https://kanbun.info/koji/kuniiyashi.html"
+ },
+ {
+  "id": "kunitaka",
+  "url": "https://kanbun.info/koji/kunitaka.html"
+ },
+ {
+  "id": "kunikoku",
+  "url": "https://kanbun.info/koji/kunikoku.html"
+ },
+ {
+  "id": "kunimichia",
+  "url": "https://kanbun.info/koji/kunimichia.html"
+ },
+ {
+  "id": "kunimaki",
+  "url": "https://kanbun.info/koji/kunimaki.html"
+ },
+ {
+  "id": "kuniyano",
+  "url": "https://kanbun.info/koji/kuniyano.html"
+ },
+ {
+  "id": "kunimichi",
+  "url": "https://kanbun.info/koji/kunimichi.html"
+ },
+ {
+  "id": "kunihaji",
+  "url": "https://kanbun.info/koji/kunihaji.html"
+ },
+ {
+  "id": "kunishita",
+  "url": "https://kanbun.info/koji/kunishita.html"
+ },
+ {
+  "id": "sonochioyo",
+  "url": "https://kanbun.info/koji/sonochioyo.html"
+ },
+ {
+  "id": "kurainaki",
+  "url": "https://kanbun.info/koji/kurainaki.html"
+ },
+ {
+  "id": "kuraunika",
+  "url": "https://kanbun.info/koji/kuraunika.html"
+ },
+ {
+  "id": "kurushimi",
+  "url": "https://kanbun.info/koji/kurushimi.html"
+ },
+ {
+  "id": "kurumanobo",
+  "url": "https://kanbun.info/koji/kurumanobo.html"
+ },
+ {
+  "id": "kurumanai",
+  "url": "https://kanbun.info/koji/kurumanai.html"
+ },
+ {
+  "id": "gunkyoshu",
+  "url": "https://kanbun.info/koji/gunkyoshu.html"
+ },
+ {
+  "id": "kunshiomo",
+  "url": "https://kanbun.info/koji/kunshiomo.html"
+ },
+ {
+  "id": "kunshiro",
+  "url": "https://kanbun.info/koji/kunshiro.html"
+ },
+ {
+  "id": "kunshiatsu",
+  "url": "https://kanbun.info/koji/kunshiatsu.html"
+ },
+ {
+  "id": "gunshiteto",
+  "url": "https://kanbun.info/koji/gunshiteto.html"
+ },
+ {
+  "id": "kunshisani",
+  "url": "https://kanbun.info/koji/kunshisani.html"
+ },
+ {
+  "id": "kunshisankai",
+  "url": "https://kanbun.info/koji/kunshisankai.html"
+ },
+ {
+  "id": "kunshisanpen",
+  "url": "https://kanbun.info/koji/kunshisanpen.html"
+ },
+ {
+  "id": "kunshisanken",
+  "url": "https://kanbun.info/koji/kunshisanken.html"
+ },
+ {
+  "id": "kunshiaya",
+  "url": "https://kanbun.info/koji/kunshiaya.html"
+ },
+ {
+  "id": "kunshiara",
+  "url": "https://kanbun.info/koji/kunshiara.html"
+ },
+ {
+  "id": "mitabiomo",
+  "url": "https://kanbun.info/koji/mitabiomo.html"
+ },
+ {
+  "id": "kunshinoju",
+  "url": "https://kanbun.info/koji/kunshinoju.html"
+ },
+ {
+  "id": "kunshinoso",
+  "url": "https://kanbun.info/koji/kunshinoso.html"
+ },
+ {
+  "id": "kunshigio",
+  "url": "https://kanbun.info/koji/kunshigio.html"
+ },
+ {
+  "id": "kunshiten",
+  "url": "https://kanbun.info/koji/kunshiten.html"
+ },
+ {
+  "id": "kunshino",
+  "url": "https://kanbun.info/koji/kunshino.html"
+ },
+ {
+  "id": "kunshimichi",
+  "url": "https://kanbun.info/koji/kunshimichi.html"
+ },
+ {
+  "id": "kunshiure",
+  "url": "https://kanbun.info/koji/kunshiure.html"
+ },
+ {
+  "id": "kunshiomou",
+  "url": "https://kanbun.info/koji/kunshiomou.html"
+ },
+ {
+  "id": "kunshikano",
+  "url": "https://kanbun.info/koji/kunshikano.html"
+ },
+ {
+  "id": "kunshikaryu",
+  "url": "https://kanbun.info/koji/kunshikaryu.html"
+ },
+ {
+  "id": "kunshikina",
+  "url": "https://kanbun.info/koji/kunshikina.html"
+ },
+ {
+  "id": "kunshigini",
+  "url": "https://kanbun.info/koji/kunshigini.html"
+ },
+ {
+  "id": "kunshigimo",
+  "url": "https://kanbun.info/koji/kunshigimo.html"
+ },
+ {
+  "id": "kunshigijo",
+  "url": "https://kanbun.info/koji/kunshigijo.html"
+ },
+ {
+  "id": "kunshikei",
+  "url": "https://kanbun.info/koji/kunshikei.html"
+ },
+ {
+  "id": "kunshitotsu",
+  "url": "https://kanbun.info/koji/kunshitotsu.html"
+ },
+ {
+  "id": "kunshihagen",
+  "url": "https://kanbun.info/koji/kunshihagen.html"
+ },
+ {
+  "id": "kunshikore",
+  "url": "https://kanbun.info/koji/kunshikore.html"
+ },
+ {
+  "id": "kunshitsu",
+  "url": "https://kanbun.info/koji/kunshitsu.html"
+ },
+ {
+  "id": "kunshishuka",
+  "url": "https://kanbun.info/koji/kunshishuka.html"
+ },
+ {
+  "id": "shuhisezu",
+  "url": "https://kanbun.info/koji/shuhisezu.html"
+ },
+ {
+  "id": "kunshijota",
+  "url": "https://kanbun.info/koji/kunshijota.html"
+ },
+ {
+  "id": "kunshochi",
+  "url": "https://kanbun.info/koji/kunshochi.html"
+ },
+ {
+  "id": "kunshishoku",
+  "url": "https://kanbun.info/koji/kunshishoku.html"
+ },
+ {
+  "id": "kunshirosu",
+  "url": "https://kanbun.info/koji/kunshirosu.html"
+ },
+ {
+  "id": "kunshijinsa",
+  "url": "https://kanbun.info/koji/kunshijinsa.html"
+ },
+ {
+  "id": "kunshiikan",
+  "url": "https://kanbun.info/koji/kunshiikan.html"
+ },
+ {
+  "id": "kunshihazu",
+  "url": "https://kanbun.info/koji/kunshihazu.html"
+ },
+ {
+  "id": "kunshiketsu",
+  "url": "https://kanbun.info/koji/kunshiketsu.html"
+ },
+ {
+  "id": "kunshishin",
+  "url": "https://kanbun.info/koji/kunshishin.html"
+ },
+ {
+  "id": "kunshiyuta",
+  "url": "https://kanbun.info/koji/kunshiyuta.html"
+ },
+ {
+  "id": "kunshitana",
+  "url": "https://kanbun.info/koji/kunshitana.html"
+ },
+ {
+  "id": "kunshitano",
+  "url": "https://kanbun.info/koji/kunshitano.html"
+ },
+ {
+  "id": "kunshitoto",
+  "url": "https://kanbun.info/koji/kunshitoto.html"
+ },
+ {
+  "id": "kunshitsuka",
+  "url": "https://kanbun.info/koji/kunshitsuka.html"
+ },
+ {
+  "id": "kunshitei",
+  "url": "https://kanbun.info/koji/kunshitei.html"
+ },
+ {
+  "id": "kunshitose",
+  "url": "https://kanbun.info/koji/kunshitose.html"
+ },
+ {
+  "id": "kunshitoku",
+  "url": "https://kanbun.info/koji/kunshitoku.html"
+ },
+ {
+  "id": "kunshinona",
+  "url": "https://kanbun.info/koji/kunshinona.html"
+ },
+ {
+  "id": "kunshihito",
+  "url": "https://kanbun.info/koji/kunshihito.html"
+ },
+ {
+  "id": "kunshihahyo",
+  "url": "https://kanbun.info/koji/kunshihahyo.html"
+ },
+ {
+  "id": "shindoku",
+  "url": "https://kanbun.info/koji/shindoku.html"
+ },
+ {
+  "id": "kunshibun",
+  "url": "https://kanbun.info/koji/kunshibun.html"
+ },
+ {
+  "id": "hyakukou",
+  "url": "https://kanbun.info/koji/hyakukou.html"
+ },
+ {
+  "id": "kunshihin",
+  "url": "https://kanbun.info/koji/kunshihin.html"
+ },
+ {
+  "id": "kunshihaka",
+  "url": "https://kanbun.info/koji/kunshihaka.html"
+ },
+ {
+  "id": "kunshimoto",
+  "url": "https://kanbun.info/koji/kunshimoto.html"
+ },
+ {
+  "id": "yowobossu",
+  "url": "https://kanbun.info/koji/yowobossu.html"
+ },
+ {
+  "id": "washitedo",
+  "url": "https://kanbun.info/koji/washitedo.html"
+ },
+ {
+  "id": "kunyuari",
+  "url": "https://kanbun.info/koji/kunyuari.html"
+ },
+ {
+  "id": "shihotsu",
+  "url": "https://kanbun.info/koji/shihotsu.html"
+ },
+ {
+  "id": "sotogunryo",
+  "url": "https://kanbun.info/koji/sotogunryo.html"
+ },
+ {
+  "id": "keien",
+  "url": "https://kanbun.info/koji/keien.html"
+ },
+ {
+  "id": "keigun",
+  "url": "https://kanbun.info/koji/keigun.html"
+ },
+ {
+  "id": "keiko",
+  "url": "https://kanbun.info/koji/keiko.html"
+ },
+ {
+  "id": "bunshoha",
+  "url": "https://kanbun.info/koji/bunshoha.html"
+ },
+ {
+  "id": "shikaikei",
+  "url": "https://kanbun.info/koji/shikaikei.html"
+ },
+ {
+  "id": "keitsuiya",
+  "url": "https://kanbun.info/koji/keitsuiya.html"
+ },
+ {
+  "id": "keisetsu",
+  "url": "https://kanbun.info/koji/keisetsu.html"
+ },
+ {
+  "id": "keiteiyu",
+  "url": "https://kanbun.info/koji/keiteiyu.html"
+ },
+ {
+  "id": "keinareba",
+  "url": "https://kanbun.info/koji/keinareba.html"
+ },
+ {
+  "id": "geiasobu",
+  "url": "https://kanbun.info/koji/geiasobu.html"
+ },
+ {
+  "id": "keiniite",
+  "url": "https://kanbun.info/koji/keiniite.html"
+ },
+ {
+  "id": "keihatsu",
+  "url": "https://kanbun.info/koji/keihatsu.html"
+ },
+ {
+  "id": "keimei",
+  "url": "https://kanbun.info/koji/keimei.html"
+ },
+ {
+  "id": "gekirin",
+  "url": "https://kanbun.info/koji/gekirin.html"
+ },
+ {
+  "id": "kedashira",
+  "url": "https://kanbun.info/koji/kedashira.html"
+ },
+ {
+  "id": "tokuarumo",
+  "url": "https://kanbun.info/koji/tokuarumo.html"
+ },
+ {
+  "id": "genimada",
+  "url": "https://kanbun.info/koji/genimada.html"
+ },
+ {
+  "id": "genshin",
+  "url": "https://kanbun.info/koji/genshin.html"
+ },
+ {
+  "id": "genkore",
+  "url": "https://kanbun.info/koji/genkore.html"
+ },
+ {
+  "id": "kenken",
+  "url": "https://kanbun.info/koji/kenken.html"
+ },
+ {
+  "id": "kenkon",
+  "url": "https://kanbun.info/koji/kenkon.html"
+ },
+ {
+  "id": "kenjadai",
+  "url": "https://kanbun.info/koji/kenjadai.html"
+ },
+ {
+  "id": "kenjayosa",
+  "url": "https://kanbun.info/koji/kenjayosa.html"
+ },
+ {
+  "id": "gensekisei",
+  "url": "https://kanbun.info/koji/gensekisei.html"
+ },
+ {
+  "id": "genchushin",
+  "url": "https://kanbun.info/koji/genchushin.html"
+ },
+ {
+  "id": "kendochorai",
+  "url": "https://kanbun.info/koji/kendochorai.html"
+ },
+ {
+  "id": "kenni",
+  "url": "https://kanbun.info/koji/kenni.html"
+ },
+ {
+  "id": "kenba",
+  "url": "https://kanbun.info/koji/kenba.html"
+ },
+ {
+  "id": "kenbanoro",
+  "url": "https://kanbun.info/koji/kenbanoro.html"
+ },
+ {
+  "id": "genchuwo",
+  "url": "https://kanbun.info/koji/genchuwo.html"
+ },
+ {
+  "id": "genchika",
+  "url": "https://kanbun.info/koji/genchika.html"
+ },
+ {
+  "id": "genwarin",
+  "url": "https://kanbun.info/koji/genwarin.html"
+ },
+ {
+  "id": "genmotorite",
+  "url": "https://kanbun.info/koji/genmotorite.html"
+ },
+ {
+  "id": "kenro",
+  "url": "https://kanbun.info/koji/kenro.html"
+ },
+ {
+  "id": "kenwooto",
+  "url": "https://kanbun.info/koji/kenwooto.html"
+ },
+ {
+  "id": "kenwoken",
+  "url": "https://kanbun.info/koji/kenwoken.html"
+ },
+ {
+  "id": "gensasshi",
+  "url": "https://kanbun.info/koji/gensasshi.html"
+ },
+ {
+  "id": "genhitoshi",
+  "url": "https://kanbun.info/koji/genhitoshi.html"
+ },
+ {
+  "id": "kentatto",
+  "url": "https://kanbun.info/koji/kentatto.html"
+ },
+ {
+  "id": "kenwomite",
+  "url": "https://kanbun.info/koji/kenwomite.html"
+ },
+ {
+  "id": "banryokuso",
+  "url": "https://kanbun.info/koji/banryokuso.html"
+ },
+ {
+  "id": "gokiboku",
+  "url": "https://kanbun.info/koji/gokiboku.html"
+ },
+ {
+  "id": "koukeini",
+  "url": "https://kanbun.info/koji/koukeini.html"
+ },
+ {
+  "id": "kougento",
+  "url": "https://kanbun.info/koji/kougento.html"
+ },
+ {
+  "id": "kougensu",
+  "url": "https://kanbun.info/koji/kougensu.html"
+ },
+ {
+  "id": "kougenrei",
+  "url": "https://kanbun.info/koji/kougenrei.html"
+ },
+ {
+  "id": "kousaha",
+  "url": "https://kanbun.info/koji/kousaha.html"
+ },
+ {
+  "id": "kousan",
+  "url": "https://kanbun.info/koji/kousan.html"
+ },
+ {
+  "id": "koushikusu",
+  "url": "https://kanbun.info/koji/koushikusu.html"
+ },
+ {
+  "id": "kouji",
+  "url": "https://kanbun.info/koji/kouji.html"
+ },
+ {
+  "id": "koushihai",
+  "url": "https://kanbun.info/koji/koushihai.html"
+ },
+ {
+  "id": "koujinia",
+  "url": "https://kanbun.info/koji/koujinia.html"
+ },
+ {
+  "id": "koushise",
+  "url": "https://kanbun.info/koji/koushise.html"
+ },
+ {
+  "id": "senshinrei",
+  "url": "https://kanbun.info/koji/senshinrei.html"
+ },
+ {
+  "id": "kousei",
+  "url": "https://kanbun.info/koji/kousei.html"
+ },
+ {
+  "id": "kozen",
+  "url": "https://kanbun.info/koji/kozen.html"
+ },
+ {
+  "id": "yokoshazo",
+  "url": "https://kanbun.info/koji/yokoshazo.html"
+ },
+ {
+  "id": "kousonoko",
+  "url": "https://kanbun.info/koji/kousonoko.html"
+ },
+ {
+  "id": "kochonose",
+  "url": "https://kanbun.info/koji/kochonose.html"
+ },
+ {
+  "id": "koteimoto",
+  "url": "https://kanbun.info/koji/koteimoto.html"
+ },
+ {
+  "id": "kotokuni",
+  "url": "https://kanbun.info/koji/kotokuni.html"
+ },
+ {
+  "id": "kotoge",
+  "url": "https://kanbun.info/koji/kotoge.html"
+ },
+ {
+  "id": "koto",
+  "url": "https://kanbun.info/koji/koto.html"
+ },
+ {
+  "id": "kobinshike",
+  "url": "https://kanbun.info/koji/kobinshike.html"
+ },
+ {
+  "id": "koyoroko",
+  "url": "https://kanbun.info/koji/koyoroko.html"
+ },
+ {
+  "id": "gokonomi",
+  "url": "https://kanbun.info/koji/gokonomi.html"
+ },
+ {
+  "id": "koumarete",
+  "url": "https://kanbun.info/koji/koumarete.html"
+ },
+ {
+  "id": "koryo",
+  "url": "https://kanbun.info/koji/koryo.html"
+ },
+ {
+  "id": "goetsu",
+  "url": "https://kanbun.info/koji/goetsu.html"
+ },
+ {
+  "id": "kokyutai",
+  "url": "https://kanbun.info/koji/kokyutai.html"
+ },
+ {
+  "id": "kokyuwasu",
+  "url": "https://kanbun.info/koji/kokyuwasu.html"
+ },
+ {
+  "id": "kokusaku",
+  "url": "https://kanbun.info/koji/kokusaku.html"
+ },
+ {
+  "id": "kokudosu",
+  "url": "https://kanbun.info/koji/kokudosu.html"
+ },
+ {
+  "id": "kokushi",
+  "url": "https://kanbun.info/koji/kokushi.html"
+ },
+ {
+  "id": "kokubatsu",
+  "url": "https://kanbun.info/koji/kokubatsu.html"
+ },
+ {
+  "id": "shitaitsu",
+  "url": "https://kanbun.info/koji/shitaitsu.html"
+ },
+ {
+  "id": "kokonara",
+  "url": "https://kanbun.info/koji/kokonara.html"
+ },
+ {
+  "id": "kokobigyo",
+  "url": "https://kanbun.info/koji/kokobigyo.html"
+ },
+ {
+  "id": "kokorokoko",
+  "url": "https://kanbun.info/koji/kokorokoko.html"
+ },
+ {
+  "id": "kokorozashi",
+  "url": "https://kanbun.info/koji/kokorozashi.html"
+ },
+ {
+  "id": "sonokoko",
+  "url": "https://kanbun.info/koji/sonokoko.html"
+ },
+ {
+  "id": "shichijuko",
+  "url": "https://kanbun.info/koji/shichijuko.html"
+ },
+ {
+  "id": "kojikouyo",
+  "url": "https://kanbun.info/koji/kojikouyo.html"
+ },
+ {
+  "id": "koshi",
+  "url": "https://kanbun.info/koji/koshi.html"
+ },
+ {
+  "id": "gojuni",
+  "url": "https://kanbun.info/koji/gojuni.html"
+ },
+ {
+  "id": "gojutenmei",
+  "url": "https://kanbun.info/koji/gojutenmei.html"
+ },
+ {
+  "id": "gojueki",
+  "url": "https://kanbun.info/koji/gojueki.html"
+ },
+ {
+  "id": "gojippo",
+  "url": "https://kanbun.info/koji/gojippo.html"
+ },
+ {
+  "id": "kotaku",
+  "url": "https://kanbun.info/koji/kotaku.html"
+ },
+ {
+  "id": "kokkifuku",
+  "url": "https://kanbun.info/koji/kokkifuku.html"
+ },
+ {
+  "id": "kotoji",
+  "url": "https://kanbun.info/koji/kotoji.html"
+ },
+ {
+  "id": "kotonibin",
+  "url": "https://kanbun.info/koji/kotonibin.html"
+ },
+ {
+  "id": "kotokei",
+  "url": "https://kanbun.info/koji/kotokei.html"
+ },
+ {
+  "id": "kotosaki",
+  "url": "https://kanbun.info/koji/kotosaki.html"
+ },
+ {
+  "id": "kototorite",
+  "url": "https://kanbun.info/koji/kototorite.html"
+ },
+ {
+  "id": "konoyamai",
+  "url": "https://kanbun.info/koji/konoyamai.html"
+ },
+ {
+  "id": "konokoku",
+  "url": "https://kanbun.info/koji/konokoku.html"
+ },
+ {
+  "id": "kononeisha",
+  "url": "https://kanbun.info/koji/kononeisha.html"
+ },
+ {
+  "id": "chichiko",
+  "url": "https://kanbun.info/koji/chichiko.html"
+ },
+ {
+  "id": "gobishiaku",
+  "url": "https://kanbun.info/koji/gobishiaku.html"
+ },
+ {
+  "id": "kofuku",
+  "url": "https://kanbun.info/koji/kofuku.html"
+ },
+ {
+  "id": "gori",
+  "url": "https://kanbun.info/koji/gori.html"
+ },
+ {
+  "id": "korekyu",
+  "url": "https://kanbun.info/koji/korekyu.html"
+ },
+ {
+  "id": "koresono",
+  "url": "https://kanbun.info/koji/koresono.html"
+ },
+ {
+  "id": "koreshin",
+  "url": "https://kanbun.info/koji/koreshin.html"
+ },
+ {
+  "id": "koreniori",
+  "url": "https://kanbun.info/koji/koreniori.html"
+ },
+ {
+  "id": "korenisaki",
+  "url": "https://kanbun.info/koji/korenisaki.html"
+ },
+ {
+  "id": "korechu",
+  "url": "https://kanbun.info/koji/korechu.html"
+ },
+ {
+  "id": "korenitsu",
+  "url": "https://kanbun.info/koji/korenitsu.html"
+ },
+ {
+  "id": "korebun",
+  "url": "https://kanbun.info/koji/korebun.html"
+ },
+ {
+  "id": "tokunoosa",
+  "url": "https://kanbun.info/koji/tokunoosa.html"
+ },
+ {
+  "id": "koreaisei",
+  "url": "https://kanbun.info/koji/koreaisei.html"
+ },
+ {
+  "id": "koreaishi",
+  "url": "https://kanbun.info/koji/koreaishi.html"
+ },
+ {
+  "id": "koreaoge",
+  "url": "https://kanbun.info/koji/koreaoge.html"
+ },
+ {
+  "id": "koreikan",
+  "url": "https://kanbun.info/koji/koreikan.html"
+ },
+ {
+  "id": "sonaruni",
+  "url": "https://kanbun.info/koji/sonaruni.html"
+ },
+ {
+  "id": "koreuran",
+  "url": "https://kanbun.info/koji/koreuran.html"
+ },
+ {
+  "id": "koreureba",
+  "url": "https://kanbun.info/koji/koreureba.html"
+ },
+ {
+  "id": "korekonomu",
+  "url": "https://kanbun.info/koji/korekonomu.html"
+ },
+ {
+  "id": "koreshiru",
+  "url": "https://kanbun.info/koji/koreshiru.html"
+ },
+ {
+  "id": "shirutona",
+  "url": "https://kanbun.info/koji/shirutona.html"
+ },
+ {
+  "id": "koremito",
+  "url": "https://kanbun.info/koji/koremito.html"
+ },
+ {
+  "id": "koremichi",
+  "url": "https://kanbun.info/koji/koremichi.html"
+ },
+ {
+  "id": "koremite",
+  "url": "https://kanbun.info/koji/koremite.html"
+ },
+ {
+  "id": "tsudumiwo",
+  "url": "https://kanbun.info/koji/tsudumiwo.html"
+ },
+ {
+  "id": "saio",
+  "url": "https://kanbun.info/koji/saio.html"
+ },
+ {
+  "id": "toshisamu",
+  "url": "https://kanbun.info/koji/toshisamu.html"
+ },
+ {
+  "id": "saifusai",
+  "url": "https://kanbun.info/koji/saifusai.html"
+ },
+ {
+  "id": "saiyagu",
+  "url": "https://kanbun.info/koji/saiyagu.html"
+ },
+ {
+  "id": "sakinzu",
+  "url": "https://kanbun.info/koji/sakinzu.html"
+ },
+ {
+  "id": "sakemida",
+  "url": "https://kanbun.info/koji/sakemida.html"
+ },
+ {
+  "id": "tadasake",
+  "url": "https://kanbun.info/koji/tadasake.html"
+ },
+ {
+  "id": "satan",
+  "url": "https://kanbun.info/koji/satan.html"
+ },
+ {
+  "id": "sanukitaran",
+  "url": "https://kanbun.info/koji/sanukitaran.html"
+ },
+ {
+  "id": "sangunsui",
+  "url": "https://kanbun.info/koji/sangunsui.html"
+ },
+ {
+  "id": "sangejin",
+  "url": "https://kanbun.info/koji/sangejin.html"
+ },
+ {
+  "id": "sangetsuni",
+  "url": "https://kanbun.info/koji/sangetsuni.html"
+ },
+ {
+  "id": "sanko",
+  "url": "https://kanbun.info/koji/sanko.html"
+ },
+ {
+  "id": "sansango",
+  "url": "https://kanbun.info/koji/sansango.html"
+ },
+ {
+  "id": "sansha",
+  "url": "https://kanbun.info/koji/sansha.html"
+ },
+ {
+  "id": "sanjuta",
+  "url": "https://kanbun.info/koji/sanjuta.html"
+ },
+ {
+  "id": "sanjo",
+  "url": "https://kanbun.info/koji/sanjo.html"
+ },
+ {
+  "id": "sansei",
+  "url": "https://kanbun.info/koji/sansei.html"
+ },
+ {
+  "id": "mobosansen",
+  "url": "https://kanbun.info/koji/mobosansen.html"
+ },
+ {
+  "id": "sanninshi",
+  "url": "https://kanbun.info/koji/sanninshi.html"
+ },
+ {
+  "id": "sannenchi",
+  "url": "https://kanbun.info/koji/sannenchi.html"
+ },
+ {
+  "id": "sannen",
+  "url": "https://kanbun.info/koji/sannen.html"
+ },
+ {
+  "id": "sannenmana",
+  "url": "https://kanbun.info/koji/sannenmana.html"
+ },
+ {
+  "id": "shiimasu",
+  "url": "https://kanbun.info/koji/shiimasu.html"
+ },
+ {
+  "id": "shikaikon",
+  "url": "https://kanbun.info/koji/shikaikon.html"
+ },
+ {
+  "id": "shigaku",
+  "url": "https://kanbun.info/koji/shigaku.html"
+ },
+ {
+  "id": "shigyono",
+  "url": "https://kanbun.info/koji/shigyono.html"
+ },
+ {
+  "id": "jikiwoida",
+  "url": "https://kanbun.info/koji/jikiwoida.html"
+ },
+ {
+  "id": "shika",
+  "url": "https://kanbun.info/koji/shika.html"
+ },
+ {
+  "id": "shikawo",
+  "url": "https://kanbun.info/koji/shikawo.html"
+ },
+ {
+  "id": "shisaisha",
+  "url": "https://kanbun.info/koji/shisaisha.html"
+ },
+ {
+  "id": "shishijin",
+  "url": "https://kanbun.info/koji/shishijin.html"
+ },
+ {
+  "id": "shishiteku",
+  "url": "https://kanbun.info/koji/shishiteku.html"
+ },
+ {
+  "id": "shijugoju",
+  "url": "https://kanbun.info/koji/shijugoju.html"
+ },
+ {
+  "id": "shishiteno",
+  "url": "https://kanbun.info/koji/shishiteno.html"
+ },
+ {
+  "id": "shijumado",
+  "url": "https://kanbun.info/koji/shijumado.html"
+ },
+ {
+  "id": "shishuku",
+  "url": "https://kanbun.info/koji/shishuku.html"
+ },
+ {
+  "id": "jijun",
+  "url": "https://kanbun.info/koji/jijun.html"
+ },
+ {
+  "id": "shiwomotte",
+  "url": "https://kanbun.info/koji/shiwomotte.html"
+ },
+ {
+  "id": "meikyo",
+  "url": "https://kanbun.info/koji/meikyo.html"
+ },
+ {
+  "id": "shiseinishite",
+  "url": "https://kanbun.info/koji/shiseinishite.html"
+ },
+ {
+  "id": "shiseimei",
+  "url": "https://kanbun.info/koji/shiseimei.html"
+ },
+ {
+  "id": "shiseruko",
+  "url": "https://kanbun.info/koji/shiseruko.html"
+ },
+ {
+  "id": "tenshiru",
+  "url": "https://kanbun.info/koji/tenshiru.html"
+ },
+ {
+  "id": "shichishoshi",
+  "url": "https://kanbun.info/koji/shichishoshi.html"
+ },
+ {
+  "id": "jitsugeyu",
+  "url": "https://kanbun.info/koji/jitsugeyu.html"
+ },
+ {
+  "id": "jisshitsu",
+  "url": "https://kanbun.info/koji/jisshitsu.html"
+ },
+ {
+  "id": "jisshi",
+  "url": "https://kanbun.info/koji/jisshi.html"
+ },
+ {
+  "id": "shitsucho",
+  "url": "https://kanbun.info/koji/shitsucho.html"
+ },
+ {
+  "id": "tominishi",
+  "url": "https://kanbun.info/koji/tominishi.html"
+ },
+ {
+  "id": "shireigaku",
+  "url": "https://kanbun.info/koji/shireigaku.html"
+ },
+ {
+  "id": "shikyoomou",
+  "url": "https://kanbun.info/koji/shikyoomou.html"
+ },
+ {
+  "id": "shinoen",
+  "url": "https://kanbun.info/koji/shinoen.html"
+ },
+ {
+  "id": "shiwasei",
+  "url": "https://kanbun.info/koji/shiwasei.html"
+ },
+ {
+  "id": "shibashiba",
+  "url": "https://kanbun.info/koji/shibashiba.html"
+ },
+ {
+  "id": "jitassuru",
+  "url": "https://kanbun.info/koji/jitassuru.html"
+ },
+ {
+  "id": "shiokosu",
+  "url": "https://kanbun.info/koji/shiokosu.html"
+ },
+ {
+  "id": "shikokina",
+  "url": "https://kanbun.info/koji/shikokina.html"
+ },
+ {
+  "id": "shihikii",
+  "url": "https://kanbun.info/koji/shihikii.html"
+ },
+ {
+  "id": "shibutsu",
+  "url": "https://kanbun.info/koji/shibutsu.html"
+ },
+ {
+  "id": "shimen",
+  "url": "https://kanbun.info/koji/shimen.html"
+ },
+ {
+  "id": "shimareni",
+  "url": "https://kanbun.info/koji/shimareni.html"
+ },
+ {
+  "id": "shimoshita",
+  "url": "https://kanbun.info/koji/shimoshita.html"
+ },
+ {
+  "id": "shiyaken",
+  "url": "https://kanbun.info/koji/shiyaken.html"
+ },
+ {
+  "id": "jakkan",
+  "url": "https://kanbun.info/koji/jakkan.html"
+ },
+ {
+  "id": "shahishu",
+  "url": "https://kanbun.info/koji/shahishu.html"
+ },
+ {
+  "id": "shukokin",
+  "url": "https://kanbun.info/koji/shukokin.html"
+ },
+ {
+  "id": "hisashiika",
+  "url": "https://kanbun.info/koji/hisashiika.html"
+ },
+ {
+  "id": "shunikumu",
+  "url": "https://kanbun.info/koji/shunikumu.html"
+ },
+ {
+  "id": "shujitsuta",
+  "url": "https://kanbun.info/koji/shujitsuta.html"
+ },
+ {
+  "id": "jushin",
+  "url": "https://kanbun.info/koji/jushin.html"
+ },
+ {
+  "id": "shushinseika",
+  "url": "https://kanbun.info/koji/shushinseika.html"
+ },
+ {
+  "id": "shutamamo",
+  "url": "https://kanbun.info/koji/shutamamo.html"
+ },
+ {
+  "id": "shunidai",
+  "url": "https://kanbun.info/koji/shunidai.html"
+ },
+ {
+  "id": "shurenno",
+  "url": "https://kanbun.info/koji/shurenno.html"
+ },
+ {
+  "id": "juyugogaku",
+  "url": "https://kanbun.info/koji/juyugogaku.html"
+ },
+ {
+  "id": "nishikiyo",
+  "url": "https://kanbun.info/koji/nishikiyo.html"
+ },
+ {
+  "id": "shukudaku",
+  "url": "https://kanbun.info/koji/shukudaku.html"
+ },
+ {
+  "id": "shukudano",
+  "url": "https://kanbun.info/koji/shukudano.html"
+ },
+ {
+  "id": "shusokuoku",
+  "url": "https://kanbun.info/koji/shusokuoku.html"
+ },
+ {
+  "id": "syuchi",
+  "url": "https://kanbun.info/koji/syuchi.html"
+ },
+ {
+  "id": "shunjunitomu",
+  "url": "https://kanbun.info/koji/shunjunitomu.html"
+ },
+ {
+  "id": "yushisaki",
+  "url": "https://kanbun.info/koji/yushisaki.html"
+ },
+ {
+  "id": "jozan",
+  "url": "https://kanbun.info/koji/jozan.html"
+ },
+ {
+  "id": "roushayasu",
+  "url": "https://kanbun.info/koji/roushayasu.html"
+ },
+ {
+  "id": "shojinkan",
+  "url": "https://kanbun.info/koji/shojinkan.html"
+ },
+ {
+  "id": "shojinju",
+  "url": "https://kanbun.info/koji/shojinju.html"
+ },
+ {
+  "id": "shosei",
+  "url": "https://kanbun.info/koji/shosei.html"
+ },
+ {
+  "id": "jotaifu",
+  "url": "https://kanbun.info/koji/jotaifu.html"
+ },
+ {
+  "id": "shodotoi",
+  "url": "https://kanbun.info/koji/shodotoi.html"
+ },
+ {
+  "id": "daitokuno",
+  "url": "https://kanbun.info/koji/daitokuno.html"
+ },
+ {
+  "id": "nenbi",
+  "url": "https://kanbun.info/koji/nenbi.html"
+ },
+ {
+  "id": "shorimire",
+  "url": "https://kanbun.info/koji/shorimire.html"
+ },
+ {
+  "id": "shoshino",
+  "url": "https://kanbun.info/koji/shoshino.html"
+ },
+ {
+  "id": "shokugen",
+  "url": "https://kanbun.info/koji/shokugen.html"
+ },
+ {
+  "id": "shokushi",
+  "url": "https://kanbun.info/koji/shokushi.html"
+ },
+ {
+  "id": "shosatsu",
+  "url": "https://kanbun.info/koji/shosatsu.html"
+ },
+ {
+  "id": "joshisho",
+  "url": "https://kanbun.info/koji/joshisho.html"
+ },
+ {
+  "id": "tenkagise",
+  "url": "https://kanbun.info/koji/tenkagise.html"
+ },
+ {
+  "id": "jocho",
+  "url": "https://kanbun.info/koji/jocho.html"
+ },
+ {
+  "id": "showagen",
+  "url": "https://kanbun.info/koji/showagen.html"
+ },
+ {
+  "id": "showoyome",
+  "url": "https://kanbun.info/koji/showoyome.html"
+ },
+ {
+  "id": "jiritsu",
+  "url": "https://kanbun.info/koji/jiritsu.html"
+ },
+ {
+  "id": "shirokoko",
+  "url": "https://kanbun.info/koji/shirokoko.html"
+ },
+ {
+  "id": "shirokiku",
+  "url": "https://kanbun.info/koji/shirokiku.html"
+ },
+ {
+  "id": "shiwobo",
+  "url": "https://kanbun.info/koji/shiwobo.html"
+ },
+ {
+  "id": "shiwomana",
+  "url": "https://kanbun.info/koji/shiwomana.html"
+ },
+ {
+  "id": "sensenkyo",
+  "url": "https://kanbun.info/koji/sensenkyo.html"
+ },
+ {
+  "id": "shingichi",
+  "url": "https://kanbun.info/koji/shingichi.html"
+ },
+ {
+  "id": "shinjitei",
+  "url": "https://kanbun.info/koji/shinjitei.html"
+ },
+ {
+  "id": "jinshaino",
+  "url": "https://kanbun.info/koji/jinshaino.html"
+ },
+ {
+  "id": "jinshaure",
+  "url": "https://kanbun.info/koji/jinshaure.html"
+ },
+ {
+  "id": "jinshayuari",
+  "url": "https://kanbun.info/koji/jinshayuari.html"
+ },
+ {
+  "id": "jinshasei",
+  "url": "https://kanbun.info/koji/jinshasei.html"
+ },
+ {
+  "id": "jinshashizu",
+  "url": "https://kanbun.info/koji/jinshashizu.html"
+ },
+ {
+  "id": "jinshayasu",
+  "url": "https://kanbun.info/koji/jinshayasu.html"
+ },
+ {
+  "id": "jinshajin",
+  "url": "https://kanbun.info/koji/jinshajin.html"
+ },
+ {
+  "id": "chishamizu",
+  "url": "https://kanbun.info/koji/chishamizu.html"
+ },
+ {
+  "id": "tadajinsha",
+  "url": "https://kanbun.info/koji/tadajinsha.html"
+ },
+ {
+  "id": "shinjunso",
+  "url": "https://kanbun.info/koji/shinjunso.html"
+ },
+ {
+  "id": "shinshohi",
+  "url": "https://kanbun.info/koji/shinshohi.html"
+ },
+ {
+  "id": "jinsei",
+  "url": "https://kanbun.info/koji/jinsei.html"
+ },
+ {
+  "id": "shinzeisa",
+  "url": "https://kanbun.info/koji/shinzeisa.html"
+ },
+ {
+  "id": "shintaiha",
+  "url": "https://kanbun.info/koji/shintaiha.html"
+ },
+ {
+  "id": "jintooka",
+  "url": "https://kanbun.info/koji/jintooka.html"
+ },
+ {
+  "id": "shinnaku",
+  "url": "https://kanbun.info/koji/shinnaku.html"
+ },
+ {
+  "id": "tamishin",
+  "url": "https://kanbun.info/koji/tamishin.html"
+ },
+ {
+  "id": "shintamini",
+  "url": "https://kanbun.info/koji/shintamini.html"
+ },
+ {
+  "id": "shinhitoni",
+  "url": "https://kanbun.info/koji/shinhitoni.html"
+ },
+ {
+  "id": "jinniata",
+  "url": "https://kanbun.info/koji/jinniata.html"
+ },
+ {
+  "id": "rijinnaru",
+  "url": "https://kanbun.info/koji/rijinnaru.html"
+ },
+ {
+  "id": "shinnisho",
+  "url": "https://kanbun.info/koji/shinnisho.html"
+ },
+ {
+  "id": "shinboenryo",
+  "url": "https://kanbun.info/koji/shinboenryo.html"
+ },
+ {
+  "id": "jinraifu",
+  "url": "https://kanbun.info/koji/jinraifu.html"
+ },
+ {
+  "id": "shinkono",
+  "url": "https://kanbun.info/koji/shinkono.html"
+ },
+ {
+  "id": "jinkonomi",
+  "url": "https://kanbun.info/koji/jinkonomi.html"
+ },
+ {
+  "id": "shintou",
+  "url": "https://kanbun.info/koji/shintou.html"
+ },
+ {
+  "id": "jinonore",
+  "url": "https://kanbun.info/koji/jinonore.html"
+ },
+ {
+  "id": "jinwomu",
+  "url": "https://kanbun.info/koji/jinwomu.html"
+ },
+ {
+  "id": "jinmotome",
+  "url": "https://kanbun.info/koji/jinmotome.html"
+ },
+ {
+  "id": "suikafumu",
+  "url": "https://kanbun.info/koji/suikafumu.html"
+ },
+ {
+  "id": "suiko",
+  "url": "https://kanbun.info/koji/suiko.html"
+ },
+ {
+  "id": "sugitaru",
+  "url": "https://kanbun.info/koji/sugitaru.html"
+ },
+ {
+  "id": "sukunakiu",
+  "url": "https://kanbun.info/koji/sukunakiu.html"
+ },
+ {
+  "id": "zusan",
+  "url": "https://kanbun.info/koji/zusan.html"
+ },
+ {
+  "id": "sudeniko",
+  "url": "https://kanbun.info/koji/sudeniko.html"
+ },
+ {
+  "id": "sudenito",
+  "url": "https://kanbun.info/koji/sudenito.html"
+ },
+ {
+  "id": "sumiyana",
+  "url": "https://kanbun.info/koji/sumiyana.html"
+ },
+ {
+  "id": "sumiyaka",
+  "url": "https://kanbun.info/koji/sumiyaka.html"
+ },
+ {
+  "id": "seiaichi",
+  "url": "https://kanbun.info/koji/seiaichi.html"
+ },
+ {
+  "id": "seiunnoko",
+  "url": "https://kanbun.info/koji/seiunnoko.html"
+ },
+ {
+  "id": "ryogen",
+  "url": "https://kanbun.info/koji/ryogen.html"
+ },
+ {
+  "id": "seikokuwoiru",
+  "url": "https://kanbun.info/koji/seikokuwoiru.html"
+ },
+ {
+  "id": "hisomi",
+  "url": "https://kanbun.info/koji/hisomi.html"
+ },
+ {
+  "id": "seijinniyu",
+  "url": "https://kanbun.info/koji/seijinniyu.html"
+ },
+ {
+  "id": "seijingen",
+  "url": "https://kanbun.info/koji/seijingen.html"
+ },
+ {
+  "id": "mizukiyo",
+  "url": "https://kanbun.info/koji/mizukiyo.html"
+ },
+ {
+  "id": "seiseidodo",
+  "url": "https://kanbun.info/koji/seiseidodo.html"
+ },
+ {
+  "id": "seidan",
+  "url": "https://kanbun.info/koji/seidan.html"
+ },
+ {
+  "id": "seitenheki",
+  "url": "https://kanbun.info/koji/seitenheki.html"
+ },
+ {
+  "id": "seiseinari",
+  "url": "https://kanbun.info/koji/seiseinari.html"
+ },
+ {
+  "id": "sekizen",
+  "url": "https://kanbun.info/koji/sekizen.html"
+ },
+ {
+  "id": "sekizasezu",
+  "url": "https://kanbun.info/koji/sekizasezu.html"
+ },
+ {
+  "id": "sekitoku",
+  "url": "https://kanbun.info/koji/sekitoku.html"
+ },
+ {
+  "id": "zeze",
+  "url": "https://kanbun.info/koji/zeze.html"
+ },
+ {
+  "id": "sekkan",
+  "url": "https://kanbun.info/koji/sekkan.html"
+ },
+ {
+  "id": "sessataku",
+  "url": "https://kanbun.info/koji/sessataku.html"
+ },
+ {
+  "id": "sessuruga",
+  "url": "https://kanbun.info/koji/sessuruga.html"
+ },
+ {
+  "id": "setsusetsu",
+  "url": "https://kanbun.info/koji/setsusetsu.html"
+ },
+ {
+  "id": "hirokuma",
+  "url": "https://kanbun.info/koji/hirokuma.html"
+ },
+ {
+  "id": "zengenta",
+  "url": "https://kanbun.info/koji/zengenta.html"
+ },
+ {
+  "id": "yukumono",
+  "url": "https://kanbun.info/koji/yukumono.html"
+ },
+ {
+  "id": "zensho",
+  "url": "https://kanbun.info/koji/zensho.html"
+ },
+ {
+  "id": "zenjiwo",
+  "url": "https://kanbun.info/koji/zenjiwo.html"
+ },
+ {
+  "id": "zenhokoru",
+  "url": "https://kanbun.info/koji/zenhokoru.html"
+ },
+ {
+  "id": "zenninku",
+  "url": "https://kanbun.info/koji/zenninku.html"
+ },
+ {
+  "id": "zenbitsu",
+  "url": "https://kanbun.info/koji/zenbitsu.html"
+ },
+ {
+  "id": "senbenwo",
+  "url": "https://kanbun.info/koji/senbenwo.html"
+ },
+ {
+  "id": "senman",
+  "url": "https://kanbun.info/koji/senman.html"
+ },
+ {
+  "id": "senrinouma",
+  "url": "https://kanbun.info/koji/senrinouma.html"
+ },
+ {
+  "id": "senryo",
+  "url": "https://kanbun.info/koji/senryo.html"
+ },
+ {
+  "id": "zenagete",
+  "url": "https://kanbun.info/koji/zenagete.html"
+ },
+ {
+  "id": "zenshita",
+  "url": "https://kanbun.info/koji/zenshita.html"
+ },
+ {
+  "id": "zenoyoba",
+  "url": "https://kanbun.info/koji/zenoyoba.html"
+ },
+ {
+  "id": "zenwoyomi",
+  "url": "https://kanbun.info/koji/zenwoyomi.html"
+ },
+ {
+  "id": "sokano",
+  "url": "https://kanbun.info/koji/sokano.html"
+ },
+ {
+  "id": "soden",
+  "url": "https://kanbun.info/koji/soden.html"
+ },
+ {
+  "id": "sogyoyasu",
+  "url": "https://kanbun.info/koji/sogyoyasu.html"
+ },
+ {
+  "id": "soko",
+  "url": "https://kanbun.info/koji/soko.html"
+ },
+ {
+  "id": "zojiten",
+  "url": "https://kanbun.info/koji/zojiten.html"
+ },
+ {
+  "id": "sojo",
+  "url": "https://kanbun.info/koji/sojo.html"
+ },
+ {
+  "id": "zobunchu",
+  "url": "https://kanbun.info/koji/zobunchu.html"
+ },
+ {
+  "id": "soyokibi",
+  "url": "https://kanbun.info/koji/soyokibi.html"
+ },
+ {
+  "id": "soyoniga",
+  "url": "https://kanbun.info/koji/soyoniga.html"
+ },
+ {
+  "id": "sourin",
+  "url": "https://kanbun.info/koji/sourin.html"
+ },
+ {
+  "id": "sokuin",
+  "url": "https://kanbun.info/koji/sokuin.html"
+ },
+ {
+  "id": "sokushu",
+  "url": "https://kanbun.info/koji/sokushu.html"
+ },
+ {
+  "id": "sokonawa",
+  "url": "https://kanbun.info/koji/sokonawa.html"
+ },
+ {
+  "id": "soshikurai",
+  "url": "https://kanbun.info/koji/soshikurai.html"
+ },
+ {
+  "id": "sonawaru",
+  "url": "https://kanbun.info/koji/sonawaru.html"
+ },
+ {
+  "id": "sonoakuwo",
+  "url": "https://kanbun.info/koji/sonoakuwo.html"
+ },
+ {
+  "id": "sonoayama",
+  "url": "https://kanbun.info/koji/sonoayama.html"
+ },
+ {
+  "id": "sonokinia",
+  "url": "https://kanbun.info/koji/sonokinia.html"
+ },
+ {
+  "id": "sonokurai",
+  "url": "https://kanbun.info/koji/sonokurai.html"
+ },
+ {
+  "id": "sorehaji",
+  "url": "https://kanbun.info/koji/sorehaji.html"
+ },
+ {
+  "id": "sonojin",
+  "url": "https://kanbun.info/koji/sonojin.html"
+ },
+ {
+  "id": "sonosusumu",
+  "url": "https://kanbun.info/koji/sonosusumu.html"
+ },
+ {
+  "id": "sonosobyo",
+  "url": "https://kanbun.info/koji/sonosobyo.html"
+ },
+ {
+  "id": "sonotaka",
+  "url": "https://kanbun.info/koji/sonotaka.html"
+ },
+ {
+  "id": "sonotano",
+  "url": "https://kanbun.info/koji/sonotano.html"
+ },
+ {
+  "id": "sonohitowo",
+  "url": "https://kanbun.info/koji/sonohitowo.html"
+ },
+ {
+  "id": "hitoizuku",
+  "url": "https://kanbun.info/koji/hitoizuku.html"
+ },
+ {
+  "id": "sonomita",
+  "url": "https://kanbun.info/koji/sonomita.html"
+ },
+ {
+  "id": "sonomiisa",
+  "url": "https://kanbun.info/koji/sonomiisa.html"
+ },
+ {
+  "id": "sonomiwo",
+  "url": "https://kanbun.info/koji/sonomiwo.html"
+ },
+ {
+  "id": "sonoryotan",
+  "url": "https://kanbun.info/koji/sonoryotan.html"
+ },
+ {
+  "id": "sorekoto",
+  "url": "https://kanbun.info/koji/sorekoto.html"
+ },
+ {
+  "id": "soreshika",
+  "url": "https://kanbun.info/koji/soreshika.html"
+ },
+ {
+  "id": "sonsango",
+  "url": "https://kanbun.info/koji/sonsango.html"
+ },
+ {
+  "id": "sonsanyu",
+  "url": "https://kanbun.info/koji/sonsanyu.html"
+ },
+ {
+  "id": "sonboka",
+  "url": "https://kanbun.info/koji/sonboka.html"
+ },
+ {
+  "id": "sonyonogen",
+  "url": "https://kanbun.info/koji/sonyonogen.html"
+ },
+ {
+  "id": "taigishin",
+  "url": "https://kanbun.info/koji/taigishin.html"
+ },
+ {
+  "id": "taiki",
+  "url": "https://kanbun.info/koji/taiki.html"
+ },
+ {
+  "id": "taikobo",
+  "url": "https://kanbun.info/koji/taikobo.html"
+ },
+ {
+  "id": "taito",
+  "url": "https://kanbun.info/koji/taito.html"
+ },
+ {
+  "id": "taishagei",
+  "url": "https://kanbun.info/koji/taishagei.html"
+ },
+ {
+  "id": "taijinwo",
+  "url": "https://kanbun.info/koji/taijinwo.html"
+ },
+ {
+  "id": "taijinmo",
+  "url": "https://kanbun.info/koji/taijinmo.html"
+ },
+ {
+  "id": "taisetsu",
+  "url": "https://kanbun.info/koji/taisetsu.html"
+ },
+ {
+  "id": "taiogora",
+  "url": "https://kanbun.info/koji/taiogora.html"
+ },
+ {
+  "id": "taibyoni",
+  "url": "https://kanbun.info/koji/taibyoni.html"
+ },
+ {
+  "id": "takiboyo",
+  "url": "https://kanbun.info/koji/takiboyo.html"
+ },
+ {
+  "id": "tazan",
+  "url": "https://kanbun.info/koji/tazan.html"
+ },
+ {
+  "id": "tashiseisei",
+  "url": "https://kanbun.info/koji/tashiseisei.html"
+ },
+ {
+  "id": "dasoku",
+  "url": "https://kanbun.info/koji/dasoku.html"
+ },
+ {
+  "id": "tata",
+  "url": "https://kanbun.info/koji/tata.html"
+ },
+ {
+  "id": "hajimewasho",
+  "url": "https://kanbun.info/koji/hajimewasho.html"
+ },
+ {
+  "id": "tatsunimon",
+  "url": "https://kanbun.info/koji/tatsunimon.html"
+ },
+ {
+  "id": "tahokushin",
+  "url": "https://kanbun.info/koji/tahokushin.html"
+ },
+ {
+  "id": "taninken",
+  "url": "https://kanbun.info/koji/taninken.html"
+ },
+ {
+  "id": "tanoshiwa",
+  "url": "https://kanbun.info/koji/tanoshiwa.html"
+ },
+ {
+  "id": "tamiete",
+  "url": "https://kanbun.info/koji/tamiete.html"
+ },
+ {
+  "id": "tamirisuru",
+  "url": "https://kanbun.info/koji/tamirisuru.html"
+ },
+ {
+  "id": "yorashimu",
+  "url": "https://kanbun.info/koji/yorashimu.html"
+ },
+ {
+  "id": "tamitara",
+  "url": "https://kanbun.info/koji/tamitara.html"
+ },
+ {
+  "id": "tamitoki",
+  "url": "https://kanbun.info/koji/tamitoki.html"
+ },
+ {
+  "id": "tamitaisai",
+  "url": "https://kanbun.info/koji/tamitaisai.html"
+ },
+ {
+  "id": "tarekabi",
+  "url": "https://kanbun.info/koji/tarekabi.html"
+ },
+ {
+  "id": "tarekako",
+  "url": "https://kanbun.info/koji/tarekako.html"
+ },
+ {
+  "id": "mobodanki",
+  "url": "https://kanbun.info/koji/mobodanki.html"
+ },
+ {
+  "id": "danjo7sai",
+  "url": "https://kanbun.info/koji/danjo7sai.html"
+ },
+ {
+  "id": "danjoshitsu",
+  "url": "https://kanbun.info/koji/danjoshitsu.html"
+ },
+ {
+  "id": "tandai",
+  "url": "https://kanbun.info/koji/tandai.html"
+ },
+ {
+  "id": "dancho",
+  "url": "https://kanbun.info/koji/dancho.html"
+ },
+ {
+  "id": "tanpeikyu",
+  "url": "https://kanbun.info/koji/tanpeikyu.html"
+ },
+ {
+  "id": "chiin",
+  "url": "https://kanbun.info/koji/chiin.html"
+ },
+ {
+  "id": "chikakimo",
+  "url": "https://kanbun.info/koji/chikakimo.html"
+ },
+ {
+  "id": "chikogo",
+  "url": "https://kanbun.info/koji/chikogo.html"
+ },
+ {
+  "id": "chikoreni",
+  "url": "https://kanbun.info/koji/chikoreni.html"
+ },
+ {
+  "id": "chishaugo",
+  "url": "https://kanbun.info/koji/chishaugo.html"
+ },
+ {
+  "id": "chishatano",
+  "url": "https://kanbun.info/koji/chishatano.html"
+ },
+ {
+  "id": "chishamado",
+  "url": "https://kanbun.info/koji/chishamado.html"
+ },
+ {
+  "id": "chichiima",
+  "url": "https://kanbun.info/koji/chichiima.html"
+ },
+ {
+  "id": "mousoushi",
+  "url": "https://kanbun.info/koji/mousoushi.html"
+ },
+ {
+  "id": "chimei",
+  "url": "https://kanbun.info/koji/chimei.html"
+ },
+ {
+  "id": "ryoyaku",
+  "url": "https://kanbun.info/koji/ryoyaku.html"
+ },
+ {
+  "id": "chukokuzen",
+  "url": "https://kanbun.info/koji/chukokuzen.html"
+ },
+ {
+  "id": "chujinika",
+  "url": "https://kanbun.info/koji/chujinika.html"
+ },
+ {
+  "id": "chujinijo",
+  "url": "https://kanbun.info/koji/chujinijo.html"
+ },
+ {
+  "id": "chushinshu",
+  "url": "https://kanbun.info/koji/chushinshu.html"
+ },
+ {
+  "id": "chudohai",
+  "url": "https://kanbun.info/koji/chudohai.html"
+ },
+ {
+  "id": "chuyotoku",
+  "url": "https://kanbun.info/koji/chuyotoku.html"
+ },
+ {
+  "id": "chosan",
+  "url": "https://kanbun.info/koji/chosan.html"
+ },
+ {
+  "id": "chojutomo",
+  "url": "https://kanbun.info/koji/chojutomo.html"
+ },
+ {
+  "id": "choyo",
+  "url": "https://kanbun.info/koji/choyo.html"
+ },
+ {
+  "id": "chokudoni",
+  "url": "https://kanbun.info/koji/chokudoni.html"
+ },
+ {
+  "id": "chokukono",
+  "url": "https://kanbun.info/koji/chokukono.html"
+ },
+ {
+  "id": "naokiura",
+  "url": "https://kanbun.info/koji/naokiura.html"
+ },
+ {
+  "id": "chokkyu",
+  "url": "https://kanbun.info/koji/chokkyu.html"
+ },
+ {
+  "id": "chikonomi",
+  "url": "https://kanbun.info/koji/chikonomi.html"
+ },
+ {
+  "id": "tsukamana",
+  "url": "https://kanbun.info/koji/tsukamana.html"
+ },
+ {
+  "id": "tsuki",
+  "url": "https://kanbun.info/koji/tsuki.html"
+ },
+ {
+  "id": "tsumiten",
+  "url": "https://kanbun.info/koji/tsumiten.html"
+ },
+ {
+  "id": "tsurikou",
+  "url": "https://kanbun.info/koji/tsurikou.html"
+ },
+ {
+  "id": "teikin",
+  "url": "https://kanbun.info/koji/teikin.html"
+ },
+ {
+  "id": "teisei",
+  "url": "https://kanbun.info/koji/teisei.html"
+ },
+ {
+  "id": "detsukuro",
+  "url": "https://kanbun.info/koji/detsukuro.html"
+ },
+ {
+  "id": "tenomaia",
+  "url": "https://kanbun.info/koji/tenomaia.html"
+ },
+ {
+  "id": "tewohiru",
+  "url": "https://kanbun.info/koji/tewohiru.html"
+ },
+ {
+  "id": "tenkakyu",
+  "url": "https://kanbun.info/koji/tenkakyu.html"
+ },
+ {
+  "id": "tenkaarawa",
+  "url": "https://kanbun.info/koji/tenkaarawa.html"
+ },
+ {
+  "id": "tendoze",
+  "url": "https://kanbun.info/koji/tendoze.html"
+ },
+ {
+  "id": "tennani",
+  "url": "https://kanbun.info/koji/tennani.html"
+ },
+ {
+  "id": "tenkyohito",
+  "url": "https://kanbun.info/koji/tenkyohito.html"
+ },
+ {
+  "id": "tenwana",
+  "url": "https://kanbun.info/koji/tenwana.html"
+ },
+ {
+  "id": "tenmeiwo",
+  "url": "https://kanbun.info/koji/tenmeiwo.html"
+ },
+ {
+  "id": "tenwourami",
+  "url": "https://kanbun.info/koji/tenwourami.html"
+ },
+ {
+  "id": "tokaku",
+  "url": "https://kanbun.info/koji/tokaku.html"
+ },
+ {
+  "id": "tokashita",
+  "url": "https://kanbun.info/koji/tokashita.html"
+ },
+ {
+  "id": "togenkyo",
+  "url": "https://kanbun.info/koji/togenkyo.html"
+ },
+ {
+  "id": "dojitsuno",
+  "url": "https://kanbun.info/koji/dojitsuno.html"
+ },
+ {
+  "id": "doseii",
+  "url": "https://kanbun.info/koji/doseii.html"
+ },
+ {
+  "id": "dochoto",
+  "url": "https://kanbun.info/koji/dochoto.html"
+ },
+ {
+  "id": "dodotaru",
+  "url": "https://kanbun.info/koji/dodotaru.html"
+ },
+ {
+  "id": "doninobo",
+  "url": "https://kanbun.info/koji/doninobo.html"
+ },
+ {
+  "id": "dobyo",
+  "url": "https://kanbun.info/koji/dobyo.html"
+ },
+ {
+  "id": "toyayoku",
+  "url": "https://kanbun.info/koji/toyayoku.html"
+ },
+ {
+  "id": "torimono",
+  "url": "https://kanbun.info/koji/torimono.html"
+ },
+ {
+  "id": "toryumon",
+  "url": "https://kanbun.info/koji/toryumon.html"
+ },
+ {
+  "id": "toro",
+  "url": "https://kanbun.info/koji/toro.html"
+ },
+ {
+  "id": "hitotooki",
+  "url": "https://kanbun.info/koji/hitotooki.html"
+ },
+ {
+  "id": "tokinara",
+  "url": "https://kanbun.info/koji/tokinara.html"
+ },
+ {
+  "id": "tokinishi",
+  "url": "https://kanbun.info/koji/tokinishi.html"
+ },
+ {
+  "id": "dokushosho",
+  "url": "https://kanbun.info/koji/dokushosho.html"
+ },
+ {
+  "id": "tokuhako",
+  "url": "https://kanbun.info/koji/tokuhako.html"
+ },
+ {
+  "id": "tokutaka",
+  "url": "https://kanbun.info/koji/tokutaka.html"
+ },
+ {
+  "id": "tokutoru",
+  "url": "https://kanbun.info/koji/tokutoru.html"
+ },
+ {
+  "id": "tokuurami",
+  "url": "https://kanbun.info/koji/tokuurami.html"
+ },
+ {
+  "id": "toshishiju",
+  "url": "https://kanbun.info/koji/toshishiju.html"
+ },
+ {
+  "id": "toshohito",
+  "url": "https://kanbun.info/koji/toshohito.html"
+ },
+ {
+  "id": "tokkoniwa",
+  "url": "https://kanbun.info/koji/tokkoniwa.html"
+ },
+ {
+  "id": "tonan",
+  "url": "https://kanbun.info/koji/tonan.html"
+ },
+ {
+  "id": "dohatsu",
+  "url": "https://kanbun.info/koji/dohatsu.html"
+ },
+ {
+  "id": "tomiterei",
+  "url": "https://kanbun.info/koji/tomiterei.html"
+ },
+ {
+  "id": "tomitattoki",
+  "url": "https://kanbun.info/koji/tomitattoki.html"
+ },
+ {
+  "id": "tomiwaoku",
+  "url": "https://kanbun.info/koji/tomiwaoku.html"
+ },
+ {
+  "id": "tomoarien",
+  "url": "https://kanbun.info/koji/tomoarien.html"
+ },
+ {
+  "id": "tomoniie",
+  "url": "https://kanbun.info/koji/tomoniie.html"
+ },
+ {
+  "id": "tomoniiu",
+  "url": "https://kanbun.info/koji/tomoniiu.html"
+ },
+ {
+  "id": "tomonita",
+  "url": "https://kanbun.info/koji/tomonita.html"
+ },
+ {
+  "id": "fugutai",
+  "url": "https://kanbun.info/koji/fugutai.html"
+ },
+ {
+  "id": "toranoi",
+  "url": "https://kanbun.info/koji/toranoi.html"
+ },
+ {
+  "id": "yokonou",
+  "url": "https://kanbun.info/koji/yokonou.html"
+ },
+ {
+  "id": "hitonoma",
+  "url": "https://kanbun.info/koji/hitonoma.html"
+ },
+ {
+  "id": "dongaku",
+  "url": "https://kanbun.info/koji/dongaku.html"
+ },
+ {
+  "id": "naite",
+  "url": "https://kanbun.info/koji/naite.html"
+ },
+ {
+  "id": "naenishi",
+  "url": "https://kanbun.info/koji/naenishi.html"
+ },
+ {
+  "id": "naokikoto",
+  "url": "https://kanbun.info/koji/naokikoto.html"
+ },
+ {
+  "id": "naokiage",
+  "url": "https://kanbun.info/koji/naokiage.html"
+ },
+ {
+  "id": "naokinao",
+  "url": "https://kanbun.info/koji/naokinao.html"
+ },
+ {
+  "id": "nahajitsu",
+  "url": "https://kanbun.info/koji/nahajitsu.html"
+ },
+ {
+  "id": "natadashi",
+  "url": "https://kanbun.info/koji/natadashi.html"
+ },
+ {
+  "id": "narai",
+  "url": "https://kanbun.info/koji/narai.html"
+ },
+ {
+  "id": "narawaza",
+  "url": "https://kanbun.info/koji/narawaza.html"
+ },
+ {
+  "id": "nawotada",
+  "url": "https://kanbun.info/koji/nawotada.html"
+ },
+ {
+  "id": "nanshiru",
+  "url": "https://kanbun.info/koji/nanshiru.html"
+ },
+ {
+  "id": "nanhitsuji",
+  "url": "https://kanbun.info/koji/nanhitsuji.html"
+ },
+ {
+  "id": "nansenho",
+  "url": "https://kanbun.info/koji/nansenho.html"
+ },
+ {
+  "id": "nanzoita",
+  "url": "https://kanbun.info/koji/nanzoita.html"
+ },
+ {
+  "id": "nanyomita",
+  "url": "https://kanbun.info/koji/nanyomita.html"
+ },
+ {
+  "id": "warenanji",
+  "url": "https://kanbun.info/koji/warenanji.html"
+ },
+ {
+  "id": "nishikiko",
+  "url": "https://kanbun.info/koji/nishikiko.html"
+ },
+ {
+  "id": "nitehi",
+  "url": "https://kanbun.info/koji/nitehi.html"
+ },
+ {
+  "id": "ninomokushi",
+  "url": "https://kanbun.info/koji/ninomokushi.html"
+ },
+ {
+  "id": "nukawone",
+  "url": "https://kanbun.info/koji/nukawone.html"
+ },
+ {
+  "id": "neijinaya",
+  "url": "https://kanbun.info/koji/neijinaya.html"
+ },
+ {
+  "id": "negashaba",
+  "url": "https://kanbun.info/koji/negashaba.html"
+ },
+ {
+  "id": "nojio",
+  "url": "https://kanbun.info/koji/nojio.html"
+ },
+ {
+  "id": "nochu",
+  "url": "https://kanbun.info/koji/nochu.html"
+ },
+ {
+  "id": "nowakuni",
+  "url": "https://kanbun.info/koji/nowakuni.html"
+ },
+ {
+  "id": "nofunotoi",
+  "url": "https://kanbun.info/koji/nofunotoi.html"
+ },
+ {
+  "id": "nozomite",
+  "url": "https://kanbun.info/koji/nozomite.html"
+ },
+ {
+  "id": "nobetetsu",
+  "url": "https://kanbun.info/koji/nobetetsu.html"
+ },
+ {
+  "id": "haigun",
+  "url": "https://kanbun.info/koji/haigun.html"
+ },
+ {
+  "id": "haisui",
+  "url": "https://kanbun.info/koji/haisui.html"
+ },
+ {
+  "id": "haisui18",
+  "url": "https://kanbun.info/koji/haisui18.html"
+ },
+ {
+  "id": "haiseken",
+  "url": "https://kanbun.info/koji/haiseken.html"
+ },
+ {
+  "id": "haichu",
+  "url": "https://kanbun.info/koji/haichu.html"
+ },
+ {
+  "id": "hakareba",
+  "url": "https://kanbun.info/koji/hakareba.html"
+ },
+ {
+  "id": "bakugyaku",
+  "url": "https://kanbun.info/koji/bakugyaku.html"
+ },
+ {
+  "id": "bakushu",
+  "url": "https://kanbun.info/koji/bakushu.html"
+ },
+ {
+  "id": "hakubi",
+  "url": "https://kanbun.info/koji/hakubi.html"
+ },
+ {
+  "id": "hirokubun",
+  "url": "https://kanbun.info/koji/hirokubun.html"
+ },
+ {
+  "id": "hajimeari",
+  "url": "https://kanbun.info/koji/hajimeari.html"
+ },
+ {
+  "id": "hazuru",
+  "url": "https://kanbun.info/koji/hazuru.html"
+ },
+ {
+  "id": "hachiku",
+  "url": "https://kanbun.info/koji/hachiku.html"
+ },
+ {
+  "id": "hatenko",
+  "url": "https://kanbun.info/koji/hatenko.html"
+ },
+ {
+  "id": "hanahankai",
+  "url": "https://kanbun.info/koji/hanahankai.html"
+ },
+ {
+  "id": "hanahiraki",
+  "url": "https://kanbun.info/koji/hanahiraki.html"
+ },
+ {
+  "id": "habetsu",
+  "url": "https://kanbun.info/koji/habetsu.html"
+ },
+ {
+  "id": "furin",
+  "url": "https://kanbun.info/koji/furin.html"
+ },
+ {
+  "id": "warerono",
+  "url": "https://kanbun.info/koji/warerono.html"
+ },
+ {
+  "id": "banpotsu",
+  "url": "https://kanbun.info/koji/banpotsu.html"
+ },
+ {
+  "id": "banrido",
+  "url": "https://kanbun.info/koji/banrido.html"
+ },
+ {
+  "id": "hiidetemi",
+  "url": "https://kanbun.info/koji/hiidetemi.html"
+ },
+ {
+  "id": "wako",
+  "url": "https://kanbun.info/koji/wako.html"
+ },
+ {
+  "id": "hikurete",
+  "url": "https://kanbun.info/koji/hikurete.html"
+ },
+ {
+  "id": "bigen",
+  "url": "https://kanbun.info/koji/bigen.html"
+ },
+ {
+  "id": "bisei",
+  "url": "https://kanbun.info/koji/bisei.html"
+ },
+ {
+  "id": "hikko",
+  "url": "https://kanbun.info/koji/hikko.html"
+ },
+ {
+  "id": "hippu",
+  "url": "https://kanbun.info/koji/hippu.html"
+ },
+ {
+  "id": "hippuhippu",
+  "url": "https://kanbun.info/koji/hippuhippu.html"
+ },
+ {
+  "id": "hippumo",
+  "url": "https://kanbun.info/koji/hippumo.html"
+ },
+ {
+  "id": "hitoimada",
+  "url": "https://kanbun.info/koji/hitoimada.html"
+ },
+ {
+  "id": "hitoshiku",
+  "url": "https://kanbun.info/koji/hitoshiku.html"
+ },
+ {
+  "id": "hitoshike",
+  "url": "https://kanbun.info/koji/hitoshike.html"
+ },
+ {
+  "id": "hitoshirazu",
+  "url": "https://kanbun.info/koji/hitoshirazu.html"
+ },
+ {
+  "id": "hitoshinna",
+  "url": "https://kanbun.info/koji/hitoshinna.html"
+ },
+ {
+  "id": "hitotsune",
+  "url": "https://kanbun.info/koji/hitotsune.html"
+ },
+ {
+  "id": "hitofujin",
+  "url": "https://kanbun.info/koji/hitofujin.html"
+ },
+ {
+  "id": "hitonoaku",
+  "url": "https://kanbun.info/koji/hitonoaku.html"
+ },
+ {
+  "id": "hitonoaya",
+  "url": "https://kanbun.info/koji/hitonoaya.html"
+ },
+ {
+  "id": "hitonoiku",
+  "url": "https://kanbun.info/koji/hitonoiku.html"
+ },
+ {
+  "id": "hitonou",
+  "url": "https://kanbun.info/koji/hitonou.html"
+ },
+ {
+  "id": "hitonoyo",
+  "url": "https://kanbun.info/koji/hitonoyo.html"
+ },
+ {
+  "id": "hitonoo",
+  "url": "https://kanbun.info/koji/hitonoo.html"
+ },
+ {
+  "id": "hitonota",
+  "url": "https://kanbun.info/koji/hitonota.html"
+ },
+ {
+  "id": "hitohitota",
+  "url": "https://kanbun.info/koji/hitohitota.html"
+ },
+ {
+  "id": "hitomizu",
+  "url": "https://kanbun.info/koji/hitomizu.html"
+ },
+ {
+  "id": "hitomina",
+  "url": "https://kanbun.info/koji/hitomina.html"
+ },
+ {
+  "id": "michihiro",
+  "url": "https://kanbun.info/koji/michihiro.html"
+ },
+ {
+  "id": "manabitei",
+  "url": "https://kanbun.info/koji/manabitei.html"
+ },
+ {
+  "id": "hitotaho",
+  "url": "https://kanbun.info/koji/hitotaho.html"
+ },
+ {
+  "id": "hiniku",
+  "url": "https://kanbun.info/koji/hiniku.html"
+ },
+ {
+  "id": "hinisonona",
+  "url": "https://kanbun.info/koji/hinisonona.html"
+ },
+ {
+  "id": "hibiniarata",
+  "url": "https://kanbun.info/koji/hibiniarata.html"
+ },
+ {
+  "id": "hifutomo",
+  "url": "https://kanbun.info/koji/hifutomo.html"
+ },
+ {
+  "id": "hyakuseia",
+  "url": "https://kanbun.info/koji/hyakuseia.html"
+ },
+ {
+  "id": "hyakuseita",
+  "url": "https://kanbun.info/koji/hyakuseita.html"
+ },
+ {
+  "id": "hyakurimei",
+  "url": "https://kanbun.info/koji/hyakurimei.html"
+ },
+ {
+  "id": "hyakuriwo",
+  "url": "https://kanbun.info/koji/hyakuriwo.html"
+ },
+ {
+  "id": "boko",
+  "url": "https://kanbun.info/koji/boko.html"
+ },
+ {
+  "id": "hyohu",
+  "url": "https://kanbun.info/koji/hyohu.html"
+ },
+ {
+  "id": "hiyokuren",
+  "url": "https://kanbun.info/koji/hiyokuren.html"
+ },
+ {
+  "id": "hirokushu",
+  "url": "https://kanbun.info/koji/hirokushu.html"
+ },
+ {
+  "id": "hinkei",
+  "url": "https://kanbun.info/koji/hinkei.html"
+ },
+ {
+  "id": "binnareba",
+  "url": "https://kanbun.info/koji/binnareba.html"
+ },
+ {
+  "id": "hinuramu",
+  "url": "https://kanbun.info/koji/hinuramu.html"
+ },
+ {
+  "id": "mazushita",
+  "url": "https://kanbun.info/koji/mazushita.html"
+ },
+ {
+  "id": "mazushihe",
+  "url": "https://kanbun.info/koji/mazushihe.html"
+ },
+ {
+  "id": "bunshitsu",
+  "url": "https://kanbun.info/koji/bunshitsu.html"
+ },
+ {
+  "id": "fukiten",
+  "url": "https://kanbun.info/koji/fukiten.html"
+ },
+ {
+  "id": "fugifuun",
+  "url": "https://kanbun.info/koji/fugifuun.html"
+ },
+ {
+  "id": "fushijoshi",
+  "url": "https://kanbun.info/koji/fushijoshi.html"
+ },
+ {
+  "id": "fushijun",
+  "url": "https://kanbun.info/koji/fushijun.html"
+ },
+ {
+  "id": "fushisho",
+  "url": "https://kanbun.info/koji/fushisho.html"
+ },
+ {
+  "id": "fushibun",
+  "url": "https://kanbun.info/koji/fushibun.html"
+ },
+ {
+  "id": "fushimichi",
+  "url": "https://kanbun.info/koji/fushimichi.html"
+ },
+ {
+  "id": "fushimizu",
+  "url": "https://kanbun.info/koji/fushimizu.html"
+ },
+ {
+  "id": "fuba",
+  "url": "https://kanbun.info/koji/fuba.html"
+ },
+ {
+  "id": "fukakere",
+  "url": "https://kanbun.info/koji/fukakere.html"
+ },
+ {
+  "id": "fukenwomi",
+  "url": "https://kanbun.info/koji/fukenwomi.html"
+ },
+ {
+  "id": "fujinsha",
+  "url": "https://kanbun.info/koji/fujinsha.html"
+ },
+ {
+  "id": "fusetsuga",
+  "url": "https://kanbun.info/koji/fusetsuga.html"
+ },
+ {
+  "id": "fuzenmite",
+  "url": "https://kanbun.info/koji/fuzenmite.html"
+ },
+ {
+  "id": "fusonniyu",
+  "url": "https://kanbun.info/koji/fusonniyu.html"
+ },
+ {
+  "id": "futatabika",
+  "url": "https://kanbun.info/koji/futatabika.html"
+ },
+ {
+  "id": "budan",
+  "url": "https://kanbun.info/koji/budan.html"
+ },
+ {
+  "id": "fuboimase",
+  "url": "https://kanbun.info/koji/fuboimase.html"
+ },
+ {
+  "id": "fubokikan",
+  "url": "https://kanbun.info/koji/fubokikan.html"
+ },
+ {
+  "id": "fubotsuku",
+  "url": "https://kanbun.info/koji/fubotsuku.html"
+ },
+ {
+  "id": "fubotoshi",
+  "url": "https://kanbun.info/koji/fubotoshi.html"
+ },
+ {
+  "id": "fuboyamai",
+  "url": "https://kanbun.info/koji/fuboyamai.html"
+ },
+ {
+  "id": "furukita",
+  "url": "https://kanbun.info/koji/furukita.html"
+ },
+ {
+  "id": "fuwaku",
+  "url": "https://kanbun.info/koji/fuwaku.html"
+ },
+ {
+  "id": "bunosude",
+  "url": "https://kanbun.info/koji/bunosude.html"
+ },
+ {
+  "id": "funkei",
+  "url": "https://kanbun.info/koji/funkei.html"
+ },
+ {
+  "id": "bunjiaru",
+  "url": "https://kanbun.info/koji/bunjiaru.html"
+ },
+ {
+  "id": "funsezunba",
+  "url": "https://kanbun.info/koji/funsezunba.html"
+ },
+ {
+  "id": "fundo",
+  "url": "https://kanbun.info/koji/fundo.html"
+ },
+ {
+  "id": "heinijosei",
+  "url": "https://kanbun.info/koji/heinijosei.html"
+ },
+ {
+  "id": "heiwakido",
+  "url": "https://kanbun.info/koji/heiwakido.html"
+ },
+ {
+  "id": "heiwasesso",
+  "url": "https://kanbun.info/koji/heiwasesso.html"
+ },
+ {
+  "id": "hengenutta",
+  "url": "https://kanbun.info/koji/hengenutta.html"
+ },
+ {
+  "id": "benshakosha",
+  "url": "https://kanbun.info/koji/benshakosha.html"
+ },
+ {
+  "id": "hentonoko",
+  "url": "https://kanbun.info/koji/hentonoko.html"
+ },
+ {
+  "id": "bokokuon",
+  "url": "https://kanbun.info/koji/bokokuon.html"
+ },
+ {
+  "id": "hogonogen",
+  "url": "https://kanbun.info/koji/hogonogen.html"
+ },
+ {
+  "id": "hosansho",
+  "url": "https://kanbun.info/koji/hosansho.html"
+ },
+ {
+  "id": "hoshokushu",
+  "url": "https://kanbun.info/koji/hoshokushu.html"
+ },
+ {
+  "id": "rowoete",
+  "url": "https://kanbun.info/koji/rowoete.html"
+ },
+ {
+  "id": "hochoita",
+  "url": "https://kanbun.info/koji/hochoita.html"
+ },
+ {
+  "id": "hoyahoya",
+  "url": "https://kanbun.info/koji/hoyahoya.html"
+ },
+ {
+  "id": "hoyumaji",
+  "url": "https://kanbun.info/koji/hoyumaji.html"
+ },
+ {
+  "id": "hoyushiba",
+  "url": "https://kanbun.info/koji/hoyushiba.html"
+ },
+ {
+  "id": "hoyuokuri",
+  "url": "https://kanbun.info/koji/hoyuokuri.html"
+ },
+ {
+  "id": "bokushu",
+  "url": "https://kanbun.info/koji/bokushu.html"
+ },
+ {
+  "id": "hozowoka",
+  "url": "https://kanbun.info/koji/hozowoka.html"
+ },
+ {
+  "id": "hosshimu",
+  "url": "https://kanbun.info/koji/hosshimu.html"
+ },
+ {
+  "id": "makotochu",
+  "url": "https://kanbun.info/koji/makotochu.html"
+ },
+ {
+  "id": "makototomi",
+  "url": "https://kanbun.info/koji/makototomi.html"
+ },
+ {
+  "id": "mazushiure",
+  "url": "https://kanbun.info/koji/mazushiure.html"
+ },
+ {
+  "id": "mazusonoge",
+  "url": "https://kanbun.info/koji/mazusonoge.html"
+ },
+ {
+  "id": "masuredo",
+  "url": "https://kanbun.info/koji/masuredo.html"
+ },
+ {
+  "id": "matsusatsu",
+  "url": "https://kanbun.info/koji/matsusatsu.html"
+ },
+ {
+  "id": "matsuruko",
+  "url": "https://kanbun.info/koji/matsuruko.html"
+ },
+ {
+  "id": "manabiteto",
+  "url": "https://kanbun.info/koji/manabiteto.html"
+ },
+ {
+  "id": "manabuya",
+  "url": "https://kanbun.info/koji/manabuya.html"
+ },
+ {
+  "id": "manabebako",
+  "url": "https://kanbun.info/koji/manabebako.html"
+ },
+ {
+  "id": "manwojisu",
+  "url": "https://kanbun.info/koji/manwojisu.html"
+ },
+ {
+  "id": "mizuara",
+  "url": "https://kanbun.info/koji/mizuara.html"
+ },
+ {
+  "id": "mizutsumori",
+  "url": "https://kanbun.info/koji/mizutsumori.html"
+ },
+ {
+  "id": "mizuhoen",
+  "url": "https://kanbun.info/koji/mizuhoen.html"
+ },
+ {
+  "id": "mitabitsu",
+  "url": "https://kanbun.info/koji/mitabitsu.html"
+ },
+ {
+  "id": "michionaji",
+  "url": "https://kanbun.info/koji/michionaji.html"
+ },
+ {
+  "id": "michikoko",
+  "url": "https://kanbun.info/koji/michikoko.html"
+ },
+ {
+  "id": "michisude",
+  "url": "https://kanbun.info/koji/michisude.html"
+ },
+ {
+  "id": "michimei",
+  "url": "https://kanbun.info/koji/michimei.html"
+ },
+ {
+  "id": "michinaoku",
+  "url": "https://kanbun.info/koji/michinaoku.html"
+ },
+ {
+  "id": "michimage",
+  "url": "https://kanbun.info/koji/michimage.html"
+ },
+ {
+  "id": "mimizuka",
+  "url": "https://kanbun.info/koji/mimizuka.html"
+ },
+ {
+  "id": "miwokoro",
+  "url": "https://kanbun.info/koji/miwokoro.html"
+ },
+ {
+  "id": "minjinari",
+  "url": "https://kanbun.info/koji/minjinari.html"
+ },
+ {
+  "id": "muiosamu",
+  "url": "https://kanbun.info/koji/muiosamu.html"
+ },
+ {
+  "id": "mukashiwa",
+  "url": "https://kanbun.info/koji/mukashiwa.html"
+ },
+ {
+  "id": "mujun",
+  "url": "https://kanbun.info/koji/mujun.html"
+ },
+ {
+  "id": "meisojoki",
+  "url": "https://kanbun.info/koji/meisojoki.html"
+ },
+ {
+  "id": "meitetsuho",
+  "url": "https://kanbun.info/koji/meitetsuho.html"
+ },
+ {
+  "id": "meiboko",
+  "url": "https://kanbun.info/koji/meiboko.html"
+ },
+ {
+  "id": "meikunshi",
+  "url": "https://kanbun.info/koji/meikunshi.html"
+ },
+ {
+  "id": "menjuko",
+  "url": "https://kanbun.info/koji/menjuko.html"
+ },
+ {
+  "id": "menyu",
+  "url": "https://kanbun.info/koji/menyu.html"
+ },
+ {
+  "id": "moarumono",
+  "url": "https://kanbun.info/koji/moarumono.html"
+ },
+ {
+  "id": "mokushi",
+  "url": "https://kanbun.info/koji/mokushi.html"
+ },
+ {
+  "id": "moshishuko",
+  "url": "https://kanbun.info/koji/moshishuko.html"
+ },
+ {
+  "id": "moshiware",
+  "url": "https://kanbun.info/koji/moshiware.html"
+ },
+ {
+  "id": "mokkei",
+  "url": "https://kanbun.info/koji/mokkei.html"
+ },
+ {
+  "id": "mokko",
+  "url": "https://kanbun.info/koji/mokko.html"
+ },
+ {
+  "id": "mokkoni",
+  "url": "https://kanbun.info/koji/mokkoni.html"
+ },
+ {
+  "id": "rikuseki",
+  "url": "https://kanbun.info/koji/rikuseki.html"
+ },
+ {
+  "id": "mototachi",
+  "url": "https://kanbun.info/koji/mototachi.html"
+ },
+ {
+  "id": "moaiyamu",
+  "url": "https://kanbun.info/koji/moaiyamu.html"
+ },
+ {
+  "id": "moosamen",
+  "url": "https://kanbun.info/koji/moosamen.html"
+ },
+ {
+  "id": "monzenjakura",
+  "url": "https://kanbun.info/koji/monzenjakura.html"
+ },
+ {
+  "id": "monzenichi",
+  "url": "https://kanbun.info/koji/monzenichi.html"
+ },
+ {
+  "id": "yakuushina",
+  "url": "https://kanbun.info/koji/yakuushina.html"
+ },
+ {
+  "id": "yasukikoto",
+  "url": "https://kanbun.info/koji/yasukikoto.html"
+ },
+ {
+  "id": "yaniiken",
+  "url": "https://kanbun.info/koji/yaniiken.html"
+ },
+ {
+  "id": "yabureta",
+  "url": "https://kanbun.info/koji/yabureta.html"
+ },
+ {
+  "id": "yamai",
+  "url": "https://kanbun.info/koji/yamai.html"
+ },
+ {
+  "id": "yamatakaku",
+  "url": "https://kanbun.info/koji/yamatakaku.html"
+ },
+ {
+  "id": "warehiro",
+  "url": "https://kanbun.info/koji/warehiro.html"
+ },
+ {
+  "id": "yaro",
+  "url": "https://kanbun.info/koji/yaro.html"
+ },
+ {
+  "id": "waresemuru",
+  "url": "https://kanbun.info/koji/waresemuru.html"
+ },
+ {
+  "id": "yushikokyo",
+  "url": "https://kanbun.info/koji/yushikokyo.html"
+ },
+ {
+  "id": "yushaoso",
+  "url": "https://kanbun.info/koji/yushaoso.html"
+ },
+ {
+  "id": "yujo",
+  "url": "https://kanbun.info/koji/yujo.html"
+ },
+ {
+  "id": "yuchuni",
+  "url": "https://kanbun.info/koji/yuchuni.html"
+ },
+ {
+  "id": "yudonitsu",
+  "url": "https://kanbun.info/koji/yudonitsu.html"
+ },
+ {
+  "id": "yureinaki",
+  "url": "https://kanbun.info/koji/yureinaki.html"
+ },
+ {
+  "id": "yureinake",
+  "url": "https://kanbun.info/koji/yureinake.html"
+ },
+ {
+  "id": "yumokakan",
+  "url": "https://kanbun.info/koji/yumokakan.html"
+ },
+ {
+  "id": "yukonomi",
+  "url": "https://kanbun.info/koji/yukonomi.html"
+ },
+ {
+  "id": "yukonohin",
+  "url": "https://kanbun.info/koji/yukonohin.html"
+ },
+ {
+  "id": "yukuniko",
+  "url": "https://kanbun.info/koji/yukuniko.html"
+ },
+ {
+  "id": "yukushikii",
+  "url": "https://kanbun.info/koji/yukushikii.html"
+ },
+ {
+  "id": "yoto",
+  "url": "https://kanbun.info/koji/yoto.html"
+ },
+ {
+  "id": "yobougoka",
+  "url": "https://kanbun.info/koji/yobougoka.html"
+ },
+ {
+  "id": "yoyananmen",
+  "url": "https://kanbun.info/koji/yoyananmen.html"
+ },
+ {
+  "id": "yoryoezu",
+  "url": "https://kanbun.info/koji/yoryoezu.html"
+ },
+ {
+  "id": "yosesshi",
+  "url": "https://kanbun.info/koji/yosesshi.html"
+ },
+ {
+  "id": "yokuoyogu",
+  "url": "https://kanbun.info/koji/yokuoyogu.html"
+ },
+ {
+  "id": "yokuitsu",
+  "url": "https://kanbun.info/koji/yokuitsu.html"
+ },
+ {
+  "id": "yokushitsu",
+  "url": "https://kanbun.info/koji/yokushitsu.html"
+ },
+ {
+  "id": "yokushuku",
+  "url": "https://kanbun.info/koji/yokushuku.html"
+ },
+ {
+  "id": "yokuchika",
+  "url": "https://kanbun.info/koji/yokuchika.html"
+ },
+ {
+  "id": "yokureijo",
+  "url": "https://kanbun.info/koji/yokureijo.html"
+ },
+ {
+  "id": "yotonotsu",
+  "url": "https://kanbun.info/koji/yotonotsu.html"
+ },
+ {
+  "id": "yotosuii",
+  "url": "https://kanbun.info/koji/yotosuii.html"
+ },
+ {
+  "id": "yorotazu",
+  "url": "https://kanbun.info/koji/yorotazu.html"
+ },
+ {
+  "id": "wareokosu",
+  "url": "https://kanbun.info/koji/wareokosu.html"
+ },
+ {
+  "id": "rakuhaku",
+  "url": "https://kanbun.info/koji/rakuhaku.html"
+ },
+ {
+  "id": "rakushika",
+  "url": "https://kanbun.info/koji/rakushika.html"
+ },
+ {
+  "id": "ransho",
+  "url": "https://kanbun.info/koji/ransho.html"
+ },
+ {
+  "id": "ranshinzo",
+  "url": "https://kanbun.info/koji/ranshinzo.html"
+ },
+ {
+  "id": "rika",
+  "url": "https://kanbun.info/koji/rika.html"
+ },
+ {
+  "id": "rigyunoko",
+  "url": "https://kanbun.info/koji/rigyunoko.html"
+ },
+ {
+  "id": "rikugenri",
+  "url": "https://kanbun.info/koji/rikugenri.html"
+ },
+ {
+  "id": "rikohoka",
+  "url": "https://kanbun.info/koji/rikohoka.html"
+ },
+ {
+  "id": "rissui",
+  "url": "https://kanbun.info/koji/rissui.html"
+ },
+ {
+  "id": "riniyori",
+  "url": "https://kanbun.info/koji/riniyori.html"
+ },
+ {
+  "id": "ryuryu",
+  "url": "https://kanbun.info/koji/ryuryu.html"
+ },
+ {
+  "id": "ryojo",
+  "url": "https://kanbun.info/koji/ryojo.html"
+ },
+ {
+  "id": "ryotan",
+  "url": "https://kanbun.info/koji/ryotan.html"
+ },
+ {
+  "id": "ryotonoi",
+  "url": "https://kanbun.info/koji/ryotonoi.html"
+ },
+ {
+  "id": "ryou",
+  "url": "https://kanbun.info/koji/ryou.html"
+ },
+ {
+  "id": "riwomite",
+  "url": "https://kanbun.info/koji/riwomite.html"
+ },
+ {
+  "id": "ringen",
+  "url": "https://kanbun.info/koji/ringen.html"
+ },
+ {
+  "id": "ruisetsu",
+  "url": "https://kanbun.info/koji/ruisetsu.html"
+ },
+ {
+  "id": "ruiwoma",
+  "url": "https://kanbun.info/koji/ruiwoma.html"
+ },
+ {
+  "id": "reitaku",
+  "url": "https://kanbun.info/koji/reitaku.html"
+ },
+ {
+  "id": "reitoii",
+  "url": "https://kanbun.info/koji/reitoii.html"
+ },
+ {
+  "id": "reinoyou",
+  "url": "https://kanbun.info/koji/reinoyou.html"
+ },
+ {
+  "id": "reiwaorai",
+  "url": "https://kanbun.info/koji/reiwaorai.html"
+ },
+ {
+  "id": "reiogoran",
+  "url": "https://kanbun.info/koji/reiogoran.html"
+ },
+ {
+  "id": "reitatsu",
+  "url": "https://kanbun.info/koji/reitatsu.html"
+ },
+ {
+  "id": "reiwomana",
+  "url": "https://kanbun.info/koji/reiwomana.html"
+ },
+ {
+  "id": "reimidari",
+  "url": "https://kanbun.info/koji/reimidari.html"
+ },
+ {
+  "id": "rouurami",
+  "url": "https://kanbun.info/koji/rouurami.html"
+ },
+ {
+  "id": "roshite",
+  "url": "https://kanbun.info/koji/roshite.html"
+ },
+ {
+  "id": "rodan",
+  "url": "https://kanbun.info/koji/rodan.html"
+ },
+ {
+  "id": "roraku",
+  "url": "https://kanbun.info/koji/roraku.html"
+ },
+ {
+  "id": "rokujumi",
+  "url": "https://kanbun.info/koji/rokujumi.html"
+ },
+ {
+  "id": "ronatsuki",
+  "url": "https://kanbun.info/koji/ronatsuki.html"
+ },
+ {
+  "id": "wagaashi",
+  "url": "https://kanbun.info/koji/wagaashi.html"
+ },
+ {
+  "id": "wakakito",
+  "url": "https://kanbun.info/koji/wakakito.html"
+ },
+ {
+  "id": "wagasuten",
+  "url": "https://kanbun.info/koji/wagasuten.html"
+ },
+ {
+  "id": "wagatomo",
+  "url": "https://kanbun.info/koji/wagatomo.html"
+ },
+ {
+  "id": "wazawai",
+  "url": "https://kanbun.info/koji/wazawai.html"
+ },
+ {
+  "id": "warehoka",
+  "url": "https://kanbun.info/koji/warehoka.html"
+ },
+ {
+  "id": "warekimi",
+  "url": "https://kanbun.info/koji/warekimi.html"
+ },
+ {
+  "id": "waresono",
+  "url": "https://kanbun.info/koji/waresono.html"
+ },
+ {
+  "id": "warechin",
+  "url": "https://kanbun.info/koji/warechin.html"
+ },
+ {
+  "id": "warenohito",
+  "url": "https://kanbun.info/koji/warenohito.html"
+ },
+ {
+  "id": "wareitsu",
+  "url": "https://kanbun.info/koji/wareitsu.html"
+ },
+ {
+  "id": "wareimada",
+  "url": "https://kanbun.info/koji/wareimada.html"
+ },
+ {
+  "id": "warehitoto",
+  "url": "https://kanbun.info/koji/warehitoto.html"
+ },
+ {
+  "id": "waretenku",
+  "url": "https://kanbun.info/koji/waretenku.html"
+ },
+ {
+  "id": "warekuwa",
+  "url": "https://kanbun.info/koji/warekuwa.html"
+ },
+ {
+  "id": "waregei",
+  "url": "https://kanbun.info/koji/waregei.html"
+ },
+ {
+  "id": "wareten",
+  "url": "https://kanbun.info/koji/wareten.html"
+ },
+ {
+  "id": "waremiru",
+  "url": "https://kanbun.info/koji/waremiru.html"
+ },
+ {
+  "id": "wawomotte",
+  "url": "https://kanbun.info/koji/wawomotte.html"
+ }
+]
