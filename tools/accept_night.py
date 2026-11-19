@@ -109,7 +109,23 @@ def check_repo_clean(night):
     # 判定标准：**已跟踪文件**的改动 = fail（说明有人改了代码没提交，
     #   这一夜声称的状态不可复现）；未跟踪文件（??）= 只记 note，
     #   因为验收门自身的 JSON/LOG/新脚本天然是未跟踪的。
-    tracked = [l for l in lines if not l.startswith("??")]
+    # 例外：验收门自己的产物（ACCEPT_LOG.md、eval/accept_night_*.json）
+    #   每次运行都会写，若计入就会「跑一次就脏一次」→ 连跑两夜必 FAIL。
+    #   这两个模式只可能是验收门自己写的，排除它们不影响检测真实代码改动。
+    gate_owned = []
+    tracked = []
+    for l in lines:
+        if l.startswith("??"):
+            continue
+        path = l[3:].strip().strip('"')
+        if path == "ACCEPT_LOG.md" or re.match(r"eval/accept_night_.*\.json$", path):
+            gate_owned.append(l)
+        else:
+            tracked.append(l)
+    if gate_owned:
+        c.detail["gate_owned_changes"] = gate_owned
+        c.notes.append("验收门自身产物有更新（不计脏）：%s"
+                       % ", ".join(g[3:] for g in gate_owned))
     untracked = [l for l in lines if l.startswith("??")]
     c.detail["tracked_changes"] = tracked
     c.detail["untracked"] = untracked
