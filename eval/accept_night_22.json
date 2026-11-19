@@ -1,28 +1,26 @@
 {
   "night": 22,
-  "verdict": "FAIL",
-  "checked_at": "2026-11-19T20:04:41",
-  "elapsed_sec": 34.7,
+  "verdict": "PASS",
+  "checked_at": "2026-11-19T22:10:17",
+  "elapsed_sec": 35.9,
   "n_checks": 6,
-  "n_fail": 1,
+  "n_fail": 0,
   "n_skip": 0,
   "checks": [
     {
       "name": "repo_clean",
       "title": "git 工作区干净",
-      "status": "fail",
+      "status": "pass",
       "notes": [
         "验收门自身产物有更新（不计脏）：ACCEPT_LOG.md, eval/accept_night_22.json, eval/accept_night_35.json",
-        "已跟踪文件有未提交改动：1 个",
-        "未跟踪：REPORT_DAY15.md, eval/ocr_gt_100.tsv, eval/ocr_samples/gt36/, eval/ocr_samples/gt36_hr/, eval/ocr_samples/gt36_probe.png, eval/ocr_samples/gt36_view/, eval/ocr_samples/hr_test.jpg, tools/night36_boxes.py, tools/night36_gt_crops.py, tools/night36_hires_dl.py"
+        "已跟踪文件无改动",
+        "未跟踪：eval/ocr_gt_100.tsv, eval/ocr_samples/gt36/, eval/ocr_samples/gt36_hr/, eval/ocr_samples/gt36_probe.png, eval/ocr_samples/gt36_view/, eval/ocr_samples/hr_test.jpg, tools/night36_boxes.py, tools/night36_gt_crops.py, tools/night36_hires_dl.py, tools/night36_line_stats.py"
       ],
       "detail": {
         "changed": [
           " M ACCEPT_LOG.md",
           " M eval/accept_night_22.json",
           " M eval/accept_night_35.json",
-          " M tools/accept_night.py",
-          "?? REPORT_DAY15.md",
           "?? eval/ocr_gt_100.tsv",
           "?? eval/ocr_samples/gt36/",
           "?? eval/ocr_samples/gt36_hr/",
@@ -42,11 +40,8 @@
           " M eval/accept_night_22.json",
           " M eval/accept_night_35.json"
         ],
-        "tracked_changes": [
-          " M tools/accept_night.py"
-        ],
+        "tracked_changes": [],
         "untracked": [
-          "?? REPORT_DAY15.md",
           "?? eval/ocr_gt_100.tsv",
           "?? eval/ocr_samples/gt36/",
           "?? eval/ocr_samples/gt36_hr/",
@@ -60,9 +55,6 @@
           "?? tools/night36_sheet.py",
           "?? tools/night36_status.py",
           "?? tools/night36_view.py"
-        ],
-        "files": [
-          " M tools/accept_night.py"
         ]
       }
     },
@@ -71,17 +63,18 @@
       "title": "tests 全量通过",
       "status": "pass",
       "notes": [
-        "65 passed = 65 collected（15.6s，收集 5.9s）"
+        "79 passed = 79 collected（16.9s，收集 5.8s）"
       ],
       "detail": {
-        "collected": 65,
-        "collect_sec": 5.9,
-        "elapsed_sec": 15.6,
+        "collected": 79,
+        "collect_sec": 5.8,
+        "elapsed_sec": 16.9,
         "tail": [
-          ".................................................................        [100%]",
-          "65 passed in 12.82s"
+          "........................................................................ [ 91%]",
+          ".......                                                                  [100%]",
+          "79 passed in 12.94s"
         ],
-        "passed": 65
+        "passed": 79
       }
     },
     {
@@ -89,6 +82,7 @@
       "title": "评测归档完整、id 唯一、expected 未被改",
       "status": "pass",
       "notes": [
+        "golden_2000 2000 条、id 唯一、前 1000 条与 golden_1000 逐字段一致",
         "检查 1 个归档，id 唯一、自报数一致、expected 未改"
       ],
       "detail": {
@@ -105,7 +99,12 @@
             "expected_mismatch": [],
             "not_in_golden": []
           }
-        ]
+        ],
+        "golden_2000": {
+          "n": 2000,
+          "unique": 2000,
+          "head_mismatch": 0
+        }
       }
     },
     {
@@ -157,15 +156,15 @@
       "title": "单句训读耗时在包络内",
       "status": "pass",
       "notes": [
-        "短句中位 9ms（包络 3000ms）"
+        "短句中位 10ms（包络 3000ms）"
       ],
       "detail": {
         "ms": [
-          9.0,
-          47.0,
-          7.0
+          10.0,
+          5.0,
+          10.0
         ],
-        "median_ms": 9.0,
+        "median_ms": 10.0,
         "limit_ms": 3000.0
       }
     }

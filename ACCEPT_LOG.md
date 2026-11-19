@@ -49,3 +49,9 @@
 | 2026-11-19T20:03:17 | 35 | FAIL | fail=1 skip=1 | 30.2s | accept_night_35.json |
 | 2026-11-19T20:04:41 | 22 | FAIL | fail=1 skip=0 | 34.7s | accept_night_22.json |
 | 2026-11-19T20:05:14 | 35 | FAIL | fail=1 skip=1 | 32.5s | accept_night_35.json |
+| 2026-11-19T21:16:49 | 22 | FAIL | fail=1 skip=0 | 37.9s | accept_night_22.json |
+| 2026-11-19T21:19:21 | 22 | FAIL | fail=1 skip=0 | 48.5s | accept_night_22.json |
+| 2026-11-19T21:27:54 | 22 | PASS | fail=0 skip=0 | 37.3s | accept_night_22.json |
+| 2026-11-19T21:28:48 | 35 | PASS | fail=0 skip=1 | 39.2s | accept_night_35.json |
+| 2026-11-19T22:10:17 | 22 | PASS | fail=0 skip=0 | 35.9s | accept_night_22.json |
+| 2026-11-19T22:10:55 | 35 | PASS | fail=0 skip=1 | 36.8s | accept_night_35.json |
