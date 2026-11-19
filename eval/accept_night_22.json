@@ -1,36 +1,28 @@
 {
   "night": 22,
-  "verdict": "FAIL",
-  "checked_at": "2026-11-19T18:18:10",
-  "elapsed_sec": 28.0,
+  "verdict": "PASS",
+  "checked_at": "2026-11-19T18:20:00",
+  "elapsed_sec": 24.3,
   "n_checks": 6,
-  "n_fail": 1,
+  "n_fail": 0,
   "n_skip": 0,
   "checks": [
     {
       "name": "repo_clean",
       "title": "git 工作区干净",
-      "status": "fail",
+      "status": "pass",
       "notes": [
-        "验收门自身产物有更新（不计脏）：ACCEPT_LOG.md, eval/accept_night_35.json",
-        "已跟踪文件有未提交改动：3 个",
-        "未跟踪：eval/ocr_gt_100.tsv, eval/ocr_samples/gt36/, eval/ocr_samples/gt36_hr/, eval/ocr_samples/gt36_probe.png, eval/ocr_samples/gt36_view/, eval/ocr_samples/hr_test.jpg, tests/test_lifespan_migration.py, tools/day12_warn_check.py, tools/night36_boxes.py, tools/night36_gt_crops.py"
+        "已跟踪文件无改动",
+        "未跟踪：eval/ocr_gt_100.tsv, eval/ocr_samples/gt36/, eval/ocr_samples/gt36_hr/, eval/ocr_samples/gt36_probe.png, eval/ocr_samples/gt36_view/, eval/ocr_samples/hr_test.jpg, tools/night36_boxes.py, tools/night36_gt_crops.py, tools/night36_hires_dl.py, tools/night36_line_stats.py"
       ],
       "detail": {
         "changed": [
-          " M ACCEPT_LOG.md",
-          " M backend/main.py",
-          " M eval/accept_night_35.json",
-          " M frontend/src/App.tsx",
-          " M frontend/src/vite-env.d.ts",
           "?? eval/ocr_gt_100.tsv",
           "?? eval/ocr_samples/gt36/",
           "?? eval/ocr_samples/gt36_hr/",
           "?? eval/ocr_samples/gt36_probe.png",
           "?? eval/ocr_samples/gt36_view/",
           "?? eval/ocr_samples/hr_test.jpg",
-          "?? tests/test_lifespan_migration.py",
-          "?? tools/day12_warn_check.py",
           "?? tools/night36_boxes.py",
           "?? tools/night36_gt_crops.py",
           "?? tools/night36_hires_dl.py",
@@ -39,15 +31,7 @@
           "?? tools/night36_status.py",
           "?? tools/night36_view.py"
         ],
-        "gate_owned_changes": [
-          " M ACCEPT_LOG.md",
-          " M eval/accept_night_35.json"
-        ],
-        "tracked_changes": [
-          " M backend/main.py",
-          " M frontend/src/App.tsx",
-          " M frontend/src/vite-env.d.ts"
-        ],
+        "tracked_changes": [],
         "untracked": [
           "?? eval/ocr_gt_100.tsv",
           "?? eval/ocr_samples/gt36/",
@@ -55,8 +39,6 @@
           "?? eval/ocr_samples/gt36_probe.png",
           "?? eval/ocr_samples/gt36_view/",
           "?? eval/ocr_samples/hr_test.jpg",
-          "?? tests/test_lifespan_migration.py",
-          "?? tools/day12_warn_check.py",
           "?? tools/night36_boxes.py",
           "?? tools/night36_gt_crops.py",
           "?? tools/night36_hires_dl.py",
@@ -64,11 +46,6 @@
           "?? tools/night36_sheet.py",
           "?? tools/night36_status.py",
           "?? tools/night36_view.py"
-        ],
-        "files": [
-          " M backend/main.py",
-          " M frontend/src/App.tsx",
-          " M frontend/src/vite-env.d.ts"
         ]
       }
     },
@@ -77,13 +54,13 @@
       "title": "tests/test_api.py 全过",
       "status": "pass",
       "notes": [
-        "15 passed（14.0s）"
+        "15 passed（11.5s）"
       ],
       "detail": {
-        "elapsed_sec": 14.0,
+        "elapsed_sec": 11.5,
         "tail": [
           "...............                                                          [100%]",
-          "15 passed in 10.64s"
+          "15 passed in 7.78s"
         ],
         "passed": 15
       }
@@ -161,15 +138,15 @@
       "title": "单句训读耗时在包络内",
       "status": "pass",
       "notes": [
-        "短句中位 12ms（包络 3000ms）"
+        "短句中位 9ms（包络 3000ms）"
       ],
       "detail": {
         "ms": [
-          12.0,
-          6.0,
-          13.0
+          8.0,
+          17.0,
+          9.0
         ],
-        "median_ms": 12.0,
+        "median_ms": 9.0,
         "limit_ms": 3000.0
       }
     }
