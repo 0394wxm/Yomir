@@ -31,3 +31,5 @@
 | 2026-11-19T15:16:11 | 22 | PASS | fail=0 skip=0 | 21.9s | accept_night_22.json |
 | 2026-11-19T15:16:41 | 35 | PASS | fail=0 skip=1 | 20.6s | accept_night_35.json |
 | 2026-11-19T18:02:37 | 35 | FAIL | fail=1 skip=1 | 26.5s | accept_night_35.json |
+| 2026-11-19T18:13:57 | 35 | FAIL | fail=1 skip=1 | 24.0s | accept_night_35.json |
+| 2026-11-19T18:18:10 | 22 | FAIL | fail=1 skip=0 | 28.0s | accept_night_22.json |

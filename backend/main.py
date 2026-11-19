@@ -21,6 +21,7 @@ import threading
 import time
 import uuid
 
+from contextlib import asynccontextmanager
 from typing import Optional
 
 from fastapi import FastAPI, HTTPException, Query, UploadFile
@@ -120,8 +121,6 @@ def detect_text_type(text: str) -> str:
     return "kana" if (kana / len(chars)) > threshold else "kanbun"
 
 
-app = FastAPI(title="kanbun-kakikudashi", version="0.2.0-night2")
-
 ENGINE = None          # udkundoku pipeline, 启动时惰性加载一次
 ENGINE_ERROR = ""
 
@@ -139,21 +138,28 @@ def _load_engine():
     ENGINE_ERROR = ""
 
 
-@app.on_event("startup")
-def startup():
+@asynccontextmanager
+async def lifespan(_app):
+    """启动/关闭钩子（D12：由已废弃的 @app.on_event("startup") 迁移而来）。
+
+    行为与迁移前完全一致：
+      * db.init_db() 先建表；
+      * KANBUN_LAZY_ENGINE=1（sidecar 模式）时先让出端口、后台线程加载引擎，
+        普通模式同步加载（tests 依赖启动完成时引擎已就绪）。
+    """
+    global ENGINE_ERROR
     db.init_db()
     # D6: sidecar 模式下先把端口让出来、再后台加载引擎。
     # 目的：桌面壳能在 1~2 秒内连上 /health（此时 engine_loaded=false），
     # 前端显示「引擎加载中」，而不是让用户对着白窗口等 10~30 秒。
-    # 普通模式仍同步加载——tests 依赖 startup 返回时引擎已就绪。
     lazy = os.environ.get("KANBUN_LAZY_ENGINE", "").strip() in ("1", "true", "yes", "on")
     if lazy:
         def _bg():
+            global ENGINE_ERROR
             try:
                 _load_engine()
                 logger.info("udkundoku engine loaded")
             except Exception as e:
-                global ENGINE_ERROR
                 ENGINE_ERROR = repr(e)
                 logger.exception("engine load failed: %r", e)
         threading.Thread(target=_bg, name="engine-loader", daemon=True).start()
@@ -165,6 +171,11 @@ def startup():
             ENGINE_ERROR = repr(e)
             logger.exception("engine load failed: %r", e)
     logger.info("ocr available: %s", is_available())
+    yield
+
+
+app = FastAPI(title="kanbun-kakikudashi", version="0.2.0-night2",
+              lifespan=lifespan)
 
 
 @app.get("/")

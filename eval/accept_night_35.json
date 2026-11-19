@@ -1,8 +1,8 @@
 {
   "night": 35,
   "verdict": "FAIL",
-  "checked_at": "2026-11-19T18:02:37",
-  "elapsed_sec": 26.5,
+  "checked_at": "2026-11-19T18:13:57",
+  "elapsed_sec": 24.0,
   "n_checks": 6,
   "n_fail": 1,
   "n_skip": 1,
@@ -12,45 +12,21 @@
       "title": "git 工作区干净",
       "status": "fail",
       "notes": [
-        "已跟踪文件有未提交改动：2 个",
-        "未跟踪：eval/day11_align.json, eval/day11_align2.json, eval/day11_final.json, eval/day11_kore.json, eval/day11_mine.json, eval/day11_pick2.json, eval/day11_pick3.json, eval/day11_results_1000.json, eval/day11_sim.json, eval/ocr_gt_100.tsv"
+        "已跟踪文件有未提交改动：3 个",
+        "未跟踪：eval/ocr_gt_100.tsv, eval/ocr_samples/gt36/, eval/ocr_samples/gt36_hr/, eval/ocr_samples/gt36_probe.png, eval/ocr_samples/gt36_view/, eval/ocr_samples/hr_test.jpg, tests/test_lifespan_migration.py, tools/night36_boxes.py, tools/night36_gt_crops.py, tools/night36_hires_dl.py"
       ],
       "detail": {
         "changed": [
-          " M backend/kundoku_rules.py",
           " M backend/main.py",
-          "?? eval/day11_align.json",
-          "?? eval/day11_align2.json",
-          "?? eval/day11_final.json",
-          "?? eval/day11_kore.json",
-          "?? eval/day11_mine.json",
-          "?? eval/day11_pick2.json",
-          "?? eval/day11_pick3.json",
-          "?? eval/day11_results_1000.json",
-          "?? eval/day11_sim.json",
+          " M frontend/src/App.tsx",
+          " M frontend/src/vite-env.d.ts",
           "?? eval/ocr_gt_100.tsv",
           "?? eval/ocr_samples/gt36/",
           "?? eval/ocr_samples/gt36_hr/",
           "?? eval/ocr_samples/gt36_probe.png",
           "?? eval/ocr_samples/gt36_view/",
           "?? eval/ocr_samples/hr_test.jpg",
-          "?? tests/test_rule_d_kore.py",
-          "?? tools/day11_align.py",
-          "?? tools/day11_align2.py",
-          "?? tools/day11_check_bug.py",
-          "?? tools/day11_diag.py",
-          "?? tools/day11_final.py",
-          "?? tools/day11_guard.py",
-          "?? tools/day11_inspect.py",
-          "?? tools/day11_kore.py",
-          "?? tools/day11_kore2.py",
-          "?? tools/day11_live.py",
-          "?? tools/day11_mine.py",
-          "?? tools/day11_pick.py",
-          "?? tools/day11_pick2.py",
-          "?? tools/day11_pick3.py",
-          "?? tools/day11_pick3b.py",
-          "?? tools/day11_sim.py",
+          "?? tests/test_lifespan_migration.py",
           "?? tools/night36_boxes.py",
           "?? tools/night36_gt_crops.py",
           "?? tools/night36_hires_dl.py",
@@ -60,42 +36,18 @@
           "?? tools/night36_view.py"
         ],
         "tracked_changes": [
-          " M backend/kundoku_rules.py",
-          " M backend/main.py"
+          " M backend/main.py",
+          " M frontend/src/App.tsx",
+          " M frontend/src/vite-env.d.ts"
         ],
         "untracked": [
-          "?? eval/day11_align.json",
-          "?? eval/day11_align2.json",
-          "?? eval/day11_final.json",
-          "?? eval/day11_kore.json",
-          "?? eval/day11_mine.json",
-          "?? eval/day11_pick2.json",
-          "?? eval/day11_pick3.json",
-          "?? eval/day11_results_1000.json",
-          "?? eval/day11_sim.json",
           "?? eval/ocr_gt_100.tsv",
           "?? eval/ocr_samples/gt36/",
           "?? eval/ocr_samples/gt36_hr/",
           "?? eval/ocr_samples/gt36_probe.png",
           "?? eval/ocr_samples/gt36_view/",
           "?? eval/ocr_samples/hr_test.jpg",
-          "?? tests/test_rule_d_kore.py",
-          "?? tools/day11_align.py",
-          "?? tools/day11_align2.py",
-          "?? tools/day11_check_bug.py",
-          "?? tools/day11_diag.py",
-          "?? tools/day11_final.py",
-          "?? tools/day11_guard.py",
-          "?? tools/day11_inspect.py",
-          "?? tools/day11_kore.py",
-          "?? tools/day11_kore2.py",
-          "?? tools/day11_live.py",
-          "?? tools/day11_mine.py",
-          "?? tools/day11_pick.py",
-          "?? tools/day11_pick2.py",
-          "?? tools/day11_pick3.py",
-          "?? tools/day11_pick3b.py",
-          "?? tools/day11_sim.py",
+          "?? tests/test_lifespan_migration.py",
           "?? tools/night36_boxes.py",
           "?? tools/night36_gt_crops.py",
           "?? tools/night36_hires_dl.py",
@@ -105,8 +57,9 @@
           "?? tools/night36_view.py"
         ],
         "files": [
-          " M backend/kundoku_rules.py",
-          " M backend/main.py"
+          " M backend/main.py",
+          " M frontend/src/App.tsx",
+          " M frontend/src/vite-env.d.ts"
         ]
       }
     },
@@ -115,14 +68,13 @@
       "title": "tests/test_api.py 全过",
       "status": "pass",
       "notes": [
-        "15 passed（12.9s）"
+        "15 passed（11.3s）"
       ],
       "detail": {
-        "elapsed_sec": 12.9,
+        "elapsed_sec": 11.3,
         "tail": [
-          "",
-          "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html",
-          "15 passed, 2 warnings in 7.70s"
+          "...............                                                          [100%]",
+          "15 passed in 7.49s"
         ],
         "passed": 15
       }
@@ -188,15 +140,15 @@
       "title": "单句训读耗时在包络内",
       "status": "pass",
       "notes": [
-        "短句中位 10ms（包络 3000ms）"
+        "短句中位 9ms（包络 3000ms）"
       ],
       "detail": {
         "ms": [
-          11.0,
           9.0,
-          10.0
+          6.0,
+          96.9
         ],
-        "median_ms": 10.0,
+        "median_ms": 9.0,
         "limit_ms": 3000.0
       }
     }

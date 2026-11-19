@@ -8,12 +8,10 @@ const DISCLAIMER = 'AI 初稿，仅供参考，请以原文和专业判断为准
 // 默认空前缀就够了（见 backend/main.py 的 _mount_web 与 main.rs）。
 //   - 浏览器 / 开发：空串，走 vite 代理，行为不变
 //   - 构建到别处：设 VITE_API_BASE
-//   - 预留（当前**未实现**，Rust 侧没有注入代码）：window.__KANBUN_API_BASE__
-//     如果将来改成「页面由 Tauri 资源提供 + 跨域调后端」，再在 Rust 侧注入它。
+// D12: 已删除未实现的 window.__KANBUN_API_BASE__ 预留分支（Rust 侧从未注入，
+// 见 REPORT_DAY6.md §7.2；保留会让人以为桌面壳在用这条路径）。
 function apiBase(): string {
-  const injected = (window as unknown as { __KANBUN_API_BASE__?: string }).__KANBUN_API_BASE__
-  if (injected) return injected.replace(/\/$/, '')
-  return (import.meta.env.VITE_API_BASE as string | undefined) ?? ''
+  return (import.meta.env.VITE_API_BASE as string | undefined)?.replace(/\/$/, '') ?? ''
 }
 
 const API = apiBase()
