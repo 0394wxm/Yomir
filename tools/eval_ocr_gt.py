@@ -120,7 +120,9 @@ def main():
             file_, line_no, gt = line.split("\t", 2)
             gt_rows.append({"file": file_, "line_no": int(line_no), "gt": gt})
 
-    with open(OCR_JSON, encoding="utf-8") as f:
+    ocr_path = sys.argv[1] if len(sys.argv) > 1 else OCR_JSON
+    out_path = sys.argv[2] if len(sys.argv) > 2 else OUT
+    with open(ocr_path, encoding="utf-8") as f:
         ocr = json.load(f)
     ocr_by_file = {r["file"].rsplit(".", 1)[0]: r for r in ocr["results"]}
 
@@ -202,11 +204,12 @@ def main():
         sum(v["cer_norm_macro"] for v in summary["pages"].values()) / len(summary["pages"]), 4)
     summary["rows"] = out_rows
 
-    with open(OUT, "w", encoding="utf-8", newline="\n") as f:
+    with open(out_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)
 
     print("== Night36 OCR CER ==")
-    print("GT rows: %d | [?] 通配不计分母 | raw=含标点差 / norm=两侧去标点" % len(out_rows))
+    print("GT rows: %d | [?] 通配不计分母 | raw=含标点差 / norm=两侧去标点 | src=%s" % (
+        len(out_rows), os.path.basename(ocr_path)))
     for fname, v in summary["pages"].items():
         print("  %-28s rows=%-3d raw micro=%s macro=%s | norm micro=%s macro=%s" % (
             fname, v["n_rows"], v["cer_micro"], v["cer_macro"],
@@ -219,7 +222,7 @@ def main():
         print("[warn] unmatched rows: %d" % len(nomatch))
         for r in nomatch:
             print("   ", r["file"], r["line_no"], r["match"])
-    print("[done] written:", OUT)
+    print("[done] written:", out_path)
     return 0
 
 

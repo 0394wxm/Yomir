@@ -30,6 +30,7 @@ from pydantic import BaseModel
 
 from backend import db, llm
 from backend.kundoku_rules import merge_proper_nouns, normalize_shinjitai, style_fix_with_hakubun
+from backend.ocr_postfix import fix_kanji_confusions
 from backend.ocr_engine import get_engine, is_available
 
 logger = logging.getLogger("kanbun")
@@ -405,7 +406,7 @@ async def ocr_batch(files: list[UploadFile]):
             r = await run_in_threadpool(engine.recognize_bytes, data)
             results.append({
                 "file": f.filename or "",
-                "hakubun": r["text"],
+                "hakubun": fix_kanji_confusions(r["text"]),
                 "status": "ok",
                 "line_count": r["line_count"],
                 "elapsed_sec": r["elapsed_sec"],
@@ -523,7 +524,7 @@ def _run_batch_job(job_id, files):
                     r = engine.recognize_bytes(data, progress_cb=_cb)
                     item = {
                         "file": name,
-                        "hakubun": r["text"],
+                        "hakubun": fix_kanji_confusions(r["text"]),
                         "status": "ok",
                         "line_count": r["line_count"],
                         "elapsed_sec": r["elapsed_sec"],
@@ -634,7 +635,7 @@ async def ocr(file: UploadFile):
         logger.exception("ocr failed")
         return {"hakubun": "", "status": "ocr_error", "note": "OCR 处理失败: %r" % (e,)}
     return {
-        "hakubun": result["text"],
+        "hakubun": fix_kanji_confusions(result["text"]),
         "status": "ok",
         "line_count": result["line_count"],
         "elapsed_sec": result["elapsed_sec"],
