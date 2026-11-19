@@ -1,0 +1,11 @@
+{
+ "base_avg": 26.09,
+ "new_avg": 25.845,
+ "delta": -0.245,
+ "changed": 135,
+ "better": 121,
+ "worse": 1,
+ "worse_ids": [
+  "keiko-1"
+ ]
+}

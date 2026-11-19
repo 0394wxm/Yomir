@@ -1,0 +1,21 @@
+{
+ "base_avg": 26.09,
+ "candidates": [
+  {
+   "name": "D8 严格护栏",
+   "changed": 139,
+   "avg": 25.834,
+   "delta": -0.256,
+   "better": 125,
+   "worse": 1
+  },
+  {
+   "name": "D9 严格护栏+叠词",
+   "changed": 139,
+   "avg": 25.834,
+   "delta": -0.256,
+   "better": 125,
+   "worse": 1
+  }
+ ]
+}

@@ -1,0 +1,517 @@
+{
+ "base_avg": 26.09,
+ "all": [
+  {
+   "guard": "(none)",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "guard": "言",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "guard": "adv",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "guard": "dupe",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "guard": "yotte",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "guard": "言+adv",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "guard": "言+dupe",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "guard": "言+yotte",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "guard": "adv+dupe",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "guard": "adv+yotte",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "guard": "dupe+yotte",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "guard": "言+adv+dupe",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "guard": "言+adv+yotte",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "guard": "言+dupe+yotte",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "guard": "adv+dupe+yotte",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "guard": "言+adv+dupe+yotte",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "guard": "見",
+   "changed": 291,
+   "avg": 25.209,
+   "delta": -0.881,
+   "better": 281,
+   "worse": 0
+  },
+  {
+   "guard": "見+言",
+   "changed": 291,
+   "avg": 25.209,
+   "delta": -0.881,
+   "better": 281,
+   "worse": 0
+  },
+  {
+   "guard": "見+adv",
+   "changed": 291,
+   "avg": 25.209,
+   "delta": -0.881,
+   "better": 281,
+   "worse": 0
+  },
+  {
+   "guard": "見+dupe",
+   "changed": 291,
+   "avg": 25.209,
+   "delta": -0.881,
+   "better": 281,
+   "worse": 0
+  },
+  {
+   "guard": "見+yotte",
+   "changed": 291,
+   "avg": 25.209,
+   "delta": -0.881,
+   "better": 281,
+   "worse": 0
+  },
+  {
+   "guard": "見+言+adv",
+   "changed": 291,
+   "avg": 25.209,
+   "delta": -0.881,
+   "better": 281,
+   "worse": 0
+  },
+  {
+   "guard": "見+言+dupe",
+   "changed": 291,
+   "avg": 25.209,
+   "delta": -0.881,
+   "better": 281,
+   "worse": 0
+  },
+  {
+   "guard": "見+言+yotte",
+   "changed": 291,
+   "avg": 25.209,
+   "delta": -0.881,
+   "better": 281,
+   "worse": 0
+  },
+  {
+   "guard": "見+adv+dupe",
+   "changed": 291,
+   "avg": 25.209,
+   "delta": -0.881,
+   "better": 281,
+   "worse": 0
+  },
+  {
+   "guard": "見+adv+yotte",
+   "changed": 291,
+   "avg": 25.209,
+   "delta": -0.881,
+   "better": 281,
+   "worse": 0
+  },
+  {
+   "guard": "見+dupe+yotte",
+   "changed": 291,
+   "avg": 25.209,
+   "delta": -0.881,
+   "better": 281,
+   "worse": 0
+  },
+  {
+   "guard": "見+言+adv+dupe",
+   "changed": 291,
+   "avg": 25.209,
+   "delta": -0.881,
+   "better": 281,
+   "worse": 0
+  },
+  {
+   "guard": "見+言+adv+yotte",
+   "changed": 291,
+   "avg": 25.209,
+   "delta": -0.881,
+   "better": 281,
+   "worse": 0
+  },
+  {
+   "guard": "見+言+dupe+yotte",
+   "changed": 291,
+   "avg": 25.209,
+   "delta": -0.881,
+   "better": 281,
+   "worse": 0
+  },
+  {
+   "guard": "見+adv+dupe+yotte",
+   "changed": 291,
+   "avg": 25.209,
+   "delta": -0.881,
+   "better": 281,
+   "worse": 0
+  },
+  {
+   "guard": "見+言+adv+dupe+yotte",
+   "changed": 291,
+   "avg": 25.209,
+   "delta": -0.881,
+   "better": 281,
+   "worse": 0
+  },
+  {
+   "guard": "emph",
+   "changed": 289,
+   "avg": 25.212,
+   "delta": -0.878,
+   "better": 279,
+   "worse": 0
+  },
+  {
+   "guard": "言+emph",
+   "changed": 289,
+   "avg": 25.212,
+   "delta": -0.878,
+   "better": 279,
+   "worse": 0
+  },
+  {
+   "guard": "adv+emph",
+   "changed": 289,
+   "avg": 25.212,
+   "delta": -0.878,
+   "better": 279,
+   "worse": 0
+  },
+  {
+   "guard": "emph+dupe",
+   "changed": 289,
+   "avg": 25.212,
+   "delta": -0.878,
+   "better": 279,
+   "worse": 0
+  },
+  {
+   "guard": "emph+yotte",
+   "changed": 289,
+   "avg": 25.212,
+   "delta": -0.878,
+   "better": 279,
+   "worse": 0
+  },
+  {
+   "guard": "言+adv+emph",
+   "changed": 289,
+   "avg": 25.212,
+   "delta": -0.878,
+   "better": 279,
+   "worse": 0
+  },
+  {
+   "guard": "言+emph+dupe",
+   "changed": 289,
+   "avg": 25.212,
+   "delta": -0.878,
+   "better": 279,
+   "worse": 0
+  },
+  {
+   "guard": "言+emph+yotte",
+   "changed": 289,
+   "avg": 25.212,
+   "delta": -0.878,
+   "better": 279,
+   "worse": 0
+  },
+  {
+   "guard": "adv+emph+dupe",
+   "changed": 289,
+   "avg": 25.212,
+   "delta": -0.878,
+   "better": 279,
+   "worse": 0
+  },
+  {
+   "guard": "adv+emph+yotte",
+   "changed": 289,
+   "avg": 25.212,
+   "delta": -0.878,
+   "better": 279,
+   "worse": 0
+  },
+  {
+   "guard": "emph+dupe+yotte",
+   "changed": 289,
+   "avg": 25.212,
+   "delta": -0.878,
+   "better": 279,
+   "worse": 0
+  },
+  {
+   "guard": "言+adv+emph+dupe",
+   "changed": 289,
+   "avg": 25.212,
+   "delta": -0.878,
+   "better": 279,
+   "worse": 0
+  },
+  {
+   "guard": "言+adv+emph+yotte",
+   "changed": 289,
+   "avg": 25.212,
+   "delta": -0.878,
+   "better": 279,
+   "worse": 0
+  },
+  {
+   "guard": "言+emph+dupe+yotte",
+   "changed": 289,
+   "avg": 25.212,
+   "delta": -0.878,
+   "better": 279,
+   "worse": 0
+  },
+  {
+   "guard": "adv+emph+dupe+yotte",
+   "changed": 289,
+   "avg": 25.212,
+   "delta": -0.878,
+   "better": 279,
+   "worse": 0
+  },
+  {
+   "guard": "言+adv+emph+dupe+yotte",
+   "changed": 289,
+   "avg": 25.212,
+   "delta": -0.878,
+   "better": 279,
+   "worse": 0
+  },
+  {
+   "guard": "見+emph",
+   "changed": 288,
+   "avg": 25.22,
+   "delta": -0.87,
+   "better": 278,
+   "worse": 0
+  },
+  {
+   "guard": "見+言+emph",
+   "changed": 288,
+   "avg": 25.22,
+   "delta": -0.87,
+   "better": 278,
+   "worse": 0
+  },
+  {
+   "guard": "見+adv+emph",
+   "changed": 288,
+   "avg": 25.22,
+   "delta": -0.87,
+   "better": 278,
+   "worse": 0
+  },
+  {
+   "guard": "見+emph+dupe",
+   "changed": 288,
+   "avg": 25.22,
+   "delta": -0.87,
+   "better": 278,
+   "worse": 0
+  },
+  {
+   "guard": "見+emph+yotte",
+   "changed": 288,
+   "avg": 25.22,
+   "delta": -0.87,
+   "better": 278,
+   "worse": 0
+  },
+  {
+   "guard": "見+言+adv+emph",
+   "changed": 288,
+   "avg": 25.22,
+   "delta": -0.87,
+   "better": 278,
+   "worse": 0
+  },
+  {
+   "guard": "見+言+emph+dupe",
+   "changed": 288,
+   "avg": 25.22,
+   "delta": -0.87,
+   "better": 278,
+   "worse": 0
+  },
+  {
+   "guard": "見+言+emph+yotte",
+   "changed": 288,
+   "avg": 25.22,
+   "delta": -0.87,
+   "better": 278,
+   "worse": 0
+  },
+  {
+   "guard": "見+adv+emph+dupe",
+   "changed": 288,
+   "avg": 25.22,
+   "delta": -0.87,
+   "better": 278,
+   "worse": 0
+  },
+  {
+   "guard": "見+adv+emph+yotte",
+   "changed": 288,
+   "avg": 25.22,
+   "delta": -0.87,
+   "better": 278,
+   "worse": 0
+  },
+  {
+   "guard": "見+emph+dupe+yotte",
+   "changed": 288,
+   "avg": 25.22,
+   "delta": -0.87,
+   "better": 278,
+   "worse": 0
+  },
+  {
+   "guard": "見+言+adv+emph+dupe",
+   "changed": 288,
+   "avg": 25.22,
+   "delta": -0.87,
+   "better": 278,
+   "worse": 0
+  },
+  {
+   "guard": "見+言+adv+emph+yotte",
+   "changed": 288,
+   "avg": 25.22,
+   "delta": -0.87,
+   "better": 278,
+   "worse": 0
+  },
+  {
+   "guard": "見+言+emph+dupe+yotte",
+   "changed": 288,
+   "avg": 25.22,
+   "delta": -0.87,
+   "better": 278,
+   "worse": 0
+  },
+  {
+   "guard": "見+adv+emph+dupe+yotte",
+   "changed": 288,
+   "avg": 25.22,
+   "delta": -0.87,
+   "better": 278,
+   "worse": 0
+  },
+  {
+   "guard": "見+言+adv+emph+dupe+yotte",
+   "changed": 288,
+   "avg": 25.22,
+   "delta": -0.87,
+   "better": 278,
+   "worse": 0
+  }
+ ]
+}

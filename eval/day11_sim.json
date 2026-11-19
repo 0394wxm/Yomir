@@ -1,0 +1,66 @@
+{
+ "base_avg": 26.09,
+ "n": 1000,
+ "sims": [
+  {
+   "name": "D0 基线",
+   "changed": 0,
+   "avg": 26.09,
+   "delta": 0.0,
+   "better": 0,
+   "worse": 0,
+   "exact": 3,
+   "worse_ids": []
+  },
+  {
+   "name": "D1 全替换",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0,
+   "exact": 3,
+   "worse_ids": []
+  },
+  {
+   "name": "D2 排除副词",
+   "changed": 286,
+   "avg": 25.218,
+   "delta": -0.872,
+   "better": 276,
+   "worse": 0,
+   "exact": 3,
+   "worse_ids": []
+  },
+  {
+   "name": "D3 非句首",
+   "changed": 290,
+   "avg": 25.205,
+   "delta": -0.885,
+   "better": 280,
+   "worse": 0,
+   "exact": 3,
+   "worse_ids": []
+  },
+  {
+   "name": "D4 助词限定",
+   "changed": 269,
+   "avg": 25.242,
+   "delta": -0.848,
+   "better": 266,
+   "worse": 0,
+   "exact": 3,
+   "worse_ids": []
+  },
+  {
+   "name": "D5 非标点后",
+   "changed": 250,
+   "avg": 25.443,
+   "delta": -0.647,
+   "better": 241,
+   "worse": 0,
+   "exact": 3,
+   "worse_ids": []
+  }
+ ]
+}

@@ -28,7 +28,7 @@ from fastapi.concurrency import run_in_threadpool
 from pydantic import BaseModel
 
 from backend import db, llm
-from backend.kundoku_rules import merge_proper_nouns, normalize_shinjitai, style_fix
+from backend.kundoku_rules import merge_proper_nouns, normalize_shinjitai, style_fix_with_hakubun
 from backend.ocr_engine import get_engine, is_available
 
 logger = logging.getLogger("kanbun")
@@ -274,9 +274,10 @@ def _kundoku_result_for(text: str, merge: bool, ortho: bool, use_cache: bool, se
         kakikudashi = _extract_kakikudashi(__import__("udkundoku").translate(entry, raw=True))
         seg["translate"] += _now_ms() - t
     # NIGHT4 Rule A：显示风格修正（ふ→う、は曰く→曰く），merge 开关下生效
+    # D11：Rule D（これ→之）需要白文做护栏，改用 style_fix_with_hakubun
     if merge:
         t = _now_ms()
-        kakikudashi = style_fix(kakikudashi)
+        kakikudashi = style_fix_with_hakubun(kakikudashi, text)
         seg["style"] += _now_ms() - t
     return kaeriten_text, kaeriten_raw, kakikudashi
 

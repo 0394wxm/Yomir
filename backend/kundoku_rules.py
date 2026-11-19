@@ -92,13 +92,52 @@ def style_dedup_shite_soshite_guarded(text: str) -> str:
     return re.sub(r"(?<!顧み)て而して", "て", text)
 
 
+def style_kore_to_shi(text: str, hakubun: str = "") -> str:
+    """これ → 之（汉文训读规范字形）。NIGHT/D11 Rule D。
+
+    依据（D11，1000 条评测集）：
+      * expected（kanbun.info 規範書き下し）里「これ」出现 **0 次**，「之」522 处；
+      * 引擎输出「これ」527 处，93.4% 的条目两者计数 1:1；
+      * 全替换在 1000 条上 **282 改善 / 0 变差**，avgDist 26.09 → 25.20（-0.89）。
+
+    护栏（`hakubun` 非空时生效）：**白文里没有「之」就不动任何「これ」**。
+      语料交叉表（1000 条）：
+        白文无之 & 输出无これ : 514 条
+        白文有之 & 输出无これ : 194 条
+        白文有之 & 输出有これ : 292 条
+        白文无之 & 输出有これ : **0 条**
+      即「白文含之」是零成本护栏：语料内与全替换完全等价（同样 -0.889/0 变差），
+      语料外保证「原文没有之」的和文句子不会被改动。
+      验证脚本：tools/day11_align2.py（eval/day11_align2.json）。
+
+    已知局限：一条白文里有多个「之」时不做配额分配（按出现顺序全换），
+    个别句子可能换错位置（如 keiko-1 的引擎幻觉「これ」，全替换净收益仍为正）。
+    """
+    if hakubun and "之" not in hakubun:
+        return text
+    return text.replace("これ", "之")
+
+
 def style_fix(text: str) -> str:
     """规则总入口：显示风格修正（NIGHT4 Rule A + NIGHT22 Rule C'）。
     不改汉字词干、不动树结构。Rule C（て而して→て）以带护栏形式于 NIGHT22
-    复活（style_dedup_shite_soshite_guarded），无护栏版本仍处撤销状态。"""
+    复活（style_dedup_shite_soshite_guarded），无护栏版本仍处撤销状态。
+    注：D11 Rule D（これ→之）需要白文，走 style_fix_with_hakubun。"""
     t = style_modern_kana(text)
     t = style_drop_wa_before_iwaku(t)
     t = style_dedup_shite_soshite_guarded(t)
+    return t
+
+
+def style_fix_with_hakubun(text: str, hakubun: str) -> str:
+    """带白文上下文的规则总入口（D11 起后端实际调用这个）。
+
+    Rule D 的白文护栏需要原始输入，所以不能只传输出串。
+    """
+    t = style_modern_kana(text)
+    t = style_drop_wa_before_iwaku(t)
+    t = style_dedup_shite_soshite_guarded(t)
+    t = style_kore_to_shi(t, hakubun)
     return t
 
 # ---------------------------------------------------------------------------

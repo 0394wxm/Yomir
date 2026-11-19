@@ -1,0 +1,75 @@
+{
+ "base_avg": 26.09,
+ "sims": [
+  {
+   "name": "R1 全替换 これ->之",
+   "changed": 292,
+   "avg": 25.201,
+   "delta": -0.889,
+   "better": 282,
+   "worse": 0
+  },
+  {
+   "name": "R2 只替换「これを」->「之を」",
+   "changed": 206,
+   "avg": 25.46,
+   "delta": -0.63,
+   "better": 204,
+   "worse": 0
+  },
+  {
+   "name": "R3 替换 これ+に/を/が/は",
+   "changed": 264,
+   "avg": 25.262,
+   "delta": -0.828,
+   "better": 261,
+   "worse": 0
+  },
+  {
+   "name": "R4 只替换「これを」「これに」",
+   "changed": 257,
+   "avg": 25.286,
+   "delta": -0.804,
+   "better": 255,
+   "worse": 0
+  },
+  {
+   "name": "R5 只替换「これを」",
+   "changed": 206,
+   "avg": 25.46,
+   "delta": -0.63,
+   "better": 204,
+   "worse": 0
+  },
+  {
+   "name": "R6 これ+X(单字助词) 且非句首",
+   "changed": 265,
+   "avg": 25.255,
+   "delta": -0.835,
+   "better": 262,
+   "worse": 0
+  }
+ ],
+ "risky_n": 19,
+ "risky_ids": [
+  "chosan-3",
+  "chosan-4",
+  "inishiegen-1",
+  "uchoku-1",
+  "eidatsu-1",
+  "kakini-1",
+  "kakubutsu-4",
+  "kafuku-2",
+  "rongo0311-1",
+  "rongo0703-1",
+  "rongo0911-1",
+  "rongo1114-1",
+  "rongo1206-1",
+  "p-bunshoha-3",
+  "p-chiin-5",
+  "p-chikogo-1",
+  "p-dobyo-1",
+  "p-funkei-4",
+  "p-guko-2"
+ ]
+}

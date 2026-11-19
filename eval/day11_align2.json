@@ -1,0 +1,10 @@
+{
+ "base": 26.09,
+ "new": 25.201,
+ "delta": -0.889,
+ "changed": 292,
+ "better": 282,
+ "worse": 0,
+ "viol_n": 0,
+ "viol_ids": []
+}
