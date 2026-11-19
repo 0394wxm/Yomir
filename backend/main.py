@@ -227,21 +227,21 @@ def _kundoku_line_timed(line: str, merge: bool, seg: dict):
     key = (line, merge)
     if key in _SENT_CACHE:
         _SENT_CACHE.move_to_end(key)
-        seg["cache_hit"] += 1
+        seg["cache_hit"] = seg.get("cache_hit", 0) + 1
         return _SENT_CACHE[key]
     t = _now_ms()
     entry = ENGINE(line)
-    seg["engine"] += _now_ms() - t
+    seg["engine"] = seg.get("engine", 0) + _now_ms() - t
     if merge:
         t = _now_ms()
         entry = merge_proper_nouns(entry)
-        seg["merge"] += _now_ms() - t
+        seg["merge"] = seg.get("merge", 0) + _now_ms() - t
     t = _now_ms()
     k_raw = entry.kaeriten()
-    seg["kaeriten"] += _now_ms() - t
+    seg["kaeriten"] = seg.get("kaeriten", 0) + _now_ms() - t
     t = _now_ms()
     kk_raw = _extract_kakikudashi(__import__("udkundoku").translate(entry, raw=True))
-    seg["translate"] += _now_ms() - t
+    seg["translate"] = seg.get("translate", 0) + _now_ms() - t
     _SENT_CACHE[key] = (k_raw, kk_raw)
     if len(_SENT_CACHE) > _SENT_CACHE_MAX:
         _SENT_CACHE.popitem(last=False)
@@ -290,7 +290,7 @@ def _kundoku_result_for(text: str, merge: bool, ortho: bool, use_cache: bool, se
     if merge:
         t = _now_ms()
         kakikudashi = style_fix_with_hakubun(kakikudashi, text)
-        seg["style"] += _now_ms() - t
+        seg["style"] = seg.get("style", 0) + _now_ms() - t
     return kaeriten_text, kaeriten_raw, kakikudashi
 
 

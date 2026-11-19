@@ -34,6 +34,7 @@ from backend.ocr_postfix import (  # noqa: E402
     is_junk_border_line,
     is_junk_repeat_line,
     normalize_compat_ideographs,
+    postprocess_line,
 )
 
 OCR_SITE = os.environ.get("KANBUN_OCR_SITE", r"D:\dlkotenocr-lite\site-packages")
@@ -285,12 +286,13 @@ class OCREngine:
             return any(("\u3040" <= c <= "\u30ff") or ("\u3400" <= c <= "\u9fff") or ("\u4e00" <= c <= "\u4dbf") for c in s)
         # NIGHT39: 同一汉字整行重复 ≥3 次（界框被读成「一一一一」串）一并剔除；
         # NIGHT40: 仅由 一/二 组成的 ≥6 字行（界框双线被读成混合串）一并剔除；
-        # 同时把 CJK 兼容码位（U+FA 区，NEC/IBM 选字）归一到正则等价
+        # NIGHT41: 行级后处理统一收口到引擎（兼容码位归一 + B 类护栏词典）——
+        # 此前词典只在 API 端点做，直接调引擎的调用方（如批量导入）拿不到修正
         keep = [i for i, s in enumerate(resultlines)
                 if s and not any(p in s for p in patterns) and _has_text(s)
                 and not is_junk_repeat_line(s)
                 and not is_junk_border_line(s)]
-        resultlines = [normalize_compat_ideographs(resultlines[i]) for i in keep]
+        resultlines = [postprocess_line(resultlines[i]) for i in keep]
         # boxes 必须与 resultlines 同步过滤（Night3 踩过：只筛了行文本没筛盒子，
         # cluster 输出的 index 越界 -> IndexError）
         boxes = [dict(boxes[i], index=j) for j, i in enumerate(keep)]

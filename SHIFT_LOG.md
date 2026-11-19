@@ -171,3 +171,5 @@
 - 2026-11-20 凌晨 | N39 同字串垃圾行过滤 + FA 兼容码位归一 | ocr_postfix 新增 is_junk_repeat_line（整行同汉字≥3 次，Night6 垃圾过滤第三形态收口）与 normalize_compat_ideographs（U+F900-FA6B→NFKC 正则，OCR 实测输出含 FA42/FA5B）；ocr_engine 过滤链接线。92 行 GT：norm CER 0.3242→0.3233（小），变差 0 行/改善 1 行，垃圾行剔除 1 行；价值在下游码位正确性。pytest 79→87。781193 剩余垃圾为混合形态，列还原另开一夜。
 
 - 2026-11-20 凌晨 | N40 引擎级基线 + cluster box 对齐 bugfix + 界框数字垃圾行 | ocr_engine 返回新增 line_boxes；**修真 bug：cluster 模式只重排 resultlines 不重排 boxes（行文本/行框错位）**；is_junk_border_line（剔标点后仅 一/二 ≥6 字，781193 实形态混句读，首版漏、反例补测后修好）。产品流 92 行 GT：norm CER 0.3842→0.3216（−16%），macro 0.4076→0.2528；逐行 4 变差（全部病态页错配行）11 改善——如实记录，与 N38 的重写类不变式口径不同。碎框列还原主动收窄（R2 标题+小注误并风险，需独立一夜+护栏设计）；781193 高 CER 坐实为 GT 覆盖缺口（OCR 读出了当夜人工读不出的渗墨日期）。pytest 87→89。
+
+- 2026-11-20 凌晨 | N41 批量导入一本古籍 + 词典进引擎 | tools/import_book.py 端到端（論語序説 R3-R5：OCR 121s + 训读 2.8s → eval/import_rongo/book.md）；修集成缺口：B 类词典从 API 端点收口进引擎 postprocess_line（直接调引擎的调用方此前拿不到修正）；main.py seg 改 get() 健壮化。产品流 92 行 GT：norm CER 0.3216→0.3053（对 N40 基线累计 −21%），变差 0 行/改善 15 行。训读质量如实记录：仍在 avgDist≈21 域（白文句读缺失/专名误字所致）。整本 PID 自动下载导入留拍板。
