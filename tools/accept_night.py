@@ -10,7 +10,7 @@
 
 6 项检查（全部围绕「这一夜声称的成果是否真的还在」）：
   1. repo_clean        git 工作区干净（或只有未跟踪的临时文件）
-  2. pytest            tests/test_api.py 全过
+  2. pytest            tests 全量通过（D13 起；原为只跑 test_api.py）
   3. eval_integrity    评测文件 id 唯一、无重复、总数与自报一致、expected 未被改动
   4. rule_regression   规则按当前约定生效（NIGHT22 起：顧みて而して 保留、
                        无护栏 て而して 删除；正字化表可逆）
@@ -39,6 +39,11 @@ sys.path.insert(0, ROOT)
 
 LOG_PATH = os.path.join(ROOT, "ACCEPT_LOG.md")
 OUT_DIR = os.path.join(ROOT, "eval")
+
+# D13: pytest 检查的历史基线（全量 tests 的通过数下限）。
+# 原来是写死的 14（test_api.py 的旧口径），现在全量是 50 例，
+# 取 50 作为基线：任何一条测试消失都会让门 FAIL，防止「删测试换绿灯」。
+MIN_PASSED = 50
 
 # 每个夜声明的「评测归档文件」（用于检查 3）。缺省只查通用项。
 NIGHT_ARTIFACTS = {
@@ -142,12 +147,16 @@ def check_repo_clean(night):
 # 2. pytest
 # --------------------------------------------------------------------------
 def check_pytest(night, run_pytest):
-    c = Check("pytest", "tests/test_api.py 全过")
+    # D13: 口径从 tests/test_api.py（15 例）改成全量 tests（50 例）。
+    # 原口径是 D2 按当时的文件清单写的，之后 test_sodashite_guard /
+    # test_ocr_batch_progress / test_rule_d_kore / test_lifespan_migration
+    # 陆续加进来，门却一只只看 test_api——等于新测试全部不在门的覆盖里。
+    c = Check("pytest", "tests 全量通过")
     if not run_pytest:
         c.skip("--no-pytest：跳过")
         return c
     t0 = time.time()
-    p = subprocess.run([sys.executable, "-m", "pytest", "tests/test_api.py", "-q"],
+    p = subprocess.run([sys.executable, "-m", "pytest", "tests", "-q"],
                        cwd=ROOT, capture_output=True, text=True, encoding="utf-8",
                        errors="replace")
     tail = (p.stdout or "").strip().splitlines()
@@ -160,8 +169,8 @@ def check_pytest(night, run_pytest):
         c.detail["failed"] = int(failed.group(1))
     if p.returncode != 0:
         c.fail("pytest 退出码 %d" % p.returncode, returncode=p.returncode)
-    elif c.detail["passed"] < 14:
-        c.fail("通过数 %d < 14（历史基线）" % c.detail["passed"])
+    elif c.detail["passed"] < MIN_PASSED:
+        c.fail("通过数 %d < %d（历史基线）" % (c.detail["passed"], MIN_PASSED))
     else:
         c.notes.append("%d passed（%.1fs）" % (c.detail["passed"], c.detail["elapsed_sec"]))
     return c

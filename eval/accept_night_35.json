@@ -1,31 +1,34 @@
 {
   "night": 35,
-  "verdict": "PASS",
-  "checked_at": "2026-11-19T18:20:39",
-  "elapsed_sec": 24.0,
+  "verdict": "FAIL",
+  "checked_at": "2026-11-19T19:07:45",
+  "elapsed_sec": 25.8,
   "n_checks": 6,
-  "n_fail": 0,
+  "n_fail": 1,
   "n_skip": 1,
   "checks": [
     {
       "name": "repo_clean",
       "title": "git 工作区干净",
-      "status": "pass",
+      "status": "fail",
       "notes": [
         "验收门自身产物有更新（不计脏）：ACCEPT_LOG.md, eval/accept_night_22.json",
-        "已跟踪文件无改动",
-        "未跟踪：eval/ocr_gt_100.tsv, eval/ocr_samples/gt36/, eval/ocr_samples/gt36_hr/, eval/ocr_samples/gt36_probe.png, eval/ocr_samples/gt36_view/, eval/ocr_samples/hr_test.jpg, tools/night36_boxes.py, tools/night36_gt_crops.py, tools/night36_hires_dl.py, tools/night36_line_stats.py"
+        "已跟踪文件有未提交改动：1 个",
+        "未跟踪：eval/day13_old_copies.json, eval/ocr_gt_100.tsv, eval/ocr_samples/gt36/, eval/ocr_samples/gt36_hr/, eval/ocr_samples/gt36_probe.png, eval/ocr_samples/gt36_view/, eval/ocr_samples/hr_test.jpg, tools/day13_purge_old_copies.py, tools/night36_boxes.py, tools/night36_gt_crops.py"
       ],
       "detail": {
         "changed": [
           " M ACCEPT_LOG.md",
           " M eval/accept_night_22.json",
+          " M tools/accept_night.py",
+          "?? eval/day13_old_copies.json",
           "?? eval/ocr_gt_100.tsv",
           "?? eval/ocr_samples/gt36/",
           "?? eval/ocr_samples/gt36_hr/",
           "?? eval/ocr_samples/gt36_probe.png",
           "?? eval/ocr_samples/gt36_view/",
           "?? eval/ocr_samples/hr_test.jpg",
+          "?? tools/day13_purge_old_copies.py",
           "?? tools/night36_boxes.py",
           "?? tools/night36_gt_crops.py",
           "?? tools/night36_hires_dl.py",
@@ -38,14 +41,18 @@
           " M ACCEPT_LOG.md",
           " M eval/accept_night_22.json"
         ],
-        "tracked_changes": [],
+        "tracked_changes": [
+          " M tools/accept_night.py"
+        ],
         "untracked": [
+          "?? eval/day13_old_copies.json",
           "?? eval/ocr_gt_100.tsv",
           "?? eval/ocr_samples/gt36/",
           "?? eval/ocr_samples/gt36_hr/",
           "?? eval/ocr_samples/gt36_probe.png",
           "?? eval/ocr_samples/gt36_view/",
           "?? eval/ocr_samples/hr_test.jpg",
+          "?? tools/day13_purge_old_copies.py",
           "?? tools/night36_boxes.py",
           "?? tools/night36_gt_crops.py",
           "?? tools/night36_hires_dl.py",
@@ -53,23 +60,26 @@
           "?? tools/night36_sheet.py",
           "?? tools/night36_status.py",
           "?? tools/night36_view.py"
+        ],
+        "files": [
+          " M tools/accept_night.py"
         ]
       }
     },
     {
       "name": "pytest",
-      "title": "tests/test_api.py 全过",
+      "title": "tests 全量通过",
       "status": "pass",
       "notes": [
-        "15 passed（11.5s）"
+        "50 passed（15.2s）"
       ],
       "detail": {
-        "elapsed_sec": 11.5,
+        "elapsed_sec": 15.2,
         "tail": [
-          "...............                                                          [100%]",
-          "15 passed in 8.22s"
+          "..................................................                       [100%]",
+          "50 passed in 11.78s"
         ],
-        "passed": 15
+        "passed": 50
       }
     },
     {

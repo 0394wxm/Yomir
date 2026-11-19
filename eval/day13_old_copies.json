@@ -1,0 +1,34 @@
+{
+ "tool": "day13_purge_old_copies.py",
+ "apply": true,
+ "gitignore": [
+  "frontend/src-tauri/target/",
+  "frontend/src-tauri/sidecar/"
+ ],
+ "targets": {
+  "frontend/src-tauri/sidecar/_internal": {
+   "exists": true,
+   "files": 732,
+   "bytes": 502602319,
+   "mb": 479.3,
+   "main_py_mtime": "2026-11-18 21:32",
+   "main_py_has_on_event": true,
+   "main_py_has_lifespan": false,
+   "dist_js_with_dead_global": 1,
+   "deleted": true,
+   "delete_sec": 0.7
+  },
+  "frontend/src-tauri/target/release/sidecar/_internal": {
+   "exists": true,
+   "files": 839,
+   "bytes": 520784865,
+   "mb": 496.7,
+   "main_py_mtime": "2026-11-18 20:46",
+   "main_py_has_on_event": true,
+   "main_py_has_lifespan": false,
+   "dist_js_with_dead_global": 1,
+   "deleted": true,
+   "delete_sec": 0.7
+  }
+ }
+}
