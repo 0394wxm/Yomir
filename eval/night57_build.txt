@@ -1,0 +1,10 @@
+base 2000 | pool 1221 | picked 1000 | skipped {'dup_hakubun': 93}
+
+=== golden_3000 ===
+total 3000 | uniq ids 3000 | uniq hakubun 2975
+分档: {'≤20字': 2043, '21-40字': 542, '>60字': 168, '41-60字': 247}
+文体: {'故事': 1333, '論語': 362, '大学': 189, '孝経': 147, '詩経': 102, '漢詩': 867}
+新增来源: {'parallel_extra': 31, 'syubu_shikyo': 102, 'syubu_shijin': 867}
+新增分档: {'≤20字': 997, '21-40字': 3}
+新增文体: {'故事': 31, '詩経': 102, '漢詩': 867}
+written: D:\kanbun-kakikudashi\eval\golden_3000.json

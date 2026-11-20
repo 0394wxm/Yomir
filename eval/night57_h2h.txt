@@ -1,0 +1,3 @@
+对决（999 条共同有效）: 规则更好 306 | guwenbert 更好 325 | 持平 368
+规则 error 行: toushisen135-12 | '\'{"detail":"訓読処理失敗: KeyError(\\\'應,v,助動詞,必要,*\\\')"}\''
+guwenbert error 行: toushisen135-12 | "KeyError('應,v,助動詞,必要,*')"

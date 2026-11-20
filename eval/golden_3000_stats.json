@@ -1,0 +1,39 @@
+{
+  "total": 3000,
+  "base": 2000,
+  "new": 1000,
+  "uniq_ids": 3000,
+  "uniq_hakubun": 2975,
+  "by_bucket": {
+    "≤20字": 2043,
+    "21-40字": 542,
+    ">60字": 168,
+    "41-60字": 247
+  },
+  "by_genre": {
+    "故事": 1333,
+    "論語": 362,
+    "大学": 189,
+    "孝経": 147,
+    "詩経": 102,
+    "漢詩": 867
+  },
+  "new_by_bucket": {
+    "≤20字": 997,
+    "21-40字": 3
+  },
+  "new_by_genre": {
+    "故事": 31,
+    "詩経": 102,
+    "漢詩": 867
+  },
+  "new_by_src": {
+    "parallel_extra": 31,
+    "syubu_shikyo": 102,
+    "syubu_shijin": 867
+  },
+  "skipped": {
+    "dup_hakubun": 93
+  },
+  "base_internal_dups": 25
+}
