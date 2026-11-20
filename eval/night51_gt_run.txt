@@ -1,0 +1,10 @@
+[engine] load 24.2s
+[ndl_11892692_R0000003.jpg] 21.6s lines=9 layout=0 junk=0 unmatched_no=0
+[ndl_11892692_R0000004.jpg] 28.5s lines=16 layout=0 junk=0 unmatched_no=0
+[ndl_11892692_R0000005.jpg] 27.2s lines=16 layout=0 junk=0 unmatched_no=0
+[ndl_1033232_R0000003.jpg] 16.2s lines=5 layout=0 junk=0 unmatched_no=0
+[ndl_10301438_R0000002.jpg] 17.8s lines=5 layout=6 junk=0 unmatched_no=0
+[ndl_10301438_R0000003.jpg] 35.9s lines=20 layout=0 junk=2 unmatched_no=0
+[ndl_781192_R0000003.jpg] 22.9s lines=6 layout=0 junk=1 unmatched_no=0
+[ndl_781193_R0000003.jpg] 52.1s lines=25 layout=0 junk=3 unmatched_no=0
+[done] written: D:\kanbun-kakikudashi\eval/night51_gt_lines.json
