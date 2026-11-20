@@ -37,9 +37,9 @@ from backend.ocr_postfix import (  # noqa: E402
     normalize_compat_ideographs,
     postprocess_line,
 )
-from backend.ocr_layout import (  # noqa: E402  (NIGHT43/45/46 版面)
+from backend.ocr_layout import (  # noqa: E402  (NIGHT43/45/46/49 版面)
     _main_group, _median, judge_headnote_strip, judge_layout, main_column_keys,
-    reorder_main_slots,
+    reorder_main_slots, reorder_warichu_slots,
 )
 
 logger = logging.getLogger("kanbun.ocr")
@@ -191,10 +191,16 @@ class OCREngine:
             if not placed:
                 units.append({"kind": "row", "box": dict(b), "items": [b]})
         # 列单元按右→左、行单元按上→下，最后把单元按质心排序输出
+        # NIGHT49: 割注并排槽重排（默认开，KANBUN_OCR_WARICHU=0 回退）。
+        # 縦書き同一行高上应右→左读，而纯 y 排序在 |Δy|<=4px 时由检测噪声决定
+        # 左右顺序——实测 296 对严格割注里 25 对颠倒。
+        use_warichu = os.environ.get("KANBUN_OCR_WARICHU", "1") != "0"
         main_keys = main_column_keys(boxes) if use_maincol else set()
         for u in units:
             if u["kind"] == "col":
                 u["items"] = sorted(u["items"], key=lambda t: t["y"])
+                if use_warichu:
+                    u["items"] = reorder_warichu_slots(u["items"])
                 if use_maincol:
                     u["items"] = reorder_main_slots(u["items"], main_keys)
             else:

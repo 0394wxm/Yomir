@@ -179,6 +179,52 @@ def main_column_keys(boxes):
     return {(b["x"], b["y"], b["w"], b["h"]) for b in main}
 
 
+# NIGHT49 割注并排槽重排的 y 容差（像素）。
+# 同一列单元内，|Δy_top| <= 此值的连续框视为「同一个 y 槽」= 縦書き里并排的
+# 半行（割注双行、并列主栏）。槽内应右→左读，而 `sorted(key=y)` 是纯 y 序，
+# 两半顶端差 1-4px 就会把左半排到前面。
+# 选值依据（tools/night49_tol_probe.py）：全本 536 个「单元内 x 不相交的相邻
+# 框对」的 |Δy| 有 519 个 (96.8%) <= 7px，12-40px 区间几乎空——8 落在平台区。
+# 敏感性（tools/night49_sweep.py）：TOL 4-30 右先率恒为 99.3%、退化恒为 0。
+WARICHU_TOL = 8
+
+
+def reorder_warichu_slots(items, tol=None):
+    """列单元内：同一 y 槽（|Δy| <= tol）的并排框按右→左排。
+
+    items: 已按 y 排好序的列单元框列表（`_cluster_order` 的单元内顺序）
+    返回: 新列表（长度与内容多重集不变）
+
+    为什么需要：縦書き的阅读顺序在「同一行高」上是从右到左的。原实现只按 y
+    排序，y 相等或相差 1-4px 时顺序由检测框的亚像素噪声决定——实测 296 对
+    严格割注里 25 对因此左右颠倒（dy(L-R) 全为 -1..-4，无一是正）。
+
+    护栏：槽的划分只看 y（连续、以槽首框为锚，|Δy| <= tol），**不跨槽**。
+    槽内所有框的 y 差值都 <= tol，几何上不可能构成「上下堆叠」关系，所以
+    重排不会打乱任何真正的上下阅读顺序——上下相接的框 Δy 至少是半个行高，
+    必然落在不同槽。槽内若有高度重合的重复检测框，两者位置几乎相同，
+    谁先谁后对阅读无差别。
+    """
+    if tol is None:
+        tol = WARICHU_TOL
+    if len(items) < 2:
+        return items
+    items = sorted(items, key=lambda t: t["y"])
+    out = []
+    i, n = 0, len(items)
+    while i < n:
+        j = i + 1
+        anchor_y = items[i]["y"]
+        while j < n and abs(items[j]["y"] - anchor_y) <= tol:
+            j += 1
+        run = items[i:j]
+        if len(run) > 1:
+            run = sorted(run, key=lambda t: -(t["x"] + t["w"]))
+        out.extend(run)
+        i = j
+    return out
+
+
 def reorder_main_slots(items, main_keys):
     """列单元内只重排主栏框的槽位；非主栏框位置逐位不变。
 

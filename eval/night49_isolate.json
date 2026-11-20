@@ -1,0 +1,381 @@
+{
+ "per_page": [
+  {
+   "page": "p007",
+   "n": 12,
+   "before": 10,
+   "after": 12,
+   "moved": 7
+  },
+  {
+   "page": "p008",
+   "n": 14,
+   "before": 11,
+   "after": 14,
+   "moved": 8
+  },
+  {
+   "page": "p009",
+   "n": 22,
+   "before": 20,
+   "after": 20,
+   "moved": 4
+  },
+  {
+   "page": "p010",
+   "n": 23,
+   "before": 20,
+   "after": 21,
+   "moved": 8
+  },
+  {
+   "page": "p011",
+   "n": 11,
+   "before": 11,
+   "after": 11,
+   "moved": 0
+  },
+  {
+   "page": "p012",
+   "n": 19,
+   "before": 15,
+   "after": 19,
+   "moved": 13
+  },
+  {
+   "page": "p013",
+   "n": 23,
+   "before": 19,
+   "after": 23,
+   "moved": 18
+  },
+  {
+   "page": "p014",
+   "n": 25,
+   "before": 22,
+   "after": 25,
+   "moved": 11
+  },
+  {
+   "page": "p015",
+   "n": 23,
+   "before": 17,
+   "after": 23,
+   "moved": 15
+  },
+  {
+   "page": "p016",
+   "n": 4,
+   "before": 3,
+   "after": 4,
+   "moved": 3
+  },
+  {
+   "page": "p017",
+   "n": 14,
+   "before": 12,
+   "after": 14,
+   "moved": 10
+  },
+  {
+   "page": "p018",
+   "n": 17,
+   "before": 16,
+   "after": 16,
+   "moved": 8
+  },
+  {
+   "page": "p019",
+   "n": 26,
+   "before": 22,
+   "after": 26,
+   "moved": 12
+  },
+  {
+   "page": "p020",
+   "n": 27,
+   "before": 23,
+   "after": 26,
+   "moved": 14
+  },
+  {
+   "page": "p021",
+   "n": 11,
+   "before": 9,
+   "after": 11,
+   "moved": 9
+  },
+  {
+   "page": "p022",
+   "n": 15,
+   "before": 14,
+   "after": 15,
+   "moved": 3
+  },
+  {
+   "page": "p023",
+   "n": 10,
+   "before": 6,
+   "after": 10,
+   "moved": 11
+  },
+  {
+   "page": "p024",
+   "n": 17,
+   "before": 11,
+   "after": 17,
+   "moved": 14
+  },
+  {
+   "page": "p025",
+   "n": 15,
+   "before": 15,
+   "after": 15,
+   "moved": 3
+  },
+  {
+   "page": "p026",
+   "n": 8,
+   "before": 8,
+   "after": 8,
+   "moved": 0
+  },
+  {
+   "page": "p027",
+   "n": 14,
+   "before": 13,
+   "after": 14,
+   "moved": 3
+  },
+  {
+   "page": "p028",
+   "n": 8,
+   "before": 8,
+   "after": 8,
+   "moved": 0
+  },
+  {
+   "page": "p029",
+   "n": 16,
+   "before": 14,
+   "after": 16,
+   "moved": 5
+  },
+  {
+   "page": "p030",
+   "n": 6,
+   "before": 6,
+   "after": 6,
+   "moved": 2
+  },
+  {
+   "page": "p031",
+   "n": 13,
+   "before": 12,
+   "after": 13,
+   "moved": 6
+  },
+  {
+   "page": "p032",
+   "n": 12,
+   "before": 12,
+   "after": 12,
+   "moved": 0
+  },
+  {
+   "page": "p033",
+   "n": 18,
+   "before": 16,
+   "after": 18,
+   "moved": 4
+  },
+  {
+   "page": "p034",
+   "n": 8,
+   "before": 7,
+   "after": 8,
+   "moved": 5
+  },
+  {
+   "page": "p035",
+   "n": 6,
+   "before": 5,
+   "after": 6,
+   "moved": 4
+  },
+  {
+   "page": "p036",
+   "n": 16,
+   "before": 15,
+   "after": 16,
+   "moved": 4
+  },
+  {
+   "page": "p037",
+   "n": 14,
+   "before": 14,
+   "after": 14,
+   "moved": 4
+  },
+  {
+   "page": "p038",
+   "n": 17,
+   "before": 17,
+   "after": 17,
+   "moved": 8
+  },
+  {
+   "page": "p039",
+   "n": 21,
+   "before": 21,
+   "after": 21,
+   "moved": 7
+  },
+  {
+   "page": "p040",
+   "n": 22,
+   "before": 19,
+   "after": 22,
+   "moved": 10
+  },
+  {
+   "page": "p041",
+   "n": 22,
+   "before": 19,
+   "after": 21,
+   "moved": 11
+  },
+  {
+   "page": "p042",
+   "n": 16,
+   "before": 15,
+   "after": 16,
+   "moved": 4
+  },
+  {
+   "page": "p043",
+   "n": 16,
+   "before": 14,
+   "after": 16,
+   "moved": 6
+  },
+  {
+   "page": "p044",
+   "n": 23,
+   "before": 20,
+   "after": 23,
+   "moved": 10
+  },
+  {
+   "page": "p045",
+   "n": 6,
+   "before": 6,
+   "after": 6,
+   "moved": 2
+  }
+ ],
+ "total": 610,
+ "before": 537,
+ "after": 603,
+ "exceptions_after": [
+  {
+   "page": "p009",
+   "r": {
+    "x": 356,
+    "y": 156,
+    "text": "十歳集九草"
+   },
+   "l": {
+    "x": 326,
+    "y": 53,
+    "text": "和字、外属下意属氏、同例"
+   }
+  },
+  {
+   "page": "p009",
+   "r": {
+    "x": 344,
+    "y": 156,
+    "text": "浅説町本社"
+   },
+   "l": {
+    "x": 306,
+    "y": 56,
+    "text": "与国而不学、民斯国下表同、"
+   }
+  },
+  {
+   "page": "p010",
+   "r": {
+    "x": 356,
+    "y": 154,
+    "text": "十二十九年十"
+   },
+   "l": {
+    "x": 325,
+    "y": 53,
+    "text": "和字、勾属下、意属氏、洞例"
+   }
+  },
+  {
+   "page": "p010",
+   "r": {
+    "x": 343,
+    "y": 155,
+    "text": "演説の巻"
+   },
+   "l": {
+    "x": 305,
+    "y": 55,
+    "text": "与聞而不幸、民町留下米間、"
+   }
+  },
+  {
+   "page": "p018",
+   "r": {
+    "x": 854,
+    "y": 155,
+    "text": "九達"
+   },
+   "l": {
+    "x": 816,
+    "y": 60,
+    "text": "一、能言不知、齢騰言、"
+   }
+  },
+  {
+   "page": "p020",
+   "r": {
+    "x": 845,
+    "y": 116,
+    "text": "新助麹町三丁"
+   },
+   "l": {
+    "x": 800,
+    "y": 51,
+    "text": "三家声勢院成退至日若殿"
+   }
+  },
+  {
+   "page": "p041",
+   "r": {
+    "x": 1195,
+    "y": 57,
+    "text": "胡瓜玩亨刪"
+   },
+   "l": {
+    "x": 1171,
+    "y": 45,
+    "text": "論陰本所芸門人皆物手代人代"
+   }
+  }
+ ],
+ "nonidentical_before": [
+  {
+   "page": "p021",
+   "n": 41,
+   "n_diff": 2
+  }
+ ],
+ "moved_lines": 266
+}

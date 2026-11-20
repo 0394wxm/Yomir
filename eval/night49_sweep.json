@@ -1,0 +1,110 @@
+[
+ {
+  "tol": 2,
+  "pairs": 296,
+  "before": 272,
+  "after": 293,
+  "changed_pages": 27,
+  "perm_changes": 132,
+  "regressions": []
+ },
+ {
+  "tol": 3,
+  "pairs": 296,
+  "before": 272,
+  "after": 293,
+  "changed_pages": 29,
+  "perm_changes": 146,
+  "regressions": []
+ },
+ {
+  "tol": 4,
+  "pairs": 296,
+  "before": 272,
+  "after": 294,
+  "changed_pages": 29,
+  "perm_changes": 147,
+  "regressions": []
+ },
+ {
+  "tol": 5,
+  "pairs": 296,
+  "before": 272,
+  "after": 294,
+  "changed_pages": 29,
+  "perm_changes": 145,
+  "regressions": []
+ },
+ {
+  "tol": 6,
+  "pairs": 296,
+  "before": 272,
+  "after": 294,
+  "changed_pages": 30,
+  "perm_changes": 147,
+  "regressions": []
+ },
+ {
+  "tol": 7,
+  "pairs": 296,
+  "before": 272,
+  "after": 294,
+  "changed_pages": 30,
+  "perm_changes": 149,
+  "regressions": []
+ },
+ {
+  "tol": 8,
+  "pairs": 296,
+  "before": 272,
+  "after": 294,
+  "changed_pages": 30,
+  "perm_changes": 149,
+  "regressions": []
+ },
+ {
+  "tol": 10,
+  "pairs": 296,
+  "before": 272,
+  "after": 294,
+  "changed_pages": 30,
+  "perm_changes": 151,
+  "regressions": []
+ },
+ {
+  "tol": 12,
+  "pairs": 296,
+  "before": 272,
+  "after": 294,
+  "changed_pages": 30,
+  "perm_changes": 157,
+  "regressions": []
+ },
+ {
+  "tol": 16,
+  "pairs": 296,
+  "before": 272,
+  "after": 294,
+  "changed_pages": 30,
+  "perm_changes": 159,
+  "regressions": []
+ },
+ {
+  "tol": 20,
+  "pairs": 296,
+  "before": 272,
+  "after": 294,
+  "changed_pages": 30,
+  "perm_changes": 157,
+  "regressions": []
+ },
+ {
+  "tol": 30,
+  "pairs": 296,
+  "before": 272,
+  "after": 294,
+  "changed_pages": 30,
+  "perm_changes": 157,
+  "regressions": []
+ }
+]

@@ -1,0 +1,160 @@
+{
+ "tol": 16,
+ "pairs": 296,
+ "right_first_before": 272,
+ "right_first_after": 294,
+ "regressions": [],
+ "changed_pages": [
+  {
+   "page": "p007",
+   "changed": 2,
+   "n": 32
+  },
+  {
+   "page": "p009",
+   "changed": 4,
+   "n": 62
+  },
+  {
+   "page": "p010",
+   "changed": 10,
+   "n": 62
+  },
+  {
+   "page": "p012",
+   "changed": 7,
+   "n": 52
+  },
+  {
+   "page": "p013",
+   "changed": 14,
+   "n": 59
+  },
+  {
+   "page": "p014",
+   "changed": 2,
+   "n": 44
+  },
+  {
+   "page": "p015",
+   "changed": 6,
+   "n": 44
+  },
+  {
+   "page": "p016",
+   "changed": 3,
+   "n": 17
+  },
+  {
+   "page": "p017",
+   "changed": 5,
+   "n": 45
+  },
+  {
+   "page": "p018",
+   "changed": 2,
+   "n": 48
+  },
+  {
+   "page": "p019",
+   "changed": 4,
+   "n": 53
+  },
+  {
+   "page": "p020",
+   "changed": 9,
+   "n": 55
+  },
+  {
+   "page": "p021",
+   "changed": 9,
+   "n": 41
+  },
+  {
+   "page": "p022",
+   "changed": 3,
+   "n": 50
+  },
+  {
+   "page": "p023",
+   "changed": 6,
+   "n": 29
+  },
+  {
+   "page": "p024",
+   "changed": 14,
+   "n": 51
+  },
+  {
+   "page": "p025",
+   "changed": 3,
+   "n": 48
+  },
+  {
+   "page": "p029",
+   "changed": 5,
+   "n": 49
+  },
+  {
+   "page": "p031",
+   "changed": 2,
+   "n": 35
+  },
+  {
+   "page": "p033",
+   "changed": 3,
+   "n": 44
+  },
+  {
+   "page": "p034",
+   "changed": 2,
+   "n": 39
+  },
+  {
+   "page": "p035",
+   "changed": 2,
+   "n": 32
+  },
+  {
+   "page": "p037",
+   "changed": 4,
+   "n": 46
+  },
+  {
+   "page": "p038",
+   "changed": 3,
+   "n": 45
+  },
+  {
+   "page": "p039",
+   "changed": 2,
+   "n": 52
+  },
+  {
+   "page": "p040",
+   "changed": 5,
+   "n": 58
+  },
+  {
+   "page": "p041",
+   "changed": 10,
+   "n": 53
+  },
+  {
+   "page": "p042",
+   "changed": 4,
+   "n": 48
+  },
+  {
+   "page": "p043",
+   "changed": 6,
+   "n": 40
+  },
+  {
+   "page": "p044",
+   "changed": 8,
+   "n": 51
+  }
+ ],
+ "total_perm_changes": 159
+}
