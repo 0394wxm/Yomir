@@ -1,8 +1,8 @@
 {
   "night": 45,
   "verdict": "PASS",
-  "checked_at": "2026-11-20T16:12:52",
-  "elapsed_sec": 32.5,
+  "checked_at": "2026-11-20T16:24:12",
+  "elapsed_sec": 31.1,
   "n_checks": 6,
   "n_fail": 0,
   "n_skip": 1,
@@ -12,14 +12,11 @@
       "title": "git 工作区干净",
       "status": "pass",
       "notes": [
-        "验收门自身产物有更新（不计脏）：ACCEPT_LOG.md",
         "已跟踪文件无改动",
-        "未跟踪：eval/accept_night_45.json, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_01.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_02.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_03.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_04.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_05.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_06.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_07.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_08.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_09.png"
+        "未跟踪：eval/ocr_samples/gt36/ndl_10301438_R0000002/line_01.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_02.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_03.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_04.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_05.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_06.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_07.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_08.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_09.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_10.png"
       ],
       "detail": {
         "changed": [
-          " M ACCEPT_LOG.md",
-          "?? eval/accept_night_45.json",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_01.png",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_02.png",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_03.png",
@@ -547,12 +544,8 @@
           "?? eval/ocr_samples/gt36_view/",
           "?? eval/ocr_samples/hr_test.jpg"
         ],
-        "gate_owned_changes": [
-          " M ACCEPT_LOG.md"
-        ],
         "tracked_changes": [],
         "untracked": [
-          "?? eval/accept_night_45.json",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_01.png",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_02.png",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_03.png",
@@ -1087,16 +1080,16 @@
       "title": "tests 全量通过",
       "status": "pass",
       "notes": [
-        "116 passed = 116 collected（16.1s，收集 5.5s）"
+        "116 passed = 116 collected（15.2s，收集 4.8s）"
       ],
       "detail": {
         "collected": 116,
-        "collect_sec": 5.5,
-        "elapsed_sec": 16.1,
+        "collect_sec": 4.8,
+        "elapsed_sec": 15.2,
         "tail": [
           "........................................................................ [ 62%]",
           "............................................                             [100%]",
-          "116 passed in 13.55s"
+          "116 passed in 12.64s"
         ],
         "passed": 116
       }
@@ -1168,15 +1161,15 @@
       "title": "单句训读耗时在包络内",
       "status": "pass",
       "notes": [
-        "短句中位 11ms（包络 3000ms）"
+        "短句中位 7ms（包络 3000ms）"
       ],
       "detail": {
         "ms": [
-          11.0,
-          6.0,
-          13.0
+          7.0,
+          13.0,
+          7.0
         ],
-        "median_ms": 11.0,
+        "median_ms": 7.0,
         "limit_ms": 3000.0
       }
     }
