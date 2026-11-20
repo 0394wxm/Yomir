@@ -1,0 +1,421 @@
+{
+ "n": 21,
+ "hits": [
+  {
+   "page": "p012",
+   "x": 1031,
+   "y": 709,
+   "w": 44,
+   "h": 87,
+   "w_rel_main": 0.88,
+   "h_rel": 0.125,
+   "x_right": 1075,
+   "page_xhi": 1185,
+   "kana": 0.0,
+   "n_peers": 0,
+   "peer_w": [],
+   "peer_span": null,
+   "text": "◯子游"
+  },
+  {
+   "page": "p012",
+   "x": 977,
+   "y": 703,
+   "w": 45,
+   "h": 91,
+   "w_rel_main": 0.9,
+   "h_rel": 0.131,
+   "x_right": 1022,
+   "page_xhi": 1185,
+   "kana": 0.0,
+   "n_peers": 0,
+   "peer_w": [],
+   "peer_span": null,
+   "text": "八馬皆"
+  },
+  {
+   "page": "p012",
+   "x": 932,
+   "y": 706,
+   "w": 39,
+   "h": 86,
+   "w_rel_main": 0.78,
+   "h_rel": 0.124,
+   "x_right": 971,
+   "page_xhi": 1185,
+   "kana": 0.0,
+   "n_peers": 1,
+   "peer_w": [
+    21
+   ],
+   "peer_span": [
+    45,
+    390
+   ],
+   "text": "白色"
+  },
+  {
+   "page": "p014",
+   "x": 618,
+   "y": 666,
+   "w": 18,
+   "h": 135,
+   "w_rel_main": 0.346,
+   "h_rel": 0.177,
+   "x_right": 636,
+   "page_xhi": 1180,
+   "kana": 0.0,
+   "n_peers": 2,
+   "peer_w": [
+    24,
+    54
+   ],
+   "peer_span": [
+    49,
+    806
+   ],
+   "text": "外法純氏魂可従"
+  },
+  {
+   "page": "p015",
+   "x": 618,
+   "y": 666,
+   "w": 18,
+   "h": 136,
+   "w_rel_main": 0.343,
+   "h_rel": 0.172,
+   "x_right": 636,
+   "page_xhi": 1178,
+   "kana": 0.0,
+   "n_peers": 2,
+   "peer_w": [
+    24,
+    54
+   ],
+   "peer_span": [
+    49,
+    806
+   ],
+   "text": "外法納氏説可従"
+  },
+  {
+   "page": "p017",
+   "x": 977,
+   "y": 652,
+   "w": 46,
+   "h": 137,
+   "w_rel_main": 0.92,
+   "h_rel": 0.174,
+   "x_right": 1023,
+   "page_xhi": 1187,
+   "kana": 0.0,
+   "n_peers": 0,
+   "peer_w": [],
+   "peer_span": null,
+   "text": "一金壱丁"
+  },
+  {
+   "page": "p017",
+   "x": 924,
+   "y": 656,
+   "w": 44,
+   "h": 137,
+   "w_rel_main": 0.88,
+   "h_rel": 0.174,
+   "x_right": 968,
+   "page_xhi": 1187,
+   "kana": 0.0,
+   "n_peers": 3,
+   "peer_w": [
+    25,
+    22,
+    12
+   ],
+   "peer_span": [
+    50,
+    657
+   ],
+   "text": "事後素曰。"
+  },
+  {
+   "page": "p017",
+   "x": 873,
+   "y": 656,
+   "w": 45,
+   "h": 137,
+   "w_rel_main": 0.9,
+   "h_rel": 0.174,
+   "x_right": 918,
+   "page_xhi": 1187,
+   "kana": 0.0,
+   "n_peers": 2,
+   "peer_w": [
+    22,
+    17
+   ],
+   "peer_span": [
+    55,
+    630
+   ],
+   "text": "同同日本"
+  },
+  {
+   "page": "p019",
+   "x": 1067,
+   "y": 699,
+   "w": 15,
+   "h": 90,
+   "w_rel_main": 0.291,
+   "h_rel": 0.154,
+   "x_right": 1082,
+   "page_xhi": 1183,
+   "kana": 0.0,
+   "n_peers": 2,
+   "peer_w": [
+    16,
+    50
+   ],
+   "peer_span": [
+    52,
+    800
+   ],
+   "text": "当村人名平着"
+  },
+  {
+   "page": "p020",
+   "x": 1065,
+   "y": 701,
+   "w": 15,
+   "h": 83,
+   "w_rel_main": 0.297,
+   "h_rel": 0.142,
+   "x_right": 1080,
+   "page_xhi": 1181,
+   "kana": 0.0,
+   "n_peers": 2,
+   "peer_w": [
+    16,
+    50
+   ],
+   "peer_span": [
+    53,
+    800
+   ],
+   "text": "当時人名平名"
+  },
+  {
+   "page": "p031",
+   "x": 487,
+   "y": 722,
+   "w": 44,
+   "h": 72,
+   "w_rel_main": 0.786,
+   "h_rel": 0.104,
+   "x_right": 531,
+   "page_xhi": 1195,
+   "kana": 0.0,
+   "n_peers": 0,
+   "peer_w": [],
+   "peer_span": null,
+   "text": "干子"
+  },
+  {
+   "page": "p031",
+   "x": 432,
+   "y": 725,
+   "w": 45,
+   "h": 71,
+   "w_rel_main": 0.804,
+   "h_rel": 0.102,
+   "x_right": 477,
+   "page_xhi": 1195,
+   "kana": 0.0,
+   "n_peers": 0,
+   "peer_w": [],
+   "peer_span": null,
+   "text": "也曰"
+  },
+  {
+   "page": "p031",
+   "x": 377,
+   "y": 726,
+   "w": 48,
+   "h": 71,
+   "w_rel_main": 0.857,
+   "h_rel": 0.102,
+   "x_right": 425,
+   "page_xhi": 1195,
+   "kana": 0.0,
+   "n_peers": 0,
+   "peer_w": [],
+   "peer_span": null,
+   "text": "加徳"
+  },
+  {
+   "page": "p031",
+   "x": 328,
+   "y": 730,
+   "w": 45,
+   "h": 67,
+   "w_rel_main": 0.804,
+   "h_rel": 0.097,
+   "x_right": 373,
+   "page_xhi": 1195,
+   "kana": 0.0,
+   "n_peers": 0,
+   "peer_w": [],
+   "peer_span": null,
+   "text": "曲肱"
+  },
+  {
+   "page": "p031",
+   "x": 273,
+   "y": 728,
+   "w": 50,
+   "h": 69,
+   "w_rel_main": 0.893,
+   "h_rel": 0.099,
+   "x_right": 323,
+   "page_xhi": 1195,
+   "kana": 0.0,
+   "n_peers": 0,
+   "peer_w": [],
+   "peer_span": null,
+   "text": "於我"
+  },
+  {
+   "page": "p036",
+   "x": 457,
+   "y": 687,
+   "w": 21,
+   "h": 108,
+   "w_rel_main": 0.396,
+   "h_rel": 0.183,
+   "x_right": 478,
+   "page_xhi": 1199,
+   "kana": 0.0,
+   "n_peers": 2,
+   "peer_w": [
+    17,
+    53
+   ],
+   "peer_span": [
+    51,
+    800
+   ],
+   "text": "知新日添中角二"
+  },
+  {
+   "page": "p038",
+   "x": 967,
+   "y": 593,
+   "w": 16,
+   "h": 236,
+   "w_rel_main": 0.308,
+   "h_rel": 0.344,
+   "x_right": 983,
+   "page_xhi": 1024,
+   "kana": 0.059,
+   "n_peers": 3,
+   "peer_w": [
+    18,
+    48,
+    49
+   ],
+   "peer_span": [
+    43,
+    798
+   ],
+   "text": "孝益敬養之意不雅云吉識高陪也用孝に"
+  },
+  {
+   "page": "p040",
+   "x": 922,
+   "y": 665,
+   "w": 20,
+   "h": 101,
+   "w_rel_main": 0.377,
+   "h_rel": 0.129,
+   "x_right": 942,
+   "page_xhi": 1197,
+   "kana": 0.0,
+   "n_peers": 3,
+   "peer_w": [
+    21,
+    52,
+    53
+   ],
+   "peer_span": [
+    53,
+    799
+   ],
+   "text": "伝習録有院"
+  },
+  {
+   "page": "p041",
+   "x": 1139,
+   "y": 622,
+   "w": 20,
+   "h": 170,
+   "w_rel_main": 0.37,
+   "h_rel": 0.257,
+   "x_right": 1159,
+   "page_xhi": 1204,
+   "kana": 0.0,
+   "n_peers": 3,
+   "peer_w": [
+    19,
+    53,
+    54
+   ],
+   "peer_span": [
+    45,
+    799
+   ],
+   "text": "言釈之義之也、用綴銘々"
+  },
+  {
+   "page": "p044",
+   "x": 1187,
+   "y": 734,
+   "w": 13,
+   "h": 57,
+   "w_rel_main": 0.245,
+   "h_rel": 0.096,
+   "x_right": 1200,
+   "page_xhi": 1197,
+   "kana": 0.0,
+   "n_peers": 2,
+   "peer_w": [
+    17,
+    54
+   ],
+   "peer_span": [
+    69,
+    800
+   ],
+   "text": "大金表主"
+  },
+  {
+   "page": "p044",
+   "x": 1028,
+   "y": 658,
+   "w": 18,
+   "h": 150,
+   "w_rel_main": 0.34,
+   "h_rel": 0.254,
+   "x_right": 1046,
+   "page_xhi": 1197,
+   "kana": 0.0,
+   "n_peers": 1,
+   "peer_w": [
+    54
+   ],
+   "peer_span": [
+    212,
+    799
+   ],
+   "text": "一元条同不出旨、若出吉、新聞"
+  }
+ ]
+}
