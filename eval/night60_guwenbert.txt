@@ -1,0 +1,34 @@
+新增段 [3000:] 共 1000 条
+engine built in 100.2s
+D:\Python312\Lib\site-packages\supar\utils\fn.py:82: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:381.)
+  out_tensor[i][[slice(-i, None) if padding_side == 'left' else slice(0, i) for i in tensor.size()]] = tensor
+D:\Python312\Lib\site-packages\supar\modules\lstm.py:152: FutureWarning: `apply_permutation` is deprecated, please use `tensor.index_select(dim, permutation)` instead
+  h = apply_permutation(hx[0], permutation)
+D:\Python312\Lib\site-packages\supar\modules\lstm.py:153: FutureWarning: `apply_permutation` is deprecated, please use `tensor.index_select(dim, permutation)` instead
+  c = apply_permutation(hx[1], permutation)
+  50/1000 avgDist 7.22 (97s)
+  100/1000 avgDist 7.49 (166s)
+  150/1000 avgDist 7.37 (215s)
+  200/1000 avgDist 6.81 (248s)
+  250/1000 avgDist 6.53 (291s)
+  300/1000 avgDist 6.68 (334s)
+  350/1000 avgDist 6.87 (370s)
+  400/1000 avgDist 6.80 (405s)
+  450/1000 avgDist 6.68 (446s)
+  500/1000 avgDist 6.56 (488s)
+  550/1000 avgDist 6.47 (519s)
+  600/1000 avgDist 6.44 (546s)
+  650/1000 avgDist 6.39 (580s)
+  700/1000 avgDist 6.34 (625s)
+  750/1000 avgDist 6.46 (662s)
+  800/1000 avgDist 6.56 (694s)
+  850/1000 avgDist 6.59 (733s)
+  900/1000 avgDist 6.71 (785s)
+  950/1000 avgDist 6.67 (829s)
+  1000/1000 avgDist 6.64 (864s)
+
+=== guwenbert 新增 999 条 ===
+OK 999 / error 1 | 精确 1 | avgDist 6.639
+  ≤20字     n= 999 avg   6.64 exact 1
+  漢詩     n= 999 avg   6.64 exact 1
+written: D:\kanbun-kakikudashi\eval\night60_guwenbert_new1000.json

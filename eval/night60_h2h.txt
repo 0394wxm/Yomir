@@ -1,0 +1,18 @@
+新增段 1000 条 | 双方可比 999 | 规则 error 1 ['toushisen043-16'] | guwenbert error 1 ['toushisen043-16']
+规则     avgDist 6.896 | 精确 3
+guwenbert avgDist 6.639 | 精确 1
+逐条对决：规则更好 291 | guwenbert 更好 373 | 持平 335
+
+规则相对优势 top5：
+  toushisen043-22 规则 9 vs gwb 17 | 可憐春半不還家
+  toushisen149-10 规则 4 vs gwb 11 | 愛客且相攜
+  toushisen020-2 规则 14 vs gwb 20 | 謂到南中每相見
+  toushisen109-6 规则 6 vs gwb 12 | 戰苦陣雲深
+  toushisen110-1 规则 2 vs gwb 8 | 晩景寒鴉集
+
+guwenbert 相对优势 top5：
+  toushisen058-6 规则 11 vs gwb 3 | 何日紆眞果
+  ryushi02-4 规则 11 vs gwb 4 | 背却桃花獨自眠
+  toushisen154-1 规则 8 vs gwb 1 | 盧家少婦鬱金堂
+  toushisen171-8 规则 15 vs gwb 8 | 無如此處學長生
+  shushi-2 规则 14 vs gwb 8 | 欲作家書意萬重
