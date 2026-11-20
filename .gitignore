@@ -26,6 +26,9 @@ uploads/
 # OCR 引擎运行目录（从 D:\dlkotenocr-lite 的 app.zip 解压，模型不入库）
 ocr_runtime/
 
+# NIGHT43 补: import_pid 下载的页图缓存（红线：页图不入库，只留 book.md 等产物）
+eval/import_pid_*/pages/
+
 # SQLite 数据库
 *.db
 *.db-wal

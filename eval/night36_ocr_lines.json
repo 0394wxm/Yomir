@@ -1,5 +1,5 @@
 {
-  "engine_load_sec": 45.1,
+  "engine_load_sec": 80.0,
   "n_pages": 8,
   "results": [
     {
@@ -8,8 +8,8 @@
       "page": "R0000003",
       "img_w": 1400,
       "img_h": 978,
-      "detect_sec": 25.3,
-      "recognize_sec": 25.7,
+      "detect_sec": 40.5,
+      "recognize_sec": 25.8,
       "boxes_n_lines": 9,
       "ocr_n_lines": 9,
       "lines": [
@@ -93,8 +93,8 @@
       "page": "R0000004",
       "img_w": 1400,
       "img_h": 978,
-      "detect_sec": 26.7,
-      "recognize_sec": 42.3,
+      "detect_sec": 21.6,
+      "recognize_sec": 18.9,
       "boxes_n_lines": 16,
       "ocr_n_lines": 16,
       "lines": [
@@ -234,8 +234,8 @@
       "page": "R0000005",
       "img_w": 1400,
       "img_h": 978,
-      "detect_sec": 34.7,
-      "recognize_sec": 51.8,
+      "detect_sec": 12.2,
+      "recognize_sec": 20.0,
       "boxes_n_lines": 16,
       "ocr_n_lines": 16,
       "lines": [
@@ -375,8 +375,8 @@
       "page": "R0000003",
       "img_w": 1400,
       "img_h": 1003,
-      "detect_sec": 27.1,
-      "recognize_sec": 14.4,
+      "detect_sec": 12.7,
+      "recognize_sec": 7.0,
       "boxes_n_lines": 5,
       "ocr_n_lines": 5,
       "lines": [
@@ -428,8 +428,8 @@
       "page": "R0000002",
       "img_w": 1400,
       "img_h": 972,
-      "detect_sec": 26.4,
-      "recognize_sec": 28.8,
+      "detect_sec": 13.9,
+      "recognize_sec": 16.3,
       "boxes_n_lines": 12,
       "ocr_n_lines": 12,
       "lines": [
@@ -537,8 +537,8 @@
       "page": "R0000003",
       "img_w": 1400,
       "img_h": 972,
-      "detect_sec": 30.9,
-      "recognize_sec": 53.5,
+      "detect_sec": 12.9,
+      "recognize_sec": 30.7,
       "boxes_n_lines": 22,
       "ocr_n_lines": 22,
       "lines": [
@@ -726,8 +726,8 @@
       "page": "R0000003",
       "img_w": 1400,
       "img_h": 1148,
-      "detect_sec": 38.6,
-      "recognize_sec": 24.4,
+      "detect_sec": 12.1,
+      "recognize_sec": 15.6,
       "boxes_n_lines": 10,
       "ocr_n_lines": 10,
       "lines": [
@@ -819,8 +819,8 @@
       "page": "R0000003",
       "img_w": 1400,
       "img_h": 1286,
-      "detect_sec": 37.0,
-      "recognize_sec": 89.4,
+      "detect_sec": 12.8,
+      "recognize_sec": 49.9,
       "boxes_n_lines": 34,
       "ocr_n_lines": 34,
       "lines": [

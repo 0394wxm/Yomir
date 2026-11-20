@@ -19,6 +19,7 @@ ocr_engine.py — NDL 古典籍 OCR-Lite 进程内包装（Night 2）。
 路径可用环境变量覆盖: KANBUN_OCR_SITE / KANBUN_OCR_SRC。
 """
 import io
+import logging
 import os
 import sys
 import threading
@@ -36,6 +37,9 @@ from backend.ocr_postfix import (  # noqa: E402
     normalize_compat_ideographs,
     postprocess_line,
 )
+from backend.ocr_layout import judge_layout  # noqa: E402  (NIGHT43 版面几何过滤)
+
+logger = logging.getLogger("kanbun.ocr")
 
 OCR_SITE = os.environ.get("KANBUN_OCR_SITE", r"D:\dlkotenocr-lite\site-packages")
 OCR_SRC = os.environ.get("KANBUN_OCR_SRC", os.path.join(PROJECT_ROOT, "ocr_runtime", "src"))
@@ -253,10 +257,31 @@ class OCREngine:
         # 縦行中位高（朱印/花押判据的分母），只统计縦書き行
         vh = sorted(b["h"] for b in raw_boxes if b["h"] >= b["w"])
         median_vh = vh[len(vh) // 2] if vh else None
+        kept_boxes = []
         for b in raw_boxes:
             if self._is_junk_line(img, b["x"], b["y"], b["w"], b["h"], median_vh):
                 junk_count += 1
                 continue
+            kept_boxes.append(b)
+
+        # NIGHT43: 版面几何噪音过滤（页脚带手写/书志短行、主栏带内侵入窄条）。
+        # 只看框位置，不看文本（判据与阈值依据 eval/night43_stats.json 的实测分布）。
+        # KANBUN_OCR_LAYOUT_FILTER=0 关闭。被滤框记 logger 并随返回值带回。
+        layout_filtered = []
+        if os.environ.get("KANBUN_OCR_LAYOUT_FILTER", "1") != "0":
+            _miban, judged = judge_layout(kept_boxes, img_w, img_h)
+            for b, reason in judged:
+                if reason is not None:
+                    layout_filtered.append(dict(b, reason=reason))
+            if layout_filtered:
+                kept_boxes = [b for b, r in judged if r is None]
+                logger.info("ocr layout filter: removed %d/%d box(es): %s",
+                            len(layout_filtered), len(judged),
+                            "; ".join("x=%d y=%d w=%d h=%d %s"
+                                      % (b["x"], b["y"], b["w"], b["h"], b["reason"])
+                                      for b in layout_filtered))
+
+        for b in kept_boxes:
             boxes.append(b)
             lineimgs.append(img[b["y"]:b["y"] + b["h"], b["x"]:b["x"] + b["w"], :])
 
@@ -310,6 +335,7 @@ class OCREngine:
             "line_boxes": [dict(b) for b in boxes],
             "line_count": len(resultlines),
             "junk_filtered": junk_count,
+            "layout_filtered": layout_filtered,
             "order": order,
             "elapsed_sec": round(time.time() - start, 2),
         }
