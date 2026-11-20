@@ -545,3 +545,32 @@ title 回退/POST 确定性），全套 **141→152→157 passed**（18.44s）�
 
 **已知限制（如实）**：真机阅读器人工验证仍缺（同 N52——结构级已尽）；
 500 章上限是本夜拍的保守值；批量结果当前整本单章，「页=章」分章留待拍板（待拍板④⑤）。
+| 2026-11-21 02:45 | N54 | conftest 统一测试DB落地：全套158 passed、3文件独立跑全过、真实kanbun.db sha256 不变、无路径pytest正常 |
+
+
+## N54 测试 DB 统一：KANBUN_DB 唯一入口移到根 conftest.py（消灭「死代码环境变量」陷阱）
+
+**起因（已提交见 REPORT_NIGHT54.md）**
+
+N52 写 test_export_epub.py 时发现：文件头自设的 KANBUN_DB 在**全套连跑时不生效**
+——backend/db.py 首次 import 时读环境变量定 DB_PATH，之后改无效；字母序 test_api
+先 import 就赢，其余文件的环境变量行全是死代码。脚枪三面：未来夜班误以为每文件
+独立 DB；独立跑与全套跑语义不一致；test_web_mount 独立跑会用**仓库根真实
+kanbun.db** 走 init_db（幂等建表无数据写，但不该走到）。
+
+**改法（零生产代码）**：conftest.py 顶部统一分配会话级临时库
+（`kanbun_pytest_db_` 前缀）——conftest 先于一切测试模块导入，这里必然赢；
+3 个真正写库的测试文件删掉各自的自设块；test_api 新增
+`test_db_path_is_conftest_isolated` 锁「DB_PATH ≠ 仓库根 kanbun.db 且带 conftest
+前缀」不变式。全库扫描确认设置 KANBUN_DB 的恰为 3 个文件、写库的也只有这 3 个
+（lifespan_migration 全 mock、web_mount 只 init_db）。
+
+**验证**：全套 **157→158 passed**（17.28s）；无路径 `pytest -q` **158 passed**
+（N50 收集隔离完好）；被改 3 文件 + web_mount/lifespan 独立跑 **全过**
+（16/16/6/13）；真实 `kanbun.db` sha256 跑前跑后**逐字节不变**
+（`4e1ca376…3571`，5 次运行后复验）。行为语义与改前一致（改前也是全套共享
+一个临时库）——消灭的是**静默**，不是共享本身。
+
+**待拍板⑥（新增）**：批量 OCR 作业要不要落库（重启不丢整本书扫描、为「页=章
+EPUB」打底）——Night 11 在 main.py:519 有「不做持久化」的明文决定，推翻需用户
+点头；建议方案：内存作业语义不变，GET 内存 miss 时回退 DB（纯增量）。
