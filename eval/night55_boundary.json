@@ -1,0 +1,92 @@
+{
+ "n": 2000,
+ "changed": 136,
+ "avg_old": 21.116,
+ "avg_new": 20.916,
+ "delta": -0.2,
+ "better": 127,
+ "worse": 0,
+ "same": 1873,
+ "per_rule": {
+  "また→又": 44,
+  "ゆゑん→所以": 30,
+  "いはゆる→所謂": 23,
+  "たがいに→相": 42
+ },
+ "worse_detail": [],
+ "idempotent": true,
+ "probes": [
+  {
+   "in": "また明日会いましょう",
+   "hakubun": "また明日会いましょう",
+   "out": "また明日会いましょう",
+   "changed": false
+  },
+  {
+   "in": "またたく間に",
+   "hakubun": "またたく間に",
+   "out": "またたく間に",
+   "changed": false
+  },
+  {
+   "in": "またがり",
+   "hakubun": "またがり",
+   "out": "またがり",
+   "changed": false
+  },
+  {
+   "in": "またの機会",
+   "hakubun": "またの機会",
+   "out": "またの機会",
+   "changed": false
+  },
+  {
+   "in": "またとない",
+   "hakubun": "またとない",
+   "out": "またとない",
+   "changed": false
+  },
+  {
+   "in": "ゆゑん深し",
+   "hakubun": "ゆゑん深し",
+   "out": "ゆゑん深し",
+   "changed": false
+  },
+  {
+   "in": "いはゆる古典",
+   "hakubun": "いはゆる古典",
+   "out": "いはゆる古典",
+   "changed": false
+  },
+  {
+   "in": "たがいに手を携う",
+   "hakubun": "たがいに手を携う",
+   "out": "たがいに手を携う",
+   "changed": false
+  },
+  {
+   "in": "吾十有五而志于学",
+   "hakubun": "吾十有五而志于学",
+   "out": "吾十有五而志于学",
+   "changed": false
+  }
+ ],
+ "probes_empty_hakubun": [
+  {
+   "in": "また",
+   "out": "又"
+  },
+  {
+   "in": "ゆゑん",
+   "out": "所以"
+  },
+  {
+   "in": "たがいに",
+   "out": "相"
+  },
+  {
+   "in": "またがる",
+   "out": "またがる"
+  }
+ ]
+}

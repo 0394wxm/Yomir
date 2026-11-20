@@ -231,12 +231,21 @@ def style_kana_to_kanji(text: str, hakubun: str = "") -> str:
 #   幂等 PASS；语料外 12 条探针全部一字不动。
 #
 # 被拒绝的候选（变差 > 0，一律不上线，如实记录）：
-#   また→又   白文含「又」时 47 条可改，但 38 改善 / **1 变差**（「又た/又」两种词形并存）
-#   べき→可き 白文含「可」时 75 条可改，63 改善 / **4 变差**
-#   べから→可から 77 条可改，67 改善 / **4 变差**（べからず 的上接词形不定）
+#   また→又   D17 时 38 改善 / 1 变差（rongo2002-1）被拒；**NIGHT55 复活进 Rule G**——
+#             在 F 已上线的 day17 真机基线上复验：44 条改写、36 改善 / **0 变差**
+#             （那 1 条变差是对 pre-F 快照算的，F 上线后该行已无 また 可改）。
+#             见 tools/night55_sim.py / REPORT_NIGHT55.md §3。
+#   べき→可き 白文含「可」时 75 条可改，63 改善 / **4 变差**（N55 逐条核因：
+#             expected 自己写假名 べき/べし，运行时无信号可分，不可救，见 REPORT_NIGHT55.md §4）
+#   べから→可から 77 条可改，67 改善 / **4 变差**（同上，expected 写 べからず 假名）
 #   なし→莫し 白文含「莫」时 A=0（引擎已写「無し」，莫/無 无法区分）
 #   ごとく/ごとし/ごとき→若く/若し/若き  C=3~8（白文无若却会命中，护栏不干净）
 # ---------------------------------------------------------------------------
+# また 的长词表：F（→亦た）与 G（→又）共用同一个 kana 的同一组长词，
+# 提取成模块常量让两张表引用同一对象（值恒等，N55 test 锁住这一点）。
+_MATA_LONGER_WORDS = ("またたく", "またがり", "またがる", "またぎ", "またぐ",
+                      "またたき", "またしても", "またと", "またの")
+
 F_KANA_TO_KANJI = [
     # (假名, 替换成的词形, 白文里可接受的写法)
     ("また", "亦た", ("亦",)),
@@ -247,8 +256,7 @@ F_KANA_TO_KANJI = [
 
 # Rule F 的词界护栏（与 E_LONGER_WORDS 分开维护）
 F_LONGER_WORDS = {
-    "また": ("またたく", "またがり", "またがる", "またぎ", "またぐ",
-             "またたき", "またしても", "またと", "またの"),
+    "また": _MATA_LONGER_WORDS,
     "いかん": (),
     "べし": (),
     "べく": (),
@@ -268,6 +276,50 @@ def style_kana_to_kanji_f(text: str, hakubun: str = "") -> str:
     return text
 
 
+# ---------------------------------------------------------------------------
+# N55 Rule G：假名 → 汉字（第三批，2000 条语料挖掘，F 已上线的 day17 真机基线）
+#
+# 数据来源 eval/night55_mine.json（2000 条，Rule F 之后）：
+#   又 56/0（引擎写 また；F 的 亦た 分工后剩余部分）、所以/所謂/相 的复合汉字形
+# 四象限 + 离线模拟（eval/night55_sim.json，逐条真算 Levenshtein）：
+#   また→又       白文含「又」 44 条改写，36 改善 / **0 变差**（D17 遗留#1 解决）
+#   ゆゑん→所以   白文含「所以」30 条改写，29 改善 / **0 变差**
+#   いはゆる→所謂 白文含「所謂」23 条改写，23 改善 / **0 变差**
+#   たがいに→相   白文含「相」  43 条改写，43 改善 / **0 变差**
+#   ために→為に   0 条命中（引擎在这些行写「がため」，词级替换对不上）→ 不收
+# 组合：改写 136 条 | avgDist 21.116 → 20.916（**-0.200**）| 改善 127 / **变差 0**
+# expected 假名残留 4 个 kana 全部为 0（expected 从不写这四个假名串）。
+# べき/べから 复核仍各 4 变差（expected 自身写假名，运行时无信号可分）→ 维持拒绝。
+# ---------------------------------------------------------------------------
+G_KANA_TO_KANJI = [
+    ("また", "又", ("又",)),          # D17 遗留#1：与 F 的 亦た 按白文分工（亦/又）
+    ("ゆゑん", "所以", ("所以",)),     # 白文护栏用二字序列（所以 是复合词，单字「以」太宽）
+    ("いはゆる", "所謂", ("所謂",)),
+    ("たがいに", "相", ("相",)),
+]
+
+# Rule G 的词界护栏（与 E/F 分开维护；また 与 F 共用同一组长词，见 _MATA_LONGER_WORDS）
+G_LONGER_WORDS = {
+    "また": _MATA_LONGER_WORDS,
+    "ゆゑん": (),
+    "いはゆる": (),
+    "たがいに": (),
+}
+
+
+def style_kana_to_kanji_g(text: str, hakubun: str = "") -> str:
+    """假名 → 汉字（第三批）。N55 Rule G。
+
+    与 E/F 同构的两道护栏，用 G 自己的更长词表（また 一项与 F 共享常量）。
+    """
+    hb = re.sub(r"\s+", "", hakubun) if hakubun else ""
+    for kana, repl, guard in G_KANA_TO_KANJI:
+        if hb and not any(g in hb for g in guard):
+            continue
+        text = _replace_word_boundary(text, kana, repl, G_LONGER_WORDS)
+    return text
+
+
 def style_fix(text: str) -> str:
     """规则总入口：显示风格修正（NIGHT4 Rule A + NIGHT22 Rule C'）。
     不改汉字词干、不动树结构。Rule C（て而して→て）以带护栏形式于 NIGHT22
@@ -284,7 +336,7 @@ def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     """带白文上下文的规则总入口（D11 起后端实际调用这个）。
 
     Rule D 的白文护栏需要原始输入，所以不能只传输出串。
-    D14 的 Rule E / D17 的 Rule F 同理（护栏也是白文判据）。
+    D14 的 Rule E / D17 的 Rule F / N55 的 Rule G 同理（护栏也是白文判据）。
     """
     t = style_modern_kana(text)
     t = style_drop_wa_before_iwaku(t)
@@ -292,6 +344,7 @@ def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     t = style_kore_to_shi(t, hakubun)
     t = style_kana_to_kanji(t, hakubun)
     t = style_kana_to_kanji_f(t, hakubun)   # D17 Rule F
+    t = style_kana_to_kanji_g(t, hakubun)   # N55 Rule G
     return t
 
 # ---------------------------------------------------------------------------
