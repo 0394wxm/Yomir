@@ -1,44 +1,22 @@
 {
   "night": 49,
-  "verdict": "FAIL",
-  "checked_at": "2026-11-20T20:35:48",
-  "elapsed_sec": 34.7,
+  "verdict": "PASS",
+  "checked_at": "2026-11-20T21:04:35",
+  "elapsed_sec": 33.9,
   "n_checks": 6,
-  "n_fail": 1,
+  "n_fail": 0,
   "n_skip": 1,
   "checks": [
     {
       "name": "repo_clean",
       "title": "git 工作区干净",
-      "status": "fail",
+      "status": "pass",
       "notes": [
-        "已跟踪文件有未提交改动：4 个",
-        "未跟踪：eval/night49_diagnose.json, eval/night49_dup_impact.json, eval/night49_final.json, eval/night49_gt_cer.json, eval/night49_gt_diff.json, eval/night49_gt_lines.json, eval/night49_gt_sim.json, eval/night49_order_final.json, eval/night49_pair_quality.json, eval/night49_replica_check.json"
+        "已跟踪文件无改动",
+        "未跟踪：eval/ocr_samples/gt36/ndl_10301438_R0000002/line_01.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_02.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_03.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_04.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_05.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_06.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_07.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_08.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_09.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_10.png"
       ],
       "detail": {
         "changed": [
-          " M backend/ocr_engine.py",
-          " M backend/ocr_layout.py",
-          " M eval/ocr_samples/ndl_10301438_R0000002_clean__cluster.txt",
-          " M eval/ocr_samples/ndl_10301438_R0000002_clean__native.txt",
-          "?? eval/night49_diagnose.json",
-          "?? eval/night49_dup_impact.json",
-          "?? eval/night49_final.json",
-          "?? eval/night49_gt_cer.json",
-          "?? eval/night49_gt_diff.json",
-          "?? eval/night49_gt_lines.json",
-          "?? eval/night49_gt_sim.json",
-          "?? eval/night49_order_final.json",
-          "?? eval/night49_pair_quality.json",
-          "?? eval/night49_replica_check.json",
-          "?? eval/night49_safety_audit.json",
-          "?? eval/night49_simulate.json",
-          "?? eval/night49_sweep.json",
-          "?? eval/night49_text_delta.json",
-          "?? eval/night49_text_delta.txt",
-          "?? eval/night49_variants.json",
-          "?? eval/night49_verify.json",
-          "?? eval/night49_warichu_order.json",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_01.png",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_02.png",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_03.png",
@@ -564,56 +542,10 @@
           "?? eval/ocr_samples/gt36_hr/",
           "?? eval/ocr_samples/gt36_probe.png",
           "?? eval/ocr_samples/gt36_view/",
-          "?? eval/ocr_samples/hr_test.jpg",
-          "?? tests/test_ocr_night49.py",
-          "?? tools/night49_debug_p008.py",
-          "?? tools/night49_diagnose.py",
-          "?? tools/night49_dup_impact.py",
-          "?? tools/night49_final.py",
-          "?? tools/night49_gt_boxes.py",
-          "?? tools/night49_gt_diff.py",
-          "?? tools/night49_gt_run.py",
-          "?? tools/night49_gt_sim.py",
-          "?? tools/night49_order_final.py",
-          "?? tools/night49_pair_quality.py",
-          "?? tools/night49_replica_check.py",
-          "?? tools/night49_residual.py",
-          "?? tools/night49_residual_check.py",
-          "?? tools/night49_safety_audit.py",
-          "?? tools/night49_simulate.py",
-          "?? tools/night49_sweep.py",
-          "?? tools/night49_text_delta.py",
-          "?? tools/night49_tol_probe.py",
-          "?? tools/night49_unit_dump.py",
-          "?? tools/night49_variants.py",
-          "?? tools/night49_verify.py",
-          "?? tools/night49_warichu_order.py"
+          "?? eval/ocr_samples/hr_test.jpg"
         ],
-        "tracked_changes": [
-          " M backend/ocr_engine.py",
-          " M backend/ocr_layout.py",
-          " M eval/ocr_samples/ndl_10301438_R0000002_clean__cluster.txt",
-          " M eval/ocr_samples/ndl_10301438_R0000002_clean__native.txt"
-        ],
+        "tracked_changes": [],
         "untracked": [
-          "?? eval/night49_diagnose.json",
-          "?? eval/night49_dup_impact.json",
-          "?? eval/night49_final.json",
-          "?? eval/night49_gt_cer.json",
-          "?? eval/night49_gt_diff.json",
-          "?? eval/night49_gt_lines.json",
-          "?? eval/night49_gt_sim.json",
-          "?? eval/night49_order_final.json",
-          "?? eval/night49_pair_quality.json",
-          "?? eval/night49_replica_check.json",
-          "?? eval/night49_safety_audit.json",
-          "?? eval/night49_simulate.json",
-          "?? eval/night49_sweep.json",
-          "?? eval/night49_text_delta.json",
-          "?? eval/night49_text_delta.txt",
-          "?? eval/night49_variants.json",
-          "?? eval/night49_verify.json",
-          "?? eval/night49_warichu_order.json",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_01.png",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_02.png",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_03.png",
@@ -1139,36 +1071,7 @@
           "?? eval/ocr_samples/gt36_hr/",
           "?? eval/ocr_samples/gt36_probe.png",
           "?? eval/ocr_samples/gt36_view/",
-          "?? eval/ocr_samples/hr_test.jpg",
-          "?? tests/test_ocr_night49.py",
-          "?? tools/night49_debug_p008.py",
-          "?? tools/night49_diagnose.py",
-          "?? tools/night49_dup_impact.py",
-          "?? tools/night49_final.py",
-          "?? tools/night49_gt_boxes.py",
-          "?? tools/night49_gt_diff.py",
-          "?? tools/night49_gt_run.py",
-          "?? tools/night49_gt_sim.py",
-          "?? tools/night49_order_final.py",
-          "?? tools/night49_pair_quality.py",
-          "?? tools/night49_replica_check.py",
-          "?? tools/night49_residual.py",
-          "?? tools/night49_residual_check.py",
-          "?? tools/night49_safety_audit.py",
-          "?? tools/night49_simulate.py",
-          "?? tools/night49_sweep.py",
-          "?? tools/night49_text_delta.py",
-          "?? tools/night49_tol_probe.py",
-          "?? tools/night49_unit_dump.py",
-          "?? tools/night49_variants.py",
-          "?? tools/night49_verify.py",
-          "?? tools/night49_warichu_order.py"
-        ],
-        "files": [
-          " M backend/ocr_engine.py",
-          " M backend/ocr_layout.py",
-          " M eval/ocr_samples/ndl_10301438_R0000002_clean__cluster.txt",
-          " M eval/ocr_samples/ndl_10301438_R0000002_clean__native.txt"
+          "?? eval/ocr_samples/hr_test.jpg"
         ]
       }
     },
@@ -1177,16 +1080,16 @@
       "title": "tests 全量通过",
       "status": "pass",
       "notes": [
-        "141 passed = 141 collected（17.4s，收集 5.8s）"
+        "141 passed = 141 collected（17.2s，收集 5.9s）"
       ],
       "detail": {
         "collected": 141,
-        "collect_sec": 5.8,
-        "elapsed_sec": 17.4,
+        "collect_sec": 5.9,
+        "elapsed_sec": 17.2,
         "tail": [
           "........................................................................ [ 51%]",
           ".....................................................................    [100%]",
-          "141 passed in 14.19s"
+          "141 passed in 13.57s"
         ],
         "passed": 141
       }
@@ -1258,15 +1161,15 @@
       "title": "单句训读耗时在包络内",
       "status": "pass",
       "notes": [
-        "短句中位 6ms（包络 3000ms）"
+        "短句中位 7ms（包络 3000ms）"
       ],
       "detail": {
         "ms": [
+          7.0,
           6.0,
-          11.0,
-          6.0
+          10.0
         ],
-        "median_ms": 6.0,
+        "median_ms": 7.0,
         "limit_ms": 3000.0
       }
     }

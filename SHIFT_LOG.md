@@ -382,3 +382,9 @@ CER 测不出来——**这是 CER 门的已知盲区**，本夜用逐页右先�
 ③ 割注配对口径要不要收紧到 A_strict（倾向测量双口径、产品不引入配对检测）；
 ④ `KANBUN_OCR_WARICHU` 开关保留（与既有三开关一致，建议保留）；
 ⑤ Night47 §8 / Night48 §11 条目状态不变。
+
+
+## N49 提交与验收
+
+提交 `da41dc7`。accept_night 49 **PASS**（fail=0 skip=1，141 passed）。
+本地 master，未推远程。
