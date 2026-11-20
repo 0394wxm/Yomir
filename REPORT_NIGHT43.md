@@ -113,7 +113,17 @@ p012/p017 同法核对（孟孫問孝…→難有事弟子服其労…；季氏�
 
 ## 6. 验收门与提交
 
-（见文末补记：accept_night 43 在提交后重跑）
+- **提交 `4fb366e`**（本地，未推远程）：`backend/ocr_layout.py`、`backend/ocr_engine.py`、
+  `tests/test_ocr_night43.py`、11 个 `tools/night43_*.py`、6 个 night43 测量产物、
+  `.gitignore`（补页图忽略）、本报告。
+- **accept_night 43（提交后重跑）**：`verdict: PASS`（fail=0，skip=1 = eval_integrity
+  因 Night43 未登记归档文件而跳过；golden_2000 完整、与 golden_1000 逐字段一致）。
+  - repo_clean PASS（提交后工作区干净）
+  - pytest PASS：**97 passed = 97 collected**（15.5s）
+  - rule_regression / engine_smoke / perf_envelope 全 PASS
+- 同批提交的 4 个 `eval/ocr_samples/*_clean__*.txt`：GT 重跑时被刷新，内容为 Night38
+  词典修复的滞后产物（嬉戯→兒嬉戯、組豆→俎豆、既→既），与本次过滤器无关。
+- `eval/night36_ocr_lines.json` 只有耗时字段变化，**92 行文本+坐标零差异**。
 
 ## 7. 做到哪 / 卡在哪 / 下一棒接什么
 
