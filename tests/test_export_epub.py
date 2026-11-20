@@ -200,3 +200,49 @@ def test_export_endpoint_skips_resultless_requests(client):
     assert len(names) == 1
     body = z.read(names[0]).decode("utf-8")
     assert "孤儿请求" not in body and "ある" in body
+
+
+# --------------------------------------------------------------------------
+# NIGHT53: POST /api/export/epub（客户端文本直接导出，不要求落库）
+# --------------------------------------------------------------------------
+def test_export_raw_post_roundtrip(client):
+    r = client.post("/api/export/epub", json={
+        "title": "漢文 白文",
+        "chapters": [{"hakubun": "学<而>時習之"}, {"hakubun": "有朋自遠方来"}],
+    })
+    assert r.status_code == 200
+    assert r.headers["content-type"] == "application/epub+zip"
+    z = zipfile.ZipFile(io.BytesIO(r.content))
+    names = [n for n in z.namelist() if n.startswith("OEBPS/text/")]
+    assert len(names) == 2
+    ch1 = z.read("OEBPS/text/chapter-01.xhtml").decode("utf-8")
+    assert "学&lt;而&gt;時習之" in ch1
+    # kakikudashi 为空 = 纯白文章节，不渲染空训读段
+    assert "書き下し文" not in ch1
+
+
+def test_export_raw_post_empty_chapters_400(client):
+    r = client.post("/api/export/epub", json={"chapters": []})
+    assert r.status_code == 400
+    r = client.post("/api/export/epub", json={"chapters": [{"hakubun": "  ", "kakikudashi": ""}]})
+    assert r.status_code == 400
+
+
+def test_export_raw_post_too_many_400(client):
+    r = client.post("/api/export/epub", json={"chapters": [{"hakubun": "x"}] * 501})
+    assert r.status_code == 400
+
+
+def test_export_raw_post_title_fallback(client):
+    r = client.post("/api/export/epub", json={"title": "  ", "chapters": [{"hakubun": "天命"}]})
+    assert r.status_code == 200
+    z = zipfile.ZipFile(io.BytesIO(r.content))
+    opf = z.read("OEBPS/content.opf").decode("utf-8")
+    assert "漢文 書き下し文" in opf
+
+
+def test_export_raw_post_deterministic(client):
+    body = {"title": "t", "chapters": [{"hakubun": "王顧左右而言他", "kakikudashi": "王は左右を顧みて"}]}
+    a = client.post("/api/export/epub", json=body).content
+    b = client.post("/api/export/epub", json=body).content
+    assert a == b

@@ -130,8 +130,10 @@ def _chapter_xhtml(idx, row):
     if row.get("kaeriten_text"):
         parts.append(u'  <h3>返り点付き</h3>\n  <div class="kaeriten">%s</div>\n'
                      % escape(row["kaeriten_text"]))
-    parts.append(u'  <h3>書き下し文</h3>\n  <div class="kakikudashi">%s</div>\n'
-                 % escape(row.get("kakikudashi", "") or ""))
+    # N53: kakikudashi 为空 = 纯白文章节（POST 原始文本导出），不渲染空训读段
+    if row.get("kakikudashi"):
+        parts.append(u'  <h3>書き下し文</h3>\n  <div class="kakikudashi">%s</div>\n'
+                     % escape(row["kakikudashi"]))
     parts.append(u'</section>\n</body>\n</html>\n')
     return u"".join(parts)
 

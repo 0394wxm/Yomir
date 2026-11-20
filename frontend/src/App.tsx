@@ -367,6 +367,14 @@ export default function App() {
   }
 
   // NIGHT52: EPUB 書き出し（縦書き）。結果が落庫済み（request_id あり）のときだけ有効。
+  function saveBlob(blob: Blob, name: string) {
+    const a = document.createElement('a')
+    a.href = URL.createObjectURL(blob)
+    a.download = name
+    a.click()
+    URL.revokeObjectURL(a.href)
+  }
+
   async function downloadEpub() {
     const rid = result?.request_id
     if (!rid) return
@@ -376,12 +384,27 @@ export default function App() {
         setErrMsg('EPUB 出力に失敗しました (HTTP ' + res.status + ')。')
         return
       }
-      const blob = await res.blob()
-      const a = document.createElement('a')
-      a.href = URL.createObjectURL(blob)
-      a.download = 'kundoku_' + new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-') + '.epub'
-      a.click()
-      URL.revokeObjectURL(a.href)
+      saveBlob(await res.blob(), 'kundoku_' + new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-') + '.epub')
+    } catch {
+      setErrMsg('EPUB 出力に失敗しました（ネットワーク？）。')
+    }
+  }
+
+  // NIGHT53: 白文 EPUB——未训读の白文（批量 OCR / 纠错后文本）を POST で直接書き出す。
+  async function downloadEpubRaw() {
+    const text = hakubun.trim()
+    if (!text) return
+    try {
+      const res = await fetch(`${API}/api/export/epub`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ title: '漢文 白文', chapters: [{ hakubun: text }] }),
+      })
+      if (!res.ok) {
+        setErrMsg('EPUB 出力に失敗しました (HTTP ' + res.status + ')。')
+        return
+      }
+      saveBlob(await res.blob(), 'hakubun_' + new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-') + '.epub')
     } catch {
       setErrMsg('EPUB 出力に失敗しました（ネットワーク？）。')
     }
@@ -589,6 +612,7 @@ export default function App() {
           <button className="ghost" onClick={copyResult} disabled={!result}>一键复制</button>
           <button className="ghost" onClick={downloadTxt} disabled={!result}>下载 txt</button>
           <button className="ghost" onClick={() => void downloadEpub()} disabled={!result?.request_id}>EPUB 出力</button>
+          <button className="ghost" onClick={() => void downloadEpubRaw()} disabled={!hakubun.trim()}>白文 EPUB</button>
           <button className="ghost" onClick={printResult} disabled={!result}>打印</button>
         </div>
         <div className="outputs">

@@ -385,6 +385,17 @@ def history(limit: int = Query(default=20, description="返回最近 N 条（1~1
     return {"items": db.get_history(limit)}
 
 
+def _epub_response(data, prefix="kanbun"):
+    """NIGHT52: EPUB 下载响应（GET/POST 两个导出端点共用）。"""
+    from fastapi.responses import Response
+    fname = "%s_%s.epub" % (prefix, time.strftime("%Y%m%d"))
+    return Response(
+        content=data,
+        media_type="application/epub+zip",
+        headers={"Content-Disposition": 'attachment; filename="%s"' % fname},
+    )
+
+
 @app.get("/api/export/epub")
 def export_epub(
     ids: str = Query(default="", description="逗号分隔的 request id；空 = 最近 limit 条"),
@@ -396,7 +407,6 @@ def export_epub(
     * ids 缺省 → 最近 limit 条（与 /api/history 同源），按 id 升序进 EPUB；
     * 条目缺 kakikudashi（无结果的请求）跳过；全跳完 → 404。
     """
-    from fastapi.responses import Response
     from backend import epub_export
 
     if ids.strip():
@@ -418,13 +428,47 @@ def export_epub(
     if not rows:
         raise HTTPException(status_code=404, detail="没有可导出的訓読结果")
 
+    from backend import epub_export
     data = epub_export.build_epub(rows, title=epub_export.DEFAULT_TITLE)
-    fname = "kanbun_%s.epub" % time.strftime("%Y%m%d")
-    return Response(
-        content=data,
-        media_type="application/epub+zip",
-        headers={"Content-Disposition": 'attachment; filename="%s"' % fname},
-    )
+    return _epub_response(data)
+
+
+class ExportChapter(BaseModel):
+    hakubun: str = ""
+    kakikudashi: str = ""
+    kaeriten_text: str = ""
+
+
+class ExportRequest(BaseModel):
+    title: str = ""
+    chapters: list[ExportChapter]
+
+
+@app.post("/api/export/epub")
+def export_epub_raw(req: ExportRequest):
+    """NIGHT53: 客户端持有的文本直接导出 EPUB（不要求落库）。
+
+    覆盖「批量 OCR 白文 / 纠错后白文」这类没走过 /api/kundoku 的文本；
+    GET 版（?ids=）覆盖已落库的訓読结果。章节 kakikudashi 可空 = 纯白文章节。
+    """
+    if not req.chapters:
+        raise HTTPException(status_code=400, detail="chapters 不能为空")
+    if len(req.chapters) > 500:
+        raise HTTPException(status_code=400, detail="chapters 最多 500 条")
+    for i, ch in enumerate(req.chapters):
+        if not (ch.hakubun.strip() or ch.kakikudashi.strip()):
+            raise HTTPException(status_code=400, detail="第 %d 章为空（白文/書き下し文至少一项）" % (i + 1))
+
+    from backend import epub_export
+    rows = [{
+        "id": i + 1,
+        "hakubun": ch.hakubun,
+        "kakikudashi": ch.kakikudashi,
+        "kaeriten_text": ch.kaeriten_text,
+        "created_at": None,   # 客户端文本无落库时间 → dcterms:modified 走下限（确定性）
+    } for i, ch in enumerate(req.chapters)]
+    data = epub_export.build_epub(rows, title=req.title.strip() or epub_export.DEFAULT_TITLE)
+    return _epub_response(data, prefix="kanbun_hakubun")
 
 
 @app.post("/api/ocr/batch")
