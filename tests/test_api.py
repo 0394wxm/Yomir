@@ -14,9 +14,10 @@ import sqlite3
 import sys
 import tempfile
 
-# 在 import backend.* 之前固定环境：临时 DB + 开启假名分流阈值默认值
+# NIGHT54: KANBUN_DB 统一由根 conftest.py 分配（先于任何测试模块导入生效）。
+# 旧代码在这里自设临时 DB——全套连跑时字母序恰好赢、独立跑才生效，是静默陷阱。
+# _TMPDIR 仍保留：test_ocr_missing_runtime_message_shape 用它造假 OCR 源目录。
 _TMPDIR = tempfile.mkdtemp(prefix="kanbun_test_")
-os.environ["KANBUN_DB"] = os.path.join(_TMPDIR, "test.db")
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -115,6 +116,21 @@ def test_normalize_shinjitai_unit():
         "恵対窃鶏尽数点誉飲獣応余将囲触釈当戦挟従為陥"
     assert normalize_shinjitai("") == ""
     assert normalize_shinjitai("楯矛・者有り") == "楯矛・者有り"  # 楯/爲以外不乱动
+
+
+def test_db_path_is_conftest_isolated():
+    """NIGHT54: KANBUN_DB 必须指向 conftest 的会话临时库，绝不是仓库根 kanbun.db。
+
+    backend/db.py 在首次 import 时定 DB_PATH，之后改环境变量无效——所以
+    「谁先 import 谁定」的规则下，唯一合法的入口就是根 conftest.py。
+    这个测试锁住：测试进程里的 DB 与真实运行数据物理隔离。
+    """
+    import backend.db as d
+
+    root_db = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                           "kanbun.db")
+    assert os.path.abspath(d.DB_PATH) != os.path.abspath(root_db)
+    assert "kanbun_pytest_db_" in d.DB_PATH
 
 
 def test_db_persistence(client):

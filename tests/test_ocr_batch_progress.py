@@ -11,11 +11,10 @@
 """
 import os
 import sys
-import tempfile
 import time
 
-_TMPDIR = tempfile.mkdtemp(prefix="kanbun_test_")
-os.environ.setdefault("KANBUN_DB", os.path.join(_TMPDIR, "test.db"))
+# 临时 DB 由根 conftest.py 统一分配（NIGHT54，先于任何测试模块导入生效）；
+# 本文件不再自设（setdefault 在全套连跑时曾是死代码，独立跑才生效）。
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 

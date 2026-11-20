@@ -14,13 +14,11 @@ EPUB 3 关键不变式：
 import io
 import os
 import sys
-import tempfile
 import zipfile
 from xml.etree import ElementTree
 
-# 在 import backend.* 之前固定环境：临时 DB（与 test_api.py 同款）
-_TMPDIR = tempfile.mkdtemp(prefix="kanbun_test_epub_")
-os.environ["KANBUN_DB"] = os.path.join(_TMPDIR, "test.db")
+# 临时 DB 由根 conftest.py 统一分配（NIGHT54，先于任何测试模块导入生效）；
+# 本文件不再自设（全套连跑时旧设置曾是死代码，独立跑才生效）。
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
