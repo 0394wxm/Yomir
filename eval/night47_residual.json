@@ -1,0 +1,818 @@
+{
+ "thresholds": [
+  0.1,
+  0.15,
+  0.2,
+  0.3
+ ],
+ "totals": {
+  "orig": 2055,
+  "footer": 223,
+  "strip": 62,
+  "keep": 1770
+ },
+ "n_high_015": 48,
+ "pages": [
+  {
+   "page": "p003",
+   "n_orig": 9,
+   "footer": 0,
+   "strip": 0,
+   "keep": 9,
+   "n_high": 0,
+   "high": []
+  },
+  {
+   "page": "p004",
+   "n_orig": 16,
+   "footer": 0,
+   "strip": 0,
+   "keep": 16,
+   "n_high": 0,
+   "high": []
+  },
+  {
+   "page": "p005",
+   "n_orig": 16,
+   "footer": 0,
+   "strip": 0,
+   "keep": 16,
+   "n_high": 0,
+   "high": []
+  },
+  {
+   "page": "p006",
+   "n_orig": 16,
+   "footer": 0,
+   "strip": 0,
+   "keep": 16,
+   "n_high": 0,
+   "high": []
+  },
+  {
+   "page": "p007",
+   "n_orig": 41,
+   "footer": 0,
+   "strip": 9,
+   "keep": 32,
+   "n_high": 2,
+   "high": [
+    {
+     "x": 209,
+     "y": 43,
+     "w": 15,
+     "h": 173,
+     "kana_ratio": 0.286,
+     "text": "孫楽学君子と学ゐむ人知り不残"
+    },
+    {
+     "x": 211,
+     "y": 217,
+     "w": 31,
+     "h": 356,
+     "kana_ratio": 0.4,
+     "text": "言句色魚タイ○申干ヒヨ"
+    }
+   ]
+  },
+  {
+   "page": "p008",
+   "n_orig": 43,
+   "footer": 0,
+   "strip": 0,
+   "keep": 43,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 209,
+     "y": 43,
+     "w": 16,
+     "h": 173,
+     "kana_ratio": 0.231,
+     "text": "娯楽季君子を学ゐぬ人知与不"
+    }
+   ]
+  },
+  {
+   "page": "p009",
+   "n_orig": 65,
+   "footer": 2,
+   "strip": 1,
+   "keep": 62,
+   "n_high": 0,
+   "high": []
+  },
+  {
+   "page": "p010",
+   "n_orig": 64,
+   "footer": 2,
+   "strip": 0,
+   "keep": 62,
+   "n_high": 2,
+   "high": [
+    {
+     "x": 770,
+     "y": 56,
+     "w": 16,
+     "h": 66,
+     "kana_ratio": 1.0,
+     "text": "□やれし。"
+    },
+    {
+     "x": 343,
+     "y": 155,
+     "w": 13,
+     "h": 61,
+     "kana_ratio": 0.25,
+     "text": "演説の巻"
+    }
+   ]
+  },
+  {
+   "page": "p011",
+   "n_orig": 40,
+   "footer": 0,
+   "strip": 0,
+   "keep": 40,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 300,
+     "y": 56,
+     "w": 19,
+     "h": 167,
+     "kana_ratio": 0.2,
+     "text": "于隋、故就待言とに其実"
+    }
+   ]
+  },
+  {
+   "page": "p012",
+   "n_orig": 66,
+   "footer": 9,
+   "strip": 5,
+   "keep": 52,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 908,
+     "y": 51,
+     "w": 13,
+     "h": 172,
+     "kana_ratio": 1.0,
+     "text": "にてしのもあるは"
+    }
+   ]
+  },
+  {
+   "page": "p013",
+   "n_orig": 68,
+   "footer": 9,
+   "strip": 0,
+   "keep": 59,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 432,
+     "y": 47,
+     "w": 20,
+     "h": 170,
+     "kana_ratio": 0.176,
+     "text": "万本法同心持へてオ一万五千五百万円"
+    }
+   ]
+  },
+  {
+   "page": "p014",
+   "n_orig": 73,
+   "footer": 24,
+   "strip": 5,
+   "keep": 44,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 340,
+     "y": 57,
+     "w": 14,
+     "h": 87,
+     "kana_ratio": 0.5,
+     "text": "三丁まて"
+    }
+   ]
+  },
+  {
+   "page": "p015",
+   "n_orig": 70,
+   "footer": 24,
+   "strip": 2,
+   "keep": 44,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 339,
+     "y": 58,
+     "w": 14,
+     "h": 86,
+     "kana_ratio": 0.667,
+     "text": "三丁ままには"
+    }
+   ]
+  },
+  {
+   "page": "p016",
+   "n_orig": 17,
+   "footer": 0,
+   "strip": 0,
+   "keep": 17,
+   "n_high": 0,
+   "high": []
+  },
+  {
+   "page": "p017",
+   "n_orig": 57,
+   "footer": 6,
+   "strip": 6,
+   "keep": 45,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 330,
+     "y": 55,
+     "w": 17,
+     "h": 167,
+     "kana_ratio": 0.2,
+     "text": "時王之制、故称図と都て"
+    }
+   ]
+  },
+  {
+   "page": "p018",
+   "n_orig": 57,
+   "footer": 9,
+   "strip": 0,
+   "keep": 48,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 327,
+     "y": 55,
+     "w": 17,
+     "h": 166,
+     "kana_ratio": 0.2,
+     "text": "時王之利、故称関と都に"
+    }
+   ]
+  },
+  {
+   "page": "p019",
+   "n_orig": 72,
+   "footer": 18,
+   "strip": 1,
+   "keep": 53,
+   "n_high": 0,
+   "high": []
+  },
+  {
+   "page": "p020",
+   "n_orig": 77,
+   "footer": 21,
+   "strip": 1,
+   "keep": 55,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 824,
+     "y": 55,
+     "w": 16,
+     "h": 42,
+     "kana_ratio": 0.333,
+     "text": "天て国"
+    }
+   ]
+  },
+  {
+   "page": "p021",
+   "n_orig": 41,
+   "footer": 0,
+   "strip": 0,
+   "keep": 41,
+   "n_high": 0,
+   "high": []
+  },
+  {
+   "page": "p022",
+   "n_orig": 50,
+   "footer": 0,
+   "strip": 0,
+   "keep": 50,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 739,
+     "y": 58,
+     "w": 16,
+     "h": 150,
+     "kana_ratio": 0.222,
+     "text": "十一年、立読まで、古今"
+    }
+   ]
+  },
+  {
+   "page": "p023",
+   "n_orig": 35,
+   "footer": 6,
+   "strip": 0,
+   "keep": 29,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 281,
+     "y": 53,
+     "w": 15,
+     "h": 153,
+     "kana_ratio": 0.5,
+     "text": "一諸子粉致しせまいて"
+    }
+   ]
+  },
+  {
+   "page": "p024",
+   "n_orig": 51,
+   "footer": 0,
+   "strip": 0,
+   "keep": 51,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 349,
+     "y": 60,
+     "w": 18,
+     "h": 149,
+     "kana_ratio": 0.2,
+     "text": "後ニテ曰上記者不誉精"
+    }
+   ]
+  },
+  {
+   "page": "p025",
+   "n_orig": 48,
+   "footer": 0,
+   "strip": 0,
+   "keep": 48,
+   "n_high": 0,
+   "high": []
+  },
+  {
+   "page": "p026",
+   "n_orig": 34,
+   "footer": 0,
+   "strip": 0,
+   "keep": 34,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 268,
+     "y": 211,
+     "w": 56,
+     "h": 391,
+     "kana_ratio": 0.294,
+     "text": "如丘者焉不レ如レ如クリ丘之好レ学也"
+    }
+   ]
+  },
+  {
+   "page": "p027",
+   "n_orig": 46,
+   "footer": 0,
+   "strip": 1,
+   "keep": 45,
+   "n_high": 2,
+   "high": [
+    {
+     "x": 1088,
+     "y": 41,
+     "w": 17,
+     "h": 171,
+     "kana_ratio": 0.154,
+     "text": "等ノ所可字之意ニ非也、可、重当"
+    },
+    {
+     "x": 1068,
+     "y": 41,
+     "w": 18,
+     "h": 171,
+     "kana_ratio": 0.182,
+     "text": "時陣中より何曽誤但大子"
+    }
+   ]
+  },
+  {
+   "page": "p028",
+   "n_orig": 36,
+   "footer": 0,
+   "strip": 0,
+   "keep": 36,
+   "n_high": 2,
+   "high": [
+    {
+     "x": 364,
+     "y": 65,
+     "w": 18,
+     "h": 90,
+     "kana_ratio": 0.25,
+     "text": "に多坐之、"
+    },
+    {
+     "x": 251,
+     "y": 42,
+     "w": 24,
+     "h": 181,
+     "kana_ratio": 0.167,
+     "text": "真天心也、小阪也、あれ直之方"
+    }
+   ]
+  },
+  {
+   "page": "p029",
+   "n_orig": 51,
+   "footer": 0,
+   "strip": 2,
+   "keep": 49,
+   "n_high": 2,
+   "high": [
+    {
+     "x": 1165,
+     "y": 46,
+     "w": 17,
+     "h": 173,
+     "kana_ratio": 0.222,
+     "text": "友、岡に生す也、弗能教"
+    },
+    {
+     "x": 321,
+     "y": 55,
+     "w": 19,
+     "h": 165,
+     "kana_ratio": 0.333,
+     "text": "播用借解る春なる事"
+    }
+   ]
+  },
+  {
+   "page": "p030",
+   "n_orig": 25,
+   "footer": 0,
+   "strip": 0,
+   "keep": 25,
+   "n_high": 0,
+   "high": []
+  },
+  {
+   "page": "p031",
+   "n_orig": 48,
+   "footer": 0,
+   "strip": 13,
+   "keep": 35,
+   "n_high": 0,
+   "high": []
+  },
+  {
+   "page": "p032",
+   "n_orig": 42,
+   "footer": 0,
+   "strip": 0,
+   "keep": 42,
+   "n_high": 4,
+   "high": [
+    {
+     "x": 511,
+     "y": 61,
+     "w": 15,
+     "h": 60,
+     "kana_ratio": 0.25,
+     "text": "八番同は"
+    },
+    {
+     "x": 420,
+     "y": 0,
+     "w": 12,
+     "h": 68,
+     "kana_ratio": 0.333,
+     "text": "一腰に仕上る"
+    },
+    {
+     "x": 396,
+     "y": 0,
+     "w": 15,
+     "h": 70,
+     "kana_ratio": 0.333,
+     "text": "こ同一丁目を"
+    },
+    {
+     "x": 374,
+     "y": 0,
+     "w": 15,
+     "h": 68,
+     "kana_ratio": 0.4,
+     "text": "アノ神経理"
+    }
+   ]
+  },
+  {
+   "page": "p033",
+   "n_orig": 58,
+   "footer": 14,
+   "strip": 0,
+   "keep": 44,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 350,
+     "y": 68,
+     "w": 16,
+     "h": 53,
+     "kana_ratio": 0.333,
+     "text": "備考へ"
+    }
+   ]
+  },
+  {
+   "page": "p034",
+   "n_orig": 39,
+   "footer": 0,
+   "strip": 0,
+   "keep": 39,
+   "n_high": 2,
+   "high": [
+    {
+     "x": 827,
+     "y": 57,
+     "w": 21,
+     "h": 157,
+     "kana_ratio": 0.429,
+     "text": "指能行をやる盤"
+    },
+    {
+     "x": 810,
+     "y": 58,
+     "w": 17,
+     "h": 154,
+     "kana_ratio": 0.25,
+     "text": "あり合一之方明言"
+    }
+   ]
+  },
+  {
+   "page": "p035",
+   "n_orig": 32,
+   "footer": 0,
+   "strip": 0,
+   "keep": 32,
+   "n_high": 0,
+   "high": []
+  },
+  {
+   "page": "p036",
+   "n_orig": 50,
+   "footer": 0,
+   "strip": 3,
+   "keep": 47,
+   "n_high": 0,
+   "high": []
+  },
+  {
+   "page": "p037",
+   "n_orig": 46,
+   "footer": 0,
+   "strip": 0,
+   "keep": 46,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 967,
+     "y": 48,
+     "w": 17,
+     "h": 171,
+     "kana_ratio": 0.273,
+     "text": "「擬詣まする恭喜学、原槐貞"
+    }
+   ]
+  },
+  {
+   "page": "p038",
+   "n_orig": 59,
+   "footer": 9,
+   "strip": 5,
+   "keep": 45,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 290,
+     "y": 54,
+     "w": 16,
+     "h": 162,
+     "kana_ratio": 0.2,
+     "text": "壱石炭豆苗にて夜回路"
+    }
+   ]
+  },
+  {
+   "page": "p039",
+   "n_orig": 61,
+   "footer": 9,
+   "strip": 0,
+   "keep": 52,
+   "n_high": 2,
+   "high": [
+    {
+     "x": 1091,
+     "y": 42,
+     "w": 16,
+     "h": 171,
+     "kana_ratio": 0.467,
+     "text": "西非慶子不可レイントインヲ以上"
+    },
+    {
+     "x": 331,
+     "y": 52,
+     "w": 16,
+     "h": 164,
+     "kana_ratio": 0.273,
+     "text": "一本にて冠正意緇布を以"
+    }
+   ]
+  },
+  {
+   "page": "p040",
+   "n_orig": 72,
+   "footer": 11,
+   "strip": 3,
+   "keep": 58,
+   "n_high": 4,
+   "high": [
+    {
+     "x": 1116,
+     "y": 53,
+     "w": 16,
+     "h": 43,
+     "kana_ratio": 0.5,
+     "text": "越み、"
+    },
+    {
+     "x": 1118,
+     "y": 54,
+     "w": 17,
+     "h": 54,
+     "kana_ratio": 0.5,
+     "text": "頼み、"
+    },
+    {
+     "x": 817,
+     "y": 527,
+     "w": 19,
+     "h": 213,
+     "kana_ratio": 0.176,
+     "text": "章政元、倭国王子毘鳳凰方、何国に即ちに"
+    },
+    {
+     "x": 439,
+     "y": 54,
+     "w": 17,
+     "h": 160,
+     "kana_ratio": 0.154,
+     "text": "自いろ壱丁目付及、既観壱人、則"
+    }
+   ]
+  },
+  {
+   "page": "p041",
+   "n_orig": 68,
+   "footer": 14,
+   "strip": 1,
+   "keep": 53,
+   "n_high": 3,
+   "high": [
+    {
+     "x": 783,
+     "y": 52,
+     "w": 19,
+     "h": 161,
+     "kana_ratio": 0.167,
+     "text": "而後進ニ教於四海ニ有本名"
+    },
+    {
+     "x": 737,
+     "y": 365,
+     "w": 30,
+     "h": 37,
+     "kana_ratio": 0.2,
+     "text": "北京都市の"
+    },
+    {
+     "x": 611,
+     "y": 44,
+     "w": 16,
+     "h": 172,
+     "kana_ratio": 0.25,
+     "text": "源天下之角冠悲人に対する"
+    }
+   ]
+  },
+  {
+   "page": "p042",
+   "n_orig": 52,
+   "footer": 3,
+   "strip": 1,
+   "keep": 48,
+   "n_high": 2,
+   "high": [
+    {
+     "x": 841,
+     "y": 58,
+     "w": 16,
+     "h": 161,
+     "kana_ratio": 0.167,
+     "text": "之名集学語書テ歴見テ謹見"
+    },
+    {
+     "x": 583,
+     "y": 56,
+     "w": 16,
+     "h": 30,
+     "kana_ratio": 0.5,
+     "text": "一セ、"
+    }
+   ]
+  },
+  {
+   "page": "p043",
+   "n_orig": 50,
+   "footer": 8,
+   "strip": 2,
+   "keep": 40,
+   "n_high": 2,
+   "high": [
+    {
+     "x": 574,
+     "y": 47,
+     "w": 19,
+     "h": 161,
+     "kana_ratio": 0.167,
+     "text": "一人之有服章は別貴賤に従"
+    },
+    {
+     "x": 393,
+     "y": 53,
+     "w": 17,
+     "h": 149,
+     "kana_ratio": 0.25,
+     "text": "必見する詩蘭山下"
+    }
+   ]
+  },
+  {
+   "page": "p044",
+   "n_orig": 73,
+   "footer": 21,
+   "strip": 1,
+   "keep": 51,
+   "n_high": 2,
+   "high": [
+    {
+     "x": 484,
+     "y": 80,
+     "w": 10,
+     "h": 31,
+     "kana_ratio": 1.0,
+     "text": "にやしかけ"
+    },
+    {
+     "x": 409,
+     "y": 67,
+     "w": 14,
+     "h": 115,
+     "kana_ratio": 0.25,
+     "text": "諫石行きか不否也、"
+    }
+   ]
+  },
+  {
+   "page": "p045",
+   "n_orig": 21,
+   "footer": 4,
+   "strip": 0,
+   "keep": 17,
+   "n_high": 1,
+   "high": [
+    {
+     "x": 1107,
+     "y": 63,
+     "w": 16,
+     "h": 107,
+     "kana_ratio": 0.167,
+     "text": "也、自然布置や"
+    }
+   ]
+  }
+ ]
+}
