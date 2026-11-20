@@ -1,8 +1,8 @@
 {
   "night": 44,
   "verdict": "PASS",
-  "checked_at": "2026-11-20T14:41:21",
-  "elapsed_sec": 37.5,
+  "checked_at": "2026-11-20T14:57:15",
+  "elapsed_sec": 36.3,
   "n_checks": 6,
   "n_fail": 0,
   "n_skip": 1,
@@ -13,19 +13,10 @@
       "status": "pass",
       "notes": [
         "已跟踪文件无改动",
-        "未跟踪：eval/import_pid_11892692/book_filter_on.md, eval/night44_bookdiff.json, eval/night44_compare.json, eval/night44_footer_review.json, eval/night44_full/, eval/night44_gt_cer.json, eval/night44_gt_impact.json, eval/night44_gt_lines.json, eval/night44_insertion.json, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_01.png"
+        "未跟踪：eval/ocr_samples/gt36/ndl_10301438_R0000002/line_01.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_02.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_03.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_04.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_05.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_06.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_07.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_08.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_09.png, eval/ocr_samples/gt36/ndl_10301438_R0000002/line_10.png"
       ],
       "detail": {
         "changed": [
-          "?? eval/import_pid_11892692/book_filter_on.md",
-          "?? eval/night44_bookdiff.json",
-          "?? eval/night44_compare.json",
-          "?? eval/night44_footer_review.json",
-          "?? eval/night44_full/",
-          "?? eval/night44_gt_cer.json",
-          "?? eval/night44_gt_impact.json",
-          "?? eval/night44_gt_lines.json",
-          "?? eval/night44_insertion.json",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_01.png",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_02.png",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_03.png",
@@ -551,29 +542,10 @@
           "?? eval/ocr_samples/gt36_hr/",
           "?? eval/ocr_samples/gt36_probe.png",
           "?? eval/ocr_samples/gt36_view/",
-          "?? eval/ocr_samples/hr_test.jpg",
-          "?? tests/test_ocr_night44.py",
-          "?? tools/night44_book.py",
-          "?? tools/night44_bookdiff.py",
-          "?? tools/night44_compare.py",
-          "?? tools/night44_fullrun.py",
-          "?? tools/night44_gt_impact.py",
-          "?? tools/night44_gt_run.py",
-          "?? tools/night44_insertion_check.py",
-          "?? tools/night44_mark_verdicts.py",
-          "?? tools/night44_review_footer.py"
+          "?? eval/ocr_samples/hr_test.jpg"
         ],
         "tracked_changes": [],
         "untracked": [
-          "?? eval/import_pid_11892692/book_filter_on.md",
-          "?? eval/night44_bookdiff.json",
-          "?? eval/night44_compare.json",
-          "?? eval/night44_footer_review.json",
-          "?? eval/night44_full/",
-          "?? eval/night44_gt_cer.json",
-          "?? eval/night44_gt_impact.json",
-          "?? eval/night44_gt_lines.json",
-          "?? eval/night44_insertion.json",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_01.png",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_02.png",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_03.png",
@@ -1099,17 +1071,7 @@
           "?? eval/ocr_samples/gt36_hr/",
           "?? eval/ocr_samples/gt36_probe.png",
           "?? eval/ocr_samples/gt36_view/",
-          "?? eval/ocr_samples/hr_test.jpg",
-          "?? tests/test_ocr_night44.py",
-          "?? tools/night44_book.py",
-          "?? tools/night44_bookdiff.py",
-          "?? tools/night44_compare.py",
-          "?? tools/night44_fullrun.py",
-          "?? tools/night44_gt_impact.py",
-          "?? tools/night44_gt_run.py",
-          "?? tools/night44_insertion_check.py",
-          "?? tools/night44_mark_verdicts.py",
-          "?? tools/night44_review_footer.py"
+          "?? eval/ocr_samples/hr_test.jpg"
         ]
       }
     },
@@ -1118,16 +1080,16 @@
       "title": "tests 全量通过",
       "status": "pass",
       "notes": [
-        "104 passed = 104 collected（18.1s，收集 6.0s）"
+        "104 passed = 104 collected（17.4s，收集 6.4s）"
       ],
       "detail": {
         "collected": 104,
-        "collect_sec": 6.0,
-        "elapsed_sec": 18.1,
+        "collect_sec": 6.4,
+        "elapsed_sec": 17.4,
         "tail": [
           "........................................................................ [ 69%]",
           "................................                                         [100%]",
-          "104 passed in 14.95s"
+          "104 passed in 14.67s"
         ],
         "passed": 104
       }
@@ -1199,15 +1161,15 @@
       "title": "单句训读耗时在包络内",
       "status": "pass",
       "notes": [
-        "短句中位 10ms（包络 3000ms）"
+        "短句中位 7ms（包络 3000ms）"
       ],
       "detail": {
         "ms": [
-          6.0,
-          10.0,
-          10.0
+          7.0,
+          9.0,
+          6.0
         ],
-        "median_ms": 10.0,
+        "median_ms": 7.0,
         "limit_ms": 3000.0
       }
     }
