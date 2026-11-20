@@ -37,7 +37,10 @@ from backend.ocr_postfix import (  # noqa: E402
     normalize_compat_ideographs,
     postprocess_line,
 )
-from backend.ocr_layout import judge_layout, main_column_keys, reorder_main_slots  # noqa: E402  (NIGHT43/45 版面)
+from backend.ocr_layout import (  # noqa: E402  (NIGHT43/45/46 版面)
+    _main_group, _median, judge_headnote_strip, judge_layout, main_column_keys,
+    reorder_main_slots,
+)
 
 logger = logging.getLogger("kanbun.ocr")
 
@@ -272,16 +275,33 @@ class OCREngine:
         # NIGHT43: 版面几何噪音过滤（页脚带手写/书志短行、主栏带内侵入窄条）。
         # 只看框位置，不看文本（判据与阈值依据 eval/night43_stats.json 的实测分布）。
         # KANBUN_OCR_LAYOUT_FILTER=0 关闭。被滤框记 logger 并随返回值带回。
+        # NIGHT46: 同一开关下追加「上部手写长条」过滤（judge_headnote_strip）。
         layout_filtered = []
         if os.environ.get("KANBUN_OCR_LAYOUT_FILTER", "1") != "0":
+            n_in = len(kept_boxes)
             _miban, judged = judge_layout(kept_boxes, img_w, img_h)
             for b, reason in judged:
                 if reason is not None:
                     layout_filtered.append(dict(b, reason=reason))
+            kept_boxes = [b for b, r in judged if r is None]
+            # NIGHT46 上部手写长条（judge_layout 只覆盖页脚带）
+            vert = [b for b in kept_boxes if b["h"] >= b["w"]]
+            if vert:
+                _m2, main2 = _main_group([dict(b) for b in kept_boxes])
+                if main2:
+                    strips = judge_headnote_strip(
+                        kept_boxes,
+                        body_top=_median([b["y"] for b in main2]),
+                        h_max=max(b["h"] for b in vert))
+                    if strips:
+                        sk = {(b["x"], b["y"], b["w"], b["h"]) for b in strips}
+                        for b in strips:
+                            layout_filtered.append(dict(b, reason="headnote_strip"))
+                        kept_boxes = [b for b in kept_boxes
+                                      if (b["x"], b["y"], b["w"], b["h"]) not in sk]
             if layout_filtered:
-                kept_boxes = [b for b, r in judged if r is None]
                 logger.info("ocr layout filter: removed %d/%d box(es): %s",
-                            len(layout_filtered), len(judged),
+                            len(layout_filtered), n_in,
                             "; ".join("x=%d y=%d w=%d h=%d %s"
                                       % (b["x"], b["y"], b["w"], b["h"], b["reason"])
                                       for b in layout_filtered))

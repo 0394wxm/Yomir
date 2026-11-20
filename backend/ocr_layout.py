@@ -38,11 +38,23 @@ MIN_MAIN = 3
 # 0 会漏 cy 贴着 y_max 的页脚框；-12 实测 6 页验证页页脚全滤且不碰任何保留框。
 FOOTER_MARGIN = -12
 
+# NIGHT46 上部手写长条带（见 judge_headnote_strip）。
+# 起点比 body_top（主栏 y 中位数）早 STRIP_TOP_OFFSET 以上、且长过
+# STRIP_H_FRAC*h_max 的縦框 = 手写批注长条。47 页实测命中 62 框，零误伤；
+# 灵敏度：offset 60-150、h_frac 0.4-0.6 命中数完全不变（平台区）。
+STRIP_TOP_OFFSET = 100
+STRIP_H_FRAC = 0.5
+
 # 【被否决的判据，留档防重蹈】主栏带内孤立窄条（intruded_strip）：p019/p020/p033
 # 上曾抓到 6 个真噪音（当村人名平着/亥子九丁亥 等），但 p012/p017 上主栏若有
 # 顶格长列（miban.y=35），头注带落入「版心内部」，判据越界误杀头注正文约 20 行
-# （「或曰獣与憲通心可」「蔑強而と群諸友観体」等）。版心 y 估计在版式多样性下
-# 不可靠 → 按零错滤硬门砍掉。上部头注带（印刷头注与手写条几何重合）同样不滤。
+# （「或曰獣与憲通心可」「蔑強而と群諸友観体」等）。
+#
+# **NIGHT46 更正**：上面「miban.y=35」的前提本身是循环论证——p012/p017 的手写
+# 长条被 MAIN_W_FRAC 判据误纳为主栏，`miban.y = min(主栏 y)` 才变成 35/38。
+# 改用稳健量 body_top=median(主栏 y) 后，上部手写长条可由 judge_headnote_strip
+# 纯几何分离（47 页命中 62 框、零误伤、与页脚带零重叠）。intruded_strip 本身
+# 仍不采用（它抓的是主栏带**内部**的窄条，与上部带无关）。
 
 
 def _p90(vs):
@@ -72,6 +84,49 @@ def _main_group(boxes):
              "w": max(b["x"] + b["w"] for b in main) - min(b["x"] for b in main),
              "h": max(b["y"] + b["h"] for b in main) - min(b["y"] for b in main)}
     return miban, main
+
+
+def _median(vs):
+    s = sorted(vs)
+    n = len(s)
+    if not n:
+        return 0.0
+    return s[n // 2] if n % 2 else (s[n // 2 - 1] + s[n // 2]) / 2.0
+
+
+def judge_headnote_strip(boxes, body_top=None, h_max=None):
+    """NIGHT46 上部手写长条过滤。
+
+    `judge_layout` 只处理**页脚带**；上部头注带 Night43 判为不可做，理由是
+    「头注带落入版心内部」——但那个结论用的是 `miban.y = min(主栏 y)`，而
+    p012/p017 的手写长条**自己就被误判为主栏**，把 miban.y 抬到 38/36。
+    这是循环论证。本判据改用稳健量 `body_top = median(主栏 y)`（47 页实测
+    209-256，离群长条拉不动）。
+
+    判据（纯几何，三条件同时成立）：
+      1. 縦框（h >= w）
+      2. `y + STRIP_TOP_OFFSET <= body_top`  起点远高于正文上缘
+      3. `h >= STRIP_H_FRAC * h_max`         足够长（排除头注短行 h≈150-180）
+
+    判据 2 把「长条起点」和「正文列起点」分开（body_top 是主栏 y 中位数，
+    至少一半主栏列起点 >= body_top，不可能早 100px）；判据 3 把「长条」和
+    「头注短行」分开（头注短行起点也高，但 h 只有 150-180）。
+
+    47 页实测：命中 62 框/18 页，全部是夹「候」「御」「様」的手写公文批注；
+    被命中框 y 在 16/18 页完全早于主栏 y 最小值；与页脚带判据**零重叠**；
+    GT 8 页仅命中 1 个 `}`（Night6 已记录的刊本界框行，噪音）。
+    """
+    if body_top is None or h_max is None:
+        _miban, main = _main_group([dict(b) for b in boxes])
+        if not main:
+            return []
+        body_top = _median([b["y"] for b in main])
+        vert = [b for b in boxes if b["h"] >= b["w"]]
+        h_max = max(b["h"] for b in vert)
+    return [b for b in boxes
+            if b["h"] >= b["w"]
+            and b["y"] + STRIP_TOP_OFFSET <= body_top
+            and b["h"] >= STRIP_H_FRAC * h_max]
 
 
 def judge_layout(boxes, img_w=None, img_h=None):
