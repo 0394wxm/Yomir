@@ -96,3 +96,33 @@ def get_history(limit: int = 20):
         }
         for row in rows
     ]
+
+
+def get_requests_by_ids(ids):
+    """NIGHT52: 按 id 列表取请求（id 升序，EPUB 导出用）。
+
+    与 get_history 同一投影；找不到的 id 不在返回里（调用方据此报 404）。
+    """
+    ids = [int(i) for i in ids]
+    if not ids:
+        return []
+    with _LOCK:
+        conn = get_conn()
+        try:
+            qmarks = ",".join("?" * len(ids))
+            cur = conn.execute(
+                "SELECT r.id, r.hakubun, r.ocr_hakubun, r.prev_request_id, r.created_at,"
+                " s.kaeriten_text, s.kakikudashi"
+                " FROM requests r LEFT JOIN results s ON s.request_id = r.id"
+                " WHERE r.id IN (%s) ORDER BY r.id ASC" % qmarks, ids)
+            rows = cur.fetchall()
+        finally:
+            conn.close()
+    return [
+        {
+            "id": row[0], "hakubun": row[1], "ocr_hakubun": row[2],
+            "prev_request_id": row[3], "created_at": row[4],
+            "kaeriten_text": row[5], "kakikudashi": row[6],
+        }
+        for row in rows
+    ]

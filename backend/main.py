@@ -385,6 +385,48 @@ def history(limit: int = Query(default=20, description="返回最近 N 条（1~1
     return {"items": db.get_history(limit)}
 
 
+@app.get("/api/export/epub")
+def export_epub(
+    ids: str = Query(default="", description="逗号分隔的 request id；空 = 最近 limit 条"),
+    limit: int = Query(default=20, ge=1, le=100, description="ids 为空时导出最近 N 条"),
+):
+    """NIGHT52: 把訓読结果导出为 EPUB 3（縦書き）。见 backend/epub_export.py。
+
+    * ids=1,2,3 → 按指定 id 升序导出；有不存在的 id → 404；
+    * ids 缺省 → 最近 limit 条（与 /api/history 同源），按 id 升序进 EPUB；
+    * 条目缺 kakikudashi（无结果的请求）跳过；全跳完 → 404。
+    """
+    from fastapi.responses import Response
+    from backend import epub_export
+
+    if ids.strip():
+        try:
+            id_list = [int(x) for x in ids.split(",") if x.strip()]
+        except ValueError:
+            raise HTTPException(status_code=400, detail="ids 必须是逗号分隔的整数")
+        if not id_list:
+            raise HTTPException(status_code=400, detail="ids 不能为空串")
+        rows = db.get_requests_by_ids(id_list)
+        missing = sorted(set(id_list) - {r["id"] for r in rows})
+        if missing:
+            raise HTTPException(status_code=404,
+                                detail="request id 不存在: %s" % missing[:10])
+    else:
+        rows = list(reversed(db.get_history(limit)))   # get_history 倒序 → 导出按 id 升序
+
+    rows = [r for r in rows if r.get("kakikudashi")]
+    if not rows:
+        raise HTTPException(status_code=404, detail="没有可导出的訓読结果")
+
+    data = epub_export.build_epub(rows, title=epub_export.DEFAULT_TITLE)
+    fname = "kanbun_%s.epub" % time.strftime("%Y%m%d")
+    return Response(
+        content=data,
+        media_type="application/epub+zip",
+        headers={"Content-Disposition": 'attachment; filename="%s"' % fname},
+    )
+
+
 @app.post("/api/ocr/batch")
 async def ocr_batch(files: list[UploadFile]):
     """NIGHT11: OCR 批量端点——多张图按顺序串行识别（不并行压 Celeron）。"""

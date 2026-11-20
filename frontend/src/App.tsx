@@ -366,6 +366,27 @@ export default function App() {
     window.print()
   }
 
+  // NIGHT52: EPUB 書き出し（縦書き）。結果が落庫済み（request_id あり）のときだけ有効。
+  async function downloadEpub() {
+    const rid = result?.request_id
+    if (!rid) return
+    try {
+      const res = await fetch(`${API}/api/export/epub?ids=${rid}`)
+      if (!res.ok) {
+        setErrMsg('EPUB 出力に失敗しました (HTTP ' + res.status + ')。')
+        return
+      }
+      const blob = await res.blob()
+      const a = document.createElement('a')
+      a.href = URL.createObjectURL(blob)
+      a.download = 'kundoku_' + new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-') + '.epub'
+      a.click()
+      URL.revokeObjectURL(a.href)
+    } catch {
+      setErrMsg('EPUB 出力に失敗しました（ネットワーク？）。')
+    }
+  }
+
   function editLine(idx: number, newText: string) {
     const lines = [...curLines]
     while (lines.length <= idx) lines.push('')
@@ -567,6 +588,7 @@ export default function App() {
         <div className="row export-row">
           <button className="ghost" onClick={copyResult} disabled={!result}>一键复制</button>
           <button className="ghost" onClick={downloadTxt} disabled={!result}>下载 txt</button>
+          <button className="ghost" onClick={() => void downloadEpub()} disabled={!result?.request_id}>EPUB 出力</button>
           <button className="ghost" onClick={printResult} disabled={!result}>打印</button>
         </div>
         <div className="outputs">
