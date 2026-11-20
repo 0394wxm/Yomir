@@ -1,0 +1,2832 @@
+{
+ "n_pages": 3,
+ "pages": [
+  {
+   "page": "p014",
+   "ocr_sec": 100.5,
+   "n_boxes": 73,
+   "miban_y": 211,
+   "y_max": 823,
+   "filtered": [
+    {
+     "page": "p014",
+     "text": "敵ゐぬが",
+     "x": 1069,
+     "y": 795,
+     "w": 19,
+     "h": 52,
+     "cy": 821,
+     "dy_ymax": -2.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "手写杂记碎片"
+    },
+    {
+     "page": "p014",
+     "text": "いつぎ孔子",
+     "x": 1053,
+     "y": 796,
+     "w": 15,
+     "h": 53,
+     "cy": 822,
+     "dy_ymax": -0.5,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "手写；『孔子』是斋名/人名语境，非经文接续"
+    },
+    {
+     "page": "p014",
+     "text": "村田村",
+     "x": 1035,
+     "y": 796,
+     "w": 17,
+     "h": 53,
+     "cy": 822,
+     "dy_ymax": -0.5,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "人名（村田村）"
+    },
+    {
+     "page": "p014",
+     "text": "非也、",
+     "x": 836,
+     "y": 802,
+     "w": 17,
+     "h": 40,
+     "cy": 822,
+     "dy_ymax": -1.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ambiguous",
+     "note": "4 字短碎片；上邻列末字『尤』不接续，位置在正文列底缘以下"
+    },
+    {
+     "page": "p014",
+     "text": "武士美麗と",
+     "x": 1168,
+     "y": 797,
+     "w": 11,
+     "h": 52,
+     "cy": 823,
+     "dy_ymax": 0.0,
+     "reason": "footer_band",
+     "neighbor_right": null,
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "手写杂记"
+    },
+    {
+     "page": "p014",
+     "text": "しかきないます",
+     "x": 1144,
+     "y": 796,
+     "w": 10,
+     "h": 54,
+     "cy": 823,
+     "dy_ymax": 0.0,
+     "reason": "footer_band",
+     "neighbor_right": null,
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "手写杂记（口语体）"
+    },
+    {
+     "page": "p014",
+     "text": "一同村伊勢守様",
+     "x": 1134,
+     "y": 797,
+     "w": 9,
+     "h": 52,
+     "cy": 823,
+     "dy_ymax": 0.0,
+     "reason": "footer_band",
+     "neighbor_right": null,
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "人名+敬称（伊勢守様）"
+    },
+    {
+     "page": "p014",
+     "text": "新田老",
+     "x": 1018,
+     "y": 796,
+     "w": 17,
+     "h": 54,
+     "cy": 823,
+     "dy_ymax": 0.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "人名（新田老）"
+    },
+    {
+     "page": "p014",
+     "text": "県傾向",
+     "x": 1001,
+     "y": 797,
+     "w": 17,
+     "h": 55,
+     "cy": 824,
+     "dy_ymax": 1.5,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p014",
+     "text": "なゐ",
+     "x": 988,
+     "y": 798,
+     "w": 14,
+     "h": 53,
+     "cy": 824,
+     "dy_ymax": 1.5,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "假名碎片"
+    },
+    {
+     "page": "p014",
+     "text": "曰る中田",
+     "x": 975,
+     "y": 798,
+     "w": 16,
+     "h": 53,
+     "cy": 824,
+     "dy_ymax": 1.5,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "地名/人名"
+    },
+    {
+     "page": "p014",
+     "text": "四巻惣や",
+     "x": 962,
+     "y": 797,
+     "w": 14,
+     "h": 54,
+     "cy": 824,
+     "dy_ymax": 1.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "册数（四巻）"
+    },
+    {
+     "page": "p014",
+     "text": "きはゝ絵の",
+     "x": 948,
+     "y": 798,
+     "w": 14,
+     "h": 54,
+     "cy": 825,
+     "dy_ymax": 2.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "手写杂记"
+    },
+    {
+     "page": "p014",
+     "text": "安府西は",
+     "x": 932,
+     "y": 798,
+     "w": 16,
+     "h": 54,
+     "cy": 825,
+     "dy_ymax": 2.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "地名碎片"
+    },
+    {
+     "page": "p014",
+     "text": "悲し感悲し",
+     "x": 917,
+     "y": 798,
+     "w": 15,
+     "h": 54,
+     "cy": 825,
+     "dy_ymax": 2.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "手写杂记"
+    },
+    {
+     "page": "p014",
+     "text": "水君様",
+     "x": 902,
+     "y": 799,
+     "w": 16,
+     "h": 52,
+     "cy": 825,
+     "dy_ymax": 2.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "人名+敬称"
+    },
+    {
+     "page": "p014",
+     "text": "名古館",
+     "x": 887,
+     "y": 800,
+     "w": 14,
+     "h": 51,
+     "cy": 826,
+     "dy_ymax": 2.5,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "地名（名古屋系）"
+    },
+    {
+     "page": "p014",
+     "text": "一猿葉寺",
+     "x": 822,
+     "y": 802,
+     "w": 13,
+     "h": 49,
+     "cy": 826,
+     "dy_ymax": 3.5,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "寺名/册数"
+    },
+    {
+     "page": "p014",
+     "text": "大学をつて",
+     "x": 810,
+     "y": 798,
+     "w": 12,
+     "h": 56,
+     "cy": 826,
+     "dy_ymax": 3.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "手写杂记；『大学』在此为杂记用词，非《大学》经文"
+    },
+    {
+     "page": "p014",
+     "text": "知布同",
+     "x": 855,
+     "y": 802,
+     "w": 17,
+     "h": 50,
+     "cy": 827,
+     "dy_ymax": 4.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p014",
+     "text": "鈴木佐美座候以上",
+     "x": 799,
+     "y": 801,
+     "w": 10,
+     "h": 52,
+     "cy": 827,
+     "dy_ymax": 4.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "书信体（…座候以上），明确非经文"
+    },
+    {
+     "page": "p014",
+     "text": "一同四十五軒",
+     "x": 787,
+     "y": 802,
+     "w": 10,
+     "h": 52,
+     "cy": 828,
+     "dy_ymax": 5.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "轩数统计"
+    },
+    {
+     "page": "p014",
+     "text": "此院向事故四丁",
+     "x": 773,
+     "y": 802,
+     "w": 12,
+     "h": 53,
+     "cy": 828,
+     "dy_ymax": 5.5,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "书志记注（丁数）"
+    },
+    {
+     "page": "p014",
+     "text": "可奉上候",
+     "x": 761,
+     "y": 803,
+     "w": 10,
+     "h": 50,
+     "cy": 828,
+     "dy_ymax": 5.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "neighbor_left": "同断同三田村一緒",
+     "verdict": "ok_noise",
+     "note": "书信体（可奉上候）"
+    }
+   ],
+   "kept_in_footer_band": [],
+   "all_pairs": [
+    {
+     "text": "多見闕始慎行其余則寡悔言寡尤行寡悔",
+     "x": 1125,
+     "y": 212,
+     "w": 55,
+     "h": 585,
+     "vert": true
+    },
+    {
+     "text": "しかきないます",
+     "x": 1144,
+     "y": 796,
+     "w": 10,
+     "h": 54,
+     "vert": true
+    },
+    {
+     "text": "武士美麗と",
+     "x": 1168,
+     "y": 797,
+     "w": 11,
+     "h": 52,
+     "vert": true
+    },
+    {
+     "text": "一同村伊勢守様",
+     "x": 1134,
+     "y": 797,
+     "w": 9,
+     "h": 52,
+     "vert": true
+    },
+    {
+     "text": "禄在其中矣○哀公問曰何為則民服。孔子一",
+     "x": 1071,
+     "y": 211,
+     "w": 53,
+     "h": 601,
+     "vert": true
+    },
+    {
+     "text": "敵ゐぬが",
+     "x": 1069,
+     "y": 795,
+     "w": 19,
+     "h": 52,
+     "vert": true
+    },
+    {
+     "text": "一巻自錯極挙貞者置",
+     "x": 1054,
+     "y": 51,
+     "w": 20,
+     "h": 159,
+     "vert": true
+    },
+    {
+     "text": "久杉柱上也、故能使杉寺直、",
+     "x": 1032,
+     "y": 52,
+     "w": 18,
+     "h": 161,
+     "vert": true
+    },
+    {
+     "text": "一熱匠問紅加草可参観、",
+     "x": 1006,
+     "y": 53,
+     "w": 22,
+     "h": 160,
+     "vert": true
+    },
+    {
+     "text": "對曰舉直錯錯諸社則民服舉枉錯直則民",
+     "x": 1017,
+     "y": 215,
+     "w": 54,
+     "h": 584,
+     "vert": true
+    },
+    {
+     "text": "いつぎ孔子",
+     "x": 1053,
+     "y": 796,
+     "w": 15,
+     "h": 53,
+     "vert": true
+    },
+    {
+     "text": "村田村",
+     "x": 1035,
+     "y": 796,
+     "w": 17,
+     "h": 53,
+     "vert": true
+    },
+    {
+     "text": "新田老",
+     "x": 1018,
+     "y": 796,
+     "w": 17,
+     "h": 54,
+     "vert": true
+    },
+    {
+     "text": "県傾向",
+     "x": 1001,
+     "y": 797,
+     "w": 17,
+     "h": 55,
+     "vert": true
+    },
+    {
+     "text": "不服○季康子問使民敬忠以勤如之何子",
+     "x": 964,
+     "y": 218,
+     "w": 52,
+     "h": 580,
+     "vert": true
+    },
+    {
+     "text": "四巻惣や",
+     "x": 962,
+     "y": 797,
+     "w": 14,
+     "h": 54,
+     "vert": true
+    },
+    {
+     "text": "なゐ",
+     "x": 988,
+     "y": 798,
+     "w": 14,
+     "h": 53,
+     "vert": true
+    },
+    {
+     "text": "曰る中田",
+     "x": 975,
+     "y": 798,
+     "w": 16,
+     "h": 53,
+     "vert": true
+    },
+    {
+     "text": "施類有段、謂徳之於国際也、堯舜之通、孝平而已、孝弟、乃為政之本、即而政",
+     "x": 924,
+     "y": 46,
+     "w": 27,
+     "h": 523,
+     "vert": true
+    },
+    {
+     "text": "則孝弟之請七、政郡不当改而各附之本、沈置之義、則亦凶政矣、実為不為致矣、",
+     "x": 898,
+     "y": 54,
+     "w": 26,
+     "h": 503,
+     "vert": true
+    },
+    {
+     "text": "心挙善而教不能",
+     "x": 913,
+     "y": 570,
+     "w": 51,
+     "h": 225,
+     "vert": true
+    },
+    {
+     "text": "きはゝ絵の",
+     "x": 948,
+     "y": 798,
+     "w": 14,
+     "h": 54,
+     "vert": true
+    },
+    {
+     "text": "安府西は",
+     "x": 932,
+     "y": 798,
+     "w": 16,
+     "h": 54,
+     "vert": true
+    },
+    {
+     "text": "悲し感悲し",
+     "x": 917,
+     "y": 798,
+     "w": 15,
+     "h": 54,
+     "vert": true
+    },
+    {
+     "text": "水君様",
+     "x": 902,
+     "y": 799,
+     "w": 16,
+     "h": 52,
+     "vert": true
+    },
+    {
+     "text": "諸於自改句、須龍君陳身上説、不必遷就而者一家之数、",
+     "x": 875,
+     "y": 50,
+     "w": 26,
+     "h": 400,
+     "vert": true
+    },
+    {
+     "text": "嘉兵村孝乎惟孝句毛",
+     "x": 850,
+     "y": 56,
+     "w": 18,
+     "h": 159,
+     "vert": true
+    },
+    {
+     "text": "小為政。子曰書二",
+     "x": 862,
+     "y": 570,
+     "w": 49,
+     "h": 231,
+     "vert": true
+    },
+    {
+     "text": "同国官乱浦有政治宿",
+     "x": 847,
+     "y": 583,
+     "w": 23,
+     "h": 199,
+     "vert": true
+    },
+    {
+     "text": "名古館",
+     "x": 887,
+     "y": 800,
+     "w": 14,
+     "h": 51,
+     "vert": true
+    },
+    {
+     "text": "知布同",
+     "x": 855,
+     "y": 802,
+     "w": 17,
+     "h": 50,
+     "vert": true
+    },
+    {
+     "text": "寄発村稽古篇介之",
+     "x": 826,
+     "y": 56,
+     "w": 19,
+     "h": 160,
+     "vert": true
+    },
+    {
+     "text": "爰其為之政、語似難通、",
+     "x": 783,
+     "y": 59,
+     "w": 20,
+     "h": 161,
+     "vert": true
+    },
+    {
+     "text": "著明",
+     "x": 806,
+     "y": 62,
+     "w": 16,
+     "h": 45,
+     "vert": true
+    },
+    {
+     "text": "孝乎惟孝友于兄弟施於有政是亦爲政奚",
+     "x": 802,
+     "y": 221,
+     "w": 52,
+     "h": 602,
+     "vert": true
+    },
+    {
+     "text": "是清助宮有夏有飯等有之",
+     "x": 791,
+     "y": 604,
+     "w": 20,
+     "h": 189,
+     "vert": true
+    },
+    {
+     "text": "大学をつて",
+     "x": 810,
+     "y": 798,
+     "w": 12,
+     "h": 56,
+     "vert": true
+    },
+    {
+     "text": "鈴木佐美座候以上",
+     "x": 799,
+     "y": 801,
+     "w": 10,
+     "h": 52,
+     "vert": true
+    },
+    {
+     "text": "非也、",
+     "x": 836,
+     "y": 802,
+     "w": 17,
+     "h": 40,
+     "vert": true
+    },
+    {
+     "text": "一猿葉寺",
+     "x": 822,
+     "y": 802,
+     "w": 13,
+     "h": 49,
+     "vert": true
+    },
+    {
+     "text": "一同四十五軒",
+     "x": 787,
+     "y": 802,
+     "w": 10,
+     "h": 52,
+     "vert": true
+    },
+    {
+     "text": "為ニ問題図不詳、",
+     "x": 760,
+     "y": 58,
+     "w": 20,
+     "h": 142,
+     "vert": true
+    },
+    {
+     "text": "書、是古文君陳篇、見陳",
+     "x": 740,
+     "y": 58,
+     "w": 20,
+     "h": 166,
+     "vert": true
+    },
+    {
+     "text": "其爲爲政○子曰。人而無信不知其可也大。",
+     "x": 751,
+     "y": 219,
+     "w": 50,
+     "h": 596,
+     "vert": true
+    },
+    {
+     "text": "此院向事故四丁",
+     "x": 773,
+     "y": 802,
+     "w": 12,
+     "h": 53,
+     "vert": true
+    },
+    {
+     "text": "可奉上候",
+     "x": 761,
+     "y": 803,
+     "w": 10,
+     "h": 50,
+     "vert": true
+    },
+    {
+     "text": "華孝于二矣未子国籍々、謂書之言孝如此也、此所心凡為接所引書矣、自有之有有矣同河揚止哉、但回為乃知朱乎、",
+     "x": 722,
+     "y": 64,
+     "w": 21,
+     "h": 746,
+     "vert": true
+    },
+    {
+     "text": "一丈々使は来屡々知例証不一点を一点及何有之記念以為文、作無諸辞、故不知後之次第、抜来さぬ心変之変此変化獄迄、",
+     "x": 702,
+     "y": 49,
+     "w": 21,
+     "h": 764,
+     "vert": true
+    },
+    {
+     "text": "旧者、天珠有礼、自我五孔、",
+     "x": 614,
+     "y": 49,
+     "w": 24,
+     "h": 168,
+     "vert": true
+    },
+    {
+     "text": "則此礼也与天地経孫上之",
+     "x": 592,
+     "y": 49,
+     "w": 21,
+     "h": 167,
+     "vert": true
+    },
+    {
+     "text": "三代所図、同一此礼「下之、百世",
+     "x": 570,
+     "y": 49,
+     "w": 20,
+     "h": 164,
+     "vert": true
+    },
+    {
+     "text": "車無乾小車無軌其何以行之哉○子張問",
+     "x": 577,
+     "y": 216,
+     "w": 54,
+     "h": 590,
+     "vert": true
+    },
+    {
+     "text": "外法純氏魂可従",
+     "x": 618,
+     "y": 666,
+     "w": 18,
+     "h": 135,
+     "vert": true
+    },
+    {
+     "text": "所用、同一此花、玉于制廃文、",
+     "x": 549,
+     "y": 49,
+     "w": 18,
+     "h": 164,
+     "vert": true
+    },
+    {
+     "text": "為、不能矣少損益、黙重",
+     "x": 528,
+     "y": 49,
+     "w": 19,
+     "h": 163,
+     "vert": true
+    },
+    {
+     "text": "十世可知也。子曰。殷因於夏禮所損益可知",
+     "x": 523,
+     "y": 217,
+     "w": 51,
+     "h": 587,
+     "vert": true
+    },
+    {
+     "text": "本同矣、故其末共不遁少",
+     "x": 506,
+     "y": 50,
+     "w": 20,
+     "h": 164,
+     "vert": true
+    },
+    {
+     "text": "異、大子所謂百世可知す、",
+     "x": 485,
+     "y": 51,
+     "w": 20,
+     "h": 165,
+     "vert": true
+    },
+    {
+     "text": "以量了、如本注所引為",
+     "x": 463,
+     "y": 53,
+     "w": 21,
+     "h": 157,
+     "vert": true
+    },
+    {
+     "text": "也。周因於殷禮所損益可知也。其或繼周者ニ",
+     "x": 469,
+     "y": 214,
+     "w": 51,
+     "h": 593,
+     "vert": true
+    },
+    {
+     "text": "一本文銭三銭五帯文価三十五貫三",
+     "x": 441,
+     "y": 53,
+     "w": 19,
+     "h": 160,
+     "vert": true
+    },
+    {
+     "text": "一流生諸本社奉行、皆是潰",
+     "x": 420,
+     "y": 53,
+     "w": 20,
+     "h": 163,
+     "vert": true
+    },
+    {
+     "text": "雖百世可知也○子曰。非其鬼而祭之議也。",
+     "x": 414,
+     "y": 214,
+     "w": 50,
+     "h": 592,
+     "vert": true
+    },
+    {
+     "text": "原拝創、三代七上、筆北巓、",
+     "x": 400,
+     "y": 54,
+     "w": 18,
+     "h": 161,
+     "vert": true
+    },
+    {
+     "text": "同、家人的発用之、非也、一",
+     "x": 379,
+     "y": 55,
+     "w": 18,
+     "h": 160,
+     "vert": true
+    },
+    {
+     "text": "又王、孔者、上下之名な、舎礼、",
+     "x": 357,
+     "y": 56,
+     "w": 18,
+     "h": 158,
+     "vert": true
+    },
+    {
+     "text": "見義不為無勇也",
+     "x": 364,
+     "y": 217,
+     "w": 48,
+     "h": 256,
+     "vert": true
+    },
+    {
+     "text": "一務民義義老神而遣之、与此章豆桐炭、",
+     "x": 396,
+     "y": 511,
+     "w": 20,
+     "h": 283,
+     "vert": true
+    },
+    {
+     "text": "三丁まて",
+     "x": 340,
+     "y": 57,
+     "w": 14,
+     "h": 87,
+     "vert": true
+    },
+    {
+     "text": "左伝伝公十九年用朝王子次雖之社司",
+     "x": 311,
+     "y": 46,
+     "w": 27,
+     "h": 325,
+     "vert": true
+    },
+    {
+     "text": "鳥子魚曰用諸海自之鬼将比求覇",
+     "x": 281,
+     "y": 48,
+     "w": 29,
+     "h": 327,
+     "vert": true
+    },
+    {
+     "text": "不亦難了則外神亦可以思稱之",
+     "x": 251,
+     "y": 50,
+     "w": 34,
+     "h": 289,
+     "vert": true
+    },
+    {
+     "text": "同断同三田村一緒",
+     "x": 206,
+     "y": 220,
+     "w": 47,
+     "h": 214,
+     "vert": true
+    }
+   ]
+  },
+  {
+   "page": "p015",
+   "ocr_sec": 97.1,
+   "n_boxes": 70,
+   "miban_y": 210,
+   "y_max": 820,
+   "filtered": [
+    {
+     "page": "p015",
+     "text": "武太郎",
+     "x": 1166,
+     "y": 798,
+     "w": 11,
+     "h": 43,
+     "cy": 820,
+     "dy_ymax": -0.5,
+     "reason": "footer_band",
+     "neighbor_right": null,
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "人名"
+    },
+    {
+     "page": "p015",
+     "text": "観音姫",
+     "x": 1067,
+     "y": 795,
+     "w": 20,
+     "h": 53,
+     "cy": 822,
+     "dy_ymax": 1.5,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "人名/杂记"
+    },
+    {
+     "page": "p015",
+     "text": "いつきなる子",
+     "x": 1051,
+     "y": 796,
+     "w": 15,
+     "h": 52,
+     "cy": 822,
+     "dy_ymax": 2.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "手写杂记"
+    },
+    {
+     "page": "p015",
+     "text": "新田老",
+     "x": 1015,
+     "y": 796,
+     "w": 18,
+     "h": 54,
+     "cy": 823,
+     "dy_ymax": 3.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "人名（新田老）"
+    },
+    {
+     "page": "p015",
+     "text": "やけるやける",
+     "x": 1153,
+     "y": 798,
+     "w": 12,
+     "h": 51,
+     "cy": 824,
+     "dy_ymax": 3.5,
+     "reason": "footer_band",
+     "neighbor_right": null,
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "手写杂记（叠词）"
+    },
+    {
+     "page": "p015",
+     "text": "〽まやうしいかな",
+     "x": 1142,
+     "y": 797,
+     "w": 10,
+     "h": 53,
+     "cy": 824,
+     "dy_ymax": 3.5,
+     "reason": "footer_band",
+     "neighbor_right": null,
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "手写杂记（〽 记号）"
+    },
+    {
+     "page": "p015",
+     "text": "同じやい",
+     "x": 1132,
+     "y": 798,
+     "w": 9,
+     "h": 51,
+     "cy": 824,
+     "dy_ymax": 3.5,
+     "reason": "footer_band",
+     "neighbor_right": null,
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "手写杂记"
+    },
+    {
+     "page": "p015",
+     "text": "村田村",
+     "x": 1033,
+     "y": 797,
+     "w": 17,
+     "h": 53,
+     "cy": 824,
+     "dy_ymax": 3.5,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "人名（村田村）"
+    },
+    {
+     "page": "p015",
+     "text": "保殿向",
+     "x": 999,
+     "y": 797,
+     "w": 17,
+     "h": 54,
+     "cy": 824,
+     "dy_ymax": 4.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "人名+敬称"
+    },
+    {
+     "page": "p015",
+     "text": "なゐ",
+     "x": 986,
+     "y": 797,
+     "w": 14,
+     "h": 54,
+     "cy": 824,
+     "dy_ymax": 4.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "假名碎片"
+    },
+    {
+     "page": "p015",
+     "text": "曲ゐ中田",
+     "x": 974,
+     "y": 797,
+     "w": 14,
+     "h": 54,
+     "cy": 824,
+     "dy_ymax": 4.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "地名/人名"
+    },
+    {
+     "page": "p015",
+     "text": "田是惣而",
+     "x": 960,
+     "y": 797,
+     "w": 14,
+     "h": 54,
+     "cy": 824,
+     "dy_ymax": 4.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p015",
+     "text": "三々刺波ア",
+     "x": 919,
+     "y": 798,
+     "w": 16,
+     "h": 53,
+     "cy": 824,
+     "dy_ymax": 4.5,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p015",
+     "text": "監へ刺越",
+     "x": 915,
+     "y": 798,
+     "w": 16,
+     "h": 53,
+     "cy": 824,
+     "dy_ymax": 4.5,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p015",
+     "text": "奥村也",
+     "x": 930,
+     "y": 798,
+     "w": 15,
+     "h": 54,
+     "cy": 825,
+     "dy_ymax": 5.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "人名"
+    },
+    {
+     "page": "p015",
+     "text": "非君臣",
+     "x": 900,
+     "y": 799,
+     "w": 15,
+     "h": 52,
+     "cy": 825,
+     "dy_ymax": 5.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "3 字碎片；位于页脚带、与正文列不接续"
+    },
+    {
+     "page": "p015",
+     "text": "西宿新",
+     "x": 885,
+     "y": 800,
+     "w": 15,
+     "h": 52,
+     "cy": 826,
+     "dy_ymax": 6.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "地名"
+    },
+    {
+     "page": "p015",
+     "text": "知本頃",
+     "x": 852,
+     "y": 801,
+     "w": 18,
+     "h": 51,
+     "cy": 826,
+     "dy_ymax": 6.5,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p015",
+     "text": "後葉寺",
+     "x": 820,
+     "y": 803,
+     "w": 12,
+     "h": 47,
+     "cy": 826,
+     "dy_ymax": 6.5,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "寺名"
+    },
+    {
+     "page": "p015",
+     "text": "大家を",
+     "x": 807,
+     "y": 802,
+     "w": 11,
+     "h": 50,
+     "cy": 827,
+     "dy_ymax": 7.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p015",
+     "text": "御大札を計る",
+     "x": 797,
+     "y": 801,
+     "w": 10,
+     "h": 53,
+     "cy": 828,
+     "dy_ymax": 7.5,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "书信体（御大札）"
+    },
+    {
+     "page": "p015",
+     "text": "岡等半石川",
+     "x": 785,
+     "y": 801,
+     "w": 10,
+     "h": 53,
+     "cy": 828,
+     "dy_ymax": 7.5,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "地名/人名"
+    },
+    {
+     "page": "p015",
+     "text": "此所様口事",
+     "x": 771,
+     "y": 802,
+     "w": 12,
+     "h": 52,
+     "cy": 828,
+     "dy_ymax": 8.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p015",
+     "text": "御本与三郎",
+     "x": 759,
+     "y": 802,
+     "w": 9,
+     "h": 52,
+     "cy": 828,
+     "dy_ymax": 8.0,
+     "reason": "footer_band",
+     "neighbor_right": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "neighbor_left": "同三十三町箱一同",
+     "verdict": "ok_noise",
+     "note": "人名（与三郎）"
+    }
+   ],
+   "kept_in_footer_band": [],
+   "all_pairs": [
+    {
+     "text": "多見闕始恒行其餘則寡恤言寡尤行寡悔",
+     "x": 1122,
+     "y": 210,
+     "w": 56,
+     "h": 589,
+     "vert": true
+    },
+    {
+     "text": "〽まやうしいかな",
+     "x": 1142,
+     "y": 797,
+     "w": 10,
+     "h": 53,
+     "vert": true
+    },
+    {
+     "text": "武太郎",
+     "x": 1166,
+     "y": 798,
+     "w": 11,
+     "h": 43,
+     "vert": true
+    },
+    {
+     "text": "やけるやける",
+     "x": 1153,
+     "y": 798,
+     "w": 12,
+     "h": 51,
+     "vert": true
+    },
+    {
+     "text": "同じやい",
+     "x": 1132,
+     "y": 798,
+     "w": 9,
+     "h": 51,
+     "vert": true
+    },
+    {
+     "text": "禄在其中矣○哀公問曰何爲則民服孔子一",
+     "x": 1070,
+     "y": 211,
+     "w": 52,
+     "h": 590,
+     "vert": true
+    },
+    {
+     "text": "観音姫",
+     "x": 1067,
+     "y": 795,
+     "w": 20,
+     "h": 53,
+     "vert": true
+    },
+    {
+     "text": "等且錯粛極挙五君誉",
+     "x": 1052,
+     "y": 52,
+     "w": 20,
+     "h": 158,
+     "vert": true
+    },
+    {
+     "text": "云猶征上也。故能使柱其直、",
+     "x": 1030,
+     "y": 53,
+     "w": 18,
+     "h": 161,
+     "vert": true
+    },
+    {
+     "text": "一楽屋同仁加章可参観",
+     "x": 1004,
+     "y": 54,
+     "w": 21,
+     "h": 160,
+     "vert": true
+    },
+    {
+     "text": "對曰舉直錯錯諸社則民服舉枉諸直則民",
+     "x": 1015,
+     "y": 214,
+     "w": 53,
+     "h": 586,
+     "vert": true
+    },
+    {
+     "text": "いつきなる子",
+     "x": 1051,
+     "y": 796,
+     "w": 15,
+     "h": 52,
+     "vert": true
+    },
+    {
+     "text": "新田老",
+     "x": 1015,
+     "y": 796,
+     "w": 18,
+     "h": 54,
+     "vert": true
+    },
+    {
+     "text": "村田村",
+     "x": 1033,
+     "y": 797,
+     "w": 17,
+     "h": 53,
+     "vert": true
+    },
+    {
+     "text": "保殿向",
+     "x": 999,
+     "y": 797,
+     "w": 17,
+     "h": 54,
+     "vert": true
+    },
+    {
+     "text": "不服○季康子問使民敬忠以勤如之何子",
+     "x": 962,
+     "y": 215,
+     "w": 52,
+     "h": 586,
+     "vert": true
+    },
+    {
+     "text": "なゐ",
+     "x": 986,
+     "y": 797,
+     "w": 14,
+     "h": 54,
+     "vert": true
+    },
+    {
+     "text": "曲ゐ中田",
+     "x": 974,
+     "y": 797,
+     "w": 14,
+     "h": 54,
+     "vert": true
+    },
+    {
+     "text": "田是惣而",
+     "x": 960,
+     "y": 797,
+     "w": 14,
+     "h": 54,
+     "vert": true
+    },
+    {
+     "text": "曰。臨之以莊則敬。孝慈則忠舉善而教不能",
+     "x": 909,
+     "y": 218,
+     "w": 54,
+     "h": 584,
+     "vert": true
+    },
+    {
+     "text": "奥村也",
+     "x": 930,
+     "y": 798,
+     "w": 15,
+     "h": 54,
+     "vert": true
+    },
+    {
+     "text": "三々刺波ア",
+     "x": 919,
+     "y": 798,
+     "w": 16,
+     "h": 53,
+     "vert": true
+    },
+    {
+     "text": "監へ刺越",
+     "x": 915,
+     "y": 798,
+     "w": 16,
+     "h": 53,
+     "vert": true
+    },
+    {
+     "text": "非君臣",
+     "x": 900,
+     "y": 799,
+     "w": 15,
+     "h": 52,
+     "vert": true
+    },
+    {
+     "text": "謹言、外、孝乎惟参、甸、乞",
+     "x": 848,
+     "y": 53,
+     "w": 20,
+     "h": 162,
+     "vert": true
+    },
+    {
+     "text": "則勤○或謂孔子曰子奚不為政。于曰書云一",
+     "x": 856,
+     "y": 214,
+     "w": 53,
+     "h": 597,
+     "vert": true
+    },
+    {
+     "text": "一同同同同同断断断同同",
+     "x": 846,
+     "y": 586,
+     "w": 21,
+     "h": 193,
+     "vert": true
+    },
+    {
+     "text": "西宿新",
+     "x": 885,
+     "y": 800,
+     "w": 15,
+     "h": 52,
+     "vert": true
+    },
+    {
+     "text": "知本頃",
+     "x": 852,
+     "y": 801,
+     "w": 18,
+     "h": 51,
+     "vert": true
+    },
+    {
+     "text": "奇齢相稽求篇非之",
+     "x": 824,
+     "y": 54,
+     "w": 20,
+     "h": 160,
+     "vert": true
+    },
+    {
+     "text": "実真為之儀、路以昇通、",
+     "x": 782,
+     "y": 58,
+     "w": 19,
+     "h": 160,
+     "vert": true
+    },
+    {
+     "text": "甚明、",
+     "x": 805,
+     "y": 61,
+     "w": 16,
+     "h": 49,
+     "vert": true
+    },
+    {
+     "text": "孝乎。惟孝友于兄弟施於有政。是亦爲政奚",
+     "x": 799,
+     "y": 215,
+     "w": 54,
+     "h": 601,
+     "vert": true
+    },
+    {
+     "text": "同断凡壱拾弐匁",
+     "x": 790,
+     "y": 574,
+     "w": 21,
+     "h": 223,
+     "vert": true
+    },
+    {
+     "text": "御大札を計る",
+     "x": 797,
+     "y": 801,
+     "w": 10,
+     "h": 53,
+     "vert": true
+    },
+    {
+     "text": "岡等半石川",
+     "x": 785,
+     "y": 801,
+     "w": 10,
+     "h": 53,
+     "vert": true
+    },
+    {
+     "text": "大家を",
+     "x": 807,
+     "y": 802,
+     "w": 11,
+     "h": 50,
+     "vert": true
+    },
+    {
+     "text": "後葉寺",
+     "x": 820,
+     "y": 803,
+     "w": 12,
+     "h": 47,
+     "vert": true
+    },
+    {
+     "text": "書、是占文君陳篇、思陳、",
+     "x": 739,
+     "y": 58,
+     "w": 20,
+     "h": 163,
+     "vert": true
+    },
+    {
+     "text": "為々問疑漏不矣",
+     "x": 759,
+     "y": 59,
+     "w": 20,
+     "h": 142,
+     "vert": true
+    },
+    {
+     "text": "其為為政○子曰人而無信不知其可也大",
+     "x": 749,
+     "y": 214,
+     "w": 51,
+     "h": 606,
+     "vert": true
+    },
+    {
+     "text": "此所様口事",
+     "x": 771,
+     "y": 802,
+     "w": 12,
+     "h": 52,
+     "vert": true
+    },
+    {
+     "text": "御本与三郎",
+     "x": 759,
+     "y": 802,
+     "w": 9,
+     "h": 52,
+     "vert": true
+    },
+    {
+     "text": "是孝了一矣、未子因禄之、溺者之事如共也、六条称亡凡為後其外其人、自分余寿矣同以後如拘止共、但同次乃知息之",
+     "x": 721,
+     "y": 42,
+     "w": 21,
+     "h": 790,
+     "vert": true
+    },
+    {
+     "text": "一と之也、使生未廃る処、別紙一差支気及何年之家金於為文、作兵衛、為不知備之事也、",
+     "x": 700,
+     "y": 47,
+     "w": 22,
+     "h": 765,
+     "vert": true
+    },
+    {
+     "text": "則此礼也、与天地経後、上之、",
+     "x": 591,
+     "y": 48,
+     "w": 20,
+     "h": 168,
+     "vert": true
+    },
+    {
+     "text": "旧玄、天禄有礼、自我五礼、",
+     "x": 612,
+     "y": 49,
+     "w": 24,
+     "h": 167,
+     "vert": true
+    },
+    {
+     "text": "三代所国、同一此九、下之百世",
+     "x": 568,
+     "y": 49,
+     "w": 21,
+     "h": 164,
+     "vert": true
+    },
+    {
+     "text": "車無乾小車無軌其何以行之哉○子張問",
+     "x": 576,
+     "y": 215,
+     "w": 54,
+     "h": 591,
+     "vert": true
+    },
+    {
+     "text": "外法納氏説可従",
+     "x": 618,
+     "y": 666,
+     "w": 18,
+     "h": 136,
+     "vert": true
+    },
+    {
+     "text": "所用、同一此乱、至于制度文",
+     "x": 548,
+     "y": 49,
+     "w": 18,
+     "h": 163,
+     "vert": true
+    },
+    {
+     "text": "為、不能無少損益、然其",
+     "x": 527,
+     "y": 49,
+     "w": 18,
+     "h": 162,
+     "vert": true
+    },
+    {
+     "text": "十世可知也。子曰。殷因於夏禮所損益可知",
+     "x": 522,
+     "y": 217,
+     "w": 51,
+     "h": 587,
+     "vert": true
+    },
+    {
+     "text": "本問矣、故其末不過少",
+     "x": 506,
+     "y": 49,
+     "w": 19,
+     "h": 165,
+     "vert": true
+    },
+    {
+     "text": "異、大子所謂百世可知す、",
+     "x": 485,
+     "y": 50,
+     "w": 19,
+     "h": 164,
+     "vert": true
+    },
+    {
+     "text": "以量了、如本注所引為",
+     "x": 462,
+     "y": 53,
+     "w": 21,
+     "h": 157,
+     "vert": true
+    },
+    {
+     "text": "也。周因於殷禮所損益可知也。其或繼周者ニ",
+     "x": 468,
+     "y": 214,
+     "w": 51,
+     "h": 592,
+     "vert": true
+    },
+    {
+     "text": "本文氏三銭正帯文質三",
+     "x": 440,
+     "y": 53,
+     "w": 19,
+     "h": 161,
+     "vert": true
+    },
+    {
+     "text": "一流生諸本社奉行皆堂潰",
+     "x": 419,
+     "y": 53,
+     "w": 20,
+     "h": 163,
+     "vert": true
+    },
+    {
+     "text": "雖百世可知也○子曰ク非其鬼而祭之諂也。",
+     "x": 413,
+     "y": 213,
+     "w": 50,
+     "h": 594,
+     "vert": true
+    },
+    {
+     "text": "琉球側、三代七三、筆北類",
+     "x": 398,
+     "y": 55,
+     "w": 19,
+     "h": 160,
+     "vert": true
+    },
+    {
+     "text": "同、宋人的襲用之、非也、一",
+     "x": 378,
+     "y": 55,
+     "w": 18,
+     "h": 160,
+     "vert": true
+    },
+    {
+     "text": "或云、凡春、上下之名な、舎礼、",
+     "x": 356,
+     "y": 56,
+     "w": 18,
+     "h": 158,
+     "vert": true
+    },
+    {
+     "text": "見義不為無勇也",
+     "x": 364,
+     "y": 218,
+     "w": 47,
+     "h": 255,
+     "vert": true
+    },
+    {
+     "text": "一務民義、義忠神、而遣し、与此章豆桐厳、",
+     "x": 395,
+     "y": 511,
+     "w": 21,
+     "h": 281,
+     "vert": true
+    },
+    {
+     "text": "三丁ままには",
+     "x": 339,
+     "y": 58,
+     "w": 14,
+     "h": 86,
+     "vert": true
+    },
+    {
+     "text": "左伝信公十九年用部王子次雄之社司",
+     "x": 310,
+     "y": 45,
+     "w": 27,
+     "h": 325,
+     "vert": true
+    },
+    {
+     "text": "鳥子魚曰用諸海良之鬼将比求覇",
+     "x": 280,
+     "y": 49,
+     "w": 29,
+     "h": 327,
+     "vert": true
+    },
+    {
+     "text": "不亦難乎則外神亦可以思稱之",
+     "x": 251,
+     "y": 50,
+     "w": 33,
+     "h": 289,
+     "vert": true
+    },
+    {
+     "text": "同三十三町箱一同",
+     "x": 205,
+     "y": 219,
+     "w": 46,
+     "h": 215,
+     "vert": true
+    }
+   ]
+  },
+  {
+   "page": "p044",
+   "ocr_sec": 99.4,
+   "n_boxes": 73,
+   "miban_y": 209,
+   "y_max": 803,
+   "filtered": [
+    {
+     "page": "p044",
+     "text": "ふ是",
+     "x": 942,
+     "y": 802,
+     "w": 14,
+     "h": 33,
+     "cy": 818,
+     "dy_ymax": 15.5,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ambiguous",
+     "note": "2 字碎片；页脚带内、不与正文列接续"
+    },
+    {
+     "page": "p044",
+     "text": "嘉次三",
+     "x": 452,
+     "y": 800,
+     "w": 15,
+     "h": 40,
+     "cy": 820,
+     "dy_ymax": 17.0,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "人名/手写碎片"
+    },
+    {
+     "page": "p044",
+     "text": "紺代、",
+     "x": 362,
+     "y": 802,
+     "w": 14,
+     "h": 37,
+     "cy": 820,
+     "dy_ymax": 17.5,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p044",
+     "text": "●金橋",
+     "x": 515,
+     "y": 799,
+     "w": 11,
+     "h": 47,
+     "cy": 822,
+     "dy_ymax": 19.5,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "记号+地名"
+    },
+    {
+     "page": "p044",
+     "text": "琵琶郡有様",
+     "x": 1184,
+     "y": 793,
+     "w": 16,
+     "h": 61,
+     "cy": 824,
+     "dy_ymax": 20.5,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "地名（琵琶郡）"
+    },
+    {
+     "page": "p044",
+     "text": "金五余",
+     "x": 1028,
+     "y": 798,
+     "w": 19,
+     "h": 51,
+     "cy": 824,
+     "dy_ymax": 20.5,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "金额"
+    },
+    {
+     "page": "p044",
+     "text": "大子景本",
+     "x": 1002,
+     "y": 798,
+     "w": 13,
+     "h": 53,
+     "cy": 824,
+     "dy_ymax": 21.5,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p044",
+     "text": "に西其薬",
+     "x": 818,
+     "y": 796,
+     "w": 16,
+     "h": 55,
+     "cy": 824,
+     "dy_ymax": 20.5,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p044",
+     "text": "云未達",
+     "x": 773,
+     "y": 801,
+     "w": 13,
+     "h": 47,
+     "cy": 824,
+     "dy_ymax": 21.5,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p044",
+     "text": "夫子竹槙",
+     "x": 760,
+     "y": 801,
+     "w": 12,
+     "h": 47,
+     "cy": 824,
+     "dy_ymax": 21.5,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p044",
+     "text": "達候政",
+     "x": 747,
+     "y": 801,
+     "w": 12,
+     "h": 47,
+     "cy": 824,
+     "dy_ymax": 21.5,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "书信体碎片"
+    },
+    {
+     "page": "p044",
+     "text": "記事君",
+     "x": 405,
+     "y": 799,
+     "w": 14,
+     "h": 49,
+     "cy": 824,
+     "dy_ymax": 20.5,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p044",
+     "text": "はさいかつ",
+     "x": 392,
+     "y": 799,
+     "w": 12,
+     "h": 50,
+     "cy": 824,
+     "dy_ymax": 21.0,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "假名碎片"
+    },
+    {
+     "page": "p044",
+     "text": "或不対雲",
+     "x": 803,
+     "y": 798,
+     "w": 14,
+     "h": 54,
+     "cy": 825,
+     "dy_ymax": 22.0,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p044",
+     "text": "庄米一畝",
+     "x": 988,
+     "y": 799,
+     "w": 13,
+     "h": 53,
+     "cy": 826,
+     "dy_ymax": 22.5,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "租税记事（庄米一畝）"
+    },
+    {
+     "page": "p044",
+     "text": "の内地ま潰",
+     "x": 973,
+     "y": 800,
+     "w": 14,
+     "h": 51,
+     "cy": 826,
+     "dy_ymax": 22.5,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p044",
+     "text": "一廿四六文文",
+     "x": 958,
+     "y": 799,
+     "w": 14,
+     "h": 53,
+     "cy": 826,
+     "dy_ymax": 22.5,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "钱数（文）"
+    },
+    {
+     "page": "p044",
+     "text": "嘉永",
+     "x": 722,
+     "y": 803,
+     "w": 12,
+     "h": 49,
+     "cy": 828,
+     "dy_ymax": 24.5,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "年号（嘉永）"
+    },
+    {
+     "page": "p044",
+     "text": "名文如是",
+     "x": 709,
+     "y": 805,
+     "w": 13,
+     "h": 47,
+     "cy": 828,
+     "dy_ymax": 25.5,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "手写碎片"
+    },
+    {
+     "page": "p044",
+     "text": "不敢尤",
+     "x": 661,
+     "y": 808,
+     "w": 13,
+     "h": 44,
+     "cy": 830,
+     "dy_ymax": 27.0,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ambiguous",
+     "note": "3 字碎片；与相邻正文列（…言寡尤）不在同一列，位置在页脚带"
+    },
+    {
+     "page": "p044",
+     "text": "一銭壱匁",
+     "x": 618,
+     "y": 810,
+     "w": 14,
+     "h": 44,
+     "cy": 832,
+     "dy_ymax": 29.0,
+     "reason": "footer_band",
+     "neighbor_right": "一震、七十ヶ所不用其心矣、",
+     "neighbor_left": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "verdict": "ok_noise",
+     "note": "金额（一銭壱匁）"
+    }
+   ],
+   "kept_in_footer_band": [
+    {
+     "text": "一元条同不出旨、若出吉、新聞",
+     "x": 1028,
+     "y": 658,
+     "w": 18,
+     "h": 150,
+     "cy": 733,
+     "dy_ymax": -70.0,
+     "vert": true
+    },
+    {
+     "text": "大金表主",
+     "x": 1187,
+     "y": 734,
+     "w": 13,
+     "h": 57,
+     "cy": 762,
+     "dy_ymax": -40.5,
+     "vert": true
+    }
+   ],
+   "all_pairs": [
+    {
+     "text": "一震、七十ヶ所不用其心矣、",
+     "x": 1191,
+     "y": 69,
+     "w": 17,
+     "h": 126,
+     "vert": true
+    },
+    {
+     "text": "敗不食。色惡不食。臭惡不食。失餅不食。不時。",
+     "x": 1143,
+     "y": 211,
+     "w": 54,
+     "h": 589,
+     "vert": true
+    },
+    {
+     "text": "大金表主",
+     "x": 1187,
+     "y": 734,
+     "w": 13,
+     "h": 57,
+     "vert": true
+    },
+    {
+     "text": "琵琶郡有様",
+     "x": 1184,
+     "y": 793,
+     "w": 16,
+     "h": 61,
+     "vert": true
+    },
+    {
+     "text": "海酒、穂雨肥談有説、",
+     "x": 1067,
+     "y": 57,
+     "w": 22,
+     "h": 151,
+     "vert": true
+    },
+    {
+     "text": "不食。割不正不食。不得其医不食得雖多不。",
+     "x": 1091,
+     "y": 209,
+     "w": 55,
+     "h": 591,
+     "vert": true
+    },
+    {
+     "text": "廿五寿次酔九戌戌刻以前四年曇",
+     "x": 1080,
+     "y": 419,
+     "w": 27,
+     "h": 254,
+     "vert": true
+    },
+    {
+     "text": "使勝食氣惟酒無量不及亂。活酒市晡不食。",
+     "x": 1039,
+     "y": 211,
+     "w": 53,
+     "h": 589,
+     "vert": true
+    },
+    {
+     "text": "一元条同不出旨、若出吉、新聞",
+     "x": 1028,
+     "y": 658,
+     "w": 18,
+     "h": 150,
+     "vert": true
+    },
+    {
+     "text": "金五余",
+     "x": 1028,
+     "y": 798,
+     "w": 19,
+     "h": 51,
+     "vert": true
+    },
+    {
+     "text": "不多食、禍霊也、真葵、",
+     "x": 1010,
+     "y": 58,
+     "w": 23,
+     "h": 156,
+     "vert": true
+    },
+    {
+     "text": "婦有説",
+     "x": 987,
+     "y": 61,
+     "w": 17,
+     "h": 71,
+     "vert": true
+    },
+    {
+     "text": "不撤藍食不多食。祭於公不宿肉祭因不出",
+     "x": 985,
+     "y": 212,
+     "w": 54,
+     "h": 587,
+     "vert": true
+    },
+    {
+     "text": "一大企大企画家数御郡代",
+     "x": 973,
+     "y": 526,
+     "w": 20,
+     "h": 144,
+     "vert": true
+    },
+    {
+     "text": "大子景本",
+     "x": 1002,
+     "y": 798,
+     "w": 13,
+     "h": 53,
+     "vert": true
+    },
+    {
+     "text": "庄米一畝",
+     "x": 988,
+     "y": 799,
+     "w": 13,
+     "h": 53,
+     "vert": true
+    },
+    {
+     "text": "の内地ま潰",
+     "x": 973,
+     "y": 800,
+     "w": 14,
+     "h": 51,
+     "vert": true
+    },
+    {
+     "text": "三日。出三日不食之矣。食。不語寝不言。雖疏",
+     "x": 935,
+     "y": 213,
+     "w": 53,
+     "h": 589,
+     "vert": true
+    },
+    {
+     "text": "一廿四六文文",
+     "x": 958,
+     "y": 799,
+     "w": 14,
+     "h": 53,
+     "vert": true
+    },
+    {
+     "text": "ふ是",
+     "x": 942,
+     "y": 802,
+     "w": 14,
+     "h": 33,
+     "vert": true
+    },
+    {
+     "text": "一諸工場角瓜星剥連難",
+     "x": 884,
+     "y": 52,
+     "w": 17,
+     "h": 158,
+     "vert": true
+    },
+    {
+     "text": "瓜、毛西河有院、",
+     "x": 905,
+     "y": 53,
+     "w": 22,
+     "h": 124,
+     "vert": true
+    },
+    {
+     "text": "食菜羹瓜祭必齊如也○席不正不坐○郷",
+     "x": 883,
+     "y": 214,
+     "w": 52,
+     "h": 584,
+     "vert": true
+    },
+    {
+     "text": "献々宰祖乃薦新之記也",
+     "x": 863,
+     "y": 54,
+     "w": 17,
+     "h": 154,
+     "vert": true
+    },
+    {
+     "text": "郷人使酒、即所彼酒九、所以",
+     "x": 840,
+     "y": 54,
+     "w": 18,
+     "h": 155,
+     "vert": true
+    },
+    {
+     "text": "尊長養老也、出、是礼畢而",
+     "x": 820,
+     "y": 54,
+     "w": 18,
+     "h": 155,
+     "vert": true
+    },
+    {
+     "text": "人飲酒杖者出斯出矣。鄕人儺朝服而立於",
+     "x": 829,
+     "y": 211,
+     "w": 51,
+     "h": 588,
+     "vert": true
+    },
+    {
+     "text": "に西其薬",
+     "x": 818,
+     "y": 796,
+     "w": 16,
+     "h": 55,
+     "vert": true
+    },
+    {
+     "text": "去也、人皆辟、礼に易失礼、",
+     "x": 802,
+     "y": 55,
+     "w": 17,
+     "h": 156,
+     "vert": true
+    },
+    {
+     "text": "猶夫子及本畏終不失生",
+     "x": 784,
+     "y": 56,
+     "w": 17,
+     "h": 153,
+     "vert": true
+    },
+    {
+     "text": "礼、説豹帽毛談郷領酒",
+     "x": 765,
+     "y": 57,
+     "w": 18,
+     "h": 152,
+     "vert": true
+    },
+    {
+     "text": "昨階○問人於他邦再拝而送之康子饋薬",
+     "x": 778,
+     "y": 215,
+     "w": 49,
+     "h": 588,
+     "vert": true
+    },
+    {
+     "text": "恭敬守神之末時遂如何卒",
+     "x": 770,
+     "y": 337,
+     "w": 14,
+     "h": 166,
+     "vert": true
+    },
+    {
+     "text": "或不対雲",
+     "x": 803,
+     "y": 798,
+     "w": 14,
+     "h": 54,
+     "vert": true
+    },
+    {
+     "text": "云未達",
+     "x": 773,
+     "y": 801,
+     "w": 13,
+     "h": 47,
+     "vert": true
+    },
+    {
+     "text": "夫子竹槙",
+     "x": 760,
+     "y": 801,
+     "w": 12,
+     "h": 47,
+     "vert": true
+    },
+    {
+     "text": "礼有非候て、」儀、信近戦、",
+     "x": 745,
+     "y": 57,
+     "w": 18,
+     "h": 152,
+     "vert": true
+    },
+    {
+     "text": "達候政",
+     "x": 747,
+     "y": 801,
+     "w": 12,
+     "h": 47,
+     "vert": true
+    },
+    {
+     "text": "然古礼相記諸人不知其為載。西為我派と、真則以或意受之、不敢以其近数而怪之由、",
+     "x": 726,
+     "y": 55,
+     "w": 25,
+     "h": 543,
+     "vert": true
+    },
+    {
+     "text": "嘉永",
+     "x": 722,
+     "y": 803,
+     "w": 12,
+     "h": 49,
+     "vert": true
+    },
+    {
+     "text": "名文如是",
+     "x": 709,
+     "y": 805,
+     "w": 13,
+     "h": 47,
+     "vert": true
+    },
+    {
+     "text": "不敢尤",
+     "x": 661,
+     "y": 808,
+     "w": 13,
+     "h": 44,
+     "vert": true
+    },
+    {
+     "text": "拝而受之日。丘未達不敢甞○廐焚子退朝",
+     "x": 574,
+     "y": 216,
+     "w": 53,
+     "h": 577,
+     "vert": true
+    },
+    {
+     "text": "一銭壱匁",
+     "x": 618,
+     "y": 810,
+     "w": 14,
+     "h": 44,
+     "vert": true
+    },
+    {
+     "text": "陸氏雑文不字句記、",
+     "x": 560,
+     "y": 61,
+     "w": 22,
+     "h": 146,
+     "vert": true
+    },
+    {
+     "text": "筆解尓用此説資順",
+     "x": 538,
+     "y": 63,
+     "w": 18,
+     "h": 140,
+     "vert": true
+    },
+    {
+     "text": "録則不一字句、為答",
+     "x": 518,
+     "y": 64,
+     "w": 17,
+     "h": 137,
+     "vert": true
+    },
+    {
+     "text": "曰。傷人乎。不問馬○君賜食必正席先甞之",
+     "x": 522,
+     "y": 212,
+     "w": 51,
+     "h": 585,
+     "vert": true
+    },
+    {
+     "text": "●金橋",
+     "x": 515,
+     "y": 799,
+     "w": 11,
+     "h": 47,
+     "vert": true
+    },
+    {
+     "text": "聖人有比城彦右禅氏未",
+     "x": 467,
+     "y": 62,
+     "w": 18,
+     "h": 146,
+     "vert": true
+    },
+    {
+     "text": "拝、其未見其見其是、",
+     "x": 495,
+     "y": 65,
+     "w": 19,
+     "h": 120,
+     "vert": true
+    },
+    {
+     "text": "にやしかけ",
+     "x": 484,
+     "y": 80,
+     "w": 10,
+     "h": 31,
+     "vert": true
+    },
+    {
+     "text": "君賜腥必熟而薦之。君賜生必畜之。侍食於",
+     "x": 465,
+     "y": 211,
+     "w": 53,
+     "h": 587,
+     "vert": true
+    },
+    {
+     "text": "千万五千今之人、誠意等、而",
+     "x": 447,
+     "y": 64,
+     "w": 15,
+     "h": 143,
+     "vert": true
+    },
+    {
+     "text": "外ハ今者之罪無関宜事",
+     "x": 427,
+     "y": 66,
+     "w": 15,
+     "h": 141,
+     "vert": true
+    },
+    {
+     "text": "諫石行きか不否也、",
+     "x": 409,
+     "y": 67,
+     "w": 14,
+     "h": 115,
+     "vert": true
+    },
+    {
+     "text": "君君祭先飯。疾君視之東首加朝服極細君",
+     "x": 411,
+     "y": 212,
+     "w": 54,
+     "h": 589,
+     "vert": true
+    },
+    {
+     "text": "記事君",
+     "x": 405,
+     "y": 799,
+     "w": 14,
+     "h": 49,
+     "vert": true
+    },
+    {
+     "text": "嘉次三",
+     "x": 452,
+     "y": 800,
+     "w": 15,
+     "h": 40,
+     "vert": true
+    },
+    {
+     "text": "仮宅九百文五百文有之候",
+     "x": 360,
+     "y": 44,
+     "w": 16,
+     "h": 165,
+     "vert": true
+    },
+    {
+     "text": "朋友、五編之一、人合之兄弟也、",
+     "x": 380,
+     "y": 46,
+     "w": 18,
+     "h": 162,
+     "vert": true
+    },
+    {
+     "text": "命召不俟駕行矣○入大廟無事問○朋友",
+     "x": 361,
+     "y": 213,
+     "w": 54,
+     "h": 587,
+     "vert": true
+    },
+    {
+     "text": "はさいかつ",
+     "x": 392,
+     "y": 799,
+     "w": 12,
+     "h": 50,
+     "vert": true
+    },
+    {
+     "text": "紺代、",
+     "x": 362,
+     "y": 802,
+     "w": 14,
+     "h": 37,
+     "vert": true
+    },
+    {
+     "text": "亦就吾文祖也、",
+     "x": 340,
+     "y": 51,
+     "w": 15,
+     "h": 91,
+     "vert": true
+    },
+    {
+     "text": "死無所歸曰。於我殯。朋友之饑雖車馬非祭",
+     "x": 310,
+     "y": 212,
+     "w": 53,
+     "h": 586,
+     "vert": true
+    },
+    {
+     "text": "草見刑人之事、因此意不非之、",
+     "x": 276,
+     "y": 48,
+     "w": 20,
+     "h": 164,
+     "vert": true
+    },
+    {
+     "text": "一正新夫方替者之趣然二号",
+     "x": 258,
+     "y": 50,
+     "w": 17,
+     "h": 161,
+     "vert": true
+    },
+    {
+     "text": "肉不拝○寝不戸居不容。見齊衰者雖狎必",
+     "x": 253,
+     "y": 216,
+     "w": 53,
+     "h": 574,
+     "vert": true
+    },
+    {
+     "text": "其刑所務其罪破破損所",
+     "x": 221,
+     "y": 49,
+     "w": 17,
+     "h": 165,
+     "vert": true
+    },
+    {
+     "text": "有可申候所と十一日刑人診",
+     "x": 239,
+     "y": 50,
+     "w": 18,
+     "h": 164,
+     "vert": true
+    },
+    {
+     "text": "已、而又加之数矣、未知罪何如何如何",
+     "x": 203,
+     "y": 50,
+     "w": 18,
+     "h": 164,
+     "vert": true
+    },
+    {
+     "text": "発。見見者與瞽者雖疑必以貌。凶服者式之。",
+     "x": 202,
+     "y": 211,
+     "w": 53,
+     "h": 586,
+     "vert": true
+    }
+   ]
+  }
+ ],
+ "verdict_summary": {
+  "ok_noise": 66,
+  "wrong_body": 0,
+  "ambiguous": 3,
+  "unmarked": 0,
+  "total": 69
+ }
+}

@@ -1,0 +1,1479 @@
+{
+ "lines_on": 1833,
+ "lines_off": 2056,
+ "lines_base": 2056,
+ "removed_by_layout": 223,
+ "hint_hit": 41,
+ "hint_miss": 182,
+ "bad_pages": [],
+ "pages": [
+  {
+   "page": "p001",
+   "n_on": 1,
+   "n_off": 1,
+   "n_base": 1,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p002",
+   "n_on": 0,
+   "n_off": 0,
+   "n_base": 0,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p003",
+   "n_on": 9,
+   "n_off": 9,
+   "n_base": 9,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p004",
+   "n_on": 16,
+   "n_off": 16,
+   "n_base": 16,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p005",
+   "n_on": 16,
+   "n_off": 16,
+   "n_base": 16,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p006",
+   "n_on": 16,
+   "n_off": 16,
+   "n_base": 16,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p007",
+   "n_on": 41,
+   "n_off": 41,
+   "n_base": 41,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p008",
+   "n_on": 43,
+   "n_off": 43,
+   "n_base": 43,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p009",
+   "n_on": 63,
+   "n_off": 65,
+   "n_base": 65,
+   "removed": 2,
+   "added": 0,
+   "layout_filtered_reported": 2,
+   "removed_lines": [
+    {
+     "text": "則に与比",
+     "hints": []
+    },
+    {
+     "text": "恵問",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p010",
+   "n_on": 62,
+   "n_off": 64,
+   "n_base": 64,
+   "removed": 2,
+   "added": 0,
+   "layout_filtered_reported": 2,
+   "removed_lines": [
+    {
+     "text": "則二号比",
+     "hints": []
+    },
+    {
+     "text": "嘉蔵、",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p011",
+   "n_on": 40,
+   "n_off": 40,
+   "n_base": 40,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p012",
+   "n_on": 57,
+   "n_off": 66,
+   "n_base": 66,
+   "removed": 9,
+   "added": 0,
+   "layout_filtered_reported": 12,
+   "removed_lines": [
+    {
+     "text": "嘉天正普請",
+     "hints": []
+    },
+    {
+     "text": "如皆焼失",
+     "hints": []
+    },
+    {
+     "text": "不残神",
+     "hints": []
+    },
+    {
+     "text": "知故佳知",
+     "hints": []
+    },
+    {
+     "text": "刻す初折",
+     "hints": []
+    },
+    {
+     "text": "出火美美",
+     "hints": []
+    },
+    {
+     "text": "すまに笑",
+     "hints": []
+    },
+    {
+     "text": "也上利子",
+     "hints": []
+    },
+    {
+     "text": "きまぎ",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p013",
+   "n_on": 59,
+   "n_off": 68,
+   "n_base": 68,
+   "removed": 9,
+   "added": 0,
+   "layout_filtered_reported": 11,
+   "removed_lines": [
+    {
+     "text": "女夫子悟状",
+     "hints": []
+    },
+    {
+     "text": "知皆指出",
+     "hints": []
+    },
+    {
+     "text": "知故徒知",
+     "hints": []
+    },
+    {
+     "text": "「西木能様」",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "利雲知順",
+     "hints": []
+    },
+    {
+     "text": "一六菜不完",
+     "hints": []
+    },
+    {
+     "text": "也此刻子",
+     "hints": []
+    },
+    {
+     "text": "ますどふ",
+     "hints": []
+    },
+    {
+     "text": "の",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p014",
+   "n_on": 49,
+   "n_off": 73,
+   "n_base": 73,
+   "removed": 24,
+   "added": 0,
+   "layout_filtered_reported": 33,
+   "removed_lines": [
+    {
+     "text": "しかきないます",
+     "hints": []
+    },
+    {
+     "text": "武士美麗と",
+     "hints": []
+    },
+    {
+     "text": "一同村伊勢守様",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "敵ゐぬが",
+     "hints": []
+    },
+    {
+     "text": "いつぎ孔子",
+     "hints": []
+    },
+    {
+     "text": "村田村",
+     "hints": []
+    },
+    {
+     "text": "新田老",
+     "hints": []
+    },
+    {
+     "text": "県傾向",
+     "hints": []
+    },
+    {
+     "text": "四巻惣や",
+     "hints": [
+      "册数/数量/金额"
+     ]
+    },
+    {
+     "text": "なゐ",
+     "hints": []
+    },
+    {
+     "text": "曰る中田",
+     "hints": []
+    },
+    {
+     "text": "きはゝ絵の",
+     "hints": []
+    },
+    {
+     "text": "安府西は",
+     "hints": []
+    },
+    {
+     "text": "悲し感悲し",
+     "hints": []
+    },
+    {
+     "text": "水君様",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "名古館",
+     "hints": []
+    },
+    {
+     "text": "知布同",
+     "hints": []
+    },
+    {
+     "text": "大学をつて",
+     "hints": []
+    },
+    {
+     "text": "鈴木佐美座候以上",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "非也、",
+     "hints": []
+    },
+    {
+     "text": "一猿葉寺",
+     "hints": []
+    },
+    {
+     "text": "一同四十五軒",
+     "hints": [
+      "册数/数量/金额"
+     ]
+    },
+    {
+     "text": "此院向事故四丁",
+     "hints": [
+      "册数/数量/金额"
+     ]
+    },
+    {
+     "text": "可奉上候",
+     "hints": [
+      "敬称/书信体"
+     ]
+    }
+   ]
+  },
+  {
+   "page": "p015",
+   "n_on": 46,
+   "n_off": 70,
+   "n_base": 70,
+   "removed": 24,
+   "added": 0,
+   "layout_filtered_reported": 34,
+   "removed_lines": [
+    {
+     "text": "〽まやうしいかな",
+     "hints": []
+    },
+    {
+     "text": "武太郎",
+     "hints": []
+    },
+    {
+     "text": "やけるやける",
+     "hints": []
+    },
+    {
+     "text": "同じやい",
+     "hints": []
+    },
+    {
+     "text": "観音姫",
+     "hints": []
+    },
+    {
+     "text": "いつきなる子",
+     "hints": []
+    },
+    {
+     "text": "新田老",
+     "hints": []
+    },
+    {
+     "text": "村田村",
+     "hints": []
+    },
+    {
+     "text": "保殿向",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "なゐ",
+     "hints": []
+    },
+    {
+     "text": "曲ゐ中田",
+     "hints": []
+    },
+    {
+     "text": "田是惣而",
+     "hints": []
+    },
+    {
+     "text": "奥村也",
+     "hints": []
+    },
+    {
+     "text": "三々刺波ア",
+     "hints": []
+    },
+    {
+     "text": "監へ刺越",
+     "hints": []
+    },
+    {
+     "text": "非君臣",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "西宿新",
+     "hints": []
+    },
+    {
+     "text": "知本頃",
+     "hints": []
+    },
+    {
+     "text": "御大札を計る",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "岡等半石川",
+     "hints": []
+    },
+    {
+     "text": "大家を",
+     "hints": []
+    },
+    {
+     "text": "後葉寺",
+     "hints": []
+    },
+    {
+     "text": "此所様口事",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "御本与三郎",
+     "hints": [
+      "敬称/书信体"
+     ]
+    }
+   ]
+  },
+  {
+   "page": "p016",
+   "n_on": 17,
+   "n_off": 17,
+   "n_base": 17,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p017",
+   "n_on": 51,
+   "n_off": 57,
+   "n_base": 57,
+   "removed": 6,
+   "added": 0,
+   "layout_filtered_reported": 8,
+   "removed_lines": [
+    {
+     "text": "工絵画",
+     "hints": []
+    },
+    {
+     "text": "新森平",
+     "hints": []
+    },
+    {
+     "text": "庄町町",
+     "hints": []
+    },
+    {
+     "text": "「判雪山也、",
+     "hints": []
+    },
+    {
+     "text": "琉節也",
+     "hints": []
+    },
+    {
+     "text": "二月九日",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p018",
+   "n_on": 48,
+   "n_off": 57,
+   "n_base": 57,
+   "removed": 9,
+   "added": 0,
+   "layout_filtered_reported": 10,
+   "removed_lines": [
+    {
+     "text": "第四二工橋画",
+     "hints": []
+    },
+    {
+     "text": "工籍画",
+     "hints": []
+    },
+    {
+     "text": "一冊表村、",
+     "hints": [
+      "册数/数量/金额"
+     ]
+    },
+    {
+     "text": "庄部射",
+     "hints": []
+    },
+    {
+     "text": "判所出記",
+     "hints": []
+    },
+    {
+     "text": "三条地矢野",
+     "hints": [
+      "册数/数量/金额"
+     ]
+    },
+    {
+     "text": "琉球也",
+     "hints": []
+    },
+    {
+     "text": "十二日夜車",
+     "hints": []
+    },
+    {
+     "text": "同松平",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p019",
+   "n_on": 54,
+   "n_off": 72,
+   "n_base": 72,
+   "removed": 18,
+   "added": 0,
+   "layout_filtered_reported": 20,
+   "removed_lines": [
+    {
+     "text": "暗扇君",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "専門医",
+     "hints": []
+    },
+    {
+     "text": "暗則記",
+     "hints": []
+    },
+    {
+     "text": "間俊君",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "時人正、",
+     "hints": []
+    },
+    {
+     "text": "諸役所",
+     "hints": []
+    },
+    {
+     "text": "宮山村",
+     "hints": []
+    },
+    {
+     "text": "此両種",
+     "hints": []
+    },
+    {
+     "text": "猫火子",
+     "hints": []
+    },
+    {
+     "text": "御国所",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "事君荒",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "礼、進徒",
+     "hints": []
+    },
+    {
+     "text": "身縮球",
+     "hints": []
+    },
+    {
+     "text": "一頭言、此",
+     "hints": []
+    },
+    {
+     "text": "則宿仙",
+     "hints": []
+    },
+    {
+     "text": "品以小人も",
+     "hints": []
+    },
+    {
+     "text": "腹度君",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "子みやけ",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p020",
+   "n_on": 56,
+   "n_off": 77,
+   "n_base": 77,
+   "removed": 21,
+   "added": 0,
+   "layout_filtered_reported": 21,
+   "removed_lines": [
+    {
+     "text": "晴辰",
+     "hints": []
+    },
+    {
+     "text": "筒城君",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "専列記",
+     "hints": []
+    },
+    {
+     "text": "愛利氏",
+     "hints": []
+    },
+    {
+     "text": "西側面",
+     "hints": []
+    },
+    {
+     "text": "詩人豆",
+     "hints": []
+    },
+    {
+     "text": "不出松",
+     "hints": []
+    },
+    {
+     "text": "諸役等",
+     "hints": []
+    },
+    {
+     "text": "此両項",
+     "hints": []
+    },
+    {
+     "text": "独大学",
+     "hints": []
+    },
+    {
+     "text": "事君せん",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "乙［ニ］",
+     "hints": []
+    },
+    {
+     "text": "礼、熟徒",
+     "hints": []
+    },
+    {
+     "text": "一四十一冊",
+     "hints": [
+      "册数/数量/金额"
+     ]
+    },
+    {
+     "text": "女子六",
+     "hints": []
+    },
+    {
+     "text": "則書い",
+     "hints": []
+    },
+    {
+     "text": "争論理",
+     "hints": []
+    },
+    {
+     "text": "一項之状",
+     "hints": []
+    },
+    {
+     "text": "二御小人之",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "服摩忠",
+     "hints": []
+    },
+    {
+     "text": "子みや",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p021",
+   "n_on": 41,
+   "n_off": 41,
+   "n_base": 41,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p022",
+   "n_on": 50,
+   "n_off": 50,
+   "n_base": 50,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p023",
+   "n_on": 29,
+   "n_off": 35,
+   "n_base": 35,
+   "removed": 6,
+   "added": 0,
+   "layout_filtered_reported": 7,
+   "removed_lines": [
+    {
+     "text": "雷潮",
+     "hints": []
+    },
+    {
+     "text": "随見其",
+     "hints": []
+    },
+    {
+     "text": "十一",
+     "hints": []
+    },
+    {
+     "text": "小女二合物",
+     "hints": []
+    },
+    {
+     "text": "一同一",
+     "hints": []
+    },
+    {
+     "text": "教科科科科学学科学科学科学科学科学科学科学科学科学科学科学科学科学科学科",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p024",
+   "n_on": 51,
+   "n_off": 51,
+   "n_base": 51,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p025",
+   "n_on": 48,
+   "n_off": 48,
+   "n_base": 48,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p026",
+   "n_on": 34,
+   "n_off": 34,
+   "n_base": 34,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p027",
+   "n_on": 46,
+   "n_off": 46,
+   "n_base": 46,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p028",
+   "n_on": 36,
+   "n_off": 36,
+   "n_base": 36,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p029",
+   "n_on": 51,
+   "n_off": 51,
+   "n_base": 51,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p030",
+   "n_on": 25,
+   "n_off": 25,
+   "n_base": 25,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p031",
+   "n_on": 48,
+   "n_off": 48,
+   "n_base": 48,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p032",
+   "n_on": 42,
+   "n_off": 42,
+   "n_base": 42,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p033",
+   "n_on": 44,
+   "n_off": 58,
+   "n_base": 58,
+   "removed": 14,
+   "added": 0,
+   "layout_filtered_reported": 15,
+   "removed_lines": [
+    {
+     "text": "文自順",
+     "hints": [
+      "货币/面积单位"
+     ]
+    },
+    {
+     "text": "平本法",
+     "hints": []
+    },
+    {
+     "text": "清非徒",
+     "hints": []
+    },
+    {
+     "text": "読説面",
+     "hints": []
+    },
+    {
+     "text": "と、則侍",
+     "hints": []
+    },
+    {
+     "text": "若ふ堂",
+     "hints": []
+    },
+    {
+     "text": "往誦院",
+     "hints": []
+    },
+    {
+     "text": "石己氏",
+     "hints": []
+    },
+    {
+     "text": "或い説",
+     "hints": []
+    },
+    {
+     "text": "為葬子",
+     "hints": []
+    },
+    {
+     "text": "是",
+     "hints": []
+    },
+    {
+     "text": "諸国非",
+     "hints": []
+    },
+    {
+     "text": "竜丸",
+     "hints": []
+    },
+    {
+     "text": "通り",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p034",
+   "n_on": 39,
+   "n_off": 39,
+   "n_base": 39,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p035",
+   "n_on": 32,
+   "n_off": 32,
+   "n_base": 32,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 2,
+   "removed_lines": []
+  },
+  {
+   "page": "p036",
+   "n_on": 50,
+   "n_off": 50,
+   "n_base": 50,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p037",
+   "n_on": 46,
+   "n_off": 46,
+   "n_base": 46,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p038",
+   "n_on": 50,
+   "n_off": 59,
+   "n_base": 59,
+   "removed": 9,
+   "added": 0,
+   "layout_filtered_reported": 10,
+   "removed_lines": [
+    {
+     "text": "御長用孝亭",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "用孝亭",
+     "hints": []
+    },
+    {
+     "text": "是也問云",
+     "hints": []
+    },
+    {
+     "text": "供大変み",
+     "hints": []
+    },
+    {
+     "text": "人番権之",
+     "hints": []
+    },
+    {
+     "text": "御意国",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "免文い様",
+     "hints": [
+      "敬称/书信体",
+      "货币/面积单位"
+     ]
+    },
+    {
+     "text": "同我名",
+     "hints": []
+    },
+    {
+     "text": "はゆ",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p039",
+   "n_on": 52,
+   "n_off": 61,
+   "n_base": 61,
+   "removed": 9,
+   "added": 0,
+   "layout_filtered_reported": 10,
+   "removed_lines": [
+    {
+     "text": "用孝亭",
+     "hints": []
+    },
+    {
+     "text": "同十一日",
+     "hints": []
+    },
+    {
+     "text": "是也朔六",
+     "hints": []
+    },
+    {
+     "text": "修大寿み",
+     "hints": []
+    },
+    {
+     "text": "人に付佐々",
+     "hints": []
+    },
+    {
+     "text": "御意心",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "免吏補",
+     "hints": []
+    },
+    {
+     "text": "国我名",
+     "hints": []
+    },
+    {
+     "text": "まぜ",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p040",
+   "n_on": 61,
+   "n_off": 72,
+   "n_base": 72,
+   "removed": 11,
+   "added": 0,
+   "layout_filtered_reported": 14,
+   "removed_lines": [
+    {
+     "text": "本庄",
+     "hints": []
+    },
+    {
+     "text": "引込成",
+     "hints": []
+    },
+    {
+     "text": "四十一",
+     "hints": []
+    },
+    {
+     "text": "官かか",
+     "hints": []
+    },
+    {
+     "text": "政兵衛",
+     "hints": []
+    },
+    {
+     "text": "末に",
+     "hints": []
+    },
+    {
+     "text": "知也",
+     "hints": []
+    },
+    {
+     "text": "官名",
+     "hints": []
+    },
+    {
+     "text": "之宗",
+     "hints": []
+    },
+    {
+     "text": "御国宗",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "荒掻之家",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p041",
+   "n_on": 54,
+   "n_off": 68,
+   "n_base": 68,
+   "removed": 14,
+   "added": 0,
+   "layout_filtered_reported": 16,
+   "removed_lines": [
+    {
+     "text": "於医也、",
+     "hints": []
+    },
+    {
+     "text": "陳州博",
+     "hints": []
+    },
+    {
+     "text": "帝廷、山",
+     "hints": []
+    },
+    {
+     "text": "帰陸悦",
+     "hints": []
+    },
+    {
+     "text": "院橋直路",
+     "hints": []
+    },
+    {
+     "text": "必亦以後",
+     "hints": []
+    },
+    {
+     "text": "巻三篇",
+     "hints": []
+    },
+    {
+     "text": "曲葉善兵",
+     "hints": []
+    },
+    {
+     "text": "利田蔵",
+     "hints": []
+    },
+    {
+     "text": "加州美濃守様",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "一同七十一",
+     "hints": []
+    },
+    {
+     "text": "下紀門之丞",
+     "hints": []
+    },
+    {
+     "text": "猶原れる所",
+     "hints": []
+    },
+    {
+     "text": "而蒲",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p042",
+   "n_on": 49,
+   "n_off": 52,
+   "n_base": 52,
+   "removed": 3,
+   "added": 0,
+   "layout_filtered_reported": 5,
+   "removed_lines": [
+    {
+     "text": "外経、故",
+     "hints": []
+    },
+    {
+     "text": "富動其",
+     "hints": []
+    },
+    {
+     "text": "○七十一日",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p043",
+   "n_on": 42,
+   "n_off": 50,
+   "n_base": 50,
+   "removed": 8,
+   "added": 0,
+   "layout_filtered_reported": 9,
+   "removed_lines": [
+    {
+     "text": "故祭如",
+     "hints": []
+    },
+    {
+     "text": "喜況乎",
+     "hints": []
+    },
+    {
+     "text": "君今優",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "朱雀焉、",
+     "hints": []
+    },
+    {
+     "text": "則堂司",
+     "hints": []
+    },
+    {
+     "text": "以其虚",
+     "hints": []
+    },
+    {
+     "text": "信州不",
+     "hints": []
+    },
+    {
+     "text": "太夫",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p044",
+   "n_on": 52,
+   "n_off": 73,
+   "n_base": 73,
+   "removed": 21,
+   "added": 0,
+   "layout_filtered_reported": 29,
+   "removed_lines": [
+    {
+     "text": "琵琶郡有様",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "金五余",
+     "hints": []
+    },
+    {
+     "text": "大子景本",
+     "hints": []
+    },
+    {
+     "text": "庄米一畝",
+     "hints": [
+      "册数/数量/金额",
+      "货币/面积单位"
+     ]
+    },
+    {
+     "text": "の内地ま潰",
+     "hints": []
+    },
+    {
+     "text": "一廿四六文文",
+     "hints": [
+      "册数/数量/金额",
+      "货币/面积单位"
+     ]
+    },
+    {
+     "text": "ふ是",
+     "hints": []
+    },
+    {
+     "text": "に西其薬",
+     "hints": []
+    },
+    {
+     "text": "或不対雲",
+     "hints": []
+    },
+    {
+     "text": "云未達",
+     "hints": []
+    },
+    {
+     "text": "夫子竹槙",
+     "hints": []
+    },
+    {
+     "text": "達候政",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "嘉永",
+     "hints": [
+      "年号"
+     ]
+    },
+    {
+     "text": "名文如是",
+     "hints": [
+      "货币/面积单位"
+     ]
+    },
+    {
+     "text": "不敢尤",
+     "hints": []
+    },
+    {
+     "text": "一銭壱匁",
+     "hints": [
+      "册数/数量/金额",
+      "货币/面积单位"
+     ]
+    },
+    {
+     "text": "●金橋",
+     "hints": []
+    },
+    {
+     "text": "記事君",
+     "hints": [
+      "敬称/书信体"
+     ]
+    },
+    {
+     "text": "嘉次三",
+     "hints": [
+      "年号"
+     ]
+    },
+    {
+     "text": "はさいかつ",
+     "hints": []
+    },
+    {
+     "text": "紺代、",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p045",
+   "n_on": 17,
+   "n_off": 21,
+   "n_base": 21,
+   "removed": 4,
+   "added": 0,
+   "layout_filtered_reported": 5,
+   "removed_lines": [
+    {
+     "text": "昌楽",
+     "hints": []
+    },
+    {
+     "text": "諦覧",
+     "hints": []
+    },
+    {
+     "text": "又不残",
+     "hints": []
+    },
+    {
+     "text": "也",
+     "hints": []
+    }
+   ]
+  },
+  {
+   "page": "p046",
+   "n_on": 0,
+   "n_off": 0,
+   "n_base": 0,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  },
+  {
+   "page": "p047",
+   "n_on": 0,
+   "n_off": 0,
+   "n_base": 0,
+   "removed": 0,
+   "added": 0,
+   "layout_filtered_reported": 0,
+   "removed_lines": []
+  }
+ ]
+}

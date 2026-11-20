@@ -1,0 +1,21 @@
+{
+ "page": "p001",
+ "mode": "on",
+ "lines": [
+  "論語白文一"
+ ],
+ "line_boxes": [
+  {
+   "x": 192,
+   "y": 83,
+   "w": 68,
+   "h": 461,
+   "index": 0
+  }
+ ],
+ "line_count": 1,
+ "layout_filtered": [],
+ "junk_filtered": 1,
+ "ocr_sec": 12.3,
+ "text": "論語白文一"
+}

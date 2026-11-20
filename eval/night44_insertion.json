@@ -1,0 +1,3310 @@
+{
+ "n_filtered": 275,
+ "n_with_kept_below": 0,
+ "boxes_on": 1833,
+ "boxes_off": 2056,
+ "survived_in_off": 223,
+ "box_mismatch": [],
+ "rows": [
+  {
+   "page": "p009",
+   "box": {
+    "x": 358,
+    "y": 801,
+    "w": 17,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p009",
+   "box": {
+    "x": 340,
+    "y": 804,
+    "w": 17,
+    "h": 41,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p010",
+   "box": {
+    "x": 357,
+    "y": 800,
+    "w": 18,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p010",
+   "box": {
+    "x": 340,
+    "y": 804,
+    "w": 16,
+    "h": 42,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p012",
+   "box": {
+    "x": 358,
+    "y": 794,
+    "w": 15,
+    "h": 63,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p012",
+   "box": {
+    "x": 348,
+    "y": 798,
+    "w": 14,
+    "h": 58,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p012",
+   "box": {
+    "x": 343,
+    "y": 800,
+    "w": 13,
+    "h": 57,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p012",
+   "box": {
+    "x": 327,
+    "y": 801,
+    "w": 15,
+    "h": 55,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p012",
+   "box": {
+    "x": 311,
+    "y": 800,
+    "w": 13,
+    "h": 56,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p012",
+   "box": {
+    "x": 203,
+    "y": 804,
+    "w": 12,
+    "h": 19,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p012",
+   "box": {
+    "x": 297,
+    "y": 801,
+    "w": 12,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p012",
+   "box": {
+    "x": 282,
+    "y": 802,
+    "w": 12,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p012",
+   "box": {
+    "x": 268,
+    "y": 802,
+    "w": 12,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p012",
+   "box": {
+    "x": 252,
+    "y": 802,
+    "w": 14,
+    "h": 55,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p012",
+   "box": {
+    "x": 234,
+    "y": 802,
+    "w": 14,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p012",
+   "box": {
+    "x": 218,
+    "y": 802,
+    "w": 13,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p013",
+   "box": {
+    "x": 357,
+    "y": 793,
+    "w": 15,
+    "h": 65,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p013",
+   "box": {
+    "x": 343,
+    "y": 801,
+    "w": 13,
+    "h": 55,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p013",
+   "box": {
+    "x": 327,
+    "y": 801,
+    "w": 15,
+    "h": 55,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p013",
+   "box": {
+    "x": 311,
+    "y": 801,
+    "w": 13,
+    "h": 56,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p013",
+   "box": {
+    "x": 297,
+    "y": 801,
+    "w": 12,
+    "h": 55,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p013",
+   "box": {
+    "x": 282,
+    "y": 801,
+    "w": 11,
+    "h": 55,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p013",
+   "box": {
+    "x": 268,
+    "y": 801,
+    "w": 11,
+    "h": 55,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p013",
+   "box": {
+    "x": 252,
+    "y": 802,
+    "w": 14,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p013",
+   "box": {
+    "x": 203,
+    "y": 804,
+    "w": 11,
+    "h": 19,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p013",
+   "box": {
+    "x": 234,
+    "y": 803,
+    "w": 13,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p013",
+   "box": {
+    "x": 218,
+    "y": 803,
+    "w": 13,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 1182,
+    "y": 799,
+    "w": 11,
+    "h": 47,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 1168,
+    "y": 797,
+    "w": 11,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 1155,
+    "y": 797,
+    "w": 12,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 1144,
+    "y": 796,
+    "w": 10,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 1134,
+    "y": 797,
+    "w": 9,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 1124,
+    "y": 800,
+    "w": 10,
+    "h": 48,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 1112,
+    "y": 801,
+    "w": 13,
+    "h": 48,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 1104,
+    "y": 802,
+    "w": 11,
+    "h": 48,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 1101,
+    "y": 801,
+    "w": 12,
+    "h": 49,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 1089,
+    "y": 799,
+    "w": 14,
+    "h": 49,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 1069,
+    "y": 795,
+    "w": 19,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 1053,
+    "y": 796,
+    "w": 15,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 1035,
+    "y": 796,
+    "w": 17,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 1018,
+    "y": 796,
+    "w": 17,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 1001,
+    "y": 797,
+    "w": 17,
+    "h": 55,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 988,
+    "y": 798,
+    "w": 14,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 975,
+    "y": 798,
+    "w": 16,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 962,
+    "y": 797,
+    "w": 14,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 948,
+    "y": 798,
+    "w": 14,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 932,
+    "y": 798,
+    "w": 16,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 917,
+    "y": 798,
+    "w": 15,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 902,
+    "y": 799,
+    "w": 16,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 887,
+    "y": 800,
+    "w": 14,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 872,
+    "y": 801,
+    "w": 15,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 855,
+    "y": 802,
+    "w": 17,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 836,
+    "y": 802,
+    "w": 17,
+    "h": 40,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 822,
+    "y": 802,
+    "w": 13,
+    "h": 49,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 810,
+    "y": 798,
+    "w": 12,
+    "h": 56,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 799,
+    "y": 801,
+    "w": 10,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 787,
+    "y": 802,
+    "w": 10,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 773,
+    "y": 802,
+    "w": 12,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 761,
+    "y": 803,
+    "w": 10,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p014",
+   "box": {
+    "x": 748,
+    "y": 802,
+    "w": 12,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 1180,
+    "y": 799,
+    "w": 12,
+    "h": 45,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 1166,
+    "y": 798,
+    "w": 11,
+    "h": 43,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 1153,
+    "y": 798,
+    "w": 12,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 1142,
+    "y": 797,
+    "w": 10,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 1132,
+    "y": 798,
+    "w": 9,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 1122,
+    "y": 800,
+    "w": 10,
+    "h": 49,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 1110,
+    "y": 802,
+    "w": 12,
+    "h": 47,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 1101,
+    "y": 801,
+    "w": 11,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 1089,
+    "y": 799,
+    "w": 14,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 1067,
+    "y": 795,
+    "w": 20,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 1051,
+    "y": 796,
+    "w": 15,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 1015,
+    "y": 796,
+    "w": 18,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 1033,
+    "y": 797,
+    "w": 17,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 999,
+    "y": 797,
+    "w": 17,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 986,
+    "y": 797,
+    "w": 14,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 974,
+    "y": 797,
+    "w": 14,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 960,
+    "y": 797,
+    "w": 14,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 954,
+    "y": 797,
+    "w": 16,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 945,
+    "y": 798,
+    "w": 15,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 930,
+    "y": 798,
+    "w": 15,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 919,
+    "y": 798,
+    "w": 16,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 915,
+    "y": 798,
+    "w": 16,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 900,
+    "y": 799,
+    "w": 15,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 885,
+    "y": 800,
+    "w": 15,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 870,
+    "y": 801,
+    "w": 15,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 852,
+    "y": 801,
+    "w": 18,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 835,
+    "y": 802,
+    "w": 15,
+    "h": 42,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 820,
+    "y": 803,
+    "w": 12,
+    "h": 47,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 807,
+    "y": 802,
+    "w": 11,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 797,
+    "y": 801,
+    "w": 10,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 785,
+    "y": 801,
+    "w": 10,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 771,
+    "y": 802,
+    "w": 12,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 759,
+    "y": 802,
+    "w": 9,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p015",
+   "box": {
+    "x": 745,
+    "y": 803,
+    "w": 12,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p017",
+   "box": {
+    "x": 964,
+    "y": 799,
+    "w": 18,
+    "h": 48,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p017",
+   "box": {
+    "x": 948,
+    "y": 800,
+    "w": 15,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p017",
+   "box": {
+    "x": 932,
+    "y": 800,
+    "w": 14,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p017",
+   "box": {
+    "x": 915,
+    "y": 801,
+    "w": 14,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p017",
+   "box": {
+    "x": 896,
+    "y": 801,
+    "w": 15,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p017",
+   "box": {
+    "x": 880,
+    "y": 802,
+    "w": 13,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p017",
+   "box": {
+    "x": 863,
+    "y": 802,
+    "w": 16,
+    "h": 49,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p017",
+   "box": {
+    "x": 351,
+    "y": 760,
+    "w": 22,
+    "h": 93,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p018",
+   "box": {
+    "x": 960,
+    "y": 757,
+    "w": 17,
+    "h": 92,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p018",
+   "box": {
+    "x": 959,
+    "y": 782,
+    "w": 19,
+    "h": 70,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p018",
+   "box": {
+    "x": 944,
+    "y": 799,
+    "w": 14,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p018",
+   "box": {
+    "x": 928,
+    "y": 800,
+    "w": 14,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p018",
+   "box": {
+    "x": 910,
+    "y": 801,
+    "w": 15,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p018",
+   "box": {
+    "x": 892,
+    "y": 802,
+    "w": 15,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p018",
+   "box": {
+    "x": 876,
+    "y": 802,
+    "w": 14,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p018",
+   "box": {
+    "x": 858,
+    "y": 803,
+    "w": 17,
+    "h": 48,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p018",
+   "box": {
+    "x": 349,
+    "y": 776,
+    "w": 21,
+    "h": 74,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p018",
+   "box": {
+    "x": 348,
+    "y": 793,
+    "w": 20,
+    "h": 61,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 1064,
+    "y": 799,
+    "w": 19,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 1047,
+    "y": 800,
+    "w": 15,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 1028,
+    "y": 801,
+    "w": 15,
+    "h": 49,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 1009,
+    "y": 800,
+    "w": 16,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 993,
+    "y": 801,
+    "w": 15,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 976,
+    "y": 800,
+    "w": 16,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 958,
+    "y": 801,
+    "w": 14,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 938,
+    "y": 801,
+    "w": 18,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 920,
+    "y": 801,
+    "w": 16,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 903,
+    "y": 802,
+    "w": 14,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 885,
+    "y": 802,
+    "w": 18,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 867,
+    "y": 801,
+    "w": 15,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 850,
+    "y": 800,
+    "w": 15,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 847,
+    "y": 798,
+    "w": 15,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 833,
+    "y": 800,
+    "w": 15,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 816,
+    "y": 799,
+    "w": 15,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 797,
+    "y": 799,
+    "w": 18,
+    "h": 55,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 779,
+    "y": 798,
+    "w": 15,
+    "h": 57,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 761,
+    "y": 799,
+    "w": 16,
+    "h": 56,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p019",
+   "box": {
+    "x": 746,
+    "y": 799,
+    "w": 14,
+    "h": 55,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 1063,
+    "y": 800,
+    "w": 17,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 1045,
+    "y": 801,
+    "w": 14,
+    "h": 49,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 1026,
+    "y": 800,
+    "w": 16,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 1012,
+    "y": 799,
+    "w": 16,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 1008,
+    "y": 801,
+    "w": 14,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 991,
+    "y": 802,
+    "w": 14,
+    "h": 49,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 974,
+    "y": 801,
+    "w": 15,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 956,
+    "y": 801,
+    "w": 15,
+    "h": 49,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 937,
+    "y": 801,
+    "w": 17,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 918,
+    "y": 801,
+    "w": 17,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 902,
+    "y": 801,
+    "w": 13,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 889,
+    "y": 802,
+    "w": 17,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 883,
+    "y": 802,
+    "w": 17,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 866,
+    "y": 802,
+    "w": 15,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 849,
+    "y": 800,
+    "w": 14,
+    "h": 55,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 832,
+    "y": 800,
+    "w": 15,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 814,
+    "y": 800,
+    "w": 15,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 795,
+    "y": 800,
+    "w": 17,
+    "h": 56,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 778,
+    "y": 800,
+    "w": 14,
+    "h": 56,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 759,
+    "y": 800,
+    "w": 17,
+    "h": 56,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p020",
+   "box": {
+    "x": 745,
+    "y": 800,
+    "w": 13,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p023",
+   "box": {
+    "x": 302,
+    "y": 804,
+    "w": 16,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p023",
+   "box": {
+    "x": 282,
+    "y": 803,
+    "w": 18,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p023",
+   "box": {
+    "x": 260,
+    "y": 804,
+    "w": 18,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p023",
+   "box": {
+    "x": 242,
+    "y": 804,
+    "w": 16,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p023",
+   "box": {
+    "x": 226,
+    "y": 805,
+    "w": 15,
+    "h": 49,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p023",
+   "box": {
+    "x": 208,
+    "y": 803,
+    "w": 15,
+    "h": 40,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p023",
+   "box": {
+    "x": 192,
+    "y": 801,
+    "w": 15,
+    "h": 56,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p033",
+   "box": {
+    "x": 1184,
+    "y": 795,
+    "w": 16,
+    "h": 48,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p033",
+   "box": {
+    "x": 1168,
+    "y": 796,
+    "w": 15,
+    "h": 47,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p033",
+   "box": {
+    "x": 1150,
+    "y": 797,
+    "w": 16,
+    "h": 48,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p033",
+   "box": {
+    "x": 1132,
+    "y": 800,
+    "w": 17,
+    "h": 46,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p033",
+   "box": {
+    "x": 1113,
+    "y": 801,
+    "w": 17,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p033",
+   "box": {
+    "x": 1095,
+    "y": 802,
+    "w": 15,
+    "h": 47,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p033",
+   "box": {
+    "x": 1076,
+    "y": 803,
+    "w": 20,
+    "h": 47,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p033",
+   "box": {
+    "x": 1057,
+    "y": 802,
+    "w": 18,
+    "h": 48,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p033",
+   "box": {
+    "x": 1040,
+    "y": 803,
+    "w": 17,
+    "h": 48,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p033",
+   "box": {
+    "x": 1023,
+    "y": 803,
+    "w": 15,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p033",
+   "box": {
+    "x": 1003,
+    "y": 803,
+    "w": 17,
+    "h": 49,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p033",
+   "box": {
+    "x": 987,
+    "y": 796,
+    "w": 12,
+    "h": 31,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p033",
+   "box": {
+    "x": 986,
+    "y": 806,
+    "w": 14,
+    "h": 21,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p033",
+   "box": {
+    "x": 991,
+    "y": 829,
+    "w": 13,
+    "h": 23,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p033",
+   "box": {
+    "x": 979,
+    "y": 830,
+    "w": 13,
+    "h": 23,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p035",
+   "box": {
+    "x": 1155,
+    "y": 793,
+    "w": 13,
+    "h": 55,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p035",
+   "box": {
+    "x": 1132,
+    "y": 798,
+    "w": 21,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p038",
+   "box": {
+    "x": 969,
+    "y": 776,
+    "w": 13,
+    "h": 66,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p038",
+   "box": {
+    "x": 968,
+    "y": 795,
+    "w": 13,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p038",
+   "box": {
+    "x": 954,
+    "y": 795,
+    "w": 14,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p038",
+   "box": {
+    "x": 517,
+    "y": 798,
+    "w": 15,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p038",
+   "box": {
+    "x": 500,
+    "y": 799,
+    "w": 13,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p038",
+   "box": {
+    "x": 484,
+    "y": 800,
+    "w": 15,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p038",
+   "box": {
+    "x": 305,
+    "y": 797,
+    "w": 15,
+    "h": 47,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p038",
+   "box": {
+    "x": 287,
+    "y": 799,
+    "w": 16,
+    "h": 46,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p038",
+   "box": {
+    "x": 269,
+    "y": 801,
+    "w": 14,
+    "h": 34,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p038",
+   "box": {
+    "x": 253,
+    "y": 798,
+    "w": 14,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p039",
+   "box": {
+    "x": 972,
+    "y": 796,
+    "w": 13,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p039",
+   "box": {
+    "x": 965,
+    "y": 796,
+    "w": 14,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p039",
+   "box": {
+    "x": 958,
+    "y": 796,
+    "w": 14,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p039",
+   "box": {
+    "x": 520,
+    "y": 798,
+    "w": 15,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p039",
+   "box": {
+    "x": 503,
+    "y": 800,
+    "w": 14,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p039",
+   "box": {
+    "x": 487,
+    "y": 800,
+    "w": 14,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p039",
+   "box": {
+    "x": 307,
+    "y": 797,
+    "w": 16,
+    "h": 47,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p039",
+   "box": {
+    "x": 289,
+    "y": 800,
+    "w": 16,
+    "h": 45,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p039",
+   "box": {
+    "x": 272,
+    "y": 800,
+    "w": 14,
+    "h": 36,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p039",
+   "box": {
+    "x": 256,
+    "y": 798,
+    "w": 14,
+    "h": 49,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p040",
+   "box": {
+    "x": 1135,
+    "y": 804,
+    "w": 17,
+    "h": 39,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p040",
+   "box": {
+    "x": 1117,
+    "y": 803,
+    "w": 16,
+    "h": 47,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p040",
+   "box": {
+    "x": 1101,
+    "y": 803,
+    "w": 14,
+    "h": 43,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p040",
+   "box": {
+    "x": 1084,
+    "y": 803,
+    "w": 14,
+    "h": 42,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p040",
+   "box": {
+    "x": 1065,
+    "y": 801,
+    "w": 19,
+    "h": 48,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p040",
+   "box": {
+    "x": 1046,
+    "y": 801,
+    "w": 18,
+    "h": 45,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p040",
+   "box": {
+    "x": 1029,
+    "y": 803,
+    "w": 15,
+    "h": 42,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p040",
+   "box": {
+    "x": 1009,
+    "y": 803,
+    "w": 18,
+    "h": 37,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p040",
+   "box": {
+    "x": 991,
+    "y": 801,
+    "w": 14,
+    "h": 40,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p040",
+   "box": {
+    "x": 972,
+    "y": 802,
+    "w": 15,
+    "h": 41,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p040",
+   "box": {
+    "x": 954,
+    "y": 803,
+    "w": 16,
+    "h": 42,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p040",
+   "box": {
+    "x": 935,
+    "y": 803,
+    "w": 16,
+    "h": 44,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p040",
+   "box": {
+    "x": 917,
+    "y": 802,
+    "w": 16,
+    "h": 45,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p040",
+   "box": {
+    "x": 819,
+    "y": 797,
+    "w": 15,
+    "h": 56,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p041",
+   "box": {
+    "x": 1138,
+    "y": 795,
+    "w": 17,
+    "h": 48,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p041",
+   "box": {
+    "x": 1122,
+    "y": 798,
+    "w": 15,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p041",
+   "box": {
+    "x": 1106,
+    "y": 798,
+    "w": 13,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p041",
+   "box": {
+    "x": 1091,
+    "y": 799,
+    "w": 13,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p041",
+   "box": {
+    "x": 1075,
+    "y": 799,
+    "w": 15,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p041",
+   "box": {
+    "x": 1059,
+    "y": 800,
+    "w": 14,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p041",
+   "box": {
+    "x": 1042,
+    "y": 799,
+    "w": 15,
+    "h": 55,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p041",
+   "box": {
+    "x": 1026,
+    "y": 799,
+    "w": 14,
+    "h": 55,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p041",
+   "box": {
+    "x": 1011,
+    "y": 799,
+    "w": 13,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p041",
+   "box": {
+    "x": 994,
+    "y": 798,
+    "w": 16,
+    "h": 55,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p041",
+   "box": {
+    "x": 979,
+    "y": 798,
+    "w": 14,
+    "h": 56,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p041",
+   "box": {
+    "x": 964,
+    "y": 798,
+    "w": 13,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p041",
+   "box": {
+    "x": 949,
+    "y": 800,
+    "w": 12,
+    "h": 18,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p041",
+   "box": {
+    "x": 926,
+    "y": 798,
+    "w": 17,
+    "h": 58,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p041",
+   "box": {
+    "x": 912,
+    "y": 798,
+    "w": 13,
+    "h": 56,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p041",
+   "box": {
+    "x": 874,
+    "y": 798,
+    "w": 19,
+    "h": 38,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p042",
+   "box": {
+    "x": 976,
+    "y": 795,
+    "w": 19,
+    "h": 56,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p042",
+   "box": {
+    "x": 960,
+    "y": 797,
+    "w": 13,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p042",
+   "box": {
+    "x": 944,
+    "y": 797,
+    "w": 13,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p042",
+   "box": {
+    "x": 928,
+    "y": 799,
+    "w": 13,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p042",
+   "box": {
+    "x": 909,
+    "y": 800,
+    "w": 16,
+    "h": 19,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p043",
+   "box": {
+    "x": 1033,
+    "y": 799,
+    "w": 20,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p043",
+   "box": {
+    "x": 1016,
+    "y": 800,
+    "w": 15,
+    "h": 48,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p043",
+   "box": {
+    "x": 1001,
+    "y": 801,
+    "w": 14,
+    "h": 49,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p043",
+   "box": {
+    "x": 987,
+    "y": 801,
+    "w": 13,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p043",
+   "box": {
+    "x": 971,
+    "y": 803,
+    "w": 14,
+    "h": 46,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p043",
+   "box": {
+    "x": 957,
+    "y": 803,
+    "w": 14,
+    "h": 48,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p043",
+   "box": {
+    "x": 941,
+    "y": 804,
+    "w": 14,
+    "h": 43,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p043",
+   "box": {
+    "x": 924,
+    "y": 805,
+    "w": 16,
+    "h": 41,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p043",
+   "box": {
+    "x": 251,
+    "y": 798,
+    "w": 18,
+    "h": 46,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 1184,
+    "y": 793,
+    "w": 16,
+    "h": 61,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 1028,
+    "y": 798,
+    "w": 19,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 1015,
+    "y": 799,
+    "w": 12,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 1002,
+    "y": 798,
+    "w": 13,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 988,
+    "y": 799,
+    "w": 13,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 973,
+    "y": 800,
+    "w": 14,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 958,
+    "y": 799,
+    "w": 14,
+    "h": 53,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 942,
+    "y": 802,
+    "w": 14,
+    "h": 33,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 818,
+    "y": 796,
+    "w": 16,
+    "h": 55,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 803,
+    "y": 798,
+    "w": 14,
+    "h": 54,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 788,
+    "y": 801,
+    "w": 14,
+    "h": 49,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 773,
+    "y": 801,
+    "w": 13,
+    "h": 47,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 760,
+    "y": 801,
+    "w": 12,
+    "h": 47,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 747,
+    "y": 801,
+    "w": 12,
+    "h": 47,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 735,
+    "y": 801,
+    "w": 12,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 722,
+    "y": 803,
+    "w": 12,
+    "h": 49,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 709,
+    "y": 805,
+    "w": 13,
+    "h": 47,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 695,
+    "y": 806,
+    "w": 14,
+    "h": 48,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 676,
+    "y": 807,
+    "w": 13,
+    "h": 43,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 661,
+    "y": 808,
+    "w": 13,
+    "h": 44,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 647,
+    "y": 809,
+    "w": 13,
+    "h": 43,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 634,
+    "y": 808,
+    "w": 13,
+    "h": 45,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 618,
+    "y": 810,
+    "w": 14,
+    "h": 44,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 515,
+    "y": 799,
+    "w": 11,
+    "h": 47,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 452,
+    "y": 800,
+    "w": 15,
+    "h": 40,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 405,
+    "y": 799,
+    "w": 14,
+    "h": 49,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 392,
+    "y": 799,
+    "w": 12,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 377,
+    "y": 800,
+    "w": 14,
+    "h": 48,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p044",
+   "box": {
+    "x": 362,
+    "y": 802,
+    "w": 14,
+    "h": 37,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p045",
+   "box": {
+    "x": 1180,
+    "y": 800,
+    "w": 14,
+    "h": 51,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p045",
+   "box": {
+    "x": 1165,
+    "y": 800,
+    "w": 14,
+    "h": 50,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p045",
+   "box": {
+    "x": 1150,
+    "y": 805,
+    "w": 13,
+    "h": 43,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p045",
+   "box": {
+    "x": 1134,
+    "y": 800,
+    "w": 14,
+    "h": 52,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  },
+  {
+   "page": "p045",
+   "box": {
+    "x": 1118,
+    "y": 803,
+    "w": 14,
+    "h": 15,
+    "reason": "footer_band"
+   },
+   "col_overlap_below": 0,
+   "below_sample": []
+  }
+ ]
+}
