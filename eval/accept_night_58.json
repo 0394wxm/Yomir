@@ -1,24 +1,24 @@
 {
   "night": 58,
-  "verdict": "FAIL",
-  "checked_at": "2026-11-21T02:46:52",
-  "elapsed_sec": 40.9,
+  "verdict": "PASS",
+  "checked_at": "2026-11-21T02:50:33",
+  "elapsed_sec": 43.0,
   "n_checks": 7,
-  "n_fail": 1,
+  "n_fail": 0,
   "n_skip": 1,
   "checks": [
     {
       "name": "repo_clean",
       "title": "git 工作区干净",
-      "status": "fail",
+      "status": "pass",
       "notes": [
-        "已跟踪文件有未提交改动：2 个",
+        "验收门自身产物有更新（不计脏）：ACCEPT_LOG.md",
+        "已跟踪文件无改动",
         "未跟踪：eval/night50_barepytest_after_fix.txt, eval/night50_collect.txt, eval/night50_evalhash_after_precheck.json, eval/night50_evalhash_afterfix.json, eval/night50_evalhash_before.json, eval/night50_evalhash_clean.json, eval/night50_evalhash_final_a.json, eval/night50_gitstatus_before.txt, eval/night50_gitstatus_before_tracked.txt, eval/night50_gt_cer.txt"
       ],
       "detail": {
         "changed": [
-          " M SHIFT_LOG.md",
-          " M backend/kundoku_rules.py",
+          " M ACCEPT_LOG.md",
           "?? eval/night50_barepytest_after_fix.txt",
           "?? eval/night50_collect.txt",
           "?? eval/night50_evalhash_after_precheck.json",
@@ -34,30 +34,15 @@
           "?? eval/night50_verify_after.txt",
           "?? eval/night50_verify_before.txt",
           "?? eval/night58_accept.txt",
+          "?? eval/night58_accept_final.txt",
           "?? eval/night58_clock_probe.txt",
-          "?? eval/night58_combo_changed_rows_kana_zero_shinjitai.json",
-          "?? eval/night58_combo_changed_rows_kana_zero_worse.json",
-          "?? eval/night58_eval.txt",
           "?? eval/night58_eval_clean.tmp",
-          "?? eval/night58_examples.txt",
-          "?? eval/night58_gt_cer.json",
-          "?? eval/night58_gt_cer.txt",
-          "?? eval/night58_gt_lines.json",
-          "?? eval/night58_gt_run.txt",
           "?? eval/night58_gt_tail.tmp",
-          "?? eval/night58_mine.json",
-          "?? eval/night58_mine.txt",
-          "?? eval/night58_probe_forms.txt",
-          "?? eval/night58_pytest_full.txt",
           "?? eval/night58_pytest_full_tail.tmp",
           "?? eval/night58_pytest_start.txt",
-          "?? eval/night58_results_3000.json",
           "?? eval/night58_shiftlog_tail.txt",
-          "?? eval/night58_sim.json",
-          "?? eval/night58_sim.txt",
           "?? eval/night58_sim_tail.tmp",
           "?? eval/night58_struct_probe.txt",
-          "?? eval/night58_test_h.txt",
           "?? eval/night58_test_h_tail.tmp",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_01.png",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_02.png",
@@ -584,20 +569,12 @@
           "?? eval/ocr_samples/gt36_hr/",
           "?? eval/ocr_samples/gt36_probe.png",
           "?? eval/ocr_samples/gt36_view/",
-          "?? eval/ocr_samples/hr_test.jpg",
-          "?? tests/test_rule_h_kana_kanji.py",
-          "?? tools/night58_count_probe.py",
-          "?? tools/night58_eval_3000.py",
-          "?? tools/night58_heartbeat.py",
-          "?? tools/night58_mine.py",
-          "?? tools/night58_pick_examples.py",
-          "?? tools/night58_probe_forms.py",
-          "?? tools/night58_sim.py"
+          "?? eval/ocr_samples/hr_test.jpg"
         ],
-        "tracked_changes": [
-          " M SHIFT_LOG.md",
-          " M backend/kundoku_rules.py"
+        "gate_owned_changes": [
+          " M ACCEPT_LOG.md"
         ],
+        "tracked_changes": [],
         "untracked": [
           "?? eval/night50_barepytest_after_fix.txt",
           "?? eval/night50_collect.txt",
@@ -614,30 +591,15 @@
           "?? eval/night50_verify_after.txt",
           "?? eval/night50_verify_before.txt",
           "?? eval/night58_accept.txt",
+          "?? eval/night58_accept_final.txt",
           "?? eval/night58_clock_probe.txt",
-          "?? eval/night58_combo_changed_rows_kana_zero_shinjitai.json",
-          "?? eval/night58_combo_changed_rows_kana_zero_worse.json",
-          "?? eval/night58_eval.txt",
           "?? eval/night58_eval_clean.tmp",
-          "?? eval/night58_examples.txt",
-          "?? eval/night58_gt_cer.json",
-          "?? eval/night58_gt_cer.txt",
-          "?? eval/night58_gt_lines.json",
-          "?? eval/night58_gt_run.txt",
           "?? eval/night58_gt_tail.tmp",
-          "?? eval/night58_mine.json",
-          "?? eval/night58_mine.txt",
-          "?? eval/night58_probe_forms.txt",
-          "?? eval/night58_pytest_full.txt",
           "?? eval/night58_pytest_full_tail.tmp",
           "?? eval/night58_pytest_start.txt",
-          "?? eval/night58_results_3000.json",
           "?? eval/night58_shiftlog_tail.txt",
-          "?? eval/night58_sim.json",
-          "?? eval/night58_sim.txt",
           "?? eval/night58_sim_tail.tmp",
           "?? eval/night58_struct_probe.txt",
-          "?? eval/night58_test_h.txt",
           "?? eval/night58_test_h_tail.tmp",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_01.png",
           "?? eval/ocr_samples/gt36/ndl_10301438_R0000002/line_02.png",
@@ -1164,19 +1126,7 @@
           "?? eval/ocr_samples/gt36_hr/",
           "?? eval/ocr_samples/gt36_probe.png",
           "?? eval/ocr_samples/gt36_view/",
-          "?? eval/ocr_samples/hr_test.jpg",
-          "?? tests/test_rule_h_kana_kanji.py",
-          "?? tools/night58_count_probe.py",
-          "?? tools/night58_eval_3000.py",
-          "?? tools/night58_heartbeat.py",
-          "?? tools/night58_mine.py",
-          "?? tools/night58_pick_examples.py",
-          "?? tools/night58_probe_forms.py",
-          "?? tools/night58_sim.py"
-        ],
-        "files": [
-          " M SHIFT_LOG.md",
-          " M backend/kundoku_rules.py"
+          "?? eval/ocr_samples/hr_test.jpg"
         ]
       }
     },
@@ -1185,16 +1135,16 @@
       "title": "tests 全量通过",
       "status": "pass",
       "notes": [
-        "190 passed = 190 collected（19.6s，收集 6.5s）"
+        "190 passed = 190 collected（20.0s，收集 7.5s）"
       ],
       "detail": {
         "collected": 190,
-        "collect_sec": 6.5,
-        "elapsed_sec": 19.6,
+        "collect_sec": 7.5,
+        "elapsed_sec": 20.0,
         "tail": [
           "........................................................................ [ 75%]",
           "..............................................                           [100%]",
-          "190 passed in 15.67s"
+          "190 passed in 16.67s"
         ],
         "passed": 190
       }
@@ -1266,15 +1216,15 @@
       "title": "单句训读耗时在包络内",
       "status": "pass",
       "notes": [
-        "短句中位 16ms（包络 3000ms）"
+        "短句中位 9ms（包络 3000ms）"
       ],
       "detail": {
         "ms": [
-          16.0,
-          26.0,
-          6.0
+          9.0,
+          6.0,
+          31.0
         ],
-        "median_ms": 16.0,
+        "median_ms": 9.0,
         "limit_ms": 3000.0
       }
     },
