@@ -37,7 +37,7 @@ from backend.ocr_postfix import (  # noqa: E402
     normalize_compat_ideographs,
     postprocess_line,
 )
-from backend.ocr_layout import judge_layout  # noqa: E402  (NIGHT43 版面几何过滤)
+from backend.ocr_layout import judge_layout, main_column_keys, reorder_main_slots  # noqa: E402  (NIGHT43/45 版面)
 
 logger = logging.getLogger("kanbun.ocr")
 
@@ -137,6 +137,8 @@ class OCREngine:
         np = self._np
         if not boxes:
             return []
+        # NIGHT45: 列单元内并列主栏重排（默认开，KANBUN_OCR_MAINCOL=0 回退）。
+        use_maincol = os.environ.get("KANBUN_OCR_MAINCOL", "1") != "0"
         vert = [b for b in boxes if b["h"] >= b["w"]]
         horz = [b for b in boxes if b["h"] < b["w"]]
 
@@ -186,9 +188,12 @@ class OCREngine:
             if not placed:
                 units.append({"kind": "row", "box": dict(b), "items": [b]})
         # 列单元按右→左、行单元按上→下，最后把单元按质心排序输出
+        main_keys = main_column_keys(boxes) if use_maincol else set()
         for u in units:
             if u["kind"] == "col":
                 u["items"] = sorted(u["items"], key=lambda t: t["y"])
+                if use_maincol:
+                    u["items"] = reorder_main_slots(u["items"], main_keys)
             else:
                 u["items"] = sorted(u["items"], key=lambda t: -(t["x"]))
         units.sort(key=lambda u: -(u["box"]["x"] + u["box"]["w"] / 2.0))

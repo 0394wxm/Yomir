@@ -52,6 +52,28 @@ def _p90(vs):
     return s[min(len(s) - 1, int(round(0.9 * (len(s) - 1))))]
 
 
+def _main_group(boxes):
+    """主栏长框组（judge_layout 与 main_column_keys 共用同一判据）。
+
+    返回 (miban or None, main_list)。主栏候选 = 縦框 且 h >= MAIN_H_FRAC*h_max
+    且 w >= MAIN_W_FRAC*P90(w)。<MIN_MAIN 个 → 版心估不出。
+    """
+    vert = [b for b in boxes if b["h"] >= b["w"]]
+    if not vert:
+        return None, []
+    h_max = max(b["h"] for b in vert)
+    w_ref = _p90([b["w"] for b in vert])
+    main = [b for b in vert if b["h"] >= MAIN_H_FRAC * h_max
+            and b["w"] >= MAIN_W_FRAC * w_ref]
+    if len(main) < MIN_MAIN:
+        return None, []
+    miban = {"x": min(b["x"] for b in main),
+             "y": min(b["y"] for b in main),
+             "w": max(b["x"] + b["w"] for b in main) - min(b["x"] for b in main),
+             "h": max(b["y"] + b["h"] for b in main) - min(b["y"] for b in main)}
+    return miban, main
+
+
 def judge_layout(boxes, img_w=None, img_h=None):
     """NIGHT43 版面判据（纯几何）：主栏长框组 → 版心 → 页脚带过滤。
 
@@ -61,19 +83,9 @@ def judge_layout(boxes, img_w=None, img_h=None):
     img_w/img_h 留作签名占位（当前判据只用框间相对几何）。
     """
     del img_w, img_h
-    vert = [b for b in boxes if b["h"] >= b["w"]]
-    if not vert:
+    miban, main = _main_group(boxes)
+    if miban is None:
         return None, [(b, None) for b in boxes]
-    h_max = max(b["h"] for b in vert)
-    w_ref = _p90([b["w"] for b in vert])
-    main = [b for b in vert if b["h"] >= MAIN_H_FRAC * h_max
-            and b["w"] >= MAIN_W_FRAC * w_ref]
-    if len(main) < MIN_MAIN:
-        return None, [(b, None) for b in boxes]
-    miban = {"x": min(b["x"] for b in main),
-             "y": min(b["y"] for b in main),
-             "w": max(b["x"] + b["w"] for b in main) - min(b["x"] for b in main),
-             "h": max(b["y"] + b["h"] for b in main) - min(b["y"] for b in main)}
     y_max = max(b["y"] + b["h"] for b in main)
     out = []
     for b in boxes:
@@ -83,3 +95,63 @@ def judge_layout(boxes, img_w=None, img_h=None):
             reason = "footer_band"
         out.append((b, reason))
     return miban, out
+
+
+# ---------------------------------------------------------------------------
+# NIGHT45: 列单元内的并列主栏重排（阅读顺序）
+#
+# **Night45 的原假设被证伪**：一开始以为是「头注被 `_cluster_order` 的全局 x
+# 排序切开」。用**与原型无关**的列连续性指标（tools/night45_contiguity.py）
+# 按生产列定义度量：原顺序 659 列**零打断**（43/43 页每列连续），而「头注
+# 归列」原型反而制造 48 处打断、31 页变差 → 该原型废弃，未进生产代码。
+#
+# **真缺陷**（tools/night45_maincol_order.py 的 I5）：`_cluster_order` 用
+# x 重叠 ≥0.4 的**传递闭包**聚列，一个跨列的头注能把左右两个主栏桥接进同一
+# 列单元；单元内部只按 y 排序，而并排两主栏的 y 只差 2px（p021: 215 vs 217），
+# 先后由噪声决定 → 可能左先右后，整段正文读反。p021 实测：「天下之無道也
+# 久矣、天将以夫子爲木鐸」被排成了「…木鐸」在前、「天下之無道也」在后。
+#
+# **修复**：只在列单元内部**重排主栏框所占的槽位**（按右缘 x 右→左），
+# 非主栏框位置逐位不动。47 页实测（filter=ON 归档）：1 页顺序变化（p021），
+# I5 主栏列对颠倒 2→0（另一处 p017 是手写批注被宽判据纳入主栏，不属正文），
+# 置换与内容多重集不变。KANBUN_OCR_MAINCOL=0 关闭；默认开启。
+MAIN_COL_OVERLAP = 0.4   # 与 _cluster_order 的列聚类阈值同值
+
+
+def main_column_keys(boxes):
+    """`_main_group` 判定为主栏的框的几何键集合。"""
+    _miban, main = _main_group([dict(b) for b in boxes])
+    return {(b["x"], b["y"], b["w"], b["h"]) for b in main}
+
+
+def reorder_main_slots(items, main_keys):
+    """列单元内只重排主栏框的槽位；非主栏框位置逐位不变。
+
+    items: 已按 y 排好序的列单元框列表（`_cluster_order` 的单元内顺序）
+    返回: 新列表（长度与内容多重集不变）
+
+    只在单元内存在 **x 互不重叠** 的主栏框对时才动手——那正是「两个并列主栏
+    被跨列头注桥接」的几何特征。上下堆叠的同列长框 x 必然重叠，不会触发，
+    所以普通正文列（含割注、列末短行）的顺序完全不受影响。
+    """
+    if len(items) < 2:
+        return items
+    m = [b for b in items if (b["x"], b["y"], b["w"], b["h"]) in main_keys]
+    if len(m) < 2:
+        return items
+
+    def disjoint(a, b):
+        return a["x"] + a["w"] <= b["x"] or b["x"] + b["w"] <= a["x"]
+
+    if not any(disjoint(m[i], m[j])
+               for i in range(len(m)) for j in range(i + 1, len(m))):
+        return items
+    by_right = sorted(m, key=lambda t: -(t["x"] + t["w"]))
+    if by_right == m:
+        return items
+    slots = [k for k, b in enumerate(items)
+             if (b["x"], b["y"], b["w"], b["h"]) in main_keys]
+    out = list(items)
+    for slot, b in zip(slots, by_right):
+        out[slot] = b
+    return out

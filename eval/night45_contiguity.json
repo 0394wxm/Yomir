@@ -1,0 +1,308 @@
+{
+ "total_cols": 659,
+ "excess_A": 0,
+ "excess_C": 0,
+ "pages": [
+  {
+   "page": "p003",
+   "n": 9,
+   "n_cols": 9,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p004",
+   "n": 16,
+   "n_cols": 16,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p005",
+   "n": 16,
+   "n_cols": 16,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p006",
+   "n": 16,
+   "n_cols": 16,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p007",
+   "n": 41,
+   "n_cols": 15,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p008",
+   "n": 43,
+   "n_cols": 13,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p009",
+   "n": 63,
+   "n_cols": 13,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p010",
+   "n": 62,
+   "n_cols": 14,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p011",
+   "n": 40,
+   "n_cols": 15,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p012",
+   "n": 57,
+   "n_cols": 16,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p013",
+   "n": 59,
+   "n_cols": 15,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p014",
+   "n": 49,
+   "n_cols": 18,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p015",
+   "n": 46,
+   "n_cols": 18,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p016",
+   "n": 17,
+   "n_cols": 9,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p017",
+   "n": 51,
+   "n_cols": 20,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p018",
+   "n": 48,
+   "n_cols": 18,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p019",
+   "n": 54,
+   "n_cols": 15,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p020",
+   "n": 56,
+   "n_cols": 15,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p021",
+   "n": 41,
+   "n_cols": 15,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p022",
+   "n": 50,
+   "n_cols": 18,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p023",
+   "n": 29,
+   "n_cols": 14,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p024",
+   "n": 51,
+   "n_cols": 14,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p025",
+   "n": 48,
+   "n_cols": 16,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p026",
+   "n": 34,
+   "n_cols": 14,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p027",
+   "n": 46,
+   "n_cols": 17,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p028",
+   "n": 36,
+   "n_cols": 15,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p029",
+   "n": 51,
+   "n_cols": 17,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p030",
+   "n": 25,
+   "n_cols": 10,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p031",
+   "n": 48,
+   "n_cols": 16,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p032",
+   "n": 42,
+   "n_cols": 15,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p033",
+   "n": 44,
+   "n_cols": 16,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p034",
+   "n": 39,
+   "n_cols": 17,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p035",
+   "n": 32,
+   "n_cols": 15,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p036",
+   "n": 50,
+   "n_cols": 20,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p037",
+   "n": 46,
+   "n_cols": 17,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p038",
+   "n": 50,
+   "n_cols": 15,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p039",
+   "n": 52,
+   "n_cols": 16,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p040",
+   "n": 61,
+   "n_cols": 17,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p041",
+   "n": 54,
+   "n_cols": 15,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p042",
+   "n": 49,
+   "n_cols": 18,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p043",
+   "n": 42,
+   "n_cols": 19,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p044",
+   "n": 52,
+   "n_cols": 15,
+   "excess_A": 0,
+   "excess_C": 0
+  },
+  {
+   "page": "p045",
+   "n": 17,
+   "n_cols": 7,
+   "excess_A": 0,
+   "excess_C": 0
+  }
+ ]
+}

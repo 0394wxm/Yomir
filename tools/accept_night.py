@@ -64,6 +64,8 @@ NIGHT_ARTIFACTS = {
     # Night 44 的产物（night44_*.json）是版面过滤的对照分析，不是 golden 格式的
     # 评测结果（无 results[].id），登记进 eval_integrity 会 KeyError；
     # 它们由 tests/test_ocr_night44.py 的 7 条不变式测试守护。
+    # Night 45 同理：night45_*.json 是阅读顺序的度量与原型对照，由
+    # tests/test_ocr_night45.py 的 12 条不变式测试守护。
 }
 
 # Night 4 之后 expected 应保持的经典句（防止有人改评测数据来「提分」）

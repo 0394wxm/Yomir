@@ -1,0 +1,60 @@
+{
+ "factor": 2.0,
+ "before": 3,
+ "after": 3,
+ "pages": [
+  {
+   "page": "p018",
+   "before": 1,
+   "after": 1
+  },
+  {
+   "page": "p021",
+   "before": 1,
+   "after": 1
+  },
+  {
+   "page": "p045",
+   "before": 1,
+   "after": 1
+  }
+ ],
+ "detail": [
+  {
+   "page": "p018",
+   "stage": "before",
+   "ratio": 2.08,
+   "n": 7
+  },
+  {
+   "page": "p018",
+   "stage": "after",
+   "ratio": 2.08,
+   "n": 7
+  },
+  {
+   "page": "p021",
+   "stage": "before",
+   "ratio": 2.27,
+   "n": 8
+  },
+  {
+   "page": "p021",
+   "stage": "after",
+   "ratio": 2.27,
+   "n": 8
+  },
+  {
+   "page": "p045",
+   "stage": "before",
+   "ratio": 2.12,
+   "n": 4
+  },
+  {
+   "page": "p045",
+   "stage": "after",
+   "ratio": 2.12,
+   "n": 4
+  }
+ ]
+}

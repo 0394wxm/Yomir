@@ -1,0 +1,2136 @@
+{
+ "total_i4": 176,
+ "pages_with_i4": [
+  "p007",
+  "p008",
+  "p009",
+  "p010",
+  "p012",
+  "p013",
+  "p014",
+  "p015",
+  "p016",
+  "p017",
+  "p018",
+  "p019",
+  "p020",
+  "p021",
+  "p022",
+  "p023",
+  "p024",
+  "p025",
+  "p027",
+  "p029",
+  "p031",
+  "p032",
+  "p033",
+  "p034",
+  "p035",
+  "p036",
+  "p037",
+  "p038",
+  "p039",
+  "p040",
+  "p041",
+  "p042",
+  "p043",
+  "p044"
+ ],
+ "pages": [
+  {
+   "page": "p003",
+   "n": 9,
+   "units": 9,
+   "i4_inversions": 0,
+   "detail": []
+  },
+  {
+   "page": "p004",
+   "n": 16,
+   "units": 16,
+   "i4_inversions": 0,
+   "detail": []
+  },
+  {
+   "page": "p005",
+   "n": 16,
+   "units": 16,
+   "i4_inversions": 0,
+   "detail": []
+  },
+  {
+   "page": "p006",
+   "n": 16,
+   "units": 16,
+   "i4_inversions": 0,
+   "detail": []
+  },
+  {
+   "page": "p007",
+   "n": 41,
+   "units": 16,
+   "i4_inversions": 5,
+   "detail": [
+    {
+     "unit": 9,
+     "left_idx": 16,
+     "right_idx": 17,
+     "left_x": 485,
+     "right_x": 502,
+     "left_y": 42,
+     "right_y": 43,
+     "left_text": "来、九俵于茲、通積于厥斯相",
+     "right_text": "○漸く惟草遊志、務時敏、鹿崎乃"
+    },
+    {
+     "unit": 9,
+     "left_idx": 16,
+     "right_idx": 18,
+     "left_x": 485,
+     "right_x": 518,
+     "left_y": 42,
+     "right_y": 44,
+     "left_text": "来、九俵于茲、通積于厥斯相",
+     "right_text": "不断之意此節大旨と説印"
+    },
+    {
+     "unit": 9,
+     "left_idx": 17,
+     "right_idx": 18,
+     "left_x": 502,
+     "right_x": 518,
+     "left_y": 43,
+     "right_y": 44,
+     "left_text": "○漸く惟草遊志、務時敏、鹿崎乃",
+     "right_text": "不断之意此節大旨と説印"
+    },
+    {
+     "unit": 12,
+     "left_idx": 28,
+     "right_idx": 29,
+     "left_x": 317,
+     "right_x": 356,
+     "left_y": 39,
+     "right_y": 40,
+     "left_text": "今桶易大極中最上有六十四斗百六十四斗己軽",
+     "right_text": "太第行等蓋第仁気難通仁義丸髪亦皆性之表隠"
+    },
+    {
+     "unit": 14,
+     "left_idx": 35,
+     "right_idx": 37,
+     "left_x": 209,
+     "right_x": 238,
+     "left_y": 43,
+     "right_y": 48,
+     "left_text": "孫楽学君子と学ゐむ人知り不残",
+     "right_text": "記対仁初年定称、余故曰、此説似精末積、"
+    }
+   ]
+  },
+  {
+   "page": "p008",
+   "n": 43,
+   "units": 16,
+   "i4_inversions": 6,
+   "detail": [
+    {
+     "unit": 9,
+     "left_idx": 16,
+     "right_idx": 19,
+     "left_x": 485,
+     "right_x": 518,
+     "left_y": 44,
+     "right_y": 46,
+     "left_text": "未、元懐子茲通積テ厥斯桐",
+     "right_text": "不断之意此節大赤与説命"
+    },
+    {
+     "unit": 9,
+     "left_idx": 17,
+     "right_idx": 19,
+     "left_x": 501,
+     "right_x": 518,
+     "left_y": 45,
+     "right_y": 46,
+     "left_text": "一所山俣草孫志、稲狩殿、厥崎月",
+     "right_text": "不断之意此節大赤与説命"
+    },
+    {
+     "unit": 9,
+     "left_idx": 18,
+     "right_idx": 19,
+     "left_x": 467,
+     "right_x": 518,
+     "left_y": 45,
+     "right_y": 46,
+     "left_text": "○、○曰達、則迄可知曰未、則律可",
+     "right_text": "不断之意此節大赤与説命"
+    },
+    {
+     "unit": 12,
+     "left_idx": 30,
+     "right_idx": 32,
+     "left_x": 307,
+     "right_x": 341,
+     "left_y": 43,
+     "right_y": 45,
+     "left_text": "此堯皇尭執る旨里門刻戸雲像居処",
+     "right_text": "同断同難有之図"
+    },
+    {
+     "unit": 12,
+     "left_idx": 31,
+     "right_idx": 32,
+     "left_x": 323,
+     "right_x": 341,
+     "left_y": 44,
+     "right_y": 45,
+     "left_text": "明曇門戸と名代同朋党回同例比々差縮",
+     "right_text": "同断同難有之図"
+    },
+    {
+     "unit": 14,
+     "left_idx": 39,
+     "right_idx": 40,
+     "left_x": 209,
+     "right_x": 240,
+     "left_y": 43,
+     "right_y": 44,
+     "left_text": "娯楽季君子を学ゐぬ人知与不",
+     "right_text": "前藤田西南同門東北辺図"
+    }
+   ]
+  },
+  {
+   "page": "p009",
+   "n": 63,
+   "units": 18,
+   "i4_inversions": 7,
+   "detail": [
+    {
+     "unit": 3,
+     "left_idx": 9,
+     "right_idx": 10,
+     "left_x": 1035,
+     "right_x": 1055,
+     "left_y": 47,
+     "right_y": 59,
+     "left_text": "明例与甚矣老衰也同",
+     "right_text": "百人半、佳見一之故回鮮不曰仁解矣者、倒法"
+    },
+    {
+     "unit": 5,
+     "left_idx": 16,
+     "right_idx": 17,
+     "left_x": 946,
+     "right_x": 964,
+     "left_y": 47,
+     "right_y": 48,
+     "left_text": "之所先後四、〇早夏曰事",
+     "right_text": "読言猶如年可見古人為蒙"
+    },
+    {
+     "unit": 9,
+     "left_idx": 30,
+     "right_idx": 32,
+     "left_x": 635,
+     "right_x": 659,
+     "left_y": 48,
+     "right_y": 363,
+     "left_text": "順修章、表十九両是",
+     "right_text": "汝"
+    },
+    {
+     "unit": 13,
+     "left_idx": 44,
+     "right_idx": 45,
+     "left_x": 431,
+     "right_x": 466,
+     "left_y": 47,
+     "right_y": 59,
+     "left_text": "其志摂行、並指文志行、混居",
+     "right_text": "長杉言語其形容品卿"
+    },
+    {
+     "unit": 15,
+     "left_idx": 52,
+     "right_idx": 54,
+     "left_x": 326,
+     "right_x": 356,
+     "left_y": 53,
+     "right_y": 156,
+     "left_text": "和字、外属下意属氏、同例",
+     "right_text": "十歳集九草"
+    },
+    {
+     "unit": 15,
+     "left_idx": 53,
+     "right_idx": 54,
+     "left_x": 306,
+     "right_x": 356,
+     "left_y": 56,
+     "right_y": 156,
+     "left_text": "与国而不学、民斯国下表同、",
+     "right_text": "十歳集九草"
+    },
+    {
+     "unit": 15,
+     "left_idx": 53,
+     "right_idx": 55,
+     "left_x": 306,
+     "right_x": 344,
+     "left_y": 56,
+     "right_y": 156,
+     "left_text": "与国而不学、民斯国下表同、",
+     "right_text": "浅説町本社"
+    }
+   ]
+  },
+  {
+   "page": "p010",
+   "n": 62,
+   "units": 18,
+   "i4_inversions": 9,
+   "detail": [
+    {
+     "unit": 2,
+     "left_idx": 6,
+     "right_idx": 7,
+     "left_x": 1081,
+     "right_x": 1100,
+     "left_y": 47,
+     "right_y": 48,
+     "left_text": "叙者昨是、」或解伝木昌為",
+     "right_text": "同章、本注可以、但杉三者立次"
+    },
+    {
+     "unit": 3,
+     "left_idx": 9,
+     "right_idx": 10,
+     "left_x": 1041,
+     "right_x": 1062,
+     "left_y": 46,
+     "right_y": 48,
+     "left_text": "字乎矣、是呼応、居加幾現、",
+     "right_text": "以不習者防之、非是、此章不知"
+    },
+    {
+     "unit": 5,
+     "left_idx": 16,
+     "right_idx": 17,
+     "left_x": 945,
+     "right_x": 964,
+     "left_y": 46,
+     "right_y": 48,
+     "left_text": "之方先後七戊巳年夏曰辛、",
+     "right_text": "読書於此年可見古人有之子"
+    },
+    {
+     "unit": 9,
+     "left_idx": 30,
+     "right_idx": 32,
+     "left_x": 634,
+     "right_x": 659,
+     "left_y": 48,
+     "right_y": 363,
+     "left_text": "慎修章、長十凡為是",
+     "right_text": "女"
+    },
+    {
+     "unit": 12,
+     "left_idx": 41,
+     "right_idx": 42,
+     "left_x": 483,
+     "right_x": 502,
+     "left_y": 58,
+     "right_y": 59,
+     "left_text": "不未来昨年之也、子弟弟弟子",
+     "right_text": "非欲之也以求不承之、而"
+    },
+    {
+     "unit": 13,
+     "left_idx": 44,
+     "right_idx": 45,
+     "left_x": 430,
+     "right_x": 465,
+     "left_y": 46,
+     "right_y": 59,
+     "left_text": "其志其行、益指支志行、港若",
+     "right_text": "一長村言陸に其形容易噺妙"
+    },
+    {
+     "unit": 15,
+     "left_idx": 51,
+     "right_idx": 53,
+     "left_x": 325,
+     "right_x": 356,
+     "left_y": 53,
+     "right_y": 154,
+     "left_text": "和字、勾属下、意属氏、洞例",
+     "right_text": "十二十九年十"
+    },
+    {
+     "unit": 15,
+     "left_idx": 52,
+     "right_idx": 53,
+     "left_x": 305,
+     "right_x": 356,
+     "left_y": 55,
+     "right_y": 154,
+     "left_text": "与聞而不幸、民町留下米間、",
+     "right_text": "十二十九年十"
+    }
+   ]
+  },
+  {
+   "page": "p011",
+   "n": 40,
+   "units": 16,
+   "i4_inversions": 0,
+   "detail": []
+  },
+  {
+   "page": "p012",
+   "n": 57,
+   "units": 18,
+   "i4_inversions": 7,
+   "detail": [
+    {
+     "unit": 5,
+     "left_idx": 11,
+     "right_idx": 13,
+     "left_x": 888,
+     "right_x": 908,
+     "left_y": 50,
+     "right_y": 51,
+     "left_text": "一於温崎奉養必皆得其意",
+     "right_text": "にてしのもあるは"
+    },
+    {
+     "unit": 5,
+     "left_idx": 12,
+     "right_idx": 13,
+     "left_x": 869,
+     "right_x": 908,
+     "left_y": 50,
+     "right_y": 51,
+     "left_text": "卯曇平日所江守共奥書付",
+     "right_text": "にてしのもあるは"
+    },
+    {
+     "unit": 11,
+     "left_idx": 29,
+     "right_idx": 31,
+     "left_x": 537,
+     "right_x": 557,
+     "left_y": 48,
+     "right_y": 49,
+     "left_text": "貴素悲難行乎悉乱図",
+     "right_text": "三千円加森富貴行才富"
+    },
+    {
+     "unit": 11,
+     "left_idx": 30,
+     "right_idx": 31,
+     "left_x": 516,
+     "right_x": 557,
+     "left_y": 48,
+     "right_y": 49,
+     "left_text": "是不舞此惟養好心休正",
+     "right_text": "三千円加森富貴行才富"
+    },
+    {
+     "unit": 13,
+     "left_idx": 37,
+     "right_idx": 38,
+     "left_x": 432,
+     "right_x": 454,
+     "left_y": 46,
+     "right_y": 48,
+     "left_text": "善平清不特二才一芸",
+     "right_text": "商人子止相孝亦医是不罷"
+    },
+    {
+     "unit": 14,
+     "left_idx": 40,
+     "right_idx": 41,
+     "left_x": 364,
+     "right_x": 388,
+     "left_y": 48,
+     "right_y": 49,
+     "left_text": "一球異攻城を所々異編、国類",
+     "right_text": "小人矣可乎"
+    },
+    {
+     "unit": 14,
+     "left_idx": 40,
+     "right_idx": 43,
+     "left_x": 364,
+     "right_x": 405,
+     "left_y": 48,
+     "right_y": 309,
+     "left_text": "一球異攻城を所々異編、国類",
+     "right_text": "高国対前院"
+    }
+   ]
+  },
+  {
+   "page": "p013",
+   "n": 59,
+   "units": 18,
+   "i4_inversions": 8,
+   "detail": [
+    {
+     "unit": 3,
+     "left_idx": 7,
+     "right_idx": 8,
+     "left_x": 968,
+     "right_x": 988,
+     "left_y": 49,
+     "right_y": 50,
+     "left_text": "一眠候此之不時待天御歎疾文為",
+     "right_text": "不調足以対疵一動一静之不節"
+    },
+    {
+     "unit": 5,
+     "left_idx": 13,
+     "right_idx": 14,
+     "left_x": 886,
+     "right_x": 906,
+     "left_y": 50,
+     "right_y": 51,
+     "left_text": "一佐崎奉養、必皆将其寅",
+     "right_text": "常御父母致病院の深夏刈走"
+    },
+    {
+     "unit": 11,
+     "left_idx": 31,
+     "right_idx": 32,
+     "left_x": 536,
+     "right_x": 557,
+     "left_y": 48,
+     "right_y": 49,
+     "left_text": "貴、素悪難、行平恵那皆",
+     "right_text": "三子円加森富貴行乎当"
+    },
+    {
+     "unit": 12,
+     "left_idx": 36,
+     "right_idx": 37,
+     "left_x": 474,
+     "right_x": 496,
+     "left_y": 50,
+     "right_y": 51,
+     "left_text": "仙百人死止程載而人父親恵",
+     "right_text": "可能之、理継之同商人甚止所"
+    },
+    {
+     "unit": 13,
+     "left_idx": 39,
+     "right_idx": 40,
+     "left_x": 432,
+     "right_x": 454,
+     "left_y": 47,
+     "right_y": 48,
+     "left_text": "万本法同心持へてオ一万五千五百万円",
+     "right_text": "一番人子止於孝亦皆是不景"
+    },
+    {
+     "unit": 14,
+     "left_idx": 44,
+     "right_idx": 45,
+     "left_x": 364,
+     "right_x": 388,
+     "left_y": 49,
+     "right_y": 50,
+     "left_text": "一疾変攻城を残々異端、国歇一",
+     "right_text": "小人矣可乎"
+    },
+    {
+     "unit": 15,
+     "left_idx": 47,
+     "right_idx": 48,
+     "left_x": 323,
+     "right_x": 343,
+     "left_y": 49,
+     "right_y": 50,
+     "left_text": "堅有害乃甚性不残之節",
+     "right_text": "除生害矣、而我愈政、彼愈之"
+    },
+    {
+     "unit": 16,
+     "left_idx": 51,
+     "right_idx": 52,
+     "left_x": 262,
+     "right_x": 283,
+     "left_y": 50,
+     "right_y": 51,
+     "left_text": "一我不政、彼自体、異不残之上",
+     "right_text": "道色、太陽一歳百怪道巡巡"
+    }
+   ]
+  },
+  {
+   "page": "p014",
+   "n": 49,
+   "units": 21,
+   "i4_inversions": 4,
+   "detail": [
+    {
+     "unit": 7,
+     "left_idx": 15,
+     "right_idx": 16,
+     "left_x": 783,
+     "right_x": 806,
+     "left_y": 59,
+     "right_y": 62,
+     "left_text": "爰其為之政、語似難通、",
+     "right_text": "著明"
+    },
+    {
+     "unit": 11,
+     "left_idx": 25,
+     "right_idx": 28,
+     "left_x": 592,
+     "right_x": 618,
+     "left_y": 49,
+     "right_y": 666,
+     "left_text": "則此礼也与天地経孫上之",
+     "right_text": "外法純氏魂可従"
+    },
+    {
+     "unit": 11,
+     "left_idx": 26,
+     "right_idx": 28,
+     "left_x": 570,
+     "right_x": 618,
+     "left_y": 49,
+     "right_y": 666,
+     "left_text": "三代所図、同一此礼「下之、百世",
+     "right_text": "外法純氏魂可従"
+    },
+    {
+     "unit": 15,
+     "left_idx": 41,
+     "right_idx": 43,
+     "left_x": 357,
+     "right_x": 396,
+     "left_y": 56,
+     "right_y": 511,
+     "left_text": "又王、孔者、上下之名な、舎礼、",
+     "right_text": "一務民義義老神而遣之、与此章豆桐炭、"
+    }
+   ]
+  },
+  {
+   "page": "p015",
+   "n": 46,
+   "units": 20,
+   "i4_inversions": 6,
+   "detail": [
+    {
+     "unit": 6,
+     "left_idx": 12,
+     "right_idx": 13,
+     "left_x": 782,
+     "right_x": 805,
+     "left_y": 58,
+     "right_y": 61,
+     "left_text": "実真為之儀、路以昇通、",
+     "right_text": "甚明、"
+    },
+    {
+     "unit": 7,
+     "left_idx": 16,
+     "right_idx": 17,
+     "left_x": 739,
+     "right_x": 759,
+     "left_y": 58,
+     "right_y": 59,
+     "left_text": "書、是占文君陳篇、思陳、",
+     "right_text": "為々問疑漏不矣"
+    },
+    {
+     "unit": 10,
+     "left_idx": 21,
+     "right_idx": 22,
+     "left_x": 591,
+     "right_x": 612,
+     "left_y": 48,
+     "right_y": 49,
+     "left_text": "則此礼也、与天地経後、上之、",
+     "right_text": "旧玄、天禄有礼、自我五礼、"
+    },
+    {
+     "unit": 10,
+     "left_idx": 21,
+     "right_idx": 25,
+     "left_x": 591,
+     "right_x": 618,
+     "left_y": 48,
+     "right_y": 666,
+     "left_text": "則此礼也、与天地経後、上之、",
+     "right_text": "外法納氏説可従"
+    },
+    {
+     "unit": 10,
+     "left_idx": 23,
+     "right_idx": 25,
+     "left_x": 568,
+     "right_x": 618,
+     "left_y": 49,
+     "right_y": 666,
+     "left_text": "三代所国、同一此九、下之百世",
+     "right_text": "外法納氏説可従"
+    },
+    {
+     "unit": 14,
+     "left_idx": 38,
+     "right_idx": 40,
+     "left_x": 356,
+     "right_x": 395,
+     "left_y": 56,
+     "right_y": 511,
+     "left_text": "或云、凡春、上下之名な、舎礼、",
+     "right_text": "一務民義、義忠神、而遣し、与此章豆桐厳、"
+    }
+   ]
+  },
+  {
+   "page": "p016",
+   "n": 17,
+   "units": 9,
+   "i4_inversions": 2,
+   "detail": [
+    {
+     "unit": 7,
+     "left_idx": 12,
+     "right_idx": 14,
+     "left_x": 218,
+     "right_x": 242,
+     "left_y": 55,
+     "right_y": 57,
+     "left_text": "或曰、不如、是不及急、穏子",
+     "right_text": "而言互"
+    },
+    {
+     "unit": 7,
+     "left_idx": 13,
+     "right_idx": 14,
+     "left_x": 202,
+     "right_x": 242,
+     "left_y": 55,
+     "right_y": 57,
+     "left_text": "一鮮日不似恵、古所主也、",
+     "right_text": "而言互"
+    }
+   ]
+  },
+  {
+   "page": "p017",
+   "n": 51,
+   "units": 20,
+   "i4_inversions": 7,
+   "detail": [
+    {
+     "unit": 2,
+     "left_idx": 4,
+     "right_idx": 5,
+     "left_x": 1078,
+     "right_x": 1118,
+     "left_y": 50,
+     "right_y": 51,
+     "left_text": "壁の大震院、尚施其内不絶",
+     "right_text": "一往々有之陣登対呂布"
+    },
+    {
+     "unit": 2,
+     "left_idx": 4,
+     "right_idx": 6,
+     "left_x": 1078,
+     "right_x": 1098,
+     "left_y": 50,
+     "right_y": 51,
+     "left_text": "壁の大震院、尚施其内不絶",
+     "right_text": "「「「」」」「」「「「」」「」」」」」」"
+    },
+    {
+     "unit": 9,
+     "left_idx": 27,
+     "right_idx": 28,
+     "left_x": 758,
+     "right_x": 778,
+     "left_y": 59,
+     "right_y": 60,
+     "left_text": "但此也、如塵書土麗、母夫、",
+     "right_text": "皆省様、将調適従、不"
+    },
+    {
+     "unit": 9,
+     "left_idx": 27,
+     "right_idx": 30,
+     "left_x": 758,
+     "right_x": 799,
+     "left_y": 59,
+     "right_y": 520,
+     "left_text": "但此也、如塵書土麗、母夫、",
+     "right_text": "或曰獣与憲通心可"
+    },
+    {
+     "unit": 9,
+     "left_idx": 28,
+     "right_idx": 30,
+     "left_x": 778,
+     "right_x": 799,
+     "left_y": 60,
+     "right_y": 520,
+     "left_text": "皆省様、将調適従、不",
+     "right_text": "或曰獣与憲通心可"
+    },
+    {
+     "unit": 17,
+     "left_idx": 43,
+     "right_idx": 45,
+     "left_x": 259,
+     "right_x": 292,
+     "left_y": 56,
+     "right_y": 631,
+     "left_text": "理、安行此理、何千間見、後人",
+     "right_text": "説左伝習録"
+    },
+    {
+     "unit": 18,
+     "left_idx": 46,
+     "right_idx": 47,
+     "left_x": 198,
+     "right_x": 238,
+     "left_y": 57,
+     "right_y": 58,
+     "left_text": "氏曰郡知亦阿蘇漢之",
+     "right_text": "此間見為嘆欺万聖人恥"
+    }
+   ]
+  },
+  {
+   "page": "p018",
+   "n": 48,
+   "units": 18,
+   "i4_inversions": 7,
+   "detail": [
+    {
+     "unit": 2,
+     "left_idx": 4,
+     "right_idx": 5,
+     "left_x": 1094,
+     "right_x": 1114,
+     "left_y": 51,
+     "right_y": 53,
+     "left_text": "一同二十一日、又登見習公表",
+     "right_text": "往二有之、陣登対三布"
+    },
+    {
+     "unit": 6,
+     "left_idx": 17,
+     "right_idx": 21,
+     "left_x": 837,
+     "right_x": 864,
+     "left_y": 58,
+     "right_y": 220,
+     "left_text": "国死二書の新始即特性以上",
+     "right_text": "禮後乎。子曰。起予者商也始可與言詩已矣"
+    },
+    {
+     "unit": 6,
+     "left_idx": 18,
+     "right_idx": 19,
+     "left_x": 816,
+     "right_x": 850,
+     "left_y": 60,
+     "right_y": 154,
+     "left_text": "一、能言不知、齢騰言、",
+     "right_text": "九十九年"
+    },
+    {
+     "unit": 6,
+     "left_idx": 18,
+     "right_idx": 20,
+     "left_x": 816,
+     "right_x": 854,
+     "left_y": 60,
+     "right_y": 155,
+     "left_text": "一、能言不知、齢騰言、",
+     "right_text": "九達"
+    },
+    {
+     "unit": 6,
+     "left_idx": 18,
+     "right_idx": 21,
+     "left_x": 816,
+     "right_x": 864,
+     "left_y": 60,
+     "right_y": 220,
+     "left_text": "一、能言不知、齢騰言、",
+     "right_text": "禮後乎。子曰。起予者商也始可與言詩已矣"
+    },
+    {
+     "unit": 7,
+     "left_idx": 25,
+     "right_idx": 27,
+     "left_x": 754,
+     "right_x": 789,
+     "left_y": 60,
+     "right_y": 522,
+     "left_text": "但此也、如塵書火麗、母史",
+     "right_text": "或曰献与憲通□可依"
+    },
+    {
+     "unit": 15,
+     "left_idx": 40,
+     "right_idx": 42,
+     "left_x": 256,
+     "right_x": 292,
+     "left_y": 56,
+     "right_y": 632,
+     "left_text": "理、安行此理、何千間見、後人",
+     "right_text": "説直伝習録"
+    }
+   ]
+  },
+  {
+   "page": "p019",
+   "n": 54,
+   "units": 18,
+   "i4_inversions": 6,
+   "detail": [
+    {
+     "unit": 2,
+     "left_idx": 7,
+     "right_idx": 12,
+     "left_x": 1047,
+     "right_x": 1067,
+     "left_y": 53,
+     "right_y": 699,
+     "left_text": "一桃日、以甲王甲、凡十日、飯、蔵之方",
+     "right_text": "当村人名平着"
+    },
+    {
+     "unit": 2,
+     "left_idx": 8,
+     "right_idx": 12,
+     "left_x": 1031,
+     "right_x": 1067,
+     "left_y": 53,
+     "right_y": 699,
+     "left_text": "明業於後月に従御行之理也",
+     "right_text": "当村人名平着"
+    },
+    {
+     "unit": 2,
+     "left_idx": 9,
+     "right_idx": 12,
+     "left_x": 1014,
+     "right_x": 1067,
+     "left_y": 55,
+     "right_y": 699,
+     "left_text": "失類格此刻岩精不偶指録",
+     "right_text": "当村人名平着"
+    },
+    {
+     "unit": 2,
+     "left_idx": 11,
+     "right_idx": 12,
+     "left_x": 1015,
+     "right_x": 1067,
+     "left_y": 229,
+     "right_y": 699,
+     "left_text": "之広世領并、然此則天子之礼諸侯等承此不行",
+     "right_text": "当村人名平着"
+    },
+    {
+     "unit": 6,
+     "left_idx": 21,
+     "right_idx": 22,
+     "left_x": 802,
+     "right_x": 827,
+     "left_y": 49,
+     "right_y": 53,
+     "left_text": "三家声勢院成遂、曽石徴",
+     "right_text": "天下国魏曰夏后"
+    },
+    {
+     "unit": 17,
+     "left_idx": 51,
+     "right_idx": 52,
+     "left_x": 192,
+     "right_x": 214,
+     "left_y": 49,
+     "right_y": 50,
+     "left_text": "見諸緯州太輔東部",
+     "right_text": "一奴剃落於外、孕毓之内"
+    }
+   ]
+  },
+  {
+   "page": "p020",
+   "n": 56,
+   "units": 18,
+   "i4_inversions": 10,
+   "detail": [
+    {
+     "unit": 0,
+     "left_idx": 0,
+     "right_idx": 2,
+     "left_x": 1133,
+     "right_x": 1170,
+     "left_y": 51,
+     "right_y": 568,
+     "left_text": "一紫告朔ル不独言暦也",
+     "right_text": "明吉本発有死"
+    },
+    {
+     "unit": 2,
+     "left_idx": 7,
+     "right_idx": 8,
+     "left_x": 1045,
+     "right_x": 1062,
+     "left_y": 52,
+     "right_y": 53,
+     "left_text": "一挟日も以甲乙甲、九十日、鉄義之方、",
+     "right_text": "法丁難門家熟へ伴百民共規治家"
+    },
+    {
+     "unit": 2,
+     "left_idx": 7,
+     "right_idx": 11,
+     "left_x": 1045,
+     "right_x": 1065,
+     "left_y": 52,
+     "right_y": 701,
+     "left_text": "一挟日も以甲乙甲、九十日、鉄義之方、",
+     "right_text": "当時人名平名"
+    },
+    {
+     "unit": 2,
+     "left_idx": 9,
+     "right_idx": 11,
+     "left_x": 1028,
+     "right_x": 1065,
+     "left_y": 53,
+     "right_y": 701,
+     "left_text": "明薫昨後月ニ晩御行之陽也",
+     "right_text": "当時人名平名"
+    },
+    {
+     "unit": 6,
+     "left_idx": 21,
+     "right_idx": 22,
+     "left_x": 800,
+     "right_x": 842,
+     "left_y": 51,
+     "right_y": 52,
+     "left_text": "三家声勢院成退至日若殿",
+     "right_text": "鬼本記"
+    },
+    {
+     "unit": 6,
+     "left_idx": 21,
+     "right_idx": 23,
+     "left_x": 800,
+     "right_x": 824,
+     "left_y": 51,
+     "right_y": 55,
+     "left_text": "三家声勢院成退至日若殿",
+     "right_text": "天て国"
+    },
+    {
+     "unit": 6,
+     "left_idx": 21,
+     "right_idx": 24,
+     "left_x": 800,
+     "right_x": 845,
+     "left_y": 51,
+     "right_y": 116,
+     "left_text": "三家声勢院成退至日若殿",
+     "right_text": "新助麹町三丁"
+    },
+    {
+     "unit": 6,
+     "left_idx": 23,
+     "right_idx": 24,
+     "left_x": 824,
+     "right_x": 845,
+     "left_y": 55,
+     "right_y": 116,
+     "left_text": "天て国",
+     "right_text": "新助麹町三丁"
+    }
+   ]
+  },
+  {
+   "page": "p021",
+   "n": 41,
+   "units": 15,
+   "i4_inversions": 13,
+   "detail": [
+    {
+     "unit": 0,
+     "left_idx": 0,
+     "right_idx": 2,
+     "left_x": 1111,
+     "right_x": 1177,
+     "left_y": 49,
+     "right_y": 50,
+     "left_text": "十二日乙午丙午年",
+     "right_text": "奏之歌自為与四時合"
+    },
+    {
+     "unit": 0,
+     "left_idx": 0,
+     "right_idx": 3,
+     "left_x": 1111,
+     "right_x": 1132,
+     "left_y": 49,
+     "right_y": 50,
+     "left_text": "十二日乙午丙午年",
+     "right_text": "卯九月十九日癸丑寅晴"
+    },
+    {
+     "unit": 0,
+     "left_idx": 0,
+     "right_idx": 4,
+     "left_x": 1111,
+     "right_x": 1155,
+     "left_y": 49,
+     "right_y": 51,
+     "left_text": "十二日乙午丙午年",
+     "right_text": "其序其如是非自意欲"
+    },
+    {
+     "unit": 0,
+     "left_idx": 0,
+     "right_idx": 6,
+     "left_x": 1111,
+     "right_x": 1135,
+     "left_y": 49,
+     "right_y": 217,
+     "left_text": "十二日乙午丙午年",
+     "right_text": "之出曰。二三子何患於喪乎。天下之無道也"
+    },
+    {
+     "unit": 0,
+     "left_idx": 1,
+     "right_idx": 2,
+     "left_x": 1086,
+     "right_x": 1177,
+     "left_y": 49,
+     "right_y": 50,
+     "left_text": "一心得人",
+     "right_text": "奏之歌自為与四時合"
+    },
+    {
+     "unit": 0,
+     "left_idx": 1,
+     "right_idx": 3,
+     "left_x": 1086,
+     "right_x": 1132,
+     "left_y": 49,
+     "right_y": 50,
+     "left_text": "一心得人",
+     "right_text": "卯九月十九日癸丑寅晴"
+    },
+    {
+     "unit": 0,
+     "left_idx": 1,
+     "right_idx": 4,
+     "left_x": 1086,
+     "right_x": 1155,
+     "left_y": 49,
+     "right_y": 51,
+     "left_text": "一心得人",
+     "right_text": "其序其如是非自意欲"
+    },
+    {
+     "unit": 0,
+     "left_idx": 1,
+     "right_idx": 6,
+     "left_x": 1086,
+     "right_x": 1135,
+     "left_y": 49,
+     "right_y": 217,
+     "left_text": "一心得人",
+     "right_text": "之出曰。二三子何患於喪乎。天下之無道也"
+    }
+   ]
+  },
+  {
+   "page": "p022",
+   "n": 50,
+   "units": 20,
+   "i4_inversions": 3,
+   "detail": [
+    {
+     "unit": 7,
+     "left_idx": 15,
+     "right_idx": 17,
+     "left_x": 780,
+     "right_x": 803,
+     "left_y": 56,
+     "right_y": 58,
+     "left_text": "位当作立、位立相通言",
+     "right_text": "也、"
+    },
+    {
+     "unit": 7,
+     "left_idx": 16,
+     "right_idx": 17,
+     "left_x": 759,
+     "right_x": 803,
+     "left_y": 56,
+     "right_y": 58,
+     "left_text": "不悲学之義宜心、周礼",
+     "right_text": "也、"
+    },
+    {
+     "unit": 15,
+     "left_idx": 36,
+     "right_idx": 37,
+     "left_x": 340,
+     "right_x": 362,
+     "left_y": 49,
+     "right_y": 209,
+     "left_text": "母髪之、善女子不忌父母",
+     "right_text": "内自省也○子曰事父母幾諫見志不從又"
+    }
+   ]
+  },
+  {
+   "page": "p023",
+   "n": 29,
+   "units": 14,
+   "i4_inversions": 3,
+   "detail": [
+    {
+     "unit": 0,
+     "left_idx": 0,
+     "right_idx": 1,
+     "left_x": 1159,
+     "right_x": 1180,
+     "left_y": 59,
+     "right_y": 61,
+     "left_text": "或壮観之、姓曰、父母之年、",
+     "right_text": "壮時、雖則著薬桶"
+    },
+    {
+     "unit": 3,
+     "left_idx": 7,
+     "right_idx": 8,
+     "left_x": 992,
+     "right_x": 1016,
+     "left_y": 48,
+     "right_y": 49,
+     "left_text": "不厭矣。此意上須補",
+     "right_text": "須浜則厥、吹至誠、"
+    },
+    {
+     "unit": 10,
+     "left_idx": 16,
+     "right_idx": 17,
+     "left_x": 309,
+     "right_x": 326,
+     "left_y": 52,
+     "right_y": 53,
+     "left_text": "従、従者之故曰、賜記何加、",
+     "right_text": "大子必前有論人事、子貢"
+    }
+   ]
+  },
+  {
+   "page": "p024",
+   "n": 51,
+   "units": 18,
+   "i4_inversions": 12,
+   "detail": [
+    {
+     "unit": 0,
+     "left_idx": 0,
+     "right_idx": 1,
+     "left_x": 1146,
+     "right_x": 1166,
+     "left_y": 59,
+     "right_y": 60,
+     "left_text": "左伝、皆与副堂位不",
+     "right_text": "注端塔杜浜臨塔社演"
+    },
+    {
+     "unit": 0,
+     "left_idx": 0,
+     "right_idx": 2,
+     "left_x": 1146,
+     "right_x": 1187,
+     "left_y": 59,
+     "right_y": 61,
+     "left_text": "左伝、皆与副堂位不",
+     "right_text": "辛取之、正義曰、包成、"
+    },
+    {
+     "unit": 0,
+     "left_idx": 1,
+     "right_idx": 2,
+     "left_x": 1166,
+     "right_x": 1187,
+     "left_y": 60,
+     "right_y": 61,
+     "left_text": "注端塔杜浜臨塔社演",
+     "right_text": "辛取之、正義曰、包成、"
+    },
+    {
+     "unit": 1,
+     "left_idx": 5,
+     "right_idx": 6,
+     "left_x": 1081,
+     "right_x": 1104,
+     "left_y": 60,
+     "right_y": 62,
+     "left_text": "通行、据え、則所独包",
+     "right_text": "一益事別有様、猶可"
+    },
+    {
+     "unit": 5,
+     "left_idx": 18,
+     "right_idx": 20,
+     "left_x": 885,
+     "right_x": 908,
+     "left_y": 60,
+     "right_y": 62,
+     "left_text": "不宜、悶連心、故之",
+     "right_text": "陸、則宣曰、陸綱也、"
+    },
+    {
+     "unit": 5,
+     "left_idx": 19,
+     "right_idx": 20,
+     "left_x": 863,
+     "right_x": 908,
+     "left_y": 60,
+     "right_y": 62,
+     "left_text": "断然用包玩方",
+     "right_text": "陸、則宣曰、陸綱也、"
+    },
+    {
+     "unit": 6,
+     "left_idx": 22,
+     "right_idx": 23,
+     "left_x": 815,
+     "right_x": 835,
+     "left_y": 59,
+     "right_y": 60,
+     "left_text": "一進篇子政曾督丹",
+     "right_text": "孟武伯章須守先"
+    },
+    {
+     "unit": 7,
+     "left_idx": 25,
+     "right_idx": 26,
+     "left_x": 759,
+     "right_x": 778,
+     "left_y": 57,
+     "right_y": 59,
+     "left_text": "写大学知学者不都",
+     "right_text": "老理三子丗自創、"
+    }
+   ]
+  },
+  {
+   "page": "p025",
+   "n": 48,
+   "units": 18,
+   "i4_inversions": 2,
+   "detail": [
+    {
+     "unit": 3,
+     "left_idx": 10,
+     "right_idx": 11,
+     "left_x": 987,
+     "right_x": 1025,
+     "left_y": 59,
+     "right_y": 60,
+     "left_text": "非可知也、重理間識不可得",
+     "right_text": "者、其略所得不聞世文子之"
+    },
+    {
+     "unit": 3,
+     "left_idx": 10,
+     "right_idx": 12,
+     "left_x": 987,
+     "right_x": 1007,
+     "left_y": 59,
+     "right_y": 60,
+     "left_text": "非可知也、重理間識不可得",
+     "right_text": "前此曇客外は其年寄与不"
+    }
+   ]
+  },
+  {
+   "page": "p026",
+   "n": 34,
+   "units": 16,
+   "i4_inversions": 0,
+   "detail": []
+  },
+  {
+   "page": "p027",
+   "n": 46,
+   "units": 18,
+   "i4_inversions": 2,
+   "detail": [
+    {
+     "unit": 4,
+     "left_idx": 18,
+     "right_idx": 19,
+     "left_x": 928,
+     "right_x": 948,
+     "left_y": 43,
+     "right_y": 212,
+     "left_text": "其、後不収絶て、則帯人出或、",
+     "right_text": "回者好學。不遷怒。不武過不幸短命死矣今"
+    },
+    {
+     "unit": 5,
+     "left_idx": 22,
+     "right_idx": 23,
+     "left_x": 889,
+     "right_x": 912,
+     "left_y": 43,
+     "right_y": 44,
+     "left_text": "則郡聖人恐不能也、隋",
+     "right_text": "能之、罷越候第升一色、"
+    }
+   ]
+  },
+  {
+   "page": "p028",
+   "n": 36,
+   "units": 17,
+   "i4_inversions": 0,
+   "detail": []
+  },
+  {
+   "page": "p029",
+   "n": 51,
+   "units": 20,
+   "i4_inversions": 3,
+   "detail": [
+    {
+     "unit": 16,
+     "left_idx": 40,
+     "right_idx": 41,
+     "left_x": 321,
+     "right_x": 341,
+     "left_y": 55,
+     "right_y": 56,
+     "left_text": "播用借解る春なる事",
+     "right_text": "一身、王光論済、改否作制、"
+    },
+    {
+     "unit": 17,
+     "left_idx": 43,
+     "right_idx": 45,
+     "left_x": 280,
+     "right_x": 299,
+     "left_y": 54,
+     "right_y": 55,
+     "left_text": "言唱合者有之品久守之",
+     "right_text": "俱以等無題○群之、"
+    },
+    {
+     "unit": 17,
+     "left_idx": 44,
+     "right_idx": 45,
+     "left_x": 260,
+     "right_x": 299,
+     "left_y": 54,
+     "right_y": 55,
+     "left_text": "者少也、如梓乎中庸、而不不",
+     "right_text": "俱以等無題○群之、"
+    }
+   ]
+  },
+  {
+   "page": "p030",
+   "n": 25,
+   "units": 11,
+   "i4_inversions": 0,
+   "detail": []
+  },
+  {
+   "page": "p031",
+   "n": 48,
+   "units": 17,
+   "i4_inversions": 4,
+   "detail": [
+    {
+     "unit": 0,
+     "left_idx": 0,
+     "right_idx": 1,
+     "left_x": 1136,
+     "right_x": 1161,
+     "left_y": 55,
+     "right_y": 56,
+     "left_text": "自行奉備以上、従言",
+     "right_text": "一伝察皆古之所謂芸"
+    },
+    {
+     "unit": 0,
+     "left_idx": 0,
+     "right_idx": 3,
+     "left_x": 1136,
+     "right_x": 1181,
+     "left_y": 55,
+     "right_y": 423,
+     "left_text": "自行奉備以上、従言",
+     "right_text": "一葉葉乗有悦"
+    },
+    {
+     "unit": 0,
+     "left_idx": 1,
+     "right_idx": 3,
+     "left_x": 1161,
+     "right_x": 1181,
+     "left_y": 56,
+     "right_y": 423,
+     "left_text": "一伝察皆古之所謂芸",
+     "right_text": "一葉葉乗有悦"
+    },
+    {
+     "unit": 13,
+     "left_idx": 36,
+     "right_idx": 37,
+     "left_x": 327,
+     "right_x": 350,
+     "left_y": 56,
+     "right_y": 58,
+     "left_text": "人御益衆奥出渡仁王、今急敷にて人奴親とる",
+     "right_text": "一壬午午肥後国小半助ゟ精務於地合之処其所"
+    }
+   ]
+  },
+  {
+   "page": "p032",
+   "n": 42,
+   "units": 17,
+   "i4_inversions": 2,
+   "detail": [
+    {
+     "unit": 0,
+     "left_idx": 1,
+     "right_idx": 4,
+     "left_x": 1160,
+     "right_x": 1182,
+     "left_y": 55,
+     "right_y": 423,
+     "left_text": "一講奏皆古之所謂芸",
+     "right_text": "一同以葉楽有院"
+    },
+    {
+     "unit": 0,
+     "left_idx": 2,
+     "right_idx": 4,
+     "left_x": 1136,
+     "right_x": 1182,
+     "left_y": 55,
+     "right_y": 423,
+     "left_text": "自行束備以上に猶言",
+     "right_text": "一同以葉楽有院"
+    }
+   ]
+  },
+  {
+   "page": "p033",
+   "n": 44,
+   "units": 18,
+   "i4_inversions": 2,
+   "detail": [
+    {
+     "unit": 2,
+     "left_idx": 4,
+     "right_idx": 6,
+     "left_x": 1105,
+     "right_x": 1126,
+     "left_y": 45,
+     "right_y": 46,
+     "left_text": "従五十以後、経歴既声、心学",
+     "right_text": "郡田学美布所侍不美必"
+    },
+    {
+     "unit": 2,
+     "left_idx": 5,
+     "right_idx": 6,
+     "left_x": 1084,
+     "right_x": 1126,
+     "left_y": 45,
+     "right_y": 46,
+     "left_text": "方鳴熟護学規則着用",
+     "right_text": "郡田学美布所侍不美必"
+    }
+   ]
+  },
+  {
+   "page": "p034",
+   "n": 39,
+   "units": 18,
+   "i4_inversions": 2,
+   "detail": [
+    {
+     "unit": 5,
+     "left_idx": 9,
+     "right_idx": 10,
+     "left_x": 871,
+     "right_x": 895,
+     "left_y": 55,
+     "right_y": 56,
+     "left_text": "卯四子阿乱其梅也落",
+     "right_text": "知其非礼也、故不曰雖"
+    },
+    {
+     "unit": 7,
+     "left_idx": 17,
+     "right_idx": 18,
+     "left_x": 767,
+     "right_x": 810,
+     "left_y": 55,
+     "right_y": 58,
+     "left_text": "一有院知新日録引表",
+     "right_text": "あり合一之方明言"
+    }
+   ]
+  },
+  {
+   "page": "p035",
+   "n": 32,
+   "units": 17,
+   "i4_inversions": 2,
+   "detail": [
+    {
+     "unit": 0,
+     "left_idx": 0,
+     "right_idx": 1,
+     "left_x": 1138,
+     "right_x": 1160,
+     "left_y": 41,
+     "right_y": 42,
+     "left_text": "不足愚也余莫三攘、其直",
+     "right_text": "書記諸書詳述嘉伯章特"
+    },
+    {
+     "unit": 0,
+     "left_idx": 0,
+     "right_idx": 4,
+     "left_x": 1138,
+     "right_x": 1162,
+     "left_y": 41,
+     "right_y": 473,
+     "left_text": "不足愚也余莫三攘、其直",
+     "right_text": "コト賢法也、慎三譲助意易補中曰至哉"
+    }
+   ]
+  },
+  {
+   "page": "p036",
+   "n": 50,
+   "units": 20,
+   "i4_inversions": 2,
+   "detail": [
+    {
+     "unit": 12,
+     "left_idx": 29,
+     "right_idx": 30,
+     "left_x": 580,
+     "right_x": 604,
+     "left_y": 51,
+     "right_y": 57,
+     "left_text": "司馬殿侍云、閩非院乱、則師学修夫、上量御",
+     "right_text": "扇、玳砲、当暮在治忽、其記作未始滑、則尓"
+    },
+    {
+     "unit": 15,
+     "left_idx": 40,
+     "right_idx": 42,
+     "left_x": 431,
+     "right_x": 457,
+     "left_y": 53,
+     "right_y": 687,
+     "left_text": "性、猶潔也、難義一味子、",
+     "right_text": "知新日添中角二"
+    }
+   ]
+  },
+  {
+   "page": "p037",
+   "n": 46,
+   "units": 18,
+   "i4_inversions": 3,
+   "detail": [
+    {
+     "unit": 2,
+     "left_idx": 4,
+     "right_idx": 6,
+     "left_x": 1048,
+     "right_x": 1083,
+     "left_y": 47,
+     "right_y": 345,
+     "left_text": "者御慰候、司慎勿意恨、責躬而",
+     "right_text": "知職田県有説"
+    },
+    {
+     "unit": 6,
+     "left_idx": 19,
+     "right_idx": 20,
+     "left_x": 839,
+     "right_x": 864,
+     "left_y": 50,
+     "right_y": 52,
+     "left_text": "尼、対村笹、乱対相消、危、飢王",
+     "right_text": "今本町某集餅草新浪"
+    },
+    {
+     "unit": 13,
+     "left_idx": 36,
+     "right_idx": 37,
+     "left_x": 434,
+     "right_x": 455,
+     "left_y": 52,
+     "right_y": 53,
+     "left_text": "慎、猶医也、従義一性系",
+     "right_text": "乱節故独々乱也、"
+    }
+   ]
+  },
+  {
+   "page": "p038",
+   "n": 50,
+   "units": 17,
+   "i4_inversions": 3,
+   "detail": [
+    {
+     "unit": 1,
+     "left_idx": 1,
+     "right_idx": 2,
+     "left_x": 1126,
+     "right_x": 1161,
+     "left_y": 35,
+     "right_y": 42,
+     "left_text": "一七有二弗例又一島に記。地震差乍通諸夫下",
+     "right_text": "有帰人、為死人石也、則惟知乃、"
+    },
+    {
+     "unit": 4,
+     "left_idx": 11,
+     "right_idx": 13,
+     "left_x": 985,
+     "right_x": 1014,
+     "left_y": 43,
+     "right_y": 46,
+     "left_text": "用口書は則聞公如何十一冊",
+     "right_text": "十三曰二之数所謂周餘黎民衆有子遺方御ひ"
+    },
+    {
+     "unit": 4,
+     "left_idx": 12,
+     "right_idx": 13,
+     "left_x": 964,
+     "right_x": 1014,
+     "left_y": 43,
+     "right_y": 46,
+     "left_text": "恐不以推自命也、無国連役、",
+     "right_text": "十三曰二之数所謂周餘黎民衆有子遺方御ひ"
+    }
+   ]
+  },
+  {
+   "page": "p039",
+   "n": 52,
+   "units": 17,
+   "i4_inversions": 1,
+   "detail": [
+    {
+     "unit": 4,
+     "left_idx": 12,
+     "right_idx": 13,
+     "left_x": 989,
+     "right_x": 1009,
+     "left_y": 42,
+     "right_y": 43,
+     "left_text": "同公書之判閉出当十乱事",
+     "right_text": "王不正母、嘉成三番区丑条自"
+    }
+   ]
+  },
+  {
+   "page": "p040",
+   "n": 61,
+   "units": 21,
+   "i4_inversions": 12,
+   "detail": [
+    {
+     "unit": 1,
+     "left_idx": 4,
+     "right_idx": 5,
+     "left_x": 1088,
+     "right_x": 1116,
+     "left_y": 50,
+     "right_y": 53,
+     "left_text": "大宰八多秋百聖方貢",
+     "right_text": "越み、"
+    },
+    {
+     "unit": 1,
+     "left_idx": 4,
+     "right_idx": 6,
+     "left_x": 1088,
+     "right_x": 1118,
+     "left_y": 50,
+     "right_y": 54,
+     "left_text": "大宰八多秋百聖方貢",
+     "right_text": "頼み、"
+    },
+    {
+     "unit": 1,
+     "left_idx": 4,
+     "right_idx": 7,
+     "left_x": 1088,
+     "right_x": 1125,
+     "left_y": 50,
+     "right_y": 94,
+     "left_text": "大宰八多秋百聖方貢",
+     "right_text": "本法道之顕者謂之父是必生"
+    },
+    {
+     "unit": 1,
+     "left_idx": 4,
+     "right_idx": 8,
+     "left_x": 1088,
+     "right_x": 1114,
+     "left_y": 50,
+     "right_y": 96,
+     "left_text": "大宰八多秋百聖方貢",
+     "right_text": "同原則彦兵衛門原則亦必要矣曰"
+    },
+    {
+     "unit": 4,
+     "left_idx": 15,
+     "right_idx": 16,
+     "left_x": 913,
+     "right_x": 934,
+     "left_y": 53,
+     "right_y": 218,
+     "left_text": "一第四、別是一章、云是諸",
+     "right_text": "知我乎。吾少也賤故多能鄙事君子多乎哉"
+    },
+    {
+     "unit": 15,
+     "left_idx": 41,
+     "right_idx": 42,
+     "left_x": 418,
+     "right_x": 459,
+     "left_y": 53,
+     "right_y": 54,
+     "left_text": "廃之在前忽忽在後国",
+     "right_text": "良称矣憲曰不見紅度"
+    },
+    {
+     "unit": 15,
+     "left_idx": 41,
+     "right_idx": 43,
+     "left_x": 418,
+     "right_x": 439,
+     "left_y": 53,
+     "right_y": 54,
+     "left_text": "廃之在前忽忽在後国",
+     "right_text": "自いろ壱丁目付及、既観壱人、則"
+    },
+    {
+     "unit": 17,
+     "left_idx": 48,
+     "right_idx": 49,
+     "left_x": 311,
+     "right_x": 334,
+     "left_y": 52,
+     "right_y": 53,
+     "left_text": "伝役、王子有説、可考、欲",
+     "right_text": "一指処増各有所主馬守、"
+    }
+   ]
+  },
+  {
+   "page": "p041",
+   "n": 54,
+   "units": 19,
+   "i4_inversions": 8,
+   "detail": [
+    {
+     "unit": 0,
+     "left_idx": 0,
+     "right_idx": 3,
+     "left_x": 1171,
+     "right_x": 1195,
+     "left_y": 45,
+     "right_y": 57,
+     "left_text": "論陰本所芸門人皆物手代人代",
+     "right_text": "胡瓜玩亨刪"
+    },
+    {
+     "unit": 0,
+     "left_idx": 1,
+     "right_idx": 3,
+     "left_x": 1155,
+     "right_x": 1195,
+     "left_y": 45,
+     "right_y": 57,
+     "left_text": "童川人為子諸代人有之是に",
+     "right_text": "胡瓜玩亨刪"
+    },
+    {
+     "unit": 0,
+     "left_idx": 2,
+     "right_idx": 3,
+     "left_x": 1133,
+     "right_x": 1195,
+     "left_y": 45,
+     "right_y": 57,
+     "left_text": "其現於西之手具備役所言",
+     "right_text": "胡瓜玩亨刪"
+    },
+    {
+     "unit": 2,
+     "left_idx": 10,
+     "right_idx": 11,
+     "left_x": 1035,
+     "right_x": 1054,
+     "left_y": 45,
+     "right_y": 46,
+     "left_text": "況乎今九時死ま門人之手",
+     "right_text": "不如左衛門人之事主事安也"
+    },
+    {
+     "unit": 4,
+     "left_idx": 15,
+     "right_idx": 16,
+     "left_x": 936,
+     "right_x": 955,
+     "left_y": 42,
+     "right_y": 43,
+     "left_text": "所正、様師執之始章安知明卿",
+     "right_text": "不曰吾楽、而曰楽正、恐非夫子之"
+    },
+    {
+     "unit": 4,
+     "left_idx": 15,
+     "right_idx": 17,
+     "left_x": 936,
+     "right_x": 973,
+     "left_y": 42,
+     "right_y": 47,
+     "left_text": "所正、様師執之始章安知明卿",
+     "right_text": "承前一郎」"
+    },
+    {
+     "unit": 4,
+     "left_idx": 16,
+     "right_idx": 17,
+     "left_x": 955,
+     "right_x": 973,
+     "left_y": 43,
+     "right_y": 47,
+     "left_text": "不曰吾楽、而曰楽正、恐非夫子之",
+     "right_text": "承前一郎」"
+    },
+    {
+     "unit": 15,
+     "left_idx": 45,
+     "right_idx": 46,
+     "left_x": 369,
+     "right_x": 390,
+     "left_y": 47,
+     "right_y": 48,
+     "left_text": "此職意之学、喩乃前頭",
+     "right_text": "至于為里而後已、誠奉実也、"
+    }
+   ]
+  },
+  {
+   "page": "p042",
+   "n": 49,
+   "units": 19,
+   "i4_inversions": 2,
+   "detail": [
+    {
+     "unit": 0,
+     "left_idx": 1,
+     "right_idx": 2,
+     "left_x": 1137,
+     "right_x": 1157,
+     "left_y": 52,
+     "right_y": 53,
+     "left_text": "見、旧説、解為旨之候事",
+     "right_text": "見曰、巽□行権□□可"
+    },
+    {
+     "unit": 14,
+     "left_idx": 36,
+     "right_idx": 37,
+     "left_x": 366,
+     "right_x": 392,
+     "left_y": 50,
+     "right_y": 54,
+     "left_text": "与二三子表則門人篤",
+     "right_text": "凡子著曰吾壱行而不"
+    }
+   ]
+  },
+  {
+   "page": "p043",
+   "n": 42,
+   "units": 20,
+   "i4_inversions": 4,
+   "detail": [
+    {
+     "unit": 16,
+     "left_idx": 29,
+     "right_idx": 30,
+     "left_x": 373,
+     "right_x": 416,
+     "left_y": 50,
+     "right_y": 53,
+     "left_text": "関執天官玉崩燕衣帳疏",
+     "right_text": "夜、妙火、於発表之下、未"
+    },
+    {
+     "unit": 16,
+     "left_idx": 29,
+     "right_idx": 31,
+     "left_x": 373,
+     "right_x": 393,
+     "left_y": 50,
+     "right_y": 53,
+     "left_text": "関執天官玉崩燕衣帳疏",
+     "right_text": "必見する詩蘭山下"
+    },
+    {
+     "unit": 19,
+     "left_idx": 38,
+     "right_idx": 39,
+     "left_x": 207,
+     "right_x": 245,
+     "left_y": 45,
+     "right_y": 46,
+     "left_text": "一謹子食之義此則見守身",
+     "right_text": "飲食所以養生也、今人以所"
+    },
+    {
+     "unit": 19,
+     "left_idx": 38,
+     "right_idx": 40,
+     "left_x": 207,
+     "right_x": 226,
+     "left_y": 45,
+     "right_y": 46,
+     "left_text": "一謹子食之義此則見守身",
+     "right_text": "以養生、而却害生異、天子之"
+    }
+   ]
+  },
+  {
+   "page": "p044",
+   "n": 52,
+   "units": 18,
+   "i4_inversions": 7,
+   "detail": [
+    {
+     "unit": 1,
+     "left_idx": 3,
+     "right_idx": 4,
+     "left_x": 1067,
+     "right_x": 1091,
+     "left_y": 57,
+     "right_y": 209,
+     "left_text": "海酒、穂雨肥談有説、",
+     "right_text": "不食。割不正不食。不得其医不食得雖多不。"
+    },
+    {
+     "unit": 3,
+     "left_idx": 8,
+     "right_idx": 11,
+     "left_x": 987,
+     "right_x": 1028,
+     "left_y": 61,
+     "right_y": 658,
+     "left_text": "婦有説",
+     "right_text": "一元条同不出旨、若出吉、新聞"
+    },
+    {
+     "unit": 3,
+     "left_idx": 10,
+     "right_idx": 11,
+     "left_x": 973,
+     "right_x": 1028,
+     "left_y": 526,
+     "right_y": 658,
+     "left_text": "一大企大企画家数御郡代",
+     "right_text": "一元条同不出旨、若出吉、新聞"
+    },
+    {
+     "unit": 5,
+     "left_idx": 13,
+     "right_idx": 14,
+     "left_x": 884,
+     "right_x": 905,
+     "left_y": 52,
+     "right_y": 53,
+     "left_text": "一諸工場角瓜星剥連難",
+     "right_text": "瓜、毛西河有院、"
+    },
+    {
+     "unit": 12,
+     "left_idx": 32,
+     "right_idx": 33,
+     "left_x": 467,
+     "right_x": 495,
+     "left_y": 62,
+     "right_y": 65,
+     "left_text": "聖人有比城彦右禅氏未",
+     "right_text": "拝、其未見其見其是、"
+    },
+    {
+     "unit": 14,
+     "left_idx": 40,
+     "right_idx": 41,
+     "left_x": 360,
+     "right_x": 380,
+     "left_y": 44,
+     "right_y": 46,
+     "left_text": "仮宅九百文五百文有之候",
+     "right_text": "朋友、五編之一、人合之兄弟也、"
+    },
+    {
+     "unit": 17,
+     "left_idx": 48,
+     "right_idx": 49,
+     "left_x": 221,
+     "right_x": 239,
+     "left_y": 49,
+     "right_y": 50,
+     "left_text": "其刑所務其罪破破損所",
+     "right_text": "有可申候所と十一日刑人診"
+    }
+   ]
+  },
+  {
+   "page": "p045",
+   "n": 17,
+   "units": 7,
+   "i4_inversions": 0,
+   "detail": []
+  }
+ ]
+}
