@@ -1,16 +1,24 @@
 # -*- coding: utf-8 -*-
 """
-kanbun-kakikudashi 后端（Night 2）。
+kanbun-kakikudashi 后端。
 
-- GET  /health        健康检查
-- POST /api/kundoku   白文 -> 返り点付き原文 / 書き下し文（UD-Kundoku 本地引擎）+ SQLite 落库
-- POST /api/ocr       图片 -> 白文（NDL 古典籍 OCR-Lite，Night 2 接通）
+端点清单（N54 更新；各端点的细节见对应夜的 REPORT_*.md）：
+- GET  /health                  健康检查（engine_loaded / ocr available）
+- POST /api/kundoku             白文 -> 返り点付き原文 / 書き下し文（UD-Kundoku 本地引擎）+ SQLite 落库
+- GET  /api/history             最近 N 条训读历史（NIGHT7 翻回链）
+- POST /api/ocr                 图片 -> 白文（NDL 古典籍 OCR-Lite，Night 2 接通）
+- POST /api/ocr/batch           批量 OCR（同步，Night 6/D7）
+- POST /api/ocr/batch/async     批量 OCR（后台作业 + 进度轮询，D7/Night 11）
+- GET  /api/ocr/batch/{id}      作业进度快照
+- POST /api/ocr/batch/{id}/cancel  取消作业
+- GET  /api/export/epub         导出已落库训读结果为 EPUB 3（?ids= 或最近 limit 条，NIGHT52）
+- POST /api/export/epub         客户端文本直接导出 EPUB（无需落库，NIGHT53）
 
-Night 2 变更:
-- /api/ocr 从占位改为真实 OCR（backend/ocr_engine.py，NDL ndlkotenocr-lite CC BY 4.0）。
-- kundoku 结果落 SQLite（backend/db.py，requests/results 两表）。
+其它:
 - 現代語訳/語釈走 backend/llm.py 适配层：无 KANBUN_LLM_API_KEY 时 mock 返回占位。
   key 由用户以后经环境变量提供，代码里不写死、不从 ZCode 抓 token。
+- OCR 引擎 backend/ocr_engine.py（NDL ndlkotenocr-lite CC BY 4.0），
+  版面过滤 backend/ocr_layout.py（KANBUN_OCR_LAYOUT_FILTER，N43/45/46/48）。
 """
 import collections
 import logging
