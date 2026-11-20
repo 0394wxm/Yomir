@@ -16,6 +16,8 @@
                        无护栏 て而して 删除；正字化表可逆）
   5. engine_smoke      引擎实际可用：3 句经典句输出符合当前约定（含 kana 分流、空输入 400）
   6. perf_envelope     单句训读耗时在包络内（防止性能悄悄退化）
+  7. order_rate        割注对右先率（NIGHT50 新增；**只测量，不判死刑**）
+                       原因：GT CER 对阅读顺序是盲的（见 REPORT_NIGHT49.md §11）
 
 用法:
     python tools/accept_night.py 21          # 当前夜
@@ -462,6 +464,100 @@ def check_perf_envelope(night):
 
 
 # --------------------------------------------------------------------------
+# 7. order_rate（NIGHT50：只测量，不判死刑）
+# --------------------------------------------------------------------------
+def check_order_rate(night):
+    """割注对右先率 —— **只测量，绝不判 FAIL**。
+
+    背景（REPORT_NIGHT49.md §11）：GT 92 行 CER 对阅读顺序是**盲的**——
+    Night49 改了 34/47 页的行序，CER 仍逐位不变（0.3568/0.3053）。
+    所以要单独量「顺序」，否则以后再退化也没人知道。
+
+    口径与 Night49 完全同源：`tools/night50_order_rate.measure()` 直接
+    复用 `tools/night49_final.py` 的 `find_pairs` / `order_of`（连版面
+    过滤与 wmed 的取法都走同一份代码）。两条线：
+      off —— filter_off 归档 + 离线套版面过滤（生产口径，基线 98.57%）
+      on  —— filter_on 归档（生产默认输出，交叉核对，基线 98.63%）
+    严格层 A_strict（gap<0.15w ∧ 顶对齐 ∧ 等高）是真割注子集，基线 100%。
+
+    **为什么永不 FAIL**：阈值是拍板事项，不是本门能定的。现在只把数字
+    写进 ACCEPT_LOG / accept_night_<n>.json 留痕，供人判断。要改成判死刑
+    门，需用户先批准阈值（例如「生产口径 < 95% 或严格层 < 100% 即 FAIL」）。
+    """
+    c = Check("order_rate", "割注右先率（只测量，不判死刑）")
+    try:
+        import contextlib
+        import importlib.util
+        import io
+
+        path = os.path.join(ROOT, "tools", "night50_order_rate.py")
+        spec = importlib.util.spec_from_file_location("n50_order_rate", path)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        # night49_final / night49_simulate 在模块级调 sys.stdout.reconfigure()，
+        # 必须先在**真实 stdout** 下导入，否则 StringIO 没有 reconfigure。
+        mod._load_n49()
+    except Exception as e:
+        c.skip("无法载入顺序测量口径：%r" % (e,))
+        return c
+
+    lines = [
+        ("off", os.path.join(ROOT, "eval", "night44_full", "filter_off"), True,
+         "filter_off + 离线版面过滤（生产口径）"),
+        ("on", os.path.join(ROOT, "eval", "night44_full", "filter_on"), False,
+         "filter_on 归档（交叉核对）"),
+    ]
+    detail = {}
+    for key, directory, apply_filter, label in lines:
+        if not os.path.isdir(directory):
+            c.skip("缺归档 %s" % directory)
+            continue
+        try:
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                m = mod.measure(directory, apply_filter, label)
+        except Exception as e:
+            # 量不出来也**不判 FAIL**，只记 skip（本门是测量门）
+            c.skip("%s 量不出：%r" % (key, e))
+            continue
+        detail[key] = {
+            "pairs": m["tot"],
+            "right_first": m["after"],
+            "rate": m["rate"],
+            "before_rate": m["rate_before"],
+            "strict_pairs": m["strict_n"],
+            "strict_right_first": m["strict_after"],
+            "strict_rate": m["strict_rate"],
+            "regress_pages": m["regress_n"],
+            "regress_detail": [{"page": p["page"], "before": p["before"],
+                                "after": p["after"], "n": p["n"]}
+                               for p in m["regress"]],
+            "baseline_rate": mod.BASELINE[key]["rate"],
+            "delta_vs_baseline": round(m["rate"] - mod.BASELINE[key]["rate"], 2),
+        }
+
+    c.detail.update(detail)
+    if not detail:
+        c.skip("两条线都缺归档，无法测量")
+        return c
+
+    # status 保持 pass（除非上面已 skip）；数值高低不触发 fail
+    for key in ("off", "on"):
+        if key not in detail:
+            continue
+        d = detail[key]
+        c.notes.append(
+            "%s 右先率 %d/%d = %.2f%%（基线 %.2f%%，差 %+.2fpp）；"
+            "严格层 %d/%d = %.2f%%；退化页 %d"
+            % (key, d["right_first"], d["pairs"], d["rate"],
+               d["baseline_rate"], d["delta_vs_baseline"],
+               d["strict_right_first"], d["strict_pairs"], d["strict_rate"],
+               d["regress_pages"]))
+    c.notes.append("**只测量不判死刑**：阈值需用户拍板后才能转成 FAIL 判据")
+    return c
+
+
+# --------------------------------------------------------------------------
 def main():
     ap = argparse.ArgumentParser(description="每夜验收门")
     ap.add_argument("night", nargs="?", type=int, default=0)
@@ -479,6 +575,7 @@ def main():
         check_rule_regression(night),
         check_engine_smoke(night),
         check_perf_envelope(night),
+        check_order_rate(night),
     ]
     n_fail = sum(1 for c in checks if c.status == "fail")
     n_skip = sum(1 for c in checks if c.status == "skip")
