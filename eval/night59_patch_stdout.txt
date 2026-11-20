@@ -1,0 +1,23 @@
+=== 1. toushisen135-12（补丁前）===
+  hakubun : '應知黃綺心'
+  expected: '応に黄綺の心を知るべし' (norm='応に黄綺の心を知るべし')
+  输出    : !! KeyError: '應,v,助動詞,必要,*'
+
+=== 2. 内存补丁 AUX['應,v,助動詞,必要,*'] = 'べから:べく:べし:べき:べけれ:べけれ'（同 xpos 的須；进程结束即消失）===
+  补丁后输出: 黄の綺心を知るべし
+  dist vs expected: 4 | 逐字节一致: False
+  幂等: True
+
+=== 3. 全库 3000 条内存补丁回归（逐行 vs night58 归档）===
+  输出与 night58 归档不同的行: 1（预期 = 只有 toushisen135-12 从 error 变可解析）
+    toushisen135-12
+      旧: 
+      新: 黄の綺心を知るべし
+  补丁后仍 error 的行: 0 []
+
+=== 4. 汇总 ===
+  toushisen135-12：error → dist 4
+  其余行有 1 行变化（需人审）
+  内存补丁已撤销（AUX 恢复原状）
+
+written: eval/night59_aux_patch_probe.txt

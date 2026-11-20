@@ -1,0 +1,46 @@
+=== 1. 原生 MeCab 舊字体「應知黃綺心」 ===
+  surface=''  feature=BOS/EOS,*,*,*,*,*,*,*,*
+  surface='應'  feature=v,助動詞,必要,*,*,*,應/应,AUX,Mood=Nec,ought
+  surface='知'  feature=v,動詞,行為,動作,*,*,知,VERB,*,know
+  surface='黃'  feature=n,名詞,描写,形質,*,*,黃/黄,NOUN,*,yellow
+  surface='綺'  feature=v,動詞,描写,形質,*,*,綺/绮,VERB,Degree=Pos,*
+  surface='心'  feature=n,名詞,不可譲,身体,*,*,心,NOUN,*,heart
+  surface=''  feature=BOS/EOS,*,*,*,*,*,*,*,*
+
+=== 1. 原生 MeCab 新字体「応知黄綺心」 ===
+  surface=''  feature=BOS/EOS,*,*,*,*,*,*,*,*
+  surface='応'  feature=v,助動詞,必要,*,*,*,應/应,AUX,Mood=Nec,ought
+  surface='知'  feature=v,動詞,行為,動作,*,*,知,VERB,*,know
+  surface='黄'  feature=n,名詞,描写,形質,*,*,黃/黄,NOUN,*,yellow
+  surface='綺'  feature=v,動詞,描写,形質,*,*,綺/绮,VERB,Degree=Pos,*
+  surface='心'  feature=n,名詞,不可譲,身体,*,*,心,NOUN,*,heart
+  surface=''  feature=BOS/EOS,*,*,*,*,*,*,*,*
+
+=== 2. udkanbun token 舊字体「應知黃綺心」 ===
+  id=0 form='_' lemma='_' xpos='_' upos='_'
+  id=1 form='應' lemma='應' xpos='v,助動詞,必要,*' upos='AUX'
+  id=2 form='知' lemma='知' xpos='v,動詞,行為,動作' upos='VERB'
+  id=3 form='黃' lemma='黃' xpos='n,名詞,描写,形質' upos='NOUN'
+  id=4 form='綺' lemma='綺' xpos='v,動詞,描写,形質' upos='VERB'
+  id=5 form='心' lemma='心' xpos='n,名詞,不可譲,身体' upos='NOUN'
+
+=== 2. udkanbun token 新字体「応知黄綺心」 ===
+  id=0 form='_' lemma='_' xpos='_' upos='_'
+  id=1 form='応' lemma='應' xpos='v,助動詞,必要,*' upos='AUX'
+  id=2 form='知' lemma='知' xpos='v,動詞,行為,動作' upos='VERB'
+  id=3 form='黄' lemma='黃' xpos='n,名詞,描写,形質' upos='NOUN'
+  id=4 form='綺' lemma='綺' xpos='v,動詞,描写,形質' upos='VERB'
+  id=5 form='心' lemma='心' xpos='n,名詞,不可譲,身体' upos='NOUN'
+
+=== 3. udkundoku AUX 活用表 ===
+  udkundoku 模块级无 AUX（可能在函数内/别处）
+
+=== 4. 引擎全链（udkundoku.translate raw=True）===
+  新字体「応知黄綺心」 异常: KeyError: '應,v,助動詞,必要,*'
+        k=AUX[m+","+t.xpos].split(":")
+          ~~~^^^^^^^^^^^^^^
+    KeyError: '應,v,助動詞,必要,*'
+  舊字体「應知黃綺心」 异常: KeyError: '應,v,助動詞,必要,*'
+        k=AUX[m+","+t.xpos].split(":")
+          ~~~^^^^^^^^^^^^^^
+    KeyError: '應,v,助動詞,必要,*'

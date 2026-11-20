@@ -1,0 +1,45 @@
+udkundoku 子模块: D:\Python312\Lib\site-packages\udkundoku\udkundoku.py
+   18: from udkundoku.auxiliary import AUX
+  323:         s[i]=UDKundokuToken(0,"ず","_","AUX","_","_","aux","_","SpaceAfter=No")
+  373: # AUX VERB 活用チェック
+  378:           s.append(UDKundokuToken(0,"す","_","AUX","_","_","aux","_","SpaceAfter=No"))
+  381:           s.insert(i+1,UDKundokuToken(0,"す","_","AUX","_","_","aux","_","SpaceAfter=No"))
+  384:       if s[i].upos!="AUX"and s[i].upos!="VERB":
+  440:       if s[i].form in ["ざら","ずし","ず","ざる","ざれ"] and s[i].upos=="AUX":
+  442:         if x!="VERB" and x!="AUX":
+  444:       elif s[i].lemma=="非" and s[i].upos=="AUX":
+  446:         if x!="VERB" and x!="AUX":
+  450:         if x!="VERB" and x!="AUX":
+  542:   if t.upos=="AUX":
+  547:     k=AUX[m+","+t.xpos].split(":")
+  565:   if u.upos=="ADP" or u.upos=="AUX" or u.upos=="PART":
+  574:   "ず,AUX":"0,",
+  578:   "なし,AUX":"3,こと",
+  581:   "んとす,AUX":"0,",
+  582:   "得,AUX":"3,を",
+  585:   "欲,AUX":"0,んと",
+  587:   "被,AUX":"0,",
+  588:   "見,AUX":"0,",
+  591:   "非ず,AUX":"3,に",
+
+AUX import 来源: from udkundoku.auxiliary import AUX
+来源模块: udkundoku.auxiliary
+来源文件: D:\Python312\Lib\site-packages\udkundoku\auxiliary.py
+AUX 键总数: 25
+助動詞类键 12 个:
+  儀,v,助動詞,必要,* -> 'べから:べく:べし:べき:べけれ:べけれ'
+  可,v,助動詞,可能,* -> 'べから:べく:べし:べき:べけれ:べけれ'
+  宜,v,助動詞,必要,* -> 'べから:べく:べし:べき:べけれ:べけれ'
+  得,v,助動詞,可能,* -> '得:得:得る:得る:得れ:得よ'
+  敢,v,助動詞,願望,* -> '敢へてせ:敢へ:敢へてす:敢へてする:敢へてすれ:敢へてせよ'
+  欲,v,助動詞,願望,* -> '欲さ:欲し:欲す:欲する:欲せ:欲せよ'
+  肯,v,助動詞,願望,* -> '肯へてせ:肯へ:肯へてす:肯へてする:肯へてすれ:肯へてせよ'
+  能,v,助動詞,可能,* -> '能は:能ひ:能ふ:能ふる:能へ:能へよ'
+  被,v,助動詞,受動,* -> 'られ:られ:らる:らるる:られ:られよ'
+  見,v,助動詞,受動,* -> 'られ:られ:らる:らるる:られ:られよ'
+  足,v,助動詞,可能,* -> '足ら:足り:足る:足る:足れ:足れ'
+  須,v,助動詞,必要,* -> 'べから:べく:べし:べき:べけれ:べけれ'
+
+xpos=v,助動詞,必要 的键: ['儀,v,助動詞,必要,*', '宜,v,助動詞,必要,*', '須,v,助動詞,必要,*']
+含「應」的键: []
+含「応」的键: []
