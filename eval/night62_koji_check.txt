@@ -1,0 +1,6 @@
+daitokuno | hb 17 字 | 子夏曰、大德不踰閑、小德出入可也。 | 撞 golden: ['rongo1911-1']
+detsukuro | hb 97 字 | 佛肸召。子欲往。子路曰、昔者由也聞諸夫子。曰、親於其身爲不善者、君子不入也。佛肸 | 撞 golden: ['rongo1707-1']
+doninobo | hb 36 字 | 子曰、由之瑟、奚爲於丘之門。門人不敬子路。子曰、由也升堂矣。未入於室也。 | 撞 golden: ['rongo1114-1']
+kunsh09: FETCH FAIL
+jinsh01: FETCH FAIL
+michi01: FETCH FAIL

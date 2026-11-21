@@ -1,0 +1,7 @@
+history:27 keibu:165 koji:501 miscellaneous:1 shibu01:10 shibu02:216 sitemap:1 syubu:316 syubu02:42
+keibu 前缀: {'rong': 163, 'daig': 1, 'koky': 1}
+koji 前缀5: {'kunsh': 41, 'koji0': 10, 'jinsh': 7, 'michi': 7, 'hiton': 6, 'fushi': 5, 'chish': 4, 'hyaku': 4, 'manab': 4, 'mazus': 4, 'gench': 3, 'hirok': 3, 'hitos': 3, 'hitot': 3, 'korem': 3}
+syubu 前缀6: {'toushi': 204, 'shijin': 8, 'koshi1': 6, 'reki_s': 4, 'reki_g': 3, 'sanchu': 3, 'konann': 2, 'oshoku': 2, 'reki_k': 2, 'reki_n': 2, 'shinen': 2, '7aishi': 1, '8gatsu': 1, 'baitan': 1, 'banshu': 1, 'chokei': 1, 'ei8sho': 1, 'eikain': 1, 'endenn': 1, 'enkako': 1}
+syubu02: [('24shihi', 25), ('soji02k', 11), ('soji00', 1), ('soji02', 1), ('soji06', 1), ('soji07', 1), ('soji11', 1), ('soji12', 1)]
+shibu01: ['shiki000', 'shiki001a', 'shiki001b', 'shiki001c', 'shiki001d', 'shiki001e', 'shiki001san', 'shiki050', 'shiki064', 'shiki082']
+shibu02 前缀6: {'roushi': 82, 'rikuto': 61, 'utsury': 25, 'montai': 16, 'sonshi': 14, 'goshi0': 8, 'shiba0': 6, 'sanrya': 4}

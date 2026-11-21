@@ -1,0 +1,52 @@
+-nav --> 
+		</nav>
+
+	</header>
+	<!-- /#header -->
+
+<div id="topic_path">
+<a href="../index.html"><i class="fas fa-home"></i></a>&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;<a href="../koji/koji.html">故事名言</a>&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;<a href="../koji/koji00ha.html">は行</a>&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;敏なれば則ち功有り</div>
+
+	<div id="content">
+
+		<article class="post clearfix">
+
+			<header>
+				<h1 class="post_title"><i class="fas fa-th"></i>敏なれば則ち功有り</h1>
+			</header>
+
+<div class="genbun02">
+<span class="bold"><ruby>敏<rp>（</rp><rt>びん</rt><rp>）</rp></ruby>なれば<ruby>則<rp>（</rp><rt>すなわ</rt><rp>）</rp></ruby>ち<ruby>功<rp>（</rp><rt>こう</rt><rp>）</rp></ruby><ruby>有<rp>（</rp><rt>あ</rt><rp>）</rp></ruby>り</span>
+</div>
+<div class="yomi02">
+<ul class="koji01">
+  <li>出典：<a href="../keibu/rongo1706.html">『論語』陽貨第十七6</a>（ウィキソース「<a href="https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E/%E9%99%BD%E8%B2%A8%E7%AC%AC%E5%8D%81%E4%B8%83" rel="nofollow">論語/陽貨第十七</a>」参照）、<a href="../keibu/rongo2001.html">『論語』堯曰第二十1</a>（ウィキソース「<a href="https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E/%E5%A0%AF%E6%9B%B0%E7%AC%AC%E4%BA%8C%E5%8D%81" rel="nofollow">論語/堯曰第二十</a>」参照）</li>
+  <li>解釈：敏速に事を行えば、成果が上がる。</li>
+</ul>
+</div>
+<div class="chu01">
+<ul>
+  <li>論語 … 孔子（前552～前479）とその門弟たちの言行録。四書の一つ。十三経の一つ。二十編。儒家の中心的経典。我が国へは応神天皇の代に伝来したといわれている。ウィキペディア【<a href="https://ja.wikipedia.org/wiki/%E8%AB%96%E8%AA%9E" rel="nofollow">論語</a>】参照。</li>
+</ul>
+</div>
+
+<div id="google_ad_article_inside">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsive, Kanbun -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-full-width-responsive="true"
+     data-ad-client="ca-pub-6509310337940872"
+     data-ad-slot="9261550005"
+     data-ad-format="rectangle"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+<div class="genbun01">
+〔論語、陽貨〕<br />
+子張問仁於孔子。孔子曰、能行五者於天下爲仁矣。請問之。曰、恭寛信敏惠。恭則不侮、寛則得衆、信則人任焉、<strong>敏則有功</strong>、惠則足以使人。
+</div>
+<div class="yomi02">
+<ruby>子<rp>（</rp><rt>し</rt><rp>）</rp></ruby><ruby>張<rp>（</rp><rt>ちょう</rt><rp>）</rp></ruby><ruby>仁<rp>（</rp><rt>じん</rt><rp>）</rp></ruby>を<ruby>孔<rp>（</rp><rt>こう</rt><rp>）</rp></ruby><ruby>子<rp>（</rp><rt>し</rt><rp>）</rp></ruby>に<ruby>問<rp>（</rp><rt>と</rt><rp>）</rp></ruby>う。<ruby>孔<rp>（</rp><rt>こう</rt><rp>）</rp></ruby><ruby>子<rp>（</rp><rt>し</rt><rp>）</rp></ruby><ruby>曰<rp>（</rp><rt>いわ</rt><rp>）</rp></ruby>く、<ruby>能<rp>（</rp><rt>よ</rt><rp>）</rp></ruby>く<ruby>五<rp>（</rp><rt>いつ</

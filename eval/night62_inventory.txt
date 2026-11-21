@@ -1,0 +1,70 @@
+已见页 1415 个、已见白文 4305 条（golden_4000 + N57/N60 缓冲池）
+sitemap.xml 185941 bytes → 2696 条 URL
+  history          27 页
+  keibu           559 页
+  koji           1151 页
+  miscellaneous     1 页
+  shibu01          10 页
+  shibu02         216 页
+  sitemap           1 页
+  syubu           688 页
+  syubu02          42 页
+  (根目录)          1 条: ['https://kanbun.info/index.html']
+
+[history] 剩页 27/27，抽样 history,history2009,history2018
+  history                  raw 对  0 → 新可用  0  拒绝 
+  history2009              raw 对  0 → 新可用  0  拒绝 
+  history2018              raw 对  0 → 新可用  0  拒绝 
+  → 平均 0.00 对/页 × 27 页 ≈ 0 对
+
+[keibu] 剩页 165/559，抽样 daigaku00,rongo0414,rongo0804,rongo1125e,rongo15
+  daigaku00                raw 对  0 → 新可用  0  拒绝 
+  rongo0414                raw 对  1 → 新可用  0  拒绝 {'dup_seen': 1}
+  rongo0804                raw 对  1 → 新可用  0  拒绝 {'dup_seen': 2}
+  rongo1125e               raw 对  1 → 新可用  0  拒绝 {'dup_seen': 2, 'paren': 1}
+  rongo15                  raw 对  0 → 新可用  0  拒绝 {'dup_seen': 2, 'paren': 1}
+  → 平均 0.00 对/页 × 165 页 ≈ 0 对
+
+[koji] 剩页 501/1151，抽样 binnareba,hyakurimei,kunimichia,reiogoran,sonsango
+  binnareba                raw 对  2 → 新可用  0  拒绝 {'dup_seen': 2}
+  hyakurimei               raw 对  1 → 新可用  0  拒绝 {'dup_seen': 3}
+  kunimichia               raw 对  1 → 新可用  0  拒绝 {'dup_seen': 4}
+  reiogoran                raw 对  1 → 新可用  0  拒绝 {'dup_seen': 5}
+  sonsango                 raw 对  1 → 新可用  0  拒绝 {'dup_seen': 6}
+  → 平均 0.00 对/页 × 501 页 ≈ 0 对
+
+[miscellaneous] 剩页 1/1，抽样 miscellaneous
+  miscellaneous            raw 对  0 → 新可用  0  拒绝 
+  → 平均 0.00 对/页 × 1 页 ≈ 0 对
+
+[shibu01] 剩页 10/10，抽样 shiki000,shiki001e
+  shiki000                 raw 对  0 → 新可用  0  拒绝 
+  shiki001e                raw 对  5 → 新可用  2  拒绝 {'paren': 3}
+  → 平均 1.00 对/页 × 10 页 ≈ 10 对
+
+[shibu02] 剩页 216/216，抽样 goshi00,rikutou19,roushi01,roushi44,shiba01
+  goshi00                  raw 对  0 → 新可用  0  拒绝 
+  rikutou19                raw 对  3 → 新可用  2  拒绝 {'paren': 1}
+  roushi01                 raw 对  3 → 新可用  3  拒绝 {'paren': 1}
+  roushi44                 raw 对  2 → 新可用  2  拒绝 {'paren': 1}
+  shiba01                  raw 对 14 → 新可用  6  拒绝 {'paren': 9}
+  → 平均 2.60 对/页 × 216 页 ≈ 562 对
+
+[syubu] 剩页 317/688，抽样 7aishiosan01,reki_seito,toushisen048,toushisen204,toushisen318
+  7aishiosan01             raw 对 20 → 新可用 20  拒绝 
+  reki_seito               raw 对  0 → 新可用  0  拒绝 
+  toushisen048             raw 对  7 → 新可用  6  拒绝 {'paren': 1}
+  toushisen204             raw 对  8 → 新可用  8  拒绝 {'paren': 1}
+  toushisen318             raw 对  4 → 新可用  4  拒绝 {'paren': 1}
+  → 平均 7.60 对/页 × 317 页 ≈ 2409 对
+
+[syubu02] 剩页 42/42，抽样 24shihin00,24shihin14,soji02k02
+  24shihin00               raw 对  0 → 新可用  0  拒绝 
+  24shihin14               raw 对  6 → 新可用  6  拒绝 
+  soji02k02                raw 对  1 → 新可用  1  拒绝 
+  → 平均 2.33 对/页 × 42 页 ≈ 98 对
+
+=== 结论 ===
+剩页合计 1279（history 27, keibu 165, koji 501, miscellaneous 1, shibu01 10, shibu02 216, syubu 317, syubu02 42）
+推算新对合计 ≈ 3079（目标 6000 + 建库裁剪余量 → 缓冲目标 6800）
+6000 目判定: 不足，须如实记录缺口

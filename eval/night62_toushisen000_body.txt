@@ -1,0 +1,44 @@
+</td>
+</tr>
+<tr>
+  <td class="cell"><a href="../syubu/toushisen_v5.html">巻五 七言律詩</a></td>
+  <td class="cell"><a href="../syubu/toushisen_v6.html">巻六 五言絶句</a></td>
+</tr>
+<tr>
+  <td class="cell"><a href="../syubu/toushisen_v7.html">巻七 七言絶句</a></td>
+  <td class="cell"></td>
+</tr>
+</table>
+
+<div class="honbun02" style="margin: 10px 5px 0px 5px">
+<figure><img src="../images/shochu01.png" width="100" height="148" alt="唐詩選詳注（一）五言絶句編" /></figure>
+<strong>『唐詩選詳注（一）五言絶句編』</strong><br />
+『唐詩選』465首のうち、五言絶句74首を登録しました。<br />訓読・現代語訳・語釈を加えています。巻末には詩人小伝・語釈索引付です。<br />語釈には可能な限り典故・用例を充実させました。<br /><a href="../syubu/shochu01_p24_35.pdf"><img src="../images/PDF_32.png" width="32" height="32" style="vertical-align: bottom" alt="試し読み（本文）" />試し読み（本文）</a>&nbsp;（<a href="https://www.amazon.co.jp/dp/B0HRHYKPRH">Amazon 詳細ページへ</a>）
+</div>
+
+<table border="0" class="table01">
+<tr>
+  <td class="right_title04" colspan="3">詩人別<br />（唐詩選以外も含む）</td>
+</tr>
+<tr>
+  <td style="width: 33%" class="cell"><a href="../syubu/shijin_a.html">あ行</a></td>
+  <td style="width: 34%" class="cell"><a href="../syubu/shijin_ka.html">か行</a></td>
+  <td style="width: 33%" class="cell"><a href="../syubu/shijin_sa.html">さ行</a></td>
+</tr>
+<tr>
+  <td class="cell"><a href="../syubu/shijin_ta.html">た行</a></td>
+  <td class="cell"><a href="../syubu/shijin_ha.html">は行</a></td>
+  <td class="cell"><a href="../syubu/shijin_ma.html">ま行</a></td>
+</tr>
+<tr>
+  <td class="cell"><a href="../syubu/shijin_ya.html">や行</a></td>
+  <td class="cell"><a href="../syubu/shijin_ra.html">ら行</a></td>
+  <td></td>
+</tr>
+</table>
+
+<div id="variant_characters"></div>
+<div id="recommend_links"><i class="fas fa-th"></i>異体字等リスト</div>
+<div class="honbun02">
+<ul style="list-style:none">
+  <li>「唯・惟」、「煙・烟」、「峰・峯」、「鄰・隣」、「窓・窗・窻・牕・䆫」、「疎・踈・疏・䟽」、「回・囘・迥・迴・廻・逈・廽・𢌞」、「総・總・緫・揔・摠」、「剣・劍・劒・剱・劔」、「草・艸」、「仙・僊」、「沈・沉」、「花・華」、「遶・繞」、「柳・栁・桺」、「腸・膓」、「雁・鴈」、「陰・隂」、「階・堦」、「饑・飢」、「迪・廸」、「句・勾」、「鉤・鈎」、「徑・逕」、「遊・游」、「丘・邱」、「湿・濕・溼」、「餐・飡」、「翻・飜」、「反・返」、「世・丗」、「閑・閒」、「鬢・髩・鬂」、「茅・茆」、「解・觧」、「鸞・鑾」、「呉・吳・吴」、「場・塲」、「高・髙」、「柏・栢」、「旗・旆」、「京・亰」、「略・畧」、「群・羣」、「會・㑹」、「曾・曽」、「無・无」、「壺・壷」、「嚬・顰」、「沙・砂」、「面・靣」、「鴉・鵶」、「更・㪅」、「恥・耻」、「燕・鷰・讌」、「牀・床」、「粧・妝」、「霓・蜺」、「晁・鼂」、「道・路」、「著・着」、「鶯・鸎」、「僮・童」、「光・灮」、「留・畱」、「杯・盃・桮」、「鼓・皷」、「堤・隄」、「傍・旁」、「霑・沾」、「座・坐」、「鐘・鍾」、「度・渡」、「却・卻」、「輝・暉」、「蓋・葢・盖」、「浥・裛」、「艶・豔」、「擣・搗」、「沲・沱」、「怪・恠」、「竺・笁」、「捲・巻」、「靄・藹」、「賓・賔」、「採・采」、「倡・娼」、「剪・翦」、「薫・熏」、「裏・裡」、「巓・顚」、「簷・檐」、「槹・槔・橰」、「樽・尊・罇」、「悽・凄・淒」、「處・䖏」、「笑・咲」、「颯・䬃」、「鑪・爐・罏」、「災・灾」、「寧・寍」、「岸・㟁」、「楫・檝」、「歌・謌」、「銜・㘅・嗛・啣」、「窮・竆」、「歸・㱕」、「杖・仗」、「蠶・蠺」、「羨・羡」、「椀・埦・碗・盌」、「他・佗」、「仞・仭」、「幕・幙」、「鵰・雕」、「澗・磵」、「苑・菀」、「消・銷」、「毘・毗」、「匹・疋」、「詠・咏」、「富・冨」、「蛇・虵」、「久・乆」、「朓・聎」、「桑・桒」、「棹・櫂」、「嘆・歎」、「鳧・鳬」、「牆・墻」、「迹・跡」、「晩・𣆶」、「趨・趍」、「瑣・璅」、「那・郍」、「侯・矦」、「擷・襭・纈」、「氷・冰」、「褒・襃」、「猿・猨」、「勅・敕・勑」、「雑・雜・襍」、「途・塗」、「愧・媿」、「岡・崗」、「昇・升・曻」、「深・㴱」、「涙・涕・泪」、「荊・荆」、「氈・氊」、「似・佀」、「姉・姊」、「楡・榆」、「叫・呌」、「村・邨」、「船・舩・舡」、「辭・辤」、「羌・羗」、「兩・两」、「踊・踴」、「婿・壻」、「卮・巵」、「去・厺」、「歳・嵗」、「往・徃」、「旨・㫖」、「酬・酧

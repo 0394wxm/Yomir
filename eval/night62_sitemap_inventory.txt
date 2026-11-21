@@ -1,0 +1,44 @@
+sitemap.xml: 185941 bytes, 2696 个 URL
+已见全路径 1415、已见页名 1415、已见白文 4305
+_root          共    1 | 剩    1
+history        共   27 | 剩   27
+keibu          共  559 | 剩  165
+koji           共 1151 | 剩  501
+miscellaneous  共    1 | 剩    1
+shibu01        共   10 | 剩   10
+shibu02        共  216 | 剩  216
+sitemap        共    1 | 剩    1
+syubu          共  688 | 剩  316
+syubu02        共   42 | 剩   42
+
+=== 剩页密度抽样（genbun01+yomi02/03 模式）===
+  history/history                新可用 0 对
+  history/history2001            新可用 0 对
+  history/history2002            新可用 0 对
+  history/history2003            新可用 0 对
+  keibu/daigaku00                新可用 0 对
+  keibu/kokyo00                  新可用 0 对
+  keibu/rongo00                  新可用 0 对
+  keibu/rongo01                  新可用 0 对
+  koji/binnareba                 新可用 0 对
+  koji/chichiima                 新可用 0 对
+  koji/chichiko                  新可用 0 对
+  koji/chikakimo                 新可用 0 对
+  miscellaneous/miscellaneous    新可用 0 对
+  shibu01/shiki000               新可用 0 对
+  shibu01/shiki001a              新可用 10 对
+  shibu01/shiki001b              新可用 1 对
+  shibu01/shiki001c              新可用 1 对
+  shibu02/goshi00                新可用 0 对
+  shibu02/goshi00_jo             新可用 3 对
+  shibu02/goshi01                新可用 1 对
+  shibu02/goshi02                新可用 1 对
+  sitemap/sitemap                新可用 0 对
+  syubu/7aishiosan01             新可用 20 对
+  syubu/8gatsu15                 新可用 8 对
+  syubu/baitanoh                 新可用 20 对
+  syubu/banshun03                新可用 4 对
+  syubu02/24shihin00             新可用 0 对
+  syubu02/24shihin01             新可用 6 对
+  syubu02/24shihin02             新可用 6 对
+  syubu02/24shihin03             新可用 6 对
