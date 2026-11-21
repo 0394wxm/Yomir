@@ -1,0 +1,142 @@
+{
+ "golden4000_uniq_hb": 3975,
+ "files": [
+  {
+   "file": "day10_new_entries.json",
+   "n": 11,
+   "clean": 11,
+   "ok_new_vs_g4": 0,
+   "paren_new_vs_g4": 0,
+   "no_expected": 0,
+   "keys_sample": [
+    "expected_kakikudashi",
+    "hakubun",
+    "id",
+    "source_url"
+   ]
+  },
+  {
+   "file": "day16_pool.json",
+   "n": 1031,
+   "clean": 1031,
+   "ok_new_vs_g4": 0,
+   "paren_new_vs_g4": 0,
+   "no_expected": 0,
+   "keys_sample": [
+    "_src",
+    "expected_kakikudashi",
+    "hakubun",
+    "id",
+    "source_url"
+   ]
+  },
+  {
+   "file": "day16_scraped.json",
+   "n": 0,
+   "clean": 0,
+   "ok_new_vs_g4": 0,
+   "paren_new_vs_g4": 0,
+   "no_expected": 0,
+   "keys_sample": []
+  },
+  {
+   "file": "night57_scraped_syubu.json",
+   "n": 1101,
+   "clean": 1101,
+   "ok_new_vs_g4": 127,
+   "paren_new_vs_g4": 0,
+   "no_expected": 0,
+   "keys_sample": [
+    "_src",
+    "expected_kakikudashi",
+    "hakubun",
+    "id",
+    "source_url"
+   ]
+  },
+  {
+   "file": "night60_scraped_left.json",
+   "n": 1203,
+   "clean": 1203,
+   "ok_new_vs_g4": 203,
+   "paren_new_vs_g4": 0,
+   "no_expected": 0,
+   "keys_sample": [
+    "_src",
+    "expected_kakikudashi",
+    "hakubun",
+    "id",
+    "source_url"
+   ]
+  },
+  {
+   "file": "golden_rongo_full.json",
+   "n": 498,
+   "clean": 498,
+   "ok_new_vs_g4": 0,
+   "paren_new_vs_g4": 0,
+   "no_expected": 0,
+   "keys_sample": [
+    "expected_kakikudashi",
+    "hakubun",
+    "id",
+    "pian",
+    "source_url"
+   ]
+  },
+  {
+   "file": "golden_rongo.json",
+   "n": 117,
+   "clean": 117,
+   "ok_new_vs_g4": 0,
+   "paren_new_vs_g4": 0,
+   "no_expected": 0,
+   "keys_sample": [
+    "expected_kakikudashi",
+    "hakubun",
+    "id",
+    "pian",
+    "source_url"
+   ]
+  },
+  {
+   "file": "golden.json",
+   "n": 500,
+   "clean": 500,
+   "ok_new_vs_g4": 0,
+   "paren_new_vs_g4": 0,
+   "no_expected": 0,
+   "keys_sample": [
+    "expected_kakikudashi",
+    "hakubun",
+    "id",
+    "source_url"
+   ]
+  },
+  {
+   "file": "kanbun_parallel.json",
+   "n": 1705,
+   "clean": 1705,
+   "ok_new_vs_g4": 0,
+   "paren_new_vs_g4": 0,
+   "no_expected": 0,
+   "keys_sample": [
+    "expected_kakikudashi",
+    "hakubun",
+    "id",
+    "source_url"
+   ]
+  }
+ ],
+ "reservoir_unique": 330,
+ "by_bucket": {
+  "≤20字": 330
+ },
+ "by_genre": {
+  "漢詩": 330
+ },
+ "by_pool": {
+  "night57_scraped_syubu.json": 127,
+  "night60_scraped_left.json": 203
+ }
+}

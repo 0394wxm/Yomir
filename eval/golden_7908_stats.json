@@ -1,0 +1,54 @@
+{
+  "total": 7908,
+  "base": 4000,
+  "new": 3908,
+  "uniq_ids": 7908,
+  "uniq_hakubun": 7883,
+  "by_bucket": {
+    "≤20字": 6329,
+    "21-40字": 903,
+    ">60字": 293,
+    "41-60字": 383
+  },
+  "by_genre": {
+    "故事": 1334,
+    "論語": 362,
+    "大学": 189,
+    "孝経": 147,
+    "詩経": 102,
+    "漢詩": 4385,
+    "その他": 1389
+  },
+  "new_by_bucket": {
+    "≤20字": 3286,
+    "21-40字": 361,
+    "41-60字": 136,
+    ">60字": 125
+  },
+  "new_by_genre": {
+    "漢詩": 2518,
+    "その他": 1389,
+    "故事": 1
+  },
+  "new_by_src_section": {
+    "syubu_shijin": 330,
+    "syubu": 2188,
+    "shibu02": 1142,
+    "syubu02": 225,
+    "shibu01": 22,
+    "koji": 1
+  },
+  "new_by_src_tag": {
+    "syubu": 2518,
+    "shibu02": 1142,
+    "syubu02": 225,
+    "shibu01": 22,
+    "koji": 1
+  },
+  "paren_excluded_not_enabled": 257,
+  "skipped": {
+    "dup_hakubun": 1974,
+    "dup_id": 1
+  },
+  "decision": "方案A：扩到约束内上限（kanbun.info 剩余干净文本对全部并入，无目标截断）；golden_4000 前缀逐条断言不变"
+}
