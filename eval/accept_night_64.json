@@ -1,8 +1,8 @@
 {
   "night": 64,
   "verdict": "PASS",
-  "checked_at": "2026-11-21T13:09:09",
-  "elapsed_sec": 87.3,
+  "checked_at": "2026-11-21T16:34:00",
+  "elapsed_sec": 37.0,
   "n_checks": 7,
   "n_fail": 0,
   "n_skip": 1,
@@ -12,22 +12,21 @@
       "title": "git 工作区干净",
       "status": "pass",
       "notes": [
-        "验收门自身产物有更新（不计脏）：ACCEPT_LOG.md",
         "已跟踪文件无改动",
-        "未跟踪：eval/accept_night_64.json, eval/night64_accept_final.txt"
+        "未跟踪：eval/n64_accl_diff.txt, eval/n64rebase_accept.txt, eval/n64rebase_pytest.txt, eval/night64_accept_final.txt"
       ],
       "detail": {
         "changed": [
-          " M ACCEPT_LOG.md",
-          "?? eval/accept_night_64.json",
+          "?? eval/n64_accl_diff.txt",
+          "?? eval/n64rebase_accept.txt",
+          "?? eval/n64rebase_pytest.txt",
           "?? eval/night64_accept_final.txt"
-        ],
-        "gate_owned_changes": [
-          " M ACCEPT_LOG.md"
         ],
         "tracked_changes": [],
         "untracked": [
-          "?? eval/accept_night_64.json",
+          "?? eval/n64_accl_diff.txt",
+          "?? eval/n64rebase_accept.txt",
+          "?? eval/n64rebase_pytest.txt",
           "?? eval/night64_accept_final.txt"
         ]
       }
@@ -37,16 +36,16 @@
       "title": "tests 全量通过",
       "status": "pass",
       "notes": [
-        "211 passed = 211 collected（48.4s，收集 12.4s）"
+        "211 passed = 211 collected（18.1s，收集 5.3s）"
       ],
       "detail": {
         "collected": 211,
-        "collect_sec": 12.4,
-        "elapsed_sec": 48.4,
+        "collect_sec": 5.3,
+        "elapsed_sec": 18.1,
         "tail": [
           "........................................................................ [ 68%]",
           "...................................................................      [100%]",
-          "211 passed in 34.66s"
+          "211 passed in 15.30s"
         ],
         "passed": 211
       }
@@ -118,15 +117,15 @@
       "title": "单句训读耗时在包络内",
       "status": "pass",
       "notes": [
-        "短句中位 0ms（包络 3000ms）"
+        "短句中位 16ms（包络 3000ms）"
       ],
       "detail": {
         "ms": [
-          0.0,
+          15.6,
           15.6,
           0.0
         ],
-        "median_ms": 0.0,
+        "median_ms": 15.6,
         "limit_ms": 3000.0
       }
     },
