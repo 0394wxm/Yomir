@@ -6,7 +6,8 @@ OCR: eval/night36_ocr_lines.json（night36_ocr_run.py 产出，行号口径=boxe
 对齐: 按 file 分组；GT 行的 line_no 直接对应 OCR 行号；对 781193 这类碎框页，
   另按 x 中心聚类拼接 OCR 行后再做行内匹配（rep line_no 标注的 GT 与其所在列比对）。
 CER: 编辑距离/GT长度；GT 中 [?] 与任何字符匹配代价 0、删除代价 0，且不计入分母。
-产出: 控制台摘要 + eval/night36_cer.json
+产出: 控制台摘要 + eval/night36_cer.tmp（Night66 起默认输出改未跟踪临时文件，
+  不再写已跟踪的 eval/night36_cer.json；显式传第 2 参数才可指定该文件）
 """
 import json
 import os
@@ -17,7 +18,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GT_TSV = os.path.join(ROOT, "eval", "ocr_gt_100.tsv")
 OCR_JSON = os.path.join(ROOT, "eval", "night36_ocr_lines.json")
 BOX_DIR = os.path.join(ROOT, "eval", "ocr_samples", "gt36")
-OUT = os.path.join(ROOT, "eval", "night36_cer.json")
+OUT = os.path.join(ROOT, "eval", "night36_cer.tmp")  # N66: 默认输出改未跟踪临时文件，防覆盖已跟踪的 night36_cer.json
 
 
 def parse_gt(s):

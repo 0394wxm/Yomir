@@ -9,7 +9,7 @@ llm.py — 現代語訳 / 語釈 的 LLM 适配层（Night 2 建骨架 / Night 8
     KANBUN_LLM_BASE_URL  可选。OpenAI 兼容 /chat/completions 的 base url。
     KANBUN_LLM_MODEL     可选。模型名。
 - Night 8: 提示词模板正式化（MODERN_PROMPT_TEMPLATE / GLOSSARY_PROMPT_TEMPLATE），
-  glossary 无 key 时改从 backend/glossary_lexicon.py 的 209 条文语词库查询。
+  glossary 无 key 时改从 backend/glossary_lexicon.py 的 500 条文语词库查询。
 
 TODO(等用户提供 key 后):
   modern_translate() 换成真实调用（OpenAI 兼容 chat/completions，一次请求带
