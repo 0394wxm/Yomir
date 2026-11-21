@@ -86,7 +86,7 @@ pip 走清华镜像，npm 走项目级 .npmrc；不要删 qkana shim（tools/mak
 每到一个阶段开头，先由用户（或当晚的 agent）把该阶段的第一夜写细，再开工，不要提前写细。
 
 ### Night 61 — README 刷新（日语全文，公开仓库准备）
-状态: TODO（2026-11-22 用户指令：**用日语写**。小件活，可与当晚主任务并做或作为当晚主任务）。
+状态: DONE（REPORT_NIGHT61.md，2026-11-21 16:09 班执行：README.md 全文日语重写为公开仓库版；数字逐条按 master 代码/归档取证，tools/verify_readme_facts.py 扩展到 GT 行数与割注右先率基线；分支状态（night62-eval10000 / night64-rulei 未合 master）如实写入 README；pytest 193、accept 61 PASS。原任务说明 2026-11-22 用户指令：**用日语写**。小件活，可与当晚主任务并做或作为当晚主任务）。
 仓库已开公开库 `github.com/0394wxm/Yomir`（remote 未加、尚未推送；推送本身由用户执行）。
 README.md 还停在 v0.1（Night 3 时代）：写的 pytest 14 条 / 评测 200 条，实际 **pytest 193 / golden_4000（4000 条）**。
 要求（当晚 agent 按此核对，不要从记忆里抄，逐条对当前代码/归档取数）：
