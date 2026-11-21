@@ -1,8 +1,8 @@
 {
   "night": 62,
   "verdict": "PASS",
-  "checked_at": "2026-11-21T15:38:38",
-  "elapsed_sec": 29.7,
+  "checked_at": "2026-11-21T16:40:37",
+  "elapsed_sec": 38.9,
   "n_checks": 7,
   "n_fail": 0,
   "n_skip": 1,
@@ -12,24 +12,21 @@
       "title": "git 工作区干净",
       "status": "pass",
       "notes": [
-        "验收门自身产物有更新（不计脏）：ACCEPT_LOG.md",
         "已跟踪文件无改动",
-        "未跟踪：eval/accept_night_62.json, tools/night62_koji_check.py, tools/night62_sample_pages.py, tools/night62_sitemap_inventory.py"
+        "未跟踪：eval/n62rebase_accept.txt, eval/n62rebase_pytest.txt, tools/night62_koji_check.py, tools/night62_sample_pages.py, tools/night62_sitemap_inventory.py"
       ],
       "detail": {
         "changed": [
-          " M ACCEPT_LOG.md",
-          "?? eval/accept_night_62.json",
+          "?? eval/n62rebase_accept.txt",
+          "?? eval/n62rebase_pytest.txt",
           "?? tools/night62_koji_check.py",
           "?? tools/night62_sample_pages.py",
           "?? tools/night62_sitemap_inventory.py"
         ],
-        "gate_owned_changes": [
-          " M ACCEPT_LOG.md"
-        ],
         "tracked_changes": [],
         "untracked": [
-          "?? eval/accept_night_62.json",
+          "?? eval/n62rebase_accept.txt",
+          "?? eval/n62rebase_pytest.txt",
           "?? tools/night62_koji_check.py",
           "?? tools/night62_sample_pages.py",
           "?? tools/night62_sitemap_inventory.py"
@@ -41,18 +38,18 @@
       "title": "tests 全量通过",
       "status": "pass",
       "notes": [
-        "196 passed = 196 collected（15.0s，收集 5.0s）"
+        "214 passed = 214 collected（19.3s，收集 5.8s）"
       ],
       "detail": {
-        "collected": 196,
-        "collect_sec": 5.0,
-        "elapsed_sec": 15.0,
+        "collected": 214,
+        "collect_sec": 5.8,
+        "elapsed_sec": 19.3,
         "tail": [
-          "........................................................................ [ 73%]",
-          "....................................................                     [100%]",
-          "196 passed in 12.57s"
+          "........................................................................ [ 67%]",
+          "......................................................................   [100%]",
+          "214 passed in 16.52s"
         ],
-        "passed": 196
+        "passed": 214
       }
     },
     {
@@ -122,15 +119,15 @@
       "title": "单句训读耗时在包络内",
       "status": "pass",
       "notes": [
-        "短句中位 1ms（包络 3000ms）"
+        "短句中位 0ms（包络 3000ms）"
       ],
       "detail": {
         "ms": [
           0.0,
-          16.4,
-          1.1
+          15.6,
+          0.0
         ],
-        "median_ms": 1.1,
+        "median_ms": 0.0,
         "limit_ms": 3000.0
       }
     },
