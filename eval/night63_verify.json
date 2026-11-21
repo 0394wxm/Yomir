@@ -1,0 +1,426 @@
+{
+  "book": "信長公記. 巻之上 (NDL 781192)",
+  "expected_pages_manifest": 51,
+  "jpg_pages": 51,
+  "book_md_pages": 51,
+  "ok": 51,
+  "zero_line": 0,
+  "ocr_fail": 0,
+  "zero_line_pages": [],
+  "ocr_fail_pages": [],
+  "ascii_noise_total_lines": 0,
+  "ascii_noise_pages": 0,
+  "book_md_sha256_16": "911859deb6cc9662",
+  "fails": [],
+  "rows": [
+    {
+      "page": 1,
+      "status": "ok",
+      "hakubun_lines": 8,
+      "kudashi_lines": 8,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 31
+    },
+    {
+      "page": 2,
+      "status": "ok",
+      "hakubun_lines": 17,
+      "kudashi_lines": 17,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 39
+    },
+    {
+      "page": 3,
+      "status": "ok",
+      "hakubun_lines": 6,
+      "kudashi_lines": 6,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 20
+    },
+    {
+      "page": 4,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 557
+    },
+    {
+      "page": 5,
+      "status": "ok",
+      "hakubun_lines": 50,
+      "kudashi_lines": 52,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 700
+    },
+    {
+      "page": 6,
+      "status": "ok",
+      "hakubun_lines": 38,
+      "kudashi_lines": 42,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 979
+    },
+    {
+      "page": 7,
+      "status": "ok",
+      "hakubun_lines": 32,
+      "kudashi_lines": 32,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1218
+    },
+    {
+      "page": 8,
+      "status": "ok",
+      "hakubun_lines": 33,
+      "kudashi_lines": 40,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1301
+    },
+    {
+      "page": 9,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 43,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1262
+    },
+    {
+      "page": 10,
+      "status": "ok",
+      "hakubun_lines": 33,
+      "kudashi_lines": 33,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1245
+    },
+    {
+      "page": 11,
+      "status": "ok",
+      "hakubun_lines": 37,
+      "kudashi_lines": 38,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1403
+    },
+    {
+      "page": 12,
+      "status": "ok",
+      "hakubun_lines": 36,
+      "kudashi_lines": 38,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1277
+    },
+    {
+      "page": 13,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1295
+    },
+    {
+      "page": 14,
+      "status": "ok",
+      "hakubun_lines": 36,
+      "kudashi_lines": 45,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1289
+    },
+    {
+      "page": 15,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 36,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1231
+    },
+    {
+      "page": 16,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 38,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1314
+    },
+    {
+      "page": 17,
+      "status": "ok",
+      "hakubun_lines": 33,
+      "kudashi_lines": 33,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1289
+    },
+    {
+      "page": 18,
+      "status": "ok",
+      "hakubun_lines": 33,
+      "kudashi_lines": 33,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1336
+    },
+    {
+      "page": 19,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1395
+    },
+    {
+      "page": 20,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 36,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1420
+    },
+    {
+      "page": 21,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1281
+    },
+    {
+      "page": 22,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1334
+    },
+    {
+      "page": 23,
+      "status": "ok",
+      "hakubun_lines": 33,
+      "kudashi_lines": 33,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1359
+    },
+    {
+      "page": 24,
+      "status": "ok",
+      "hakubun_lines": 22,
+      "kudashi_lines": 22,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 803
+    },
+    {
+      "page": 25,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 974
+    },
+    {
+      "page": 26,
+      "status": "ok",
+      "hakubun_lines": 35,
+      "kudashi_lines": 42,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1119
+    },
+    {
+      "page": 27,
+      "status": "ok",
+      "hakubun_lines": 30,
+      "kudashi_lines": 31,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 777
+    },
+    {
+      "page": 28,
+      "status": "ok",
+      "hakubun_lines": 37,
+      "kudashi_lines": 37,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1351
+    },
+    {
+      "page": 29,
+      "status": "ok",
+      "hakubun_lines": 39,
+      "kudashi_lines": 46,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1165
+    },
+    {
+      "page": 30,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 35,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1217
+    },
+    {
+      "page": 31,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1307
+    },
+    {
+      "page": 32,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 35,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1320
+    },
+    {
+      "page": 33,
+      "status": "ok",
+      "hakubun_lines": 35,
+      "kudashi_lines": 35,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1415
+    },
+    {
+      "page": 34,
+      "status": "ok",
+      "hakubun_lines": 33,
+      "kudashi_lines": 33,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1056
+    },
+    {
+      "page": 35,
+      "status": "ok",
+      "hakubun_lines": 35,
+      "kudashi_lines": 35,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1253
+    },
+    {
+      "page": 36,
+      "status": "ok",
+      "hakubun_lines": 23,
+      "kudashi_lines": 27,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 770
+    },
+    {
+      "page": 37,
+      "status": "ok",
+      "hakubun_lines": 35,
+      "kudashi_lines": 35,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1366
+    },
+    {
+      "page": 38,
+      "status": "ok",
+      "hakubun_lines": 29,
+      "kudashi_lines": 29,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1132
+    },
+    {
+      "page": 39,
+      "status": "ok",
+      "hakubun_lines": 18,
+      "kudashi_lines": 18,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 454
+    },
+    {
+      "page": 40,
+      "status": "ok",
+      "hakubun_lines": 35,
+      "kudashi_lines": 35,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1193
+    },
+    {
+      "page": 41,
+      "status": "ok",
+      "hakubun_lines": 35,
+      "kudashi_lines": 35,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1180
+    },
+    {
+      "page": 42,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1313
+    },
+    {
+      "page": 43,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1288
+    },
+    {
+      "page": 44,
+      "status": "ok",
+      "hakubun_lines": 36,
+      "kudashi_lines": 36,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1335
+    },
+    {
+      "page": 45,
+      "status": "ok",
+      "hakubun_lines": 35,
+      "kudashi_lines": 35,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1251
+    },
+    {
+      "page": 46,
+      "status": "ok",
+      "hakubun_lines": 22,
+      "kudashi_lines": 31,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 638
+    },
+    {
+      "page": 47,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1132
+    },
+    {
+      "page": 48,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1356
+    },
+    {
+      "page": 49,
+      "status": "ok",
+      "hakubun_lines": 23,
+      "kudashi_lines": 23,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 419
+    },
+    {
+      "page": 50,
+      "status": "ok",
+      "hakubun_lines": 2,
+      "kudashi_lines": 2,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 11
+    },
+    {
+      "page": 51,
+      "status": "ok",
+      "hakubun_lines": 1,
+      "kudashi_lines": 1,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 4
+    }
+  ],
+  "garbage_detail": []
+}
