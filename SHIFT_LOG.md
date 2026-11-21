@@ -818,3 +818,4 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 **⑰ paren 对 257 条是否启用**（N57 质量约定变更，重抓已见页可再收 ~600-700）。
 
 | 2026-11-21 15:45 | [QA会话] 收尾：主会话 wrap-up 核验通过（7da8fbb 数据提交 + c716e41 报告提交；accept62 FAIL→PASS 15:38:38、pytest 196、h2h gmap bug 已修重跑且数字与 QA 复算逐字节一致）。QA 全部审计项 PASS（golden 前缀/唯一性/paren 零混入、双归档确定性 diff=0、现场抽查 47/47 MATCH）。REPORT_NIGHT62_QA.md 入库；移交：paren 257 对拍板、3 个探针脚本未随 wrap-up 提交、應 KeyError 第3例 zasshi-2 强化⑬、shibu02 259 行长句缓解⑮。QA 即停。 |
+| 2026-11-21 16:42 | 合并班：night64-rulei + night62-eval10000 → master（rebase 到位+字节安全并集解冲突：N64 ACCEPT_LOG 行并集 d53a964、N62 SHIFT_LOG 并集含空行保真 0c2c5e5/ACCEPT_LOG 保留 master 侧 fd81eea）；门禁实跑：N64 pytest 211/accept64 PASS → 合并 498cfcb；N62 pytest 214（211+3 叠加）/accept62 PASS → 合并 e576172；master 终态 pytest 214，规则/评测数据零 master 侧改动，ahead 10 未推远程；合并后文档漂移（README SHINJITAI 147→代码 246、分支节过时）留拍板见 REPORT_MERGE_62_64.md §7 |
