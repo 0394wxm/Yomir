@@ -85,6 +85,18 @@ pip 走清华镜像，npm 走项目级 .npmrc；不要删 qkana shim（tools/mak
 
 每到一个阶段开头，先由用户（或当晚的 agent）把该阶段的第一夜写细，再开工，不要提前写细。
 
+### Night 61 — README 刷新（日语全文，公开仓库准备）
+状态: TODO（2026-11-22 用户指令：**用日语写**。小件活，可与当晚主任务并做或作为当晚主任务）。
+仓库已开公开库 `github.com/0394wxm/Yomir`（remote 未加、尚未推送；推送本身由用户执行）。
+README.md 还停在 v0.1（Night 3 时代）：写的 pytest 14 条 / 评测 200 条，实际 **pytest 193 / golden_4000（4000 条）**。
+要求（当晚 agent 按此核对，不要从记忆里抄，逐条对当前代码/归档取数）：
+1. **全文用日语重写**（用户指定；技术术语如 漢文/書き下し文/返り点/訓読 照用；标题考虑体现仓库名 Yomir 与项目名 kanbun-kakikudashi 的关系）；
+2. 数字与功能刷到当前：pytest 193（tests 全量口径）；评测 `eval/golden_4000.json` 4000 条、规则引擎 avgDist 13.889 / 精确 19/3998（night60 归档口径）；规则链 Rule A / C' / D（これ→之）/ E / F / G / H（假名→汉字四批 5+4+4+3 条）+ SHINJITAI_MAP 147 对（程序化核对 2026-11-22，勿凭记忆抄数字）；OCR：GT 92 行 CER raw 0.3568 / norm 0.3053（eval/ocr_gt_100.tsv）、版面过滤（ocr_layout：页脚带/头注带/割注右先 98.6%）、批量 OCR / IIIF 任意 PID 整本导入（tools/import_pid.py）；导出：EPUB（GET/POST /api/export/epub、縦書き、白文 EPUB 按钮）；現代語訳/語釈仍是无 key 占位（KANBUN_LLM_API_KEY 只读环境变量）；
+3. **已知问题清单逐条复核重写**——v0.1 清单里已过时的：2.4s 离群已定位（D4=db save_kundoku 三次 fsync）、OCR 无 GT 已解决（N36 起 92 行）、guwenbert 兼容已解决（D1 加载器，离线对比 五五开~略优，未接后端=REPORT_DAY9 定性维持）、词库 209→500 条；逐条核当前实况后再写，不要照抄旧清单；
+4. 环境变量表补全：KANBUN_OCR_LAYOUT_FILTER / KANBUN_OCR_WARICHU / KANBUN_OCR_MAINCOL / KANBUN_SERVE_WEB / KANBUN_SIDECAR / KANBUN_LAZY_ENGINE / KANBUN_TIMING / KANBUN_DB 等（从 backend/ 代码里 grep 实际读的变量，不要凭记忆）；
+5. **公开仓库注意**：不写 `C:\Users\Wang` 等本机路径、不写任何 key/token、qkana shim 段保留（复现需要）但按公开读者视角表述；
+6. pytest 全量 + `python tools/accept_night.py 61` 照常；报告 REPORT_NIGHT61.md；本地提交不推远程。
+
 ---
 
 ## 需要用户拍板的事（路线图里的门禁，汇总）
