@@ -505,6 +505,68 @@ def style_kana_to_kanji_j(text: str, hakubun: str = "") -> str:
     return text
 
 
+# ---------------------------------------------------------------------------
+# Rule K（N70）：仮名遣い族（歴史的→現代仮名遣い）+ 苟くも + Xぞ族拆分
+# 方法论 = Night 68/64 第三遍（night69_mine.py 解剖 → night69_probe.py 取证 →
+# night69_sim.py 离线模拟 0 变差门）→ N70 本文件上线（REPORT_NIGHT69 §6 移交表）。
+# 基线 = night68_results_8165.json（J 后链尾真机归档，avgDist 14.698）。
+#
+# 收录 8 条（组合 768 行改写、402 改善 / 0 变差、幂等坏 0；N70 真跑与离线逐位一致）:
+#   ひて→いて・へて→えて・はず→わず・へず→えず  歴史的仮名遣い→現代仮名遣い
+#     （Rule A ふ→う 同型；exp 側源字 へ=0 文字・ひ=13 文字——语料内结构性 0 变差保证）
+#   いやしくも→苟くも  kana→漢字（got 15 行白文含苟 15/15、exp 全写苟く系）
+#   なんぞ→盍ぞ（白文含盍）／なんぞ→奚ぞ（白文含奚）／なんぞ→曷ぞ（白文含曷）
+#     —— N68 拒案 なんぞ→何ぞ（2 变差）的 guard 拆分翻案；三条共享 kana「なんぞ」
+#     靠白文 guard 互斥（night69_probe 実測 多守り行＝無し），test で復測。
+#
+# **guard=() 無条件规则**：本系列 5 条 guard 为空元组（仮名遣い族不依赖白文）。
+# E〜J 世代的「if hb and not any(...): continue」遇到空 guard 时 any(())=False →
+# 恒常 skip（= 死规则）。因此本系列明示「guard 空なら白文を問わず適用」
+# （if guard and ...）；不许把 guard 写死成恒真字符串蒙混（任务书红线）。
+# 已知局限（如实记录）：はず→わず は无条件替换，现代和文的「来るはず（筈）」型
+# 输入也会被改——本管线对象是漢文訓読输出（引擎不会产出筈义），语料内 8165 条
+# 実測 0 変差；现代和文不在服务范围。
+#
+# 拒绝（0 変差门不过，不上线；eval/night69_sim.txt 有逐行证据）:
+#   はざる→わざる（1 変差：24shihin10-4 の exp 对位「奪われず」——わざる/われず 混写）
+#   とも→と（1 変差：yoryoezu-1 の exp 对位「与に」——共/与に 两义，目标不唯一）
+#   がため→が為に（guard 為 0 命中：kanbun.info 白文「ため」全假名＝0 改写无益；
+#     N68 R_gatame「目标混写」预判的死因修正）
+#   つひに→ついに（exp 无目标字形：全写「終に」，実測 0 改善 0 変差）
+K_KANA_TO_KANJI = [
+    ("ひて", "いて", ()),            # 言ひて→言いて 等（Rule A ふ→う 同型的連用形）
+    ("へて", "えて", ()),            # 対へて→対えて・敢へて→敢えて
+    ("はず", "わず", ()),            # 言はず→言わず（歴史的 は→現代 わ）
+    ("へず", "えず", ()),            # 対へず→対えず
+    ("いやしくも", "苟くも", ()),    # kana→漢字（exp 全写 苟くも/苟く）
+    ("なんぞ", "盍ぞ", ("盍",)),     # Xぞ族：白文含盍（3 行全改善）
+    ("なんぞ", "奚ぞ", ("奚",)),     # Xぞ族：白文含奚（奚=族名行 montai15-1 是 same 非変差）
+    ("なんぞ", "曷ぞ", ("曷",)),     # Xぞ族：白文含曷（曷んぞ/曷くに 混写行 same 非変差）
+]
+
+# Rule K 的词界护栏：本夜 8 条全部无更长词冲突（night69_probe 実測 ひてもし/はずして
+# 等的替换方向均正确——sim 0 変差），留空壳维持系列同构。
+K_LONGER_WORDS = {
+    "ひて": (), "へて": (), "はず": (), "へず": (),
+    "いやしくも": (), "なんぞ": (),
+}
+
+
+def style_kana_to_kanji_k(text: str, hakubun: str = "") -> str:
+    """仮名遣い转换＋Xぞ族拆分（第七批）。N70 Rule K。
+
+    与 E/F/G/H/I/J 同构，但 **guard=() 明示为无条件规则**（空元组＝白文不问适用；
+    E〜J 世代的空 guard 语义是「永不适用」——直接沿用会把 K 的 5 条变死规则）。
+    Xぞ族三条共享 kana「なんぞ」，白文 guard（盍/奚/曷）互斥分工。
+    """
+    hb = re.sub(r"\s+", "", hakubun) if hakubun else ""
+    for kana, repl, guard in K_KANA_TO_KANJI:
+        if guard and hb and not any(g in hb for g in guard):
+            continue
+        text = _replace_word_boundary(text, kana, repl, K_LONGER_WORDS)
+    return text
+
+
 def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     """带白文上下文的规则总入口（D11 起后端实际调用这个）。
 
@@ -522,6 +584,7 @@ def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     t = style_kana_to_kanji_h(t, hakubun)   # N58 Rule H
     t = style_kana_to_kanji_i(t, hakubun)   # N64 Rule I
     t = style_kana_to_kanji_j(t, hakubun)   # N68 Rule J
+    t = style_kana_to_kanji_k(t, hakubun)   # N70 Rule K
     return t
 
 # ---------------------------------------------------------------------------

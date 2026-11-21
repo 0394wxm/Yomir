@@ -15,16 +15,17 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 from backend.kundoku_rules import (SHINJITAI_MAP, MERGE_WORDS, E_KANA_TO_KANJI,  # noqa: E402
                                    F_KANA_TO_KANJI, G_KANA_TO_KANJI, H_KANA_TO_KANJI,
-                                   I_KANA_TO_KANJI, J_KANA_TO_KANJI)
+                                   I_KANA_TO_KANJI, J_KANA_TO_KANJI, K_KANA_TO_KANJI)
 
 print("SHINJITAI_MAP:", len(SHINJITAI_MAP), "对")
 print("MERGE_WORDS:", len(MERGE_WORDS), "条")
 print("Rule E/F/G/H/I/J 假名→汉字:", len(E_KANA_TO_KANJI), "/", len(F_KANA_TO_KANJI), "/",
       len(G_KANA_TO_KANJI), "/", len(H_KANA_TO_KANJI), "/", len(I_KANA_TO_KANJI), "/",
       len(J_KANA_TO_KANJI))
-s = json.load(io.open(os.path.join(ROOT, "eval/night68_results_4000.json"), encoding="utf-8"))
+print("Rule K 假名→汉字:", len(K_KANA_TO_KANJI), "条")
+s = json.load(io.open(os.path.join(ROOT, "eval/night70_results_4000.json"), encoding="utf-8"))
 sm = s["summary"]
-print("night68(golden_4000): total=%s n=%s exact=%s avgDist=%s errors=%s"
+print("night70(golden_4000): total=%s n=%s exact=%s avgDist=%s errors=%s"
       % (s.get("total"), sm["n"], sm["exact"], sm["avg_edit_distance"], sm["errors"]))
 g = json.load(io.open(os.path.join(ROOT, "eval/golden_4000_stats.json"), encoding="utf-8"))
 print("golden_4000: total=%s uniq_hakubun=%s" % (g["total"], g["uniq_hakubun"]))
@@ -54,8 +55,8 @@ _flat_readme = _flat(README)
 CHECKS = [
     ("SHINJITAI 組数", "**%d 組**" % len(SHINJITAI_MAP)),
     ("MERGE_WORDS 語数", "**%d 語**" % len(MERGE_WORDS)),
-    ("night68 golden_4000 avgDist", "**%s**" % sm["avg_edit_distance"]),
-    ("night68 golden_4000 exact", "**%d/4000**" % sm["exact"]),
+    ("night70 golden_4000 avgDist", "**%s**" % sm["avg_edit_distance"]),
+    ("night70 golden_4000 exact", "**%d/4000**" % sm["exact"]),
     ("golden_4000 組数", "**%d 組**" % g["total"]),
     ("golden_4000 ユニーク", str(g["uniq_hakubun"])),
     ("golden_7908 組数", "**%d 組**" % g7["total"]),
@@ -65,6 +66,7 @@ CHECKS = [
     ("右先率 off/on", "%0.2f%% / %0.2f%%" % (b["off"]["rate"], b["on"]["rate"])),
     ("右先率 严格層対数", "%d 対" % b["strict"]["n"]),
     ("Rule J 語数", "**%d 語**" % len(J_KANA_TO_KANJI)),
+    ("Rule K 語数", "**%d 語**" % len(K_KANA_TO_KANJI)),
 ]
 
 fails = []
