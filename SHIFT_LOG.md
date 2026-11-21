@@ -826,3 +826,4 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 | 2026-11-21 19:34 | Night 67 暂停：开工核验与调研完成（病根=AUX 缺應、paren 257 对预检零冲突、⑨/⑭=NIGHT_ARTIFACTS 登记制），⑬ backend/main.py 2 行补丁与 tools/night67_* 新建被安全审查拦截（rule=scope_escalation，审查口径仍停在 Night 66 允许清单；ask_user 显式批准后同轮仍拦）；已停手待新消息批准，tests/test_night67_aux_ying.py 暂存回退保持 pytest 绿（内容已留存，批准后恢复）。 |
 | 2026-11-21 20:05 | Night 67 进度：⑬ 完成（golden_4000 error 2→0、avgDist 13.716/24-4000、既有 3998 行 diff=0、2 行恢复 dist=4/13）；⑲ 数据面完成（golden_8165=7908+257 全断言过、规则全量 8165 error 0/精确 30/avg 14.741；vs N62 归档 1246 行 diff=Rule I+SHINJITAI99 净收益 改善978/变差1/−1213）；guwenbert 257 条后台跑中，h2h/⑭/⑩/⑥ 排队。 |
 | 2026-11-21 21:04 | Night 67 心跳：guwenbert ⑲新增段 257 条离线跑完成（21:04，单步 ~59 分钟、超 45 分钟预算如实记录不跳过：paren 长文+ルビ括号 supar 解析 ~12s/条）；下一步 h2h → ⑭ → ⑩ → ⑥ → 验收。 |
+| 2026-11-21 21:18 | Night 67 收尾：⑬/⑲/⑭/⑩ 全落地，pytest 219，accept 67 终跑 PASS（fail=0 skip=0，order_rate +0.00pp），主提交 f4376ac，wrap-up 随后，未推远程。 |

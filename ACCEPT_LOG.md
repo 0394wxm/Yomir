@@ -97,3 +97,5 @@
 | 2026-11-21T17:04:23 | 65 | PASS | fail=0 skip=1 | 28.7s | accept_night_65.json |
 | 2026-11-21T18:42:33 | 66 | FAIL | fail=1 skip=1 | 26.9s | accept_night_66.json |
 | 2026-11-21T18:44:06 | 66 | PASS | fail=0 skip=1 | 27.4s | accept_night_66.json |
+| 2026-11-21T21:14:20 | 67 | FAIL | fail=1 skip=0 | 34.1s | accept_night_67.json |
+| 2026-11-21T21:16:03 | 67 | PASS | fail=0 skip=0 | 35.7s | accept_night_67.json |
