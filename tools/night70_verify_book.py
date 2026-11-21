@@ -76,7 +76,7 @@ def main():
     n_manifest, title = manifest_pages()
     print("[manifest] %s: %d pages" % (title, n_manifest), flush=True)
     pages, raw = parse_book()
-    jpg_nums = sorted(int(f[1:]) for f in os.listdir(PAGES_DIR) if f.endswith(".jpg"))
+    jpg_nums = sorted(int(f[1:-4]) for f in os.listdir(PAGES_DIR) if f.endswith(".jpg"))
 
     fails = []
     md_nums = sorted(int(k) for k in pages)

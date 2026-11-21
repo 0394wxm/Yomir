@@ -1,0 +1,290 @@
+{
+  "book": " (NDL 781193)",
+  "expected_pages_manifest": 34,
+  "jpg_pages": 34,
+  "book_md_pages": 34,
+  "ok": 34,
+  "zero_line": 0,
+  "ocr_fail": 0,
+  "zero_line_pages": [],
+  "ocr_fail_pages": [],
+  "ascii_noise_total_lines": 0,
+  "ascii_noise_pages": 0,
+  "book_md_sha256_16": "95bb006c8d3ac7b5",
+  "fails": [],
+  "rows": [
+    {
+      "page": 1,
+      "status": "ok",
+      "hakubun_lines": 3,
+      "kudashi_lines": 3,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 11
+    },
+    {
+      "page": 2,
+      "status": "ok",
+      "hakubun_lines": 18,
+      "kudashi_lines": 18,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 48
+    },
+    {
+      "page": 3,
+      "status": "ok",
+      "hakubun_lines": 25,
+      "kudashi_lines": 25,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 391
+    },
+    {
+      "page": 4,
+      "status": "ok",
+      "hakubun_lines": 37,
+      "kudashi_lines": 37,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 747
+    },
+    {
+      "page": 5,
+      "status": "ok",
+      "hakubun_lines": 36,
+      "kudashi_lines": 36,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 999
+    },
+    {
+      "page": 6,
+      "status": "ok",
+      "hakubun_lines": 35,
+      "kudashi_lines": 49,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1327
+    },
+    {
+      "page": 7,
+      "status": "ok",
+      "hakubun_lines": 59,
+      "kudashi_lines": 59,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1075
+    },
+    {
+      "page": 8,
+      "status": "ok",
+      "hakubun_lines": 39,
+      "kudashi_lines": 40,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 973
+    },
+    {
+      "page": 9,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1069
+    },
+    {
+      "page": 10,
+      "status": "ok",
+      "hakubun_lines": 35,
+      "kudashi_lines": 35,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 971
+    },
+    {
+      "page": 11,
+      "status": "ok",
+      "hakubun_lines": 37,
+      "kudashi_lines": 37,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 870
+    },
+    {
+      "page": 12,
+      "status": "ok",
+      "hakubun_lines": 28,
+      "kudashi_lines": 28,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 832
+    },
+    {
+      "page": 13,
+      "status": "ok",
+      "hakubun_lines": 21,
+      "kudashi_lines": 21,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 539
+    },
+    {
+      "page": 14,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1134
+    },
+    {
+      "page": 15,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1194
+    },
+    {
+      "page": 16,
+      "status": "ok",
+      "hakubun_lines": 29,
+      "kudashi_lines": 29,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 901
+    },
+    {
+      "page": 17,
+      "status": "ok",
+      "hakubun_lines": 18,
+      "kudashi_lines": 21,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 499
+    },
+    {
+      "page": 18,
+      "status": "ok",
+      "hakubun_lines": 35,
+      "kudashi_lines": 36,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1179
+    },
+    {
+      "page": 19,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1083
+    },
+    {
+      "page": 20,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1224
+    },
+    {
+      "page": 21,
+      "status": "ok",
+      "hakubun_lines": 28,
+      "kudashi_lines": 28,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 703
+    },
+    {
+      "page": 22,
+      "status": "ok",
+      "hakubun_lines": 20,
+      "kudashi_lines": 20,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 534
+    },
+    {
+      "page": 23,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1076
+    },
+    {
+      "page": 24,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1109
+    },
+    {
+      "page": 25,
+      "status": "ok",
+      "hakubun_lines": 35,
+      "kudashi_lines": 35,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1263
+    },
+    {
+      "page": 26,
+      "status": "ok",
+      "hakubun_lines": 37,
+      "kudashi_lines": 49,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1081
+    },
+    {
+      "page": 27,
+      "status": "ok",
+      "hakubun_lines": 35,
+      "kudashi_lines": 35,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1228
+    },
+    {
+      "page": 28,
+      "status": "ok",
+      "hakubun_lines": 34,
+      "kudashi_lines": 34,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1173
+    },
+    {
+      "page": 29,
+      "status": "ok",
+      "hakubun_lines": 39,
+      "kudashi_lines": 45,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 1238
+    },
+    {
+      "page": 30,
+      "status": "ok",
+      "hakubun_lines": 26,
+      "kudashi_lines": 26,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 478
+    },
+    {
+      "page": 31,
+      "status": "ok",
+      "hakubun_lines": 25,
+      "kudashi_lines": 25,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 485
+    },
+    {
+      "page": 32,
+      "status": "ok",
+      "hakubun_lines": 8,
+      "kudashi_lines": 11,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 86
+    },
+    {
+      "page": 33,
+      "status": "ok",
+      "hakubun_lines": 2,
+      "kudashi_lines": 3,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 8
+    },
+    {
+      "page": 34,
+      "status": "ok",
+      "hakubun_lines": 3,
+      "kudashi_lines": 4,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 58
+    }
+  ],
+  "garbage_detail": []
+}
