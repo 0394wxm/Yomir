@@ -2,7 +2,7 @@
 """verify_readme_facts.py — 为 README.md（Night 65 合并后同步版）核对当前事实数字。只读。
 
 打印的每个数字都与 README.md 的「数字」一节一一对应，改 README 前先跑这个：
-  SHINJITAI_MAP / MERGE_WORDS / Rule E/F/G/H/I / night67 评测（N67 ⑬AUX 补丁后的 golden_4000 口径）
+  SHINJITAI_MAP / MERGE_WORDS / Rule E/F/G/H/I/J / night68 评测（N68 Rule J＋SHINJITAI 275 上线后的 golden_4000 口径）
   / golden_4000 与 golden_7908 构成 / OCR GT 行数 / 割注右先率基线（night50 归档）。
 """
 import io
@@ -15,15 +15,16 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 from backend.kundoku_rules import (SHINJITAI_MAP, MERGE_WORDS, E_KANA_TO_KANJI,  # noqa: E402
                                    F_KANA_TO_KANJI, G_KANA_TO_KANJI, H_KANA_TO_KANJI,
-                                   I_KANA_TO_KANJI)
+                                   I_KANA_TO_KANJI, J_KANA_TO_KANJI)
 
 print("SHINJITAI_MAP:", len(SHINJITAI_MAP), "对")
 print("MERGE_WORDS:", len(MERGE_WORDS), "条")
-print("Rule E/F/G/H/I 假名→汉字:", len(E_KANA_TO_KANJI), "/", len(F_KANA_TO_KANJI), "/",
-      len(G_KANA_TO_KANJI), "/", len(H_KANA_TO_KANJI), "/", len(I_KANA_TO_KANJI))
-s = json.load(io.open(os.path.join(ROOT, "eval/night67_results_4000.json"), encoding="utf-8"))
+print("Rule E/F/G/H/I/J 假名→汉字:", len(E_KANA_TO_KANJI), "/", len(F_KANA_TO_KANJI), "/",
+      len(G_KANA_TO_KANJI), "/", len(H_KANA_TO_KANJI), "/", len(I_KANA_TO_KANJI), "/",
+      len(J_KANA_TO_KANJI))
+s = json.load(io.open(os.path.join(ROOT, "eval/night68_results_4000.json"), encoding="utf-8"))
 sm = s["summary"]
-print("night67(golden_4000): total=%s n=%s exact=%s avgDist=%s errors=%s"
+print("night68(golden_4000): total=%s n=%s exact=%s avgDist=%s errors=%s"
       % (s.get("total"), sm["n"], sm["exact"], sm["avg_edit_distance"], sm["errors"]))
 g = json.load(io.open(os.path.join(ROOT, "eval/golden_4000_stats.json"), encoding="utf-8"))
 print("golden_4000: total=%s uniq_hakubun=%s" % (g["total"], g["uniq_hakubun"]))

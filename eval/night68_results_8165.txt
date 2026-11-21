@@ -1,0 +1,61 @@
+﻿golden_8165.json: 8165 条（Rule J 上线后全量，SHINJITAI 275 对在场）
+D:\Python312\python.exe : INFO:kanbun:udkundoku engine loaded
+At line:1 char:104
++ ...  $out8165 = D:\Python312\python.exe tools\night68_eval_8165.py 2>&1 | ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (INFO:kanbun:udkundoku engine loaded:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+INFO:kanbun:ocr available: True
+  500/8165 (19s)
+  1000/8165 (39s)
+  1500/8165 (53s)
+  2000/8165 (63s)
+  2500/8165 (70s)
+  3000/8165 (78s)
+  3500/8165 (85s)
+  4000/8165 (92s)
+  4500/8165 (100s)
+  5000/8165 (107s)
+  5500/8165 (114s)
+  6000/8165 (121s)
+  6500/8165 (128s)
+  7000/8165 (146s)
+  7500/8165 (159s)
+  8000/8165 (171s)
+
+=== 规则引擎 8165 条（golden_8165.json，D/E/F/G/H/I/J 全链 + SHINJITAI 275 对） ===
+engine OK 8165 / error 0 | 精确 30/8165 | avgDist 14.698
+
+分档             n   avgDist      精确
+≤20字        6329     7.805      30
+21-40字       920    22.220       0
+41-60字       395    36.906       0
+>60字         521    68.309       0
+
+文体             n   avgDist      精确
+漢詩          4409     7.014      10
+その他         1611    29.019       2
+故事          1339    20.827       4
+論語           368    26.821       2
+大学           189    14.365       0
+孝経           147     9.109       7
+詩経           102     5.157       5
+
+栏目补充表：
+  syubu           4511     6.972      15
+  koji            1339    20.827       4
+  shibu02         1310    31.956       2
+  keibu            704    19.778       9
+  syubu02          248    12.234       0
+  shibu01           53    34.943       0
+
+=== 确定性对照 vs night67_results_8165.json ===
+改写行: 283（模拟预测 283）| 改善 234 / 变差 0 / 持平 49
+预测有实跑无: 0 []
+实跑有预测无: 0 []
+error→恢复: 0 | 仍 error: 0 []（预期 0）
+⑯ shibu02       改写 119 | 改善 106 / 变差 0 / 持平 13
+⑯ kanshi_short  改写  76 | 改善  53 / 变差 0 / 持平 23
+⑯ other         改写  88 | 改善  75 / 变差 0 / 持平 13
+written: D:\kanbun-kakikudashi\eval\night68_results_8165.json

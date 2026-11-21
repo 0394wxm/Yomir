@@ -15,10 +15,10 @@
 
 | 項目 | 数値 |
 | --- | --- |
-| テスト | `pytest tests` 全量 **219 passed** |
+| テスト | `pytest tests` 全量 **241 passed** |
 | 評価セット | `eval/golden_4000.json` **4000 組**（白文ユニーク 3975。kanbun.info の白文・書き下し文ペアから構築。拡張版 `golden_7908.json` **7908 組**も同梱済みだが、既定の評価口径は golden_4000 のまま） |
-| 規則エンジン | 平均編集距離 **13.716** ／ 完全一致 **24/4000**（error 0。N67 で AUX 活用表の「應」エントリ欠落を修正、N64 口径の 13.719／24/3998・error 2 から改善。正規化口径：空白を除いた文字単位比較。N67 修後の `eval/night67_results_4000.json` 口径） |
-| ルールチェーン | Rule A（表示スタイル：ふ→う、「は曰く」→「曰く」）／ Rule C'（て而して→て、「顧みて而して」はガードで保持）／ Rule D（これ→之、白文ガード付き）／ Rule E・F・G・H（かな→漢字の 4 系列、**5+4+4+3 の 16 語**、いずれも白文ガード＋長語マスク付き）／ Rule I（かな→漢字の第 5 系列、**6 語**：けだし→蓋し、いずくんぞ→焉くんぞ、もし→如し、それ→夫れ、ただ→惟だ、なかれ→毋かれ。いずれも白文ガード＋長語マスク付き） |
+| 規則エンジン | 平均編集距離 **13.684** ／ 完全一致 **24/4000**（error 0。N68 で Rule J（かな→漢字第 6 系列・7 語）と SHINJITAI 29 組（246→275）を追加、N67 口径の 13.716／24/4000・error 0 から改善。正規化口径：空白を除いた文字単位比較。N68 の `eval/night68_results_4000.json` 口径） |
+| ルールチェーン | Rule A（表示スタイル：ふ→う、「は曰く」→「曰く」）／ Rule C'（て而して→て、「顧みて而して」はガードで保持）／ Rule D（これ→之、白文ガード付き）／ Rule E・F・G・H（かな→漢字の 4 系列、**5+4+4+3 の 16 語**、いずれも白文ガード＋長語マスク付き）／ Rule I（かな→漢字の第 5 系列、**6 語**：けだし→蓋し、いずくんぞ→焉くんぞ、もし→如し、それ→夫れ、ただ→惟だ、なかれ→毋かれ。いずれも白文ガード＋長語マスク付き）／ Rule J（かな→漢字の第 6 系列、**7 語**：まさに→方に、ごとし→若し／如し、ごとく→若く／如く、ごとき→若く／如き。ごとし族は白文の 如／若 で目標語を分け、いずれも白文ガード付き） |
 | 正字化 | `SHINJITAI_MAP` 旧字体→新字体 **246 組**（N64 で 99 組を追加。出力表示層のみ。白文入力は原文のまま保持） |
 | 固有名詞結合 | `MERGE_WORDS` **21 語**（短文限定。長文では merge ガードが作動） |
 | OCR 精度 | 人工採録 GT **92 行**（`eval/ocr_gt_100.tsv`）で CER raw **0.3568** ／ 正規化 **0.3053** |
@@ -89,7 +89,7 @@ npm run dev    # http://localhost:5173/
 # バックエンド（http://127.0.0.1:8000）
 python -X utf8 -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
 
-# テスト（214 条）
+# テスト（241 条）
 python -X utf8 -m pytest tests -q
 ```
 
@@ -159,7 +159,7 @@ EPUB は EPUB 3・`writing-mode: vertical-rl` の縦書き（非対応リーダ�
 backend/       FastAPI(8000)：main / kundoku_rules / ocr_engine / ocr_layout /
                ocr_postfix / db / llm / epub_export / glossary_lexicon(+extra)
 frontend/      Vite + React + TS(5173)：行別対照・履歴・EPUB 出力・レスポンシブ
-tests/         pytest 214 条
+tests/         pytest 241 条
 eval/          評価セット（golden*.json）＋実行結果アーカイブ＋OCR GT（ocr_gt_100.tsv）
 tools/         評価・一括取り込み・検証・shim 生成などの補助スクリプト
 ocr_runtime/   （非同梱）OCR エンジン展開先（.gitignore 済）

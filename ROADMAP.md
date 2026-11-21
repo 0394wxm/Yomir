@@ -110,3 +110,4 @@ README.md 还停在 v0.1（Night 3 时代）：写的 pytest 14 条 / 评测 200
 没拍板的事，agent 一律跳过并写进报告，不要自己替用户定。
 
 - 状态: CLOSED — ⑩「應→応 白文预处理」否决结案（Night 67，零代码改动）：Night 59 实证 no-op（18 行含應白文逐字节不变、error 照旧——lemma 归一到應，AUX 查键照样缺）；真正缺的是 udkundoku AUX 活用表条目，已由 ⑬ backend runtime 补丁修复（golden_4000 error 2→0）。
+- 状态: CLOSED — Rule J（かな→漢字第 6 批・7 語：ごとし族按白文 若／如 分目标＋まさに→方に）与 SHINJITAI 29 組（246→275）上线（Night 68）：golden_4000 avgDist 13.716→13.684、golden_8165 14.741→14.698，改写 283 行／改善 234／变差 0；拒案 7 条（べき・べから・もし・なんぞ＋预拒复核 なかれ・ことなく・がため）0 变差门不过，如实归档。
