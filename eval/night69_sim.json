@@ -1,0 +1,225 @@
+{
+ "gate": {
+  "hite": {
+   "tag": "ひて→いて（歴史的→現代仮名遣い；Rule A ふ→う 同型）",
+   "changed": 437,
+   "better": 145,
+   "worse": 0,
+   "delta": -0.018,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "hete": {
+   "tag": "へて→えて（同族）",
+   "changed": 229,
+   "better": 147,
+   "worse": 0,
+   "delta": -0.02,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "hazu": {
+   "tag": "はず→わず（同族：言はず→言わず）",
+   "changed": 139,
+   "better": 114,
+   "worse": 0,
+   "delta": -0.017,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "hazaru": {
+   "tag": "はざる→わざる（同族：能はざる→能わざる）",
+   "changed": 39,
+   "better": 28,
+   "worse": 1,
+   "delta": -0.004,
+   "worse_detail": [
+    {
+     "id": "24shihin10-4",
+     "old": 18,
+     "new": 19,
+     "got": "真なりて奪はざるとも、強ひて貧なり易きを得る。",
+     "exp": "真に与えらるるは奪われず、強いて得れば貧なり易し。",
+     "newtext": "真なりて奪わざるとも、強ひて貧なり易きを得る。"
+    }
+   ],
+   "verdict": "拒（変差 1）"
+  },
+  "hezu": {
+   "tag": "へず→えず（同族）",
+   "changed": 27,
+   "better": 12,
+   "worse": 0,
+   "delta": -0.001,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "iyashikumo": {
+   "tag": "いやしくも→苟くも（kana→漢字，N62 §9-1 型；exp 全写苟く系）",
+   "changed": 15,
+   "better": 15,
+   "worse": 0,
+   "delta": -0.006,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "nanzo_kan": {
+   "tag": "なんぞ→盍ぞ（白文含盍；Xぞ族拆分）",
+   "changed": 3,
+   "better": 3,
+   "worse": 0,
+   "delta": -0.001,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "nanzo_gei": {
+   "tag": "なんぞ→奚ぞ（白文含奚；奚=族名混用リスク）",
+   "changed": 8,
+   "better": 7,
+   "worse": 0,
+   "delta": -0.002,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "nanzo_katsu": {
+   "tag": "なんぞ→曷ぞ（白文含曷；曷んぞ/曷くに 混写リスク）",
+   "changed": 6,
+   "better": 5,
+   "worse": 0,
+   "delta": -0.001,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "tomo": {
+   "tag": "とも→と（exp 全库 0 行含とも→目標一意）",
+   "changed": 224,
+   "better": 164,
+   "worse": 1,
+   "delta": -0.023,
+   "worse_detail": [
+    {
+     "id": "yoryoezu-1",
+     "old": 93,
+     "new": 94,
+     "got": "張騫、漢中の人。元の中を建ちて郎たり。是の時に天の子は匈奴の降者を問う、皆言う、匈奴は月氏の王を破く、其の頭を以て飲器を為す。月氏は遁逃す、而して常に仇して匈奴を怨む、とも共して之を撃すること無し。漢は方に事せんと欲して胡を滅ぶ。此の言を聞",
+     "exp": "張騫は、漢中の人なり。建元中に郎と為る。是の時天子、匈奴の降る者に問うに、皆な言う、匈奴、月氏王を破り、其の頭を以て飲器と為す。月氏遁逃して、常に匈奴を怨み仇とするも、与に共に之を撃つもの無し、と。漢方に胡を滅ぼすを事とせんと欲す。此の言を",
+     "newtext": "張騫、漢中の人。元の中を建ちて郎たり。是の時に天の子は匈奴の降者を問う、皆言う、匈奴は月氏の王を破く、其の頭を以て飲器を為す。月氏は遁逃す、而して常に仇して匈奴を怨む、と共して之を撃すること無し。漢は方に事せんと欲して胡を滅ぶ。此の言を聞く"
+    }
+   ],
+   "verdict": "拒（変差 1）"
+  },
+  "gatame": {
+   "tag": "がため→が為に（白文含為）【N68 R_gatame 预拒复核】",
+   "changed": 0,
+   "better": 0,
+   "worse": 0,
+   "delta": 0.0,
+   "worse_detail": [],
+   "verdict": "拒（無益/無目標）"
+  },
+  "tsuhini": {
+   "tag": "つひに→ついに（exp 目標字形なし——取证用，预期拒）",
+   "changed": 21,
+   "better": 0,
+   "worse": 0,
+   "delta": 0.0,
+   "worse_detail": [],
+   "verdict": "拒（無益/無目標）"
+  }
+ },
+ "accepted": [
+  "hite",
+  "hete",
+  "hazu",
+  "hezu",
+  "iyashikumo",
+  "nanzo_kan",
+  "nanzo_gei",
+  "nanzo_katsu"
+ ],
+ "idempotent_bad": 0,
+ "combo_8165": {
+  "entries": 8165,
+  "changed_entries": 768,
+  "avg_old": 14.698,
+  "avg_new": 14.632,
+  "delta": -0.066,
+  "better": 402,
+  "worse": 0,
+  "same": 7763,
+  "segs": {
+   "s4000": {
+    "better": 290,
+    "worse": 0,
+    "same": 177
+   },
+   "s3908": {
+    "better": 108,
+    "worse": 0,
+    "same": 186
+   },
+   "s257": {
+    "better": 4,
+    "worse": 0,
+    "same": 3
+   },
+   "shibu02": {
+    "better": 82,
+    "worse": 0,
+    "same": 112
+   },
+   "kansi": {
+    "better": 45,
+    "worse": 0,
+    "same": 115
+   }
+  },
+  "worse_detail": []
+ },
+ "combo_4000": {
+  "entries": 4000,
+  "changed_entries": 467,
+  "avg_old": 13.684,
+  "avg_new": 13.584,
+  "delta": -0.1,
+  "better": 290,
+  "worse": 0,
+  "same": 3710,
+  "segs": {
+   "s4000": {
+    "better": 290,
+    "worse": 0,
+    "same": 177
+   },
+   "s3908": {
+    "better": 0,
+    "worse": 0,
+    "same": 0
+   },
+   "s257": {
+    "better": 0,
+    "worse": 0,
+    "same": 0
+   },
+   "shibu02": {
+    "better": 0,
+    "worse": 0,
+    "same": 0
+   },
+   "kansi": {
+    "better": 25,
+    "worse": 0,
+    "same": 49
+   }
+  },
+  "worse_detail": []
+ },
+ "exact_8165": {
+  "before": 30,
+  "after": 30
+ },
+ "exact_4000": {
+  "before": 24,
+  "after": 24
+ }
+}
