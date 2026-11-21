@@ -37,3 +37,43 @@ o = json.load(io.open(os.path.join(ROOT, "eval/night50_order_rate.json"), encodi
 b = o["baseline"]
 print("割注右先率基线: off=%.2f%% on=%.2f%% strict=%.1f%%"
       % (b["off"]["rate"], b["on"]["rate"], b["strict"]["rate"]))
+
+# ---------------------------------------------------------------------------
+# N68b：README 比对段——上面打印的每个值逐项 grep README.md，断言在位。
+# 只读；任一项不在位 → 打印 FAIL 井 exit 1（不再只是打印数值了事）。
+import re as _re
+
+cer = json.load(io.open(os.path.join(ROOT, "eval/night68_gt_cer.json"), encoding="utf-8"))
+README = io.open(os.path.join(ROOT, "README.md"), encoding="utf-8").read()
+
+def _flat(s):
+    return _re.sub(r"\s+", "", s)
+
+_flat_readme = _flat(README)
+
+CHECKS = [
+    ("SHINJITAI 組数", "**%d 組**" % len(SHINJITAI_MAP)),
+    ("MERGE_WORDS 語数", "**%d 語**" % len(MERGE_WORDS)),
+    ("night68 golden_4000 avgDist", "**%s**" % sm["avg_edit_distance"]),
+    ("night68 golden_4000 exact", "**%d/4000**" % sm["exact"]),
+    ("golden_4000 組数", "**%d 組**" % g["total"]),
+    ("golden_4000 ユニーク", str(g["uniq_hakubun"])),
+    ("golden_7908 組数", "**%d 組**" % g7["total"]),
+    ("OCR GT 行数", "**%d 行**" % (len(gt) - 1)),
+    ("OCR CER raw", "**%s**" % round(cer["overall_cer_micro"], 4)),
+    ("OCR CER norm", "**%s**" % round(cer["overall_cer_norm_micro"], 4)),
+    ("右先率 off/on", "%0.2f%% / %0.2f%%" % (b["off"]["rate"], b["on"]["rate"])),
+    ("右先率 严格層対数", "%d 対" % b["strict"]["n"]),
+    ("Rule J 語数", "**%d 語**" % len(J_KANA_TO_KANJI)),
+]
+
+fails = []
+for name, needle in CHECKS:
+    ok = _flat(needle) in _flat_readme
+    print("README 比对 %-22s %s（期望含 %r）" % (name, "OK" if ok else "FAIL", needle))
+    if not ok:
+        fails.append(name)
+print("README 比对: %d/%d 对上" % (len(CHECKS) - len(fails), len(CHECKS)))
+if fails:
+    print("README 漂移项: %s" % ", ".join(fails))
+    sys.exit(1)

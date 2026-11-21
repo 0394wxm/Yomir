@@ -111,3 +111,4 @@ README.md 还停在 v0.1（Night 3 时代）：写的 pytest 14 条 / 评测 200
 
 - 状态: CLOSED — ⑩「應→応 白文预处理」否决结案（Night 67，零代码改动）：Night 59 实证 no-op（18 行含應白文逐字节不变、error 照旧——lemma 归一到應，AUX 查键照样缺）；真正缺的是 udkundoku AUX 活用表条目，已由 ⑬ backend runtime 补丁修复（golden_4000 error 2→0）。
 - 状态: CLOSED — Rule J（かな→漢字第 6 批・7 語：ごとし族按白文 若／如 分目标＋まさに→方に）与 SHINJITAI 29 組（246→275）上线（Night 68）：golden_4000 avgDist 13.716→13.684、golden_8165 14.741→14.698，改写 283 行／改善 234／变差 0；拒案 7 条（べき・べから・もし・なんぞ＋预拒复核 なかれ・ことなく・がため）0 变差门不过，如实归档。
+- 状态: CLOSED — Night 68b（README 漂移修补＋验收门补登记）：正字化行 246→275 組（N68 漏项）；已知问题① 24/3998→24/4000（N68 口径，分档对 night68 归档 3 改 1 未变）；数字节表头/ブランチ統合状況 54d2410→9fca166 两处；NIGHT_ARTIFACTS[68] 补登记，accept 68 重跑 PASS（fail=0 skip=0，eval_integrity skip→实查）；verify_readme_facts.py 加 README 逐项比对段（13/13）。構成节 pytest 214→241 已在 Night 68 主提交在位（审计口径滞后，无漂移）。
