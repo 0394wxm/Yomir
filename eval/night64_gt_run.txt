@@ -1,0 +1,22 @@
+[engine] load 75.0s
+[ndl_11892692_R0000003.jpg] 23.0s lines=9 layout=0 junk=0 unmatched_no=0
+[ndl_11892692_R0000004.jpg] 38.8s lines=16 layout=0 junk=0 unmatched_no=0
+[ndl_11892692_R0000005.jpg] 39.9s lines=16 layout=0 junk=0 unmatched_no=0
+[ndl_1033232_R0000003.jpg] 16.2s lines=5 layout=0 junk=0 unmatched_no=0
+[ndl_10301438_R0000002.jpg] 27.3s lines=5 layout=6 junk=0 unmatched_no=0
+[ndl_10301438_R0000003.jpg] 33.0s lines=20 layout=0 junk=2 unmatched_no=0
+[ndl_781192_R0000003.jpg] 34.1s lines=6 layout=0 junk=1 unmatched_no=0
+[ndl_781193_R0000003.jpg] 47.0s lines=25 layout=0 junk=3 unmatched_no=0
+[done] written: D:\kanbun-rulei\eval\night64_gt_lines.json
+== Night36 OCR CER ==
+GT rows: 92 | [?] 通配不计分母 | raw=含标点差 / norm=两侧去标点 | src=night64_gt_lines.json
+  ndl_10301438_R0000002        rows=6   raw micro=0.4348 macro=0.2222 | norm micro=0.4348 macro=0.2222
+  ndl_10301438_R0000003        rows=17  raw micro=0.3543 macro=0.438 | norm micro=0.3071 macro=0.3911
+  ndl_1033232_R0000003         rows=1   raw micro=0.0 macro=0.0 | norm micro=0.0 macro=0.0
+  ndl_11892692_R0000003        rows=9   raw micro=0.1163 macro=0.1061 | norm micro=0.062 macro=0.0579
+  ndl_11892692_R0000004        rows=16  raw micro=0.1647 macro=0.1643 | norm micro=0.1059 macro=0.1057
+  ndl_11892692_R0000005        rows=16  raw micro=0.1367 macro=0.1367 | norm micro=0.0508 macro=0.0508
+  ndl_781192_R0000003          rows=4   raw micro=0.0 macro=0.0 | norm micro=0.0 macro=0.0
+  ndl_781193_R0000003          rows=23  raw micro=0.9912 macro=0.9855 | norm micro=0.9735 macro=0.9656
+overall: raw micro=0.3568 macro=0.2566 | norm micro=0.3053 macro=0.2242
+[done] written: eval\night64_gt_cer.json

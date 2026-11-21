@@ -1,0 +1,1213 @@
+{
+ "shinjitai_count": [
+  {
+   "old": "聽",
+   "new": "聴",
+   "vote": 20,
+   "got_old": 39,
+   "all_votes": [
+    [
+     "聴",
+     20
+    ]
+   ]
+  },
+  {
+   "old": "觀",
+   "new": "観",
+   "vote": 3,
+   "got_old": 32,
+   "all_votes": [
+    [
+     "観",
+     3
+    ]
+   ]
+  },
+  {
+   "old": "舍",
+   "new": "舎",
+   "vote": 4,
+   "got_old": 23,
+   "all_votes": [
+    [
+     "舎",
+     4
+    ],
+    [
+     "於",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "愼",
+   "new": "慎",
+   "vote": 9,
+   "got_old": 21,
+   "all_votes": [
+    [
+     "慎",
+     9
+    ]
+   ]
+  },
+  {
+   "old": "爭",
+   "new": "争",
+   "vote": 7,
+   "got_old": 21,
+   "all_votes": [
+    [
+     "争",
+     7
+    ]
+   ]
+  },
+  {
+   "old": "搖",
+   "new": "揺",
+   "vote": 1,
+   "got_old": 14,
+   "all_votes": [
+    [
+     "揺",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "髮",
+   "new": "被",
+   "vote": 1,
+   "got_old": 14,
+   "all_votes": [
+    [
+     "被",
+     1
+    ],
+    [
+     "髪",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "擧",
+   "new": "挙",
+   "vote": 5,
+   "got_old": 14,
+   "all_votes": [
+    [
+     "挙",
+     5
+    ]
+   ]
+  },
+  {
+   "old": "藏",
+   "new": "蔵",
+   "vote": 4,
+   "got_old": 13,
+   "all_votes": [
+    [
+     "蔵",
+     4
+    ]
+   ]
+  },
+  {
+   "old": "拂",
+   "new": "払",
+   "vote": 7,
+   "got_old": 13,
+   "all_votes": [
+    [
+     "払",
+     7
+    ]
+   ]
+  },
+  {
+   "old": "繼",
+   "new": "継",
+   "vote": 4,
+   "got_old": 12,
+   "all_votes": [
+    [
+     "継",
+     4
+    ]
+   ]
+  },
+  {
+   "old": "羣",
+   "new": "群",
+   "vote": 1,
+   "got_old": 12,
+   "all_votes": [
+    [
+     "群",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "祿",
+   "new": "禄",
+   "vote": 3,
+   "got_old": 12,
+   "all_votes": [
+    [
+     "禄",
+     3
+    ]
+   ]
+  },
+  {
+   "old": "寢",
+   "new": "寝",
+   "vote": 2,
+   "got_old": 11,
+   "all_votes": [
+    [
+     "寝",
+     2
+    ],
+    [
+     "廃",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "沒",
+   "new": "没",
+   "vote": 3,
+   "got_old": 11,
+   "all_votes": [
+    [
+     "没",
+     3
+    ]
+   ]
+  },
+  {
+   "old": "辯",
+   "new": "弁",
+   "vote": 4,
+   "got_old": 11,
+   "all_votes": [
+    [
+     "弁",
+     4
+    ]
+   ]
+  },
+  {
+   "old": "囘",
+   "new": "回",
+   "vote": 2,
+   "got_old": 10,
+   "all_votes": [
+    [
+     "回",
+     2
+    ]
+   ]
+  },
+  {
+   "old": "卷",
+   "new": "巻",
+   "vote": 2,
+   "got_old": 10,
+   "all_votes": [
+    [
+     "巻",
+     2
+    ],
+    [
+     "耳",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "靜",
+   "new": "静",
+   "vote": 1,
+   "got_old": 10,
+   "all_votes": [
+    [
+     "静",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "勸",
+   "new": "勧",
+   "vote": 2,
+   "got_old": 10,
+   "all_votes": [
+    [
+     "勧",
+     2
+    ],
+    [
+     "擻",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "溪",
+   "new": "渓",
+   "vote": 2,
+   "got_old": 9,
+   "all_votes": [
+    [
+     "渓",
+     2
+    ]
+   ]
+  },
+  {
+   "old": "鷄",
+   "new": "鶏",
+   "vote": 1,
+   "got_old": 9,
+   "all_votes": [
+    [
+     "鶏",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "盜",
+   "new": "盗",
+   "vote": 1,
+   "got_old": 9,
+   "all_votes": [
+    [
+     "盗",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "獵",
+   "new": "猟",
+   "vote": 1,
+   "got_old": 8,
+   "all_votes": [
+    [
+     "猟",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "戲",
+   "new": "戯",
+   "vote": 1,
+   "got_old": 8,
+   "all_votes": [
+    [
+     "戯",
+     1
+    ],
+    [
+     "於",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "卻",
+   "new": null,
+   "vote": 0,
+   "got_old": 8,
+   "all_votes": []
+  },
+  {
+   "old": "儉",
+   "new": "倹",
+   "vote": 2,
+   "got_old": 8,
+   "all_votes": [
+    [
+     "倹",
+     2
+    ]
+   ]
+  },
+  {
+   "old": "雜",
+   "new": "雑",
+   "vote": 3,
+   "got_old": 8,
+   "all_votes": [
+    [
+     "雑",
+     3
+    ]
+   ]
+  },
+  {
+   "old": "聰",
+   "new": null,
+   "vote": 0,
+   "got_old": 8,
+   "all_votes": []
+  },
+  {
+   "old": "壯",
+   "new": "壮",
+   "vote": 2,
+   "got_old": 7,
+   "all_votes": [
+    [
+     "壮",
+     2
+    ]
+   ]
+  },
+  {
+   "old": "總",
+   "new": "総",
+   "vote": 2,
+   "got_old": 7,
+   "all_votes": [
+    [
+     "総",
+     2
+    ]
+   ]
+  },
+  {
+   "old": "徑",
+   "new": "径",
+   "vote": 3,
+   "got_old": 7,
+   "all_votes": [
+    [
+     "径",
+     3
+    ]
+   ]
+  },
+  {
+   "old": "峯",
+   "new": "峰",
+   "vote": 2,
+   "got_old": 7,
+   "all_votes": [
+    [
+     "峰",
+     2
+    ]
+   ]
+  },
+  {
+   "old": "悅",
+   "new": "悦",
+   "vote": 1,
+   "got_old": 7,
+   "all_votes": [
+    [
+     "悦",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "壽",
+   "new": "寿",
+   "vote": 1,
+   "got_old": 7,
+   "all_votes": [
+    [
+     "寿",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "竝",
+   "new": "並",
+   "vote": 1,
+   "got_old": 6,
+   "all_votes": [
+    [
+     "並",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "壞",
+   "new": null,
+   "vote": 0,
+   "got_old": 6,
+   "all_votes": []
+  },
+  {
+   "old": "辨",
+   "new": "弁",
+   "vote": 3,
+   "got_old": 6,
+   "all_votes": [
+    [
+     "弁",
+     3
+    ]
+   ]
+  },
+  {
+   "old": "巖",
+   "new": "巌",
+   "vote": 2,
+   "got_old": 6,
+   "all_votes": [
+    [
+     "巌",
+     2
+    ]
+   ]
+  },
+  {
+   "old": "驅",
+   "new": "為",
+   "vote": 1,
+   "got_old": 6,
+   "all_votes": [
+    [
+     "為",
+     1
+    ],
+    [
+     "駆",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "淚",
+   "new": "涙",
+   "vote": 1,
+   "got_old": 5,
+   "all_votes": [
+    [
+     "涙",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "禪",
+   "new": null,
+   "vote": 0,
+   "got_old": 5,
+   "all_votes": []
+  },
+  {
+   "old": "晝",
+   "new": "昼",
+   "vote": 1,
+   "got_old": 5,
+   "all_votes": [
+    [
+     "昼",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "戶",
+   "new": null,
+   "vote": 0,
+   "got_old": 5,
+   "all_votes": []
+  },
+  {
+   "old": "巢",
+   "new": null,
+   "vote": 0,
+   "got_old": 5,
+   "all_votes": []
+  },
+  {
+   "old": "收",
+   "new": "収",
+   "vote": 2,
+   "got_old": 5,
+   "all_votes": [
+    [
+     "収",
+     2
+    ]
+   ]
+  },
+  {
+   "old": "豫",
+   "new": "予",
+   "vote": 1,
+   "got_old": 4,
+   "all_votes": [
+    [
+     "予",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "齋",
+   "new": null,
+   "vote": 0,
+   "got_old": 4,
+   "all_votes": []
+  },
+  {
+   "old": "爐",
+   "new": "炉",
+   "vote": 1,
+   "got_old": 4,
+   "all_votes": [
+    [
+     "炉",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "彈",
+   "new": "弾",
+   "vote": 2,
+   "got_old": 4,
+   "all_votes": [
+    [
+     "弾",
+     2
+    ]
+   ]
+  },
+  {
+   "old": "覽",
+   "new": null,
+   "vote": 0,
+   "got_old": 4,
+   "all_votes": []
+  },
+  {
+   "old": "緣",
+   "new": "縁",
+   "vote": 1,
+   "got_old": 4,
+   "all_votes": [
+    [
+     "縁",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "墮",
+   "new": "堕",
+   "vote": 1,
+   "got_old": 4,
+   "all_votes": [
+    [
+     "堕",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "卽",
+   "new": "即",
+   "vote": 1,
+   "got_old": 4,
+   "all_votes": [
+    [
+     "即",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "淺",
+   "new": "浅",
+   "vote": 1,
+   "got_old": 4,
+   "all_votes": [
+    [
+     "浅",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "兔",
+   "new": "兎",
+   "vote": 1,
+   "got_old": 4,
+   "all_votes": [
+    [
+     "兎",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "賴",
+   "new": "頼",
+   "vote": 1,
+   "got_old": 4,
+   "all_votes": [
+    [
+     "頼",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "歡",
+   "new": null,
+   "vote": 0,
+   "got_old": 4,
+   "all_votes": []
+  },
+  {
+   "old": "效",
+   "new": "効",
+   "vote": 1,
+   "got_old": 4,
+   "all_votes": [
+    [
+     "効",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "淸",
+   "new": "清",
+   "vote": 2,
+   "got_old": 4,
+   "all_votes": [
+    [
+     "清",
+     2
+    ]
+   ]
+  },
+  {
+   "old": "假",
+   "new": "仮",
+   "vote": 3,
+   "got_old": 4,
+   "all_votes": [
+    [
+     "仮",
+     3
+    ]
+   ]
+  },
+  {
+   "old": "麥",
+   "new": null,
+   "vote": 0,
+   "got_old": 4,
+   "all_votes": []
+  },
+  {
+   "old": "攝",
+   "new": "摂",
+   "vote": 3,
+   "got_old": 4,
+   "all_votes": [
+    [
+     "摂",
+     3
+    ]
+   ]
+  },
+  {
+   "old": "襢",
+   "new": null,
+   "vote": 0,
+   "got_old": 3,
+   "all_votes": []
+  },
+  {
+   "old": "鑒",
+   "new": null,
+   "vote": 0,
+   "got_old": 3,
+   "all_votes": []
+  },
+  {
+   "old": "鎭",
+   "new": "鎮",
+   "vote": 1,
+   "got_old": 3,
+   "all_votes": [
+    [
+     "鎮",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "薰",
+   "new": "薫",
+   "vote": 1,
+   "got_old": 3,
+   "all_votes": [
+    [
+     "薫",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "險",
+   "new": "険",
+   "vote": 1,
+   "got_old": 3,
+   "all_votes": [
+    [
+     "険",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "濕",
+   "new": null,
+   "vote": 0,
+   "got_old": 3,
+   "all_votes": []
+  },
+  {
+   "old": "壤",
+   "new": "壌",
+   "vote": 1,
+   "got_old": 3,
+   "all_votes": [
+    [
+     "壌",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "絕",
+   "new": "絶",
+   "vote": 2,
+   "got_old": 3,
+   "all_votes": [
+    [
+     "絶",
+     2
+    ]
+   ]
+  },
+  {
+   "old": "歷",
+   "new": null,
+   "vote": 0,
+   "got_old": 3,
+   "all_votes": []
+  },
+  {
+   "old": "劒",
+   "new": "剣",
+   "vote": 3,
+   "got_old": 3,
+   "all_votes": [
+    [
+     "剣",
+     3
+    ]
+   ]
+  },
+  {
+   "old": "貳",
+   "new": null,
+   "vote": 0,
+   "got_old": 3,
+   "all_votes": []
+  },
+  {
+   "old": "攜",
+   "new": "携",
+   "vote": 1,
+   "got_old": 3,
+   "all_votes": [
+    [
+     "携",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "增",
+   "new": "増",
+   "vote": 1,
+   "got_old": 3,
+   "all_votes": [
+    [
+     "増",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "彥",
+   "new": "彦",
+   "vote": 1,
+   "got_old": 2,
+   "all_votes": [
+    [
+     "彦",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "曆",
+   "new": null,
+   "vote": 0,
+   "got_old": 2,
+   "all_votes": []
+  },
+  {
+   "old": "驗",
+   "new": null,
+   "vote": 0,
+   "got_old": 2,
+   "all_votes": []
+  },
+  {
+   "old": "螢",
+   "new": null,
+   "vote": 0,
+   "got_old": 2,
+   "all_votes": []
+  },
+  {
+   "old": "黑",
+   "new": "黒",
+   "vote": 1,
+   "got_old": 2,
+   "all_votes": [
+    [
+     "黒",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "絲",
+   "new": null,
+   "vote": 0,
+   "got_old": 2,
+   "all_votes": []
+  },
+  {
+   "old": "荆",
+   "new": null,
+   "vote": 0,
+   "got_old": 2,
+   "all_votes": []
+  },
+  {
+   "old": "潛",
+   "new": "潜",
+   "vote": 1,
+   "got_old": 2,
+   "all_votes": [
+    [
+     "潜",
+     1
+    ],
+    [
+     "躍",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "鬪",
+   "new": null,
+   "vote": 0,
+   "got_old": 2,
+   "all_votes": []
+  },
+  {
+   "old": "寫",
+   "new": "写",
+   "vote": 2,
+   "got_old": 2,
+   "all_votes": [
+    [
+     "写",
+     2
+    ]
+   ]
+  },
+  {
+   "old": "壓",
+   "new": "圧",
+   "vote": 2,
+   "got_old": 2,
+   "all_votes": [
+    [
+     "圧",
+     2
+    ]
+   ]
+  },
+  {
+   "old": "艷",
+   "new": "艶",
+   "vote": 1,
+   "got_old": 2,
+   "all_votes": [
+    [
+     "艶",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "窻",
+   "new": null,
+   "vote": 0,
+   "got_old": 2,
+   "all_votes": []
+  },
+  {
+   "old": "拔",
+   "new": "抜",
+   "vote": 2,
+   "got_old": 2,
+   "all_votes": [
+    [
+     "抜",
+     2
+    ]
+   ]
+  },
+  {
+   "old": "皋",
+   "new": null,
+   "vote": 0,
+   "got_old": 2,
+   "all_votes": []
+  },
+  {
+   "old": "尙",
+   "new": "尚",
+   "vote": 1,
+   "got_old": 2,
+   "all_votes": [
+    [
+     "尚",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "齡",
+   "new": "齢",
+   "vote": 1,
+   "got_old": 2,
+   "all_votes": [
+    [
+     "齢",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "辦",
+   "new": null,
+   "vote": 0,
+   "got_old": 2,
+   "all_votes": []
+  },
+  {
+   "old": "據",
+   "new": "拠",
+   "vote": 1,
+   "got_old": 2,
+   "all_votes": [
+    [
+     "拠",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "碎",
+   "new": "砕",
+   "vote": 1,
+   "got_old": 2,
+   "all_votes": [
+    [
+     "砕",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "單",
+   "new": null,
+   "vote": 0,
+   "got_old": 2,
+   "all_votes": []
+  },
+  {
+   "old": "每",
+   "new": null,
+   "vote": 0,
+   "got_old": 2,
+   "all_votes": []
+  },
+  {
+   "old": "嶽",
+   "new": "岳",
+   "vote": 1,
+   "got_old": 2,
+   "all_votes": [
+    [
+     "岳",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "戾",
+   "new": null,
+   "vote": 0,
+   "got_old": 2,
+   "all_votes": []
+  },
+  {
+   "old": "搜",
+   "new": "捜",
+   "vote": 2,
+   "got_old": 2,
+   "all_votes": [
+    [
+     "捜",
+     2
+    ]
+   ]
+  },
+  {
+   "old": "奧",
+   "new": null,
+   "vote": 0,
+   "got_old": 2,
+   "all_votes": []
+  },
+  {
+   "old": "僞",
+   "new": "偽",
+   "vote": 1,
+   "got_old": 2,
+   "all_votes": [
+    [
+     "偽",
+     1
+    ]
+   ]
+  },
+  {
+   "old": "戀",
+   "new": null,
+   "vote": 0,
+   "got_old": 2,
+   "all_votes": []
+  }
+ ],
+ "kana_probe": {
+  "けだし": {
+   "got": 23,
+   "exp": 0,
+   "guard": "蓋",
+   "guard_hit_rows": 22
+  },
+  "すなわち": {
+   "got": 0,
+   "exp": 0,
+   "guard": "即",
+   "guard_hit_rows": 0
+  },
+  "なほ": {
+   "got": 0,
+   "exp": 0,
+   "guard": "猶",
+   "guard_hit_rows": 0
+  },
+  "ゆゑに": {
+   "got": 0,
+   "exp": 0,
+   "guard": "故",
+   "guard_hit_rows": 0
+  },
+  "ゆえに": {
+   "got": 0,
+   "exp": 1,
+   "guard": "故",
+   "guard_hit_rows": 0
+  },
+  "いずくんぞ": {
+   "got": 52,
+   "exp": 0,
+   "guard": "焉",
+   "guard_hit_rows": 31
+  },
+  "もし": {
+   "got": 46,
+   "exp": 0,
+   "guard": "如",
+   "guard_hit_rows": 22
+  },
+  "それ": {
+   "got": 72,
+   "exp": 0,
+   "guard": "夫",
+   "guard_hit_rows": 45
+  },
+  "なかれ": {
+   "got": 96,
+   "exp": 0,
+   "guard": "毋",
+   "guard_hit_rows": 10
+  },
+  "ことなかれ": {
+   "got": 88,
+   "exp": 0,
+   "guard": "莫",
+   "guard_hit_rows": 49
+  },
+  "のみ": {
+   "got": 86,
+   "exp": 96,
+   "guard": "只",
+   "guard_hit_rows": 0
+  },
+  "ただ": {
+   "got": 25,
+   "exp": 0,
+   "guard": "惟",
+   "guard_hit_rows": 14
+  }
+ }
+}
