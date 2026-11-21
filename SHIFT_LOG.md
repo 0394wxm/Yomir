@@ -816,3 +816,5 @@ pytest **193→196**（+3 test_golden_7908）；accept62：提交前 --no-pytest
 repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 待拍板新增 **⑯ 第二语源**（kanbun.info 枯竭后扩到 10000 的唯一路径）、
 **⑰ paren 对 257 条是否启用**（N57 质量约定变更，重抓已见页可再收 ~600-700）。
+
+| 2026-11-21 15:45 | [QA会话] 收尾：主会话 wrap-up 核验通过（7da8fbb 数据提交 + c716e41 报告提交；accept62 FAIL→PASS 15:38:38、pytest 196、h2h gmap bug 已修重跑且数字与 QA 复算逐字节一致）。QA 全部审计项 PASS（golden 前缀/唯一性/paren 零混入、双归档确定性 diff=0、现场抽查 47/47 MATCH）。REPORT_NIGHT62_QA.md 入库；移交：paren 257 对拍板、3 个探针脚本未随 wrap-up 提交、應 KeyError 第3例 zasshi-2 强化⑬、shibu02 259 行长句缓解⑮。QA 即停。 |
