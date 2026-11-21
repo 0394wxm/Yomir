@@ -1,0 +1,45 @@
+{
+  "total": 8165,
+  "base": 7908,
+  "new": 257,
+  "paren_source_total": 257,
+  "paren_enabled": 257,
+  "uniq_hakubun": 8140,
+  "by_bucket": {
+    "≤20字": 6329,
+    "21-40字": 920,
+    ">60字": 521,
+    "41-60字": 395
+  },
+  "by_genre": {
+    "故事": 1339,
+    "論語": 368,
+    "大学": 189,
+    "孝経": 147,
+    "詩経": 102,
+    "漢詩": 4409,
+    "その他": 1611
+  },
+  "new_by_bucket": {
+    "21-40字": 17,
+    ">60字": 228,
+    "41-60字": 12
+  },
+  "new_by_genre": {
+    "漢詩": 24,
+    "その他": 222,
+    "故事": 5,
+    "論語": 6
+  },
+  "new_by_section": {
+    "syubu": 24,
+    "shibu02": 168,
+    "syubu02": 23,
+    "shibu01": 31,
+    "koji": 5,
+    "keibu": 6
+  },
+  "skipped": {},
+  "prefix_bytes_identical": "LF 归一后逐字节一致（工作树 CRLF 为 autocrlf checkout 产物，git blob 为 LF）",
+  "decision": "N67⑲：启用 N62 标记未启用的 257 个 paren 对（expected 一字不改、前缀 7908 硬断言不变、文件按实数命名）"
+}

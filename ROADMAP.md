@@ -108,3 +108,5 @@ README.md 还停在 v0.1（Night 3 时代）：写的 pytest 14 条 / 评测 200
 5. 定价三档是否按 ¥980/月锚点走（Night 20 门禁）。
 
 没拍板的事，agent 一律跳过并写进报告，不要自己替用户定。
+
+- 状态: CLOSED — ⑩「應→応 白文预处理」否决结案（Night 67，零代码改动）：Night 59 实证 no-op（18 行含應白文逐字节不变、error 照旧——lemma 归一到應，AUX 查键照样缺）；真正缺的是 udkundoku AUX 活用表条目，已由 ⑬ backend runtime 补丁修复（golden_4000 error 2→0）。

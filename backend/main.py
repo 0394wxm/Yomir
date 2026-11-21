@@ -141,6 +141,12 @@ def _load_engine():
         return
     import udkundoku  # import 时会找 unidic2ud/download/qkana（见 tools/make_qkana_shim.py）
 
+    # N67⑬：udkundoku AUX 活用表 25 键中「v,助動詞,必要」组只有 儀/宜/須、缺 應
+    # （N59 实证：缺键 = 任何含助動詞「應」的输入整条 500/KeyError('應,v,助動詞,必要,*')）。
+    # runtime 补 1 条（值照抄同 xpos 的須），幂等；site-packages 一行不动。
+    import udkundoku.auxiliary as _aux_mod
+    _aux_mod.AUX["應,v,助動詞,必要,*"] = _aux_mod.AUX["須,v,助動詞,必要,*"]
+
     ENGINE = udkundoku.load(MeCab=True, Danku=False)
     # 预热一次，避免首个请求慢
     ENGINE("王顧左右而言他")

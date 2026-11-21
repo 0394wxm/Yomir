@@ -63,6 +63,9 @@ NIGHT_ARTIFACTS = {
     31: ["night31_results_full.json", "night31_results_rongo.json"],
     32: ["night32_results_rongo.json"],
     34: ["night34_results_parallel.json"],
+    # Night 67：默认评测口径 = golden_4000（⑬ AUX 补丁后全量重跑的归档）。
+    # golden_7908 / golden_8165 是扩充归档，不登记为默认口径。
+    67: ["night67_results_4000.json"],
     # Night 44 的产物（night44_*.json）是版面过滤的对照分析，不是 golden 格式的
     # 评测结果（无 results[].id），登记进 eval_integrity 会 KeyError；
     # 它们由 tests/test_ocr_night44.py 的 7 条不变式测试守护。
