@@ -1,0 +1,30 @@
+INFO:kanbun:udkundoku engine loaded
+INFO:kanbun:ocr available: True
+INFO:httpx2:HTTP Request: GET http://testserver/health "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: POST http://testserver/api/kundoku "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: POST http://testserver/api/kundoku "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: POST http://testserver/api/kundoku "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: POST http://testserver/api/kundoku "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: POST http://testserver/api/kundoku "HTTP/1.1 400 Bad Request"
+=== accept_night.py  Night 79  ===
+[PASS] repo_clean         git 工作区干净
+        - 已跟踪文件无改动
+        - 未跟踪：.night72_deps/, eval/accept79_run.txt, eval/night74_dict_cache/, eval/night79_dict_cache/, eval/night79_ruby_cache/
+[PASS] pytest             tests 全量通过
+        - 363 passed = 363 collected（29.0s，收集 7.9s）
+[PASS] eval_integrity     评测归档完整、id 唯一、expected 未被改
+        - golden_2000 2000 条、id 唯一、前 1000 条与 golden_1000 逐字段一致
+        - 检查 1 个归档，id 唯一、自报数一致、expected 未改
+[PASS] rule_regression    已撤销规则未复活 / 规则表未破坏
+        - Rule C' 护栏正常（顧みて留/て而して删）；ふ→う/は曰く 正常；正字化幂等；合并词表 21 条
+[PASS] engine_smoke       引擎实际可用（3 句 + 分流 + 400）
+        - 健康检查/经典句/合并/正字化/假名分流/空输入 全部符合约定
+[PASS] perf_envelope      单句训读耗时在包络内
+        - 短句中位 16ms（包络 3000ms）
+[PASS] order_rate         割注右先率（只测量，不判死刑）
+        - off 右先率 481/488 = 98.57%（基线 98.57%，差 +0.00pp）；严格层 296/296 = 100.00%；退化页 0
+        - on 右先率 503/510 = 98.63%（基线 98.63%，差 +0.00pp）；严格层 293/293 = 100.00%；退化页 0
+        - **只测量不判死刑**：阈值需用户拍板后才能转成 FAIL 判据
+
+verdict: PASS  (fail=0 skip=0, 57.0s)
+json: eval\accept_night_79.json

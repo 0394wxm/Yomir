@@ -878,3 +878,4 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 [2026-11-23T01:21 N79] batch8 (rank400-449) judged: include 40 / exclude 10 (freq5 zone cleaner). Totals: include 293 / exclude 153 / processed 450/503. Final batch (450-502) fetching.
 [2026-11-23T01:25 N79] all 503 candidates judged: include 321 / exclude 178 / remaining 0. Final build: extra2 = 321 entries (500->821 total). Next: tests, eval_4000, accept, report, commit.
 [2026-11-23T01:32 N79] final counts correction: build-validated include 324 / exclude 179 (503 total), not 321/178 as logged in batch lines - report has authoritative numbers. tests 363 passed, golden_4000 bit-exact 13.517/24/0, eval archive written. accept 79 next.
+[2026-11-23T01:35 N79] accept 79 PASS (fail=0 skip=0, 57.0s): pytest 363=363, eval_integrity PASS with night79_results_4000.json (bit-exact vs night77 13.517/24/0), all 7 gates green. REPORT section-4 filled with final numbers. Wrap-up commit next; no merge to master, no push.

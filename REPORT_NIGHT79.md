@@ -89,7 +89,9 @@ tests/test_night75/77 有 `assert len(GLOSSARY_LEXICON) == 500`（不可改文�
 - pytest 全套：开工 351 passed；N79 新增 tests/test_night79_lexicon_expand.py **12 条**（格式/总数 824/双证据全量断言/排除不在文件/N76 缺口/find_in_lexicon2 真语料命中/本体 matcher 不可见 extra2/llm.glossary 离线命中/规则引擎零变化）；全套复跑 **363 passed** ✓
 - golden_4000 全量真跑（tools/night79_eval_4000.py，154s）：**engine OK 4000／error 0／exact 24／avgDist 13.517，与 night77 归档输出不一致 0 行** → eval/night79_results_4000.json 归档 ✓（词库不进规则引擎的位级实证）
 - README 三处「文語 500 語」→「824 語」＋extra2 文件名同步；ROADMAP 末尾一行 ✓
-- `python tools/accept_night.py 79`：NIGHT_ARTIFACTS 加 `79: ["night79_results_4000.json"]`（照 67/68/70/72/73/75/77 式），结果见 ACCEPT_LOG.md 一行（wrap-up 时补 PASS 数值）
+- `python tools/accept_night.py 79`（主提交 1d68033 之后跑）：**PASS（fail=0 skip=0，57.0s）**
+  - 七门全过：repo_clean（untracked 仅缓存目录＋运行日志，N72/N74 先例）／pytest **363 passed = 363 collected**／eval_integrity（night79_results_4000.json 4000 条、id 唯一、expected 一致）／rule_regression／engine_smoke／perf_envelope／order_rate（off 98.57% on 98.63%，基线差 +0.00pp）
+  - 首跑一次 FAIL 是 cmd 分隔符坑（`;` 未被解释成命令分隔符，python 收到多余参数退出 2）——非验收门失败，重跑即 PASS，过程在 eval/accept79_run.txt
 
 ## 5. 交付与提交
 
