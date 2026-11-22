@@ -56,6 +56,7 @@ NIGHT_ARTIFACTS = {
     21: ["night21_results_full.json", "night21_results_full_v4.json",
          "night21_results_full_v4_500.json"],
     75: ["night75_results_4000.json"],
+    77: ["night77_results_4000.json"],
     22: ["night22_results_full.json"],
     23: ["night23_results_rongo.json"],
     26: ["night26_results_full.json"],
