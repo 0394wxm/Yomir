@@ -1,0 +1,31 @@
+######## 国中 : corpus lines=4
+  kanwomo-1 (https://kanbun.info/koji/kanwomo.html): 212 ruby pairs
+    中=ちゅう
+    中=ちゅう
+    国=こく
+    中=ちゅう
+    中=ちゅう
+    中=ちゅう
+    中=ちゅう
+  sannen-1 (https://kanbun.info/koji/sannen.html): 244 ruby pairs
+    国=こく
+    中=ちゅう
+    国=こく
+    中=ちゅう
+    国中=こくちゅう
+    国人=こくじん
+  shiba02-6 (https://kanbun.info/shibu02/shiba02.html): 735 ruby pairs
+    国容=こくよう
+    国=くに
+    国=くに
+    中=じゅう
+    国=くに
+    中=じゅう
+    中=ちゅう
+    国容=こくよう
+    国=くに
+    国=くに
+    国容=こくよう
+    国=くに
+
+weblio batch progress: 512
