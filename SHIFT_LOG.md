@@ -894,3 +894,4 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 | 2026-11-23 03:43 | N71 心跳（看门狗）：阶段=管线②-5 verify 阶段；墨場导入 [done] ok=导入中（p0/582）；gwb 进度 8100/8165 avg 26.09；byte807=243。 |
 | 2026-11-23 03:48 | Night 71 ③完成：guwenbert 全量 8165 条 OK 8165 / error 0 / exact 20 / avgDist 30.872，总耗时 211.8 分钟；归档 night71_guwenbert_8165.json。 |
 | 2026-11-23 03:48 | N71③完成：guwenbert 全量 8165（OK 8165/error 0/exact 20/avgDist 30.872/总耗时 211.8 分钟）；h2h 全量：规则更好 3221／gwb 更好 2635／平 2309，规则 avgDist 14.632 vs gwb 30.872。管线全部结束。 |
+| 2026-11-23 03:57 | Night 71 收尾：④验收完成——pytest 260 passed；accept 71 PASS（fail=0 skip=0，首跑 repo_clean FAIL=watchdog_log 心跳增量、停看门狗丢弃增量后重跑 PASS，ACCEPT_LOG 两条如实留痕）；verify 5 本重跑全 exit 0。主提交 24f6af4；wrap-up 提交（REPORT＋SHIFT_LOG＋ACCEPT_LOG＋accept_night_71.json）后 rev-list ad18f20..HEAD=2；不推远程。看门狗已停（心跳使命随管线结束）。 |
