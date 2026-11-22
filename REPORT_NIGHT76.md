@@ -83,10 +83,11 @@
 
 ## 4. 验收
 
-- pytest 全套复跑: **331 passed**（63.6s，与开工一致）✓
-- `python tools/accept_night.py 76`: **PASS（fail=0，skip=1）**
-  - skip＝**eval_integrity**：Night 76 是 report-only 夜，**没有新评测归档可登记**（本夜不跑全量评测、只出词库结论），验收门自动跳过、只校验 golden.json——与 N69/N74 同款情形，**不是未登记的疏漏**。
+- pytest 全量两次: 开工 **331 passed**（63.6s）✓；accept 门内复跑 **331 passed = 331 collected**（107.4s）✓
+- `python tools/accept_night.py 76`（主提交 7455d9b 之后跑）: **PASS（fail=0，skip=1，223.1s）**
+  - skip＝**eval_integrity**：Night 76 是 report-only 夜，**没有新评测归档可登记**（本夜不跑全量评测、只出词库结论），验收门自动跳过、只校验 golden.json（golden_2000 2000 条、id 唯一、前 1000 条与 golden_1000 逐字段一致）——与 N69/N74 同款情形，**不是未登记的疏漏**。
   - repo_clean：SHIFT_LOG.md / ROADMAP.md / 新工具与 eval 产物随主提交入库；验收门自身产物（ACCEPT_LOG.md、eval/accept_night_76.json）按门内规则不计脏。
+  - 其余五门：rule_regression / engine_smoke / perf_envelope / order_rate 全 PASS（order_rate off 98.57% on 98.63% 与基线差 +0.00pp）。
 - backend diff：0 行（`git diff night75-lexicon-fix -- backend/` 为空）。README 未动（词库仍 500）。
 - 详细数字见 ACCEPT_LOG.md 一行与 eval/accept_night_76.json。
 
