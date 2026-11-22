@@ -1,0 +1,4 @@
+golden_8165 8165 lines | existing lexicon words 824
+zone 3-4 nonexisting=966 (pre_exclude 53) | kkd-attested in top=451
+rank500 freq=3 | written D:\kanbun-rulel\eval\night80_candidates.json (500 candidates)
+top15: 一夫:4, 一曲:4, 七年:4, 万戸:4, 三十:4, 三者:4, 上曰:4, 中国:4, 中峰:4, 中流:4, 之有:4, 九月:4, 九重:4, 乾坤:4, 事有:4
