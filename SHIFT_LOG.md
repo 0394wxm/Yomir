@@ -850,3 +850,9 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 [2026-11-22T13:28 N73] Gate done: Rule M 8 rules accepted (nakare-butsukare/soku/aruiwa/yuki/hasore/nanigotoshi/nanigotoku/moshi), combo 167 rows 139 better 0 worse delta-0.037 idempotent0; 9 rejections archived incl chin->jin 30worse, beki 6, mokare 1(kokyo09-5). Next: implement + tests.
 [2026-11-22T13:58 N73] Real run PASS: golden_4000 avg13.517 exact24 rewrite65 both-way-0-diff, golden_8165 avg14.546 exact30 rewrite167 both-way-0-diff, worsened 0, error 0. Archive night73_results_4000/8165.json written. Next: README+verify+accept.
 [2026-11-22T14:12 N73] Wrap-up: accept73 PASS fail=0 skip=0 (140.8s), verify 17/17, README header hash d338b21, REPORT_NIGHT73.md written, sources2 negative. Final commit next.
+[2026-11-22T21:43 N78] Night 78 start: branch night78-rulen @ 807ad7d, pytest baseline running
+[2026-11-22T21:47 N78] pytest baseline 307 passed (taskbook said 283 = stale N72 number; 307 = 283+24 N73 M tests, matches N73 report/accept at 807ad7d) - proceed with mining
+[2026-11-22T22:22 N78] sim gate done: Rule N 13 rules accepted (koto-na family 5 + modern-adverb family 8), all 0 worse, combo 97 rows better 85 / worse 0, idempotent bad 0, 4000 13.517->13.495, 8165 14.546->14.526; koto_full umbrella reproduced N73 death row kokyo09-5 as predicted
+[2026-11-22T22:37 N78] mokaku research done: post-N nakare->mokare target 16 rows (12 better/3 same/1 worse = kokyo09-5 only), Mo+da co-occurrence discriminator falsified (kowokaete-4 positive), revival needs exclusion guard or kanji->kanji mechanism - eval/night78_mokaku.md
+[2026-11-22T22:44 N78] real run bit-exact both calibers: 4000 rewrite 55=pred 55 (13.517->13.495 exact 24 worse 0), 8165 rewrite 97=pred 97 (14.546->14.526 exact 30 worse 0), in-process determinism OK
+[2026-11-22T22:47 N78] heartbeat auto (+1h)
