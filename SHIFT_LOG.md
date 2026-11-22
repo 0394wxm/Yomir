@@ -846,3 +846,6 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 [2026-11-22T12:06 N72] Rule L 上线: L_KANA_TO_KANJI 9条+链尾接K; tests/test_night72_rule_l.py 23项; 全量 pytest 283 passed(260+23); TestClient 真跑后台启动
 [2026-11-22T12:24 N72] 真跑双口径与模拟逐位一致: golden_4000 avgDist 13.584→13.544/exact24/改写114(双向0差)/改善110/变差0; golden_8165 14.632→14.583/30/244/239/0; verify 15/15 exit0; ROADMAP/README 数字行更新完
 [2026-11-22T12:36 N72] 收尾: accept 72 终跑 PASS fail=0 skip=0(pytest 283=283, eval_integrity 实查, order_rate 98.57/98.63 零退化); README 表头已写主提交 1327089; REPORT_NIGHT72.md 完成; wrap-up 提交后停
+[2026-11-22T13:01 N73] Night73 start: branch night73-rulem from night72-rulel, HEAD=5e54265, pytest 283 passed, tree clean (only untracked .night72_deps). Reading N72/N70 reports + mining setup.
+[2026-11-22T13:28 N73] Gate done: Rule M 8 rules accepted (nakare-butsukare/soku/aruiwa/yuki/hasore/nanigotoshi/nanigotoku/moshi), combo 167 rows 139 better 0 worse delta-0.037 idempotent0; 9 rejections archived incl chin->jin 30worse, beki 6, mokare 1(kokyo09-5). Next: implement + tests.
+[2026-11-22T13:58 N73] Real run PASS: golden_4000 avg13.517 exact24 rewrite65 both-way-0-diff, golden_8165 avg14.546 exact30 rewrite167 both-way-0-diff, worsened 0, error 0. Archive night73_results_4000/8165.json written. Next: README+verify+accept.

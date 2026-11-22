@@ -650,6 +650,51 @@ def style_kana_to_kanji_l(text: str, hakubun: str = "") -> str:
     return text
 
 
+M_KANA_TO_KANJI = [
+    # 禁止族 guard 分割（I 毋かれ の補完）：got に残る なかれ は白文 毋 無し行のみ
+    # （链不变式）。莫 行は exp 莫かれ/莫し 混在＋kokyo09-5 1 変差で不収（night73_sim）。
+    ("なかれ", "勿かれ", ("勿",)),           # exp 勿かれ 32/32；裸形 勿 21 変差・勿し 25 変差＝字形死
+    ("そく", "即ち", ("即", "卽")),           # exp 即ち 12/12 均一；守りは新旧両形并查（卽＝旧字体）
+    ("はあるいは", "或いは", ("或",)),         # got「はあるいは」＝余計な は 付き；短 key はある→或 と同効果、長 key 採用
+    ("ゆき", "之", ("之",)),                 # daigaku08 之其所… 系列 5 行のみ（got の ゆき は 5 行）
+    ("はそれ", "其れ", ("其",)),              # I それ→夫れ guard 夫 の分工；got「はそれ」＝は 副詞＋それ
+    ("何のごとし", "奈何", ("奈",)),          # J ごとし guard 如/若 の分工補完（guard 奈）
+    ("何のごとく", "奈何ぞ", ("奈",)),        # 同上（3 行・hezu −0.001 収録线）
+    ("もし", "若", ("若",)),                 # 裸形 repl＝exp 実書形（若、×2）＋共有字論証；若し は kyugyu-2 1 変差で拒
+]
+
+# Rule M 的词界护栏（与 E〜L 分开维护）。もし の長詞＝I 同款（本夜语料 0 行・
+# 未来语料の安全弁）；其余 probe/sim 実測无更长词冲突（そく＋後続假名 1 行
+# daigaku05-7 は変換で改善、マスク不要＝night73_sim）。
+M_LONGER_WORDS = {
+    "なかれ": (),
+    "そく": (),
+    "はあるいは": (),
+    "ゆき": (),
+    "はそれ": (),
+    "何のごとし": (),
+    "何のごとく": (),
+    "もし": ("もしも", "もしや", "もしか"),
+}
+
+
+def style_kana_to_kanji_m(text: str, hakubun: str = "") -> str:
+    """假名 → 汉字（第九批）＋禁止族 guard 分割。N73 Rule M。
+
+    与 E〜L 同构的两道护栏，用 M 自己的更长词表。guard=() は本系列なし
+    （無条件規則は不採用——陳→陣 は exp 側自書 39 回で 30 変差、拒案）。
+    なかれ→勿かれ は I 毋かれ と同構の guard 分割（勿）；もし→若 の repl は
+    裸形（exp 実書形＋共有字論証）。全 8 条＝night73_sim 单条 0 変差・
+    组合 167 行改善 139／変差 0／幂等 bad 0。
+    """
+    hb = re.sub(r"\s+", "", hakubun) if hakubun else ""
+    for kana, repl, guard in M_KANA_TO_KANJI:
+        if guard and hb and not any(g in hb for g in guard):
+            continue
+        text = _replace_word_boundary(text, kana, repl, M_LONGER_WORDS)
+    return text
+
+
 def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     """带白文上下文的规则总入口（D11 起后端实际调用这个）。
 
@@ -669,6 +714,7 @@ def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     t = style_kana_to_kanji_j(t, hakubun)   # N68 Rule J
     t = style_kana_to_kanji_k(t, hakubun)   # N70 Rule K
     t = style_kana_to_kanji_l(t, hakubun)   # N72 Rule L
+    t = style_kana_to_kanji_m(t, hakubun)   # N73 Rule M
     return t
 
 # ---------------------------------------------------------------------------
