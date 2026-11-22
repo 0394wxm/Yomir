@@ -850,3 +850,12 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 [2026-11-22T13:28 N73] Gate done: Rule M 8 rules accepted (nakare-butsukare/soku/aruiwa/yuki/hasore/nanigotoshi/nanigotoku/moshi), combo 167 rows 139 better 0 worse delta-0.037 idempotent0; 9 rejections archived incl chin->jin 30worse, beki 6, mokare 1(kokyo09-5). Next: implement + tests.
 [2026-11-22T13:58 N73] Real run PASS: golden_4000 avg13.517 exact24 rewrite65 both-way-0-diff, golden_8165 avg14.546 exact30 rewrite167 both-way-0-diff, worsened 0, error 0. Archive night73_results_4000/8165.json written. Next: README+verify+accept.
 [2026-11-22T14:12 N73] Wrap-up: accept73 PASS fail=0 skip=0 (140.8s), verify 17/17, README header hash d338b21, REPORT_NIGHT73.md written, sources2 negative. Final commit next.
+[2026-11-22T14:38 N74] Night74 start (report-only audit): branch night74-lexicon from night73-rulem, HEAD=807ad7d, tree clean (only untracked .night72_deps), zero contact with D:\kanbun-kakikudashi (N71).
+[2026-11-22T14:38 N74] pytest full suite: 306 passed / 1 failed (test_ocr_batch_progress.py::test_async_batch_progress_monotonic, timing-sensitive sampling under N71 CPU contention); same file rerun in isolation: 6 passed. Code untouched, recorded as-is; full-suite rerun scheduled at step 4.
+[2026-11-22T14:56 N74] lexicon proofreading: batch idx 0-9 done (OK=7 dubious=1 wrong=1). wrong: nochi-yomi ましてや->いわんや (Daijisen). source=www.weblio (kotobank 403 unreachable, goo timeout).
+[2026-11-22T15:11 N74] lexicon proofreading milestone: 100 entries judged (idx 0-99): OK=81 dubious=12 wrong=7. wrong so far: 7-kuonnya 14-96yokuhoboto(typo reading) 51-tari-conjugation 69-makisu(->botsu/matsu) 77-simuchite(->muchichite) 88-aitiiite(mangled) 91-taru-meaning(siboruno-yomi). Next: idx 100-199.
+[2026-11-22T15:31 N74] lexicon proofreading milestone: 200 entries judged (idx 0-199, verdict files 000-199). fetch running (~idx 220/500).
+[2026-11-22T15:38 N74] heartbeat alive (1/11)
+[2026-11-22T15:50 N74] lexicon proofreading milestone: 272 entries judged (idx 0-272, verdict files merged by script). wrong so far: 7,51,60,69(now dubious),77,88,91,114,126,137,178,182,204,212,174,178,135,85 => exact list from verdict JSONs. fetch ~272/500.
+[2026-11-22T16:38 N74] heartbeat alive (2/11)
+[2026-11-22T17:10 N74] lexicon proofreading complete: all 500 entries judged, merged into eval/night74_lexicon_audit.md (per-entry table + summary + top20). pytest full rerun next, then accept 74.
