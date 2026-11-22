@@ -68,6 +68,7 @@ NIGHT_ARTIFACTS = {
     67: ["night67_results_4000.json"],
     68: ["night68_results_4000.json"],
     70: ["night70_results_4000.json"],
+    72: ["night72_results_4000.json"],
     # Night 44 的产物（night44_*.json）是版面过滤的对照分析，不是 golden 格式的
     # 评测结果（无 results[].id），登记进 eval_integrity 会 KeyError；
     # 它们由 tests/test_ocr_night44.py 的 7 条不变式测试守护。
