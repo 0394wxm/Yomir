@@ -1,0 +1,82 @@
+=== 一朝一夕 in bun or kkd ===
+id=icchoisseki-1 src=https://kanbun.info/koji/icchoisseki.html
+  bun: 臣弑其君、子弑其父、非一朝一夕之故。
+  kkd: 臣にして其の君を弑し、子にして其の父を弑するは、一朝一夕の故に非ず。
+id=sekizen-2 src=https://kanbun.info/koji/sekizen.html
+  bun: 臣弑其君、子弑其父、非一朝一夕之故。其所由來者漸矣。由辯之不早辯也。易曰、履霜堅冰至。蓋言順也。
+  kkd: 臣にして其の君を弑し、子にして其の父を弑するは、一朝一夕の故に非ず。其の由りて来たる所の者は漸なり。之を弁じて早く弁ぜざるに由るなり。易に曰く、霜を履みて堅氷至る、と。蓋し順なるを言えるなり。
+  (shown 2)
+=== 凶 in bun ===
+id=gojippo-3 src=https://kanbun.info/koji/gojippo.html
+  bun: 河内凶、則移其民於河東、移其粟於河内。
+  kkd: 河内凶なれば、則ち其の民を河東に移し、其の粟を河内に移す。
+id=gojippo-4 src=https://kanbun.info/koji/gojippo.html
+  bun: 河東凶、亦然。
+  kkd: 河東凶なるも、亦た然り。
+id=omoi-1 src=https://kanbun.info/koji/omoi.html
+  bun: 噫亦要存亡吉凶、則居可知矣。知者觀其彖辭、則思過半矣。
+  kkd: 噫、亦た存亡吉凶を要するは、則ち居ながらにして知るべし。知者其の彖辞を観れば、則ち思い半ばに過ぎん。
+id=kyofuku-1 src=https://kanbun.info/koji/kyofuku.html
+  bun: 凶服者式之。式負版者。
+  kkd: 凶服の者には之に式す。負版の者に式す。
+id=rongo1016-1 src=https://kanbun.info/keibu/rongo1016.html
+  bun: 寢不尸。居不容。見齊衰者、雖狎必變。見冕者與瞽者、雖褻必以貌。凶服者式之。式負版者。有盛饌、必變色而作。迅雷風烈必變。
+  kkd: 寝ぬるに尸せず。居るに容づくらず。斉衰者を見れば、狎れたりと雖も必ず変ず。冕者と瞽者とを見れば、褻れたりと雖も必ず貌を以てす。凶服の者には之に式す。負版の者に式す。盛饌有れば、必ず色を変じて作つ。迅雷風烈には必ず変ず。
+id=kunshihahyo-1 src=https://kanbun.info/koji/kunshihahyo.html
+  bun: 上六、君子豹變、小人革面。征凶、居貞吉。
+  kkd: 上六、君子は豹変し、小人は革面す。征けば凶、貞しきに居れば吉。
+id=kokyo09-20 src=https://kanbun.info/keibu/kokyo09.html
+  bun: 不在於善、而皆在於凶徳。
+  kkd: 善に在らずして、皆凶徳に在り。
+id=roushi16-2 src=https://kanbun.info/shibu02/roushi16.html
+  bun: 歸根曰靜、是謂復命。復命曰常、知常曰明。不知常、妄作凶。
+  kkd: 根に帰るを静と曰い、是を命に復ると謂う。命に復るを常と曰い、常を知るを明と曰う。常を知らざれば、妄りに作して凶なり。
+  (shown 8)
+=== 凶 in kkd ===
+id=gojippo-3 src=https://kanbun.info/koji/gojippo.html
+  bun: 河内凶、則移其民於河東、移其粟於河内。
+  kkd: 河内凶なれば、則ち其の民を河東に移し、其の粟を河内に移す。
+id=gojippo-4 src=https://kanbun.info/koji/gojippo.html
+  bun: 河東凶、亦然。
+  kkd: 河東凶なるも、亦た然り。
+id=omoi-1 src=https://kanbun.info/koji/omoi.html
+  bun: 噫亦要存亡吉凶、則居可知矣。知者觀其彖辭、則思過半矣。
+  kkd: 噫、亦た存亡吉凶を要するは、則ち居ながらにして知るべし。知者其の彖辞を観れば、則ち思い半ばに過ぎん。
+id=kyofuku-1 src=https://kanbun.info/koji/kyofuku.html
+  bun: 凶服者式之。式負版者。
+  kkd: 凶服の者には之に式す。負版の者に式す。
+id=rongo1016-1 src=https://kanbun.info/keibu/rongo1016.html
+  bun: 寢不尸。居不容。見齊衰者、雖狎必變。見冕者與瞽者、雖褻必以貌。凶服者式之。式負版者。有盛饌、必變色而作。迅雷風烈必變。
+  kkd: 寝ぬるに尸せず。居るに容づくらず。斉衰者を見れば、狎れたりと雖も必ず変ず。冕者と瞽者とを見れば、褻れたりと雖も必ず貌を以てす。凶服の者には之に式す。負版の者に式す。盛饌有れば、必ず色を変じて作つ。迅雷風烈には必ず変ず。
+id=kunshihahyo-1 src=https://kanbun.info/koji/kunshihahyo.html
+  bun: 上六、君子豹變、小人革面。征凶、居貞吉。
+  kkd: 上六、君子は豹変し、小人は革面す。征けば凶、貞しきに居れば吉。
+id=kokyo09-20 src=https://kanbun.info/keibu/kokyo09.html
+  bun: 不在於善、而皆在於凶徳。
+  kkd: 善に在らずして、皆凶徳に在り。
+id=roushi16-2 src=https://kanbun.info/shibu02/roushi16.html
+  bun: 歸根曰靜、是謂復命。復命曰常、知常曰明。不知常、妄作凶。
+  kkd: 根に帰るを静と曰い、是を命に復ると謂う。命に復るを常と曰い、常を知るを明と曰う。常を知らざれば、妄りに作して凶なり。
+  (shown 8)
+=== 忿戻 in bun or kkd ===
+id=inishiegu-1 src=https://kanbun.info/koji/inishiegu.html
+  bun: 子曰、古者民有三疾。今也或是之亡也。古之狂也肆、今之狂也蕩。古之矜也廉、今之矜也忿戾。古之愚也直、今之愚也詐而已矣。
+  kkd: 子曰く、古は民に三疾有り。今や或いは是れ之亡きなり。古の狂や肆、今の狂や蕩なり。古の矜や廉、今の矜や忿戻なり。古の愚や直、今の愚や詐のみ。
+id=inishieta-1 src=https://kanbun.info/koji/inishieta.html
+  bun: 子曰、古者民有三疾。今也或是之亡也。古之狂也肆、今之狂也蕩。古之矜也廉、今之矜也忿戾。古之愚也直、今之愚也詐而已矣。
+  kkd: 子曰く、古は民に三疾有り。今や或いは是れ之亡きなり。古の狂や肆、今の狂や蕩なり。古の矜や廉、今の矜や忿戻なり。古の愚や直、今の愚や詐のみ。
+  (shown 2)
+=== 子敬 in bun or kkd ===
+id=ippanwo-1 src=https://kanbun.info/koji/ippanwo.html
+  bun: 王子敬數歳時、嘗看諸門生樗蒲。見有勝負、因曰、南風不競。
+  kkd: 王子敬数歳の時、嘗て諸門生の樗蒲するを看る。勝負有るを見て、因りて曰く、南風競わず、と。
+id=ippanwo-3 src=https://kanbun.info/koji/ippanwo.html
+  bun: 子敬瞋目曰、遠慙荀奉倩、近愧劉眞長。遂拂衣而去。
+  kkd: 子敬、目を瞋せて曰く、遠くは荀奉倩に慙じ、近くは劉真長に愧ず、と。遂に衣を払って去る。
+id=osetsu-1 src=https://kanbun.info/koji/osetsu.html
+  bun: 王子敬云、從山陰道上行、山川自相映發、使人應接不暇。若秋冬之際、尤難爲壞。
+  kkd: 王子敬云う、山陰道上より行けば、山川自ずから相映発し、人をして応接に暇あらざらしむ。秋冬の際の若きは、尤も壊を為し難し、と。
+id=rongo1205-1 src=https://kanbun.info/keibu/rongo1205.html
+  bun: 司馬牛憂曰、人皆有兄弟。我獨亡。子夏曰、商聞之矣。死生有命、富貴在天。君子敬而無失、與人恭而有禮、四海之内、皆兄弟也。君子何患乎無兄弟也。
+  kkd: 司馬牛憂えて曰く、人皆兄弟有り。我独り亡し。子夏曰く、商之を聞く。死生命有り、富貴天に在り。君子敬して失うこと無く、人と与わるに恭しくして礼有らば、四海の内、皆兄弟なり。君子何ぞ兄弟無きを患えんや。
+  (shown 4)
