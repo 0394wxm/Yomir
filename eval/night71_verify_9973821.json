@@ -1,0 +1,67 @@
+{
+  "book": " (NDL 9973821)",
+  "pid": "9973821",
+  "expected_pages_manifest": 6,
+  "jpg_pages": 6,
+  "book_md_pages": 6,
+  "ok": 6,
+  "zero_line": 0,
+  "ocr_fail": 0,
+  "zero_line_pages": [],
+  "ocr_fail_pages": [],
+  "ascii_noise_total_lines": 0,
+  "ascii_noise_pages": 0,
+  "book_md_sha256_16": "678b167f271d8f4f",
+  "fails": [],
+  "rows": [
+    {
+      "page": 1,
+      "status": "ok",
+      "hakubun_lines": 21,
+      "kudashi_lines": 21,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 453
+    },
+    {
+      "page": 2,
+      "status": "ok",
+      "hakubun_lines": 23,
+      "kudashi_lines": 23,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 517
+    },
+    {
+      "page": 3,
+      "status": "ok",
+      "hakubun_lines": 23,
+      "kudashi_lines": 25,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 503
+    },
+    {
+      "page": 4,
+      "status": "ok",
+      "hakubun_lines": 27,
+      "kudashi_lines": 27,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 537
+    },
+    {
+      "page": 5,
+      "status": "ok",
+      "hakubun_lines": 18,
+      "kudashi_lines": 18,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 272
+    },
+    {
+      "page": 6,
+      "status": "ok",
+      "hakubun_lines": 1,
+      "kudashi_lines": 1,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 6
+    }
+  ],
+  "garbage_detail": []
+}

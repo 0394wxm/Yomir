@@ -1,0 +1,782 @@
+[03:34:41] night71_pipeline 启动
+[03:34:41] 等待导入进程结束（轮询 D:\kanbun-kakikudashi\eval\night71_import_1033232_log.txt）
+[06:12:07] night71_pipeline 启动
+[06:12:07] 等待导入进程结束（轮询 D:\kanbun-kakikudashi\eval\night71_import_1033232_log.txt）
+[20:50:08] night71_pipeline 启动
+[20:50:08] 等待导入进程结束（轮询 D:\kanbun-kakikudashi\eval\night71_import_1033232_log.txt）
+[00:11:26] night71_pipeline 启动
+[00:11:26] 导入结束标记: True
+[00:11:26] 导入摘要: 无 [done] 行
+[00:11:26] 开始: "D:\Python312\python.exe" tools/night71_verify_book.py 1033232
+[manifest] : 582 pages
+[pages] manifest=582 jpg=582 book_md=582
+  p001 ok       haku=  1 kun=  1 noise=0 chars=1
+  p002 ok       haku= 10 kun= 10 noise=0 chars=28
+  p003 ok       haku=  5 kun=  8 noise=0 chars=59
+  p004 ok       haku= 10 kun= 25 noise=0 chars=140
+  p005 ok       haku= 10 kun= 22 noise=0 chars=136
+  p006 ok       haku= 10 kun= 14 noise=0 chars=67
+  p007 ok       haku= 10 kun= 17 noise=0 chars=107
+  p008 ok       haku= 10 kun= 15 noise=0 chars=104
+  p009 ok       haku=  8 kun= 11 noise=0 chars=83
+  p010 ok       haku= 11 kun= 20 noise=0 chars=228
+  p011 ok       haku= 22 kun= 60 noise=0 chars=457
+  p012 ok       haku= 29 kun= 49 noise=0 chars=767
+  p013 ok       haku= 32 kun= 32 noise=0 chars=1419
+  p014 ok       haku= 32 kun= 32 noise=0 chars=1621
+  p015 ok       haku= 35 kun= 35 noise=0 chars=713
+  p016 ok       haku= 36 kun= 36 noise=0 chars=714
+  p017 ok       haku= 39 kun= 39 noise=0 chars=942
+  p018 ok       haku= 27 kun= 27 noise=0 chars=1100
+  p019 ok       haku= 29 kun= 29 noise=0 chars=1702
+  p020 ok       haku= 33 kun= 39 noise=0 chars=285
+  p021 ok       haku= 89 kun=104 noise=0 chars=531
+  p022 ok       haku= 93 kun= 97 noise=0 chars=484
+  p023 ok       haku= 87 kun=100 noise=0 chars=535
+  p024 ok       haku= 86 kun= 90 noise=0 chars=447
+  p025 ok       haku= 86 kun=101 noise=0 chars=520
+  p026 ok       haku= 93 kun=100 noise=0 chars=449
+  p027 ok       haku= 81 kun= 84 noise=0 chars=401
+  p028 ok       haku= 85 kun= 90 noise=0 chars=422
+  p029 ok       haku= 89 kun= 94 noise=0 chars=462
+  p030 ok       haku= 90 kun= 94 noise=0 chars=443
+  p031 ok       haku= 94 kun=103 noise=0 chars=496
+  p032 ok       haku= 93 kun= 98 noise=0 chars=480
+  p033 ok       haku= 81 kun= 84 noise=0 chars=421
+  p034 ok       haku= 82 kun= 86 noise=0 chars=425
+  p035 ok       haku= 87 kun= 94 noise=0 chars=459
+  p036 ok       haku= 68 kun= 71 noise=0 chars=363
+  p037 ok       haku= 83 kun= 92 noise=0 chars=491
+  p038 ok       haku= 88 kun= 88 noise=0 chars=477
+  p039 ok       haku= 87 kun= 88 noise=0 chars=511
+  p040 ok       haku= 88 kun= 89 noise=0 chars=504
+  p041 ok       haku= 83 kun= 85 noise=0 chars=469
+  p042 ok       haku= 83 kun= 83 noise=0 chars=527
+  p043 ok       haku= 82 kun= 82 noise=0 chars=543
+  p044 ok       haku= 93 kun=101 noise=0 chars=570
+  p045 ok       haku= 84 kun= 87 noise=0 chars=505
+  p046 ok       haku= 86 kun= 86 noise=0 chars=483
+  p047 ok       haku= 55 kun= 59 noise=0 chars=393
+  p048 ok       haku= 88 kun= 95 noise=0 chars=658
+  p049 ok       haku= 89 kun= 91 noise=0 chars=633
+  p050 ok       haku= 82 kun= 88 noise=0 chars=682
+  p051 ok       haku= 93 kun= 97 noise=0 chars=653
+  p052 ok       haku= 79 kun= 81 noise=0 chars=561
+  p053 ok       haku= 89 kun= 97 noise=0 chars=639
+  p054 ok       haku= 73 kun= 74 noise=0 chars=545
+  p055 ok       haku= 89 kun= 92 noise=0 chars=664
+  p056 ok       haku= 75 kun= 75 noise=0 chars=565
+  p057 ok       haku= 79 kun= 84 noise=0 chars=661
+  p058 ok       haku= 38 kun= 38 noise=0 chars=175
+  p059 ok       haku= 87 kun= 90 noise=0 chars=658
+  p060 ok       haku= 94 kun= 98 noise=0 chars=673
+  p061 ok       haku= 79 kun= 84 noise=0 chars=598
+  p062 ok       haku= 82 kun= 83 noise=0 chars=548
+  p063 ok       haku= 65 kun= 66 noise=0 chars=484
+  p064 ok       haku= 23 kun= 23 noise=0 chars=118
+  p065 ok       haku= 87 kun= 92 noise=0 chars=776
+  p066 ok       haku= 60 kun= 64 noise=0 chars=636
+  p067 ok       haku= 84 kun= 90 noise=0 chars=813
+  p068 ok       haku= 90 kun= 96 noise=0 chars=821
+  p069 ok       haku= 74 kun= 75 noise=0 chars=664
+  p070 ok       haku= 84 kun= 90 noise=0 chars=770
+  p071 ok       haku= 24 kun= 25 noise=0 chars=130
+  p072 ok       haku= 87 kun= 92 noise=0 chars=785
+  p073 ok       haku= 87 kun= 94 noise=0 chars=841
+  p074 ok       haku= 80 kun= 83 noise=0 chars=726
+  p075 ok       haku= 76 kun= 78 noise=0 chars=684
+  p076 ok       haku= 86 kun= 90 noise=0 chars=797
+  p077 ok       haku= 84 kun= 89 noise=0 chars=799
+  p078 ok       haku= 84 kun= 93 noise=0 chars=917
+  p079 ok       haku= 88 kun= 97 noise=0 chars=888
+  p080 ok       haku= 77 kun= 84 noise=0 chars=726
+  p081 ok       haku= 84 kun= 92 noise=0 chars=850
+  p082 ok       haku= 87 kun= 97 noise=0 chars=901
+  p083 ok       haku= 86 kun= 92 noise=0 chars=904
+  p084 ok       haku= 88 kun= 94 noise=0 chars=851
+  p085 ok       haku= 79 kun= 80 noise=0 chars=674
+  p086 ok       haku= 75 kun= 78 noise=0 chars=811
+  p087 ok       haku= 87 kun= 90 noise=0 chars=841
+  p088 ok       haku= 80 kun= 87 noise=0 chars=780
+  p089 ok       haku= 87 kun= 92 noise=0 chars=809
+  p090 ok       haku= 88 kun= 93 noise=0 chars=889
+  p091 ok       haku= 45 kun= 48 noise=0 chars=399
+  p092 ok       haku= 89 kun= 93 noise=0 chars=820
+  p093 ok       haku= 76 kun= 79 noise=0 chars=700
+  p094 ok       haku= 87 kun= 90 noise=0 chars=799
+  p095 ok       haku= 26 kun= 26 noise=0 chars=141
+  p096 ok       haku= 71 kun= 78 noise=0 chars=712
+  p097 ok       haku= 64 kun= 77 noise=0 chars=646
+  p098 ok       haku= 65 kun= 77 noise=0 chars=667
+  p099 ok       haku= 78 kun= 85 noise=0 chars=793
+  p100 ok       haku= 81 kun= 87 noise=0 chars=754
+  p101 ok       haku= 56 kun= 58 noise=0 chars=547
+  p102 ok       haku= 59 kun= 60 noise=0 chars=632
+  p103 ok       haku= 60 kun= 60 noise=0 chars=559
+  p104 ok       haku= 60 kun= 63 noise=0 chars=609
+  p105 ok       haku= 54 kun= 55 noise=0 chars=597
+  p106 ok       haku= 61 kun= 62 noise=0 chars=600
+  p107 ok       haku= 49 kun= 49 noise=0 chars=584
+  p108 ok       haku= 67 kun= 68 noise=0 chars=635
+  p109 ok       haku= 59 kun= 60 noise=0 chars=647
+  p110 ok       haku= 62 kun= 64 noise=0 chars=576
+  p111 ok       haku= 58 kun= 63 noise=0 chars=634
+  p112 ok       haku= 58 kun= 59 noise=0 chars=510
+  p113 ok       haku= 75 kun= 76 noise=0 chars=652
+  p114 ok       haku= 65 kun= 65 noise=0 chars=581
+  p115 ok       haku= 73 kun= 75 noise=0 chars=654
+  p116 ok       haku= 66 kun= 69 noise=0 chars=634
+  p117 ok       haku= 70 kun= 73 noise=0 chars=664
+  p118 ok       haku= 59 kun= 61 noise=0 chars=647
+  p119 ok       haku= 67 kun= 70 noise=0 chars=634
+  p120 ok       haku= 65 kun= 68 noise=0 chars=648
+  p121 ok       haku= 59 kun= 62 noise=0 chars=549
+  p122 ok       haku= 57 kun= 61 noise=0 chars=593
+  p123 ok       haku= 56 kun= 64 noise=0 chars=595
+  p124 ok       haku= 70 kun= 72 noise=0 chars=632
+  p125 ok       haku= 65 kun= 67 noise=0 chars=636
+  p126 ok       haku= 58 kun= 61 noise=0 chars=622
+  p127 ok       haku= 63 kun= 72 noise=0 chars=602
+  p128 ok       haku= 47 kun= 69 noise=0 chars=481
+  p129 ok       haku= 71 kun=109 noise=0 chars=699
+  p130 ok       haku= 69 kun=107 noise=0 chars=691
+  p131 ok       haku= 74 kun=115 noise=0 chars=724
+  p132 ok       haku= 63 kun= 95 noise=0 chars=612
+  p133 ok       haku= 70 kun=106 noise=0 chars=645
+  p134 ok       haku= 62 kun= 99 noise=0 chars=640
+  p135 ok       haku= 60 kun=100 noise=0 chars=733
+  p136 ok       haku= 61 kun= 95 noise=0 chars=720
+  p137 ok       haku= 59 kun= 99 noise=0 chars=758
+  p138 ok       haku= 59 kun= 94 noise=0 chars=652
+  p139 ok       haku= 56 kun= 90 noise=0 chars=605
+  p140 ok       haku= 62 kun= 96 noise=0 chars=664
+  p141 ok       haku= 59 kun= 98 noise=0 chars=670
+  p142 ok       haku= 64 kun= 95 noise=0 chars=654
+  p143 ok       haku= 75 kun=108 noise=0 chars=701
+  p144 ok       haku= 73 kun=108 noise=0 chars=719
+  p145 ok       haku= 69 kun=104 noise=0 chars=717
+  p146 ok       haku= 69 kun=115 noise=0 chars=718
+  p147 ok       haku= 77 kun=105 noise=0 chars=740
+  p148 ok       haku= 55 kun= 87 noise=0 chars=649
+  p149 ok       haku= 69 kun= 88 noise=0 chars=654
+  p150 ok       haku= 73 kun= 96 noise=0 chars=783
+  p151 ok       haku= 77 kun=102 noise=0 chars=787
+  p152 ok       haku= 64 kun= 86 noise=0 chars=725
+  p153 ok       haku= 62 kun= 89 noise=0 chars=759
+  p154 ok       haku= 69 kun= 94 noise=0 chars=754
+  p155 ok       haku= 70 kun= 95 noise=0 chars=761
+  p156 ok       haku= 72 kun= 98 noise=0 chars=740
+  p157 ok       haku= 66 kun= 94 noise=0 chars=720
+  p158 ok       haku= 70 kun= 94 noise=0 chars=724
+  p159 ok       haku= 69 kun= 92 noise=0 chars=717
+  p160 ok       haku= 70 kun= 95 noise=0 chars=755
+  p161 ok       haku= 67 kun=101 noise=0 chars=748
+  p162 ok       haku= 59 kun= 86 noise=0 chars=687
+  p163 ok       haku= 63 kun= 91 noise=0 chars=718
+  p164 ok       haku= 68 kun= 94 noise=0 chars=718
+  p165 ok       haku= 62 kun= 89 noise=0 chars=702
+  p166 ok       haku= 63 kun= 87 noise=0 chars=722
+  p167 ok       haku= 75 kun=102 noise=0 chars=714
+  p168 ok       haku= 62 kun= 83 noise=0 chars=695
+  p169 ok       haku= 77 kun= 98 noise=0 chars=713
+  p170 ok       haku= 65 kun= 88 noise=0 chars=712
+  p171 ok       haku= 69 kun= 98 noise=0 chars=725
+  p172 ok       haku= 71 kun= 95 noise=0 chars=765
+  p173 ok       haku= 69 kun= 97 noise=0 chars=761
+  p174 ok       haku= 71 kun=100 noise=0 chars=766
+  p175 ok       haku= 60 kun= 83 noise=0 chars=699
+  p176 ok       haku= 62 kun= 85 noise=0 chars=750
+  p177 ok       haku= 64 kun= 90 noise=0 chars=723
+  p178 ok       haku= 63 kun= 90 noise=0 chars=714
+  p179 ok       haku= 70 kun= 90 noise=0 chars=741
+  p180 ok       haku= 66 kun= 91 noise=0 chars=762
+  p181 ok       haku= 67 kun= 94 noise=0 chars=764
+  p182 ok       haku= 66 kun= 92 noise=0 chars=767
+  p183 ok       haku= 68 kun= 95 noise=0 chars=770
+  p184 ok       haku= 81 kun=104 noise=0 chars=790
+  p185 ok       haku= 64 kun= 90 noise=0 chars=719
+  p186 ok       haku= 71 kun= 94 noise=0 chars=736
+  p187 ok       haku= 62 kun= 90 noise=0 chars=722
+  p188 ok       haku= 67 kun= 95 noise=0 chars=748
+  p189 ok       haku= 72 kun= 95 noise=0 chars=760
+  p190 ok       haku= 67 kun= 91 noise=0 chars=719
+  p191 ok       haku= 68 kun= 93 noise=0 chars=737
+  p192 ok       haku= 62 kun= 89 noise=0 chars=705
+  p193 ok       haku= 65 kun= 94 noise=0 chars=733
+  p194 ok       haku= 71 kun= 97 noise=0 chars=743
+  p195 ok       haku= 67 kun= 89 noise=0 chars=724
+  p196 ok       haku= 63 kun= 89 noise=0 chars=741
+  p197 ok       haku= 61 kun= 88 noise=0 chars=723
+  p198 ok       haku= 76 kun= 99 noise=0 chars=764
+  p199 ok       haku= 63 kun= 84 noise=0 chars=696
+  p200 ok       haku= 65 kun= 87 noise=0 chars=730
+  p201 ok       haku= 58 kun= 79 noise=0 chars=672
+  p202 ok       haku= 64 kun= 87 noise=0 chars=722
+  p203 ok       haku= 69 kun= 93 noise=0 chars=717
+  p204 ok       haku= 63 kun= 89 noise=0 chars=764
+  p205 ok       haku= 70 kun= 97 noise=0 chars=837
+  p206 ok       haku= 64 kun= 97 noise=0 chars=758
+  p207 ok       haku= 71 kun=106 noise=0 chars=761
+  p208 ok       haku= 57 kun= 89 noise=0 chars=725
+  p209 ok       haku= 68 kun= 98 noise=0 chars=789
+  p210 ok       haku= 60 kun= 85 noise=0 chars=723
+  p211 ok       haku= 64 kun= 95 noise=0 chars=739
+  p212 ok       haku= 66 kun= 90 noise=0 chars=754
+  p213 ok       haku= 66 kun=104 noise=0 chars=822
+  p214 ok       haku= 62 kun= 90 noise=0 chars=783
+  p215 ok       haku= 68 kun= 93 noise=0 chars=793
+  p216 ok       haku= 69 kun= 95 noise=0 chars=827
+  p217 ok       haku= 65 kun= 97 noise=0 chars=826
+  p218 ok       haku= 65 kun= 92 noise=0 chars=835
+  p219 ok       haku= 70 kun=100 noise=0 chars=787
+  p220 ok       haku= 69 kun= 98 noise=0 chars=806
+  p221 ok       haku= 64 kun= 86 noise=0 chars=799
+  p222 ok       haku= 68 kun= 93 noise=0 chars=813
+  p223 ok       haku= 57 kun= 79 noise=0 chars=808
+  p224 ok       haku= 71 kun= 86 noise=0 chars=821
+  p225 ok       haku= 63 kun= 84 noise=0 chars=761
+  p226 ok       haku= 70 kun= 91 noise=0 chars=803
+  p227 ok       haku= 69 kun= 91 noise=0 chars=792
+  p228 ok       haku= 70 kun= 94 noise=0 chars=817
+  p229 ok       haku= 76 kun=103 noise=0 chars=823
+  p230 ok       haku= 67 kun= 88 noise=0 chars=754
+  p231 ok       haku= 65 kun= 86 noise=0 chars=747
+  p232 ok       haku= 68 kun= 90 noise=0 chars=769
+  p233 ok       haku= 62 kun= 89 noise=0 chars=785
+  p234 ok       haku= 66 kun= 87 noise=0 chars=793
+  p235 ok       haku= 66 kun= 94 noise=0 chars=736
+  p236 ok       haku= 64 kun= 87 noise=0 chars=760
+  p237 ok       haku= 59 kun= 89 noise=0 chars=743
+  p238 ok       haku= 69 kun= 95 noise=0 chars=740
+  p239 ok       haku= 71 kun= 98 noise=0 chars=821
+  p240 ok       haku= 71 kun=102 noise=0 chars=787
+  p241 ok       haku= 69 kun= 97 noise=0 chars=769
+  p242 ok       haku= 67 kun= 91 noise=0 chars=753
+  p243 ok       haku= 50 kun= 72 noise=0 chars=513
+  p244 ok       haku= 62 kun= 88 noise=0 chars=719
+  p245 ok       haku= 64 kun= 87 noise=0 chars=899
+  p246 ok       haku= 64 kun= 87 noise=0 chars=809
+  p247 ok       haku= 70 kun= 94 noise=0 chars=764
+  p248 ok       haku= 73 kun= 99 noise=0 chars=839
+  p249 ok       haku= 64 kun= 90 noise=0 chars=827
+  p250 ok       haku= 63 kun= 88 noise=0 chars=748
+  p251 ok       haku= 59 kun= 90 noise=0 chars=840
+  p252 ok       haku= 71 kun= 94 noise=0 chars=807
+  p253 ok       haku= 68 kun= 96 noise=0 chars=798
+  p254 ok       haku= 62 kun= 87 noise=0 chars=779
+  p255 ok       haku= 63 kun= 90 noise=0 chars=769
+  p256 ok       haku= 69 kun= 85 noise=0 chars=794
+  p257 ok       haku= 65 kun=101 noise=0 chars=838
+  p258 ok       haku= 68 kun=112 noise=0 chars=920
+  p259 ok       haku= 63 kun= 89 noise=0 chars=789
+  p260 ok       haku= 70 kun=101 noise=0 chars=832
+  p261 ok       haku= 75 kun=108 noise=0 chars=910
+  p262 ok       haku= 68 kun=101 noise=0 chars=841
+  p263 ok       haku= 67 kun=100 noise=0 chars=872
+  p264 ok       haku= 71 kun=104 noise=0 chars=909
+  p265 ok       haku= 68 kun= 99 noise=0 chars=899
+  p266 ok       haku= 66 kun= 90 noise=0 chars=793
+  p267 ok       haku= 65 kun= 96 noise=0 chars=856
+  p268 ok       haku= 65 kun= 88 noise=0 chars=811
+  p269 ok       haku= 62 kun= 84 noise=0 chars=750
+  p270 ok       haku= 71 kun=101 noise=0 chars=852
+  p271 ok       haku= 45 kun= 60 noise=0 chars=554
+  p272 ok       haku= 64 kun= 92 noise=0 chars=923
+  p273 ok       haku= 61 kun= 84 noise=0 chars=833
+  p274 ok       haku= 63 kun= 93 noise=0 chars=888
+  p275 ok       haku= 69 kun= 95 noise=0 chars=950
+  p276 ok       haku= 61 kun= 85 noise=0 chars=880
+  p277 ok       haku= 67 kun= 93 noise=0 chars=943
+  p278 ok       haku= 60 kun= 84 noise=0 chars=868
+  p279 ok       haku= 60 kun= 82 noise=0 chars=848
+  p280 ok       haku= 62 kun= 85 noise=0 chars=901
+  p281 ok       haku= 59 kun= 83 noise=0 chars=883
+  p282 ok       haku= 61 kun= 87 noise=0 chars=883
+  p283 ok       haku= 63 kun= 88 noise=0 chars=887
+  p284 ok       haku= 64 kun= 88 noise=0 chars=949
+  p285 ok       haku= 64 kun= 87 noise=0 chars=935
+  p286 ok       haku= 58 kun= 84 noise=0 chars=1047
+  p287 ok       haku= 60 kun= 83 noise=0 chars=884
+  p288 ok       haku= 58 kun= 83 noise=0 chars=870
+  p289 ok       haku= 67 kun= 93 noise=0 chars=916
+  p290 ok       haku= 58 kun= 82 noise=0 chars=861
+  p291 ok       haku= 64 kun= 86 noise=0 chars=872
+  p292 ok       haku= 58 kun= 81 noise=0 chars=864
+  p293 ok       haku= 60 kun= 87 noise=0 chars=849
+  p294 ok       haku= 57 kun= 79 noise=0 chars=837
+  p295 ok       haku= 65 kun= 96 noise=0 chars=933
+  p296 ok       haku= 55 kun= 74 noise=0 chars=823
+  p297 ok       haku= 60 kun= 80 noise=0 chars=890
+  p298 ok       haku= 66 kun= 92 noise=0 chars=914
+  p299 ok       haku= 62 kun= 92 noise=0 chars=917
+  p300 ok       haku= 61 kun= 90 noise=0 chars=880
+  p301 ok       haku= 59 kun= 82 noise=0 chars=825
+  p302 ok       haku= 61 kun= 86 noise=0 chars=914
+  p303 ok       haku= 61 kun= 89 noise=0 chars=869
+  p304 ok       haku= 62 kun= 89 noise=0 chars=907
+  p305 ok       haku= 67 kun= 93 noise=0 chars=956
+  p306 ok       haku= 63 kun= 87 noise=0 chars=937
+  p307 ok       haku= 66 kun= 96 noise=0 chars=980
+  p308 ok       haku= 65 kun= 94 noise=0 chars=956
+  p309 ok       haku= 61 kun= 86 noise=0 chars=904
+  p310 ok       haku= 64 kun= 90 noise=0 chars=937
+  p311 ok       haku= 65 kun= 91 noise=0 chars=917
+  p312 ok       haku= 63 kun= 90 noise=0 chars=956
+  p313 ok       haku= 61 kun= 86 noise=0 chars=886
+  p314 ok       haku= 67 kun= 91 noise=0 chars=912
+  p315 ok       haku= 63 kun= 90 noise=0 chars=899
+  p316 ok       haku= 57 kun= 78 noise=0 chars=950
+  p317 ok       haku= 61 kun= 90 noise=0 chars=871
+  p318 ok       haku= 58 kun= 81 noise=0 chars=873
+  p319 ok       haku= 64 kun= 93 noise=0 chars=888
+  p320 ok       haku= 61 kun= 91 noise=0 chars=877
+  p321 ok       haku= 64 kun= 88 noise=0 chars=906
+  p322 ok       haku= 60 kun= 81 noise=0 chars=847
+  p323 ok       haku= 62 kun= 84 noise=0 chars=877
+  p324 ok       haku= 64 kun= 91 noise=0 chars=896
+  p325 ok       haku= 59 kun= 88 noise=0 chars=898
+  p326 ok       haku= 61 kun= 85 noise=0 chars=852
+  p327 ok       haku= 61 kun= 89 noise=0 chars=899
+  p328 ok       haku= 57 kun= 83 noise=0 chars=873
+  p329 ok       haku= 60 kun= 84 noise=0 chars=889
+  p330 ok       haku= 61 kun= 85 noise=0 chars=918
+  p331 ok       haku= 63 kun= 88 noise=0 chars=922
+  p332 ok       haku= 62 kun= 90 noise=0 chars=968
+  p333 ok       haku= 64 kun= 94 noise=0 chars=949
+  p334 ok       haku= 65 kun= 97 noise=0 chars=925
+  p335 ok       haku= 63 kun= 88 noise=0 chars=869
+  p336 ok       haku= 63 kun= 92 noise=0 chars=909
+  p337 ok       haku= 60 kun= 85 noise=0 chars=846
+  p338 ok       haku= 61 kun= 85 noise=0 chars=892
+  p339 ok       haku= 64 kun= 91 noise=0 chars=941
+  p340 ok       haku= 61 kun= 85 noise=0 chars=884
+  p341 ok       haku= 60 kun= 84 noise=0 chars=865
+  p342 ok       haku= 63 kun= 86 noise=0 chars=895
+  p343 ok       haku= 59 kun= 83 noise=0 chars=860
+  p344 ok       haku= 63 kun= 92 noise=0 chars=882
+  p345 ok       haku= 61 kun= 88 noise=0 chars=859
+  p346 ok       haku= 62 kun= 85 noise=0 chars=877
+  p347 ok       haku= 62 kun= 89 noise=0 chars=812
+  p348 ok       haku= 60 kun= 84 noise=0 chars=877
+  p349 ok       haku= 66 kun= 94 noise=0 chars=936
+  p350 ok       haku= 65 kun= 95 noise=0 chars=929
+  p351 ok       haku= 66 kun= 93 noise=0 chars=953
+  p352 ok       haku= 69 kun= 98 noise=0 chars=1043
+  p353 ok       haku= 64 kun= 92 noise=0 chars=961
+  p354 ok       haku= 66 kun= 89 noise=0 chars=982
+  p355 ok       haku= 65 kun= 94 noise=0 chars=957
+  p356 ok       haku= 69 kun= 94 noise=0 chars=954
+  p357 ok       haku= 69 kun= 95 noise=0 chars=985
+  p358 ok       haku= 69 kun= 94 noise=0 chars=988
+  p359 ok       haku= 62 kun= 86 noise=0 chars=866
+  p360 ok       haku= 62 kun= 82 noise=0 chars=896
+  p361 ok       haku= 63 kun= 81 noise=0 chars=937
+  p362 ok       haku= 64 kun= 87 noise=0 chars=1009
+  p363 ok       haku= 62 kun= 87 noise=0 chars=934
+  p364 ok       haku= 64 kun= 92 noise=0 chars=925
+  p365 ok       haku= 63 kun= 89 noise=0 chars=946
+  p366 ok       haku= 62 kun= 83 noise=0 chars=986
+  p367 ok       haku= 67 kun= 93 noise=0 chars=925
+  p368 ok       haku= 62 kun= 89 noise=0 chars=846
+  p369 ok       haku= 57 kun= 80 noise=0 chars=830
+  p370 ok       haku= 65 kun= 92 noise=0 chars=915
+  p371 ok       haku= 66 kun= 93 noise=0 chars=890
+  p372 ok       haku= 63 kun= 80 noise=0 chars=891
+  p373 ok       haku= 62 kun= 82 noise=0 chars=868
+  p374 ok       haku= 66 kun= 91 noise=0 chars=909
+  p375 ok       haku= 58 kun= 84 noise=0 chars=839
+  p376 ok       haku= 62 kun= 94 noise=0 chars=893
+  p377 ok       haku= 58 kun= 81 noise=0 chars=845
+  p378 ok       haku= 67 kun= 95 noise=0 chars=936
+  p379 ok       haku= 64 kun= 89 noise=0 chars=849
+  p380 ok       haku= 61 kun= 83 noise=0 chars=910
+  p381 ok       haku= 60 kun= 82 noise=0 chars=890
+  p382 ok       haku= 59 kun= 81 noise=0 chars=863
+  p383 ok       haku= 61 kun= 81 noise=0 chars=920
+  p384 ok       haku= 67 kun= 90 noise=0 chars=915
+  p385 ok       haku= 66 kun= 91 noise=0 chars=887
+  p386 ok       haku= 62 kun= 93 noise=0 chars=906
+  p387 ok       haku= 64 kun= 90 noise=0 chars=928
+  p388 ok       haku= 63 kun= 95 noise=0 chars=939
+  p389 ok       haku= 64 kun= 88 noise=0 chars=943
+  p390 ok       haku= 66 kun= 96 noise=0 chars=946
+  p391 ok       haku= 63 kun= 92 noise=0 chars=968
+  p392 ok       haku= 58 kun= 81 noise=0 chars=853
+  p393 ok       haku= 67 kun=100 noise=0 chars=915
+  p394 ok       haku= 67 kun= 94 noise=0 chars=906
+  p395 ok       haku= 67 kun=100 noise=0 chars=1000
+  p396 ok       haku= 65 kun= 94 noise=0 chars=903
+  p397 ok       haku= 64 kun= 97 noise=0 chars=943
+  p398 ok       haku= 65 kun= 99 noise=0 chars=931
+  p399 ok       haku= 60 kun= 85 noise=0 chars=909
+  p400 ok       haku= 65 kun= 96 noise=0 chars=928
+  p401 ok       haku= 62 kun= 83 noise=0 chars=929
+  p402 ok       haku= 62 kun= 87 noise=0 chars=883
+  p403 ok       haku= 68 kun= 94 noise=0 chars=920
+  p404 ok       haku= 63 kun= 90 noise=0 chars=943
+  p405 ok       haku= 64 kun= 91 noise=0 chars=939
+  p406 ok       haku= 62 kun= 94 noise=0 chars=959
+  p407 ok       haku= 64 kun= 98 noise=0 chars=983
+  p408 ok       haku= 58 kun=100 noise=0 chars=821
+  p409 ok       haku= 66 kun=130 noise=0 chars=863
+  p410 ok       haku= 65 kun=130 noise=0 chars=862
+  p411 ok       haku= 58 kun=126 noise=0 chars=863
+  p412 ok       haku= 62 kun=119 noise=0 chars=940
+  p413 ok       haku= 59 kun=118 noise=0 chars=804
+  p414 ok       haku= 62 kun=117 noise=0 chars=859
+  p415 ok       haku= 62 kun=112 noise=0 chars=905
+  p416 ok       haku= 92 kun=119 noise=0 chars=950
+  p417 ok       haku= 99 kun=132 noise=0 chars=947
+  p418 ok       haku=102 kun=136 noise=0 chars=1052
+  p419 ok       haku=105 kun=137 noise=0 chars=947
+  p420 ok       haku= 96 kun=136 noise=0 chars=1050
+  p421 ok       haku= 95 kun=130 noise=0 chars=937
+  p422 ok       haku= 92 kun=136 noise=0 chars=950
+  p423 ok       haku=103 kun=153 noise=0 chars=1059
+  p424 ok       haku= 93 kun=139 noise=0 chars=959
+  p425 ok       haku=101 kun=128 noise=0 chars=988
+  p426 ok       haku=110 kun=162 noise=0 chars=1032
+  p427 ok       haku= 95 kun=129 noise=0 chars=969
+  p428 ok       haku= 98 kun=136 noise=0 chars=871
+  p429 ok       haku= 92 kun=122 noise=0 chars=720
+  p430 ok       haku= 99 kun=161 noise=0 chars=984
+  p431 ok       haku= 93 kun=150 noise=0 chars=970
+  p432 ok       haku=103 kun=156 noise=0 chars=1025
+  p433 ok       haku=100 kun=158 noise=0 chars=1007
+  p434 ok       haku=102 kun=159 noise=0 chars=1021
+  p435 ok       haku=103 kun=147 noise=0 chars=942
+  p436 ok       haku= 93 kun=139 noise=0 chars=970
+  p437 ok       haku=102 kun=155 noise=0 chars=1030
+  p438 ok       haku= 96 kun=135 noise=0 chars=909
+  p439 ok       haku= 87 kun=148 noise=0 chars=973
+  p440 ok       haku= 85 kun=128 noise=0 chars=874
+  p441 ok       haku= 92 kun=154 noise=0 chars=914
+  p442 ok       haku=106 kun=162 noise=0 chars=955
+  p443 ok       haku=117 kun=165 noise=0 chars=1065
+  p444 ok       haku= 94 kun=133 noise=0 chars=977
+  p445 ok       haku= 91 kun=139 noise=0 chars=933
+  p446 ok       haku=101 kun=155 noise=0 chars=1033
+  p447 ok       haku= 96 kun=152 noise=0 chars=980
+  p448 ok       haku=105 kun=150 noise=0 chars=1030
+  p449 ok       haku= 95 kun=157 noise=0 chars=1027
+  p450 ok       haku= 88 kun=  0 noise=0 chars=935
+  p451 ok       haku= 84 kun=143 noise=0 chars=987
+  p452 ok       haku=105 kun=143 noise=0 chars=967
+  p453 ok       haku= 85 kun=115 noise=0 chars=844
+  p454 ok       haku=105 kun=136 noise=0 chars=1036
+  p455 ok       haku=106 kun=147 noise=0 chars=990
+  p456 ok       haku=118 kun=176 noise=0 chars=1072
+  p457 ok       haku=106 kun=160 noise=0 chars=965
+  p458 ok       haku=112 kun=160 noise=0 chars=1066
+  p459 ok       haku=113 kun=165 noise=0 chars=1018
+  p460 ok       haku= 95 kun=149 noise=0 chars=1039
+  p461 ok       haku=102 kun=146 noise=0 chars=914
+  p462 ok       haku= 91 kun=133 noise=0 chars=887
+  p463 ok       haku=113 kun=169 noise=0 chars=944
+  p464 ok       haku= 97 kun=159 noise=0 chars=944
+  p465 ok       haku=100 kun=137 noise=0 chars=892
+  p466 ok       haku=106 kun=149 noise=0 chars=904
+  p467 ok       haku=102 kun=146 noise=0 chars=868
+  p468 ok       haku=111 kun=160 noise=0 chars=950
+  p469 ok       haku= 96 kun=142 noise=0 chars=853
+  p470 ok       haku= 96 kun=144 noise=0 chars=1093
+  p471 ok       haku=107 kun=153 noise=0 chars=912
+  p472 ok       haku= 97 kun=161 noise=0 chars=1025
+  p473 ok       haku=108 kun=163 noise=0 chars=988
+  p474 ok       haku=110 kun=173 noise=0 chars=966
+  p475 ok       haku=101 kun=144 noise=0 chars=971
+  p476 ok       haku= 95 kun=133 noise=0 chars=816
+  p477 ok       haku= 97 kun=142 noise=0 chars=877
+  p478 ok       haku= 98 kun=144 noise=0 chars=887
+  p479 ok       haku=109 kun=164 noise=0 chars=1046
+  p480 ok       haku=107 kun=145 noise=0 chars=945
+  p481 ok       haku= 91 kun=142 noise=0 chars=994
+  p482 ok       haku= 94 kun=130 noise=0 chars=923
+  p483 ok       haku= 97 kun=128 noise=0 chars=990
+  p484 ok       haku= 95 kun=144 noise=0 chars=1040
+  p485 ok       haku= 97 kun=128 noise=0 chars=997
+  p486 ok       haku= 92 kun=131 noise=0 chars=925
+  p487 ok       haku= 98 kun=141 noise=0 chars=999
+  p488 ok       haku= 83 kun=122 noise=0 chars=859
+  p489 ok       haku= 88 kun=134 noise=0 chars=939
+  p490 ok       haku= 83 kun=137 noise=0 chars=946
+  p491 ok       haku= 87 kun=135 noise=0 chars=971
+  p492 ok       haku= 93 kun=142 noise=0 chars=1053
+  p493 ok       haku= 83 kun=125 noise=0 chars=904
+  p494 ok       haku= 84 kun=141 noise=0 chars=784
+  p495 ok       haku=107 kun=152 noise=0 chars=1070
+  p496 ok       haku=104 kun=148 noise=0 chars=1075
+  p497 ok       haku=118 kun=157 noise=0 chars=1146
+  p498 ok       haku= 91 kun=125 noise=0 chars=1007
+  p499 ok       haku=101 kun=142 noise=0 chars=1066
+  p500 ok       haku= 91 kun=142 noise=0 chars=940
+  p501 ok       haku= 70 kun=113 noise=0 chars=744
+  p502 ok       haku= 70 kun= 91 noise=0 chars=596
+  p503 ok       haku= 72 kun= 97 noise=0 chars=581
+  p504 ok       haku= 83 kun=128 noise=0 chars=866
+  p505 ok       haku=101 kun=152 noise=0 chars=1040
+  p506 ok       haku= 97 kun=141 noise=0 chars=945
+  p507 ok       haku= 96 kun=153 noise=0 chars=942
+  p508 ok       haku= 89 kun=143 noise=0 chars=893
+  p509 ok       haku= 81 kun=112 noise=0 chars=688
+  p510 ok       haku= 86 kun=147 noise=0 chars=860
+  p511 ok       haku= 74 kun=106 noise=0 chars=689
+  p512 ok       haku= 81 kun=128 noise=0 chars=792
+  p513 ok       haku= 78 kun=125 noise=0 chars=717
+  p514 ok       haku= 93 kun=133 noise=0 chars=887
+  p515 ok       haku= 99 kun=155 noise=0 chars=1003
+  p516 ok       haku= 93 kun=159 noise=0 chars=1049
+  p517 ok       haku= 91 kun=155 noise=0 chars=1023
+  p518 ok       haku=103 kun=153 noise=0 chars=1069
+  p519 ok       haku= 81 kun=156 noise=0 chars=1021
+  p520 ok       haku= 94 kun=157 noise=0 chars=1076
+  p521 ok       haku= 91 kun=155 noise=0 chars=1041
+  p522 ok       haku= 81 kun=145 noise=0 chars=934
+  p523 ok       haku= 87 kun=153 noise=0 chars=980
+  p524 ok       haku= 90 kun=161 noise=0 chars=1013
+  p525 ok       haku= 76 kun=135 noise=0 chars=920
+  p526 ok       haku= 81 kun=130 noise=0 chars=999
+  p527 ok       haku=100 kun=156 noise=0 chars=1028
+  p528 ok       haku= 84 kun=140 noise=0 chars=952
+  p529 ok       haku= 79 kun=142 noise=0 chars=1019
+  p530 ok       haku= 88 kun=137 noise=0 chars=932
+  p531 ok       haku= 95 kun=143 noise=0 chars=986
+  p532 ok       haku= 87 kun=148 noise=0 chars=976
+  p533 ok       haku= 94 kun=151 noise=0 chars=1016
+  p534 ok       haku= 77 kun=130 noise=0 chars=841
+  p535 ok       haku= 90 kun=142 noise=0 chars=948
+  p536 ok       haku= 83 kun=139 noise=0 chars=957
+  p537 ok       haku= 92 kun=132 noise=0 chars=1054
+  p538 ok       haku= 94 kun=138 noise=0 chars=959
+  p539 ok       haku= 88 kun=129 noise=0 chars=889
+  p540 ok       haku= 82 kun=145 noise=0 chars=961
+  p541 ok       haku= 72 kun= 94 noise=0 chars=797
+  p542 ok       haku= 85 kun=101 noise=0 chars=793
+  p543 ok       haku= 71 kun= 72 noise=0 chars=513
+  p544 ok       haku= 80 kun= 87 noise=0 chars=657
+  p545 ok       haku= 73 kun= 79 noise=0 chars=568
+  p546 ok       haku= 79 kun= 80 noise=0 chars=501
+  p547 ok       haku= 90 kun=137 noise=0 chars=969
+  p548 ok       haku= 74 kun=126 noise=0 chars=843
+  p549 ok       haku= 87 kun=159 noise=0 chars=980
+  p550 ok       haku= 90 kun=134 noise=0 chars=927
+  p551 ok       haku= 77 kun=146 noise=0 chars=900
+  p552 ok       haku= 89 kun=132 noise=0 chars=912
+  p553 ok       haku= 84 kun=147 noise=0 chars=962
+  p554 ok       haku= 95 kun=157 noise=0 chars=1031
+  p555 ok       haku= 93 kun=164 noise=0 chars=995
+  p556 ok       haku= 77 kun=144 noise=0 chars=945
+  p557 ok       haku= 84 kun=163 noise=0 chars=945
+  p558 ok       haku= 85 kun=149 noise=0 chars=983
+  p559 ok       haku= 88 kun=151 noise=0 chars=964
+  p560 ok       haku= 83 kun=146 noise=0 chars=999
+  p561 ok       haku= 79 kun=145 noise=0 chars=905
+  p562 ok       haku= 82 kun=172 noise=0 chars=1136
+  p563 ok       haku= 88 kun=159 noise=0 chars=1057
+  p564 ok       haku= 88 kun=159 noise=0 chars=1039
+  p565 ok       haku= 83 kun=151 noise=0 chars=954
+  p566 ok       haku= 85 kun=162 noise=0 chars=974
+  p567 ok       haku= 79 kun=153 noise=0 chars=955
+  p568 ok       haku= 77 kun=140 noise=0 chars=808
+  p569 ok       haku= 88 kun=152 noise=0 chars=1043
+  p570 ok       haku= 81 kun=137 noise=0 chars=955
+  p571 ok       haku= 59 kun=146 noise=0 chars=746
+  p572 ok       haku= 61 kun=148 noise=0 chars=748
+  p573 ok       haku= 61 kun=144 noise=0 chars=735
+  p574 ok       haku= 49 kun=151 noise=0 chars=971
+  p575 ok       haku= 82 kun=136 noise=0 chars=839
+  p576 ok       haku= 85 kun=154 noise=0 chars=1023
+  p577 ok       haku= 83 kun=152 noise=0 chars=1058
+  p578 ok       haku= 72 kun=123 noise=0 chars=829
+  p579 ok       haku= 61 kun=107 noise=0 chars=686
+  p580 ok       haku= 31 kun= 34 noise=0 chars=205
+  p581 ok       haku=  1 kun=  1 noise=0 chars=2
+  p582 ok       haku=  1 kun=  1 noise=0 chars=1
+[summary] ok=582 0行=0 ocr_fail=0; ascii-noise lines=0 on 0 pages
+[0行] 无
+[ocr_fail] 无
+[sha16] 3b514439ba3b9fb3
+verdict: PASS -> eval\night71_verify_1033232.json
+[00:11:33] 结束: exit=0 (0 分钟) [verify-1033232]
+[00:11:33] 开始: "D:\Python312\python.exe" tools/night71_guwenbert_full.py
+golden_8165 全量 8165 条（guwenbert 离线全量跑）
+engine built in 241.6s
+⑬ AUX runtime 补丁在场：應,v,助動詞,必要,*
+D:\Python312\Lib\site-packages\supar\utils\fn.py:82: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\python_variable_indexing.cpp:381.)
+  out_tensor[i][[slice(-i, None) if padding_side == 'left' else slice(0, i) for i in tensor.size()]] = tensor
+D:\Python312\Lib\site-packages\supar\modules\lstm.py:152: FutureWarning: `apply_permutation` is deprecated, please use `tensor.index_select(dim, permutation)` instead
+  h = apply_permutation(hx[0], permutation)
+D:\Python312\Lib\site-packages\supar\modules\lstm.py:153: FutureWarning: `apply_permutation` is deprecated, please use `tensor.index_select(dim, permutation)` instead
+  c = apply_permutation(hx[1], permutation)
+  100/8165 avgDist 15.28 (380s)
+  200/8165 avgDist 19.29 (854s)
+  300/8165 avgDist 22.32 (1480s)
+  400/8165 avgDist 23.29 (1980s)
+  500/8165 avgDist 24.55 (2803s)
+  [SHIFT_LOG] 进度已写：500/8165
+  600/8165 avgDist 24.36 (3309s)
+  700/8165 avgDist 24.74 (4554s)
+  800/8165 avgDist 24.80 (5011s)
+  900/8165 avgDist 25.79 (5477s)
+  1000/8165 avgDist 24.99 (5904s)
+  [SHIFT_LOG] 进度已写：1000/8165
+  1100/8165 avgDist 24.63 (6386s)
+  1200/8165 avgDist 24.34 (6617s)
+  1300/8165 avgDist 24.04 (6716s)
+  1400/8165 avgDist 23.78 (6802s)
+  1500/8165 avgDist 23.45 (6887s)
+  [SHIFT_LOG] 进度已写：1500/8165
+  1600/8165 avgDist 23.36 (6979s)
+  1700/8165 avgDist 22.70 (7035s)
+  1800/8165 avgDist 22.20 (7097s)
+  1900/8165 avgDist 21.50 (7143s)
+  2000/8165 avgDist 20.91 (7190s)
+  [SHIFT_LOG] 进度已写：2000/8165
+  2100/8165 avgDist 20.22 (7221s)
+  2200/8165 avgDist 19.58 (7246s)
+  2300/8165 avgDist 19.04 (7273s)
+  2400/8165 avgDist 18.53 (7298s)
+  2500/8165 avgDist 18.06 (7328s)
+  [SHIFT_LOG] 进度已写：2500/8165
+  2600/8165 avgDist 17.58 (7353s)
+  2700/8165 avgDist 17.17 (7378s)
+  2800/8165 avgDist 16.86 (7405s)
+  2900/8165 avgDist 16.49 (7430s)
+  3000/8165 avgDist 16.23 (7457s)
+  [SHIFT_LOG] 进度已写：3000/8165
+  3100/8165 avgDist 15.95 (7485s)
+  3200/8165 avgDist 15.64 (7510s)
+  3300/8165 avgDist 15.35 (7535s)
+  3400/8165 avgDist 15.11 (7562s)
+  3500/8165 avgDist 14.84 (7586s)
+  [SHIFT_LOG] 进度已写：3500/8165
+  3600/8165 avgDist 14.58 (7611s)
+  3700/8165 avgDist 14.34 (7635s)
+  3800/8165 avgDist 14.17 (7662s)
+  3900/8165 avgDist 14.01 (7690s)
+  4000/8165 avgDist 13.81 (7714s)
+  [SHIFT_LOG] 进度已写：4000/8165
+  4100/8165 avgDist 13.65 (7742s)
+  4200/8165 avgDist 13.50 (7769s)
+  4300/8165 avgDist 13.36 (7796s)
+  4400/8165 avgDist 13.22 (7822s)
+  4500/8165 avgDist 13.05 (7851s)
+  [SHIFT_LOG] 进度已写：4500/8165
+  4600/8165 avgDist 12.91 (7877s)
+  4700/8165 avgDist 12.82 (7906s)
+  4800/8165 avgDist 12.71 (7938s)
+  4900/8165 avgDist 12.60 (7965s)
+  5000/8165 avgDist 12.47 (7994s)
+  [SHIFT_LOG] 进度已写：5000/8165
+  5100/8165 avgDist 12.37 (8022s)
+  5200/8165 avgDist 12.28 (8050s)
+  5300/8165 avgDist 12.18 (8076s)
+  5400/8165 avgDist 12.07 (8102s)
+  5500/8165 avgDist 11.96 (8126s)
+  [SHIFT_LOG] 进度已写：5500/8165
+  5600/8165 avgDist 11.83 (8151s)
+  5700/8165 avgDist 11.73 (8176s)
+  5800/8165 avgDist 11.62 (8200s)
+  5900/8165 avgDist 11.51 (8225s)
+  6000/8165 avgDist 11.46 (8252s)
+  [SHIFT_LOG] 进度已写：6000/8165
+  6100/8165 avgDist 11.40 (8280s)
+  6200/8165 avgDist 11.31 (8304s)
+  6300/8165 avgDist 11.24 (8330s)
+  6400/8165 avgDist 11.19 (8360s)
+  6500/8165 avgDist 11.12 (8387s)
+  [SHIFT_LOG] 进度已写：6500/8165
+  6600/8165 avgDist 11.30 (8479s)
+  6700/8165 avgDist 11.54 (8592s)
+  6800/8165 avgDist 11.96 (8742s)
+  6900/8165 avgDist 12.20 (8852s)
+  7000/8165 avgDist 12.38 (8941s)
+  [SHIFT_LOG] 进度已写：7000/8165
+  7100/8165 avgDist 12.73 (9066s)
+  7200/8165 avgDist 12.76 (9128s)
+  7300/8165 avgDist 12.73 (9181s)
+  7400/8165 avgDist 12.71 (9237s)
+  7500/8165 avgDist 12.74 (9299s)
+  [SHIFT_LOG] 进度已写：7500/8165
+  7600/8165 avgDist 12.78 (9374s)
+  7700/8165 avgDist 13.11 (9557s)
+  7800/8165 avgDist 13.07 (9607s)
+  7900/8165 avgDist 13.06 (9681s)
+  8000/8165 avgDist 18.65 (10617s)
+  [SHIFT_LOG] 进度已写：8000/8165
+  8100/8165 avgDist 26.09 (11862s)
+
+=== guwenbert 全量 8165 条 ===
+OK 8165 / error 0 | 精确 20 | avgDist 30.872 | 总耗时 211.8 分钟
+  ≤20字     n=6329 avg   7.70 exact 20
+  21-40字   n= 920 avg  23.12 exact 0
+  41-60字   n= 395 avg  38.57 exact 0
+  >60字     n= 521 avg 320.25 exact 0
+  故事     n=1339 avg  21.43 exact 5
+  論語     n= 368 avg  28.28 exact 3
+  大学     n= 189 avg  14.56 exact 0
+  孝経     n= 147 avg   9.34 exact 2
+  詩経     n= 102 avg   4.98 exact 3
+  漢詩     n=4409 avg   7.12 exact 6
+  その他    n=1611 avg 109.83 exact 1
+written: D:\kanbun-kakikudashi\eval\night71_guwenbert_8165.json
+[03:48:08] 结束: exit=0 (217 分钟) [guwenbert-full]
+[03:48:08] 开始: "D:\Python312\python.exe" tools/night71_h2h.py
+全量对照（规则=night70_results_8165.json vs guwenbert=night71_guwenbert_8165.json）
+总条数 8165 | 双方可比 8165 | guwenbert error 0 []
+规则     avgDist 14.632 | 精确 30
+guwenbert avgDist 30.872 | 精确 20
+逐条对决：规则更好 3221 | guwenbert 更好 2635 | 持平 2309
+
+分档×文体（规则 avg vs gwb avg | n | 规则胜/gwb胜/平）：
+  ≤20字     漢詩     n=4385 | 规则   6.989 vs gwb    6.784 | 1382/1576/1427
+  ≤20字     その他    n= 768 | 规则  10.467 vs gwb   10.616 | 315/233/220
+  ≤20字     故事     n= 700 | 规则   9.346 vs gwb    9.597 | 277/172/251
+  21-40字   その他    n= 365 | 规则  23.690 vs gwb   24.249 | 167/137/61
+  21-40字   故事     n= 344 | 规则  22.360 vs gwb   22.669 | 168/116/60
+  >60字     その他    n= 342 | 规则  72.015 vs gwb  451.576 | 277/56/9
+  41-60字   故事     n= 184 | 规则  37.033 vs gwb   37.717 | 94/74/16
+  21-40字   論語     n= 146 | 规则  19.007 vs gwb   20.219 | 77/33/36
+  ≤20字     孝経     n= 138 | 规则   8.500 vs gwb    8.717 | 59/33/46
+  41-60字   その他    n= 136 | 规则  39.132 vs gwb   40.441 | 80/51/5
+  ≤20字     大学     n= 134 | 规则   9.903 vs gwb   10.104 | 57/27/50
+  >60字     故事     n= 111 | 规则  59.441 vs gwb   65.252 | 66/39/6
+  ≤20字     論語     n= 102 | 规则   9.794 vs gwb   10.127 | 32/21/49
+  ≤20字     詩経     n= 102 | 规则   5.108 vs gwb    4.980 | 28/26/48
+  >60字     論語     n=  62 | 规则  65.468 vs gwb   70.468 | 47/8/7
+  41-60字   論語     n=  58 | 规则  33.190 vs gwb   35.414 | 40/9/9
+  21-40字   大学     n=  44 | 规则  21.318 vs gwb   21.932 | 21/15/8
+  21-40字   漢詩     n=  12 | 规则   8.583 vs gwb   44.417 | 12/0/0
+  41-60字   大学     n=   9 | 规则  35.444 vs gwb   32.889 | 2/6/1
+  21-40字   孝経     n=   9 | 规则  16.778 vs gwb   18.889 | 7/2/0
+  41-60字   漢詩     n=   8 | 规则  10.375 vs gwb   55.625 | 8/0/0
+  >60字     漢詩     n=   4 | 规则  11.000 vs gwb  165.500 | 4/0/0
+  >60字     大学     n=   2 | 规则  61.000 vs gwb   68.000 | 1/1/0
+
+规则相对优势 top10：
+  shiki064-2               规则  30 vs gwb 3257 | 景公患之。晏嬰乃薦田穰苴曰、穰苴雖田氏庶孽、然其人文能附眾、武能威敵。願君試之。
+  shiki001e-5              规则  37 vs gwb 2992 | 堯九男皆益篤。舜耕歷山、歷山之人皆讓畔。漁雷澤、雷澤上人皆讓居。陶河濱、河濱器皆
+  goshi01-3                规则  72 vs gwb 2943 | 民知君之愛其命、惜其死、若此之至、而與之臨難、則士以進死爲榮、退生爲辱矣。民（た
+  shiki082-3               规则  26 vs gwb 2671 | 已而燕軍攻安平、城壞。齊人走爭塗。已（すで）にして燕軍（えんぐん）、安平（あんぺ
+  shiki064-3               规则  45 vs gwb 2634 | 正曰、當斬。使者大懼。穰苴曰、君之使、不可殺之。乃斬其僕、車之左駙、馬之左驂、以
+  goshi05-2                规则 115 vs gwb 2648 | 呉起對曰、凡戰之法、晝以旌旗旛麾爲節、夜以金鼓笳笛爲節。呉起（ごき）、対（こた）
+  goshi06-2                规则  91 vs gwb 2212 | 起對曰、嚴明之事、臣不能悉。雖然非所恃也。夫發號施令、而人樂聞、興師動衆、而人樂
+  soji11-2                 规则 156 vs gwb 2219 | 觀江河之紆曲兮、離四海之霑濡、攀北極而一息兮、吸沆瀣以充虚、飛朱鳥使先驅兮、駕太
+  shiba02-11               规则  22 vs gwb 1988 | 師多務威、則民詘。少威則民不勝。師（し）、多（おお）く威（い）を務（つと）むれば
+  shiki001d-2              规则  60 vs gwb 1961 | 富而不驕、貴而不舒。富（と）めども驕（おご）らず、貴（たっと）けれども舒（あなど
+
+guwenbert 相对优势 top10：
+  rikutou02-4              规则  56 vs gwb   84 | 鹿裘禦寒、布衣掩形。糲粱之飯、藜藿之羹、不以役作之故、害民耕織之時。削心約志、從
+  sanryaku02-4             规则  91 vs gwb  116 | 聖人體天、賢人法地、智者師古。是故三略爲衰世作。上略設禮賞、別姦雄、著成敗。中略
+  shiwaonore-1             规则  43 vs gwb   67 | 豫讓者、晉人也。故嘗事范氏及中行氏、而無所知名。去而事智伯。智伯甚尊寵之。及智伯
+  sanryaku02-2             规则  77 vs gwb   99 | 王者制人以道、降心服志、設矩備衰。四海會同、王職不廢。雖有甲兵之備、而無戰闘之患
+  karoto-1                 规则  49 vs gwb   70 | 作無益之能、納無補之説、以夏進鑪、以冬奏扇。爲所不欲得之事、獻所不欲聞之語。其不
+  utsuryo04-6              规则  48 vs gwb   69 | 故國必有禮信親愛之義、則可以飢易飽、國必有孝慈廉耻之俗、則可以死易生。古者率民、
+  abakite-1                规则  47 vs gwb   66 | 子貢曰、君子亦有惡乎。子曰、有惡。惡称人之惡者。惡居下流而訕上者。惡勇而無禮者。
+  kakanfusa-1              规则  47 vs gwb   66 | 子貢曰、君子亦有惡乎。子曰、有惡。惡称人之惡者。惡居下流而訕上者。惡勇而無禮者。
+  kasumete-1               规则  47 vs gwb   66 | 子貢曰、君子亦有惡乎。子曰、有惡。惡称人之惡者。惡居下流而訕上者。惡勇而無禮者。
+  karyuite-1               规则  47 vs gwb   66 | 子貢曰、君子亦有惡乎。子曰、有惡。惡称人之惡者。惡居下流而訕上者。惡勇而無禮者。
+
+written: eval/night71_h2h.txt
+[03:48:09] 结束: exit=0 (0 分钟) [h2h]
+[03:48:09] night71_pipeline 结束

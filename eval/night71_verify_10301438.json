@@ -1,0 +1,181 @@
+{
+  "book": " (NDL 10301438)",
+  "pid": "10301438",
+  "expected_pages_manifest": 20,
+  "jpg_pages": 20,
+  "book_md_pages": 20,
+  "ok": 19,
+  "zero_line": 1,
+  "ocr_fail": 0,
+  "zero_line_pages": [
+    20
+  ],
+  "ocr_fail_pages": [],
+  "ascii_noise_total_lines": 0,
+  "ascii_noise_pages": 0,
+  "book_md_sha256_16": "6b4e1de994b095ca",
+  "fails": [],
+  "rows": [
+    {
+      "page": 1,
+      "status": "ok",
+      "hakubun_lines": 1,
+      "kudashi_lines": 1,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 7
+    },
+    {
+      "page": 2,
+      "status": "ok",
+      "hakubun_lines": 5,
+      "kudashi_lines": 5,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 14
+    },
+    {
+      "page": 3,
+      "status": "ok",
+      "hakubun_lines": 20,
+      "kudashi_lines": 28,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 323
+    },
+    {
+      "page": 4,
+      "status": "ok",
+      "hakubun_lines": 45,
+      "kudashi_lines": 45,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 437
+    },
+    {
+      "page": 5,
+      "status": "ok",
+      "hakubun_lines": 74,
+      "kudashi_lines": 74,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 466
+    },
+    {
+      "page": 6,
+      "status": "ok",
+      "hakubun_lines": 86,
+      "kudashi_lines": 86,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 651
+    },
+    {
+      "page": 7,
+      "status": "ok",
+      "hakubun_lines": 62,
+      "kudashi_lines": 62,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 414
+    },
+    {
+      "page": 8,
+      "status": "ok",
+      "hakubun_lines": 62,
+      "kudashi_lines": 62,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 374
+    },
+    {
+      "page": 9,
+      "status": "ok",
+      "hakubun_lines": 38,
+      "kudashi_lines": 38,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 309
+    },
+    {
+      "page": 10,
+      "status": "ok",
+      "hakubun_lines": 71,
+      "kudashi_lines": 71,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 450
+    },
+    {
+      "page": 11,
+      "status": "ok",
+      "hakubun_lines": 54,
+      "kudashi_lines": 54,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 388
+    },
+    {
+      "page": 12,
+      "status": "ok",
+      "hakubun_lines": 62,
+      "kudashi_lines": 62,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 445
+    },
+    {
+      "page": 13,
+      "status": "ok",
+      "hakubun_lines": 72,
+      "kudashi_lines": 72,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 620
+    },
+    {
+      "page": 14,
+      "status": "ok",
+      "hakubun_lines": 80,
+      "kudashi_lines": 80,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 498
+    },
+    {
+      "page": 15,
+      "status": "ok",
+      "hakubun_lines": 56,
+      "kudashi_lines": 56,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 438
+    },
+    {
+      "page": 16,
+      "status": "ok",
+      "hakubun_lines": 69,
+      "kudashi_lines": 69,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 450
+    },
+    {
+      "page": 17,
+      "status": "ok",
+      "hakubun_lines": 59,
+      "kudashi_lines": 59,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 502
+    },
+    {
+      "page": 18,
+      "status": "ok",
+      "hakubun_lines": 48,
+      "kudashi_lines": 48,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 290
+    },
+    {
+      "page": 19,
+      "status": "ok",
+      "hakubun_lines": 1,
+      "kudashi_lines": 1,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 2
+    },
+    {
+      "page": 20,
+      "status": "0行",
+      "hakubun_lines": 0,
+      "kudashi_lines": 0,
+      "ascii_noise_lines": 0,
+      "hakubun_chars": 0
+    }
+  ],
+  "garbage_detail": []
+}
