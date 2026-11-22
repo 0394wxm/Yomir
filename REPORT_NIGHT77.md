@@ -93,7 +93,17 @@ engine OK 4000／error 0、精确 **24/4000**、avgDist **13.517**，与 night75
 归档 eval/night77_results_4000.json（schema 同 night7x_results_4000）。
 （词库不进规则引擎，数字必须逐位一致。）
 
-## 4. accept 77（终值，wrap-up 补）
+## 4. accept 77 — PASS（fail=0 skip=0）
+
+- 第一次 21:22:50 **FAIL fail=1 skip=0**（223.7s）：唯一失败
+  `tests/test_ocr_batch_progress.py::test_async_batch_progress_monotonic`——异步时序 flaky，
+  与本夜改动无关（本夜新增 20 测试全过、其余 6 项检查全 PASS；该文件单独复跑 6 passed）。
+  N74 夜同型（ACCEPT_LOG 有 FAIL→PASS 记录先例）。
+- 复跑 21:28:32 **PASS fail=0 skip=0**（221.3s）：**pytest 351 passed = 351 collected**；
+  eval_integrity PASS（night77_results_4000.json 已登记、expected 未改）；repo_clean PASS
+  （主提交 520adc0 后工作区干净）。
+- 其余检查：rule_regression（撤销规则未复活）／engine_smoke（经典句・分流・400 全符合约定）／
+  perf_envelope（短句中位 17ms，包络 3000ms）／order_rate（右先率与基线差 +0.00pp）全 PASS。
 
 ## 5. 任务书与底稿的差异处理记录（如实记录，留拍板）
 

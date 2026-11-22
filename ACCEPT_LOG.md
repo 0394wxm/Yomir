@@ -114,3 +114,5 @@
 | 2026-11-22T18:36:56 | 75 | FAIL | fail=1 skip=0 | 211.3s | accept_night_75.json |
 | 2026-11-22T18:44:15 | 75 | PASS | fail=0 skip=0 | 207.6s | accept_night_75.json |
 | 2026-11-22T20:36:46 | 76 | PASS | fail=0 skip=1 | 223.1s | accept_night_76.json |
+| 2026-11-22T21:22:50 | 77 | FAIL | fail=1 skip=0 | 223.7s | accept_night_77.json |
+| 2026-11-22T21:28:32 | 77 | PASS | fail=0 skip=0 | 221.3s | accept_night_77.json |
