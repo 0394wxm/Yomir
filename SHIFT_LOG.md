@@ -859,3 +859,4 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 [2026-11-22T15:50 N74] lexicon proofreading milestone: 272 entries judged (idx 0-272, verdict files merged by script). wrong so far: 7,51,60,69(now dubious),77,88,91,114,126,137,178,182,204,212,174,178,135,85 => exact list from verdict JSONs. fetch ~272/500.
 [2026-11-22T16:38 N74] heartbeat alive (2/11)
 [2026-11-22T17:10 N74] lexicon proofreading complete: all 500 entries judged, merged into eval/night74_lexicon_audit.md (per-entry table + summary + top20). pytest full rerun next, then accept 74.
+[2026-11-22T17:34 N74] accept 74 PASS (fail=0 skip=1, 219.7s): skip=eval_integrity (report-only night, no new eval archive to register, N69-style). pytest inside gate: 307 passed = 307 collected. repo_clean PASS after main commit d287fc6. First accept attempt had failed repo_clean (work uncommitted yet) + one more flaky pytest hit; documented in REPORT 4. Wrap-up commit next.
