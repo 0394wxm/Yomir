@@ -20,6 +20,7 @@ import json
 import os
 
 from backend.glossary_lexicon import LEXICON_SOURCE, find_in_lexicon
+from backend.glossary_lexicon_extra2 import find_in_lexicon2  # N79: 词库 500→1000（本体 500 条不动，llm 层合并查询）
 
 MODERN_PLACEHOLDER = "待接入 LLM（占位）"
 
@@ -92,11 +93,11 @@ def glossary(hakubun: str, kakikudashi: str = "") -> list:
     """
     if not _has_key():
         # 离线模式: 词库优先（最多 5 条），词库没有命中就留空数组
-        hits = find_in_lexicon((hakubun or "") + " " + (kakikudashi or ""), max_hits=5)
+        hits = find_in_lexicon2((hakubun or "") + " " + (kakikudashi or ""), max_hits=5)
         return hits
     # TODO(用户给 key 后启用): 提示词见 GLOSSARY_PROMPT_TEMPLATE。
     try:
-        hits = find_in_lexicon((hakubun or "") + " " + (kakikudashi or ""), max_hits=5)
+        hits = find_in_lexicon2((hakubun or "") + " " + (kakikudashi or ""), max_hits=5)
         lexicon_lines = "\n".join(
             "- {w}（{r}）: {m}".format(w=h["word"], r=h["reading"], m=h["meaning"]) for h in hits
         ) or "（なし）"

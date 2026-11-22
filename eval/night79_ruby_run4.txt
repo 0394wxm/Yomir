@@ -1,0 +1,9 @@
+######## 嗟乎 : corpus lines=3
+  enjaku-3 (https://kanbun.info/koji/enjaku.html): 69 ruby pairs
+    嗟乎=ああ
+  shiwaonore-2 (https://kanbun.info/koji/shiwaonore.html): 137 ruby pairs
+    嗟乎=ああ
+  shika-1 (https://kanbun.info/koji/shika.html): 158 ruby pairs
+    嗟乎=ああ
+
+weblio batch progress: 366

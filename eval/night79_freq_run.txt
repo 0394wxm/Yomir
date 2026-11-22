@@ -1,0 +1,7 @@
+golden_8165 8165 lines | existing lexicon words 500
+N76 gap 而る後  doc_freq=9 sample=、君子を問う。子曰く、先ず其の言を行い、而る後に之に従う。
+N76 gap 而ち   doc_freq=5 sample=而ち曰く、然り。
+N76 gap 利す   doc_freq=11 sample=れず、貨賂至らず、陂池の魚は、以て貧民を利す。此の時に当たり、民飢うる無きに、君反りて以て臣を罪す。今臣後に東阿に之くや
+distinct runs(all)=34999 nonexisting>=1=34960 | >=5:513 >=3:1479 >=2:4553
+rank500 freq=5 | written D:\kanbun-rulel\eval\night79_candidates.json (503 candidates incl. 3 N76 gaps)
+top20: 子曰:852, 太公曰:138, 天下:126, 太公:86, 所以:84, 太宗曰:81, 奈何:80, 靖曰:68, 者有:67, 孔子曰:64, 諸侯:64, 聖人:63, 三軍:59, 子貢曰:58, 何如:46, 武王:46, 如何:45, 武王問太公曰:44, 敵人:42, 爲之奈何:41

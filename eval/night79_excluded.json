@@ -1,0 +1,1080 @@
+{
+ "generated": "2026-11-23T01:25",
+ "rule": "dual evidence gate: weblio dictionary + corpus (golden_8165 lines / kanbun.info ruby)",
+ "excluded": [
+  {
+   "word": "子曰",
+   "rank": 3,
+   "freq": 852,
+   "exclude_reason": "weblio 404＝辞書条目なし。「子＋曰く」の呼称部で複合語ではない（X曰型）"
+  },
+  {
+   "word": "太公曰",
+   "rank": 4,
+   "freq": 138,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "太宗曰",
+   "rank": 8,
+   "freq": 81,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "靖曰",
+   "rank": 10,
+   "freq": 68,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "者有",
+   "rank": 11,
+   "freq": 67,
+   "exclude_reason": "weblio 404＝辞書条目なし。「…する者有り」の構文断片（者＋有り）"
+  },
+  {
+   "word": "孔子曰",
+   "rank": 12,
+   "freq": 64,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "子貢曰",
+   "rank": 16,
+   "freq": 58,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "武王問太公曰",
+   "rank": 20,
+   "freq": 44,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文の呼称公式断片"
+  },
+  {
+   "word": "爲之奈何",
+   "rank": 22,
+   "freq": 41,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文「為之奈何＝これに奈何せん」の断片"
+  },
+  {
+   "word": "武王曰",
+   "rank": 23,
+   "freq": 37,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "所無",
+   "rank": 24,
+   "freq": 37,
+   "exclude_reason": "weblio 404（例文辞書のみ）＝辞書条目なし。「〜する所無し」の構文断片（所＋無し）"
+  },
+  {
+   "word": "子路曰",
+   "rank": 28,
+   "freq": 30,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "曾子曰",
+   "rank": 29,
+   "freq": 30,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "子夏曰",
+   "rank": 30,
+   "freq": 28,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "孫子曰",
+   "rank": 31,
+   "freq": 28,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "所有",
+   "rank": 34,
+   "freq": 26,
+   "exclude_reason": "weblio デジタル大辞泉 しょゆう【所有】あり（cand_034）。ただし語料 ruby 所=ところ・有=あ（eidatsu/kanae/gishin 页）——「〜する所（ところ）＋有り」の構文で「所有(しょゆう)」という語ではない。読み取り違いリスト高く排除"
+  },
+  {
+   "word": "故曰",
+   "rank": 35,
+   "freq": 26,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文「故曰く」の断片"
+  },
+  {
+   "word": "對曰",
+   "rank": 37,
+   "freq": 25,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文（繁体表記）「對曰く」の断片"
+  },
+  {
+   "word": "詩云",
+   "rank": 40,
+   "freq": 25,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文「詩に云く」の断片"
+  },
+  {
+   "word": "文王曰",
+   "rank": 41,
+   "freq": 24,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "子張曰",
+   "rank": 44,
+   "freq": 20,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "孟子曰",
+   "rank": 49,
+   "freq": 18,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "孔子對曰",
+   "rank": 52,
+   "freq": 17,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文（繁体）「孔子對曰」の断片"
+  },
+  {
+   "word": "孔子対",
+   "rank": 53,
+   "freq": 17,
+   "exclude_reason": "weblio 404＝辞書条目なし。「孔子対えて曰く」の断片（対＝対う）"
+  },
+  {
+   "word": "王曰",
+   "rank": 62,
+   "freq": 16,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "臣聞",
+   "rank": 64,
+   "freq": 16,
+   "exclude_reason": "weblio 404＝辞書条目なし。「臣聞く」の呼称部（臣＋聞く）"
+  },
+  {
+   "word": "軍讖",
+   "rank": 65,
+   "freq": 16,
+   "exclude_reason": "weblio 404＝辞書条目なし。兵書『軍讖』の書名だが weblio 聚合に条目がない（ありのまま記録）。語料では「軍讖に曰く」16行"
+  },
+  {
+   "word": "吾将",
+   "rank": 68,
+   "freq": 15,
+   "exclude_reason": "weblio 404＝辞書条目なし。「吾将に…んとす」の断片（吾＋将）"
+  },
+  {
+   "word": "引兵深入諸侯之地",
+   "rank": 70,
+   "freq": 14,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文の句全体の断片"
+  },
+  {
+   "word": "各〻其",
+   "rank": 71,
+   "freq": 14,
+   "exclude_reason": "weblio 404＝辞書条目なし。「各〻其の…」の断片（各〻＋其）"
+  },
+  {
+   "word": "軍讖曰",
+   "rank": 72,
+   "freq": 14,
+   "exclude_reason": "weblio 404＝辞書条目なし。「軍讖に曰く」の断片"
+  },
+  {
+   "word": "是以聖人",
+   "rank": 78,
+   "freq": 13,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文「是以聖人」の断片"
+  },
+  {
+   "word": "一卒",
+   "rank": 79,
+   "freq": 13,
+   "exclude_reason": "weblio 404＝辞書条目なし。「一卒と為し」の軍制断片"
+  },
+  {
+   "word": "者無",
+   "rank": 85,
+   "freq": 13,
+   "exclude_reason": "weblio 404＝辞書条目なし。「…する者無し」の構文断片（者＋無し）"
+  },
+  {
+   "word": "道有",
+   "rank": 86,
+   "freq": 13,
+   "exclude_reason": "weblio 404（例文辞書のみ）＝辞書条目なし。「道有れば」の構文断片"
+  },
+  {
+   "word": "文王問太公曰",
+   "rank": 87,
+   "freq": 12,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文の呼称公式断片"
+  },
+  {
+   "word": "太史公曰",
+   "rank": 88,
+   "freq": 12,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "公曰",
+   "rank": 90,
+   "freq": 12,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "吾聞",
+   "rank": 91,
+   "freq": 12,
+   "exclude_reason": "weblio 404＝辞書条目なし。「吾聞く」の呼称部（吾＋聞く）"
+  },
+  {
+   "word": "道無",
+   "rank": 99,
+   "freq": 12,
+   "exclude_reason": "weblio 404（例文辞書のみ）＝辞書条目なし。「道無ければ」の構文断片"
+  },
+  {
+   "word": "功有",
+   "rank": 100,
+   "freq": 11,
+   "exclude_reason": "weblio 404＝辞書条目なし。「功有り」の構文断片（功＋有り）"
+  },
+  {
+   "word": "又曰",
+   "rank": 101,
+   "freq": 11,
+   "exclude_reason": "weblio 404＝辞書条目なし。「又曰く」の呼称部"
+  },
+  {
+   "word": "吾之",
+   "rank": 102,
+   "freq": 11,
+   "exclude_reason": "weblio 404＝辞書条目なし。「吾之を聞く」の断片（吾＋之）"
+  },
+  {
+   "word": "有子曰",
+   "rank": 111,
+   "freq": 10,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "信曰",
+   "rank": 115,
+   "freq": 10,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "堯曰",
+   "rank": 117,
+   "freq": 10,
+   "exclude_reason": "weblio はウィキペディア条目のみ（『論語』篇名「堯曰篇」ぎょうえつへん）。語料は「堯曰く」の呼称部（ぎょういわく）で読み・義が別——取り違えリスト高く排除"
+  },
+  {
+   "word": "昔者",
+   "rank": 120,
+   "freq": 10,
+   "exclude_reason": "weblio デジタル大辞泉 むかしもの【昔者】＝老人・昔かたぎの人（cand_120）。語料では訓読慣用「昔者＝むかし（…し）」の文頭語で読み・義が別——取り違えリスト高く排除"
+  },
+  {
+   "word": "車騎",
+   "rank": 129,
+   "freq": 10,
+   "exclude_reason": "weblio 条目なし（ウィキペディア小見出し辞書のみ＝機械生成の別解釈）——辞書証拠欠く。語料では「車騎の用」「車騎を選びて」10行（ありのまま記録）"
+  },
+  {
+   "word": "一曰",
+   "rank": 132,
+   "freq": 9,
+   "exclude_reason": "weblio 404＝辞書条目なし。「一曰く」の呼称部"
+  },
+  {
+   "word": "何也",
+   "rank": 139,
+   "freq": 9,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文「何也」の断片"
+  },
+  {
+   "word": "右伝",
+   "rank": 144,
+   "freq": 9,
+   "exclude_reason": "weblio 404＝辞書条目なし。注釈書式「右伝の…」の断片（右＋伝）"
+  },
+  {
+   "word": "相如",
+   "rank": 155,
+   "freq": 9,
+   "exclude_reason": "weblio 404＝辞書条目なし（藺相如・司馬相如の人名が語形「相如」単独では条目化されず）。語料 9 行ありのまま記録"
+  },
+  {
+   "word": "二三子",
+   "rank": 164,
+   "freq": 8,
+   "exclude_reason": "weblio 404＝辞書条目なし。論語の呼称公式「二三子＝諸君」だが条目化されず（ありのまま記録）"
+  },
+  {
+   "word": "子游曰",
+   "rank": 165,
+   "freq": 8,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "定公問",
+   "rank": 166,
+   "freq": 8,
+   "exclude_reason": "weblio 404＝辞書条目なし。「定公問う」の呼称部"
+  },
+  {
+   "word": "相如曰",
+   "rank": 167,
+   "freq": 8,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "三曰",
+   "rank": 169,
+   "freq": 8,
+   "exclude_reason": "weblio 404＝辞書条目なし。「一曰く・二曰く」型の呼称部"
+  },
+  {
+   "word": "二曰",
+   "rank": 172,
+   "freq": 8,
+   "exclude_reason": "weblio 404＝辞書条目なし。「一曰く・二曰く」型の呼称部"
+  },
+  {
+   "word": "人無",
+   "rank": 174,
+   "freq": 8,
+   "exclude_reason": "weblio 404（例文辞書のみ）＝辞書条目なし。「人無くんば」の構文断片"
+  },
+  {
+   "word": "四曰",
+   "rank": 180,
+   "freq": 8,
+   "exclude_reason": "weblio 404＝辞書条目なし。「一曰く・二曰く」型の呼称部"
+  },
+  {
+   "word": "敢問",
+   "rank": 187,
+   "freq": 8,
+   "exclude_reason": "weblio 404＝辞書条目なし。「敢えて問う」の呼称部"
+  },
+  {
+   "word": "洞庭",
+   "rank": 194,
+   "freq": 8,
+   "exclude_reason": "weblio は名字辞典のみ（どうにわ）＝湖名としての条目なし——辞書証拠欠く（ありのまま記録）。語料「風波洞庭に下る」8行"
+  },
+  {
+   "word": "臣請",
+   "rank": 200,
+   "freq": 8,
+   "exclude_reason": "weblio 404＝辞書条目なし。「臣請う」の呼称部（臣＋請う）"
+  },
+  {
+   "word": "諸〻",
+   "rank": 204,
+   "freq": 8,
+   "exclude_reason": "weblio 404＝辞書条目なし。「諸〻の…」の呼称部（諸〻＝FORMULA）"
+  },
+  {
+   "word": "善用兵者",
+   "rank": 212,
+   "freq": 7,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文「善く兵を用うる者」の断片"
+  },
+  {
+   "word": "武侯問曰",
+   "rank": 213,
+   "freq": 7,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "聚爲一卒",
+   "rank": 214,
+   "freq": 7,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文の句断片"
+  },
+  {
+   "word": "何謂也",
+   "rank": 215,
+   "freq": 7,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文「何謂也」の断片"
+  },
+  {
+   "word": "子張問",
+   "rank": 216,
+   "freq": 7,
+   "exclude_reason": "weblio 404＝辞書条目なし。「子張問う」の呼称部"
+  },
+  {
+   "word": "子貢問",
+   "rank": 217,
+   "freq": 7,
+   "exclude_reason": "weblio 404＝辞書条目なし。「子貢問う」の呼称部"
+  },
+  {
+   "word": "子路問",
+   "rank": 218,
+   "freq": 7,
+   "exclude_reason": "weblio 404＝辞書条目なし。「子路問う」の呼称部"
+  },
+  {
+   "word": "五曰",
+   "rank": 222,
+   "freq": 7,
+   "exclude_reason": "weblio 404＝辞書条目なし。「一曰く・二曰く」型の呼称部"
+  },
+  {
+   "word": "凡戰",
+   "rank": 226,
+   "freq": 7,
+   "exclude_reason": "weblio デジタル大辞泉 ぼんせん【凡戦】＝つまらない試合（現代スポーツ義・cand_226）。語料は白文公式「凡そ戦は…」（h=7 は白文のみ）で読み・義が別——取り違えリスト高く排除"
+  },
+  {
+   "word": "君曰",
+   "rank": 233,
+   "freq": 7,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "吾其",
+   "rank": 234,
+   "freq": 7,
+   "exclude_reason": "weblio 404＝辞書条目なし。「吾其の…を見る」の断片"
+  },
+  {
+   "word": "大学",
+   "rank": 237,
+   "freq": 7,
+   "exclude_reason": "weblio の条目は現代の university 义（実用日本語表現辞典・cand_237）。語料は儒教経典『大学』（「大学の書は、古の大学」）で義が別——辞書証拠が語義を裏付けず排除"
+  },
+  {
+   "word": "或曰",
+   "rank": 242,
+   "freq": 7,
+   "exclude_reason": "weblio 404＝辞書条目なし。「或ひと曰く」の呼称部"
+  },
+  {
+   "word": "未也",
+   "rank": 244,
+   "freq": 7,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文「未也」の断片"
+  },
+  {
+   "word": "沙場",
+   "rank": 249,
+   "freq": 7,
+   "exclude_reason": "weblio 404＝辞書条目なし（戦場の意の語形「沙場」が条目化されず）。語料 7 行ありのまま記録"
+  },
+  {
+   "word": "相与",
+   "rank": 256,
+   "freq": 7,
+   "exclude_reason": "weblio 404＝辞書条目なし。「相与に」＝ともに の訓読公式（相＋与）"
+  },
+  {
+   "word": "相去",
+   "rank": 257,
+   "freq": 7,
+   "exclude_reason": "weblio は地名辞典のみ（あいさり等の地名・cand_257）。語料は「相去ること万余里」の訓読公式（相＋去る）で別義——排除"
+  },
+  {
+   "word": "相見",
+   "rank": 258,
+   "freq": 7,
+   "exclude_reason": "weblio デジタル大辞泉 しょうけん【相見】＝会うこと（cand_258）だが、語料は「相見て」＝あいみ系の訓読形で読みが別（日本語活用形辞書の あいみ は機械生成）。読み取り違いリスト高く排除"
+  },
+  {
+   "word": "罪有",
+   "rank": 260,
+   "freq": 7,
+   "exclude_reason": "weblio 404＝辞書条目なし。「罪有り」の構文断片（罪＋有り）"
+  },
+  {
+   "word": "公西華曰",
+   "rank": 270,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "天下道有",
+   "rank": 272,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。「天下道有れば」の構文断片"
+  },
+  {
+   "word": "子貢問曰",
+   "rank": 273,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "季康子問",
+   "rank": 274,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。「季康子問う」の呼称部"
+  },
+  {
+   "word": "百二十具",
+   "rank": 275,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。数詞＋具の白文断片"
+  },
+  {
+   "word": "見得思義",
+   "rank": 276,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文の成句断片"
+  },
+  {
+   "word": "三軍大",
+   "rank": 277,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。「三軍大いに恐れ」の断片"
+  },
+  {
+   "word": "仲弓曰",
+   "rank": 278,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "冉有曰",
+   "rank": 279,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "如之何",
+   "rank": 281,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文「如之何」の断片"
+  },
+  {
+   "word": "如此者",
+   "rank": 282,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文「如此者」の断片"
+  },
+  {
+   "word": "起對曰",
+   "rank": 283,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "不孫",
+   "rank": 289,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし（謙遜しない意の語形「不孫」が条目化されず）。語料 6 行ありのまま記録"
+  },
+  {
+   "word": "五陵",
+   "rank": 292,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし（漢の五陵が条目化されず）。語料 6 行ありのまま記録"
+  },
+  {
+   "word": "千門",
+   "rank": 297,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。語料 6 行ありのまま記録"
+  },
+  {
+   "word": "古者",
+   "rank": 300,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。訓読公式「古者＝むかし」の文頭語（古＋者）"
+  },
+  {
+   "word": "名有",
+   "rank": 303,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。「名有り」の構文断片"
+  },
+  {
+   "word": "君見",
+   "rank": 305,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。「君見ずや」の断片"
+  },
+  {
+   "word": "吾何",
+   "rank": 306,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。「吾何を以て」の断片"
+  },
+  {
+   "word": "吾未",
+   "rank": 307,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。「吾未だ…を見ず」の断片"
+  },
+  {
+   "word": "囲地",
+   "rank": 311,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし（孫子九地の用語が条目化されず）。語料 6 行ありのまま記録"
+  },
+  {
+   "word": "夷逸",
+   "rank": 316,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし（人名が条目化されず）。語料 3 行ありのまま記録"
+  },
+  {
+   "word": "子之",
+   "rank": 317,
+   "freq": 6,
+   "exclude_reason": "weblio ウィキペディア条目＝戦国燕の宰相「子之（しし）」（cand_317）。語料 rongo0504「子之に告げて」「子之を聞きて」は「子（孔子）＋之（指示詞）」の訓読公式で別物——人名と取り違えるため排除"
+  },
+  {
+   "word": "季氏",
+   "rank": 319,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし（魯の豪族季氏が条目化されず）。語料 6 行ありのまま記録"
+  },
+  {
+   "word": "幾回",
+   "rank": 324,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。「幾回か」の断片"
+  },
+  {
+   "word": "徳有",
+   "rank": 325,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。「徳有り」の構文断片"
+  },
+  {
+   "word": "心無",
+   "rank": 326,
+   "freq": 6,
+   "exclude_reason": "weblio 条目なし（ウィキペディア小見出し辞書のみ＝機械生成の別解釈）。「…の心無し」の構文断片"
+  },
+  {
+   "word": "東流",
+   "rank": 333,
+   "freq": 6,
+   "exclude_reason": "weblio ウィキペディア条目＝博多祇園山笠の流組織「東流」（cand_333）。語料「清渭は東流し」は「東に流る」の訓読構文で別義——排除"
+  },
+  {
+   "word": "楚人",
+   "rank": 335,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。「楚の人」の呼称部（楚＋人）"
+  },
+  {
+   "word": "民之",
+   "rank": 338,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。「民之を信ず」の断片（民＋之）"
+  },
+  {
+   "word": "相逢",
+   "rank": 342,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。「相逢う」の訓読構文（相＋逢う）"
+  },
+  {
+   "word": "臣謂",
+   "rank": 346,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。「臣謂えらく」の呼称部"
+  },
+  {
+   "word": "行陣",
+   "rank": 353,
+   "freq": 6,
+   "exclude_reason": "weblio 404＝辞書条目なし。語料 6 行ありのまま記録"
+  },
+  {
+   "word": "不幸短命死矣",
+   "rank": 362,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文の句断片"
+  },
+  {
+   "word": "凡用兵之法",
+   "rank": 363,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文の句断片"
+  },
+  {
+   "word": "君子有九思",
+   "rank": 364,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文の句断片"
+  },
+  {
+   "word": "故善用兵者",
+   "rank": 365,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文の句断片"
+  },
+  {
+   "word": "不幸短命",
+   "rank": 366,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「不幸短命にして」の成句断片"
+  },
+  {
+   "word": "今也則亡",
+   "rank": 367,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文の句断片"
+  },
+  {
+   "word": "凡戰之道",
+   "rank": 368,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文の句断片"
+  },
+  {
+   "word": "子聞之曰",
+   "rank": 369,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "故善戰者",
+   "rank": 370,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文の句断片"
+  },
+  {
+   "word": "方六七十",
+   "rank": 371,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。数詞の白文断片"
+  },
+  {
+   "word": "未之有也",
+   "rank": 372,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文の句断片"
+  },
+  {
+   "word": "紛紛紜紜",
+   "rank": 373,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。擬態語の白文断片"
+  },
+  {
+   "word": "九思有",
+   "rank": 374,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「九思有り」の断片"
+  },
+  {
+   "word": "事思敬",
+   "rank": 375,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文（九思の対句）断片"
+  },
+  {
+   "word": "呉子曰",
+   "rank": 376,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "哀公問",
+   "rank": 377,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「哀公問う」の呼称部"
+  },
+  {
+   "word": "巍巍乎",
+   "rank": 378,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。擬態語の白文断片"
+  },
+  {
+   "word": "忿思難",
+   "rank": 379,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文（九思の対句）断片"
+  },
+  {
+   "word": "武侯問",
+   "rank": 380,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「武侯問う」の呼称部"
+  },
+  {
+   "word": "王者謹",
+   "rank": 381,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「王者謹んで…」の断片"
+  },
+  {
+   "word": "疑思問",
+   "rank": 382,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文（九思の対句）断片"
+  },
+  {
+   "word": "聖人之",
+   "rank": 383,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「聖人之を…」の断片"
+  },
+  {
+   "word": "聽思聰",
+   "rank": 384,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文（九思の対句）断片"
+  },
+  {
+   "word": "視思明",
+   "rank": 385,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文（九思の対句）断片"
+  },
+  {
+   "word": "言思忠",
+   "rank": 386,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文（九思の対句）断片"
+  },
+  {
+   "word": "詩三百",
+   "rank": 387,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「詩三百」の白文断片"
+  },
+  {
+   "word": "貌思恭",
+   "rank": 388,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文（九思の対句）断片"
+  },
+  {
+   "word": "一車",
+   "rank": 391,
+   "freq": 5,
+   "exclude_reason": "weblio 404（例文辞書のみ）＝辞書条目なし。数詞断片"
+  },
+  {
+   "word": "人曰",
+   "rank": 404,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「人曰く」の呼称部"
+  },
+  {
+   "word": "六曰",
+   "rank": 407,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「一曰く・二曰く」型の呼称部"
+  },
+  {
+   "word": "利有",
+   "rank": 410,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「利有り」の構文断片"
+  },
+  {
+   "word": "功無",
+   "rank": 411,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「功無く」の構文断片"
+  },
+  {
+   "word": "千官",
+   "rank": 416,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。語料 5 行ありのまま記録"
+  },
+  {
+   "word": "又何",
+   "rank": 417,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「又何をか」の断片"
+  },
+  {
+   "word": "名無",
+   "rank": 418,
+   "freq": 5,
+   "exclude_reason": "weblio は名字辞典のみ（なむ）＝辞書条目なし。「名無きは…」の構文断片"
+  },
+  {
+   "word": "吾以",
+   "rank": 420,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「吾以て…」の断片"
+  },
+  {
+   "word": "天仗",
+   "rank": 432,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。語料 5 行ありのまま記録"
+  },
+  {
+   "word": "得難",
+   "rank": 446,
+   "freq": 5,
+   "exclude_reason": "weblio 404（例文辞書のみ）＝辞書条目なし。「得難し」の断片（得＋難し）"
+  },
+  {
+   "word": "握機",
+   "rank": 451,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。語料 5 行ありのまま記録"
+  },
+  {
+   "word": "斉人",
+   "rank": 452,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「斉の人」の呼称部（斉＋人）"
+  },
+  {
+   "word": "有諸",
+   "rank": 458,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。白文「有諸」の断片"
+  },
+  {
+   "word": "材士",
+   "rank": 459,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。語料 5 行ありのまま記録"
+  },
+  {
+   "word": "歩騎",
+   "rank": 462,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。語料 5 行ありのまま記録"
+  },
+  {
+   "word": "漢使",
+   "rank": 466,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。語料 5 行ありのまま記録"
+  },
+  {
+   "word": "漢宮",
+   "rank": 467,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。語料 5 行ありのまま記録"
+  },
+  {
+   "word": "百乗",
+   "rank": 472,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。数詞断片（百＋乗）"
+  },
+  {
+   "word": "皆其",
+   "rank": 473,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「皆其の…」の断片"
+  },
+  {
+   "word": "益〻",
+   "rank": 474,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「益〻」の呼称部（屢〻 と同形の反復記号公式）"
+  },
+  {
+   "word": "相当",
+   "rank": 476,
+   "freq": 5,
+   "exclude_reason": "weblio デジタル大辞泉 そうとう【相当】＝価値がほぼ等しいこと（現代義・cand_476）。語料「敵と相当り」は「相＋当る（あいたる）」の訓読構文で読み・義が別——排除"
+  },
+  {
+   "word": "相拒",
+   "rank": 477,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「相拒ぐ」の訓読構文（相＋拒）"
+  },
+  {
+   "word": "相望",
+   "rank": 478,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「相望みて」の訓読構文（相＋望）"
+  },
+  {
+   "word": "礼無",
+   "rank": 480,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「礼無き者」の構文断片"
+  },
+  {
+   "word": "端無",
+   "rank": 482,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「端無くも」の断片"
+  },
+  {
+   "word": "終日",
+   "rank": 485,
+   "freq": 5,
+   "exclude_reason": "weblio の条目は実用日本語表現辞典「ひもすがら（終日）」＝朝から晩まで（cand_485）。語料 rongo0901「終日、違わざる」は しゅうじつ 系の読みで読法が別——ruby 未確認で読みを据えられず排除（大辞泉 しゅうじつ 条目は digest 先頭 40 行内に確認できず）"
+  },
+  {
+   "word": "羌笛",
+   "rank": 486,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。語料 5 行ありのまま記録"
+  },
+  {
+   "word": "臣案",
+   "rank": 489,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「臣案ずるに」の呼称部"
+  },
+  {
+   "word": "花開",
+   "rank": 491,
+   "freq": 5,
+   "exclude_reason": "weblio 404（例文辞書のみ）＝辞書条目なし。「花開いて」の断片"
+  },
+  {
+   "word": "若何",
+   "rank": 492,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「若何せん」の白文断片"
+  },
+  {
+   "word": "衢地",
+   "rank": 495,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし（孫子九地の用語）。語料 5 行ありのまま記録"
+  },
+  {
+   "word": "言有",
+   "rank": 496,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。「言有り」の構文断片"
+  },
+  {
+   "word": "諸有",
+   "rank": 497,
+   "freq": 5,
+   "exclude_reason": "weblio デジタル大辞泉 しょう【諸有】＝仏語（あらゆるものみな・25有の迷いの境界・cand_497）。語料 rongo1314「可きもの、諸有りや」は「諸＋有り」の訓読公式で読み・義が別——排除"
+  },
+  {
+   "word": "起曰",
+   "rank": 499,
+   "freq": 5,
+   "exclude_reason": "weblio 404＝辞書条目なし。X曰型の呼称部"
+  },
+  {
+   "word": "越人",
+   "rank": 500,
+   "freq": 5,
+   "exclude_reason": "weblio デジタル大辞泉 えつじん【越人】＝⇒越智越人（日本の氏族・cand_500）。語料は呉越の「越」の人＝百越系で義が別（ウィキペディアは曖昧回避のみ）——取り違えリスト高く排除"
+  }
+ ]
+}
