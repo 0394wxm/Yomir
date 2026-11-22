@@ -856,3 +856,4 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 [2026-11-22T22:37 N78] mokaku research done: post-N nakare->mokare target 16 rows (12 better/3 same/1 worse = kokyo09-5 only), Mo+da co-occurrence discriminator falsified (kowokaete-4 positive), revival needs exclusion guard or kanji->kanji mechanism - eval/night78_mokaku.md
 [2026-11-22T22:44 N78] real run bit-exact both calibers: 4000 rewrite 55=pred 55 (13.517->13.495 exact 24 worse 0), 8165 rewrite 97=pred 97 (14.546->14.526 exact 30 worse 0), in-process determinism OK
 [2026-11-22T22:47 N78] heartbeat auto (+1h)
+[2026-11-22T22:52 N78] accept 78 PASS fail=0 skip=0 (144.2s, pytest 337=337, order_rate +0.00pp, perf 13ms) - wrap-up commit next
