@@ -66,7 +66,7 @@
 - tools/accept_night.py 的 NIGHT_ARTIFACTS 照 67/68/70/72/73 式加 `75: ["night75_results_4000.json"]`（仅此一处）。
 - `python tools/accept_night.py 75`：
   - 首跑（主提交前）：**fail=1**——仅 repo_clean（SHIFT_LOG.md / tools/accept_night.py 为本夜合法改动但尚未提交，属「先验收后提交」的时序问题），其余 6 项全 PASS：pytest **331 passed = 331 collected**（307 + 本夜新回归 24）、eval_integrity PASS（night75_results_4000.json 已登记：4000 行、id 唯一、expected 与 golden.json 一致）、rule_regression / engine_smoke / perf_envelope / order_rate 全 PASS（order_rate 与基线差 +0.00pp，只测量不判死刑）。
-  - 主提交后重跑：**PASS（fail=0 skip=0）**——终值与耗时以 ACCEPT_LOG.md 与 eval/accept_night_75.json 为准（wrap-up 提交补记）。
+  - 主提交后重跑（f184bf1）：**PASS（fail=0 skip=0，207.6s）**——pytest 331 passed = 331 collected（111.0s，收集 26.2s）；eval_integrity / rule_regression / engine_smoke / perf_envelope / order_rate 全 PASS（order_rate 与基线差 +0.00pp）。
 
 ## 5. 交付物与提交
 
