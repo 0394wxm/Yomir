@@ -845,3 +845,4 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 [2026-11-22T12:01 N72] 模拟门终局: 収9条全0变差(つひに/いずくんぞ安悪/ただ/ゆえ/はじめ/がため為翻案/はざるなり・を), 拒案维持+新证据落盘; 组合244行改写/改善239/变差0/幂等0, avgDist 14.632→14.583(Δ-0.049), 4000: 13.584→13.544
 [2026-11-22T12:06 N72] Rule L 上线: L_KANA_TO_KANJI 9条+链尾接K; tests/test_night72_rule_l.py 23项; 全量 pytest 283 passed(260+23); TestClient 真跑后台启动
 [2026-11-22T12:24 N72] 真跑双口径与模拟逐位一致: golden_4000 avgDist 13.584→13.544/exact24/改写114(双向0差)/改善110/变差0; golden_8165 14.632→14.583/30/244/239/0; verify 15/15 exit0; ROADMAP/README 数字行更新完
+[2026-11-22T12:36 N72] 收尾: accept 72 终跑 PASS fail=0 skip=0(pytest 283=283, eval_integrity 实查, order_rate 98.57/98.63 零退化); README 表头已写主提交 1327089; REPORT_NIGHT72.md 完成; wrap-up 提交后停
