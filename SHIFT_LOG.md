@@ -906,3 +906,4 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 [2026-11-23T16:04 N82] batch9 rank900-949 judged: 0 in / 50 out (all 404 hakubun phrases); remaining batch10 rank950-965
 [2026-11-23T16:05 N82] batch10 rank950-965 judged: 0 in / 16 out; ALL 466 candidates decided - running audit
 [2026-11-23T16:15 N82] extra2 1085->1301 (216 in: noun172 proper28 verb9 modifier7), pytest 385 passed, golden_4000 bit-exact vs night80 (13.517/24/0, diff 0 lines, 105s), verify 17/17 exit 0; ready for main commit
+[2026-11-23T16:18 N82] N82 wrap-up: accept 82 PASS fail=0 skip=0 (31.7s, seven gates green, first-run PASS after main commit fb11eee); REPORT section-4 filled; branch night82-lexicon-expand3 two commits, no merge, no push

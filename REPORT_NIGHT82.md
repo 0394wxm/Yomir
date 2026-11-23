@@ -80,7 +80,8 @@
 - README 更新：三处「文語 1085 語」→「文語 1301 語」＋テスト行「**307 passed**」→「**385 passed**」（verify_readme_facts の pytest 計数断言が collect 実数と一致するための必要伴随——N73 起の歴史漂移を本夜で解消）
 - `python tools/verify_readme_facts.py`：**README 比对 17/17 对上・exit 0** ✓（N80 漏报本项、本夜补上）
 - ROADMAP 末行 ✓
-- `python tools/accept_night.py 82`（主提交之后跑）：【wrap-up 提交时补：PASS/FAIL・fail・skip・秒数・七门】
+- `python tools/accept_night.py 82`（主提交 fb11eee 之后跑）：**PASS（fail=0 skip=0，31.7s）**——首跑即 PASS（主提交后才跑，无 repo_clean 预跑 FAIL），七门全过：
+  - repo_clean（untracked 仅缓存目录 `.night72_deps/`＋`eval/night74/79/80_dict_cache/`＋`night79_ruby_cache/`＋`night82_dict_cache/`，N72/N74 先例）／pytest **385 passed = 385 collected**／eval_integrity（night82_results_4000.json 4000 条、id 唯一、expected 一致）／rule_regression（Rule C' 护栏＋合并词表 21 条）／engine_smoke／perf_envelope（短句中位 16ms）／order_rate（off 98.57% on 98.63%，基线差 +0.00pp）
 - 分支两提交（主提交＋wrap-up），**不合 master、不推远程**。
 
 ## 5. 交付与提交
