@@ -1,0 +1,456 @@
+{
+ "start": 400,
+ "note": "N80 batch8 ranks 400-449: 25 in (19 noun, 6 modifier reduplicated/temporal) / 25 out (19 404 fragments, 2 machine-only, 1 wrong-page ushou, 1 sense-mismatch riki-tari, 2 others)",
+ "decisions": [
+  {
+   "word": "八斤",
+   "rank": 400,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。数量構文「重さ八斤」（八＋斤）"
+  },
+  {
+   "word": "八陣",
+   "rank": 401,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "はちじん",
+   "meaning": "古代兵法の八つの陣形（八陣図＝諸葛亮に結びつく）。",
+   "dict_evidence": "weblio デジタル大辞泉「はち‐じん〔‐ヂン〕【八陣】読み方：はちじん」（cand_401_八陣.txt）",
+   "corpus_evidence": "golden_8165 3行。例 montai01-9「太宗曰く、晋の馬隆、涼州を討ちしときも、亦た是れ八陣の図に依り、偏箱」"
+  },
+  {
+   "word": "六十",
+   "rank": 402,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ろくじゅう・むそじ",
+   "meaning": "六十。数・年齢。",
+   "dict_evidence": "weblio デジタル大辞泉「む‐そ【六▽十】」条目内 3 読み むそ・むそじ・ろくじゅう；語料論語「六十にして耳順う」＝ろくじゅう・礼記「六十を耆と曰う」＝むそじ（cand_402_六十.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo0204-1「四十にして惑わず。五十にして天命を知る。六十にして耳順う。七十にして」"
+  },
+  {
+   "word": "六守",
+   "rank": 403,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。六韜術語「人君に六守三宝有り」構文断片"
+  },
+  {
+   "word": "六者",
+   "rank": 404,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。指示構文断片「凡そ此の六者」"
+  },
+  {
+   "word": "兵家",
+   "rank": 405,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "へいか",
+   "meaning": "軍事を職業・学問とする家。兵法家。転じて戦争の経験者。",
+   "dict_evidence": "weblio デジタル大辞泉「へい‐か【兵家】読み方：へいか」（cand_405_兵家.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kendochorai-1「勝敗は兵家も事期せず」"
+  },
+  {
+   "word": "兵強",
+   "rank": 406,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「兵強き」（兵＋強し）"
+  },
+  {
+   "word": "兵車",
+   "rank": 407,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "へいしゃ",
+   "meaning": "戦用の車。武車。",
+   "dict_evidence": "weblio デジタル大辞泉「へい‐しゃ【兵車】読み方：へいしゃ」（cand_407_兵車.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo1417-1「るかと。子曰く、桓公、諸侯を九合するに、兵車を以てせざるは、管仲の力」"
+  },
+  {
+   "word": "内外",
+   "rank": 408,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ないがい・うちそと",
+   "meaning": "内と外。内外。",
+   "dict_evidence": "weblio デジタル大辞泉「うち‐そと【内外】」条目内 ないがい・ないげ・うちそと；語料漢文訓読「内外の費」＝ないがい 前頭（cand_408_内外.txt）",
+   "corpus_evidence": "golden_8165 3行。例 sanryaku03-7「臣は外なり。邪臣、内なれば則ち賢臣斃る。内外、宜しきを失えば、禍乱世」"
+  },
+  {
+   "word": "内顧",
+   "rank": 409,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ないこ",
+   "meaning": "内側に顧みること。家庭を気に懸けること。",
+   "dict_evidence": "weblio デジタル大辞泉「ない‐こ【内顧】読み方：ないこ」（cand_409_内顧.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo1017-1「車に升るときは、必ず正しく立ちて綏を執る。車の中にては内顧せず、疾言」"
+  },
+  {
+   "word": "冉冉",
+   "rank": 410,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "ぜんぜん",
+   "meaning": "ゆっくりと進むさま。おのずとほどよく抜けるさま。",
+   "dict_evidence": "weblio デジタル大辞泉「ぜん‐ぜん【×冉×冉】読み方：ぜんぜん」（畳語・形容副詞）（cand_410_冉冉.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen007-11「冉冉たる征途の間」"
+  },
+  {
+   "word": "冕旒",
+   "rank": 411,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "べんりゅう",
+   "meaning": "皇帝の礼帽（冕）と冠垂れの玉（旒）。天子の礼装。",
+   "dict_evidence": "weblio デジタル大辞泉「べん‐りゅう〔‐リウ〕【×冕×旒】読み方：べんりゅう」（cand_411_冕旒.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen134-2「衣冠冕旒を拝す」"
+  },
+  {
+   "word": "冥冥",
+   "rank": 412,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "めいめい",
+   "meaning": "薄暗いさま。深く静かなさま。",
+   "dict_evidence": "weblio デジタル大辞泉「めい‐めい【冥冥／×瞑×瞑】読み方：めいめい」（畳語）（cand_412_冥冥.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen002-9「今我冥冥に遊ぶ」"
+  },
+  {
+   "word": "凄凄",
+   "rank": 413,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "せいせい",
+   "meaning": "悲しみ寂しいさま。寒々としたさま。",
+   "dict_evidence": "weblio デジタル大辞泉「せい‐せい【凄凄】読み方：せいせい」（畳語）（cand_413_凄凄.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen398-1「凄凄たる遊子飄蓬の若し」"
+  },
+  {
+   "word": "分明",
+   "rank": 414,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "ぶんみょう・ぶんめい",
+   "meaning": "あきらかであるさま。はっきりしているさま。",
+   "dict_evidence": "weblio デジタル大辞泉「ぶん‐みょう〔‐ミヤウ〕【分明】」両読み ぶんみょう・ぶんめい；語料漢詩訓読＝ぶんみょう 前頭（cand_414_分明.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen330-3「分明なり複道に恩を奉ぜし時」"
+  },
+  {
+   "word": "前路",
+   "rank": 415,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「前路知己無きを」"
+  },
+  {
+   "word": "剣佩",
+   "rank": 416,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「剣佩声は玉墀の歩に随い」"
+  },
+  {
+   "word": "力足",
+   "rank": 417,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：dict=力足（ちからあし）；語料「力足らざるなり」＝力＋足らざる 動詞句構文——N79 東流 先例"
+  },
+  {
+   "word": "勇力",
+   "rank": 418,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ゆうりき",
+   "meaning": "勇猛で力が強いこと。またその人。",
+   "dict_evidence": "weblio デジタル大辞泉「ゆう‐りき【勇力】読み方：ゆうりき」（別読み ゆうりょく あり）（cand_418_勇力.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou34-3「勇力、飛走、冒将の士は、前に居りて塁を平らげ、軍の為に道を開き、材士」"
+  },
+  {
+   "word": "北地",
+   "rank": 419,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ほくち",
+   "meaning": "北の土地。北方の地域。",
+   "dict_evidence": "weblio デジタル大辞泉「ほく‐ち【北地】読み方：ほくち」（cand_419_北地.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen301-4「鴻鴈那ぞ北地より来る」"
+  },
+  {
+   "word": "北方",
+   "rank": 420,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ほっぽう",
+   "meaning": "北方。北の方角・地方。",
+   "dict_evidence": "weblio デジタル大辞泉「ほっ‐ぽう〔ホクパウ〕【北方】読み方：ほっぽう」（cand_420_北方.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toranoi-1「荊の宣王、群臣に問いて曰く、吾、北方の昭奚恤を畏るるを聞く。果たして」"
+  },
+  {
+   "word": "北海",
+   "rank": 421,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ほっかい",
+   "meaning": "北方の海。北洋。",
+   "dict_evidence": "weblio デジタル大辞泉「ほっ‐かい〔ホク‐〕【北海】読み方：ほっかい＝北方の海。北洋」（同頁 列車愛称 HOKKAI は別義）（cand_421_北海.txt）",
+   "corpus_evidence": "golden_8165 3行。例 p-fuba-2「楚子、師と言わしめて曰く、君は北海に処り、寡人は南海に処り、唯だ是れ」"
+  },
+  {
+   "word": "十人",
+   "rank": 422,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じゅうにん",
+   "meaning": "十人。人数。",
+   "dict_evidence": "weblio デジタル大辞泉「じゅう‐にん〔ジフ‐〕【十人】読み方：じゅうにん」（cand_422_十人.txt）",
+   "corpus_evidence": "golden_8165 3行。例 utsuryo05-6「率するや極まれり。故に五人にして伍あり、十人にして什あり、百人にして」"
+  },
+  {
+   "word": "十車",
+   "rank": 423,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。兵制構文「十車を師と為し」"
+  },
+  {
+   "word": "十騎",
+   "rank": 424,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。兵数構文「十騎は一車に当る」"
+  },
+  {
+   "word": "卒必",
+   "rank": 425,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「其の卒必ず寡からん」"
+  },
+  {
+   "word": "南窓",
+   "rank": 426,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。陶淵明「南窓の白日」意象語、辞書条目なし"
+  },
+  {
+   "word": "即今",
+   "rank": 427,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "そっこん",
+   "meaning": "ただ今。今すぐに。",
+   "dict_evidence": "weblio デジタル大辞泉「そっ‐こん〔ソク‐〕【即今】読み方：そっこん」（時間副詞）（cand_427_即今.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen194-7「聖代即今雨露多し」"
+  },
+  {
+   "word": "却立",
+   "rank": 428,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「却立して柱に倚り」"
+  },
+  {
+   "word": "又吾",
+   "rank": 429,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「又吾が後ろを燔け」"
+  },
+  {
+   "word": "只今",
+   "rank": 430,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "ただいま",
+   "meaning": "ちょうど今。今しがた。",
+   "dict_evidence": "weblio デジタル大辞泉「ただ‐いま【×只今／▽唯今】読み方：ただいま」（時間副詞）（cand_430_只今.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen376-3「青海只今将に馬に飲わんとす」"
+  },
+  {
+   "word": "右軍",
+   "rank": 431,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio ページは将棋駒「右将」（Wikipedia 2013 版）のみ＝右軍条目なし——辞書证据不成立"
+  },
+  {
+   "word": "司命",
+   "rank": 432,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。「将は人の司命なり」（司命＝天神名・転義、条目なし）"
+  },
+  {
+   "word": "同心",
+   "rank": 433,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "どうしん",
+   "meaning": "心を同じくすること。またその人。",
+   "dict_evidence": "weblio デジタル大辞泉「どう‐しん【同心】読み方：どうしん」（cand_433_同心.txt）",
+   "corpus_evidence": "golden_8165 3行。例 shunbonoshi03-3「結ばず同心の人」"
+  },
+  {
+   "word": "名実",
+   "rank": 434,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "めいじつ",
+   "meaning": "名前と実際。名分と実功。",
+   "dict_evidence": "weblio デジタル大辞泉「めい‐じつ【名実】読み方：めいじつ」（cand_434_名実.txt）",
+   "corpus_evidence": "golden_8165 3行。例 shinshohi-3「孝宣の治は、信賞必罰、名実を綜核す。」"
+  },
+  {
+   "word": "君為",
+   "rank": 435,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「君為ること難く」"
+  },
+  {
+   "word": "君聞",
+   "rank": 436,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「君聞きて之を賢とし」"
+  },
+  {
+   "word": "吾子",
+   "rank": 437,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "あこ",
+   "meaning": "対称。相手を敬って呼ぶ語。あなた。",
+   "dict_evidence": "weblio デジタル大辞泉「あ‐こ【×吾子】読み方：あこ」（別読み ごし あり）（cand_437_吾子.txt）",
+   "corpus_evidence": "golden_8165 3行。例 imayukyu-1「、仲由・冉求は大臣と謂う可きか。子曰く、吾子を以て異なるを之れ問うと」"
+  },
+  {
+   "word": "吾得",
+   "rank": 438,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「吾得て之を見ず」"
+  },
+  {
+   "word": "吾豈",
+   "rank": 439,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「吾豈に敢えてせんや」"
+  },
+  {
+   "word": "呉人",
+   "rank": 440,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「呉人と越人と相悪む」（呉＋人 呼称）"
+  },
+  {
+   "word": "周制",
+   "rank": 441,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「此れ亦た周制なり」（周＋制）"
+  },
+  {
+   "word": "喬木",
+   "rank": 442,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きょうぼく",
+   "meaning": "高くて太い木。大きな樹。",
+   "dict_evidence": "weblio デジタル大辞泉「きょう‐ぼく〔ケウ‐〕【×喬木】読み方：きょうぼく」（cand_442_喬木.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen003-3「丘陵尽く喬木」"
+  },
+  {
+   "word": "囊中",
+   "rank": 443,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "のうちゅう",
+   "meaning": "袋の中。転じて狭い範囲の中。",
+   "dict_evidence": "weblio デジタル大辞泉「のう‐ちゅう〔ナウ‐〕【×嚢中】読み方：のうちゅう」（cand_443_囊中.txt）",
+   "corpus_evidence": "golden_8165 3行。例 eidatsu-1「君曰く、夫れ賢士の世に処るや、譬えば錐の囊中に処るが若く、其の末立ち」"
+  },
+  {
+   "word": "四寸",
+   "rank": 444,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。数量構文「長さ四寸」"
+  },
+  {
+   "word": "四年",
+   "rank": 445,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio OK だが Weblio日本語例文用例辞書（機械生成例文区）のみ——N79 排除先例"
+  },
+  {
+   "word": "四肢",
+   "rank": 446,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しし",
+   "meaning": "四肢。両手両足。体の四つの肢体。",
+   "dict_evidence": "weblio weblio 実用日本語表現辞典「四肢 読み方：しし」（デジタル大辞泉項も同頁にある）（cand_446_四肢.txt）",
+   "corpus_evidence": "golden_8165 3行。例 sanryaku01-6「。賢を信ずること腹心の如く、民を使うこと四肢の如くなれば、則ち策、遺」"
+  },
+  {
+   "word": "国乃",
+   "rank": 447,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「国乃ち安かる可し」"
+  },
+  {
+   "word": "国治",
+   "rank": 448,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio OK だがウィキペディア小見出し辞書（機械生成区）のみ。語料「国治まりて后天下平らかなり」＝国＋治まる 構文"
+  },
+  {
+   "word": "土石",
+   "rank": 449,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "どせき",
+   "meaning": "土と石。",
+   "dict_evidence": "weblio デジタル大辞泉「ど‐せき【土石】読み方：どせき」（cand_449_土石.txt）",
+   "corpus_evidence": "golden_8165 3行。例 p-guko-3「能わず。太行・王屋を如何せん。且に焉にか土石を置かんとする、と。雑曰」"
+  }
+ ]
+}
