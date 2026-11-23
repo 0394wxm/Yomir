@@ -71,11 +71,12 @@
 - pytest 全套：**374 passed**（363 基线＋test_night80_lexicon_expand2.py 11 条：格式/总数 1085/双证据全量 261/排除不在文件/代表条目读法/find_in_lexicon2 真语料命中/llm.glossary 离线命中/规则引擎零变化）；test_night79_lexicon_expand.py 必要伴随 2 处：总数断言 324→585、824→1085；双证据全量断言底稿 glob 扩展 night80_decisions（词库扩充后 N79 条目断言不变的必要伴随）。
 - golden_4000 全量真跑（tools/night80_eval_4000.py，91s）：**engine OK 4000／error 0／exact 24／avgDist 13.517，与 night79 归档输出不一致 0 行** → eval/night80_results_4000.json 归档 ✓（词库不进规则引擎的位级实证）
 - README 三处「文語 824 語」→「文語 1085 語」；ROADMAP 末行 ✓
-- `python tools/accept_night.py 80`：待终跑（wrap-up 补 PASS/fail/skip 与耗时）。
+- `python tools/accept_night.py 80`（主提交 2752317 之后跑）：**PASS（fail=0 skip=0，28.1s）**——首跑即 PASS（主提交后才跑，无 repo_clean 预跑 FAIL），七门全过：
+  - repo_clean（untracked 仅缓存目录 `.night72_deps/`＋`eval/night74/79/80_dict_cache/`＋`night79_ruby_cache/`，N72/N74 先例）／pytest **374 passed = 374 collected**（14.6s）／eval_integrity（night80_results_4000.json 4000 条、id 唯一、expected 一致）／rule_regression（Rule C' 护栏＋合并词表 21 条）／engine_smoke／perf_envelope（短句中位 17ms）／order_rate（off 98.57% on 98.63%，基线差 +0.00pp）
 
 ## 5. 交付与提交
 
 - 分支两提交（主提交＋wrap-up），**不合 master、不推远程**。
 - 主提交：extra2 追加 261 条（585）＋判定底稿 500 条全量＋候选/排除清单＋工具 9 个（compact 新增）＋golden_4000 归档＋测试 11 条＋test_night79 必要伴随＋SHIFT_LOG 全程心跳＋README 三处计数＋ROADMAP 末行＋本报告 §0–3/§5。
 - wrap-up 提交：ACCEPT_LOG.md＋eval/accept_night_80.json＋REPORT §4 数字＋SHIFT_LOG 收尾行。
-- 交付顺序（任务书）：Night 80 完成，全部验收通过。开工：HEAD/分支/目录 ✓（续做：前序 batch0–4＝rank 0–249 判定 153/97，本会话 batch5–9 完成 rank 250–499）。扩库：新入库 261 条（候选 500 全判定，证据门通过 261／排除 239／剩余 0）；总数 824→1085 ✓。验证：回归测试 374 passed；golden_4000 与 night79 逐位一致（13.517／24／error 0）✓。验收：accept 80 终跑（wrap-up 补）；分支两提交，未合 master、未推远程。报告见 REPORT_NIGHT80.md。
+- 交付顺序（任务书）：Night 80 完成，全部验收通过。开工：HEAD/分支/目录 ✓（续做：前序 batch0–4＝rank 0–249 判定 153/97，本会话 batch5–9 完成 rank 250–499）。扩库：新入库 261 条（候选 500 全判定，证据门通过 261／排除 239／剩余 0）；总数 824→1085 ✓。验证：回归测试 374 passed；golden_4000 与 night79 逐位一致（13.517／24／error 0）✓。验收：accept 80 PASS（fail=0 skip=0，pytest 374=374）；分支两提交，未合 master、未推远程。报告见 REPORT_NIGHT80.md。
