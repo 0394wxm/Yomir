@@ -1,0 +1,81 @@
+lev 实现: Levenshtein C 0.27.5 (.night72_deps 隔离目录)（抽查 200 对等价）| d0 缓存 8165 行耗时 5s
+样本 8165 条 | 基线 avgDist 14.583
+
+== 预检 ==
+  [B2 ことな] got が假名連鎖中に ことな を含む行:
+  [B2 るべ] got が假名連鎖中に るべ を含む行:
+  [陳→陣] got 陳 100 / exp 陳 39 | got 陣 10 / exp 陣 87 | map 陳収録: False
+    got 陳 行: ichigenchi-1, enjaku-1, enjaku-3, oko-1, kaeranka-1, kunmotokyu-1, rongo0518-1, rongo0730-1, rongo1102-1, rongo1422-1, rongo1501-1, rongo1601-1 …計75行
+  [はそれ] 行数 10 | 守り 其: 10 行
+  [何のごとし] 行数 45 | 守り 奈: 45 行
+  [何のごとく] 行数 3 | 守り 奈: 3 行
+  [そく] そく＋後続假名の行（長詞の疑い）: ['daigaku05-7']
+  [なかれ] exp 仮名 なかれ 自書（guard 莫/勿）: 無し
+  [べき] got べき 行数 105
+  [もし] exp 仮名 もし 自書（guard 若）: 無し
+
+多守り行: ['rinkiohen-2(莫∧勿)']
+
+== 单条 0 変差門 ==
+  nakare_mokare    改写   84 行 better   68 worse 1 delta   -0.010 → 拒（変差 1） (0s) | なかれ→莫かれ guard 莫（I 毋かれ 同構・guard 分工；exp 莫かれ/莫し 両形）
+      変差行 kokyo09-5 15→16
+  nakare_mokare_b  改写   84 行 better   66 worse 10 delta   -0.018 → 拒（変差 10） (0s) | 【字形比较】なかれ→莫（裸形）
+      変差行 gabei-2 27→28
+      変差行 toushisen139-12 5→6
+      変差行 toushisen140-10 9→10
+      変差行 toushisen270-3 5→6
+  nakare_mokare_s  改写   84 行 better   68 worse 14 delta   -0.022 → 拒（変差 14） (1s) | 【字形比较】なかれ→莫し
+      変差行 gabei-2 27→28
+      変差行 toushisen139-12 5→6
+      変差行 toushisen140-10 9→10
+      変差行 toushisen194-8 7→8
+  nakare_butsu     改写   32 行 better   32 worse 0 delta   -0.007 → 収 (0s) | なかれ→勿かれ guard 勿（同上・勿 白文行）
+  nakare_butsu_b   改写   32 行 better    6 worse 21 delta    0.001 → 拒（変差 21） (0s) | 【字形比较】なかれ→勿（裸形）
+      変差行 moshisono-1 17→18
+      変差行 ayamachiteh-1 31→32
+      変差行 onoreshika-1 31→32
+      変差行 onorenoho-1 19→20
+  nakare_butsu_s   改写   32 行 better    6 worse 25 delta    0.003 → 拒（変差 25） (0s) | 【字形比较】なかれ→勿し
+      変差行 moshisono-1 17→18
+      変差行 ayamachiteh-1 31→32
+      変差行 onoreshika-1 31→32
+      変差行 onorenoho-1 19→20
+  soku             改写   12 行 better   12 worse 0 delta   -0.004 → 収 (0s) | そく→即ち（exp 即ち 12/12 均一；守り 即 9＋卽 3——新旧两形并查）
+  aruiwa           改写   12 行 better   12 worse 0 delta   -0.004 → 収 (0s) | はあるいは→或いは（余計な は を含む仮名連鎖ごと或いはへ）
+  aruiwa_short     改写   12 行 better   12 worse 0 delta   -0.004 → 収 (0s) | 【字形比较】はある→或（短 key——「限りはある」等誤発火の疑い）
+  yuki             改写    5 行 better    5 worse 0 delta   -0.001 → 収 (0s) | ゆき→之（之其所…系列 5 行のみ；got は ゆき を 5 行しか書かない）
+  hasore           改写   10 行 better    9 worse 0 delta   -0.002 → 収 (0s) | はそれ→其れ（I それ→夫れ guard 夫 の分工・guard 其）
+  hasore_mo        改写   10 行 better    9 worse 0 delta   -0.001 → 収 (1s) | 【字形比较】はそれ→も其れ（onoreosame 型は も を補う）
+  nanigotoshi      改写   45 行 better   45 worse 0 delta   -0.015 → 収 (0s) | 何のごとし→奈何（guard 奈＝J 如 之外の分工）
+  nanigotoku       改写    3 行 better    2 worse 0 delta   -0.001 → 収 (0s) | 何のごとく→奈何ぞ（同上）
+  moshi_waka       改写   55 行 better   34 worse 1 delta   -0.004 → 拒（変差 1） (0s) | 【预拒复核】もし→若し guard 若（I は 如 のみ；若 行は未処理）
+      変差行 kyugyu-2 66→67
+  moshi            改写   55 行 better   28 worse 0 delta   -0.004 → 収 (0s) | もし→若（裸形＝exp 実書形 若、×2＋共有字論証；若し は kyugyu-2 1 変差で拒；長詞＝I 同款）
+  beki             改写  103 行 better   86 worse 6 delta   -0.013 → 拒（変差 6） (0s) | 【预拒复核】べき→可き（F べし→可し/べく→可く の完結；N55 gap 再検）
+      変差行 omoi-1 31→32
+      変差行 p-gekirin-1 8→9
+      変差行 kenro-1 47→48
+      変差行 mobosansen-1 75→76
+  chin_jin         改写   75 行 better   24 worse 30 delta   -0.000 → 拒（変差 30） (0s) | 【预拒复核】陳→陣 無条件文字置換（kanbun.info 通假歸一の疑い；exp 側陳自書 39 回）
+      変差行 ichigenchi-1 24→25
+      変差行 enjaku-1 36→37
+      変差行 enjaku-3 12→13
+      変差行 oko-1 63→64
+収録候補（COMBO 順）: nakare_butsu,soku,aruiwa,yuki,hasore,nanigotoshi,nanigotoku,moshi
+（収録数 8 / 门槛 3）
+
+== 组合（8 条）幂等验证 ==
+  idempotent bad = 0（0 で冪等）
+
+== 组合双口径离线真算 ==
+  [golden_4000] 改写 65 行 | better 55 worse 0 | avgDist 13.544→13.517 (Δ-0.027) | exact 24→24
+      s4000    better   55 worse 0 same 10
+      kansi    better    1 worse 0 same 3
+  [golden_8165] 改写 167 行 | better 139 worse 0 | avgDist 14.583→14.546 (Δ-0.037) | exact 30→30
+      s4000    better   55 worse 0 same 10
+      s3908    better   83 worse 0 same 18
+      s257     better    1 worse 0 same 0
+      shibu02  better   78 worse 0 same 15
+      kansi    better    4 worse 0 same 5
+
+  变差行明细（8165）: 無し

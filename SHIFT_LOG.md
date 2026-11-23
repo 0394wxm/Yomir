@@ -896,3 +896,21 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 | 2026-11-23 03:48 | N71③完成：guwenbert 全量 8165（OK 8165/error 0/exact 20/avgDist 30.872/总耗时 211.8 分钟）；h2h 全量：规则更好 3221／gwb 更好 2635／平 2309，规则 avgDist 14.632 vs gwb 30.872。管线全部结束。 |
 | 2026-11-23 03:57 | Night 71 收尾：④验收完成——pytest 260 passed；accept 71 PASS（fail=0 skip=0，首跑 repo_clean FAIL=watchdog_log 心跳增量、停看门狗丢弃增量后重跑 PASS，ACCEPT_LOG 两条如实留痕）；verify 5 本重跑全 exit 0。主提交 24f6af4；wrap-up 提交（REPORT＋SHIFT_LOG＋ACCEPT_LOG＋accept_night_71.json）后 rev-list ad18f20..HEAD=2；不推远程。看门狗已停（心跳使命随管线结束）。 |
 | 2026-11-23 12:00 | Night 81 开工：任务书核验通过——HEAD=cd2c123、pytest 260 passed、已跟踪零改动；clone 分支 night78-rulen=95fa0ba、night79-lexicon-expand=8d84613；已读 REPORT_MERGE_62_64 §5 与 REPORT_NIGHT71 §4。接下来 fetch 两分支并按序合并（规则链→词库链）。 |
+[2026-11-22T10:50 N72] 开工核验过: clone D:\kanbun-rulel, branch night72-rulel @ad18f20, tracked 零改动; pytest 首跑 259+1(fail=test_ocr_missing_runtime_message_shape, 系 fresh clone 缺 gitignored ocr_runtime), 按 ocr_engine.py 头注释解压 app.zip 后 260 passed, 代码零改动
+[2026-11-22T11:17 N72] 挖词完成: mine/probe 落盘; 候选10条进模拟门(つひに/いずくんぞx2/ただ/ゆえ/はじめ/はざる接続x4)+预拒复核9条; 模拟门后台运行中(N71 抢CPU, 单跑慢)
+[2026-11-22T11:51 N72] 模拟门首跑卡45分钟(纯python lev x 24遍 + N71抢CPU, PID实测~13% CPU)——按任务书记一笔: 杀掉重写(d0缓存+未改动行跳过第二次lev), 另试清华镜像装 Levenshtein 到独立目录(--target, 不动全局site-packages)
+[2026-11-22T12:01 N72] 模拟门终局: 収9条全0变差(つひに/いずくんぞ安悪/ただ/ゆえ/はじめ/がため為翻案/はざるなり・を), 拒案维持+新证据落盘; 组合244行改写/改善239/变差0/幂等0, avgDist 14.632→14.583(Δ-0.049), 4000: 13.584→13.544
+[2026-11-22T12:06 N72] Rule L 上线: L_KANA_TO_KANJI 9条+链尾接K; tests/test_night72_rule_l.py 23项; 全量 pytest 283 passed(260+23); TestClient 真跑后台启动
+[2026-11-22T12:24 N72] 真跑双口径与模拟逐位一致: golden_4000 avgDist 13.584→13.544/exact24/改写114(双向0差)/改善110/变差0; golden_8165 14.632→14.583/30/244/239/0; verify 15/15 exit0; ROADMAP/README 数字行更新完
+[2026-11-22T12:36 N72] 收尾: accept 72 终跑 PASS fail=0 skip=0(pytest 283=283, eval_integrity 实查, order_rate 98.57/98.63 零退化); README 表头已写主提交 1327089; REPORT_NIGHT72.md 完成; wrap-up 提交后停
+[2026-11-22T13:01 N73] Night73 start: branch night73-rulem from night72-rulel, HEAD=5e54265, pytest 283 passed, tree clean (only untracked .night72_deps). Reading N72/N70 reports + mining setup.
+[2026-11-22T13:28 N73] Gate done: Rule M 8 rules accepted (nakare-butsukare/soku/aruiwa/yuki/hasore/nanigotoshi/nanigotoku/moshi), combo 167 rows 139 better 0 worse delta-0.037 idempotent0; 9 rejections archived incl chin->jin 30worse, beki 6, mokare 1(kokyo09-5). Next: implement + tests.
+[2026-11-22T13:58 N73] Real run PASS: golden_4000 avg13.517 exact24 rewrite65 both-way-0-diff, golden_8165 avg14.546 exact30 rewrite167 both-way-0-diff, worsened 0, error 0. Archive night73_results_4000/8165.json written. Next: README+verify+accept.
+[2026-11-22T14:12 N73] Wrap-up: accept73 PASS fail=0 skip=0 (140.8s), verify 17/17, README header hash d338b21, REPORT_NIGHT73.md written, sources2 negative. Final commit next.
+[2026-11-22T21:43 N78] Night 78 start: branch night78-rulen @ 807ad7d, pytest baseline running
+[2026-11-22T21:47 N78] pytest baseline 307 passed (taskbook said 283 = stale N72 number; 307 = 283+24 N73 M tests, matches N73 report/accept at 807ad7d) - proceed with mining
+[2026-11-22T22:22 N78] sim gate done: Rule N 13 rules accepted (koto-na family 5 + modern-adverb family 8), all 0 worse, combo 97 rows better 85 / worse 0, idempotent bad 0, 4000 13.517->13.495, 8165 14.546->14.526; koto_full umbrella reproduced N73 death row kokyo09-5 as predicted
+[2026-11-22T22:37 N78] mokaku research done: post-N nakare->mokare target 16 rows (12 better/3 same/1 worse = kokyo09-5 only), Mo+da co-occurrence discriminator falsified (kowokaete-4 positive), revival needs exclusion guard or kanji->kanji mechanism - eval/night78_mokaku.md
+[2026-11-22T22:44 N78] real run bit-exact both calibers: 4000 rewrite 55=pred 55 (13.517->13.495 exact 24 worse 0), 8165 rewrite 97=pred 97 (14.546->14.526 exact 30 worse 0), in-process determinism OK
+[2026-11-22T22:47 N78] heartbeat auto (+1h)
+[2026-11-22T22:52 N78] accept 78 PASS fail=0 skip=0 (144.2s, pytest 337=337, order_rate +0.00pp, perf 13ms) - wrap-up commit next

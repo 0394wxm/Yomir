@@ -108,3 +108,7 @@
 | 2026-11-22T01:04:54 | 70 | PASS | fail=0 skip=0 | 30.6s | accept_night_70.json |
 | 2026-11-23T03:54:17 | 71 | FAIL | fail=1 skip=0 | 29.5s | accept_night_71.json |
 | 2026-11-23T03:56:00 | 71 | PASS | fail=0 skip=0 | 30.2s | accept_night_71.json |
+| 2026-11-22T12:28:58 | 72 | PASS | fail=0 skip=1 | 197.3s | accept_night_72.json |
+| 2026-11-22T12:34:44 | 72 | PASS | fail=0 skip=0 | 232.6s | accept_night_72.json |
+| 2026-11-22T14:10:13 | 73 | PASS | fail=0 skip=0 | 140.8s | accept_night_73.json |
+| 2026-11-22T22:52:14 | 78 | PASS | fail=0 skip=0 | 144.2s | accept_night_78.json |

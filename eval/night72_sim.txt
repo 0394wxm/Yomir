@@ -1,0 +1,55 @@
+lev 实现: Levenshtein C 0.27.5 (.night72_deps 隔离目录)（抽查 200 对等价）| d0 缓存 8165 行耗时 3s
+样本 8165 条 | 基线 avgDist 14.632
+多守り行（L 表内 guard 共存）: 無し
+
+== 单条 0 変差門 ==
+  tsuhini          改写   21 行 better   20 worse 0 delta   -0.005 → 収 (0s) | つひに→終に（N69 拒案 つひに→ついに 的真实词形翻案；守り 終 21/21）
+  izukunzo_an      改写   33 行 better   33 worse 0 delta   -0.009 → 収 (0s) | いずくんぞ→安んぞ（Rule I 焉护栏外残量；安んぞ⊂安くんぞ）
+  izukunzoaku      改写    8 行 better    8 worse 0 delta   -0.002 → 収 (0s) | いずくんぞ→悪んぞ（Xぞ族同型；守りは旧字 惡——新字体「悪」で探すと N69 為/爲 同款の 0 命中になる）
+  tada             改写   26 行 better   26 worse 0 delta   -0.003 → 収 (0s) | ただ→但だ（E 唯/I 惟 分工后的第三字形；exp 但だ 26/26；长词表＝E ただ 同款）
+  yue              改写   23 行 better   23 worse 0 delta   -0.003 → 収 (0s) | ゆえ→由（exp 由/由り/由る/由って 全由形，repl 由 每処恒 −2）
+  hajime           改写   30 行 better   30 worse 0 delta   -0.007 → 収 (0s) | はじめ→始め（守り 始 30/30；exp 始め 28/30）
+  gatame_i         改写   92 行 better   89 worse 0 delta   -0.018 → 収 (0s) | 【预拒复核】がため→為（字形变体）
+  hazaru_nari      改写   13 行 better   13 worse 0 delta   -0.002 → 収 (0s) | はざるなり→わざるなり（接続拆分：排除 N69 唯一変差行 24shihin10-4=はざるとも）
+  hazaru_wo        改写    7 行 better    5 worse 0 delta   -0.001 → 収 (0s) | はざるを→わざるを（同上）
+  hazaru           改写   39 行 better   28 worse 1 delta   -0.004 → 拒（変差 1） (0s) | 【预拒复核】はざる→わざる（N69：1 変差 24shihin10-4）
+      変差行 24shihin10-4 17→18
+  tomo             改写  224 行 better  164 worse 1 delta   -0.023 → 拒（変差 1） (0s) | 【预拒复核】とも→と（N69：1 変差 yoryoezu-1）
+      変差行 yoryoezu-1 93→94
+  tomo_yoni        改写  224 行 better   36 worse 121 delta    0.010 → 拒（変差 121） (0s) | 【预拒复核】とも→与に（guard 與/与——白文の旧字 舫…舊字「與」を初回プローブで見落としていた疑い）
+      変差行 mujun-1 3→4
+      変差行 keiko-5 9→10
+      変差行 hisashiku-1 6→7
+      変差行 ichiwokiite-1 40→42
+  gatame_gatameni  改写   92 行 better   63 worse 2 delta   -0.009 → 拒（変差 2） (0s) | 【预拒复核】がため→が為に guard 爲（N69 死因修正：守りは旧字 爲）
+      変差行 rongo0518-1 102→103
+      変差行 mitabitsu-1 56→57
+  gatame_gatame    改写   92 行 better   74 worse 0 delta   -0.015 → 収 (0s) | 【预拒复核】がため→が為（字形变体）
+  gatame_shini     改写   92 行 better   79 worse 3 delta   -0.012 → 拒（変差 3） (0s) | 【预拒复核】がため→為に（字形变体）
+      変差行 kakini-2 34→35
+      変差行 rongo1601-1 223→224
+      変差行 kunshikano-1 17→18
+  bekaramazu       改写   82 行 better   72 worse 5 delta   -0.011 → 拒（変差 5） (0s) | 【预拒复核】べからず→可からず（N68 §8-3 结构性 gap：exp 自写仮名 5 行）
+      変差行 shushu-4 11→12
+      変差行 shukateki-1 36→39
+      変差行 ryojo-3 26→27
+      変差行 saio-x13 13→14
+  bezu             改写    0 行 better    0 worse 0 delta    0.000 → 拒（無益/無目標） (0s) | 【预拒复核】べず→可ず（目標 0・守り 0）
+収録候補: tsuhini,izukunzo_an,izukunzoaku,tada,yue,hajime,gatame_i,hazaru_nari,hazaru_wo
+（収録数 9 / 门槛 3）
+
+== 组合（9 条）幂等验证 ==
+  idempotent bad = 0（0 で冪等）
+
+== 组合双口径离线真算 ==
+  [golden_4000] 改写 114 行 | better 110 worse 0 | avgDist 13.584→13.544 (Δ-0.040) | exact 24→24
+      s4000    better  110 worse 0 same 4
+      kansi    better   24 worse 0 same 0
+  [golden_8165] 改写 244 行 | better 239 worse 0 | avgDist 14.632→14.583 (Δ-0.049) | exact 30→30
+      s4000    better  110 worse 0 same 4
+      s3908    better  127 worse 0 same 1
+      s257     better    2 worse 0 same 0
+      shibu02  better   89 worse 0 same 0
+      kansi    better   57 worse 0 same 1
+
+  变差行明细（8165）: 無し

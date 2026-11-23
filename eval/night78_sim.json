@@ -1,0 +1,364 @@
+{
+ "lev_impl": "Levenshtein C 0.27.5 (.night72_deps 隔离目录)",
+ "baseline": "night73_results_8165.json",
+ "gate": {
+  "koto_full": {
+   "tag": "【对照測定】ことなかれ→こと莫かれ umbrella（死行 kokyo09-5＝すことなかれ 行を含む・拒案予想）",
+   "changed": 81,
+   "better": 67,
+   "worse": 1,
+   "delta": -0.01,
+   "worse_detail": [
+    {
+     "id": "kokyo09-5",
+     "old": 15,
+     "new": 16,
+     "got": "父を厳して大なりて天を配すことなかれ。",
+     "exp": "父を厳にするは天に配するより大なるは莫し。",
+     "newtext": "父を厳して大なりて天を配すこと莫かれ。"
+    }
+   ],
+   "verdict": "拒（変差 1）"
+  },
+  "koto_suru": {
+   "tag": "することなかれ→すること莫かれ（16 行・死行 kokyo09-5 は す-form で非該当）",
+   "changed": 16,
+   "better": 12,
+   "worse": 0,
+   "delta": -0.001,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "koto_ru": {
+   "tag": "ることなかれ→ること莫かれ（substring 覆盖 なる/する/ざる/〜る 系 61 行・死行非該当）",
+   "changed": 61,
+   "better": 53,
+   "worse": 0,
+   "delta": -0.007,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "koto_uzaru": {
+   "tag": "ざることなかれ→ざること莫かれ（13 行・kamireikei-1 型）",
+   "changed": 10,
+   "better": 7,
+   "worse": 0,
+   "delta": -0.001,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "koto_naru": {
+   "tag": "なることなかれ→なること莫かれ（10 行・kowokaete-4 莫大構文含む→る rule に包含される）",
+   "changed": 10,
+   "better": 8,
+   "worse": 0,
+   "delta": -0.001,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "koto_u": {
+   "tag": "うことなかれ→うこと莫かれ（9 行・kanae-2 型）",
+   "changed": 9,
+   "better": 5,
+   "worse": 0,
+   "delta": -0.001,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "koto_ki": {
+   "tag": "きことなかれ→きこと莫かれ（2〜3 行・ichinenkoku-1 型）",
+   "changed": 2,
+   "better": 2,
+   "worse": 0,
+   "delta": -0.0,
+   "worse_detail": [],
+   "verdict": "拒（無益/無目標）"
+  },
+  "koto_bu": {
+   "tag": "ぶことなかれ→ぶこと莫かれ（2 行・rongo1709-1 型）",
+   "changed": 2,
+   "better": 2,
+   "worse": 0,
+   "delta": -0.0,
+   "worse_detail": [],
+   "verdict": "拒（無益/無目標）"
+  },
+  "koto_ku": {
+   "tag": "くことなかれ→くこと莫かれ（2 行）",
+   "changed": 2,
+   "better": 2,
+   "worse": 0,
+   "delta": -0.0,
+   "worse_detail": [],
+   "verdict": "拒（無益/無目標）"
+  },
+  "koto_tsu": {
+   "tag": "つことなかれ→つこと莫かれ（1 行）",
+   "changed": 1,
+   "better": 1,
+   "worse": 0,
+   "delta": -0.0,
+   "worse_detail": [],
+   "verdict": "拒（無益/無目標）"
+  },
+  "shibashiba_maru": {
+   "tag": "しばしば→屢〻（4 行・exp 屢〻/屢）",
+   "changed": 4,
+   "better": 4,
+   "worse": 0,
+   "delta": -0.002,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "shibashiba": {
+   "tag": "【字形比较】しばしば→屢",
+   "changed": 4,
+   "better": 4,
+   "worse": 0,
+   "delta": -0.002,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "hondo": {
+   "tag": "ほとんど→殆（3 行）",
+   "changed": 3,
+   "better": 3,
+   "worse": 0,
+   "delta": -0.001,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "haiyoiyoi_maru": {
+   "tag": "はいよいよ→弥〻（6 行・余計な は 付き；白文 旧字体 彌＝新旧両形 guard）",
+   "changed": 6,
+   "better": 6,
+   "worse": 0,
+   "delta": -0.005,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "haiyoiyoi": {
+   "tag": "【字形比较】はいよいよ→弥",
+   "changed": 6,
+   "better": 6,
+   "worse": 0,
+   "delta": -0.004,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "yoiyoi_maru": {
+   "tag": "いよいよ→弥〻（3 行 standalone＋は付きは長 key が先）",
+   "changed": 9,
+   "better": 9,
+   "worse": 0,
+   "delta": -0.005,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "yoiyoi": {
+   "tag": "【字形比较】いよいよ→弥",
+   "changed": 9,
+   "better": 9,
+   "worse": 0,
+   "delta": -0.004,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "hayayaya": {
+   "tag": "はやや→稍く（2 行・exp 稍く）",
+   "changed": 2,
+   "better": 2,
+   "worse": 0,
+   "delta": -0.001,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "yaya": {
+   "tag": "やや→稍（5 行・got/exp 5/5 互补）",
+   "changed": 5,
+   "better": 5,
+   "worse": 0,
+   "delta": -0.001,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "tama_maru": {
+   "tag": "たま→偶〻（3 行）",
+   "changed": 3,
+   "better": 3,
+   "worse": 0,
+   "delta": -0.0,
+   "worse_detail": [],
+   "verdict": "拒（無益/無目標）"
+  },
+  "tama": {
+   "tag": "【字形比较】たま→偶",
+   "changed": 3,
+   "better": 3,
+   "worse": 0,
+   "delta": -0.001,
+   "worse_detail": [],
+   "verdict": "収"
+  },
+  "nanzo_hu": {
+   "tag": "なんぞ→胡 guard 胡（K 何ぞ/奚/曷 の分工補完・2 行）",
+   "changed": 7,
+   "better": 7,
+   "worse": 0,
+   "delta": -0.002,
+   "worse_detail": [],
+   "verdict": "収"
+  }
+ },
+ "accepted": [
+  "koto_suru",
+  "koto_uzaru",
+  "koto_naru",
+  "koto_u",
+  "koto_ru",
+  "haiyoiyoi_maru",
+  "yoiyoi_maru",
+  "shibashiba_maru",
+  "hondo",
+  "hayayaya",
+  "yaya",
+  "tama",
+  "nanzo_hu"
+ ],
+ "multi_guard_rows": [
+  "kikyorainoji-52(胡∧何/奚/曷)"
+ ],
+ "idempotent_bad": 0,
+ "precheck": {
+  "kotona_noguard": [],
+  "long_words": "see txt",
+  "nanzo_residual": [
+   [
+    "manwojisu-1",
+    "胡",
+    "なんぞ急ぎて之を撃す、矢の下は雨の如し。漢の兵は死する者は半なるに過す、漢は矢且",
+    "胡、急に之を撃ち、矢下ること雨の如し。漢の兵死する者過半、漢の矢且に尽きんとす。"
+   ],
+   [
+    "shikyo_fuu-4",
+    "胡",
+    "それなんぞ夷ならず",
+    "云胡ぞ夷らかならざらん"
+   ],
+   [
+    "toushisen200-4",
+    "胡",
+    "なんぞ公なるの陂の上は日に初に低し",
+    "胡公陂上日初めて低る"
+   ],
+   [
+    "kikyorainoji-2",
+    "胡",
+    "田の園蕪んとしてなんぞは帰らず",
+    "田園将に蕪れなんとす胡ぞ帰らざる"
+   ],
+   [
+    "kikyorainoji-52",
+    "何",
+    "なんぞ遑して遑して何ぞにゆかんと欲して為す",
+    "胡為れぞ遑遑として何くにか之かんと欲する"
+   ],
+   [
+    "toushisen092-2",
+    "胡",
+    "なんぞ君たるは遠く行",
+    "胡為れぞ君遠く行くや"
+   ],
+   [
+    "toushisen214-5",
+    "胡",
+    "なんぞの騎中に宵に堪北に走る",
+    "胡騎中宵北走するに堪えたり"
+   ]
+  ]
+ },
+ "combo_8165": {
+  "entries": 8165,
+  "changed_entries": 97,
+  "avg_old": 14.546,
+  "avg_new": 14.526,
+  "delta": -0.02,
+  "better": 85,
+  "worse": 0,
+  "same": 8080,
+  "segs": {
+   "s4000": {
+    "better": 45,
+    "worse": 0,
+    "same": 10
+   },
+   "s3908": {
+    "better": 40,
+    "worse": 0,
+    "same": 2
+   },
+   "s257": {
+    "better": 0,
+    "worse": 0,
+    "same": 0
+   },
+   "shibu02": {
+    "better": 25,
+    "worse": 0,
+    "same": 0
+   },
+   "kansi": {
+    "better": 26,
+    "worse": 0,
+    "same": 8
+   }
+  },
+  "worse_detail": []
+ },
+ "combo_4000": {
+  "entries": 4000,
+  "changed_entries": 55,
+  "avg_old": 13.517,
+  "avg_new": 13.495,
+  "delta": -0.022,
+  "better": 45,
+  "worse": 0,
+  "same": 3955,
+  "segs": {
+   "s4000": {
+    "better": 45,
+    "worse": 0,
+    "same": 10
+   },
+   "s3908": {
+    "better": 0,
+    "worse": 0,
+    "same": 0
+   },
+   "s257": {
+    "better": 0,
+    "worse": 0,
+    "same": 0
+   },
+   "shibu02": {
+    "better": 0,
+    "worse": 0,
+    "same": 0
+   },
+   "kansi": {
+    "better": 14,
+    "worse": 0,
+    "same": 6
+   }
+  },
+  "worse_detail": []
+ },
+ "exact_8165": {
+  "before": 30,
+  "after": 30
+ },
+ "exact_4000": {
+  "before": 24,
+  "after": 24
+ }
+}
