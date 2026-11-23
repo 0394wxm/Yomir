@@ -130,6 +130,34 @@ def detect_text_type(text: str) -> str:
     return "kana" if (kana / len(chars)) > threshold else "kanbun"
 
 
+# N84（Night 84）：全角括号 ruby 夹注白文的 kana 分流 fallback。
+# 背景（N78 §8 交班点名的空 got 249 行）：kanbun.info 系白文行是「漢文＋（ruby 読み）」
+# 交织形，detect_text_type 把夹注内的假名计入分子、括号本身排除出分母，夹注行假名
+# 占比极易超过 30%，被误判为假名文学文本、kakikudashi 直接返空串（引擎从未被调用）。
+# 处置：kana 分流命中且文本含 ruby 夹注时，取最后一个「）」之后的文本、剥掉前置的
+# 假名/标点残段（上一段読み的送り仮名）；若剩余为无假名纯汉文，只对这一段做转换
+# （分段重跑，绝不编造训读）；尾段一句以内（≤ _RUBY_TAIL_ECHO_MAX 字）时引擎
+# 插助词输出实测反而变差（toushisen006-10/211-1/384-2），退回白文直出。
+# 真·假名文本（无夹注或尾段含假名）保持原行为：kakikudashi 空串。
+_RUBY_TAIL_ECHO_MAX = 8
+_RUBY_LEAD_JUNK = re.compile(r"^[ぁ-ゖー　\s、。，．・「」『』（）！？―ー]*")
+
+
+def _ruby_tail_kanbun(text: str) -> str:
+    """带 ruby 夹注的白文里截取尾段纯汉文；无夹注或尾段含假名时返回 ""。"""
+    if "（" not in text or "）" not in text:
+        return ""
+    # ruby 证据：至少一个（…）夹注内含假名（rongo 系「1）」编号无开括号，不触发）
+    if not any("\u3041" <= c <= "\u30ff"
+               for span in re.findall(r"（([^）]*)）", text) for c in span):
+        return ""
+    tail = _RUBY_LEAD_JUNK.sub("", text.rsplit("）", 1)[1])
+    if not tail or any("\u3041" <= c <= "\u309f" or "\u30a0" <= c <= "\u30ff"
+                       for c in tail):
+        return ""
+    return tail
+
+
 ENGINE = None          # udkundoku pipeline, 启动时惰性加载一次
 ENGINE_ERROR = ""
 
@@ -325,6 +353,51 @@ def kundoku(
     # NIGHT3: 假名白文分流——假名文学文本（竹取物語等）与假名占多数的
     # 训读体/明治文书（侯文）都不适用漢文訓読，不做二次插助词。
     if detect_text_type(text) == "kana":
+        # N84: ruby 夹注混入的白文会因假名占比超标被误判成假名文学
+        # （N78 §8 交班点名的空 got 249 行根因）。含 ruby 夹注且能截出尾段纯汉文
+        # 时只对尾段做转换（分段重跑）；尾段一句以内（≤8 字）时引擎插助词输出
+        # 实测变差，退回白文直出。无尾段（真·假名文本）保持原行为：空串。
+        tail = _ruby_tail_kanbun(text)
+        if tail:
+            if len(tail) > _RUBY_TAIL_ECHO_MAX:
+                kaeriten_text, kaeriten_raw, kakikudashi = _kundoku_result_for(
+                    tail, merge, ortho, use_cache=cache, seg=seg)
+                if not kakikudashi:
+                    # 引擎对尾段返空（249 行实测未出现）：退回白文直出兜底
+                    kaeriten_text = kaeriten_raw = ""
+                    kakikudashi = tail
+                fallback_note = "白文含全角括号 ruby 夹注（N84）：已剥离夹注，对尾段白文重新訓読。"
+            else:
+                kaeriten_text = kaeriten_raw = ""
+                kakikudashi = tail
+                fallback_note = "白文含全角括号 ruby 夹注（N84）：已剥离夹注，尾段白文原样直出（一句以内不做插助词訓読）。"
+            modern = llm.modern_translate(tail, kakikudashi)
+            glossary = llm.glossary(tail, kakikudashi)
+            request_id = None
+            t = _now_ms()
+            try:
+                request_id = db.save_kundoku(
+                    text, kaeriten_text, kakikudashi,
+                    ocr_hakubun=(req.ocr_hakubun or None),
+                    prev_request_id=req.prev_request_id,
+                )
+            except Exception:
+                logger.exception("db save failed (API 照常返回)")
+            seg["db"] = _now_ms() - t
+            if _TIMING:
+                logger.info("TIMING %d chars cache=%s hit=0 total=%.1fms | kana-branch ruby-fallback (tail=%d)",
+                            len(text), cache, _now_ms() - t_req, len(tail))
+            return KundokuResponse(
+                hakubun=text,
+                kaeriten_text=kaeriten_text,
+                kaeriten_text_raw=kaeriten_raw,
+                kakikudashi=normalize_shinjitai(kakikudashi) if ortho else kakikudashi,
+                modern=modern,
+                glossary=glossary,
+                request_id=request_id,
+                text_type="kana",
+                note=fallback_note + DISCLAIMER,
+            )
         if _TIMING:
             logger.info("TIMING %d chars cache=%s hit=0 total=%.1fms | kana-branch (no kundoku)",
                         len(text), cache, _now_ms() - t_req)
