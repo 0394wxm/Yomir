@@ -984,3 +984,4 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 | 2026-11-23 20:59 | Night 85 收尾：accept 85 PASS fail=0 skip=0（31.3s 首跑即过）；提交链 3dbb3f1→c35fce7(merge)→1ff3c15(登记)→wrap-up，未合其他分支、未推远程；REPORT_NIGHT85.md／REPORT_MERGE_84.md 交付。 |
 | 2026-11-23 21:51 | Night 86 开工：master d4738a5 核验通过（pytest 422 passed、分支 night86-ruleo 自 master 分出、干净树、零 tracked 改动）；B2 挖词开始（golden_8165 13.505 基线，只动 kundoku_rules.py）。 |
 | 2026-11-23 22:54 | Night 86 挖词＋落地：B2 mine/probe/sim（基线 night85 归档・行分类 7916/30/218/1 复现）→ Rule O 3 条収録（はざる者→わざる者 6 行・たりせ→為ら guard 爲/爲 6 行・なきか→莫し 3 行；組合 15 行改善 15 変差 0 幂等 bad 0）；真跑 golden_4000 13.491/24/0・golden_8165 13.502/30/0＝sim 逐位一致（計画外 0）；pytest 434；verify 19/19 exit 0（归档源 night78→night86 切换＋Rule O 語数断言追加）。 |
+| 2026-11-23 22:57 | Night 86 收尾：accept 86 PASS fail=0 skip=0（30.9s 首跑即过）；主提交 15001cd＋wrap-up 两提交、未合 master、未推远程；REPORT_NIGHT86.md 交付（Rule O 3 条：はざる者/たりせ/なきか、15 行改善 15 変差 0、4000 13.491・8165 13.502）。 |
