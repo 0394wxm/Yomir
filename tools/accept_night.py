@@ -78,6 +78,7 @@ NIGHT_ARTIFACTS = {
     73: ["night73_results_4000.json"],
     78: ["night78_results_4000.json"],
     81: ["night81_results_4000.json"],
+    83: ["night83_results_4000.json"],   # N83 合并夜登记默认口径（Rule N 口径 13.495/24/0）
     # Night 44 的产物（night44_*.json）是版面过滤的对照分析，不是 golden 格式的
     # 评测结果（无 results[].id），登记进 eval_integrity 会 KeyError；
     # 它们由 tests/test_ocr_night44.py 的 7 条不变式测试守护。
