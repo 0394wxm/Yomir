@@ -980,3 +980,4 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 | 2026-11-23 18:55 | Night 84 修法落地＋全量验证：backend/main.py kana 分支 ruby 尾段 fallback、tests 422、golden_4000 逐位一致 13.495/24/0、golden_8165 14.526→13.505/30/0 （目标集 16321→7988，改善 248/持平 1/变差 0，非目标行 0 变化）；README 422 同步、ROADMAP/accept 登记完成。 |
 | 2026-11-23 18:58 | Night 84 收尾：accept 84 PASS fail=0 skip=0（30.0s 首跑即过、七门全绿）；主提交 9fbb5b0＋wrap-up 两提交、未合 master、未推远程；REPORT_NIGHT84.md 交付。 |
 | 2026-11-23 20:46 | Night 85 开工：master dce1ba6 核验通过（pytest 415 passed、分支 night84-empty-got tip 6e5661e、merge-base dce1ba6、干净树、零 tracked 改动）；本心跳先行提交，随后单次 --no-ff 合并。 |
+| 2026-11-23 20:57 | Night 85 合并 c35fce7 完成（--no-ff、SHIFT_LOG 字节安全并集 1 文件冲突、其余自动合并）；合后验证 pytest 422、golden_4000 13.495/24/0 与 night83 逐位、golden_8165 13.505/30/0 与 night84 逐位、词库 1301（500+801 零交集）、verify 18/18 exit 0；README 表头→合并提交、8165 行 13.505 新增；登记提交中。 |
