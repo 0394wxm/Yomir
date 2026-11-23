@@ -1,0 +1,195 @@
+[[850] 天下能  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: 夫れ唯だ争わず、故に天下能く之と争う莫し。古の所謂曲なれば則ち全しとは、豈に虚言ならんや。誠; 吾が言は甚だ知り易く、甚
+  [no-real-dict-region]
+
+[[851] 孔子之  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: 蘧伯玉、人を孔子に使わす。孔子之に坐を与えて問う。曰く、夫子何をか為す。対えて曰く、夫子は其; 長沮・桀溺耦して耕す。孔
+  [no-real-dict-region]
+
+[[852] 孔子其  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: 南容、三たび白圭を復す。孔子其の兄の子を以て之に妻す。; 見んと欲す。孔子見えず。孔子に豚を帰る。孔子其の亡きを時として
+  [no-real-dict-region]
+
+[[853] 孟子懼  freq=3 h=1 k=2 len=3 status=HTTP404 bytes=0
+  corpus: 孟子懼れて其の故を問う。; 孟子懼れ、旦夕学に勤めて息まず。
+  [no-real-dict-region]
+
+[[854] 広武君  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: 信乃ち軍中に広武君を殺す毋かれ、能く生きて得る者有らば千金に購わんと令す。是に於いて広武君を; ……是に於いて信、広武君
+  [no-real-dict-region]
+
+[[855] 所謂其  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: 所謂其の意を誠にすとは、自ら欺く毋きなり。悪臭を悪むが如く、好色を好むが如くす。此を之自ら謙; 所謂其の意を誠にすとは、
+  [no-real-dict-region]
+
+[[856] 抑〻亦  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: 子曰く、詐りを逆えず、不信を億らず。抑〻亦た先ず覚る者は、是れ賢か。; い必ず果たす、硜硜然として小人なるかな。抑〻亦た
+  [no-real-dict-region]
+
+[[857] 敵人必  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: 、或いは其の前後を撃ち、三軍疾く戦わば、敵人必ず走らん。; には、其の前騎を陥れ、其の左右を撃たば、敵人必ず走らん。敵人
+  [no-real-dict-region]
+
+[[858] 李将軍  freq=3 h=0 k=3 len=3 status=OK bytes=185554
+  corpus: 余、李将軍を睹るに悛悛として鄙人の如く、口、道辞すること能わず。死するの日に及び、天下、知る; 灞亭誰か畏れん李将軍
+  [src] 李将軍の意味・解説
+  [wikibody-cut] ウィキペディア
+
+[[859] 樊遅仁  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: 樊遅仁を問う。子曰く、居る処恭、事を執りて敬、人に与わりて忠なるは、夷狄に之くと雖も、棄つ可; 樊遅仁を問う。子曰く、人
+  [no-real-dict-region]
+
+[[860] 漁父曰  freq=3 h=2 k=1 len=3 status=HTTP404 bytes=0
+  corpus: 漁父曰く、聖人は物に凝滞せずして、能く世と推移す。
+  [no-real-dict-region]
+
+[[861] 臧文仲  freq=3 h=1 k=2 len=3 status=HTTP404 bytes=0
+  corpus: 子曰く、臧文仲、蔡を居き、節を山にし、梲に藻す。何如ぞ其れ知ならんや。; 子曰く、臧文仲は其れ位を窃む者か。柳下恵の賢を
+  [no-real-dict-region]
+
+[[862] 良弓蔵  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: より大夫種に書を遺りて曰く、蜚鳥尽きて、良弓蔵され、狡兎死して、走狗烹らる。越王の人と為り、; し。狡兎死して、良狗亨ら
+  [no-real-dict-region]
+
+[[863] 藺相如  freq=3 h=0 k=3 len=3 status=OK bytes=229797
+  corpus: 是に於いて、王、召見し、藺相如に問いて曰く、秦王、十五城を以て寡人の璧に易えんことを請う。予; 而るに藺相如は徒だ口舌を以て労を為し、而も位は我が上に居る。
+  [src] 藺相如の意味・解説
+  def: デジタル大辞泉
+  def: りん‐しょうじょ〔‐シヤウジヨ〕【藺相如】
+  [read] 読み方：りんしょうじょ
+  [wikibody-cut] ウィキペディア
+
+[[864] 蘧伯玉  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: 蘧伯玉、人を孔子に使わす。孔子之に坐を与えて問う。曰く、夫子何をか為す。対えて曰く、夫子は其; 如く、邦に道無きも矢の如
+  [no-real-dict-region]
+
+[[865] 諸葛亮  freq=3 h=0 k=3 len=3 status=OK bytes=1120666
+  corpus: 靖曰く、諸葛亮、七たび孟獲を擒にせり。他の道無し。正兵のみ。; 靖曰く、諸葛亮、石を以て縦横にし、布いて八行を為す。方陣の法、即ち此の図なり。臣、嘗て教閲す
+  [src] 諸葛亮の意味・解説
+  def: デジタル大辞泉
+  def: しょかつ‐りょう〔‐リヤウ〕【諸葛亮】
+  [read] 読み方：しょかつりょう
+  [wikibody-cut] ウィキペディア
+
+[[866] 閔子騫  freq=3 h=0 k=3 len=3 status=OK bytes=230210
+  corpus: 季氏、閔子騫をして費の宰たらしめんとす。閔子騫曰く、善く我が為に辞せよ。如し我を復びする者有; 者は、皆門に及ばざるなり。徳行には顔淵・閔子騫・冉伯牛・仲弓。言語には宰我・子貢。政事には冉
+  [src] 閔子騫の意味・解説
+  def: デジタル大辞泉
+  def: びん‐しけん【閔子騫】
+  [read] 読み方：びんしけん
+  [wikibody-cut] ウィキペディア
+
+[[867] 靖再拝  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: 靖再拝して曰く、陛下は神聖にして、迥かに古人に出づ。臣の及ぶ所に非ず。; 靖再拝して曰く、陛下は神聖にして、人を知ること
+  [no-real-dict-region]
+
+[[868] 首尾倶  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: 其の首を撃たば則ち尾至り、其の尾を撃たば則ち首至り、其の中を撃たば則ち首尾倶に至る。; 其の首を撃てば則ち尾至り、其の尾
+  [no-real-dict-region]
+
+[[869] 鬱金香  freq=3 h=0 k=3 len=3 status=OK bytes=383828
+  corpus: 羅幃翠被鬱金香; 娼家の美女鬱金香
+  [src] 鬱金香の意味・解説
+  def: デジタル大辞泉
+  def: うこん‐こう〔‐カウ〕【▽鬱金香】
+  [read] 読み方：うこんこう
+  [read] 読み方：うっこんこう
+
+[[870] 不學禮  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[871] 不學詩  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[872] 主忠信  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[873] 則民服  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[874] 嘗獨立  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[875] 夫如是  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[876] 學禮乎  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[877] 學詩乎  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[878] 屈原曰  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[879] 已矣乎  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[880] 師事之  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[881] 廢中權  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[882] 無以立  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[883] 無以言  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[884] 爲君難  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[885] 良弓藏  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[886] 謂虞仲  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[887] 身中清  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[888] 邦有道  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[889] 邦無道  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[890] 重八斤  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[891] 雖無道  freq=3 h=3 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[892] 一貴一賤  freq=3 h=1 k=2 len=4 status=HTTP404 bytes=0
+  corpus: ち交情を知る。一貧一富、乃ち交態を知る。一貴一賤、交情乃ち見る、と。汲・鄭にも亦た云う。悲し; 一貴一賤交情見る
+  [no-real-dict-region]
+
+[[893] 三軍恐懼  freq=3 h=1 k=2 len=4 status=HTTP404 bytes=0
+  corpus: して、草木有る無く、四面に敵を受け、吾が三軍恐懼し、士卒迷惑するに、吾以て守れば則ち固く、以; は、即ち之を陥れよ。遠く
+  [no-real-dict-region]
+
+[[894] 他日又独  freq=3 h=0 k=3 len=4 status=HTTP404 bytes=0
+  corpus: 、以て言うこと無しと。鯉退きて詩を学ぶ。他日又独り立てり。鯉、趨りて庭を過ぐ。曰く、礼を学び; 他日又独り立てり。鯉、趨
+  [no-real-dict-region]
+
+[[895] 勁弩強矢  freq=3 h=1 k=2 len=4 status=HTTP404 bytes=0
+  corpus: なる者に非ざるなり。豪傑英俊、堅甲利兵、勁弩強矢、尽く郭中に在り、乃ち窖廩を収め、毀拆して入; わず。必ず其の豪傑英俊を
+  [no-real-dict-region]
+
+[[896] 司馬穣苴  freq=3 h=0 k=3 len=4 status=OK bytes=199612
+  corpus: る。景公尊んで司馬の官と為す。是に由りて司馬穣苴と称し、子孫、司馬氏と号す。; 馬法を追論し、又穣苴の学ぶ所を述ぶ。遂に司馬穣苴の書数十篇有り。今世に伝うる所の兵家者流なり
+  [src] 司馬穣苴の意味・解説
+  [wikibody-cut] ウィキペディア
+
+[[897] 吏卒常無  freq=3 h=0 k=3 len=4 status=HTTP404 bytes=0
+  corpus: 孫子に曰えること有り、教道明らかならず、吏卒常無く、兵を陳ぬること縦横なるを乱と曰う。; 吏卒常無しとは、将臣権任にして
+  [no-real-dict-region]
+
+[[898] 士卒迷惑  freq=3 h=2 k=1 len=4 status=HTTP404 bytes=0
+  corpus: る無く、四面に敵を受け、吾が三軍恐懼し、士卒迷惑するに、吾以て守れば則ち固く、以て戦わば則ち
+  [no-real-dict-region]
+
+[[899] 天下和服  freq=3 h=1 k=2 len=4 status=HTTP404 bytes=0
+  corpus: 絶つに力を以てす。之を敬して疑う勿かれ。天下和服せん。; え、罪は一人に在りと。此の如くならば則ち天下和服せん。
+  [no-real-dict-region]

@@ -1,0 +1,253 @@
+[[800] 馬上  freq=3 h=0 k=3 len=2 status=OK bytes=255885
+  corpus: 余、平生作る所の文章、多くは三上に在り。乃ち馬上・枕上・厠上なり。蓋し惟だ此れ尤も以て思いを; 飲まんと欲すれば琵琶馬上に催す
+  [src] 馬上の意味・解説
+  def: デジタル大辞泉
+  def: ば‐じょう〔‐ジヤウ〕【馬上】
+  [read] 読み方：ばじょう
+  [read] 読み方：マケ（ｍａｋｅ）
+  [wikibody-cut] ウィキペディア
+
+[[801] 駑馬  freq=3 h=0 k=3 len=2 status=OK bytes=189970
+  corpus: 車を駆り駑馬に策ちて、宛と洛とに遊戯す; 助けて戦うは、猶お良驥騄駬の駛きに、彼の駑馬の鬐興して角逐するがごとし。何ぞ能く吾が気を紹が
+  [src] 駑馬の意味・解説
+  def: デジタル大辞泉
+  def: ど‐ば【×駑馬】
+  [read] 読み方：どば
+
+[[802] 駿馬  freq=3 h=1 k=2 len=2 status=OK bytes=206781
+  corpus: 居ること数月、其の馬、胡の駿馬を将いて帰る。; 駿馬あり、名は騅。
+  [src] 駿馬の意味・解説
+  def: デジタル大辞泉
+  def: しゅん‐ば【×駿馬】
+  [read] 読み方：しゅんば
+  [read] 読み方：しゅんめ
+  [read] 読み方：シュンメ（ｓｈｕｎｍｅ），　シュンバ（ｓｈｕｎｂａ）
+  [wikibody-cut] ウィキペディア
+
+[[803] 驍騎  freq=3 h=1 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 敵人に遇うに、甚だ衆く且つ武なり。武車、驍騎、我が左右を繞り、吾が三軍皆震え、走りて止む可か; て曰く、凡そ兵を用うるの
+  [no-real-dict-region]
+
+[[804] 驚駭  freq=3 h=1 k=2 len=2 status=OK bytes=184335
+  corpus: 裂するは、円を撃ち方を破る所以なり。其の驚駭に因るは、一もて十を撃つ所以なり。其の労倦暮舎に; 騎は中に居く。陣し畢りて徐に行き、慎んで驚駭すること無かれ。
+  [src] 驚駭の意味・解説
+  def: デジタル大辞泉
+  def: きょう‐がい〔キヤウ‐〕【驚×駭】
+  [read] 読み方：きょうがい
+  [read] 読み方：けいがい
+
+[[805] 高堂  freq=3 h=0 k=3 len=2 status=OK bytes=194798
+  corpus: 正に高堂の宴有り; 高堂に老親有ればなり
+  [src] 高堂の意味・解説
+  def: デジタル大辞泉
+  def: こう‐どう〔カウダウ〕【高堂】
+  [read] 読み方：こうどう
+  [read] 読み方：タカドウ（ｔａｋａｄｏｕ）
+
+[[806] 高樹  freq=3 h=0 k=3 len=2 status=OK bytes=253060
+  corpus: 高樹早涼帰る; 高樹悲風多く
+  [src] 高樹郷の意味・解説
+  [wikibody-cut] ウィキペディア
+
+[[807] 高辛  freq=3 h=2 k=1 len=2 status=OK bytes=320803
+  corpus: 帝嚳高辛は、黄帝の曾孫なり。高辛の父を蟜極と曰い、蟜極の父を玄囂と曰い、玄囂の父を黄帝と曰う
+  [src] 高辛の意味・解説
+  [wikibody-cut] ウィキペディア
+
+[[808] 鳥獣  freq=3 h=1 k=2 len=2 status=OK bytes=269189
+  corpus: 子路行きて以て告ぐ。夫子憮然として曰く、鳥獣は与に群れを同じくす可からず。吾は斯の人の徒と与; 鳥獣は与に群れを同じくす可からず。吾は斯の人の徒と与にするに非ずして、誰と与にせん。天下道有
+  [src] 鳥獣の意味・解説
+  def: デジタル大辞泉
+  def: ちょう‐じゅう〔テウジウ〕【鳥獣】
+  [read] 読み方：ちょうじゅう
+  [wikibody-cut] ウィキペディア
+
+[[809] 鳳池  freq=3 h=0 k=3 len=2 status=OK bytes=182295
+  corpus: 共に恩波に沐す鳳池の上; 珮声帰り到る鳳池の頭
+  [src] 鳳池の意味・解説
+  def: デジタル大辞泉
+  def: ほう‐ち【×鳳池】
+  [read] 読み方：ほうち
+
+[[810] 鸚鵡  freq=3 h=0 k=3 len=2 status=OK bytes=891577
+  corpus: 隴山の鸚鵡能く言語す; 翡翠の屠蘇鸚鵡の杯
+  [src] 鸚鵡の意味・解説
+  def: デジタル大辞泉
+  def: おう‐む〔アウ‐〕【×鸚×鵡】
+  [read] 読み方：おうむ
+  [read] 読み方：オウム（ｏｕｍｕ）
+
+[[811] 黄雀  freq=3 h=0 k=3 len=2 status=OK bytes=194020
+  corpus: 黄雀黄花を銜み; 黄雀飛び飛ぶを得たり
+  [src] 黄雀の意味・解説
+  def: デジタル大辞泉
+  def: こう‐じゃく〔クワウ‐〕【黄×雀】
+  [read] 読み方：こうじゃく
+  [read] 読み方：キスズメ（ｋｉｓｕｚｕｍｅ）
+
+[[812] 黄雲  freq=3 h=0 k=3 len=2 status=OK bytes=218041
+  corpus: 黄雲春色を断ち; 十里の黄雲白日曛し
+  [src] 黄雲の意味・解説
+  def: デジタル大辞泉
+  def: こう‐うん〔クワウ‐〕【黄雲】
+  [read] 読み方：こううん
+  [wikibody-cut] ウィキペディア
+
+[[813] 黄鶴  freq=3 h=0 k=3 len=2 status=OK bytes=202435
+  corpus: 仙人待つ有りて黄鶴に乗り; 黄鶴西楼の月
+  [src] 黄鶴の意味・解説
+  def: 近代文学作品名辞典
+  def: 黄鶴
+  [read] 読み方：コウカク（ｋｏｕｋａｋｕ）
+  [wikibody-cut] ウィキペディア
+
+[[814] 黒地  freq=3 h=0 k=3 len=2 status=OK bytes=197506
+  corpus: 。敵人苟くも至らば、即ち軍を引いて却き、黒地を按じて堅く処れ。; り、火の起るを見ば、必ず遠く走らん。吾、黒地を按じており、強弩材士、吾が左右を衛り、又吾が前
+  [src] 黒地の意味・解説
+  def: デジタル大辞泉
+  def: くろ‐じ〔‐ヂ〕【黒地】
+  [read] 読み方：くろじ
+  [wikibody-cut] ウィキペディア
+
+[[815] 鼙鼓  freq=3 h=0 k=3 len=2 status=HTTP404 bytes=0
+  corpus: 旗前に指し、金鐸の声、揚がりて以て清く、鼙鼓の声、宛として以て鳴るは、此れ神明の助けを得て、; 車軸を折り、金鐸の声、下
+  [no-real-dict-region]
+
+[[816] 一歳  freq=3 h=3 k=0 len=2 status=OK bytes=188449
+  [src] 一歳の意味・解説
+
+[[817] 不然  freq=3 h=3 k=0 len=2 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[818] 不聽  freq=3 h=3 k=0 len=2 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[819] 以此  freq=3 h=3 k=0 len=2 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[820] 凡兵  freq=3 h=3 k=0 len=2 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[821] 即墨  freq=3 h=3 k=0 len=2 status=OK bytes=239918
+  [src] 即墨の意味・解説
+  def: 三国志小事典
+  def: 即墨Ji mo
+  [wikibody-cut] ウィキペディア
+
+[[822] 善哉  freq=3 h=3 k=0 len=2 status=OK bytes=262913
+  [src] 善哉の意味・解説
+  def: デジタル大辞泉
+  def: ぜん‐ざい【善×哉】
+  [read] 読み方：ぜんざい
+  [wikibody-cut] ウィキペディア
+
+[[823] 好學  freq=3 h=3 k=0 len=2 status=OK bytes=188634
+  [src] 好學の意味・解説
+  def: デジタル大辞泉
+  def: こう‐がく〔カウ‐〕【好学】
+  [read] 読み方：こうがく
+
+[[824] 如此  freq=3 h=3 k=0 len=2 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[825] 屈原  freq=3 h=3 k=0 len=2 status=OK bytes=270874
+  [src] 屈原の意味・解説
+  def: デジタル大辞泉
+  def: くつ‐げん【屈原】
+  [read] 読み方：くつげん
+  [wikibody-cut] ウィキペディア
+
+[[826] 恥也  freq=3 h=3 k=0 len=2 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[827] 惜乎  freq=3 h=3 k=0 len=2 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[828] 是也  freq=3 h=3 k=0 len=2 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[829] 深乎  freq=3 h=3 k=0 len=2 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[830] 然後  freq=3 h=3 k=0 len=2 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[831] 燕軍  freq=3 h=3 k=0 len=2 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[832] 約束  freq=3 h=3 k=0 len=2 status=OK bytes=399085
+  [src] 約束の意味・解説
+  def: デジタル大辞泉
+  def: やく‐そく【約束】
+  [read] 読み方：やくそく
+
+[[833] 請益  freq=3 h=3 k=0 len=2 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[834] 諺曰  freq=3 h=3 k=0 len=2 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[835] 象曰  freq=3 h=3 k=0 len=2 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[836] 一人之  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: 数人之を飲めば足らず、一人之を飲めば余り有り。; 復た曰く、能く徙す者には五十金を予えん、と。一人之を徙す有り。輒ち五十
+  [no-real-dict-region]
+
+[[837] 三千里  freq=3 h=1 k=2 len=3 status=OK bytes=193283
+  corpus: 江水三千里; 年の食無し。二千里なれば、二年の食無し。三千里なれば、三年の食無し。是れを国虚しと謂う。国虚
+  [src] 三千里の意味・解説
+  def: デジタル大辞泉
+  def: さんぜんり【三千里】
+  [read] 読み方：さんぜんり
+  [wikibody-cut] ウィキペディア
+
+[[838] 三子者  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: て告げずんばあらざるなり。君は曰く、夫の三子者に告げよと。三子に之きて告ぐ。可かれず。孔子曰; 。鏗爾として瑟を舎きて作
+  [no-real-dict-region]
+
+[[839] 不仁者  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: 子曰く、不仁者は以て久しく約に処る可からず。以て長く楽に処る可からず。仁者は仁に安んじ、知者; る無し。不仁を悪む者は、
+  [no-real-dict-region]
+
+[[840] 五六十  freq=3 h=0 k=3 len=3 status=OK bytes=186481
+  corpus: 方六七十、如しくは五六十、求や之を為め、三年に及ぶ比い、民を足らしむ可し。; 爾は何如。対えて曰く、方六七十、如しくは五六十、求や之を為め、三年に及ぶ比い、民を足らしむ可
+  [src] 五六十の意味・解説
+
+[[841] 五十人  freq=3 h=0 k=3 len=3 status=OK bytes=187527
+  corpus: 故に五人を伍と為し、十軌を里と為す。故に五十人を小戎と為し、四里を連と為す。故に二百人を卒と; 臣謂えらく、百人を卒と曰い、五十人を両と曰う。此れは是れ車一乗ごとに、士百五十人を用う。周制
+  [src] 五十人の意味・解説
+
+[[842] 五十歩  freq=3 h=0 k=3 len=3 status=OK bytes=188961
+  corpus: 或いは百歩にして後止まり、或いは五十歩にして後止まる。; 五十歩を以て百歩を笑わば、則ち何如、と。
+  [src] 五十歩の意味・解説
+
+[[843] 光輝有  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: 三署光輝有らん; 君王の鳧雁光輝有り
+  [no-real-dict-region]
+
+[[844] 公子糾  freq=3 h=0 k=3 len=3 status=OK bytes=233505
+  corpus: 子貢曰く、管仲は仁者に非ざるか。桓公、公子糾を殺すに、死する能わず。又之を相く。子曰く、管仲; 已にして鮑叔は斉の公子小白に事え、管仲は公子糾に事う。小白立ちて桓公と為り、公子糾死するに及
+  [src] 公子糾の意味・解説
+  [wikibody-cut] ウィキペディア
+
+[[845] 君子有  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: 匪たる君子有り; 斐たる君子有り、終に諠る可からずとは、盛徳至善にして、民の忘るる能わざるを道うなり。
+  [no-real-dict-region]
+
+[[846] 地肥饒  freq=3 h=2 k=1 len=3 status=HTTP404 bytes=0
+  corpus: 立てて王と為し、既に大夏を臣として居る。地肥饒にして、寇少なく、志安楽なり。又た自ら以て漢に
+  [no-real-dict-region]
+
+[[847] 堯又曰  freq=3 h=2 k=1 len=3 status=HTTP404 bytes=0
+  corpus: 堯曰く、吁、頑凶なり、用いられず、と。堯又曰く、誰か可なる者ぞ、と。讙兜曰く、共工は旁く聚め
+  [no-real-dict-region]
+
+[[848] 夏后氏  freq=3 h=0 k=3 len=3 status=OK bytes=389482
+  corpus: 哀公、社を宰我に問う。宰我、対えて曰く、夏后氏は松を以てし、殷人は柏を以てし、周人は栗を以て; 夏后氏は軍中に誓う。民、先ず其の慮を成さんことを欲するなり。
+  [src] 夏后氏の意味・解説
+  [wikibody-cut] ウィキペディア
+
+[[849] 天下之  freq=3 h=0 k=3 len=3 status=HTTP404 bytes=0
+  corpus: 文王曰く、斂を立つること何若にして、天下之に帰せん。; 吾是を以て無為の益有るを知る。不言の教え、無為の益は、天下之に及
+  [no-real-dict-region]

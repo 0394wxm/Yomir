@@ -892,3 +892,17 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 [2026-11-23T14:22 N80] N80 batch9 judged (34 in / 16 out): castle/celestial noun family (joushi/jouken/joutou/tenjou/tenmon/tenpuu), proper Taisou/Taizan/Konkyuu/Songo/Sonbu, sense-mismatch tenjou-building/oshiyuu-Ranyou excluded. All 500 candidates decided
 [2026-11-23T14:29 N80] N80 all 500 candidates decided (261 in / 239 out); build appended 261 to extra2 (824->1085), pytest 374 passed, golden_4000 bit-exact vs night79 archive (13.517/24/0), README/ROADMAP/accept-80 registered, REPORT_NIGHT80.md drafted. Ready for main commit + accept run
 [2026-11-23T14:41 N80] N80 wrap-up: accept 80 PASS fail=0 skip=0 (28.1s, seven gates green, first-run PASS after main commit); REPORT section-4 filled; branch night80-lexicon-expand2 two commits done, no merge, no push
+[2026-11-23T15:29 N82] Night82 start: branch night82-lexicon-expand3 from night80 6fba6a7, pytest 374 passed, tracked tree clean, freq rerun pending
+[2026-11-23T15:34 N82] N72 45min rule applied: weblio fetch rewritten gzip (semantics unchanged, one-line record) + 4-way range split, 466 pages
+[2026-11-23T15:42 N82] batch1 rank500-549 judged: 35 in (noun28 proper5 modifier2) / 15 out (404 6, machine-only 2, sense-mismatch 3, wiki-only 2, pattern 2); fetch 466/466 done
+[2026-11-23T15:48 N82] batch2 rank550-599 judged: 31 in / 19 out
+[2026-11-23T15:51 N82] batch3 rank600-649 judged: 32 in / 18 out
+[2026-11-23T15:51 N82] correction: batch3 actual 35 in / 15 out (prior line miscounted); cumulative 150/466 judged: 101 in / 49 out
+[2026-11-23T15:53 N82] batch4 rank700-749 judged: 30 in / 20 out
+[2026-11-23T15:55 N82] batch5 rank650-699 judged: 31 in / 19 out
+[2026-11-23T15:58 N82] batch6 rank750-799 judged: 34 in / 16 out; cumulative 300/466
+[2026-11-23T16:01 N82] batch7 rank800-849 judged: 16 in / 34 out (h-only runs mostly junk per N80 patterns)
+[2026-11-23T16:02 N82] batch8 rank850-899 judged: 4 in / 46 out
+[2026-11-23T16:04 N82] batch9 rank900-949 judged: 0 in / 50 out (all 404 hakubun phrases); remaining batch10 rank950-965
+[2026-11-23T16:05 N82] batch10 rank950-965 judged: 0 in / 16 out; ALL 466 candidates decided - running audit
+[2026-11-23T16:15 N82] extra2 1085->1301 (216 in: noun172 proper28 verb9 modifier7), pytest 385 passed, golden_4000 bit-exact vs night80 (13.517/24/0, diff 0 lines, 105s), verify 17/17 exit 0; ready for main commit

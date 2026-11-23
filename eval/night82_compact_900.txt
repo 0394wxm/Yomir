@@ -1,0 +1,151 @@
+[[900] 材士強弩  freq=3 h=2 k=1 len=4 status=HTTP404 bytes=0
+  corpus: 前に居りて塁を平らげ、軍の為に道を開き、材士強弩は、伏兵と為して後ろに居らしめ、弱卒車騎は中
+  [no-real-dict-region]
+
+[[901] 豪傑英俊  freq=3 h=1 k=2 len=4 status=HTTP404 bytes=0
+  corpus: 、以て禦ぎ戦うは、善なる者に非ざるなり。豪傑英俊、堅甲利兵、勁弩強矢、尽く郭中に在り、乃ち窖; るも、則ち亦た止むること
+  [no-real-dict-region]
+
+[[902] 一匡天下  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[903] 不可則止  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[904] 以臨其民  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[905] 何謂五美  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[906] 使於四方  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[907] 其爲氣也  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[908] 凡此六者  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[909] 則如之何  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[910] 勝之半也  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[911] 勿施於人  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[912] 卒遇敵人  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[913] 可謂士矣  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[914] 執者失之  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[915] 如五六十  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[916] 如切如磋  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[917] 如琢如磨  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[918] 子張問曰  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[919] 子畏於匡  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[920] 子路問曰  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[921] 己所不欲  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[922] 微哉微哉  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[923] 故能長生  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[924] 日費千金  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[925] 是謂玄德  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[926] 有顏回者  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[927] 樊遲問仁  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[928] 欲而不貪  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[929] 武王伐紂  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[930] 比及三年  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[931] 泰而不驕  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[932] 深溝高壘  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[933] 爲者敗之  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[934] 爲臣不易  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[935] 王之問也  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[936] 生而不有  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[937] 百乘之家  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[938] 至於無形  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[939] 與敵相當  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[940] 請問其目  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[941] 隱居放言  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[942] 靖再拜曰  freq=3 h=3 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[943] 今由與求也  freq=3 h=3 k=0 len=5 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[944] 他日又獨立  freq=3 h=3 k=0 len=5 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[945] 因是而知之  freq=3 h=3 k=0 len=5 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[946] 子謂顏淵曰  freq=3 h=3 k=0 len=5 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[947] 廣一丈五尺  freq=3 h=3 k=0 len=5 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[948] 我則異於是  freq=3 h=3 k=0 len=5 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[949] 故去彼取此  freq=3 h=3 k=0 len=5 status=HTTP404 bytes=0
+  [no-real-dict-region]

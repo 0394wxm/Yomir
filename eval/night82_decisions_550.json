@@ -1,0 +1,480 @@
+{
+ "start": 550,
+ "note": "N82 batch rank 550-599: 31 in (noun 26/proper 2/verb 3/modifier 0/function 0) / 19 out",
+ "decisions": [
+  {
+   "word": "意無",
+   "rank": 550,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「意無し」＝X+nasi 系（N79 実証済みパターン）。"
+  },
+  {
+   "word": "愚者",
+   "rank": 551,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ぐしゃ",
+   "meaning": "愚かな人。愚人。",
+   "dict_evidence": "weblio デジタル大辞泉；ぐ‐しゃ【愚者】；読み方：ぐしゃ（cand_551_愚者.txt）",
+   "corpus_evidence": "golden_8165 3行。例 senryo-1「広武君曰く、臣聞く、智者も千慮に必ず一失有り、愚者も千慮に必ず一得有り、と。故に曰く、狂夫の言も、聖人は焉を択ぶ、と。」"
+  },
+  {
+   "word": "愛子",
+   "rank": 552,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "あいし・まなご",
+   "meaning": "愛する子。最愛の子。",
+   "dict_evidence": "weblio デジタル大辞泉「いと‐こ【▽愛子】いとこ」愛する人・「まな‐ご【▽愛子】まなご」最愛の子；他辞書欄に アイシ；語料「愛子燕趙に遊ばんとす」＝愛する子 あいし 前頭（cand_552_愛子.txt）",
+   "corpus_evidence": "golden_8165 3行。例 wakaruru-3「愛子燕趙に遊ばんとす」"
+  },
+  {
+   "word": "懽心",
+   "rank": 553,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢文語「懽心」（よろこびの心）——N80 同款 404 排除。"
+  },
+  {
+   "word": "戦攻",
+   "rank": 554,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「戦攻の具」＝戦＋攻（六韜）。"
+  },
+  {
+   "word": "戦車",
+   "rank": 555,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せんしゃ",
+   "meaning": "戦いのための車。古代の兵車。",
+   "dict_evidence": "weblio デジタル大辞泉；せん‐しゃ【戦車】；読み方：せんしゃ（cand_555_戦車.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou58-1「武王、太公に問うて曰く、戦車は奈何。」"
+  },
+  {
+   "word": "戦闘",
+   "rank": 556,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せんとう",
+   "meaning": "戦い。たたかうこと。",
+   "dict_evidence": "weblio デジタル大辞泉；せん‐とう【戦闘】；読み方：せんとう（cand_556_戦闘.txt）",
+   "corpus_evidence": "golden_8165 3行。例 montai07-2「靖曰く、前代の戦闘、多くは是れ小術を以て無術に勝ち、片善を以て無善に勝つ。斯れ安んぞ以て兵法を論ずるに足らんや。」"
+  },
+  {
+   "word": "扁舟",
+   "rank": 557,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "へんしゅう",
+   "meaning": "小さな舟。ひとつの舟。",
+   "dict_evidence": "weblio デジタル大辞泉；へん‐しゅう〔‐シウ〕【×扁舟】；読み方：へんしゅう（cand_557_扁舟.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen339-3「遥かに扁舟を送る安陸郡」"
+  },
+  {
+   "word": "才有",
+   "rank": 558,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「才有り」＝X+ari 系。"
+  },
+  {
+   "word": "扶桑",
+   "rank": 559,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "ふそう",
+   "meaning": "日出ずる所の神木。転じて日本国の異称（語料「郷樹扶桑の外」）。",
+   "dict_evidence": "weblio デジタル大辞泉；ふ‐そう〔‐サウ〕【扶桑】；読み方：ふそう（cand_559_扶桑.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen136-9「郷樹扶桑の外」"
+  },
+  {
+   "word": "扶胥",
+   "rank": 560,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。六韜の陣具名「扶胥」（武衝の扶胥）——専門語 weblio 不載。"
+  },
+  {
+   "word": "推移",
+   "rank": 561,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "すいい",
+   "meaning": "移り変わること。移り行くこと。",
+   "dict_evidence": "weblio デジタル大辞泉；すい‐い【推移】；読み方：すいい（cand_561_推移.txt）",
+   "corpus_evidence": "golden_8165 3行。例 yotosuii-1「漁父曰く、聖人は物に凝滞せずして、能く世と推移す。」"
+  },
+  {
+   "word": "揚州",
+   "rank": 562,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "ようしゅう",
+   "meaning": "江蘇省揚州。唐代の繁華の地。杜牧「十年一覚揚州の夢」。",
+   "dict_evidence": "weblio デジタル大辞泉；よう‐しゅう〔ヤウシウ〕【揚州】；読み方：ようしゅう（cand_562_揚州.txt）",
+   "corpus_evidence": "golden_8165 3行。例 okuseki02-1「憶う昔揚州月華を看る」"
+  },
+  {
+   "word": "握奇",
+   "rank": 563,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。兵書「握奇経」の提法（握機・握奇）——専門語 weblio 不載。"
+  },
+  {
+   "word": "攻守",
+   "rank": 564,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうしゅ",
+   "meaning": "攻めることと守ること。",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐しゅ【攻守】；読み方：こうしゅ（cand_564_攻守.txt）",
+   "corpus_evidence": "golden_8165 3行。例 montai12-10「れ蕃漢の別を知らざるときは、則ち能く我が攻守の計を測ること莫し。善く兵を用うる者は、先ず測る可からざるを為す。則ち敵其の」"
+  },
+  {
+   "word": "放言",
+   "rank": 565,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "ほうげん・ほうごん",
+   "meaning": "思うままに言うこと。ほしいままに言い放つこと。",
+   "dict_evidence": "weblio デジタル大辞泉；ほう‐げん〔ハウ‐〕【放言】；読み方：ほうげん（cand_565_放言.txt）",
+   "corpus_evidence": "golden_8165 3行。例 inkyoho-1「虞仲・夷逸を謂う。隠居して放言し、身は清に中り、廃せられて権に中る。我は則ち是に異なり。可も無く不可も無し。」"
+  },
+  {
+   "word": "政令",
+   "rank": 566,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せいれい",
+   "meaning": "政治上の命令。法令。",
+   "dict_evidence": "weblio デジタル大辞泉；せい‐れい【政令】；読み方：せいれい（cand_566_政令.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kokyo09-27「故に能く其の徳教を成して、其の政令を行う。」"
+  },
+  {
+   "word": "故国",
+   "rank": 567,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ここく",
+   "meaning": "故郷。古い国。杜牧「故国東来渭水流る」。",
+   "dict_evidence": "weblio デジタル大辞泉；こ‐こく【故国】；読み方：ここく（cand_567_故国.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kanyojotoro-8「故国東来渭水流る」"
+  },
+  {
+   "word": "敗兵",
+   "rank": 568,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "はいへい",
+   "meaning": "敗れた軍。敗戦の兵。孫子「敗兵は先ず戦いて、而る後に勝ちを求む」。",
+   "dict_evidence": "weblio デジタル大辞泉；はい‐へい【敗兵】；読み方：はいへい（cand_568_敗兵.txt）",
+   "corpus_evidence": "golden_8165 3行。例 sonshi04-20「是の故に勝兵は先ず勝ちて、而る後に戦いを求め、敗兵は先ず戦いて、而る後に勝ちを求む。」"
+  },
+  {
+   "word": "散地",
+   "rank": 569,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区＝例文用例辞書のみ（機械生成区）——N80 機械区のみ 先例。孫子の地形語。"
+  },
+  {
+   "word": "敵其",
+   "rank": 570,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「敵其の中を衝けば」＝敵＋其の。"
+  },
+  {
+   "word": "敵国",
+   "rank": 571,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "てきこく・てっこく",
+   "meaning": "対等の力を持つ国。敵する国。",
+   "dict_evidence": "weblio デジタル大辞泉；てき‐こく【敵国】；読み方：てきこく（cand_571_敵国.txt）",
+   "corpus_evidence": "golden_8165 3行。例 sanryaku01-10「するに時を踰えざれば、則ち下は力并せて、敵国は削らる。夫れ人を用うるの道は、尊ぶに爵を以てし、贍わすに財を以てすれば、則」"
+  },
+  {
+   "word": "文武",
+   "rank": 572,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ぶんぶ",
+   "meaning": "文事と武事。",
+   "dict_evidence": "weblio デジタル大辞泉；ぶん‐ぶ【文武】；読み方：ぶんぶ（cand_572_文武.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo1922-1「て曰く、仲尼は焉くにか学べる。子貢曰く、文武の道、未だ地に墜ちずして、人に在り。賢者は其の大なる者を識り、不賢者は其の小」"
+  },
+  {
+   "word": "文物",
+   "rank": 573,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ぶんぶつ",
+   "meaning": "礼楽・文書の制度など文化の産物。",
+   "dict_evidence": "weblio デジタル大辞泉；ぶん‐ぶつ【文物】；読み方：ぶんぶつ（cand_573_文物.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen045-17「文物昭回を象る」"
+  },
+  {
+   "word": "斉王",
+   "rank": 574,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし、Wikipedia のみ＝保守排除（N80 令尹・元王 先例——後日承認なら翻案可）。呼称部「斉王」。"
+  },
+  {
+   "word": "斜日",
+   "rank": 575,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しゃじつ",
+   "meaning": "西に傾く日。夕日。",
+   "dict_evidence": "weblio デジタル大辞泉；しゃ‐じつ【斜日】；読み方：しゃじつ（cand_575_斜日.txt）",
+   "corpus_evidence": "golden_8165 3行。例 ryokeiwo-1「遠汀斜日思い悠悠」"
+  },
+  {
+   "word": "斥沢",
+   "rank": 576,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。孫子行軍篇の地形語「斥沢」（塩沢地）——専門語 weblio 不載。"
+  },
+  {
+   "word": "新書",
+   "rank": 577,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しんしょ",
+   "meaning": "新しく著した書物。（語料＝曹公の兵書「新書」）",
+   "dict_evidence": "weblio デジタル大辞泉；しん‐しょ【新書】；読み方：しんしょ（cand_577_新書.txt）",
+   "corpus_evidence": "golden_8165 3行。例 montai04-2「靖曰く、案ずるに、曹公の新書に曰く、己二にして敵一ならば、則ち一術を正と為し、一術を奇と為せ。己五にして敵一ならば、則ち」"
+  },
+  {
+   "word": "新豊",
+   "rank": 578,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=三国志小事典のみ（読み方・释义不載）＋Wikipedia のみ＝保守排除（後日承認なら翻案可）。漢詩の地名 新豊。"
+  },
+  {
+   "word": "既往",
+   "rank": 579,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きおう",
+   "meaning": "過去。すんでしまった事柄。論語「既往は咎めず」。",
+   "dict_evidence": "weblio デジタル大辞泉；き‐おう〔‐ワウ〕【既往】；読み方：きおう（cand_579_既往.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kio-1「成事は説かず、遂事は諫めず、既往は咎めず。」"
+  },
+  {
+   "word": "日〻",
+   "rank": 580,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。重畳表記「日〻」＝日々（ひび）の旧字表記——辞書不載。"
+  },
+  {
+   "word": "日中",
+   "rank": 581,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "にっちゅう",
+   "meaning": "真昼。太陽が中天にあること。",
+   "dict_evidence": "weblio 実用日本語表現辞典「日中」読み方：にっちゅう・ひなか；語料「日中すれば則ち移り」＝日中天義 にっちゅう（cand_581_日中.txt）",
+   "corpus_evidence": "golden_8165 3行。例 tsuki-1「語に曰く、日中すれば則ち移り、月満つれば則ち虧く、と。物盛んなれば則ち衰うるは、天地の常数なり。進退盈縮、時と変化す。聖」"
+  },
+  {
+   "word": "日夕",
+   "rank": 582,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "にっせき",
+   "meaning": "朝と晩。転じて日々、夕べ。漢詩「山気日夕に佳く」。",
+   "dict_evidence": "weblio デジタル大辞泉；にっ‐せき【日夕】；読み方：にっせき（cand_582_日夕.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen306-3「城中日夕歌鐘起り」"
+  },
+  {
+   "word": "日落",
+   "rank": 583,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし（例文区のみ）。漢詩構文「日落ちて」＝日＋落ちる。"
+  },
+  {
+   "word": "日辺",
+   "rank": 584,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=地名辞典のみ（日本地名 ニッペ）＝別義。語料「日辺」＝天子の御側（漢詩語）——sense-mismatch 排除。"
+  },
+  {
+   "word": "日長",
+   "rank": 585,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ひなが・にっちょう",
+   "meaning": "春になって昼の長く感じられること。",
+   "dict_evidence": "weblio デジタル大辞泉「ひ‐なが【日長／日永】ひなが」春の昼長し＋「にっ‐ちょう【日長】日照時間の長さ」；語料「日長く風暖かにして」＝ひなが 前頭（cand_585_日長.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen350-1「日長く風暖かにして柳青青たり」"
+  },
+  {
+   "word": "旧国",
+   "rank": 586,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きゅうこく",
+   "meaning": "歴史の古い国。ふるさと（故国）。",
+   "dict_evidence": "weblio デジタル大辞泉；きゅう‐こく〔キウ‐〕【旧国】；読み方：きゅうこく（cand_586_旧国.txt）",
+   "corpus_evidence": "golden_8165 3行。例 nihonza012-1「玉牆の旧国維新を紀し」"
+  },
+  {
+   "word": "旧時",
+   "rank": 587,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きゅうじ",
+   "meaning": "昔。以前の時。",
+   "dict_evidence": "weblio デジタル大辞泉；きゅう‐じ〔キウ‐〕【旧時】；読み方：きゅうじ（cand_587_旧時.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen365-4「春来還た発く旧時の花」"
+  },
+  {
+   "word": "旬日",
+   "rank": 588,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じゅんじつ",
+   "meaning": "十日間。旬。",
+   "dict_evidence": "weblio デジタル大辞泉；じゅん‐じつ【旬日】；読み方：じゅんじつ（cand_588_旬日.txt）",
+   "corpus_evidence": "golden_8165 3行。例 enou-2「ち大なる梓木有りて、二つの冢の端に生じ、旬日にして大なること抱に盈ち、体を屈して相就き、根は下に交わり、枝は上に錯わる。」"
+  },
+  {
+   "word": "昌意",
+   "rank": 589,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし、Wikipedia のみ＝保守排除（N80 先例——後日承認なら翻案可）。人名 昌意（黄帝の子）。"
+  },
+  {
+   "word": "星辰",
+   "rank": 590,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せいしん",
+   "meaning": "星の総称。星宿。",
+   "dict_evidence": "weblio デジタル大辞泉；せい‐しん【星×辰】；読み方：せいしん（cand_590_星辰.txt）",
+   "corpus_evidence": "golden_8165 3行。例 shiki001a-10「時に百穀草木を播き、鳥獣蟲蛾を淳化し、日月・星辰・水波・土石・金玉を旁羅し、心力耳目を労勤し、水火材物を節用す。」"
+  },
+  {
+   "word": "春城",
+   "rank": 591,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢詩語「春城」（春の都城）——N80 同款 404 排除。"
+  },
+  {
+   "word": "春深",
+   "rank": 592,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「春深くして」＝春＋深し。"
+  },
+  {
+   "word": "時日",
+   "rank": 593,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じじつ",
+   "meaning": "日時。時と日。六韜「時日を推し」。",
+   "dict_evidence": "weblio デジタル大辞泉；じ‐じつ【時日】；読み方：じじつ（cand_593_時日.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou18-5「天文三人、星暦を司り、風気を候い、時日を推し、符験を考え、災異を校り、天心去就の機を知ることを主る。」"
+  },
+  {
+   "word": "時節",
+   "rank": 594,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じせつ",
+   "meaning": "季節。時節。漢詩「太平の時節身遇い難し」。",
+   "dict_evidence": "weblio デジタル大辞泉；じ‐せつ【時節】；読み方：じせつ（cand_594_時節.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen226-7「太平の時節身遇い難し」"
+  },
+  {
+   "word": "曹公",
+   "rank": 595,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。呼称部「曹公」（曹操）——N79/N80 呼称部 先例。"
+  },
+  {
+   "word": "有功",
+   "rank": 596,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ゆうこう",
+   "meaning": "功あること。功績。六韜「有功を賞禄し」。",
+   "dict_evidence": "weblio デジタル大辞泉；ゆう‐こう〔イウ‐〕【有功】；読み方：ゆうこう（cand_596_有功.txt）",
+   "corpus_evidence": "golden_8165 3行。例 sanryaku01-1「夫れ主将の法は、務めて英雄の心を攬り、有功を賞禄し、志を衆に通ず。故に衆と好みを同じうすれば、成らざるは靡く、衆と悪しみ」"
+  },
+  {
+   "word": "有能",
+   "rank": 597,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ゆうのう",
+   "meaning": "才能があること。李衛公問対「無制の兵は有能の将なるも勝つ可からず」。",
+   "dict_evidence": "weblio デジタル大辞泉；ゆう‐のう〔イウ‐〕【有能】；読み方：ゆうのう（cand_597_有能.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kenro-3「形の尨なるや、有徳に類し、声の宏なるや、有能に類す。向し其の技を出さざれば、虎猛しと雖も疑い畏れて卒に敢えて取らざらん。」"
+  },
+  {
+   "word": "望見",
+   "rank": 598,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "ぼうけん",
+   "meaning": "遠くから見る。望んで見る。",
+   "dict_evidence": "weblio デジタル大辞泉；ぼう‐けん〔バウ‐〕【望見】；読み方：ぼうけん（cand_598_望見.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kyowa-1「孟子范より斉に之き、斉王の子を望見し、喟然として嘆じて曰く、居は気を移し、養は体を移す、と。大なるかな居や。夫れ尽く人の」"
+  },
+  {
+   "word": "本為",
+   "rank": 599,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「仁の本為るか」＝本＋為る。"
+  }
+ ]
+}

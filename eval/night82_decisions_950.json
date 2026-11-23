@@ -1,0 +1,118 @@
+{
+ "start": 950,
+ "note": "N82 batch rank 950-965: 0 in (noun 0/proper 0/verb 0/modifier 0/function 0) / 16 out",
+ "decisions": [
+  {
+   "word": "故用兵之法",
+   "rank": 950,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「故用兵之法」——N80 白文成句 先例。"
+  },
+  {
+   "word": "無可無不可",
+   "rank": 951,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「無可無不可」——N80 白文成句 先例。"
+  },
+  {
+   "word": "舉直錯諸枉",
+   "rank": 952,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「舉直錯諸枉」——N80 白文成句 先例。"
+  },
+  {
+   "word": "請事斯語矣",
+   "rank": 953,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「請事斯語矣」——N80 白文成句 先例。"
+  },
+  {
+   "word": "過則勿憚改",
+   "rank": 954,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「過則勿憚改」——N80 白文成句 先例。"
+  },
+  {
+   "word": "鯉退而學禮",
+   "rank": 955,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「鯉退而學禮」——N80 白文成句 先例。"
+  },
+  {
+   "word": "鯉退而學詩",
+   "rank": 956,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「鯉退而學詩」——N80 白文成句 先例。"
+  },
+  {
+   "word": "君子惠而不費",
+   "rank": 957,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「君子惠而不費」——N80 白文成句 先例。"
+  },
+  {
+   "word": "弟子孰爲好學",
+   "rank": 958,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「弟子孰爲好學」——N80 白文成句 先例。"
+  },
+  {
+   "word": "未聞好學者也",
+   "rank": 959,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「未聞好學者也」——N80 白文成句 先例。"
+  },
+  {
+   "word": "非善之善者也",
+   "rank": 960,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「非善之善者也」（孫子）——N80 白文成句 先例。"
+  },
+  {
+   "word": "一言而可以興邦",
+   "rank": 961,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「一言而可以興邦」——N80 白文成句 先例。"
+  },
+  {
+   "word": "如知爲君之難也",
+   "rank": 962,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「如知爲君之難也」——N80 白文成句 先例。"
+  },
+  {
+   "word": "何如斯可謂之士矣",
+   "rank": 963,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「何如斯可謂之士矣」——N80 白文成句 先例。"
+  },
+  {
+   "word": "吾末如之何也已矣",
+   "rank": 964,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「吾末如之何也已矣」——N80 白文成句 先例。"
+  },
+  {
+   "word": "材士強弩矛戟爲翼",
+   "rank": 965,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「材士強弩矛戟爲翼」（六韜）——N80 白文成句 先例。"
+  }
+ ]
+}

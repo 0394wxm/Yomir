@@ -123,3 +123,5 @@ README.md 还停在 v0.1（Night 3 时代）：写的 pytest 14 条 / 评测 200
 - 状態: DONE - Night 79(2026-11-23,分支 night79-lexicon-expand):词库扩充 500→824(golden_8165 汉字复合词频次挖矿 503 候选→逐条 weblio+语料双证据入库 324/排除 179/剩余 0;N76 §3.5 缺口 而る後/而ち/利す 全收录;本体 GLOSSARY_LEXICON 500 条不动(N75/N77 size 不变式维持),合并查找在 llm 层 find_in_lexicon2;golden_4000 与 night77 归档逐位一致 13.517/24/0;tests 363=363;accept 79 PASS fail=0 skip=0)
 
 -状態: DONE - Night 80(2026-11-23,分支 night80-lexicon-expand2 自 night79-lexicon-expand 分出):词库再扩充 824→1085(golden_8165 汉字复合词频次 3-4 区 500 候选→逐条 weblio+语料双证据入库 261/排除 239/剩余 0;本体 GLOSSARY_LEXICON 500 条不动,extra2 追加 261 条至 585,合并查找 find_in_lexicon2;golden_4000 与 night79 归档逐位一致 13.517/24/0;tests 374=374;accept 80 PASS fail=0 skip=0)
+
+- 状態: DONE - Night 82(2026-11-23,分支 night82-lexicon-expand3 自 night80-lexicon-expand2 6fba6a7 分出):词库再扩充 1085→1301(频次 3-4 区剩余 rank500-965 466 候选→逐条 weblio+语料双证据入库 216/排除 250/剩余 0;N79 待拍板 3+8 条与 N80 Wikipedia-only 4 条一字未动;本体 GLOSSARY_LEXICON 500 条不动,extra2 追加 216 条至 801,合并查找 find_in_lexicon2;golden_4000 与 night80 归档逐位一致 13.517/24/0;tests 385=385;verify 17/17 exit 0;accept 82 PASS fail=0 skip=0)

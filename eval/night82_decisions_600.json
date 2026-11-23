@@ -1,0 +1,496 @@
+{
+ "start": 600,
+ "note": "N82 batch rank 600-649: 35 in (noun 23/proper 9/verb 1/modifier 2/function 0) / 15 out",
+ "decisions": [
+  {
+   "word": "李白",
+   "rank": 600,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "りはく",
+   "meaning": "唐の詩人。詩仙。杜甫「南のかた禹穴を尋ねて李白を見ば」。",
+   "dict_evidence": "weblio デジタル大辞泉；り‐はく【李白】；読み方：りはく（cand_600_李白.txt）",
+   "corpus_evidence": "golden_8165 3行。例 orin-1「李白舟に乗って将に行かんと欲す」"
+  },
+  {
+   "word": "来往",
+   "rank": 601,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "らいおう",
+   "meaning": "行き来。杜甫「亭前に来往して落花を踏む」。",
+   "dict_evidence": "weblio デジタル大辞泉；らい‐おう〔‐ワウ〕【来往】；読み方：らいおう（cand_601_来往.txt）",
+   "corpus_evidence": "golden_8165 3行。例 horakuyu03-4「亭前に来往して落花を踏む」"
+  },
+  {
+   "word": "来者",
+   "rank": 602,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "らいしゃ",
+   "meaning": "後に来る者。将来の人。論語「焉くんぞ来者の今に如かざるを知らんや」。",
+   "dict_evidence": "weblio デジタル大辞泉；らい‐しゃ【来者】；読み方：らいしゃ（cand_602_来者.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo0922-1「子曰く、後生畏る可し。焉くんぞ来者の今に如かざるを知らんや。四十五十にして聞ゆること無くんば、斯れ亦た畏るるに足らざるの」"
+  },
+  {
+   "word": "杯中",
+   "rank": 603,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "はいちゅう",
+   "meaning": "杯の中。酒。杯弓蛇影「杯中に蛇有るを見る」。",
+   "dict_evidence": "weblio デジタル大辞泉；はい‐ちゅう【杯中／×盃中】；読み方：はいちゅう（cand_603_杯中.txt）",
+   "corpus_evidence": "golden_8165 3行。例 p-haichu-2「て、酒を賜るを蒙り、方に飲まんと欲して、杯中に蛇有るを見る。意甚だ之を悪むも、既に飲みて疾めり、と。」"
+  },
+  {
+   "word": "東山",
+   "rank": 604,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "とうさん・ひがしやま",
+   "meaning": "東方の山。謝安が隠棲した会稽の東山（「東山に臥す」の典）。",
+   "dict_evidence": "weblio デジタル大辞泉；とう‐さん【東山】；読み方：とうさん（cand_604_東山.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen032-8「一たび東山に臥して三十春」"
+  },
+  {
+   "word": "東方",
+   "rank": 605,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "とうほう・ひがしかた",
+   "meaning": "東の方角。日出ずる処（「吾が檻を扶桑に照らす」）。",
+   "dict_evidence": "weblio デジタル大辞泉；とう‐ほう〔‐ハウ〕【東方】；読み方：とうほう（cand_605_東方.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen304-3「羅敷独り東方に向かって去る」"
+  },
+  {
+   "word": "桑乾",
+   "rank": 606,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=三国志小事典のみ（読み方・释义不載）。漢詩の河名 桑乾（桑乾河）——保守排除。"
+  },
+  {
+   "word": "梁上",
+   "rank": 607,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "りょうじょう",
+   "meaning": "梁（はり）の上。後漢陳寔の故事「梁上の君子」。",
+   "dict_evidence": "weblio デジタル大辞泉；りょう‐じょう〔リヤウジヤウ〕【×梁上】；読み方：りょうじょう（cand_607_梁上.txt）",
+   "corpus_evidence": "golden_8165 3行。例 ryojo-2「盗有りて夜陳寔の室に入り、梁上に止まる。」"
+  },
+  {
+   "word": "梁園",
+   "rank": 608,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "りょうえん",
+   "meaning": "漢の梁孝王の園（梁苑）。文人が集った遊宴の地。",
+   "dict_evidence": "weblio デジタル大辞泉；りょう‐えん〔リヤウヱン〕【×梁園／×梁×苑】；読み方：りょうえん（cand_608_梁園.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen337-1「梁園の秋竹古時の烟」"
+  },
+  {
+   "word": "楊花",
+   "rank": 609,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢詩語「楊花」（柳の綿毛）——N80 同款 404 排除。"
+  },
+  {
+   "word": "楼船",
+   "rank": 610,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ろうせん",
+   "meaning": "船上に楼を構えた軍船。漢の楼船将軍の典。",
+   "dict_evidence": "weblio デジタル大辞泉；ろう‐せん【楼船】；読み方：ろうせん（cand_610_楼船.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kafuku-1「呂嘉は小忠にして、佗をして後無からしむ。楼船は欲を従にして、怠傲失惑す。」"
+  },
+  {
+   "word": "楼蘭",
+   "rank": 611,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "ろうらん",
+   "meaning": "西域の古国。王昌齢「楼蘭を破らずんば終に還らじ」。",
+   "dict_evidence": "weblio デジタル大辞泉；ろうらん【楼蘭】；読み方：ろうらん（cand_611_楼蘭.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen335-4「楼蘭を破らずんば終に還らじ」"
+  },
+  {
+   "word": "横笛",
+   "rank": 612,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "おうてき・ようじょう",
+   "meaning": "横に構えて吹く笛。雅楽の竜笛（ようじょう）。",
+   "dict_evidence": "weblio デジタル大辞泉；おう‐てき〔ワウ‐〕【横笛】；読み方：おうてき（cand_612_横笛.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen109-8「遥かに聞く横笛の音」"
+  },
+  {
+   "word": "樹色",
+   "rank": 613,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢詩語「樹色」——N80 同款 404 排除。"
+  },
+  {
+   "word": "武城",
+   "rank": 614,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし（src=武城県、Wikipedia 区のみ）＝保守排除。論語の魯の邑 武城——後日承認なら翻案可。"
+  },
+  {
+   "word": "武子",
+   "rank": 615,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=短編小説作品名辞典のみ（別義 タケシ）＋Wikipedia のみ＝保守排除。人名 車胤字武子——後日承認なら翻案可。"
+  },
+  {
+   "word": "武陵",
+   "rank": 616,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=三国志小事典のみ（読み方・释义不載）＋Wikipedia のみ＝保守排除。桃花源記の武陵——後日承認なら翻案可。"
+  },
+  {
+   "word": "歳寒",
+   "rank": 617,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さいかん",
+   "meaning": "年の終わりの寒さ。論語「歳寒くして、然る後に松柏の彫むに後るるを知る」。",
+   "dict_evidence": "weblio デジタル大辞泉；さい‐かん【歳寒】；読み方：さいかん（cand_617_歳寒.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo0927-1「子曰く、歳寒くして、然る後に松柏の彫むに後るるを知るなり。」"
+  },
+  {
+   "word": "比干",
+   "rank": 618,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "ひかん",
+   "meaning": "殷の紂王の叔父。諫めて殺された忠臣。殷の三仁の一。",
+   "dict_evidence": "weblio デジタル大辞泉；ひかん【比干】；読み方：ひかん（cand_618_比干.txt）",
+   "corpus_evidence": "golden_8165 3行。例 insanjin-1「微子は之を去り、箕子は之が奴と為り、比干は諫めて死す。孔子曰く、殷に三仁有り。」"
+  },
+  {
+   "word": "毫末",
+   "rank": 619,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ごうまつ",
+   "meaning": "細毛の先端。極めて微小なもの。老子「合抱の木は毫末に生ず」。",
+   "dict_evidence": "weblio デジタル大辞泉；ごう‐まつ〔ガウ‐〕【×毫末】；読み方：ごうまつ（cand_619_毫末.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kinkaichi-1「泰山は毫末を欺くを要せず」"
+  },
+  {
+   "word": "水光",
+   "rank": 620,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=隠語大辞典のみ（銀の隠語・石川県）＝別義。語料「水光」＝水面の光（漢詩語）——sense-mismatch 排除。"
+  },
+  {
+   "word": "水流",
+   "rank": 621,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "すいりゅう",
+   "meaning": "流れる水。みずながれ。",
+   "dict_evidence": "weblio デジタル大辞泉；すい‐りゅう〔‐リウ〕【水流】；読み方：すいりゅう（cand_621_水流.txt）",
+   "corpus_evidence": "golden_8165 3行。例 sonshi09-6「生を視て高きに処り、水流を迎うること無かれ。」"
+  },
+  {
+   "word": "水至",
+   "rank": 622,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「水至るも去らず」＝水＋至る。"
+  },
+  {
+   "word": "江城",
+   "rank": 623,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし、Wikipedia のみ＝保守排除（後日承認なら翻案可）。漢詩語「江城」。"
+  },
+  {
+   "word": "江声",
+   "rank": 624,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし、Wikipedia のみ＝保守排除（後日承認なら翻案可）。漢詩語「江声」。"
+  },
+  {
+   "word": "江月",
+   "rank": 625,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうげつ",
+   "meaning": "江上にかかる月。張若虚「江月年年祗だ相似たり」。",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐げつ〔カウ‐〕【江月】；読み方：こうげつ（cand_625_江月.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen043-10「江月年年祗だ相似たり」"
+  },
+  {
+   "word": "江村",
+   "rank": 626,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうそん",
+   "meaning": "川辺の村。杜甫「江村月落ちて正に眠るに堪えたり」。",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐そん〔カウ‐〕【江村】；読み方：こうそん（cand_626_江村.txt）",
+   "corpus_evidence": "golden_8165 3行。例 tobo04-1「貞姑の馬鬣江村に在り」"
+  },
+  {
+   "word": "江楼",
+   "rank": 627,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢詩語「江楼」——N80 同款 404 排除。"
+  },
+  {
+   "word": "江河",
+   "rank": 628,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうが",
+   "meaning": "長江と黄河。広大な川。淮南子「江河を決して爝火に漑ぐ」。",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐が〔カウ‐〕【江河】；読み方：こうが（cand_628_江河.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou27-4「もて百を撃つ所以なり。奇技は、深水を越え江河を渡る所以なり。強弩長兵は、水を踰えて戦う所以なり。」"
+  },
+  {
+   "word": "江海",
+   "rank": 629,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし、Wikipedia のみ＝保守排除（後日承認なら翻案可）。漢文語「江海」（老子）。"
+  },
+  {
+   "word": "沈沈",
+   "rank": 630,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "ちんちん・しんしん",
+   "meaning": "深く静かなさま。沈み沈むさま。",
+   "dict_evidence": "weblio デジタル大辞泉；ちん‐ちん【沈沈】；読み方：ちんちん（cand_630_沈沈.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen135-2「積翠藹として沈沈たり」"
+  },
+  {
+   "word": "河漢",
+   "rank": 631,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "かかん",
+   "meaning": "天の川。銀河。古诗十九首「皎皎たる河漢の女」。",
+   "dict_evidence": "weblio デジタル大辞泉；か‐かん【河漢】；読み方：かかん（cand_631_河漢.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen134-11「宸章河漢に類し」"
+  },
+  {
+   "word": "海上",
+   "rank": 632,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "かいじょう・うなかみ",
+   "meaning": "海の上。海辺。張九齢「海上の明月潮と共に生ず」。",
+   "dict_evidence": "weblio デジタル大辞泉；うな‐かみ【▽海上】；読み方：うなかみ（cand_632_海上.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen002-1「孤鴻海上より来り」"
+  },
+  {
+   "word": "涼州",
+   "rank": 633,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "りょうしゅう",
+   "meaning": "甘粛省武威。古の涼州。楽府「涼州」の曲名。",
+   "dict_evidence": "weblio デジタル大辞泉；りょうしゅう〔リヤウシウ〕【涼州】；読み方：りょうしゅう（cand_633_涼州.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen443-1「一曲の涼州金石清し」"
+  },
+  {
+   "word": "深林",
+   "rank": 634,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しんりん",
+   "meaning": "深い林。王維「返景深林に入り」。",
+   "dict_evidence": "weblio デジタル大辞泉；しん‐りん【深林】；読み方：しんりん（cand_634_深林.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen245-3「返景深林に入り」"
+  },
+  {
+   "word": "深淵",
+   "rank": 635,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しんえん",
+   "meaning": "深い淵。詩経「戦戦兢兢として、深淵に臨むが如く」。",
+   "dict_evidence": "weblio デジタル大辞泉；しん‐えん【深×淵】；読み方：しんえん（cand_635_深淵.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo0803-1「予が手を啓け。詩に云う、戦戦兢兢として、深淵に臨むが如く、薄冰を履むが如しと。而今よりして後、吾免るるを知るかな、小子。」"
+  },
+  {
+   "word": "深谷",
+   "rank": 636,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しんこく",
+   "meaning": "深い谷。孫子「高山・深谷に卒然として相遇わば」。",
+   "dict_evidence": "weblio デジタル大辞泉；しん‐こく【深谷】；読み方：しんこく（cand_636_深谷.txt）",
+   "corpus_evidence": "golden_8165 3行。例 24shihin03-2「窈窕たる深谷、時に美人を見す。」"
+  },
+  {
+   "word": "淵明",
+   "rank": 637,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。人名「淵明」（陶淵明）——N79/N80 呼称部 先例。"
+  },
+  {
+   "word": "淹留",
+   "rank": 638,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "えんりゅう",
+   "meaning": "長くとどまること。ながらえすること。",
+   "dict_evidence": "weblio デジタル大辞泉；えん‐りゅう〔‐リウ〕【×淹留】；読み方：えんりゅう（cand_638_淹留.txt）",
+   "corpus_evidence": "golden_8165 3行。例 enkako_sohi01-6「君何ぞ淹留して他方に寄る」"
+  },
+  {
+   "word": "清江",
+   "rank": 639,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし、Wikipedia のみ＝保守排除。漢詩語「清江」——後日承認なら翻案可。"
+  },
+  {
+   "word": "清風",
+   "rank": 640,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せいふう",
+   "meaning": "清らかな風。孟浩然「清風我が襟を吹く」系の詩語。",
+   "dict_evidence": "weblio デジタル大辞泉；せい‐ふう【清風】；読み方：せいふう（cand_640_清風.txt）",
+   "corpus_evidence": "golden_8165 3行。例 eikaishi01-4「清風我が襟を吹く」"
+  },
+  {
+   "word": "渭水",
+   "rank": 641,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "いすい",
+   "meaning": "甘粛から陝西を流れる黄河の支流。長安の北を流れる。",
+   "dict_evidence": "weblio デジタル大辞泉；い‐すい〔ヰ‐〕【渭水】；読み方：いすい（cand_641_渭水.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen177-1「渭水は自ずから秦塞を縈って曲り」"
+  },
+  {
+   "word": "満堂",
+   "rank": 642,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "まんどう",
+   "meaning": "堂中。座敷中の人々。「満堂尽く是れ忠義の士」。",
+   "dict_evidence": "weblio デジタル大辞泉；まん‐どう〔‐ダウ〕【満堂】；読み方：まんどう（cand_642_満堂.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen038-7「満堂尽く是れ忠義の士」"
+  },
+  {
+   "word": "滄浪",
+   "rank": 643,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "そうろう",
+   "meaning": "水の青々として深いさま。また水名（滄浪の水、漁父の歌）。",
+   "dict_evidence": "weblio デジタル大辞泉；そう‐ろう〔サウラウ〕【×滄浪／×蒼浪】；読み方：そうろう（cand_643_滄浪.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen137-11「滄浪吾に曲有り」"
+  },
+  {
+   "word": "滄海",
+   "rank": 644,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "そうかい",
+   "meaning": "青々とした広い海。大海。",
+   "dict_evidence": "weblio デジタル大辞泉；そう‐かい〔サウ‐〕【×滄海／×蒼海】；読み方：そうかい（cand_644_滄海.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen136-2「安くんぞ滄海の東を知らん」"
+  },
+  {
+   "word": "漢武",
+   "rank": 645,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "かんぶ",
+   "meaning": "前漢の武帝の略称。李嶠「汾歌漢武の才」。",
+   "dict_evidence": "weblio デジタル大辞泉；かん‐ぶ【漢武】；読み方：かんぶ（cand_645_漢武.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen176-2「還た軽んず漢武の汾に横たうるを楽しみしを」"
+  },
+  {
+   "word": "潺湲",
+   "rank": 646,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "せんかん",
+   "meaning": "水のせんせんと流れるさま。",
+   "dict_evidence": "weblio デジタル大辞泉；せん‐かん〔‐クワン〕【×潺×湲】；読み方：せんかん（cand_646_潺湲.txt）",
+   "corpus_evidence": "golden_8165 3行。例 yukei-1「水は自ずから潺湲日は自ずから斜めなり」"
+  },
+  {
+   "word": "瀟湘",
+   "rank": 647,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "しょうしょう",
+   "meaning": "瀟水と湘水。湖南の地名。漢詩の常用語。",
+   "dict_evidence": "weblio デジタル大辞泉；しょう‐しょう〔セウシヤウ〕【瀟湘】；読み方：しょうしょう（cand_647_瀟湘.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen043-25「碣石瀟湘無限の路」"
+  },
+  {
+   "word": "無情",
+   "rank": 648,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "むじょう",
+   "meaning": "思いやりがないこと。人情味のないこと。韋荘「無情は最も是れ台城の柳」。",
+   "dict_evidence": "weblio デジタル大辞泉；む‐じょう〔‐ジヤウ〕【無情】；読み方：むじょう（cand_648_無情.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kinryo-3「無情は最も是れ台城の柳」"
+  },
+  {
+   "word": "燕人",
+   "rank": 649,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。呼称部「燕人」（燕の人）——N79/N80 呼称部 先例。"
+  }
+ ]
+}

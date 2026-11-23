@@ -1,0 +1,492 @@
+{
+ "start": 750,
+ "note": "N82 batch rank 750-799: 34 in (noun 27/proper 3/verb 3/modifier 1/function 0) / 16 out",
+ "decisions": [
+  {
+   "word": "身修",
+   "rank": 750,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「身修まりて后家斉う」＝身＋修まる（大学）。"
+  },
+  {
+   "word": "軍容",
+   "rank": 751,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ぐんよう",
+   "meaning": "軍隊の威容。「軍容塞を出でて華やかなり」。",
+   "dict_evidence": "weblio デジタル大辞泉；ぐん‐よう【軍容】；読み方：ぐんよう（cand_751_軍容.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen128-6「軍容塞を出でて華やかなり」"
+  },
+  {
+   "word": "軍必",
+   "rank": 752,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「軍必ず病む」＝軍＋必ず（孫子）。"
+  },
+  {
+   "word": "軍門",
+   "rank": 753,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ぐんもん",
+   "meaning": "軍営の門。周勃「軍門に入り」の典。",
+   "dict_evidence": "weblio デジタル大辞泉；ぐん‐もん【軍門】；読み方：ぐんもん（cand_753_軍門.txt）",
+   "corpus_evidence": "golden_8165 3行。例 satan-1「太尉、之に将とし、軍門に入り、行くゆく軍中に令して曰く、呂氏の為にするものは右袒せよ。劉氏の為にするものは左袒せよ、と。」"
+  },
+  {
+   "word": "転関",
+   "rank": 754,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。六韜の攻城具「転関」——専門語 weblio 不載。"
+  },
+  {
+   "word": "農桑",
+   "rank": 755,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "のうそう",
+   "meaning": "農業と養蚕。農事。「力を農桑に尽くす者は、之を慰勉し」。",
+   "dict_evidence": "weblio デジタル大辞泉；のう‐そう〔‐サウ〕【農桑】；読み方：のうそう（cand_755_農桑.txt）",
+   "corpus_evidence": "golden_8165 3行。例 nowakuni-2「、堅きを棄て偽りに就き、伎巧の利を求め、農桑の基を廃てざるは莫し。」"
+  },
+  {
+   "word": "辺声",
+   "rank": 756,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢詩語「辺声」（辺境の音）——N80 同款 404 排除。"
+  },
+  {
+   "word": "迂直",
+   "rank": 757,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。孫子軍争篇の語「迂直の計」——専門語 weblio 不載。"
+  },
+  {
+   "word": "迷惑",
+   "rank": 758,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "めいわく",
+   "meaning": "途に迷うこと。まようこと（古義）。管仲「迷惑して道を失う」。",
+   "dict_evidence": "weblio デジタル大辞泉；めい‐わく【迷惑】；読み方：めいわく（cand_758_迷惑.txt）",
+   "corpus_evidence": "golden_8165 3行。例 robanochi-1「桓公に従いて孤竹を伐つ。春往きて冬反る。迷惑して道を失う。管仲曰く、老馬の智用う可きなり、と。乃ち老馬を放ちて之に随い、」"
+  },
+  {
+   "word": "通索",
+   "rank": 759,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。六韜の具「通索」——専門語 weblio 不載。"
+  },
+  {
+   "word": "通達",
+   "rank": 760,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "つうたつ",
+   "meaning": "事理に通じて妨げのないこと。柳宗元「子厚少にして精敏、通達せざる無し」。",
+   "dict_evidence": "weblio デジタル大辞泉；つう‐たつ【通達】；読み方：つうたつ（cand_760_通達.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kagyu-3「く、心を無窮に遊ばしむるを知りて、反りて通達の国に在るは、存するが若く亡きが若きか、と。」"
+  },
+  {
+   "word": "進止",
+   "rank": 761,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しんし",
+   "meaning": "進むことと止まること。行動。李衛公問対「衆を用うるには進止し」。",
+   "dict_evidence": "weblio デジタル大辞泉；しん‐し【進止】；読み方：しんし（cand_761_進止.txt）",
+   "corpus_evidence": "golden_8165 3行。例 shiba05-1「に利あり、衆は正に利あり。衆を用うるには進止し、寡を用うるには進退す。」"
+  },
+  {
+   "word": "道徳",
+   "rank": 762,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "どうとく",
+   "meaning": "道と徳。人の行いの規範。三略「下略は道徳を陳べ」。",
+   "dict_evidence": "weblio 実用日本語表現辞典「道徳」読み方：どうとく；語料「道徳今王に付す」＝道と徳の教え義（六韜三略）と一致（cand_762_道徳.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen147-12「道徳今王に付す」"
+  },
+  {
+   "word": "道路",
+   "rank": 763,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "どうろ",
+   "meaning": "みち。道路。韋応物「道路阻にして且つ長し」。",
+   "dict_evidence": "weblio デジタル大辞泉；どう‐ろ〔ダウ‐〕【道路】；読み方：どうろ（cand_763_道路.txt）",
+   "corpus_evidence": "golden_8165 3行。例 koshi19_01-3「道路阻にして且つ長し、会面安くんぞ知る可けんや」"
+  },
+  {
+   "word": "遥遥",
+   "rank": 764,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "はるばる・はろばろ",
+   "meaning": "遠く隔たったさま。はるかに。",
+   "dict_evidence": "weblio デジタル大辞泉；はる‐ばる【×遥×遥】；読み方：はるばる（cand_764_遥遥.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kikyorainoji-9「舟は遥遥として以て軽く颺り」"
+  },
+  {
+   "word": "部伍",
+   "rank": 765,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢文語「部伍」（軍の隊伍）——専門語 weblio 不載。"
+  },
+  {
+   "word": "郷党",
+   "rank": 766,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きょうとう",
+   "meaning": "郷里。自分の住む郷。論語「孔子、郷党に於いては恂恂如たり」。",
+   "dict_evidence": "weblio デジタル大辞泉；きょう‐とう〔キヤウタウ〕【郷党】；読み方：きょうとう（cand_766_郷党.txt）",
+   "corpus_evidence": "golden_8165 3行。例 iukotoata-1「孔子、郷党に於いては、恂恂如たり。言うこと能わざる者に似たり。其の宗廟・朝廷に在るや、便便として言う。唯だ謹めるのみ。」"
+  },
+  {
+   "word": "郷原",
+   "rank": 767,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きょうげん",
+   "meaning": "世間に栄えるため外面だけ徳のあるように振る舞う人。論語「郷原は徳の賊なり」。",
+   "dict_evidence": "weblio デジタル大辞泉；きょう‐げん〔キヤウ‐〕【郷原／郷×愿】；読み方：きょうげん（cand_767_郷原.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kyogenzoku-1「子曰く、郷原は徳の賊なり。」"
+  },
+  {
+   "word": "鄴城",
+   "rank": 768,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。地名「鄴城」——N80 同款 404 排除。"
+  },
+  {
+   "word": "酒家",
+   "rank": 769,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しゅか",
+   "meaning": "酒を売る店。酒楼。杜牧「借問す酒家は何れの処にか有る」。",
+   "dict_evidence": "weblio デジタル大辞泉；しゅ‐か【酒家】；読み方：しゅか（cand_769_酒家.txt）",
+   "corpus_evidence": "golden_8165 3行。例 seimei-3「借問す酒家は何れの処にか有る」"
+  },
+  {
+   "word": "金尊",
+   "rank": 770,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢詩語「金尊」（金の杯）——N80 同款 404 排除。"
+  },
+  {
+   "word": "金闕",
+   "rank": 771,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きんけつ",
+   "meaning": "天子の宮殿。李白「金闕の暁鐘万戸を開き」。",
+   "dict_evidence": "weblio デジタル大辞泉；きん‐けつ【金闕】；読み方：きんけつ（cand_771_金闕.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen196-3「金闕の暁鐘万戸を開き」"
+  },
+  {
+   "word": "鐘鼓",
+   "rank": 772,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しょうこ",
+   "meaning": "鐘と太鼓。礼楽の器。論語「楽と云う、鐘鼓を云わんや」。",
+   "dict_evidence": "weblio デジタル大辞泉；しょう‐こ【鐘鼓】；読み方：しょうこ（cand_772_鐘鼓.txt）",
+   "corpus_evidence": "golden_8165 3行。例 gakutoii-1「子曰く、礼と云い礼と云う、玉帛を云わんや。楽と云い楽と云う、鐘鼓を云わんや。」"
+  },
+  {
+   "word": "長久",
+   "rank": 773,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ちょうきゅう",
+   "meaning": "長く続くこと。孫子「兵を用うること長久なり」。",
+   "dict_evidence": "weblio デジタル大辞泉；ちょう‐きゅう〔チヤウキウ〕【長久】；読み方：ちょうきゅう（cand_773_長久.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou29-7「て高くして止まる所無きは、兵を用うること長久なり。」"
+  },
+  {
+   "word": "長松",
+   "rank": 774,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ちょうまつ",
+   "meaning": "高く長く伸びた松。",
+   "dict_evidence": "weblio デジタル大辞泉；ちょうまつ〔チヤウまつ〕【長松】；読み方：ちょうまつ（cand_774_長松.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen074-6「長松梵声を響かす」"
+  },
+  {
+   "word": "長生",
+   "rank": 775,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ちょうせい",
+   "meaning": "長く生きること。不死。老子「能く長生す」。",
+   "dict_evidence": "weblio デジタル大辞泉；ちょう‐せい〔チヤウ‐〕【長生】；読み方：ちょうせい（cand_775_長生.txt）",
+   "corpus_evidence": "golden_8165 3行。例 tenwana-1「天は長く地は久し。天地の能く長く且つ久しき所以は、其の自ら生きざるを以てなり。故に能く長生す。」"
+  },
+  {
+   "word": "長駆",
+   "rank": 776,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "ちょうく",
+   "meaning": "遠くまっすぐに駆け進むこと。六韜「敵人深く入りて長駆し」。",
+   "dict_evidence": "weblio デジタル大辞泉；ちょう‐く〔チヤウ‐〕【長駆】；読み方：ちょうく（cand_776_長駆.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou44-1「武王、太公に問うて曰く、敵人深く入りて長駆し、我が地を侵掠し、我が牛馬を駆り、其の三軍大いに至り、我が城下に薄り、吾が士」"
+  },
+  {
+   "word": "門前",
+   "rank": 777,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "もんぜん・かどさき",
+   "meaning": "門の前。「廷尉の門前雀棲まんと欲す」。",
+   "dict_evidence": "weblio デジタル大辞泉；かど‐さき【門先／門▽前】；読み方：かどさき（cand_777_門前.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen375-4「直ちに到る門前渓水の流れ」"
+  },
+  {
+   "word": "門外",
+   "rank": 778,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "もんがい",
+   "meaning": "門の外。「門外の野風白蓮開く」。",
+   "dict_evidence": "weblio デジタル大辞泉；もん‐がい〔‐グワイ〕【門外】；読み方：もんがい（cand_778_門外.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rokinshi-4「門外の野風白蓮開く」"
+  },
+  {
+   "word": "開塞",
+   "rank": 779,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。商君書の語「開塞」——専門語 weblio 不載。"
+  },
+  {
+   "word": "関雎",
+   "rank": 780,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "かんしょ",
+   "meaning": "詩経周南の第一篇。論語「関雎は楽しみて淫せず」。",
+   "dict_evidence": "weblio デジタル大辞泉；かん‐しょ〔クワン‐〕【関×雎】；読み方：かんしょ（cand_780_関雎.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kanashimi-1「子曰く、関雎は楽しみて淫せず、哀しみて傷らず。」"
+  },
+  {
+   "word": "閨中",
+   "rank": 781,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "けいちゅう",
+   "meaning": "女子の居室。転じて妻。王昌齢「閨中の少婦愁いを知らず」。",
+   "dict_evidence": "weblio デジタル大辞泉；けい‐ちゅう【×閨中】；読み方：けいちゅう（cand_781_閨中.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen332-1「閨中の少婦愁いを知らず」"
+  },
+  {
+   "word": "閶闔",
+   "rank": 782,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。天門「閶闔」——専門語 weblio 不載。"
+  },
+  {
+   "word": "闌干",
+   "rank": 783,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "らんかん",
+   "meaning": "手すり。欄干。李白「沈香亭北闌干に倚る」。",
+   "dict_evidence": "weblio デジタル大辞泉；らん‐かん【欄干／×闌干／欄×杆】；読み方：らんかん（cand_783_闌干.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen312-4「沈香亭北闌干に倚る」"
+  },
+  {
+   "word": "険戦",
+   "rank": 784,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。六韜の車戦法「険戦」——専門語 weblio 不載。"
+  },
+  {
+   "word": "陽関",
+   "rank": 785,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "ようかん",
+   "meaning": "漢の関名。敦煌の西南。王維「西のかた陽関を出づれば故人無からん」。",
+   "dict_evidence": "weblio デジタル大辞泉；よう‐かん〔ヤウクワン〕【陽関】；読み方：ようかん（cand_785_陽関.txt）",
+   "corpus_evidence": "golden_8165 3行。例 genji-4「西のかた陽関を出づれば故人無からん」"
+  },
+  {
+   "word": "隴山",
+   "rank": 786,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "ろうざん",
+   "meaning": "陝西甘粛の境の山。「隴山の鸚鵡能く言語す」。",
+   "dict_evidence": "weblio デジタル大辞泉；ろう‐ざん【隴山】；読み方：ろうざん（cand_786_隴山.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen035-10「秦山遥かに望む隴山の雲」"
+  },
+  {
+   "word": "離宮",
+   "rank": 787,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "りきゅう",
+   "meaning": "正宮のほかに設けた行在所。「漢主の離宮露台に接し」。",
+   "dict_evidence": "weblio デジタル大辞泉；り‐きゅう【離宮】；読み方：りきゅう（cand_787_離宮.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen175-1「漢主の離宮露台に接し」"
+  },
+  {
+   "word": "雨中",
+   "rank": 788,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "うちゅう",
+   "meaning": "雨の中。杜甫「雨中の春樹万人の家」。",
+   "dict_evidence": "weblio デジタル大辞泉；う‐ちゅう【雨中】；読み方：うちゅう（cand_788_雨中.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen177-6「雨中の春樹万人の家」"
+  },
+  {
+   "word": "雲梯",
+   "rank": 789,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "うんてい",
+   "meaning": "攻城用の高梯子。墨子「公輸盤、楚の為に雲梯の械を造りて成り」。",
+   "dict_evidence": "weblio デジタル大辞泉；うん‐てい【雲×梯】；読み方：うんてい（cand_789_雲梯.txt）",
+   "corpus_evidence": "golden_8165 3行。例 p-bokushu-1「公輸盤、楚の為に雲梯の械を造りて成り、将に以て宋を攻めんとす。子墨子之を聞き、斉を起ち、行くこと十日十夜にして郢に至り、」"
+  },
+  {
+   "word": "雲漢",
+   "rank": 790,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "うんかん",
+   "meaning": "銀河。天の川。詩経「雲漢」の語。",
+   "dict_evidence": "weblio デジタル大辞泉；うん‐かん【雲漢】；読み方：うんかん（cand_790_雲漢.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen156-2「別業初めて開く雲漢の辺」"
+  },
+  {
+   "word": "雲間",
+   "rank": 791,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "くもま・くもあい",
+   "meaning": "雲と雲の間。雲の彼方。",
+   "dict_evidence": "weblio デジタル大辞泉；くも‐あい〔‐あひ〕【雲合（い）／雲▽間】；読み方：くもあい（cand_791_雲間.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen165-5「雲間の東嶺千尋に出で」"
+  },
+  {
+   "word": "青松",
+   "rank": 792,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せいしょう",
+   "meaning": "青々とした松。王維「日色青松に冷やかなり」。",
+   "dict_evidence": "weblio デジタル大辞泉；せい‐しょう【青松】；読み方：せいしょう（cand_792_青松.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen073-6「日色青松に冷やかなり」"
+  },
+  {
+   "word": "顚沛",
+   "rank": 793,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "てんぱい",
+   "meaning": "つまずき倒れること。困窮。論語「顚沛にも必ず是に於いてす」。",
+   "dict_evidence": "weblio デジタル大辞泉；てん‐ぱい【×顛×沛】；読み方：てんぱい（cand_793_顚沛.txt）",
+   "corpus_evidence": "golden_8165 3行。例 inkan-2「人亦た言う有り顚沛の掲たる」"
+  },
+  {
+   "word": "風雲",
+   "rank": 794,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ふううん・かざぐも",
+   "meaning": "風と雲。転じて時勢。「塞上の風雲地に接して陰る」。",
+   "dict_evidence": "weblio デジタル大辞泉；かざ‐ぐも【風雲】；読み方：かざぐも（cand_794_風雲.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen141-7「風雲絶足に随い」"
+  },
+  {
+   "word": "飄風",
+   "rank": 795,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ひょうふう",
+   "meaning": "つむじ風。老子「飄風は朝を終えず、驟雨は日を終えず」。",
+   "dict_evidence": "weblio デジタル大辞泉；ひょう‐ふう〔ヘウ‐〕【×飄風／×飆風】；読み方：ひょうふう（cand_795_飄風.txt）",
+   "corpus_evidence": "golden_8165 3行。例 hyohu-1「希言は自然なり。飄風は朝を終えず、驟雨は日を終えず。孰か此を為す者ぞ。天地なり。天地すら尚お久しきこと能わず、而るを況ん」"
+  },
+  {
+   "word": "飄飄",
+   "rank": 796,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=実用日本語表現辞典「飄々」のみ（気楽で達者なさま＝現代義）。語料「風は飄飄として衣を吹く」＝風のひるがえるさま——sense-mismatch 排除。"
+  },
+  {
+   "word": "飛将",
+   "rank": 797,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし、Wikipedia のみ＝保守排除。王昌齢の詩語「飛将」（飛将軍李広）——後日承認なら翻案可。"
+  },
+  {
+   "word": "飛江",
+   "rank": 798,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。六韜の渡河具「飛江」——専門語 weblio 不載。"
+  },
+  {
+   "word": "首至",
+   "rank": 799,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「首至り」＝首＋至る。"
+  }
+ ]
+}

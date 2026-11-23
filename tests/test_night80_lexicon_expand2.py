@@ -26,8 +26,9 @@ from backend.glossary_lexicon_extra2 import (  # noqa: E402
 N_BASE = 500
 N_N79 = 324
 N_N80 = 261
-N_EXTRA = N_N79 + N_N80  # 585
-N_TOTAL = N_BASE + N_EXTRA  # 1085
+N_N82 = 216  # 必要伴随: 词库 1085->1301（N82 追加 216）
+N_EXTRA = N_N79 + N_N80 + N_N82  # 801
+N_TOTAL = N_BASE + N_EXTRA  # 1301
 
 _EXTRA2_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                             "backend", "glossary_lexicon_extra2.py")
@@ -42,8 +43,8 @@ def test_base_lexicon_unchanged_500():
 
 
 def test_extra2_size_and_total():
-    assert len(LEXICON_EXTRA2) == N_EXTRA == 585
-    assert N_TOTAL == 1085
+    assert len(LEXICON_EXTRA2) == N_EXTRA == 801
+    assert N_TOTAL == 1301
 
 
 def test_source_string_mentions_both_waves():

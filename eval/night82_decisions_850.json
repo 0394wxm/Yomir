@@ -1,0 +1,372 @@
+{
+ "start": 850,
+ "note": "N82 batch rank 850-899: 4 in (noun 1/proper 3/verb 0/modifier 0/function 0) / 46 out",
+ "decisions": [
+  {
+   "word": "天下能",
+   "rank": 850,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「天下能く之と争う莫し」＝天下＋能く。"
+  },
+  {
+   "word": "孔子之",
+   "rank": 851,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「孔子之に坐を与えて」＝孔子＋之。"
+  },
+  {
+   "word": "孔子其",
+   "rank": 852,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「孔子其の兄の子を以て」＝孔子＋其の。"
+  },
+  {
+   "word": "孟子懼",
+   "rank": 853,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「孟子懼れて」＝孟子＋懼る。"
+  },
+  {
+   "word": "広武君",
+   "rank": 854,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。呼称部「広武君」（李左車の呼称）——N79/N80 呼称部 先例。"
+  },
+  {
+   "word": "所謂其",
+   "rank": 855,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「所謂其の意を誠にす」＝所謂＋其の。"
+  },
+  {
+   "word": "抑〻亦",
+   "rank": 856,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「抑〻亦た先ず覚る者は」＝抑＋亦（重畳記号）——辞書不載。"
+  },
+  {
+   "word": "敵人必",
+   "rank": 857,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「敵人必ず走らん」＝敵人＋必ず（X+ari 系変種）。"
+  },
+  {
+   "word": "李将軍",
+   "rank": 858,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし、Wikipedia のみ＝保守排除。史記の呼称 李将軍（李広）——後日承認なら翻案可。"
+  },
+  {
+   "word": "樊遅仁",
+   "rank": 859,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「樊遅仁を問う」＝樊遅＋仁。"
+  },
+  {
+   "word": "漁父曰",
+   "rank": 860,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「漁父曰く」＝X-yune 系（N79 実証済み）。"
+  },
+  {
+   "word": "臧文仲",
+   "rank": 861,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。呼称部「臧文仲」（魯の大夫）——N79/N80 呼称部 先例。"
+  },
+  {
+   "word": "良弓蔵",
+   "rank": 862,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「良弓蔵され」（蜚鳥尽きて良弓蔵さる）——N80 白文成句 先例。"
+  },
+  {
+   "word": "藺相如",
+   "rank": 863,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "りんしょうじょ",
+   "meaning": "戦国趙の名臣。完璧帰還・負荊請罪の故事の主。",
+   "dict_evidence": "weblio デジタル大辞泉；りん‐しょうじょ〔‐シヤウジヨ〕【藺相如】；読み方：りんしょうじょ（cand_863_藺相如.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kanpeki4k-1「是に於いて、王、召見し、藺相如に問いて曰く、秦王、十五城を以て寡人の璧に易えんことを請う。予う可きや不や、と。相如曰く、」"
+  },
+  {
+   "word": "蘧伯玉",
+   "rank": 864,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。呼称部「蘧伯玉」（衛の大夫）——N79/N80 呼称部 先例。"
+  },
+  {
+   "word": "諸葛亮",
+   "rank": 865,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "しょかつりょう",
+   "meaning": "三国蜀の丞相。字孔明。八陣図の作者。",
+   "dict_evidence": "weblio デジタル大辞泉；しょかつ‐りょう〔‐リヤウ〕【諸葛亮】；読み方：しょかつりょう（cand_865_諸葛亮.txt）",
+   "corpus_evidence": "golden_8165 3行。例 montai01-8「靖曰く、諸葛亮、七たび孟獲を擒にせり。他の道無し。正兵のみ。」"
+  },
+  {
+   "word": "閔子騫",
+   "rank": 866,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "びんしけん",
+   "meaning": "孔子の弟子。徳行科の一。閔損。",
+   "dict_evidence": "weblio デジタル大辞泉；びん‐しけん【閔子騫】；読み方：びんしけん（cand_866_閔子騫.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo0607-1「季氏、閔子騫をして費の宰たらしめんとす。閔子騫曰く、善く我が為に辞せよ。如し我を復びする者有らば、則ち吾は必ず汶の上に在」"
+  },
+  {
+   "word": "靖再拝",
+   "rank": 867,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「靖再拝して曰く」＝靖＋再拝。"
+  },
+  {
+   "word": "首尾倶",
+   "rank": 868,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「首尾倶に至る」＝首尾＋倶に。"
+  },
+  {
+   "word": "鬱金香",
+   "rank": 869,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "うこんこう・うっこんこう",
+   "meaning": "鬱金（うこん）の香り。転じて鬱金草。",
+   "dict_evidence": "weblio デジタル大辞泉；うこん‐こう〔‐カウ〕【▽鬱金香】；読み方：うこんこう（cand_869_鬱金香.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen016-21「羅幃翠被鬱金香」"
+  },
+  {
+   "word": "不學禮",
+   "rank": 870,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「不學禮、無以立」——N80 白文成句 先例。"
+  },
+  {
+   "word": "不學詩",
+   "rank": 871,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「不學詩、無以言」——N80 白文成句 先例。"
+  },
+  {
+   "word": "主忠信",
+   "rank": 872,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「主忠信」——N80 白文成句 先例。"
+  },
+  {
+   "word": "則民服",
+   "rank": 873,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「則民服」——N80 白文成句 先例。"
+  },
+  {
+   "word": "嘗獨立",
+   "rank": 874,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「嘗獨立」——N80 白文成句 先例。"
+  },
+  {
+   "word": "夫如是",
+   "rank": 875,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「夫如是」——N80 白文成句 先例。"
+  },
+  {
+   "word": "學禮乎",
+   "rank": 876,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「學禮乎」——N80 白文成句 先例。"
+  },
+  {
+   "word": "學詩乎",
+   "rank": 877,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「學詩乎」——N80 白文成句 先例。"
+  },
+  {
+   "word": "屈原曰",
+   "rank": 878,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「屈原曰く」＝X-yune 系（N79 実証済み）。"
+  },
+  {
+   "word": "已矣乎",
+   "rank": 879,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「已矣乎」——N80 白文成句 先例。"
+  },
+  {
+   "word": "師事之",
+   "rank": 880,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「師事之」——N80 白文成句 先例。"
+  },
+  {
+   "word": "廢中權",
+   "rank": 881,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「廢中權」——N80 白文成句 先例。"
+  },
+  {
+   "word": "無以立",
+   "rank": 882,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「無以立」——N80 白文成句 先例。"
+  },
+  {
+   "word": "無以言",
+   "rank": 883,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「無以言」——N80 白文成句 先例。"
+  },
+  {
+   "word": "爲君難",
+   "rank": 884,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「爲君難、爲臣不易」——N80 白文成句 先例。"
+  },
+  {
+   "word": "良弓藏",
+   "rank": 885,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「良弓藏」（蜚鳥尽きて良弓蔵さる）——N80 白文成句 先例。"
+  },
+  {
+   "word": "謂虞仲",
+   "rank": 886,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「謂虞仲、夷逸」——N80 白文成句 先例。"
+  },
+  {
+   "word": "身中清",
+   "rank": 887,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「身中清」——N80 白文成句 先例。"
+  },
+  {
+   "word": "邦有道",
+   "rank": 888,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「邦有道」——N80 白文成句 先例。"
+  },
+  {
+   "word": "邦無道",
+   "rank": 889,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「邦無道」——N80 白文成句 先例。"
+  },
+  {
+   "word": "重八斤",
+   "rank": 890,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「重八斤」＝数え構文——N79/N80 数え構文 先例。"
+  },
+  {
+   "word": "雖無道",
+   "rank": 891,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「雖無道」——N80 白文成句 先例。"
+  },
+  {
+   "word": "一貴一賤",
+   "rank": 892,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「一貴一賤、交情乃ち見る」——N80 白文成句 先例。"
+  },
+  {
+   "word": "三軍恐懼",
+   "rank": 893,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「吾が三軍恐懼し」＝三軍＋恐懼。"
+  },
+  {
+   "word": "他日又独",
+   "rank": 894,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「他日又独り立てり」＝他日＋又。"
+  },
+  {
+   "word": "勁弩強矢",
+   "rank": 895,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「勁弩強矢」——N80 白文成句 先例。"
+  },
+  {
+   "word": "司馬穣苴",
+   "rank": 896,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし、Wikipedia のみ＝保守排除。人名 司馬穣苴（史記司馬穣苴列伝）——後日承認なら翻案可。"
+  },
+  {
+   "word": "吏卒常無",
+   "rank": 897,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「吏卒常無く」＝吏卒＋常なし（X+nasi 系）。"
+  },
+  {
+   "word": "士卒迷惑",
+   "rank": 898,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「士卒迷惑する」＝士卒＋迷惑。"
+  },
+  {
+   "word": "天下和服",
+   "rank": 899,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「天下和服せん」＝天下＋和服。"
+  }
+ ]
+}

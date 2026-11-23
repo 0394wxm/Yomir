@@ -1,0 +1,9588 @@
+{
+ "generated": "2026-11-23T15:29",
+ "source": "eval/golden_8165.json (8165 lines)",
+ "method": "N82 wave3: same kanji-run (2-8 chars) doc-frequency 3-4 zone; baseline 824 reconstructed (current 1085 minus 261 N80-included); zone recomputed == 966 and rank0-499 identical to night80 candidates (determinism check); this file = rank 500-965 (466), absolute rank kept",
+ "stats": {
+  "distinct_runs_all": 34999,
+  "zone_3_4_nonexisting": 966,
+  "n80_rank0_499_verified_identical": true,
+  "candidates_this_night": 466,
+  "pre_exclude_flagged": 21,
+  "freq4_in_remaining": 0,
+  "kkd_attested_in_remaining": 360,
+  "len3plus_in_remaining": 130,
+  "elapsed_sec": 0.5
+ },
+ "candidates": [
+  {
+   "word": "寒暑",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 500,
+   "samples": [
+    {
+     "id": "rikutou23-4",
+     "field": "kakikudashi",
+     "snippet": "将、士卒と寒暑、労苦、飢飽を共にす。故に三軍の衆、鼓声を聞けば則ち喜び、金声を聞けば則ち怒り、高城深池、矢石繁く下るも、"
+    },
+    {
+     "id": "sonshi01-6",
+     "field": "kakikudashi",
+     "snippet": "天とは、陰陽・寒暑・時制なり。"
+    }
+   ]
+  },
+  {
+   "word": "寒空",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 501,
+   "samples": [
+    {
+     "id": "toushisen129-6",
+     "field": "kakikudashi",
+     "snippet": "寒空削成に映ず"
+    },
+    {
+     "id": "toushisen029-15",
+     "field": "kakikudashi",
+     "snippet": "迥かに寒空に煙雪を動かすが若し"
+    },
+    {
+     "id": "toushisen188-4",
+     "field": "kakikudashi",
+     "snippet": "蕭条として已に寒空に入りて静まり"
+    }
+   ]
+  },
+  {
+   "word": "寒雨",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 502,
+   "samples": [
+    {
+     "id": "toushisen338-1",
+     "field": "kakikudashi",
+     "snippet": "寒雨江に連なって夜呉に入る"
+    },
+    {
+     "id": "toushisen223-4",
+     "field": "kakikudashi",
+     "snippet": "更に寒雨の觴を飛ばさんと勧むるを聞く"
+    },
+    {
+     "id": "toushisen395-4",
+     "field": "kakikudashi",
+     "snippet": "一郡の荊榛寒雨の中"
+    }
+   ]
+  },
+  {
+   "word": "封侯",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 503,
+   "samples": [
+    {
+     "id": "isshoko-3",
+     "field": "kakikudashi",
+     "snippet": "君に憑って話ること莫かれ封侯の事"
+    },
+    {
+     "id": "toushisen332-4",
+     "field": "kakikudashi",
+     "snippet": "悔ゆらくは夫壻をして封侯を覓めしめしを"
+    },
+    {
+     "id": "toushisen376-2",
+     "field": "kakikudashi",
+     "snippet": "西のかた邏逤を看て封侯を取らん"
+    }
+   ]
+  },
+  {
+   "word": "将帥",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 504,
+   "samples": [
+    {
+     "id": "rikutou37-1",
+     "field": "kakikudashi",
+     "snippet": "未だ敢えて先ず挙げざるに、吾、敵人をして将帥は恐懼し、士卒は心傷み、行陣は固からず、後陣は走らんと欲し、前陣は数〻顧み、"
+    },
+    {
+     "id": "rikutou30-3",
+     "field": "kakikudashi",
+     "snippet": "符信なり。里に吏有り、官に長有るは、其の将帥なり。里に周垣有り、相過ぐるを得ざるは、其の隊分なり。粟を輸し芻を取るは、其"
+    },
+    {
+     "id": "rikutou37-2",
+     "field": "kakikudashi",
+     "snippet": "先ず其の備えを施さば、我が士卒は心傷み、将帥は恐懼し、戦わば則ち勝たざらん。之を為すこと奈何。"
+    }
+   ]
+  },
+  {
+   "word": "将必",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 505,
+   "samples": [
+    {
+     "id": "rikutou36-4",
+     "field": "kakikudashi",
+     "snippet": "を去ること百歩に過ぐる無からしめよ。其の将必ず労し、其の卒必ず駭かん。"
+    },
+    {
+     "id": "rikutou45-2",
+     "field": "kakikudashi",
+     "snippet": "いは其の裏を撃たば、其の卒必ず乱れ、其の将必ず駭かん。"
+    },
+    {
+     "id": "utsuryo04-13",
+     "field": "kakikudashi",
+     "snippet": "夫れ勤労の師は、将必ず己を先にす。暑さにも蓋を張らず、寒さにも衣を重ねず、険には必ず下りて歩き、軍井成りて後に飲み、軍食"
+    }
+   ]
+  },
+  {
+   "word": "尋常",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 506,
+   "samples": [
+    {
+     "id": "rakutensho-3",
+     "field": "kakikudashi",
+     "snippet": "尋常は省曾て此の如くならざりき"
+    },
+    {
+     "id": "konannite-1",
+     "field": "kakikudashi",
+     "snippet": "岐王の宅裏尋常に見"
+    },
+    {
+     "id": "sanchukoi-2",
+     "field": "kakikudashi",
+     "snippet": "吟嘯是れ尋常"
+    }
+   ]
+  },
+  {
+   "word": "小国",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 507,
+   "samples": [
+    {
+     "id": "ayaukikotoru-2",
+     "field": "kakikudashi",
+     "snippet": "故に曹は小国にして、晋・楚の間に迫る、其の君の危うきこと猶お累卵のごときなり。"
+    },
+    {
+     "id": "roushi61-2",
+     "field": "kakikudashi",
+     "snippet": "故に大国以て小国に下れば、則ち小国を取る。小国以て大国に下れば、則ち大国に取らる。故に或いは下りて以て取り、或いは下りて"
+    },
+    {
+     "id": "roushi61-3",
+     "field": "kakikudashi",
+     "snippet": "大国は人を兼ね畜わんと欲するに過ぎず、小国は入りて人に事えんと欲するに過ぎず。夫れ両者は各〻其の欲する所を得んとせば、大"
+    }
+   ]
+  },
+  {
+   "word": "小子",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 508,
+   "samples": [
+    {
+     "id": "kaeranka-1",
+     "field": "kakikudashi",
+     "snippet": "子、陳に在りて曰く、帰らんか、帰らんか。吾が党の小子、狂簡にして、斐然として章を成す。之を裁する所以を知らず。"
+    },
+    {
+     "id": "rongo0803-1",
+     "field": "kakikudashi",
+     "snippet": "と。而今よりして後、吾免るるを知るかな、小子。"
+    }
+   ]
+  },
+  {
+   "word": "小過",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 509,
+   "samples": [
+    {
+     "id": "rongo1302-1",
+     "field": "kakikudashi",
+     "snippet": "と為り、政を問う。子曰く、有司を先にし、小過を赦し、賢才を挙げよ。曰く、焉くんぞ賢才を知りて之を挙げん。曰く、爾の知る所"
+    },
+    {
+     "id": "mizukiyo-2",
+     "field": "kakikudashi",
+     "snippet": "明にして見ざる所有り。聡にして聞かざる所有り。大徳を挙げ、小過を赦し、備わらんことを一人に求むる無きの義なり。"
+    },
+    {
+     "id": "utsuryo04-4",
+     "field": "kakikudashi",
+     "snippet": "故に之に令するの法は、小過も更むること無く、小疑は中すること無かれ。"
+    }
+   ]
+  },
+  {
+   "word": "少婦",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 510,
+   "samples": [
+    {
+     "id": "toushisen332-1",
+     "field": "kakikudashi",
+     "snippet": "閨中の少婦愁いを知らず"
+    },
+    {
+     "id": "toushisen154-1",
+     "field": "kakikudashi",
+     "snippet": "盧家の少婦鬱金堂"
+    },
+    {
+     "id": "toushisen065-8",
+     "field": "kakikudashi",
+     "snippet": "少婦長嗟すること莫かれ"
+    }
+   ]
+  },
+  {
+   "word": "少小",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 511,
+   "samples": [
+    {
+     "id": "keisetsu-1",
+     "field": "kakikudashi",
+     "snippet": "孫氏世録に曰く、康、家貧にして油無し。常に雪に映して書を読む。少小より清介にして、交遊雑ならず。後に御史大夫に至る。"
+    },
+    {
+     "id": "kyonikaeri-1",
+     "field": "kakikudashi",
+     "snippet": "少小にして郷を離れ老大にして回る"
+    },
+    {
+     "id": "toushisen190-7",
+     "field": "kakikudashi",
+     "snippet": "少小より投筆の吏に非ずと雖も"
+    }
+   ]
+  },
+  {
+   "word": "尚書",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 512,
+   "samples": [
+    {
+     "id": "uyu-1",
+     "field": "kakikudashi",
+     "snippet": "為らん。賦成らば之を奏せん、と。上許し、尚書をして筆札を給せしむ。"
+    },
+    {
+     "id": "p-gori-2",
+     "field": "kakikudashi",
+     "snippet": "繋がる。積むこと二年、恒に経籍を諷誦し、尚書の注を作る。後、事の験無きを以て、原されて家に還る。"
+    },
+    {
+     "id": "shiki001san-1",
+     "field": "kakikudashi",
+     "snippet": "太史公曰く、学者多く五帝を称すること尚し。然るに尚書は独り堯以来を載するのみ。"
+    }
+   ]
+  },
+  {
+   "word": "尾生",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 513,
+   "samples": [
+    {
+     "id": "p-bisei-1",
+     "field": "kakikudashi",
+     "snippet": "信なること尾生の如きは、女子と梁下に期し、女子来らず、水至るも去らず、柱を抱きて死す。"
+    },
+    {
+     "id": "p-bisei-2",
+     "field": "kakikudashi",
+     "snippet": "尾生、女子と梁下に期し、女子来らず。水至れども去らず、梁柱を抱きて死す。"
+    }
+   ]
+  },
+  {
+   "word": "尾至",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 514,
+   "samples": [
+    {
+     "id": "p-goetsu-3",
+     "field": "kakikudashi",
+     "snippet": "其の首を撃たば則ち尾至り、其の尾を撃たば則ち首至り、其の中を撃たば則ち首尾倶に至る。"
+    },
+    {
+     "id": "jozan-3",
+     "field": "kakikudashi",
+     "snippet": "其の首を撃てば則ち尾至り、其の尾を撃てば則ち首至り、其の中を撃てば則ち首尾倶に至る。"
+    },
+    {
+     "id": "sonshi11-30",
+     "field": "kakikudashi",
+     "snippet": "其の首を撃てば則ち尾至り、其の尾を撃てば則ち首至り、其の中を撃てば則ち首尾倶に至る。"
+    }
+   ]
+  },
+  {
+   "word": "屏風",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 515,
+   "samples": [
+    {
+     "id": "soko-6",
+     "field": "kakikudashi",
+     "snippet": "帝、主をして屏風の後ろに坐せしめ、因りて弘に謂いて曰く、"
+    },
+    {
+     "id": "joga-1",
+     "field": "kakikudashi",
+     "snippet": "雲母の屏風燭影深く"
+    },
+    {
+     "id": "toushisen036-9",
+     "field": "kakikudashi",
+     "snippet": "主人の屏風奇状を写す"
+    }
+   ]
+  },
+  {
+   "word": "山上",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 516,
+   "samples": [
+    {
+     "id": "shunjitsu01-3",
+     "field": "kakikudashi",
+     "snippet": "山上の春雲我が懶の如く"
+    },
+    {
+     "id": "toushisen169-2",
+     "field": "kakikudashi",
+     "snippet": "更に逢う山上一花の開くに"
+    },
+    {
+     "id": "toushisen306-4",
+     "field": "kakikudashi",
+     "snippet": "山上唯だ聞く松柏の声"
+    }
+   ]
+  },
+  {
+   "word": "山河",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 517,
+   "samples": [
+    {
+     "id": "nishikiyo-1",
+     "field": "kakikudashi",
+     "snippet": "て東す。人或いは項王に説きて曰く、関中は山河を阻てて四塞し、地は肥饒なり。都して以て霸たる可し、と。"
+    },
+    {
+     "id": "reiteiyo-3",
+     "field": "kakikudashi",
+     "snippet": "山河破砕して風は絮を抛ち"
+    },
+    {
+     "id": "toushisen147-7",
+     "field": "kakikudashi",
+     "snippet": "山河繡戸を扶け"
+    }
+   ]
+  },
+  {
+   "word": "川原",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 518,
+   "samples": [
+    {
+     "id": "toushisen242-2",
+     "field": "kakikudashi",
+     "snippet": "川原杳として何ぞ極まらん"
+    },
+    {
+     "id": "toushisen050-3",
+     "field": "kakikudashi",
+     "snippet": "川原旧国に迷い"
+    }
+   ]
+  },
+  {
+   "word": "巫山",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 519,
+   "samples": [
+    {
+     "id": "gasshoren-1",
+     "field": "kakikudashi",
+     "snippet": "中の利有り、北に胡貉・代馬の用有り、南に巫山・黔中の限り有り、東に殽・函の固め有り、田は肥美に、民は殷富に、戦車万乗、奮"
+    },
+    {
+     "id": "toushisen210-2",
+     "field": "kakikudashi",
+     "snippet": "巫山巫峡気蕭森たり"
+    },
+    {
+     "id": "toushisen311-2",
+     "field": "kakikudashi",
+     "snippet": "雲雨巫山枉しく断腸"
+    }
+   ]
+  },
+  {
+   "word": "布衣",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 520,
+   "samples": [
+    {
+     "id": "kanpeki4k-6",
+     "field": "kakikudashi",
+     "snippet": "臣以為えらく、布衣の交わりすら、尚お相欺かず。況んや大国をや。且つ一璧の故を以て、彊秦の驩に逆らうは、不可なり、と。是に"
+    },
+    {
+     "id": "toushisen262-4",
+     "field": "kakikudashi",
+     "snippet": "猶お布衣の看を作す"
+    },
+    {
+     "id": "rikutou02-4",
+     "field": "kakikudashi",
+     "snippet": "鹿裘、寒を禦ぎ、布衣、形を掩う。糲粱の飯、藜藿の羹、役作の故を以て、民の耕織の時を害せず。心を削り志を約し、事に無為に従"
+    }
+   ]
+  },
+  {
+   "word": "帝郷",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 521,
+   "samples": [
+    {
+     "id": "toushisen058-7",
+     "field": "kakikudashi",
+     "snippet": "還り来って帝郷に入らん"
+    },
+    {
+     "id": "toushisen372-1",
+     "field": "kakikudashi",
+     "snippet": "玉帛朝より回って帝郷を望む"
+    },
+    {
+     "id": "kikyorainoji-54",
+     "field": "kakikudashi",
+     "snippet": "帝郷は期す可からず"
+    }
+   ]
+  },
+  {
+   "word": "帰雁",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 522,
+   "samples": [
+    {
+     "id": "toushisen078-4",
+     "field": "kakikudashi",
+     "snippet": "帰雁胡天に入る"
+    },
+    {
+     "id": "toushisen100-8",
+     "field": "kakikudashi",
+     "snippet": "帰雁洛陽の辺"
+    },
+    {
+     "id": "toushisen194-4",
+     "field": "kakikudashi",
+     "snippet": "衡陽の帰雁幾封の書"
+    }
+   ]
+  },
+  {
+   "word": "平原",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 523,
+   "samples": [
+    {
+     "id": "toushisen001-9",
+     "field": "kakikudashi",
+     "snippet": "出没平原を望む"
+    },
+    {
+     "id": "toushisen038-6",
+     "field": "kakikudashi",
+     "snippet": "平原才を愛して衆賓多し"
+    },
+    {
+     "id": "7aishiosan01-8",
+     "field": "kakikudashi",
+     "snippet": "白骨平原を蔽う"
+    }
+   ]
+  },
+  {
+   "word": "平台",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 524,
+   "samples": [
+    {
+     "id": "toushisen337-3",
+     "field": "kakikudashi",
+     "snippet": "平台の賓客誰有ってか憐れまん"
+    },
+    {
+     "id": "toushisen045-23",
+     "field": "kakikudashi",
+     "snippet": "朱邸平台に抗し"
+    },
+    {
+     "id": "toushisen094-2",
+     "field": "kakikudashi",
+     "snippet": "平台古遊を訪う"
+    }
+   ]
+  },
+  {
+   "word": "平旦",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 525,
+   "samples": [
+    {
+     "id": "haisui18-7",
+     "field": "kakikudashi",
+     "snippet": "平旦、大将の旗鼓を建て、鼓行して井陘口より出づ。"
+    },
+    {
+     "id": "toushisen045-11",
+     "field": "kakikudashi",
+     "snippet": "万戸千門平旦に開く"
+    }
+   ]
+  },
+  {
+   "word": "平明",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 526,
+   "samples": [
+    {
+     "id": "toushisen338-2",
+     "field": "kakikudashi",
+     "snippet": "平明客を送れば楚山孤なり"
+    },
+    {
+     "id": "toushisen198-5",
+     "field": "kakikudashi",
+     "snippet": "平明笏を端して鵷列に陪し"
+    },
+    {
+     "id": "toushisen432-2",
+     "field": "kakikudashi",
+     "snippet": "平明馬に騎って宮門に入る"
+    }
+   ]
+  },
+  {
+   "word": "平沙",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 527,
+   "samples": [
+    {
+     "id": "toushisen448-1",
+     "field": "kakikudashi",
+     "snippet": "平沙の落日大荒の西"
+    },
+    {
+     "id": "toushisen006-5",
+     "field": "kakikudashi",
+     "snippet": "平沙万幕を列ね"
+    },
+    {
+     "id": "toushisen273-2",
+     "field": "kakikudashi",
+     "snippet": "平沙独戍間なり"
+    }
+   ]
+  },
+  {
+   "word": "幾時",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 528,
+   "samples": [
+    {
+     "id": "ei8shoshi-5",
+     "field": "kakikudashi",
+     "snippet": "少壮能く幾時ぞ"
+    },
+    {
+     "id": "kikyorainoji-50",
+     "field": "kakikudashi",
+     "snippet": "形を宇内に寓すること復た幾時ぞ"
+    },
+    {
+     "id": "toushisen018-23",
+     "field": "kakikudashi",
+     "snippet": "宛転たる蛾眉能く幾時ぞ"
+    }
+   ]
+  },
+  {
+   "word": "幾歳",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 529,
+   "samples": [
+    {
+     "id": "toushisen220-5",
+     "field": "kakikudashi",
+     "snippet": "孤村幾歳か伊岸に臨む"
+    },
+    {
+     "id": "toushisen026-16",
+     "field": "kakikudashi",
+     "snippet": "幾歳か我に寄せん空中の書"
+    },
+    {
+     "id": "toushisen186-8",
+     "field": "kakikudashi",
+     "snippet": "君が幾歳か台郎と作るを看ん"
+    }
+   ]
+  },
+  {
+   "word": "広大",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 530,
+   "samples": [
+    {
+     "id": "yaro-2",
+     "field": "kakikudashi",
+     "snippet": "の故に、各〻自ら以て一州の主と為し、漢の広大なるを知らず。"
+    },
+    {
+     "id": "toushisen142-7",
+     "field": "kakikudashi",
+     "snippet": "聖図天のごとく広大に"
+    },
+    {
+     "id": "utsuryo22-1",
+     "field": "kakikudashi",
+     "snippet": "臣聞く、人君に必勝の道有り、故に能く広大を并兼して、以て其の制度を一にし、則ち威、天下に加うること十二有り。"
+    }
+   ]
+  },
+  {
+   "word": "廟算",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 531,
+   "samples": [
+    {
+     "id": "toushisen133-2",
+     "field": "kakikudashi",
+     "snippet": "廟算兵を休むに在り"
+    },
+    {
+     "id": "sonshi01-23",
+     "field": "kakikudashi",
+     "snippet": "夫れ未だ戦わずして廟算して勝つ者は、算を得ること多ければなり。"
+    },
+    {
+     "id": "sonshi01-24",
+     "field": "kakikudashi",
+     "snippet": "未だ戦わずして廟算して勝たざる者は、算を得ること少なければなり。"
+    }
+   ]
+  },
+  {
+   "word": "廬山",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 532,
+   "samples": [
+    {
+     "id": "seirinno-3",
+     "field": "kakikudashi",
+     "snippet": "廬山の真面目を識らざるは"
+    },
+    {
+     "id": "toushisen093-7",
+     "field": "kakikudashi",
+     "snippet": "廬山の路を得て"
+    },
+    {
+     "id": "toushisen185-1",
+     "field": "kakikudashi",
+     "snippet": "遠公遁跡す廬山の岑"
+    }
+   ]
+  },
+  {
+   "word": "廷尉",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 533,
+   "samples": [
+    {
+     "id": "isshiissei-2",
+     "field": "kakikudashi",
+     "snippet": "下邽の翟公言う有り。始め翟公、廷尉と為るや、賓客門に闐つ。廃せらるるに及べば、門外雀羅を設く可し。翟公復た廷尉と為るや、"
+    },
+    {
+     "id": "p-gori-2",
+     "field": "kakikudashi",
+     "snippet": "を引き、従いて術を学ぶと言う。楷、坐して廷尉の詔獄に繋がる。積むこと二年、恒に経籍を諷誦し、尚書の注を作る。後、事の験無"
+    },
+    {
+     "id": "toushisen016-27",
+     "field": "kakikudashi",
+     "snippet": "廷尉の門前雀棲まんと欲す"
+    }
+   ]
+  },
+  {
+   "word": "建徳",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 534,
+   "samples": [
+    {
+     "id": "taiki-1",
+     "field": "kakikudashi",
+     "snippet": "は辱れたるが若く、広徳は足らざるが若く、建徳は偸きが若く、質真は渝るが若し。"
+    },
+    {
+     "id": "roushi41-2",
+     "field": "kakikudashi",
+     "snippet": "は辱れたるが若く、広徳は足らざるが若く、建徳は偸きが若く、質真は渝るが若し。大方は隅無く、大器は晩成し、大音は希声にして"
+    }
+   ]
+  },
+  {
+   "word": "張良",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 535,
+   "samples": [
+    {
+     "id": "yokonou-1",
+     "field": "kakikudashi",
+     "snippet": "て解きて東に帰る。漢、西に帰らんと欲す。張良・陳平説きて曰く、漢、天下の大半を有ち、而して諸侯皆之に附く。楚は兵罷れ食尽"
+    },
+    {
+     "id": "montai10-1",
+     "field": "kakikudashi",
+     "snippet": "太宗曰く、漢の張良・韓信、兵法を序次すること、凡そ百八十二家、要用を刪り取って、定めて三十五家を著す。今其の伝を失うは、"
+    },
+    {
+     "id": "montai10-2",
+     "field": "kakikudashi",
+     "snippet": "靖曰く、張良の学びし所は、太公の六韜・三略是れなり。韓信の学びし所は、穣苴・孫武是れなり。然れども大体は三門四種に出でざ"
+    }
+   ]
+  },
+  {
+   "word": "彭沢",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 536,
+   "samples": [
+    {
+     "id": "shisenno-5",
+     "field": "kakikudashi",
+     "snippet": "彭沢は千載の人"
+    },
+    {
+     "id": "toushisen191-7",
+     "field": "kakikudashi",
+     "snippet": "且く近く彭沢の宰を尋ね"
+    },
+    {
+     "id": "toushisen271-3",
+     "field": "kakikudashi",
+     "snippet": "彭沢興浅からず"
+    }
+   ]
+  },
+  {
+   "word": "征人",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 537,
+   "samples": [
+    {
+     "id": "toushisen434-4",
+     "field": "kakikudashi",
+     "snippet": "是れ征人ならずとも亦た涙流れん"
+    },
+    {
+     "id": "toushisen411-4",
+     "field": "kakikudashi",
+     "snippet": "一夜征人尽く郷を望む"
+    },
+    {
+     "id": "toushisen412-3",
+     "field": "kakikudashi",
+     "snippet": "磧裏の征人三十万"
+    }
+   ]
+  },
+  {
+   "word": "征戍",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 538,
+   "samples": [
+    {
+     "id": "toushisen035-4",
+     "field": "kakikudashi",
+     "snippet": "愁殺す楼蘭征戍の児"
+    },
+    {
+     "id": "toushisen154-4",
+     "field": "kakikudashi",
+     "snippet": "十年征戍遼陽を憶う"
+    },
+    {
+     "id": "toushisen285-1",
+     "field": "kakikudashi",
+     "snippet": "征戍して桑乾に在り"
+    }
+   ]
+  },
+  {
+   "word": "従来",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 539,
+   "samples": [
+    {
+     "id": "toushisen165-3",
+     "field": "kakikudashi",
+     "snippet": "禅室は従来塵外の賞"
+    },
+    {
+     "id": "toushisen088-6",
+     "field": "kakikudashi",
+     "snippet": "従来古意多し"
+    },
+    {
+     "id": "toushisen146-19",
+     "field": "kakikudashi",
+     "snippet": "従来謝太傅"
+    }
+   ]
+  },
+  {
+   "word": "得失",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 540,
+   "samples": [
+    {
+     "id": "sonshi06-36",
+     "field": "kakikudashi",
+     "snippet": "故に之を策りて得失の計を知り、之を作して動静の理を知り、之を形して死生の地を知り、之に角れて有余不足の処を知る。"
+    },
+    {
+     "id": "sanryaku02-3",
+     "field": "kakikudashi",
+     "snippet": "蹶く。故に聖王の世を御するや、盛衰を観、得失を度りて、之が制を為す。故に諸侯は二師、方伯は三師、天子は六師なり。世乱るれ"
+    }
+   ]
+  },
+  {
+   "word": "微妙",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 541,
+   "samples": [
+    {
+     "id": "rikutou28-3",
+     "field": "kakikudashi",
+     "snippet": "五行の道は、天地の自然にして、六甲の分、微妙の神なり。"
+    },
+    {
+     "id": "sonshi13-18",
+     "field": "kakikudashi",
+     "snippet": "微妙に非ざれば間の実を得ること能わず。"
+    },
+    {
+     "id": "rikutou28-4",
+     "field": "kakikudashi",
+     "snippet": "太公曰く、微妙の音は皆外候有り。武王曰く、何を以てか之を知らん。太公曰く、敵人驚動すれば、則ち之を聴く。枹鼓の音を聞くは"
+    }
+   ]
+  },
+  {
+   "word": "徳無",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "pre_exclude": "n79-pattern: X+ari/nashi construction fragment (gong-you/ri-you/mei-you/sin-nasi etc all 404 or reibun-only in N79)",
+   "rank": 542,
+   "samples": [
+    {
+     "id": "roushi38-1",
+     "field": "kakikudashi",
+     "snippet": "を以て徳有り。下徳は徳を失わず、是を以て徳無し。上徳は無為にして、以て為にする無く、下徳は之を為して、以て為にする有り。"
+    },
+    {
+     "id": "roushi79-3",
+     "field": "kakikudashi",
+     "snippet": "徳有るものは契を司り、徳無きものは徹を司る。"
+    },
+    {
+     "id": "sanryaku02-3",
+     "field": "kakikudashi",
+     "snippet": "主は以て徳無かる可からず。徳無ければ則ち臣は叛く。以て威無かる可からず。威無ければ則ち権を失う。臣は以て徳無かる可からず"
+    }
+   ]
+  },
+  {
+   "word": "徳行",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 543,
+   "samples": [
+    {
+     "id": "rongo1102-1",
+     "field": "kakikudashi",
+     "snippet": "陳・蔡に従いし者は、皆門に及ばざるなり。徳行には顔淵・閔子騫・冉伯牛・仲弓。言語には宰我・子貢。政事には冉有・季路。文学"
+    },
+    {
+     "id": "kokyo04-3",
+     "field": "kakikudashi",
+     "snippet": "先王の徳行に非ざれば、敢えて行わず。"
+    },
+    {
+     "id": "sanryaku02-4",
+     "field": "kakikudashi",
+     "snippet": "賞を設け、姦雄を別ち、成敗を著す。中略は徳行を差し、権変を審らかにす。下略は道徳を陳べ、安危を察し、賢を賊うの咎を明らか"
+    }
+   ]
+  },
+  {
+   "word": "心有",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "pre_exclude": "n79-pattern: X+ari/nashi construction fragment (gong-you/ri-you/mei-you/sin-nasi etc all 404 or reibun-only in N79)",
+   "rank": 544,
+   "samples": [
+    {
+     "id": "rongo1442-1",
+     "field": "kakikudashi",
+     "snippet": "蕢を荷いて孔氏の門を過ぐる者有り。曰く、心有るかな磬を撃つやと。既にして曰く、鄙なるかな。硜硜乎たり。己を知る莫くんば、"
+    },
+    {
+     "id": "utsuryo04-2",
+     "field": "kakikudashi",
+     "snippet": "明らかにし、器用を便にし、民をして必戦の心有らしむ。此れ威勝つなり。軍を破り将を殺し、闉に乗じ機を発し、衆を潰し地を奪い"
+    },
+    {
+     "id": "rikutou13-4",
+     "field": "kakikudashi",
+     "snippet": "逐うが若し。而して天下、皆、肉を分かつの心有り。舟を同じくして済るが若し。済れば則ち皆其の利を同じくし、敗るれば則ち皆其"
+    }
+   ]
+  },
+  {
+   "word": "必死",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 545,
+   "samples": [
+    {
+     "id": "rikutou53-6",
+     "field": "kakikudashi",
+     "snippet": "貧窮にして忿怒し、其の志を快くせんと欲する者有れば、聚めて一卒と為し、名づけて必死の士と曰う。"
+    },
+    {
+     "id": "sonshi08-13",
+     "field": "kakikudashi",
+     "snippet": "必死は殺さる可く、必生は虜とす可く、忿速は侮る可く、廉潔は辱しむ可く、愛民は煩わす可し。"
+    },
+    {
+     "id": "utsuryo03-4",
+     "field": "kakikudashi",
+     "snippet": "皆不肖なるに非ざるなり。何となれば、則ち必死と必生と固に侔しからざればなり。"
+    }
+   ]
+  },
+  {
+   "word": "志有",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "pre_exclude": "n79-pattern: X+ari/nashi construction fragment (gong-you/ri-you/mei-you/sin-nasi etc all 404 or reibun-only in N79)",
+   "rank": 546,
+   "samples": [
+    {
+     "id": "rongo1438-1",
+     "field": "kakikudashi",
+     "snippet": "以て告げて曰く、夫子固より公伯寮に惑える志有り。吾が力猶お能く諸を市朝に肆さん。子曰く、道の将に行われんとするや、命なり"
+    },
+    {
+     "id": "kokorozashi-1",
+     "field": "kakikudashi",
+     "snippet": "。常に以為えらく、落落として合し難きも、志有る者は事竟に成るなり、と。"
+    },
+    {
+     "id": "roushi33-2",
+     "field": "kakikudashi",
+     "snippet": "足るを知る者は富み、強めて行う者は志有り。其の所を失わざる者は久し。死して亡びざる者は寿し。"
+    }
+   ]
+  },
+  {
+   "word": "忠言",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 547,
+   "samples": [
+    {
+     "id": "ryoyaku-1",
+     "field": "kakikudashi",
+     "snippet": "曰く、良薬は口に苦けれども、病に利あり。忠言は耳に逆らえども、行いに利あり。湯・武は諤諤を以て昌え、桀・紂は唯唯を以て亡"
+    },
+    {
+     "id": "ryoyaku-2",
+     "field": "kakikudashi",
+     "snippet": "む。其の入りて能く疾を已すを知ればなり。忠言は耳に払らうも、明主は之を聴く。其の以て功を致す可きを知ればなり。"
+    },
+    {
+     "id": "ryoyaku-3",
+     "field": "kakikudashi",
+     "snippet": "夫れ良薬は口に苦けれども、惟だ疾者のみ能く之を甘しとす。忠言は耳に逆らえども、惟だ達者のみ能く之を受く。"
+    }
+   ]
+  },
+  {
+   "word": "恥有",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "pre_exclude": "n79-pattern: X+ari/nashi construction fragment (gong-you/ri-you/mei-you/sin-nasi etc all 404 or reibun-only in N79)",
+   "rank": 548,
+   "samples": [
+    {
+     "id": "onorehaji-1",
+     "field": "kakikudashi",
+     "snippet": "れ之を士と謂う可きか。子曰く、己を行うに恥有り、四方に使いして、君命を辱めざるを、士と謂う可し。"
+    },
+    {
+     "id": "rongo0203-1",
+     "field": "kakikudashi",
+     "snippet": "徳を以てし、之を斉うるに礼を以てすれば、恥有りて且つ格し。"
+    },
+    {
+     "id": "rongo1320-1",
+     "field": "kakikudashi",
+     "snippet": "れ之を士と謂う可きか。子曰く、己を行うに恥有り、四方に使いして、君命を辱めざるを、士と謂う可し。曰く、敢えて其の次を問う"
+    }
+   ]
+  },
+  {
+   "word": "愁人",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 549,
+   "samples": [
+    {
+     "id": "shonan-4",
+     "field": "kakikudashi",
+     "snippet": "愁人の為に住まること少時もせず"
+    },
+    {
+     "id": "toushisen407-4",
+     "field": "kakikudashi",
+     "snippet": "是れ愁人ならずとも亦た断腸せん"
+    },
+    {
+     "id": "toushisen055-2",
+     "field": "kakikudashi",
+     "snippet": "愁人独夜に看る"
+    }
+   ]
+  },
+  {
+   "word": "意無",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "pre_exclude": "n79-pattern: X+ari/nashi construction fragment (gong-you/ri-you/mei-you/sin-nasi etc all 404 or reibun-only in N79)",
+   "rank": 550,
+   "samples": [
+    {
+     "id": "kanpeki4k-4",
+     "field": "kakikudashi",
+     "snippet": "相如、秦王の趙に城を償うに意無きを視て、乃ち前みて曰く、璧に瑕有り。請う王に指示せん、と。王、璧を授く。相如、因りて璧を"
+    },
+    {
+     "id": "kanpeki18-7",
+     "field": "kakikudashi",
+     "snippet": "秦王、城を償うに意無し。"
+    },
+    {
+     "id": "kanpeki4k-7",
+     "field": "kakikudashi",
+     "snippet": "臣を戯弄す。臣、大王の趙王に城邑を償うに意無きを観、故に臣復た璧を取る。大王必ず臣に急にせんと欲せば、臣の頭は今璧と倶に"
+    }
+   ]
+  },
+  {
+   "word": "愚者",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 551,
+   "samples": [
+    {
+     "id": "senryo-1",
+     "field": "kakikudashi",
+     "snippet": "広武君曰く、臣聞く、智者も千慮に必ず一失有り、愚者も千慮に必ず一得有り、と。故に曰く、狂夫の言も、聖人は焉を択ぶ、と。"
+    },
+    {
+     "id": "yumokakan-3",
+     "field": "kakikudashi",
+     "snippet": "苛刻惨毒以て威を立てて、繊介愛利の風亡きは、天下の共に知る所にして、愚者すら猶お惑う。"
+    },
+    {
+     "id": "koshi19_15-4",
+     "field": "kakikudashi",
+     "snippet": "愚者は費えを愛惜して、但だ後世の嗤いと為る"
+    }
+   ]
+  },
+  {
+   "word": "愛子",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 552,
+   "samples": [
+    {
+     "id": "wakaruru-3",
+     "field": "kakikudashi",
+     "snippet": "愛子燕趙に遊ばんとす"
+    },
+    {
+     "id": "sonshi10-33",
+     "field": "kakikudashi",
+     "snippet": "卒を視ること愛子の如し、故に之と倶に死す可し。"
+    },
+    {
+     "id": "utsuryo03-6",
+     "field": "kakikudashi",
+     "snippet": "国の、患いを被る者、重幣を以て出し聘し、愛子を以て出し質とし、地界を以て出し割き、天下の助卒を得て、名づけて十万と為すも"
+    }
+   ]
+  },
+  {
+   "word": "懽心",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 553,
+   "samples": [
+    {
+     "id": "kokyo08-3",
+     "field": "kakikudashi",
+     "snippet": "故に万国の懽心を得て、以て其の先王に事う。"
+    },
+    {
+     "id": "kokyo08-6",
+     "field": "kakikudashi",
+     "snippet": "故に百姓の懽心を得て、以て其の先君に事う。"
+    },
+    {
+     "id": "kokyo08-9",
+     "field": "kakikudashi",
+     "snippet": "故に人の懽心を得て、以て其の親に事う。"
+    }
+   ]
+  },
+  {
+   "word": "戦攻",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 554,
+   "samples": [
+    {
+     "id": "rikutou30-1",
+     "field": "kakikudashi",
+     "snippet": "武王、太公に問うて曰く、天下安定し、国家事無ければ、戦攻の具、修むる無かる可きか。守禦の備え、設くる無かる可きか。"
+    },
+    {
+     "id": "utsuryo05-5",
+     "field": "kakikudashi",
+     "snippet": "故に明主は、戦攻の日、鼓を合わせ角を合わせ、節するに兵刃を以てし、勝つことを求めずして勝つなり。兵に備を去り威を徹てて勝"
+    }
+   ]
+  },
+  {
+   "word": "戦車",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 555,
+   "samples": [
+    {
+     "id": "rikutou58-1",
+     "field": "kakikudashi",
+     "snippet": "武王、太公に問うて曰く、戦車は奈何。"
+    },
+    {
+     "id": "utsuryo22-3",
+     "field": "kakikudashi",
+     "snippet": "十一に曰く、死士。衆軍の中、材智有る者、戦車に乗り、前後縦横し、奇を出し敵を制するを謂うなり。十二に曰く、力卒。其の全曲"
+    }
+   ]
+  },
+  {
+   "word": "戦闘",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 556,
+   "samples": [
+    {
+     "id": "montai07-2",
+     "field": "kakikudashi",
+     "snippet": "靖曰く、前代の戦闘、多くは是れ小術を以て無術に勝ち、片善を以て無善に勝つ。斯れ安んぞ以て兵法を論ずるに足らんや。"
+    },
+    {
+     "id": "sanryaku02-2",
+     "field": "kakikudashi",
+     "snippet": "同し、王職廃せず。甲兵の備え有りと雖も、戦闘の患無し。君、臣を疑うこと無く、臣、主を疑うこと無く、国定まり主安く、臣は義"
+    },
+    {
+     "id": "utsuryo24-3",
+     "field": "kakikudashi",
+     "snippet": "ずるは、是れ兵の一勝なり。什伍相連なり、戦闘に及べば、則ち卒吏相救う。是れ兵の二勝なり。将能く威を立て、卒能く制を節し、"
+    }
+   ]
+  },
+  {
+   "word": "扁舟",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 557,
+   "samples": [
+    {
+     "id": "toushisen339-3",
+     "field": "kakikudashi",
+     "snippet": "遥かに扁舟を送る安陸郡"
+    },
+    {
+     "id": "toushisen341-1",
+     "field": "kakikudashi",
+     "snippet": "武陵の渓口扁舟を駐むるに"
+    },
+    {
+     "id": "toushisen043-14",
+     "field": "kakikudashi",
+     "snippet": "誰が家ぞ今夜扁舟の子"
+    }
+   ]
+  },
+  {
+   "word": "才有",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "pre_exclude": "n79-pattern: X+ari/nashi construction fragment (gong-you/ri-you/mei-you/sin-nasi etc all 404 or reibun-only in N79)",
+   "rank": 558,
+   "samples": [
+    {
+     "id": "senbenwo-1",
+     "field": "kakikudashi",
+     "snippet": "琨、少くして志気を負い、縦横の才有り。善く己に勝れるものに交わり、而も頗る浮誇なり。"
+    },
+    {
+     "id": "toushisen139-11",
+     "field": "kakikudashi",
+     "snippet": "才有れば適せざる無し"
+    },
+    {
+     "id": "toushisen175-8",
+     "field": "kakikudashi",
+     "snippet": "懸かに知る独り子雲の才有ることを"
+    }
+   ]
+  },
+  {
+   "word": "扶桑",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 559,
+   "samples": [
+    {
+     "id": "toushisen136-9",
+     "field": "kakikudashi",
+     "snippet": "郷樹扶桑の外"
+    },
+    {
+     "id": "24shihin12-6",
+     "field": "kakikudashi",
+     "snippet": "暁に六鼇に策うち、足を扶桑に濯う。"
+    },
+    {
+     "id": "soji02k07-1",
+     "field": "kakikudashi",
+     "snippet": "暾として将に東方に出でんとして、吾が檻を扶桑に照らす。"
+    }
+   ]
+  },
+  {
+   "word": "扶胥",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 560,
+   "samples": [
+    {
+     "id": "rikutou34-4",
+     "field": "kakikudashi",
+     "snippet": "武衝の扶胥を以て、前後に拒ぎ守り、武翼の大櫓、以て左右に備う。"
+    },
+    {
+     "id": "rikutou31-5",
+     "field": "kakikudashi",
+     "snippet": "三軍の拒守には、木螳螂、剣刃の扶胥、広さ二丈なるもの百二十具。一に行馬と名づく。平易の地に、歩兵を以て車騎を敗る。木蒺藜"
+    },
+    {
+     "id": "rikutou31-6",
+     "field": "kakikudashi",
+     "snippet": "、高さ八尺なるもの百二十具。虎落、剣刃、扶胥、広さ一丈五尺、高さ八尺なるもの五百一十具。"
+    }
+   ]
+  },
+  {
+   "word": "推移",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 561,
+   "samples": [
+    {
+     "id": "yotosuii-1",
+     "field": "kakikudashi",
+     "snippet": "漁父曰く、聖人は物に凝滞せずして、能く世と推移す。"
+    },
+    {
+     "id": "sanryaku01-3",
+     "field": "kakikudashi",
+     "snippet": "、人能く知る莫し。天地は神明にして、物と推移し、変動して常無し。敵に因って転化し、事の先と為らず、動けば輒ち随う。故に能"
+    },
+    {
+     "id": "soji07-6",
+     "field": "kakikudashi",
+     "snippet": "聖人は物に凝滞せずして、能く世と推移す。"
+    }
+   ]
+  },
+  {
+   "word": "揚州",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 562,
+   "samples": [
+    {
+     "id": "okuseki02-1",
+     "field": "kakikudashi",
+     "snippet": "憶う昔揚州月華を看る"
+    },
+    {
+     "id": "omoiwo-3",
+     "field": "kakikudashi",
+     "snippet": "十年一覚揚州の夢"
+    },
+    {
+     "id": "toushisen318-2",
+     "field": "kakikudashi",
+     "snippet": "煙花三月揚州に下る"
+    }
+   ]
+  },
+  {
+   "word": "握奇",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 563,
+   "samples": [
+    {
+     "id": "montai08-1",
+     "field": "kakikudashi",
+     "snippet": "太宗曰く、黄帝の兵法、世に握奇の文を伝う。或いは謂いて握機の文と為す。何の謂ぞや。"
+    },
+    {
+     "id": "montai08-7",
+     "field": "kakikudashi",
+     "snippet": "是の故に、握機、握奇は、本二法無し。学者の兼ねて通ずるに在るのみ。"
+    }
+   ]
+  },
+  {
+   "word": "攻守",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 564,
+   "samples": [
+    {
+     "id": "montai12-10",
+     "field": "kakikudashi",
+     "snippet": "れ蕃漢の別を知らざるときは、則ち能く我が攻守の計を測ること莫し。善く兵を用うる者は、先ず測る可からざるを為す。則ち敵其の"
+    },
+    {
+     "id": "rikutou31-1",
+     "field": "kakikudashi",
+     "snippet": "て曰く、王者、兵を挙ぐるに、三軍の器用、攻守の具、科品の衆寡、豈に法有りや。太公曰く、大なるかな、王の問いや。夫れ攻守の"
+    }
+   ]
+  },
+  {
+   "word": "放言",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 565,
+   "samples": [
+    {
+     "id": "inkyoho-1",
+     "field": "kakikudashi",
+     "snippet": "虞仲・夷逸を謂う。隠居して放言し、身は清に中り、廃せられて権に中る。我は則ち是に異なり。可も無く不可も無し。"
+    },
+    {
+     "id": "kamonaku-1",
+     "field": "kakikudashi",
+     "snippet": "虞仲・夷逸を謂う。隠居して放言し、身は清に中り、廃せられて権に中る。我は則ち是に異なり。可も無く不可も無し。"
+    },
+    {
+     "id": "rongo1808-1",
+     "field": "kakikudashi",
+     "snippet": "其れ斯れのみ。虞仲・夷逸を謂う。隠居して放言し、身は清に中り、廃せられて権に中る。我は則ち是に異なり。可も無く不可も無し"
+    }
+   ]
+  },
+  {
+   "word": "政令",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 566,
+   "samples": [
+    {
+     "id": "kokyo09-27",
+     "field": "kakikudashi",
+     "snippet": "故に能く其の徳教を成して、其の政令を行う。"
+    },
+    {
+     "id": "sanryaku03-2",
+     "field": "kakikudashi",
+     "snippet": "い、人の其の都邑に楽しむを謂い、人の其の政令に楽しむを謂い、人の其の道徳に楽しむを謂う。此の如くにして人に君たる者は、乃"
+    }
+   ]
+  },
+  {
+   "word": "故国",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 567,
+   "samples": [
+    {
+     "id": "kanyojotoro-8",
+     "field": "kakikudashi",
+     "snippet": "故国東来渭水流る"
+    },
+    {
+     "id": "toushisen370-1",
+     "field": "kakikudashi",
+     "snippet": "一たび故国を辞して十たび秋を経たり"
+    },
+    {
+     "id": "toushisen426-4",
+     "field": "kakikudashi",
+     "snippet": "独り高楼に上る故国の情"
+    }
+   ]
+  },
+  {
+   "word": "敗兵",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 568,
+   "samples": [
+    {
+     "id": "sonshi04-20",
+     "field": "kakikudashi",
+     "snippet": "是の故に勝兵は先ず勝ちて、而る後に戦いを求め、敗兵は先ず戦いて、而る後に勝ちを求む。"
+    },
+    {
+     "id": "sonshi04-25",
+     "field": "kakikudashi",
+     "snippet": "故に勝兵は鎰を以て銖を称るが若く、敗兵は銖を以て鎰を称るが若し。"
+    }
+   ]
+  },
+  {
+   "word": "散地",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 569,
+   "samples": [
+    {
+     "id": "sonshi11-2",
+     "field": "kakikudashi",
+     "snippet": "諸侯自ら其の地に戦うを散地と為す。"
+    },
+    {
+     "id": "sonshi11-11",
+     "field": "kakikudashi",
+     "snippet": "是の故に散地には則ち戦うこと無く、軽地には則ち止まること無く、争地には則ち攻むること無く、交地には則ち絶つこと無く、衢地"
+    },
+    {
+     "id": "sonshi11-52",
+     "field": "kakikudashi",
+     "snippet": "是の故に散地には吾将に其の志を一にせんとす。"
+    }
+   ]
+  },
+  {
+   "word": "敵其",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 570,
+   "samples": [
+    {
+     "id": "montai09-2",
+     "field": "kakikudashi",
+     "snippet": "進むに速やかに奔る無く、退くに遽に走る無し。四頭八尾、触るる処を首と為し、敵其の中を衝けば、両頭皆救う。"
+    },
+    {
+     "id": "montai12-10",
+     "field": "kakikudashi",
+     "snippet": "うる者は、先ず測る可からざるを為す。則ち敵其の之く所に乖くなり。"
+    },
+    {
+     "id": "sanryaku01-19",
+     "field": "kakikudashi",
+     "snippet": "民貧し。民貧しければ、則ち上下親しまず。敵其の外を攻め、民其の内を盗む。是れを必ず潰ゆと謂う。"
+    }
+   ]
+  },
+  {
+   "word": "敵国",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 2,
+   "rank": 571,
+   "samples": [
+    {
+     "id": "sanryaku01-10",
+     "field": "kakikudashi",
+     "snippet": "するに時を踰えざれば、則ち下は力并せて、敵国は削らる。夫れ人を用うるの道は、尊ぶに爵を以てし、贍わすに財を以てすれば、則"
+    }
+   ]
+  },
+  {
+   "word": "文武",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 572,
+   "samples": [
+    {
+     "id": "rongo1922-1",
+     "field": "kakikudashi",
+     "snippet": "て曰く、仲尼は焉くにか学べる。子貢曰く、文武の道、未だ地に墜ちずして、人に在り。賢者は其の大なる者を識り、不賢者は其の小"
+    },
+    {
+     "id": "goshi04-1",
+     "field": "kakikudashi",
+     "snippet": "呉子曰く、夫れ文武を総ぶるは、軍の将なり。剛柔を兼ぬるは、兵の事なり。凡そ人の将を論ずるや、常に勇に観る。勇の将に於ける"
+    },
+    {
+     "id": "utsuryo10-3",
+     "field": "kakikudashi",
+     "snippet": "官、文武を分つは、惟れ王の二術なり。俎豆、制を同じうするは、天子の会なり。遊説間諜自ら入ること無きは、議を正すの術なり。"
+    }
+   ]
+  },
+  {
+   "word": "文物",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 573,
+   "samples": [
+    {
+     "id": "toushisen045-17",
+     "field": "kakikudashi",
+     "snippet": "文物昭回を象る"
+    },
+    {
+     "id": "toushisen141-9",
+     "field": "kakikudashi",
+     "snippet": "文物多く古を師とし"
+    },
+    {
+     "id": "toushisen187-7",
+     "field": "kakikudashi",
+     "snippet": "声名と文物とを覩ず"
+    }
+   ]
+  },
+  {
+   "word": "斉王",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 2,
+   "rank": 574,
+   "samples": [
+    {
+     "id": "kyowa-1",
+     "field": "kakikudashi",
+     "snippet": "孟子范より斉に之き、斉王の子を望見し、喟然として嘆じて曰く、居は気を移し、養は体を移す、と。大なるかな居や。夫れ尽く人の"
+    }
+   ]
+  },
+  {
+   "word": "斜日",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 575,
+   "samples": [
+    {
+     "id": "ryokeiwo-1",
+     "field": "kakikudashi",
+     "snippet": "遠汀斜日思い悠悠"
+    },
+    {
+     "id": "toushisen124-9",
+     "field": "kakikudashi",
+     "snippet": "楽思斜日を廻らし"
+    },
+    {
+     "id": "toushisen203-4",
+     "field": "kakikudashi",
+     "snippet": "石門の斜日林丘に到る"
+    }
+   ]
+  },
+  {
+   "word": "斥沢",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 576,
+   "samples": [
+    {
+     "id": "sonshi09-8",
+     "field": "kakikudashi",
+     "snippet": "斥沢を絶れば、惟だ亟かに去りて留まること無かれ。"
+    },
+    {
+     "id": "sonshi09-9",
+     "field": "kakikudashi",
+     "snippet": "若し軍を斥沢の中に交うれば、必ず水草に依りて衆樹を背にせよ。"
+    },
+    {
+     "id": "sonshi09-10",
+     "field": "kakikudashi",
+     "snippet": "此れ斥沢に処るの軍なり。"
+    }
+   ]
+  },
+  {
+   "word": "新書",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 577,
+   "samples": [
+    {
+     "id": "montai04-2",
+     "field": "kakikudashi",
+     "snippet": "靖曰く、案ずるに、曹公の新書に曰く、己二にして敵一ならば、則ち一術を正と為し、一術を奇と為せ。己五にして敵一ならば、則ち"
+    },
+    {
+     "id": "montai04-7",
+     "field": "kakikudashi",
+     "snippet": "太宗曰く、深きかな、深きかな。曹公必ず之を知れり。但だ新書は諸将に授くる所以のみ。奇正の本法に非ず。"
+    },
+    {
+     "id": "montai11-10",
+     "field": "kakikudashi",
+     "snippet": "臣案ずるに、曹公の新書に云く、攻車七十五人、前拒一隊、左右角二隊。守車一隊、炊子十人、守装五人、厩養五人、樵汲五人、共に"
+    }
+   ]
+  },
+  {
+   "word": "新豊",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 578,
+   "samples": [
+    {
+     "id": "toushisen079-5",
+     "field": "kakikudashi",
+     "snippet": "忽ち新豊の市を過ぎ"
+    },
+    {
+     "id": "toushisen175-5",
+     "field": "kakikudashi",
+     "snippet": "新豊の樹裏行人度り"
+    },
+    {
+     "id": "toushisen405-2",
+     "field": "kakikudashi",
+     "snippet": "新豊の樹色千官を繞れり"
+    }
+   ]
+  },
+  {
+   "word": "既往",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 579,
+   "samples": [
+    {
+     "id": "kio-1",
+     "field": "kakikudashi",
+     "snippet": "成事は説かず、遂事は諫めず、既往は咎めず。"
+    },
+    {
+     "id": "rongo0321-1",
+     "field": "kakikudashi",
+     "snippet": "聞きて曰く、成事は説かず、遂事は諫めず、既往は咎めず。"
+    }
+   ]
+  },
+  {
+   "word": "日〻",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 580,
+   "samples": [
+    {
+     "id": "kokyo09-10",
+     "field": "kakikudashi",
+     "snippet": "故に親しみ、之を膝下に生じ、以て父母を養い、日〻に厳にす。"
+    },
+    {
+     "id": "kikyorainoji-25",
+     "field": "kakikudashi",
+     "snippet": "園は日〻に渉りて以て趣きを成し"
+    },
+    {
+     "id": "koshi19_14-1",
+     "field": "kakikudashi",
+     "snippet": "去る者は日〻に以て疎く、来る者は日〻に以て親し"
+    }
+   ]
+  },
+  {
+   "word": "日中",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 581,
+   "samples": [
+    {
+     "id": "tsuki-1",
+     "field": "kakikudashi",
+     "snippet": "語に曰く、日中すれば則ち移り、月満つれば則ち虧く、と。物盛んなれば則ち衰うるは、天地の常数なり。進退盈縮、時と変化す。聖"
+    },
+    {
+     "id": "yamai-x15",
+     "field": "kakikudashi",
+     "snippet": "小臣に晨に公を負いて以て天に登るを夢みる有り。日中するに及び、晋侯を負いて諸を厠より出し、遂に以て殉とせらる。"
+    }
+   ]
+  },
+  {
+   "word": "日夕",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 582,
+   "samples": [
+    {
+     "id": "toushisen306-3",
+     "field": "kakikudashi",
+     "snippet": "城中日夕歌鐘起り"
+    },
+    {
+     "id": "insyu05-7",
+     "field": "kakikudashi",
+     "snippet": "山気日夕に佳く"
+    },
+    {
+     "id": "toushisen258-1",
+     "field": "kakikudashi",
+     "snippet": "日夕寒山を見ては"
+    }
+   ]
+  },
+  {
+   "word": "日落",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 583,
+   "samples": [
+    {
+     "id": "toushisen077-5",
+     "field": "kakikudashi",
+     "snippet": "日落ちて江湖白く"
+    },
+    {
+     "id": "toushisen355-1",
+     "field": "kakikudashi",
+     "snippet": "日落ちて轅門鼓角鳴り"
+    },
+    {
+     "id": "toushisen319-3",
+     "field": "kakikudashi",
+     "snippet": "日落ちて長沙秋色遠し"
+    }
+   ]
+  },
+  {
+   "word": "日辺",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 584,
+   "samples": [
+    {
+     "id": "toushisen167-8",
+     "field": "kakikudashi",
+     "snippet": "睿藻の日辺より来れるに逢うを忻ぶ"
+    },
+    {
+     "id": "toushisen082-2",
+     "field": "kakikudashi",
+     "snippet": "登臨すれば日辺に近し"
+    },
+    {
+     "id": "toushisen320-4",
+     "field": "kakikudashi",
+     "snippet": "孤帆一片日辺より来る"
+    }
+   ]
+  },
+  {
+   "word": "日長",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 585,
+   "samples": [
+    {
+     "id": "toushisen350-1",
+     "field": "kakikudashi",
+     "snippet": "日長く風暖かにして柳青青たり"
+    },
+    {
+     "id": "banshun03-2",
+     "field": "kakikudashi",
+     "snippet": "日長くして客の田家に到る無し"
+    },
+    {
+     "id": "kankyo01-3",
+     "field": "kakikudashi",
+     "snippet": "日長く睡りより起きて情思無く"
+    }
+   ]
+  },
+  {
+   "word": "旧国",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 586,
+   "samples": [
+    {
+     "id": "nihonza012-1",
+     "field": "kakikudashi",
+     "snippet": "玉牆の旧国維新を紀し"
+    },
+    {
+     "id": "toushisen042-4",
+     "field": "kakikudashi",
+     "snippet": "旧国の存亡那んぞ知るを得ん"
+    },
+    {
+     "id": "toushisen050-3",
+     "field": "kakikudashi",
+     "snippet": "川原旧国に迷い"
+    }
+   ]
+  },
+  {
+   "word": "旧時",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 587,
+   "samples": [
+    {
+     "id": "toushisen365-4",
+     "field": "kakikudashi",
+     "snippet": "春来還た発く旧時の花"
+    },
+    {
+     "id": "toushisen189-4",
+     "field": "kakikudashi",
+     "snippet": "門外の青山旧時に似たり"
+    },
+    {
+     "id": "uiko-3",
+     "field": "kakikudashi",
+     "snippet": "旧時王謝堂前の燕"
+    }
+   ]
+  },
+  {
+   "word": "旬日",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 588,
+   "samples": [
+    {
+     "id": "enou-2",
+     "field": "kakikudashi",
+     "snippet": "ち大なる梓木有りて、二つの冢の端に生じ、旬日にして大なること抱に盈ち、体を屈して相就き、根は下に交わり、枝は上に錯わる。"
+    },
+    {
+     "id": "rikutou38-1",
+     "field": "kakikudashi",
+     "snippet": "、天大いに寒く、甚だ暑く、日夜霖雨して、旬日まで止まず、溝塁悉く壊れ、隘塞守らず、斥候懈怠し、士卒戒めざるに、敵人夜来り"
+    },
+    {
+     "id": "utsuryo05-7",
+     "field": "kakikudashi",
+     "snippet": "挙ぐ。故に凡そ兵を集むること千里なる者は旬日、百里なる者は一日にして、必ず敵の境に集まる。卒聚まり将至りて、深く其の地に"
+    }
+   ]
+  },
+  {
+   "word": "昌意",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 589,
+   "samples": [
+    {
+     "id": "shiki001a-15",
+     "field": "kakikudashi",
+     "snippet": "其の孫、昌意の子なる高陽立つ。是を帝顓頊と為す。"
+    },
+    {
+     "id": "shiki001b-1",
+     "field": "kakikudashi",
+     "snippet": "帝顓頊高陽は、黄帝の孫にして、昌意の子なり。"
+    },
+    {
+     "id": "shiki001e-1",
+     "field": "kakikudashi",
+     "snippet": "曰い、窮蝉の父は帝顓頊と曰い、顓頊の父は昌意と曰う。"
+    }
+   ]
+  },
+  {
+   "word": "星辰",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 2,
+   "rank": 590,
+   "samples": [
+    {
+     "id": "shiki001a-10",
+     "field": "kakikudashi",
+     "snippet": "時に百穀草木を播き、鳥獣蟲蛾を淳化し、日月・星辰・水波・土石・金玉を旁羅し、心力耳目を労勤し、水火材物を節用す。"
+    }
+   ]
+  },
+  {
+   "word": "春城",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 591,
+   "samples": [
+    {
+     "id": "toushisen218-2",
+     "field": "kakikudashi",
+     "snippet": "春城紫禁暁に陰陰たり"
+    },
+    {
+     "id": "toushisen399-1",
+     "field": "kakikudashi",
+     "snippet": "春城処として飛花ならざるは無し"
+    },
+    {
+     "id": "toushisen046-2",
+     "field": "kakikudashi",
+     "snippet": "春城白項の烏"
+    }
+   ]
+  },
+  {
+   "word": "春深",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 592,
+   "samples": [
+    {
+     "id": "sankoshi-3",
+     "field": "kakikudashi",
+     "snippet": "春深くして客の到る無く"
+    },
+    {
+     "id": "kanko-2",
+     "field": "kakikudashi",
+     "snippet": "緑浄く春深くして衣を染むるに好し"
+    },
+    {
+     "id": "sekiheki-4",
+     "field": "kakikudashi",
+     "snippet": "銅雀春深くして二喬を鎖さん"
+    }
+   ]
+  },
+  {
+   "word": "時日",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 593,
+   "samples": [
+    {
+     "id": "rikutou18-5",
+     "field": "kakikudashi",
+     "snippet": "天文三人、星暦を司り、風気を候い、時日を推し、符験を考え、災異を校り、天心去就の機を知ることを主る。"
+    },
+    {
+     "id": "utsuryo01-2",
+     "field": "kakikudashi",
+     "snippet": "是に由りて之を観れば、天官の時日は人事に若かざるなり。"
+    },
+    {
+     "id": "utsuryo04-12",
+     "field": "kakikudashi",
+     "snippet": "故に曰く、賢を挙げ能を任ずれば、時日ならずして事、利あり。法を明らかにし令を審らかにすれば、卜筮せずして吉を獲、功を貴び"
+    }
+   ]
+  },
+  {
+   "word": "時節",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 594,
+   "samples": [
+    {
+     "id": "toushisen226-7",
+     "field": "kakikudashi",
+     "snippet": "太平の時節身遇い難し"
+    },
+    {
+     "id": "konannite-4",
+     "field": "kakikudashi",
+     "snippet": "落花の時節又君に逢う"
+    },
+    {
+     "id": "seimei-1",
+     "field": "kakikudashi",
+     "snippet": "清明の時節雨紛紛"
+    }
+   ]
+  },
+  {
+   "word": "曹公",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 595,
+   "samples": [
+    {
+     "id": "montai04-2",
+     "field": "kakikudashi",
+     "snippet": "靖曰く、案ずるに、曹公の新書に曰く、己二にして敵一ならば、則ち一術を正と為し、一術を奇と為せ。己五にして敵一ならば、則ち"
+    },
+    {
+     "id": "montai05-2",
+     "field": "kakikudashi",
+     "snippet": "靖曰く、臣按ずるに、曹公、孫子を注して曰く、先ず出でて合戦するを正と為し、後に出づるを奇と為す、と。此れ旁より撃つの説と"
+    },
+    {
+     "id": "montai11-10",
+     "field": "kakikudashi",
+     "snippet": "臣案ずるに、曹公の新書に云く、攻車七十五人、前拒一隊、左右角二隊。守車一隊、炊子十人、守装五人、厩養五人、樵汲五人、共に"
+    }
+   ]
+  },
+  {
+   "word": "有功",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 596,
+   "samples": [
+    {
+     "id": "sanryaku01-1",
+     "field": "kakikudashi",
+     "snippet": "夫れ主将の法は、務めて英雄の心を攬り、有功を賞禄し、志を衆に通ず。故に衆と好みを同じうすれば、成らざるは靡く、衆と悪しみ"
+    },
+    {
+     "id": "shiba01-10",
+     "field": "kakikudashi",
+     "snippet": "其の命を失い常を乱し徳に背き、天の時に逆いて、有功の君を危うくするもの有れば、徧く諸侯に告ぐ。"
+    },
+    {
+     "id": "utsuryo22-3",
+     "field": "kakikudashi",
+     "snippet": "、皆分部有るを謂うなり。九に曰く、金鼓。有功を興し、有徳を致すを謂うなり。十に曰く、陣車。前矛を接連し、馬、其の目を冒す"
+    }
+   ]
+  },
+  {
+   "word": "有能",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 597,
+   "samples": [
+    {
+     "id": "kenro-3",
+     "field": "kakikudashi",
+     "snippet": "形の尨なるや、有徳に類し、声の宏なるや、有能に類す。向し其の技を出さざれば、虎猛しと雖も疑い畏れて卒に敢えて取らざらん。"
+    },
+    {
+     "id": "montai13-1",
+     "field": "kakikudashi",
+     "snippet": "は無能の将なるも敗る可からず。無制の兵は有能の将なるも勝つ可からず、と。朕、此の談は極致の論に非ずと疑う。"
+    },
+    {
+     "id": "sonshi01-13",
+     "field": "kakikudashi",
+     "snippet": "曰く、主孰れか有道なる、将孰れか有能なる、天地孰れか得たる、法令孰れか行なわる、兵衆孰れか強き、士卒孰れか練いたる、賞罰"
+    }
+   ]
+  },
+  {
+   "word": "望見",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 598,
+   "samples": [
+    {
+     "id": "kyowa-1",
+     "field": "kakikudashi",
+     "snippet": "孟子范より斉に之き、斉王の子を望見し、喟然として嘆じて曰く、居は気を移し、養は体を移す、と。大なるかな居や。夫れ尽く人の"
+    },
+    {
+     "id": "funkei-x11",
+     "field": "kakikudashi",
+     "snippet": "已にして相如出でて、廉頗を望見す。"
+    }
+   ]
+  },
+  {
+   "word": "本為",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 599,
+   "samples": [
+    {
+     "id": "rongo0102-1",
+     "field": "kakikudashi",
+     "snippet": "。本立ちて道生ず。孝弟なる者は、其れ仁の本為るか。"
+    },
+    {
+     "id": "mototachi-1",
+     "field": "kakikudashi",
+     "snippet": "む。本立ちて道生ず。孝悌なる者は其れ仁の本為るか。"
+    },
+    {
+     "id": "nowakuni-1",
+     "field": "kakikudashi",
+     "snippet": "夫れ食は人の天為り、農は政の本為り。倉廩実つるときは則ち礼節を知り、衣食乏しきときは則ち廉恥を忘る。故に躬ら東郊に耕し、"
+    }
+   ]
+  },
+  {
+   "word": "李白",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 600,
+   "samples": [
+    {
+     "id": "orin-1",
+     "field": "kakikudashi",
+     "snippet": "李白舟に乗って将に行かんと欲す"
+    },
+    {
+     "id": "toushisen026-17",
+     "field": "kakikudashi",
+     "snippet": "南のかた禹穴を尋ねて李白を見ば"
+    },
+    {
+     "id": "toushisen027-14",
+     "field": "kakikudashi",
+     "snippet": "李白は一斗詩百篇"
+    }
+   ]
+  },
+  {
+   "word": "来往",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 601,
+   "samples": [
+    {
+     "id": "horakuyu03-4",
+     "field": "kakikudashi",
+     "snippet": "亭前に来往して落花を踏む"
+    },
+    {
+     "id": "toushisen234-2",
+     "field": "kakikudashi",
+     "snippet": "来往預め程を期す"
+    },
+    {
+     "id": "toushisen257-4",
+     "field": "kakikudashi",
+     "snippet": "今人自ずから来往す"
+    }
+   ]
+  },
+  {
+   "word": "来者",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 602,
+   "samples": [
+    {
+     "id": "rongo0922-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、後生畏る可し。焉くんぞ来者の今に如かざるを知らんや。四十五十にして聞ゆること無くんば、斯れ亦た畏るるに足らざるの"
+    },
+    {
+     "id": "kikyorainoji-6",
+     "field": "kakikudashi",
+     "snippet": "来者の追う可きを知る"
+    },
+    {
+     "id": "yushuno-2",
+     "field": "kakikudashi",
+     "snippet": "後に来者を見ず"
+    }
+   ]
+  },
+  {
+   "word": "杯中",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 603,
+   "samples": [
+    {
+     "id": "p-haichu-2",
+     "field": "kakikudashi",
+     "snippet": "て、酒を賜るを蒙り、方に飲まんと欲して、杯中に蛇有るを見る。意甚だ之を悪むも、既に飲みて疾めり、と。"
+    },
+    {
+     "id": "p-haichu-3",
+     "field": "kakikudashi",
+     "snippet": "角有り、漆もて画き蛇を作す。広意えらく、杯中の蛇は即ち角影なり、と。復た酒を前処に置きて、客に謂いて曰く、酒中復た見る所"
+    },
+    {
+     "id": "kowosemu-14",
+     "field": "kakikudashi",
+     "snippet": "且く杯中の物を進めん"
+    }
+   ]
+  },
+  {
+   "word": "東山",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 604,
+   "samples": [
+    {
+     "id": "toushisen032-8",
+     "field": "kakikudashi",
+     "snippet": "一たび東山に臥して三十春"
+    },
+    {
+     "id": "toushisen063-1",
+     "field": "kakikudashi",
+     "snippet": "香閣東山の下"
+    },
+    {
+     "id": "toushisen419-3",
+     "field": "kakikudashi",
+     "snippet": "旧府東山余妓在り"
+    }
+   ]
+  },
+  {
+   "word": "東方",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 605,
+   "samples": [
+    {
+     "id": "toushisen304-3",
+     "field": "kakikudashi",
+     "snippet": "羅敷独り東方に向かって去る"
+    },
+    {
+     "id": "soji02k07-1",
+     "field": "kakikudashi",
+     "snippet": "暾として将に東方に出でんとして、吾が檻を扶桑に照らす。"
+    }
+   ]
+  },
+  {
+   "word": "桑乾",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 606,
+   "samples": [
+    {
+     "id": "toushisen433-3",
+     "field": "kakikudashi",
+     "snippet": "端無くも更に渡る桑乾の水"
+    },
+    {
+     "id": "toushisen111-2",
+     "field": "kakikudashi",
+     "snippet": "匹馬桑乾に向う"
+    },
+    {
+     "id": "toushisen285-1",
+     "field": "kakikudashi",
+     "snippet": "征戍して桑乾に在り"
+    }
+   ]
+  },
+  {
+   "word": "梁上",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 607,
+   "samples": [
+    {
+     "id": "ryojo-2",
+     "field": "kakikudashi",
+     "snippet": "盗有りて夜陳寔の室に入り、梁上に止まる。"
+    },
+    {
+     "id": "ryojo-5",
+     "field": "kakikudashi",
+     "snippet": "梁上の君子は是れなり、と。"
+    },
+    {
+     "id": "toushisen046-3",
+     "field": "kakikudashi",
+     "snippet": "只だ梁上に来りて語り"
+    }
+   ]
+  },
+  {
+   "word": "梁園",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 608,
+   "samples": [
+    {
+     "id": "toushisen337-1",
+     "field": "kakikudashi",
+     "snippet": "梁園の秋竹古時の烟"
+    },
+    {
+     "id": "toushisen365-1",
+     "field": "kakikudashi",
+     "snippet": "梁園日暮乱飛の鴉"
+    },
+    {
+     "id": "toushisen437-3",
+     "field": "kakikudashi",
+     "snippet": "問うを休めよ梁園の旧賓客"
+    }
+   ]
+  },
+  {
+   "word": "楊花",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 609,
+   "samples": [
+    {
+     "id": "toushisen134-7",
+     "field": "kakikudashi",
+     "snippet": "楊花上路に飛び"
+    },
+    {
+     "id": "toushisen206-3",
+     "field": "kakikudashi",
+     "snippet": "桃花は細かに楊花を逐うて落ち"
+    },
+    {
+     "id": "toushisen409-4",
+     "field": "kakikudashi",
+     "snippet": "風起って楊花人を愁殺せん"
+    }
+   ]
+  },
+  {
+   "word": "楼船",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 610,
+   "samples": [
+    {
+     "id": "kafuku-1",
+     "field": "kakikudashi",
+     "snippet": "呂嘉は小忠にして、佗をして後無からしむ。楼船は欲を従にして、怠傲失惑す。"
+    },
+    {
+     "id": "toushisen160-4",
+     "field": "kakikudashi",
+     "snippet": "中流の簫鼓は楼船を振わしむ"
+    },
+    {
+     "id": "shufunoji-5",
+     "field": "kakikudashi",
+     "snippet": "楼船を汎べて汾河を済り"
+    }
+   ]
+  },
+  {
+   "word": "楼蘭",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 611,
+   "samples": [
+    {
+     "id": "toushisen335-4",
+     "field": "kakikudashi",
+     "snippet": "楼蘭を破らずんば終に還らじ"
+    },
+    {
+     "id": "toushisen035-4",
+     "field": "kakikudashi",
+     "snippet": "愁殺す楼蘭征戍の児"
+    },
+    {
+     "id": "toushisen423-4",
+     "field": "kakikudashi",
+     "snippet": "直ちに楼蘭を斬って国恩に報いん"
+    }
+   ]
+  },
+  {
+   "word": "横笛",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 612,
+   "samples": [
+    {
+     "id": "toushisen109-8",
+     "field": "kakikudashi",
+     "snippet": "遥かに聞く横笛の音"
+    },
+    {
+     "id": "toushisen443-4",
+     "field": "kakikudashi",
+     "snippet": "横笛吹くを休めよ塞上の声"
+    },
+    {
+     "id": "toushisen412-2",
+     "field": "kakikudashi",
+     "snippet": "横笛偏えに吹く行路難"
+    }
+   ]
+  },
+  {
+   "word": "樹色",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 613,
+   "samples": [
+    {
+     "id": "toushisen328-4",
+     "field": "kakikudashi",
+     "snippet": "朧朧たる樹色昭陽を隠す"
+    },
+    {
+     "id": "toushisen405-2",
+     "field": "kakikudashi",
+     "snippet": "新豊の樹色千官を繞れり"
+    },
+    {
+     "id": "toushisen183-5",
+     "field": "kakikudashi",
+     "snippet": "関城の樹色寒を催して近く"
+    }
+   ]
+  },
+  {
+   "word": "武城",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 614,
+   "samples": [
+    {
+     "id": "niwatori-1",
+     "field": "kakikudashi",
+     "snippet": "子、武城に之き、絃歌の声を聞く。夫子莞爾として笑いて曰く、鶏を割くに焉くんぞ牛刀を用いん。"
+    },
+    {
+     "id": "rongo0612-1",
+     "field": "kakikudashi",
+     "snippet": "子游、武城の宰と為る。子曰く、女、人を得たるか。曰く、澹台滅明なる者有り。行くに径に由らず。公事に非ざれば、未だ嘗て偃の"
+    },
+    {
+     "id": "rongo1704-1",
+     "field": "kakikudashi",
+     "snippet": "子、武城に之き、絃歌の声を聞く。夫子莞爾として笑いて曰く、鶏を割くに焉くんぞ牛刀を用いん。子游対えて曰く、昔者偃や、諸を"
+    }
+   ]
+  },
+  {
+   "word": "武子",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 615,
+   "samples": [
+    {
+     "id": "keisetsu-2",
+     "field": "kakikudashi",
+     "snippet": "晋の車胤字は武子、南平の人なり。恭勤にして倦まず、博覧多通なり。家貧にして常には油を得ず。夏月には則ち練囊に数十の蛍火を"
+    },
+    {
+     "id": "keisetsu-3",
+     "field": "kakikudashi",
+     "snippet": "く征西の長史に遷り、遂に朝廷に顕る。時に武子、呉隠之と寒素博学を以て名を世に知られ、又賞会に善し。当時盛坐有る毎に、武子"
+    }
+   ]
+  },
+  {
+   "word": "武陵",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 616,
+   "samples": [
+    {
+     "id": "togenkyo-1",
+     "field": "kakikudashi",
+     "snippet": "晋の太元中、武陵の人、魚を捕うるを業と為す。"
+    },
+    {
+     "id": "toushisen341-1",
+     "field": "kakikudashi",
+     "snippet": "武陵の渓口扁舟を駐むるに"
+    },
+    {
+     "id": "toushisen214-6",
+     "field": "kakikudashi",
+     "snippet": "武陵の一曲南征を想う"
+    }
+   ]
+  },
+  {
+   "word": "歳寒",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 617,
+   "samples": [
+    {
+     "id": "rongo0927-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、歳寒くして、然る後に松柏の彫むに後るるを知るなり。"
+    },
+    {
+     "id": "kochonose-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、歳寒くして、然る後に松柏の彫むに後るるを知るなり。"
+    }
+   ]
+  },
+  {
+   "word": "比干",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 618,
+   "samples": [
+    {
+     "id": "insanjin-1",
+     "field": "kakikudashi",
+     "snippet": "微子は之を去り、箕子は之が奴と為り、比干は諫めて死す。孔子曰く、殷に三仁有り。"
+    },
+    {
+     "id": "sekkan-1",
+     "field": "kakikudashi",
+     "snippet": "攀ず。檻折る。雲呼びて曰く、臣、下竜逢・比干に従いて、地下に遊ぶを得ば、足る。未だ聖朝の何如を知らざるのみ、と。御史遂に"
+    }
+   ]
+  },
+  {
+   "word": "毫末",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 619,
+   "samples": [
+    {
+     "id": "kinkaichi-1",
+     "field": "kakikudashi",
+     "snippet": "泰山は毫末を欺くを要せず"
+    },
+    {
+     "id": "toushisen146-9",
+     "field": "kakikudashi",
+     "snippet": "嶺雁毫末に随い"
+    },
+    {
+     "id": "roushi64-2",
+     "field": "kakikudashi",
+     "snippet": "合抱の木も、毫末より生じ、九層の台も、累土より起り、千里の行も、足下より始まる。"
+    }
+   ]
+  },
+  {
+   "word": "水光",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 620,
+   "samples": [
+    {
+     "id": "gakugakuo-8",
+     "field": "kakikudashi",
+     "snippet": "水光山色悲しみに勝えず"
+    },
+    {
+     "id": "kojoni-1",
+     "field": "kakikudashi",
+     "snippet": "水光瀲灩として晴れて方に好し"
+    },
+    {
+     "id": "toushisen110-3",
+     "field": "kakikudashi",
+     "snippet": "水光日を浮べて出で"
+    }
+   ]
+  },
+  {
+   "word": "水流",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 621,
+   "samples": [
+    {
+     "id": "sonshi09-6",
+     "field": "kakikudashi",
+     "snippet": "生を視て高きに処り、水流を迎うること無かれ。"
+    },
+    {
+     "id": "24shihin14-3",
+     "field": "kakikudashi",
+     "snippet": "水流れ花開き、清露未だ晞かず。"
+    },
+    {
+     "id": "rikutou01-3",
+     "field": "kakikudashi",
+     "snippet": "くは其の情を聞かん。太公曰く、源深くして水流れ、水流れて魚之に生ずるは、情なり。根深くして木長じ、木長じて実之に生ずるは"
+    }
+   ]
+  },
+  {
+   "word": "水至",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 622,
+   "samples": [
+    {
+     "id": "p-bisei-1",
+     "field": "kakikudashi",
+     "snippet": "信なること尾生の如きは、女子と梁下に期し、女子来らず、水至るも去らず、柱を抱きて死す。"
+    },
+    {
+     "id": "p-bisei-2",
+     "field": "kakikudashi",
+     "snippet": "尾生、女子と梁下に期し、女子来らず。水至れども去らず、梁柱を抱きて死す。"
+    },
+    {
+     "id": "mizukiyo-1",
+     "field": "kakikudashi",
+     "snippet": "水至って清ければ則ち魚無し。人至って察なれば則ち徒無し。冕して旒を前にするは、明を蔽う所以なり。黈纊して耳を充たすは、聡"
+    }
+   ]
+  },
+  {
+   "word": "江城",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 623,
+   "samples": [
+    {
+     "id": "toushisen443-2",
+     "field": "kakikudashi",
+     "snippet": "辺風蕭颯として江城を動かす"
+    },
+    {
+     "id": "toushisen069-1",
+     "field": "kakikudashi",
+     "snippet": "江城画裏の如く"
+    },
+    {
+     "id": "toushisen325-4",
+     "field": "kakikudashi",
+     "snippet": "江城五月梅花落つ"
+    }
+   ]
+  },
+  {
+   "word": "江声",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 624,
+   "samples": [
+    {
+     "id": "toushisen101-4",
+     "field": "kakikudashi",
+     "snippet": "江声夜潮を聴く"
+    },
+    {
+     "id": "toushisen096-5",
+     "field": "kakikudashi",
+     "snippet": "江声白沙に走る"
+    },
+    {
+     "id": "toushisen426-2",
+     "field": "kakikudashi",
+     "snippet": "夜は山雨を添えて江声を作す"
+    }
+   ]
+  },
+  {
+   "word": "江月",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 625,
+   "samples": [
+    {
+     "id": "toushisen043-10",
+     "field": "kakikudashi",
+     "snippet": "江月年年祗だ相似たり"
+    },
+    {
+     "id": "toushisen043-11",
+     "field": "kakikudashi",
+     "snippet": "知らず江月何人をか待つ"
+    },
+    {
+     "id": "toushisen043-9",
+     "field": "kakikudashi",
+     "snippet": "江月何れの年か初めて人を照らす"
+    }
+   ]
+  },
+  {
+   "word": "江村",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 626,
+   "samples": [
+    {
+     "id": "tobo04-1",
+     "field": "kakikudashi",
+     "snippet": "貞姑の馬鬣江村に在り"
+    },
+    {
+     "id": "koson-2",
+     "field": "kakikudashi",
+     "snippet": "江村月落ちて正に眠るに堪えたり"
+    },
+    {
+     "id": "koson_toho-2",
+     "field": "kakikudashi",
+     "snippet": "長夏江村事事幽なり"
+    }
+   ]
+  },
+  {
+   "word": "江楼",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 627,
+   "samples": [
+    {
+     "id": "toushisen340-1",
+     "field": "kakikudashi",
+     "snippet": "酔うて別る江楼橘柚香しく"
+    },
+    {
+     "id": "toushisen439-1",
+     "field": "kakikudashi",
+     "snippet": "独り江楼に上りて思い渺然"
+    },
+    {
+     "id": "toushisen211-1",
+     "field": "kakikudashi",
+     "snippet": "日日江楼翠微に坐す"
+    }
+   ]
+  },
+  {
+   "word": "江河",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 628,
+   "samples": [
+    {
+     "id": "rikutou27-4",
+     "field": "kakikudashi",
+     "snippet": "もて百を撃つ所以なり。奇技は、深水を越え江河を渡る所以なり。強弩長兵は、水を踰えて戦う所以なり。"
+    },
+    {
+     "id": "sanryaku03-6",
+     "field": "kakikudashi",
+     "snippet": "とするなり。夫れ義を以て不義を誅するは、江河を決して爝火に漑ぎ、不測に臨んで堕ちんと欲するを擠すが若し。其の克つや必せり"
+    },
+    {
+     "id": "sonshi05-6",
+     "field": "kakikudashi",
+     "snippet": "故に善く奇を出す者は、窮まり無きこと天地の如く、竭きざること江河の如し。"
+    }
+   ]
+  },
+  {
+   "word": "江海",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 629,
+   "samples": [
+    {
+     "id": "toushisen093-4",
+     "field": "kakikudashi",
+     "snippet": "青天江海の流れ"
+    },
+    {
+     "id": "roushi32-4",
+     "field": "kakikudashi",
+     "snippet": "道の天下に在るを譬うれば、猶お川谷の江海に与するがごとし。"
+    },
+    {
+     "id": "roushi66-1",
+     "field": "kakikudashi",
+     "snippet": "江海の能く百谷の王たる所以の者は、其の善く之に下るを以てなり。故に能く百谷の王たり。"
+    }
+   ]
+  },
+  {
+   "word": "沈沈",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 630,
+   "samples": [
+    {
+     "id": "toushisen135-2",
+     "field": "kakikudashi",
+     "snippet": "積翠藹として沈沈たり"
+    },
+    {
+     "id": "toushisen131-2",
+     "field": "kakikudashi",
+     "snippet": "仙宇靄として沈沈たり"
+    },
+    {
+     "id": "8gatsu15-1",
+     "field": "kakikudashi",
+     "snippet": "銀台金闕夕べ沈沈"
+    }
+   ]
+  },
+  {
+   "word": "河漢",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 631,
+   "samples": [
+    {
+     "id": "toushisen134-11",
+     "field": "kakikudashi",
+     "snippet": "宸章河漢に類し"
+    },
+    {
+     "id": "koshi19_10-1",
+     "field": "kakikudashi",
+     "snippet": "迢迢たる牽牛星、皎皎たる河漢の女"
+    },
+    {
+     "id": "koshi19_10-4",
+     "field": "kakikudashi",
+     "snippet": "河漢清くして且つ浅し、相去ること復た幾許ぞ"
+    }
+   ]
+  },
+  {
+   "word": "海上",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 632,
+   "samples": [
+    {
+     "id": "toushisen002-1",
+     "field": "kakikudashi",
+     "snippet": "孤鴻海上より来り"
+    },
+    {
+     "id": "toushisen043-1",
+     "field": "kakikudashi",
+     "snippet": "海上の明月潮と共に生ず"
+    },
+    {
+     "id": "toushisen066-3",
+     "field": "kakikudashi",
+     "snippet": "海上碧雲断ち"
+    }
+   ]
+  },
+  {
+   "word": "涼州",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 633,
+   "samples": [
+    {
+     "id": "toushisen443-1",
+     "field": "kakikudashi",
+     "snippet": "一曲の涼州金石清し"
+    },
+    {
+     "id": "toushisen417-4",
+     "field": "kakikudashi",
+     "snippet": "人の涼州を取るを解道する無し"
+    },
+    {
+     "id": "montai01-9",
+     "field": "kakikudashi",
+     "snippet": "太宗曰く、晋の馬隆、涼州を討ちしときも、亦た是れ八陣の図に依り、偏箱車を作る。"
+    }
+   ]
+  },
+  {
+   "word": "深林",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 634,
+   "samples": [
+    {
+     "id": "toushisen245-3",
+     "field": "kakikudashi",
+     "snippet": "返景深林に入り"
+    },
+    {
+     "id": "toushisen246-3",
+     "field": "kakikudashi",
+     "snippet": "深林人知らず"
+    }
+   ]
+  },
+  {
+   "word": "深淵",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 635,
+   "samples": [
+    {
+     "id": "rongo0803-1",
+     "field": "kakikudashi",
+     "snippet": "予が手を啓け。詩に云う、戦戦兢兢として、深淵に臨むが如く、薄冰を履むが如しと。而今よりして後、吾免るるを知るかな、小子。"
+    },
+    {
+     "id": "kokyo03-7",
+     "field": "kakikudashi",
+     "snippet": "詩に云う、戦戦兢兢として、深淵に臨むが如く、薄氷を履むが如し、と。"
+    },
+    {
+     "id": "rikutou04-2",
+     "field": "kakikudashi",
+     "snippet": "。高山は之を仰ぐも、極む可からざるなり。深淵は之を度るも、測る可からざるなり。神明の徳、正静にして其れ極まれり。"
+    }
+   ]
+  },
+  {
+   "word": "深谷",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 636,
+   "samples": [
+    {
+     "id": "24shihin03-2",
+     "field": "kakikudashi",
+     "snippet": "窈窕たる深谷、時に美人を見す。"
+    },
+    {
+     "id": "goshi05-3",
+     "field": "kakikudashi",
+     "snippet": "若し高山・深谷に、卒然として相遇わば、必ず先ず鼓譟して之に乗じ、弓と弩とを進め、且つ射、且つ虜にす。審らかに其の政を察し"
+    },
+    {
+     "id": "rikutou59-4",
+     "field": "kakikudashi",
+     "snippet": "大澗、深谷、翳茂、林木は、此れ騎の竭地なり。"
+    }
+   ]
+  },
+  {
+   "word": "淵明",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 637,
+   "samples": [
+    {
+     "id": "kankotsu-1",
+     "field": "kakikudashi",
+     "snippet": "有るの才を以て、窮まり無きの意を追えば、淵明・少陵と雖も、工みなるを得ざるなり。"
+    },
+    {
+     "id": "ronshi04-4",
+     "field": "kakikudashi",
+     "snippet": "未だ害なわず淵明は是れ晋人なるを"
+    },
+    {
+     "id": "shisenno-4",
+     "field": "kakikudashi",
+     "snippet": "細やかに淵明の詩に和す"
+    }
+   ]
+  },
+  {
+   "word": "淹留",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 638,
+   "samples": [
+    {
+     "id": "enkako_sohi01-6",
+     "field": "kakikudashi",
+     "snippet": "君何ぞ淹留して他方に寄る"
+    },
+    {
+     "id": "toushisen039-2",
+     "field": "kakikudashi",
+     "snippet": "今年寄食して仍お淹留す"
+    },
+    {
+     "id": "soji12-3",
+     "field": "kakikudashi",
+     "snippet": "猨狖群嘯して虎豹嘷ぶ、桂枝を攀じ援いて聊か淹留す。"
+    }
+   ]
+  },
+  {
+   "word": "清江",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 639,
+   "samples": [
+    {
+     "id": "koson_toho-1",
+     "field": "kakikudashi",
+     "snippet": "清江一曲村を抱いて流る"
+    },
+    {
+     "id": "toushisen208-2",
+     "field": "kakikudashi",
+     "snippet": "南浦の清江万里橋"
+    },
+    {
+     "id": "toushisen366-2",
+     "field": "kakikudashi",
+     "snippet": "水は清江に満ち花は山に満つ"
+    }
+   ]
+  },
+  {
+   "word": "清風",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 640,
+   "samples": [
+    {
+     "id": "eikaishi01-4",
+     "field": "kakikudashi",
+     "snippet": "清風我が襟を吹く"
+    },
+    {
+     "id": "toushisen036-6",
+     "field": "kakikudashi",
+     "snippet": "気は凜たり清風沙漠の辺"
+    },
+    {
+     "id": "24shihin21-2",
+     "field": "kakikudashi",
+     "snippet": "白雲と、清風と与に帰るが如し。"
+    }
+   ]
+  },
+  {
+   "word": "渭水",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 641,
+   "samples": [
+    {
+     "id": "toushisen177-1",
+     "field": "kakikudashi",
+     "snippet": "渭水は自ずから秦塞を縈って曲り"
+    },
+    {
+     "id": "toushisen265-1",
+     "field": "kakikudashi",
+     "snippet": "渭水東に流れ去り"
+    },
+    {
+     "id": "toushisen315-3",
+     "field": "kakikudashi",
+     "snippet": "地は錦江を転じて渭水と成し"
+    }
+   ]
+  },
+  {
+   "word": "満堂",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 642,
+   "samples": [
+    {
+     "id": "toushisen038-7",
+     "field": "kakikudashi",
+     "snippet": "満堂尽く是れ忠義の士"
+    },
+    {
+     "id": "toushisen384-2",
+     "field": "kakikudashi",
+     "snippet": "満堂の糸竹君が為に愁う"
+    },
+    {
+     "id": "soji02k06-4",
+     "field": "kakikudashi",
+     "snippet": "満堂の美人、忽ち独り余と目成す。"
+    }
+   ]
+  },
+  {
+   "word": "滄浪",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 643,
+   "samples": [
+    {
+     "id": "toushisen137-11",
+     "field": "kakikudashi",
+     "snippet": "滄浪吾に曲有り"
+    },
+    {
+     "id": "soji07-17",
+     "field": "kakikudashi",
+     "snippet": "滄浪の水清まば、"
+    },
+    {
+     "id": "soji07-19",
+     "field": "kakikudashi",
+     "snippet": "滄浪の水濁らば、"
+    }
+   ]
+  },
+  {
+   "word": "滄海",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 644,
+   "samples": [
+    {
+     "id": "toushisen136-2",
+     "field": "kakikudashi",
+     "snippet": "安くんぞ滄海の東を知らん"
+    },
+    {
+     "id": "toushisen005-3",
+     "field": "kakikudashi",
+     "snippet": "滄海に壮士を得て"
+    },
+    {
+     "id": "toushisen115-3",
+     "field": "kakikudashi",
+     "snippet": "楼には観る滄海の日"
+    }
+   ]
+  },
+  {
+   "word": "漢武",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 645,
+   "samples": [
+    {
+     "id": "toushisen176-2",
+     "field": "kakikudashi",
+     "snippet": "還た軽んず漢武の汾に横たうるを楽しみしを"
+    },
+    {
+     "id": "toushisen125-10",
+     "field": "kakikudashi",
+     "snippet": "汾歌漢武の才"
+    },
+    {
+     "id": "toushisen145-8",
+     "field": "kakikudashi",
+     "snippet": "終に期す漢武の巡"
+    }
+   ]
+  },
+  {
+   "word": "潺湲",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 2,
+   "rank": 646,
+   "samples": [
+    {
+     "id": "yukei-1",
+     "field": "kakikudashi",
+     "snippet": "水は自ずから潺湲日は自ずから斜めなり"
+    }
+   ]
+  },
+  {
+   "word": "瀟湘",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 647,
+   "samples": [
+    {
+     "id": "toushisen043-25",
+     "field": "kakikudashi",
+     "snippet": "碣石瀟湘無限の路"
+    },
+    {
+     "id": "toushisen106-2",
+     "field": "kakikudashi",
+     "snippet": "瀟湘水北に流る"
+    },
+    {
+     "id": "toushisen394-1",
+     "field": "kakikudashi",
+     "snippet": "瀟湘何事ぞ等閑に回る"
+    }
+   ]
+  },
+  {
+   "word": "無情",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 648,
+   "samples": [
+    {
+     "id": "kinryo-3",
+     "field": "kakikudashi",
+     "snippet": "無情は最も是れ台城の柳"
+    },
+    {
+     "id": "gekkadoku01-13",
+     "field": "kakikudashi",
+     "snippet": "永く無情の遊を結び"
+    },
+    {
+     "id": "zobetsu-1",
+     "field": "kakikudashi",
+     "snippet": "多情は却って似たり総て無情なるに"
+    }
+   ]
+  },
+  {
+   "word": "燕人",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 2,
+   "rank": 649,
+   "samples": [
+    {
+     "id": "mazukai-1",
+     "field": "kakikudashi",
+     "snippet": "燕人、太子の平を立てて君と為す。"
+    }
+   ]
+  },
+  {
+   "word": "犬馬",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 650,
+   "samples": [
+    {
+     "id": "kenbanoya-1",
+     "field": "kakikudashi",
+     "snippet": "子游、孝を問う。子曰く、今の孝は、是れ能く養うを謂う。犬馬に至るまで、皆能く養うこと有り。敬せずんば、何を以て別たんや。"
+    },
+    {
+     "id": "kenba-1",
+     "field": "kakikudashi",
+     "snippet": "死再拝し、皇帝陛下に上疏す。……臣窃かに犬馬の心に勝えず、昧死して願う、陛下有司に詔し、盛夏の吉時に因り、皇子の位を定め"
+    },
+    {
+     "id": "kenbanoro-1",
+     "field": "kakikudashi",
+     "snippet": "孔明其の意甚だ誠なるを見て、乃ち曰く、将軍既に相棄てず、願わくは犬馬の労を効さん、と。"
+    }
+   ]
+  },
+  {
+   "word": "狂夫",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 651,
+   "samples": [
+    {
+     "id": "senryo-1",
+     "field": "kakikudashi",
+     "snippet": "広武君曰く、臣聞く、智者も千慮に必ず一失有り、愚者も千慮に必ず一得有り、と。故に曰く、狂夫の言も、聖人は焉を択ぶ、と。"
+    },
+    {
+     "id": "toushisen415-4",
+     "field": "kakikudashi",
+     "snippet": "独自狂夫のみ家を憶わず"
+    },
+    {
+     "id": "utsuryo08-7",
+     "field": "kakikudashi",
+     "snippet": "。七十余を過ぐれども、主聴かず。人人之を狂夫と謂えり。文王に遇うに及びて、則ち三万の衆を提げ、一戦して天下定まる。武議に"
+    }
+   ]
+  },
+  {
+   "word": "玉壺",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 652,
+   "samples": [
+    {
+     "id": "toushisen338-4",
+     "field": "kakikudashi",
+     "snippet": "一片の氷心玉壺に在り"
+    },
+    {
+     "id": "toushisen200-8",
+     "field": "kakikudashi",
+     "snippet": "玉壺の春酒正に携うるに堪えん"
+    },
+    {
+     "id": "24shihin06-1",
+     "field": "kakikudashi",
+     "snippet": "玉壺に春を買い、雨を茆屋に賞ず。"
+    }
+   ]
+  },
+  {
+   "word": "王公",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 653,
+   "samples": [
+    {
+     "id": "daigaku00a-9",
+     "field": "kakikudashi",
+     "snippet": "人生れて八歳なれば、則ち王公より以下、庶人の子弟に至るまで、皆小学に入る。"
+    },
+    {
+     "id": "toushisen027-19",
+     "field": "kakikudashi",
+     "snippet": "帽を脱し頂を露す王公の前"
+    },
+    {
+     "id": "roushi42-2",
+     "field": "kakikudashi",
+     "snippet": "人の悪む所は、唯だ孤・寡・不轂なるも、而るに王公は以て称と為す。故に物或いは之を損して益し、或いは之を益して損す。"
+    }
+   ]
+  },
+  {
+   "word": "王国",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 654,
+   "samples": [
+    {
+     "id": "tashiseisei-4",
+     "field": "kakikudashi",
+     "snippet": "此の王国に生まる"
+    },
+    {
+     "id": "tashiseisei-5",
+     "field": "kakikudashi",
+     "snippet": "王国に克く生まる"
+    }
+   ]
+  },
+  {
+   "word": "王必",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 655,
+   "samples": [
+    {
+     "id": "kanpeki4k-2",
+     "field": "kakikudashi",
+     "snippet": "曰く、誰か使いす可き者ぞ、と。相如曰く、王必ず人無くんば、臣願わくは璧を奉じて往きて使いせん。城趙に入らば璧は秦に留めん"
+    },
+    {
+     "id": "mazukai-x14",
+     "field": "kakikudashi",
+     "snippet": "今、王必ず士を致さんと欲せば、先ず隗より始めよ。"
+    },
+    {
+     "id": "utsuryo03-7",
+     "field": "kakikudashi",
+     "snippet": "れば、能く正す莫し。十万の衆を経制して、王必ず能く之をして吾が衣を衣、吾が食を食わしめて、戦い勝たず、守り固からざる者は"
+    }
+   ]
+  },
+  {
+   "word": "珊瑚",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 656,
+   "samples": [
+    {
+     "id": "toushisen193-3",
+     "field": "kakikudashi",
+     "snippet": "越人自ら貢す珊瑚の樹"
+    },
+    {
+     "id": "toushisen248-1",
+     "field": "kakikudashi",
+     "snippet": "遺却す珊瑚の鞭"
+    },
+    {
+     "id": "toushisen026-4",
+     "field": "kakikudashi",
+     "snippet": "釣竿払わんと欲す珊瑚の樹"
+    }
+   ]
+  },
+  {
+   "word": "珠履",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 657,
+   "samples": [
+    {
+     "id": "toushisen123-4",
+     "field": "kakikudashi",
+     "snippet": "珠履雁行来る"
+    },
+    {
+     "id": "toushisen247-3",
+     "field": "kakikudashi",
+     "snippet": "時に珠履の跡を侵し"
+    },
+    {
+     "id": "toushisen024-7",
+     "field": "kakikudashi",
+     "snippet": "何れの門に向かってか珠履を趿まんと欲する"
+    }
+   ]
+  },
+  {
+   "word": "田家",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 658,
+   "samples": [
+    {
+     "id": "toushisen150-1",
+     "field": "kakikudashi",
+     "snippet": "田家にして復た近臣"
+    },
+    {
+     "id": "banshun03-2",
+     "field": "kakikudashi",
+     "snippet": "日長くして客の田家に到る無し"
+    },
+    {
+     "id": "kojinnoso-2",
+     "field": "kakikudashi",
+     "snippet": "我を邀えて田家に至らしむ"
+    }
+   ]
+  },
+  {
+   "word": "疏食",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 659,
+   "samples": [
+    {
+     "id": "kyokukou-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、疏食を飯い水を飲み、肱を曲げて之を枕とす。楽しみ亦た其の中に在り。不義にして富み且つ貴きは、我に於いて浮雲の如し"
+    },
+    {
+     "id": "rongo1410-1",
+     "field": "kakikudashi",
+     "snippet": "問う。曰く、人や、伯氏の騈邑三百を奪う。疏食を飯い、歯を没するまで怨言無かりき。"
+    },
+    {
+     "id": "shiwobo-1",
+     "field": "kakikudashi",
+     "snippet": "管仲を問う。曰く、人や、伯氏の騈邑三百を奪う。疏食を飯い、歯を没するまで怨言無かりき。"
+    }
+   ]
+  },
+  {
+   "word": "疾有",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "pre_exclude": "n79-pattern: X+ari/nashi construction fragment (gong-you/ri-you/mei-you/sin-nasi etc all 404 or reibun-only in N79)",
+   "rank": 660,
+   "samples": [
+    {
+     "id": "ganshoku-1",
+     "field": "kakikudashi",
+     "snippet": "曾子、疾有り。孟敬子之を問う。曾子言いて曰く、鳥の将に死なんとする、其の鳴くや哀し。人の将に死なんとする、其の言や善し。"
+    },
+    {
+     "id": "rongo0608-1",
+     "field": "kakikudashi",
+     "snippet": "伯牛、疾有り。子、之を問う。牖より其の手を執りて、曰く、之亡からん。命なるかな、斯の人にして斯の疾有るや、斯の人にして斯"
+    },
+    {
+     "id": "rongo0803-1",
+     "field": "kakikudashi",
+     "snippet": "曾子、疾有り。門弟子を召して曰く、予が足を啓け、予が手を啓け。詩に云う、戦戦兢兢として、深淵に臨むが如く、薄冰を履むが如"
+    }
+   ]
+  },
+  {
+   "word": "瘴癘",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 661,
+   "samples": [
+    {
+     "id": "toushisen139-7",
+     "field": "kakikudashi",
+     "snippet": "風霜瘴癘を駆り"
+    },
+    {
+     "id": "toushisen020-7",
+     "field": "kakikudashi",
+     "snippet": "処処の山川同じく瘴癘"
+    },
+    {
+     "id": "toushisen159-4",
+     "field": "kakikudashi",
+     "snippet": "崇山の瘴癘聞くに堪えず"
+    }
+   ]
+  },
+  {
+   "word": "登臨",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 662,
+   "samples": [
+    {
+     "id": "toushisen011-3",
+     "field": "kakikudashi",
+     "snippet": "登臨すれば世界を出で"
+    },
+    {
+     "id": "toushisen082-2",
+     "field": "kakikudashi",
+     "snippet": "登臨すれば日辺に近し"
+    }
+   ]
+  },
+  {
+   "word": "白眼",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 663,
+   "samples": [
+    {
+     "id": "p-gensekisei-1",
+     "field": "kakikudashi",
+     "snippet": "籍は又能く青白眼を為す。礼俗の士を見れば、白眼を以て之に対す。"
+    },
+    {
+     "id": "toushisen345-4",
+     "field": "kakikudashi",
+     "snippet": "白眼もて他の世上の人を看る"
+    },
+    {
+     "id": "toushisen027-10",
+     "field": "kakikudashi",
+     "snippet": "觴を挙げ白眼もて青天を望む"
+    }
+   ]
+  },
+  {
+   "word": "白骨",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 664,
+   "samples": [
+    {
+     "id": "kishi03-1",
+     "field": "kakikudashi",
+     "snippet": "白骨縦横乱麻に似たり"
+    },
+    {
+     "id": "7aishiosan01-8",
+     "field": "kakikudashi",
+     "snippet": "白骨平原を蔽う"
+    },
+    {
+     "id": "heishako-32",
+     "field": "kakikudashi",
+     "snippet": "古来白骨人の収むる無し"
+    }
+   ]
+  },
+  {
+   "word": "百獣",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 665,
+   "samples": [
+    {
+     "id": "toranoi-2",
+     "field": "kakikudashi",
+     "snippet": "虎、百獣を求めて之を食らい、狐を得たり。"
+    },
+    {
+     "id": "toranoi-4",
+     "field": "kakikudashi",
+     "snippet": "天帝、我をして百獣に長たらしむ。"
+    },
+    {
+     "id": "toranoi-8",
+     "field": "kakikudashi",
+     "snippet": "百獣の我を見て、敢えて走らざらんや、と。"
+    }
+   ]
+  },
+  {
+   "word": "皆之",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 666,
+   "samples": [
+    {
+     "id": "montai03-1",
+     "field": "kakikudashi",
+     "snippet": "太宗曰く、凡そ兵の却くは、皆之を奇と謂うか。靖曰く、然らず。夫れ兵却くとき、旗、参差にして斉しからず、鼓、大小にして応ぜ"
+    },
+    {
+     "id": "rikutou24-3",
+     "field": "kakikudashi",
+     "snippet": "は符の事泄るるは、聞く者と告ぐる者とは、皆之を誅す。八符は、主と将と聞くことを秘し、陰かに言語を通じて泄さず、中外相知る"
+    },
+    {
+     "id": "roushi49-2",
+     "field": "kakikudashi",
+     "snippet": "聖人の天下に在るや、歙歙として天下の為に其の心を渾す。百姓は皆其の耳目を注ぐ。聖人は皆之を孩にす。"
+    }
+   ]
+  },
+  {
+   "word": "皆以",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 667,
+   "samples": [
+    {
+     "id": "nishikiyo-2",
+     "field": "kakikudashi",
+     "snippet": "項王、秦の宮室の皆以て焼けて残破せるを見、又心に懐思して、東に帰らんと欲す。曰く、富貴にして故郷に帰らざるは、繍を衣て夜"
+    },
+    {
+     "id": "daigaku00a-4",
+     "field": "kakikudashi",
+     "snippet": "是を以て皆以て其の性の有する所を知りて、之を全くすること有る能わざるなり。"
+    },
+    {
+     "id": "rikutou13-4",
+     "field": "kakikudashi",
+     "snippet": "るれば則ち皆其の害を同じくす。然らば則ち皆以て之を啓く有りて、以て之を閉ずる有る無きなり。"
+    }
+   ]
+  },
+  {
+   "word": "皆自",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 668,
+   "samples": [
+    {
+     "id": "ishin-2",
+     "field": "kakikudashi",
+     "snippet": "法は則ち心を以て心を伝え、皆自ら悟り自ら解せしむ。"
+    },
+    {
+     "id": "gaisyu-1",
+     "field": "kakikudashi",
+     "snippet": "平清盛輩の如きに至りては、臣の鎧袖一たび触れなば、皆自ずから倒れんのみ。"
+    },
+    {
+     "id": "daigaku01den-4",
+     "field": "kakikudashi",
+     "snippet": "皆自ら明らかにするなり。"
+    }
+   ]
+  },
+  {
+   "word": "益無",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "pre_exclude": "n79-pattern: X+ari/nashi construction fragment (gong-you/ri-you/mei-you/sin-nasi etc all 404 or reibun-only in N79)",
+   "rank": 669,
+   "samples": [
+    {
+     "id": "omoedomo-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、吾嘗て終日食わず、終夜寝ねず、以て思えども益無し、学ぶに如かざるなり。"
+    },
+    {
+     "id": "rongo1530-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、吾嘗て終日食わず、終夜寝ねず、以て思う。益無し。学ぶに如かざるなり。"
+    },
+    {
+     "id": "montai13-9",
+     "field": "kakikudashi",
+     "snippet": "靖曰く、教え其の道を得れば、則ち士楽しんで用を為す。教え法を得ざれば、朝に督し暮に責むと雖も、事に益無し。"
+    }
+   ]
+  },
+  {
+   "word": "相向",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 670,
+   "samples": [
+    {
+     "id": "toushisen017-23",
+     "field": "kakikudashi",
+     "snippet": "君と相向かいて転た相親しみ"
+    },
+    {
+     "id": "toushisen030-22",
+     "field": "kakikudashi",
+     "snippet": "榻上庭前屹として相向う"
+    },
+    {
+     "id": "toushisen036-10",
+     "field": "kakikudashi",
+     "snippet": "鉄鞘金鐶儼として相向う"
+    }
+   ]
+  },
+  {
+   "word": "相守",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 671,
+   "samples": [
+    {
+     "id": "rikutou39-1",
+     "field": "kakikudashi",
+     "snippet": "曰く、兵を引いて深く諸侯の地に入り、敵と相守りて、敵人、我が糧道を絶ち、又我が前後を越え、吾、戦わんと欲すれば則ち勝つ可"
+    },
+    {
+     "id": "sonshi13-2",
+     "field": "kakikudashi",
+     "snippet": "内外騒動し、道路に怠り、事を操るを得ざる者七十万家、相守ること数年にして、以て一日の勝を争う。"
+    },
+    {
+     "id": "shiba03-8",
+     "field": "kakikudashi",
+     "snippet": "義を相守れば、則ち人勉む。慮、成ること多ければ、則ち人服す。時、中に服すれば、厥の次治まる。"
+    }
+   ]
+  },
+  {
+   "word": "相為",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 672,
+   "samples": [
+    {
+     "id": "rongo1539-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、道同じからざれば、相為に謀らず。"
+    },
+    {
+     "id": "montai01-13",
+     "field": "kakikudashi",
+     "snippet": "一には則ち力を治め、一には則ち前み拒ぎ、一には則ち部伍を束ね、三者迭いに用を相為す。斯れ馬隆の古法を得る所深きなり。"
+    },
+    {
+     "id": "utsuryo12-1",
+     "field": "kakikudashi",
+     "snippet": "ば則ち彼来り、彼来れば則ち我往き、勝敗を相為す。此れ戦いの理然るなり。"
+    }
+   ]
+  },
+  {
+   "word": "相知",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 673,
+   "samples": [
+    {
+     "id": "kenro-1",
+     "field": "kakikudashi",
+     "snippet": "窺う。稍出でて之に近づくに、憖憖然として相知る莫し。"
+    },
+    {
+     "id": "toushisen179-3",
+     "field": "kakikudashi",
+     "snippet": "白首の相知も猶お剣を按じ"
+    },
+    {
+     "id": "toushisen016-13",
+     "field": "kakikudashi",
+     "snippet": "楼前に相望むも相知らず"
+    }
+   ]
+  },
+  {
+   "word": "相送",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 674,
+   "samples": [
+    {
+     "id": "toushisen242-1",
+     "field": "kakikudashi",
+     "snippet": "相送りて高台に臨めば"
+    },
+    {
+     "id": "gunjonio-4",
+     "field": "kakikudashi",
+     "snippet": "白雲相送る大江の西"
+    },
+    {
+     "id": "heishako-3",
+     "field": "kakikudashi",
+     "snippet": "耶嬢妻子走りて相送る"
+    }
+   ]
+  },
+  {
+   "word": "眼中",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 675,
+   "samples": [
+    {
+     "id": "sononihon-8",
+     "field": "kakikudashi",
+     "snippet": "万里眼中に明らかなるを"
+    },
+    {
+     "id": "toushisen024-10",
+     "field": "kakikudashi",
+     "snippet": "眼中の人吾老いたり"
+    },
+    {
+     "id": "toushisen213-1",
+     "field": "kakikudashi",
+     "snippet": "武帝の旌旗眼中に在り"
+    }
+   ]
+  },
+  {
+   "word": "瞽叟",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 676,
+   "samples": [
+    {
+     "id": "shiki001e-1",
+     "field": "kakikudashi",
+     "snippet": "虞舜は、名は重華と曰う。重華の父は瞽叟と曰い、瞽叟の父は橋牛と曰い、橋牛の父は句望と曰い、句望の父は敬康と曰い、敬康の父"
+    },
+    {
+     "id": "shiki001e-3",
+     "field": "kakikudashi",
+     "snippet": "瞽叟、後妻の子を愛し、常に舜を殺さんと欲す。舜、避け逃る。小過有るに及べば、則ち罪を受く。父及び後母と弟とに順事すること"
+    }
+   ]
+  },
+  {
+   "word": "瞽者",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 677,
+   "samples": [
+    {
+     "id": "rongo0909-1",
+     "field": "kakikudashi",
+     "snippet": "子、斉衰の者と、冕衣裳の者と、瞽者とを見れば、之を見て少しと雖も必ず作つ。之を過ぐれば必ず趨る。"
+    },
+    {
+     "id": "rongo1016-1",
+     "field": "kakikudashi",
+     "snippet": "を見れば、狎れたりと雖も必ず変ず。冕者と瞽者とを見れば、褻れたりと雖も必ず貌を以てす。凶服の者には之に式す。負版の者に式"
+    },
+    {
+     "id": "p-benshakosha-1",
+     "field": "kakikudashi",
+     "snippet": "斉衰者を見れば、狎れたりと雖も必ず変ず。冕者と瞽者とを見れば、褻れたりと雖も必ず貌を以てす。"
+    }
+   ]
+  },
+  {
+   "word": "石榴",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 678,
+   "samples": [
+    {
+     "id": "p-banryokuso-1",
+     "field": "kakikudashi",
+     "snippet": "王荊公の石榴の詩に、万緑叢中紅一点、人を動かす春色多きを須いず、と。"
+    },
+    {
+     "id": "toushisen192-4",
+     "field": "kakikudashi",
+     "snippet": "紅裙妬殺す石榴の花"
+    },
+    {
+     "id": "toushisen304-2",
+     "field": "kakikudashi",
+     "snippet": "桃花の馬上石榴の裙"
+    }
+   ]
+  },
+  {
+   "word": "祗今",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 679,
+   "samples": [
+    {
+     "id": "shuryu01-4",
+     "field": "kakikudashi",
+     "snippet": "祗今憔悴す晩煙の痕"
+    },
+    {
+     "id": "toushisen044-7",
+     "field": "kakikudashi",
+     "snippet": "祗今唯だ西江の月のみ有り"
+    },
+    {
+     "id": "toushisen354-4",
+     "field": "kakikudashi",
+     "snippet": "祗今誰か数えん弍師の功"
+    }
+   ]
+  },
+  {
+   "word": "神農",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 2,
+   "rank": 680,
+   "samples": [
+    {
+     "id": "daigaku00a-6",
+     "field": "kakikudashi",
+     "snippet": "此れ伏羲・神農・黄帝・堯・舜の天を継ぎて極を立つる所以にして、司徒の職、典楽の官の由りて設くる所なり。"
+    }
+   ]
+  },
+  {
+   "word": "神霊",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 681,
+   "samples": [
+    {
+     "id": "shiki001a-2",
+     "field": "kakikudashi",
+     "snippet": "生まれて神霊、弱にして能く言い、幼にして徇斉、長じて敦敏、成りて聡明なり。"
+    },
+    {
+     "id": "shiki001c-2",
+     "field": "kakikudashi",
+     "snippet": "高辛生れて神霊なり。自ら其の名を言う。普く施して物を利し、其の身に於いてせず。聡にして以て遠きを知り、明にして以て微なる"
+    }
+   ]
+  },
+  {
+   "word": "祭祀",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 682,
+   "samples": [
+    {
+     "id": "kokyo05-7",
+     "field": "kakikudashi",
+     "snippet": "然る後、能く其の禄位を保って、其の祭祀を守る。"
+    },
+    {
+     "id": "kokyo18-7",
+     "field": "kakikudashi",
+     "snippet": "其の宅兆を卜して、之を安措し、之が宗廟を為って、鬼を以て之を享し、春秋に祭祀し、時を以て之を思う。"
+    },
+    {
+     "id": "roushi54-1",
+     "field": "kakikudashi",
+     "snippet": "善く建つる者は抜けず、善く抱く者は脱せず。子孫以て祭祀して輟まず。"
+    }
+   ]
+  },
+  {
+   "word": "禾黍",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 683,
+   "samples": [
+    {
+     "id": "p-bakushu-1",
+     "field": "kakikudashi",
+     "snippet": "周に朝し、故の殷の虚を過ぐ。宮室毀壊し、禾黍を生ずるに感じ、箕子之を傷む。哭せんと欲すれば則ち不可なり。泣かんと欲すれば"
+    },
+    {
+     "id": "toushisen282-4",
+     "field": "kakikudashi",
+     "snippet": "秋風禾黍を動かす"
+    }
+   ]
+  },
+  {
+   "word": "秋声",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 684,
+   "samples": [
+    {
+     "id": "gusei-4",
+     "field": "kakikudashi",
+     "snippet": "階前の梧葉已に秋声"
+    },
+    {
+     "id": "toushisen233-4",
+     "field": "kakikudashi",
+     "snippet": "秋声聞く可からず"
+    },
+    {
+     "id": "toushisen103-4",
+     "field": "kakikudashi",
+     "snippet": "秋声万戸の竹"
+    }
+   ]
+  },
+  {
+   "word": "秋雨",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 685,
+   "samples": [
+    {
+     "id": "toushisen278-3",
+     "field": "kakikudashi",
+     "snippet": "淮南秋雨の夜"
+    },
+    {
+     "id": "toushisen188-5",
+     "field": "kakikudashi",
+     "snippet": "颯沓として仍お秋雨に随って飛ぶ"
+    },
+    {
+     "id": "toushisen437-4",
+     "field": "kakikudashi",
+     "snippet": "茂陵の秋雨病相如"
+    }
+   ]
+  },
+  {
+   "word": "穆穆",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 686,
+   "samples": [
+    {
+     "id": "rongo0302-1",
+     "field": "kakikudashi",
+     "snippet": "三家者、雍を以て徹す。子曰く、相くるは維れ辟公、天子は穆穆たりと。奚んぞ三家の堂に取らん。"
+    },
+    {
+     "id": "daigaku03-4",
+     "field": "kakikudashi",
+     "snippet": "詩に云う、穆穆たる文王、於、緝煕にして敬して止まる、と。"
+    }
+   ]
+  },
+  {
+   "word": "積水",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 687,
+   "samples": [
+    {
+     "id": "toushisen136-1",
+     "field": "kakikudashi",
+     "snippet": "積水極む可からず"
+    },
+    {
+     "id": "toushisen140-7",
+     "field": "kakikudashi",
+     "snippet": "夕陽積水に連なり"
+    },
+    {
+     "id": "sonshi04-26",
+     "field": "kakikudashi",
+     "snippet": "勝者の民を戦わしむるや、積水を千仞の谿に決するが若きは、形なり。"
+    }
+   ]
+  },
+  {
+   "word": "積雪",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 688,
+   "samples": [
+    {
+     "id": "toushisen014-7",
+     "field": "kakikudashi",
+     "snippet": "川冰積雪に生じ"
+    },
+    {
+     "id": "toushisen190-3",
+     "field": "kakikudashi",
+     "snippet": "万里の寒光積雪に生じ"
+    },
+    {
+     "id": "toushisen267-2",
+     "field": "kakikudashi",
+     "snippet": "積雪雲端に浮ぶ"
+    }
+   ]
+  },
+  {
+   "word": "空林",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 689,
+   "samples": [
+    {
+     "id": "toushisen135-6",
+     "field": "kakikudashi",
+     "snippet": "行客空林に響く"
+    },
+    {
+     "id": "toushisen181-4",
+     "field": "kakikudashi",
+     "snippet": "行は空林を踏みて落葉声あり"
+    },
+    {
+     "id": "toushisen071-2",
+     "field": "kakikudashi",
+     "snippet": "宇を結んで空林に依る"
+    }
+   ]
+  },
+  {
+   "word": "空潭",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 690,
+   "samples": [
+    {
+     "id": "toushisen073-7",
+     "field": "kakikudashi",
+     "snippet": "薄暮空潭の曲"
+    },
+    {
+     "id": "toushisen101-7",
+     "field": "kakikudashi",
+     "snippet": "為に報ず空潭の橘"
+    },
+    {
+     "id": "24shihin07-3",
+     "field": "kakikudashi",
+     "snippet": "空潭は春を瀉ぎ、古鏡は神を照らす。"
+    }
+   ]
+  },
+  {
+   "word": "空虚",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 2,
+   "rank": 691,
+   "samples": [
+    {
+     "id": "rikutou34-2",
+     "field": "kakikudashi",
+     "snippet": "宝と為し、勇闘を首と為す。審らかに敵人の空虚の地、無人の処を知らば、以て必ず出づ可し。将士、玄旗を持ち、器械を操り、銜枚"
+    }
+   ]
+  },
+  {
+   "word": "窮困",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 692,
+   "samples": [
+    {
+     "id": "kanpo-3",
+     "field": "kakikudashi",
+     "snippet": "ればなり。吾嘗て鮑叔の為に事を謀るも更に窮困す。鮑叔、我を以て愚と為さず。時に利不利有るを知れればなり。吾嘗て三たび仕え"
+    },
+    {
+     "id": "kanpo-9",
+     "field": "kakikudashi",
+     "snippet": "嘗て事を謀りて窮困す。鮑叔以て愚と為さず。時に利と不利と有るを知ればなり。嘗て三たび戦いて三たび走る。鮑叔以て怯と為さず"
+    },
+    {
+     "id": "taikobo-2",
+     "field": "kakikudashi",
+     "snippet": "……呂尚は、蓋し嘗て窮困し、年老いたり。漁釣を以て周の西伯に奸む。西伯将に出でて猟せんとし、之を卜す。曰く、獲る所は、竜"
+    }
+   ]
+  },
+  {
+   "word": "窮寇",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 693,
+   "samples": [
+    {
+     "id": "sonshi07-32",
+     "field": "kakikudashi",
+     "snippet": "帰師には遏むる勿かれ、囲師には必ず闕き、窮寇には迫る勿かれ。此れ兵を用うるの法なり。"
+    },
+    {
+     "id": "sonshi09-47",
+     "field": "kakikudashi",
+     "snippet": "馬に粟して肉食し、軍に缻を懸くること無く、其の舎に返らざるは、窮寇なり。"
+    },
+    {
+     "id": "rikutou31-5",
+     "field": "kakikudashi",
+     "snippet": "と二尺五寸なるもの百二十具。歩騎を敗り、窮寇を要し、走り北ぐるを遮る。"
+    }
+   ]
+  },
+  {
+   "word": "竜堆",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 694,
+   "samples": [
+    {
+     "id": "toushisen355-4",
+     "field": "kakikudashi",
+     "snippet": "馬を竜堆に秣えば月営を照らす"
+    },
+    {
+     "id": "toushisen373-2",
+     "field": "kakikudashi",
+     "snippet": "明君の祠上竜堆を望む"
+    },
+    {
+     "id": "toushisen459-4",
+     "field": "kakikudashi",
+     "snippet": "泣いて竜堆に上って故郷を望む"
+    }
+   ]
+  },
+  {
+   "word": "笙歌",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 695,
+   "samples": [
+    {
+     "id": "toushisen349-3",
+     "field": "kakikudashi",
+     "snippet": "笙歌日暮能く客を留め"
+    },
+    {
+     "id": "toushisen113-8",
+     "field": "kakikudashi",
+     "snippet": "鐘磬笙歌に雑わる"
+    },
+    {
+     "id": "toushisen307-1",
+     "field": "kakikudashi",
+     "snippet": "羽客の笙歌此の地に違い"
+    }
+   ]
+  },
+  {
+   "word": "節制",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 696,
+   "samples": [
+    {
+     "id": "montai09-15",
+     "field": "kakikudashi",
+     "snippet": "管仲に任じて、復た太公の法を修む。之を節制の師と謂う。諸侯畢く服す。"
+    },
+    {
+     "id": "montai11-14",
+     "field": "kakikudashi",
+     "snippet": "臣、西のかた突厥を討ちしとき、険を越えること数千里、此の制は未だ嘗て敢えて易えず。蓋し古法の節制、信に重んず可きなり。"
+    },
+    {
+     "id": "utsuryo08-5",
+     "field": "kakikudashi",
+     "snippet": "て、而して官に主無ければなり。夫れ天下の節制を提げて、而して百貨の官無きは、其の能く戦うを謂う無きなり。"
+    }
+   ]
+  },
+  {
+   "word": "紅顔",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 697,
+   "samples": [
+    {
+     "id": "toushisen454-1",
+     "field": "kakikudashi",
+     "snippet": "紅顔歳歳金微に老い"
+    },
+    {
+     "id": "eikainigisu07-8",
+     "field": "kakikudashi",
+     "snippet": "紅顔復た多きこと無し"
+    },
+    {
+     "id": "toushisen018-16",
+     "field": "kakikudashi",
+     "snippet": "伊れ昔紅顔の美少年"
+    }
+   ]
+  },
+  {
+   "word": "終南",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 698,
+   "samples": [
+    {
+     "id": "toushisen037-1",
+     "field": "kakikudashi",
+     "snippet": "終南に茅屋有り"
+    },
+    {
+     "id": "toushisen167-4",
+     "field": "kakikudashi",
+     "snippet": "終南の佳気楼台に入る"
+    },
+    {
+     "id": "toushisen267-1",
+     "field": "kakikudashi",
+     "snippet": "終南陰嶺秀で"
+    }
+   ]
+  },
+  {
+   "word": "絶世",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 699,
+   "samples": [
+    {
+     "id": "itsumina-1",
+     "field": "kakikudashi",
+     "snippet": "滅国を興し、絶世を継ぎ、逸民を挙ぐれば、天下の民心を帰す。"
+    },
+    {
+     "id": "rongo2001-1",
+     "field": "kakikudashi",
+     "snippet": "修むれば、四方の政行われん。滅国を興し、絶世を継ぎ、逸民を挙ぐれば、天下の民心を帰す。重んずる所は民の食・喪・祭なり。寛"
+    },
+    {
+     "id": "utariennen-2",
+     "field": "kakikudashi",
+     "snippet": "絶世にして独り立つ"
+    }
+   ]
+  },
+  {
+   "word": "絶地",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 700,
+   "samples": [
+    {
+     "id": "sonshi08-1",
+     "field": "kakikudashi",
+     "snippet": "地には舎ること無く、衢地には交わり合し、絶地には留まること無く、囲地には則ち謀り、死地には則ち戦う。"
+    },
+    {
+     "id": "sonshi11-46",
+     "field": "kakikudashi",
+     "snippet": "国を去り境を越えて師する者は、絶地なり。"
+    },
+    {
+     "id": "utsuryo01-3",
+     "field": "kakikudashi",
+     "snippet": "天官を按ずるに曰く、水を背にして陣するを絶地と為し、阪に向かって陣するを廃軍と為す、と。"
+    }
+   ]
+  },
+  {
+   "word": "緑樹",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 701,
+   "samples": [
+    {
+     "id": "santei-1",
+     "field": "kakikudashi",
+     "snippet": "緑樹陰濃やかにして夏日長し"
+    },
+    {
+     "id": "toushisen345-1",
+     "field": "kakikudashi",
+     "snippet": "緑樹の重陰四隣を蓋い"
+    },
+    {
+     "id": "kojinnoso-3",
+     "field": "kakikudashi",
+     "snippet": "緑樹村辺に合し"
+    }
+   ]
+  },
+  {
+   "word": "繊繊",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 702,
+   "samples": [
+    {
+     "id": "koshi19_02-3",
+     "field": "kakikudashi",
+     "snippet": "娥娥たる紅粉の粧い、繊繊として素手を出だす"
+    },
+    {
+     "id": "koshi19_10-2",
+     "field": "kakikudashi",
+     "snippet": "繊繊として素手を擢げ、札札として機杼を弄す"
+    },
+    {
+     "id": "toushisen016-23",
+     "field": "kakikudashi",
+     "snippet": "繊繊たる初月鴉黄に上る"
+    }
+   ]
+  },
+  {
+   "word": "織女",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 703,
+   "samples": [
+    {
+     "id": "enkako_sohi01-14",
+     "field": "kakikudashi",
+     "snippet": "牽牛織女遥かに相望む"
+    },
+    {
+     "id": "toushisen026-7",
+     "field": "kakikudashi",
+     "snippet": "蓬萊の織女竜車を回らし"
+    },
+    {
+     "id": "toushisen213-2",
+     "field": "kakikudashi",
+     "snippet": "織女の機糸は夜月に虚しく"
+    }
+   ]
+  },
+  {
+   "word": "美言",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 704,
+   "samples": [
+    {
+     "id": "p-bigen-1",
+     "field": "kakikudashi",
+     "snippet": "信言は美ならず、美言は信ならず。善なる者は弁ぜず、弁ずる者は善ならず。知る者は博からず、博き者は知らず。"
+    },
+    {
+     "id": "roushi62-2",
+     "field": "kakikudashi",
+     "snippet": "美言は以て市る可く、尊行は以て人に加う可し。人の不善なるも、何の棄つることか之れ有らん。"
+    },
+    {
+     "id": "roushi81-1",
+     "field": "kakikudashi",
+     "snippet": "信言は美ならず、美言は信ならず。善なる者は弁ぜず、弁ずる者は善ならず。知る者は博からず、博き者は知らず。"
+    }
+   ]
+  },
+  {
+   "word": "義無",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "pre_exclude": "n79-pattern: X+ari/nashi construction fragment (gong-you/ri-you/mei-you/sin-nasi etc all 404 or reibun-only in N79)",
+   "rank": 705,
+   "samples": [
+    {
+     "id": "rongo1723-1",
+     "field": "kakikudashi",
+     "snippet": "曰く、君子は義以て上と為す。君子勇有りて義無ければ乱を為す。小人勇有りて義無ければ盗を為す。"
+    },
+    {
+     "id": "rongo1807-1",
+     "field": "kakikudashi",
+     "snippet": "。至れば則ち行れり。子路曰く、仕えざれば義無し。長幼の節は、廃す可からざるなり。君臣の義は、之を如何ぞ其れ之を廃せん。其"
+    },
+    {
+     "id": "kunshigio-1",
+     "field": "kakikudashi",
+     "snippet": "子路曰く、仕えざれば義無し。長幼の節は、廃す可からざるなり。君臣の義は、之を如何ぞ其れ之を廃せん。其の身を絜くせんと欲し"
+    }
+   ]
+  },
+  {
+   "word": "老病",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 706,
+   "samples": [
+    {
+     "id": "kakutei_toho-6",
+     "field": "kakikudashi",
+     "snippet": "老病已に翁と成る"
+    },
+    {
+     "id": "toushisen097-6",
+     "field": "kakikudashi",
+     "snippet": "官は老病に因りて休む"
+    },
+    {
+     "id": "toushisen099-6",
+     "field": "kakikudashi",
+     "snippet": "老病孤舟有り"
+    }
+   ]
+  },
+  {
+   "word": "者三",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 707,
+   "samples": [
+    {
+     "id": "ganshoku-1",
+     "field": "kakikudashi",
+     "snippet": "とする、其の言や善し。君子の道に貴ぶ所の者三あり。容貌を動かしては、斯に暴慢に遠ざかる。顔色を正しては、斯に信に近づく。"
+    },
+    {
+     "id": "rongo1430-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、君子の道なる者三つ、我能くすること無し。仁者は憂えず、知者は惑わず、勇者は懼れず。子貢曰く、夫子自ら道うなり。"
+    },
+    {
+     "id": "mazukai-x13",
+     "field": "kakikudashi",
+     "snippet": "期年ならずして、千里の馬至る者三あり。"
+    }
+   ]
+  },
+  {
+   "word": "者多",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 708,
+   "samples": [
+    {
+     "id": "oko-1",
+     "field": "kakikudashi",
+     "snippet": "広素より人を愛す。士卒、用を為さんとする者多し。将尉酔う。広、故に数〻亡げんと欲すと言い、尉を忿恚せしめ、之を辱めしめ、"
+    },
+    {
+     "id": "sonshi06-24",
+     "field": "kakikudashi",
+     "snippet": "知る可からざれば、則ち敵の備うる所の者多し。"
+    },
+    {
+     "id": "sonshi06-25",
+     "field": "kakikudashi",
+     "snippet": "敵の備うる所の者多ければ、則ち吾が与に戦う所の者は寡し。"
+    }
+   ]
+  },
+  {
+   "word": "者曰",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "pre_exclude": "n79-pattern: X-yune citation fragment (~60 fetched in N79, all weblio 404)",
+   "rank": 709,
+   "samples": [
+    {
+     "id": "kiyu-9",
+     "field": "kakikudashi",
+     "snippet": "之を暁す者曰く、日月星宿も亦た積気中の光耀有る者なり。"
+    },
+    {
+     "id": "kiyu-x12",
+     "field": "kakikudashi",
+     "snippet": "暁す者曰く、地は積塊のみ。"
+    },
+    {
+     "id": "utsuryo11-5",
+     "field": "kakikudashi",
+     "snippet": "牲と為さず、雑学は通儒と為さず。今、説く者曰く、百里の海は一夫に飲ましむること能わず。三尺の泉は三軍の渇を止むるに足る、"
+    }
+   ]
+  },
+  {
+   "word": "聖智",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 710,
+   "samples": [
+    {
+     "id": "rikutou24-3",
+     "field": "kakikudashi",
+     "snippet": "じて泄さず、中外相知る所以の術なり。敵、聖智と雖も、之を能く識る莫し。"
+    },
+    {
+     "id": "sonshi13-16",
+     "field": "kakikudashi",
+     "snippet": "聖智に非ざれば間を用うること能わず。"
+    },
+    {
+     "id": "rikutou25-2",
+     "field": "kakikudashi",
+     "snippet": "しめざるを言うなり。此を陰書を謂う。敵、聖智ありと雖も、之を能く識る莫し。"
+    }
+   ]
+  },
+  {
+   "word": "聖賢",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 711,
+   "samples": [
+    {
+     "id": "okuka-2",
+     "field": "kakikudashi",
+     "snippet": "夫れ聖賢の書は、人に誠孝なること、言を慎み迹を検すること、身を立て名を揚ぐることを教え、亦た已に備われり。魏・晋已来、著"
+    },
+    {
+     "id": "yuchuni-2",
+     "field": "kakikudashi",
+     "snippet": "支道林、之を聞きて曰く、聖賢は固より言を忘るる所なり。中人より以還、北人の書を看るは、顕処に月を視るが如く、南人の学問は"
+    },
+    {
+     "id": "rikutou02-2",
+     "field": "kakikudashi",
+     "snippet": "文王曰く、古の聖賢、聞くを得べきか。太公曰く、昔者、帝堯の天下に王たるや、上世の所謂賢君なり。文王曰く、其の治、如何。"
+    }
+   ]
+  },
+  {
+   "word": "聚斂",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 712,
+   "samples": [
+    {
+     "id": "rongo1116-1",
+     "field": "kakikudashi",
+     "snippet": "氏、周公よりも富めり。而して求や之が為に聚斂して之に附益す。子曰く、吾が徒に非ざるなり。小子鼓を鳴らして之を攻めて可なり"
+    },
+    {
+     "id": "shurenno-1",
+     "field": "kakikudashi",
+     "snippet": "。伐氷の家は、牛羊を畜わず。百乗の家は、聚斂の臣を畜わず。其の聚斂の臣有らんよりは、寧ろ盗臣有れ、と。此を国は利を以て利"
+    },
+    {
+     "id": "daigaku10-33",
+     "field": "kakikudashi",
+     "snippet": "。伐氷の家は、牛羊を畜わず。百乗の家は、聚斂の臣を畜わず。其の聚斂の臣有らんよりは、寧ろ盗臣有れ、と。"
+    }
+   ]
+  },
+  {
+   "word": "胡人",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 713,
+   "samples": [
+    {
+     "id": "nansenho-1",
+     "field": "kakikudashi",
+     "snippet": "胡人は馬に便に、越人は舟に便なり。"
+    },
+    {
+     "id": "toushisen105-7",
+     "field": "kakikudashi",
+     "snippet": "胡人涙を掩うて帰る"
+    },
+    {
+     "id": "toushisen035-8",
+     "field": "kakikudashi",
+     "snippet": "胡人月に向かいて胡笳を吹く"
+    }
+   ]
+  },
+  {
+   "word": "胡馬",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 714,
+   "samples": [
+    {
+     "id": "toushisen336-4",
+     "field": "kakikudashi",
+     "snippet": "胡馬をして陰山を度らしめず"
+    },
+    {
+     "id": "koshi19_01-4",
+     "field": "kakikudashi",
+     "snippet": "胡馬は北風に依り、越鳥は南枝に巣くう"
+    },
+    {
+     "id": "toushisen089-1",
+     "field": "kakikudashi",
+     "snippet": "胡馬大宛の名"
+    }
+   ]
+  },
+  {
+   "word": "臣愚",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 715,
+   "samples": [
+    {
+     "id": "montai05-3",
+     "field": "kakikudashi",
+     "snippet": "臣愚にして謂えらく、大衆の合する所を正と為し、将の自ら出す所を奇と為す。烏くんぞ先後旁撃の拘り有らんや。"
+    },
+    {
+     "id": "montai08-3",
+     "field": "kakikudashi",
+     "snippet": "臣愚にして謂えらく、兵は是れ機ならざるは無し。安んぞ握に在りて言わんや。当に余奇に為るは則ち是なるべし。"
+    },
+    {
+     "id": "montai12-6",
+     "field": "kakikudashi",
+     "snippet": "然れども臣愚にして以謂えらく、漢戍は宜しく自ら一法を為すべく、蕃落は宜しく自ら一法を為すべし。教習各〻異なり、混同せしむ"
+    }
+   ]
+  },
+  {
+   "word": "臣按",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 2,
+   "rank": 716,
+   "samples": [
+    {
+     "id": "montai05-2",
+     "field": "kakikudashi",
+     "snippet": "靖曰く、臣按ずるに、曹公、孫子を注して曰く、先ず出でて合戦するを正と為し、後に出づるを奇と為す、と。此れ旁より撃つの説と"
+    }
+   ]
+  },
+  {
+   "word": "臣為",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 717,
+   "samples": [
+    {
+     "id": "ichigenoko-1",
+     "field": "kakikudashi",
+     "snippet": "幾きなり。人の言に曰く、君為ること難く、臣為ること易からずと。如し君為ることの難きを知らば、一言にして邦を興すに幾からず"
+    },
+    {
+     "id": "kimitaru-1",
+     "field": "kakikudashi",
+     "snippet": "幾きなり。人の言に曰く、君為ること難く、臣為ること易からずと。如し君為ることの難きを知らば、一言にして邦を興すに幾からず"
+    },
+    {
+     "id": "rongo1315-1",
+     "field": "kakikudashi",
+     "snippet": "幾きなり。人の言に曰く、君為ること難く、臣為ること易からずと。如し君為ることの難きを知らば、一言にして邦を興すに幾からず"
+    }
+   ]
+  },
+  {
+   "word": "至徳",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 718,
+   "samples": [
+    {
+     "id": "rongo0801-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、泰伯は其れ至徳と謂う可きのみ。三たび天下を以て譲り、民得て称する無し。"
+    },
+    {
+     "id": "rongo0820-1",
+     "field": "kakikudashi",
+     "snippet": "其の二を有ち、以て殷に服事す。周の徳は、至徳と謂う可きのみ。"
+    },
+    {
+     "id": "kokyo13-6",
+     "field": "kakikudashi",
+     "snippet": "至徳に非ざれば、其れ孰か能く民を順うること、此の如く其れ大なる者ならんや。"
+    }
+   ]
+  },
+  {
+   "word": "舎人",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 719,
+   "samples": [
+    {
+     "id": "dasoku-2",
+     "field": "kakikudashi",
+     "snippet": "其の舎人に巵酒を賜う。"
+    },
+    {
+     "id": "kotaku-3",
+     "field": "kakikudashi",
+     "snippet": "我が使者と為さば、万乗の卿なり。子、我が舎人と為るに如かず、と。田成子因りて伝を負いて之に随い、逆旅に至る。逆旅の君、之"
+    },
+    {
+     "id": "sonshi13-21",
+     "field": "kakikudashi",
+     "snippet": "は、必ず先ず其の守将・左右・謁者・門者・舎人の姓名を知り、吾が間をして必ず索めて之を知らしむ。"
+    }
+   ]
+  },
+  {
+   "word": "舞雩",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 720,
+   "samples": [
+    {
+     "id": "icchoikari-1",
+     "field": "kakikudashi",
+     "snippet": "樊遅従いて舞雩の下に遊ぶ。曰く、敢えて徳を崇び、慝を脩め、惑いを弁ぜんことを問う。子曰く、善いかな問いや。事を先にして得"
+    },
+    {
+     "id": "giniyoku-1",
+     "field": "kakikudashi",
+     "snippet": "成る。冠者五六人、童子六七人、沂に浴し、舞雩に風し、詠じて帰らん。夫子喟然として歎じて曰く、吾は点に与せん。"
+    },
+    {
+     "id": "rongo1125e-1",
+     "field": "kakikudashi",
+     "snippet": "成る。冠者五六人、童子六七人、沂に浴し、舞雩に風し、詠じて帰らん。夫子喟然として歎じて曰く、吾は点に与せん。"
+    }
+   ]
+  },
+  {
+   "word": "良薬",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 721,
+   "samples": [
+    {
+     "id": "ryoyaku-1",
+     "field": "kakikudashi",
+     "snippet": "孔子曰く、良薬は口に苦けれども、病に利あり。忠言は耳に逆らえども、行いに利あり。湯・武は諤諤を以て昌え、桀・紂は唯唯を以"
+    },
+    {
+     "id": "ryoyaku-2",
+     "field": "kakikudashi",
+     "snippet": "夫れ良薬は口に苦けれども、智者は勧めて之を飲む。其の入りて能く疾を已すを知ればなり。忠言は耳に払らうも、明主は之を聴く。"
+    },
+    {
+     "id": "ryoyaku-3",
+     "field": "kakikudashi",
+     "snippet": "夫れ良薬は口に苦けれども、惟だ疾者のみ能く之を甘しとす。忠言は耳に逆らえども、惟だ達者のみ能く之を受く。"
+    }
+   ]
+  },
+  {
+   "word": "色無",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "pre_exclude": "n79-pattern: X+ari/nashi construction fragment (gong-you/ri-you/mei-you/sin-nasi etc all 404 or reibun-only in N79)",
+   "rank": 722,
+   "samples": [
+    {
+     "id": "rongo0518-1",
+     "field": "kakikudashi",
+     "snippet": "、令尹子文、三たび仕えて令尹と為りて喜ぶ色無し。三たび之を已めらるれども慍る色無し。旧令尹の政、必ず以て新令尹に告ぐ。何"
+    },
+    {
+     "id": "mitabitsu-1",
+     "field": "kakikudashi",
+     "snippet": "、令尹子文、三たび仕えて令尹と為りて喜ぶ色無し。三たび之を已めらるれども慍る色無し。旧令尹の政、必ず以て新令尹に告ぐ。何"
+    },
+    {
+     "id": "rikutou02-5",
+     "field": "kakikudashi",
+     "snippet": "賦役や甚だ寡し。故に万民富楽にして飢寒の色無く、百姓其の君を戴くこと日月の如く、其の君に親しむこと父母の如し。"
+    }
+   ]
+  },
+  {
+   "word": "花草",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 723,
+   "samples": [
+    {
+     "id": "shozansoku-2",
+     "field": "kakikudashi",
+     "snippet": "竹西の花草春柔を弄す"
+    },
+    {
+     "id": "toushisen172-3",
+     "field": "kakikudashi",
+     "snippet": "呉宮の花草は幽径に埋もれ"
+    },
+    {
+     "id": "24shihin20-3",
+     "field": "kakikudashi",
+     "snippet": "風雲は態を変え、花草に精神あり。"
+    }
+   ]
+  },
+  {
+   "word": "茱萸",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 724,
+   "samples": [
+    {
+     "id": "toushisen344-4",
+     "field": "kakikudashi",
+     "snippet": "遍く茱萸を挿して一人を少くを"
+    },
+    {
+     "id": "toushisen457-3",
+     "field": "kakikudashi",
+     "snippet": "帰来問うを得たり茱萸の女"
+    },
+    {
+     "id": "toushisen207-8",
+     "field": "kakikudashi",
+     "snippet": "酔うて茱萸を把って子細に看る"
+    }
+   ]
+  },
+  {
+   "word": "荇菜",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 725,
+   "samples": [
+    {
+     "id": "shikyo_kansho-3",
+     "field": "kakikudashi",
+     "snippet": "参差たる荇菜は左右に之を流む"
+    },
+    {
+     "id": "shikyo_kansho-7",
+     "field": "kakikudashi",
+     "snippet": "参差たる荇菜は左右に之を采る"
+    },
+    {
+     "id": "shikyo_kansho-9",
+     "field": "kakikudashi",
+     "snippet": "参差たる荇菜は左右に之を芼ぶ"
+    }
+   ]
+  },
+  {
+   "word": "荊州",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 726,
+   "samples": [
+    {
+     "id": "hatenko-1",
+     "field": "kakikudashi",
+     "snippet": "唐の荊州は衣冠藪沢、毎歳挙人を解送するも、多く名を成さず。号して曰く、天荒解、と。劉蛻舎人、荊の解を以て及第す。号して破"
+    },
+    {
+     "id": "hiniku-1",
+     "field": "kakikudashi",
+     "snippet": "九州春秋に曰く、備、荊州に住まること数年、嘗て表の坐に於いて起ちて厠に至り、髀の裏に肉の生ずるを見て、慨然として流涕す。"
+    },
+    {
+     "id": "keisetsu-3",
+     "field": "kakikudashi",
+     "snippet": "桓温、荊州に在り、辟して従事と為す。義理を弁識するを以て、深く之を重んず。稍く征西の長史に遷り、遂に朝廷に顕る。時に武子"
+    }
+   ]
+  },
+  {
+   "word": "落月",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 727,
+   "samples": [
+    {
+     "id": "toushisen043-24",
+     "field": "kakikudashi",
+     "snippet": "江潭の落月復た西に斜めなり"
+    },
+    {
+     "id": "toushisen043-27",
+     "field": "kakikudashi",
+     "snippet": "落月情を揺がして江樹に満つ"
+    },
+    {
+     "id": "toushisen197-5",
+     "field": "kakikudashi",
+     "snippet": "西山の落月天仗に臨み"
+    }
+   ]
+  },
+  {
+   "word": "落木",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 728,
+   "samples": [
+    {
+     "id": "kakutei_toho-2",
+     "field": "kakikudashi",
+     "snippet": "落木更に天風"
+    },
+    {
+     "id": "toushisen217-3",
+     "field": "kakikudashi",
+     "snippet": "無辺の落木蕭蕭として下り"
+    },
+    {
+     "id": "toushisen221-6",
+     "field": "kakikudashi",
+     "snippet": "落木寒泉聴いて窮まらず"
+    }
+   ]
+  },
+  {
+   "word": "蒺藜",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 2,
+   "rank": 729,
+   "samples": [
+    {
+     "id": "rikutou30-2",
+     "field": "kakikudashi",
+     "snippet": "具は、尽く人事に在り。耒耜は、其の行馬、蒺藜なり。馬牛車輿は、其の営塁蔽櫓なり。鋤耰の具は、其の矛戟なり。蓑薛簦笠は、其"
+    }
+   ]
+  },
+  {
+   "word": "蓬萊",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 730,
+   "samples": [
+    {
+     "id": "toushisen026-7",
+     "field": "kakikudashi",
+     "snippet": "蓬萊の織女竜車を回らし"
+    },
+    {
+     "id": "toushisen204-5",
+     "field": "kakikudashi",
+     "snippet": "雲は蓬萊に近うして常に五色"
+    },
+    {
+     "id": "toushisen212-1",
+     "field": "kakikudashi",
+     "snippet": "蓬萊の宮闕南山に対し"
+    }
+   ]
+  },
+  {
+   "word": "蕭関",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 731,
+   "samples": [
+    {
+     "id": "toushisen078-7",
+     "field": "kakikudashi",
+     "snippet": "蕭関候騎に逢えば"
+    },
+    {
+     "id": "toushisen346-3",
+     "field": "kakikudashi",
+     "snippet": "遥かに知る漢使蕭関の外"
+    },
+    {
+     "id": "toushisen035-5",
+     "field": "kakikudashi",
+     "snippet": "涼秋八月蕭関の道"
+    }
+   ]
+  },
+  {
+   "word": "薄暮",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 732,
+   "samples": [
+    {
+     "id": "toushisen047-1",
+     "field": "kakikudashi",
+     "snippet": "東皐薄暮に望み"
+    },
+    {
+     "id": "toushisen073-7",
+     "field": "kakikudashi",
+     "snippet": "薄暮空潭の曲"
+    },
+    {
+     "id": "toushisen198-6",
+     "field": "kakikudashi",
+     "snippet": "薄暮鞭を垂れ馬に信せて帰る"
+    }
+   ]
+  },
+  {
+   "word": "行楽",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 733,
+   "samples": [
+    {
+     "id": "toushisen150-2",
+     "field": "kakikudashi",
+     "snippet": "行楽して親に違わず"
+    },
+    {
+     "id": "gekkadoku01-8",
+     "field": "kakikudashi",
+     "snippet": "行楽須らく春に及ぶべし"
+    },
+    {
+     "id": "toushisen018-22",
+     "field": "kakikudashi",
+     "snippet": "三春の行楽誰が辺にか在る"
+    }
+   ]
+  },
+  {
+   "word": "行止",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 734,
+   "samples": [
+    {
+     "id": "kiyu-6",
+     "field": "kakikudashi",
+     "snippet": "屈伸呼吸の若きは、終日天中に在りて行止するなり。"
+    },
+    {
+     "id": "kiyu-x14",
+     "field": "kakikudashi",
+     "snippet": "躇歩跐蹈のごときは、終日地上に在りて行止す。"
+    },
+    {
+     "id": "rikutou18-6",
+     "field": "kakikudashi",
+     "snippet": "地利三人、軍の行止の形勢、利害の消息、遠近険易、水涸山阻、地の利を失わざるを主る。"
+    }
+   ]
+  },
+  {
+   "word": "衛君",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 735,
+   "samples": [
+    {
+     "id": "rongo1303-1",
+     "field": "kakikudashi",
+     "snippet": "子路曰く、衛君、子を待ちて政を為さば、子は将に奚をか先にせんとす。子曰く、必ずや名を正さんか。子路曰く、是れ有るかな、子"
+    },
+    {
+     "id": "nawotada-1",
+     "field": "kakikudashi",
+     "snippet": "子路曰く、衛君、子を待ちて政を為さば、子は将に奚をか先にせんとす。子曰く、必ずや名を正さんか、と。"
+    },
+    {
+     "id": "yotonotsu-1",
+     "field": "kakikudashi",
+     "snippet": "昔者、弥子瑕、衛君に寵有り。衛国の法、窃かに君の車に駕する者は罪として刖せらる。弥子瑕の母病む。人間かに往き、夜、弥子に"
+    }
+   ]
+  },
+  {
+   "word": "衣帯",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 736,
+   "samples": [
+    {
+     "id": "ichii-1",
+     "field": "kakikudashi",
+     "snippet": "我は百姓の父母たり、豈に一の衣帯の水を限りて、之を拯わざる可けんや。"
+    },
+    {
+     "id": "gyushu-2",
+     "field": "kakikudashi",
+     "snippet": "して女子にして男子の飾りするを禁じ、其の衣帯を裂断せしむるに、相望みて止まざる者は、何ぞや、と。"
+    },
+    {
+     "id": "koshi19_01-5",
+     "field": "kakikudashi",
+     "snippet": "相去ること日に已に遠く、衣帯日に已に緩し"
+    }
+   ]
+  },
+  {
+   "word": "衣裳",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 737,
+   "samples": [
+    {
+     "id": "enkako_sohi01-9",
+     "field": "kakikudashi",
+     "snippet": "覚えず涙下りて衣裳を霑すを"
+    },
+    {
+     "id": "baitanoh-6",
+     "field": "kakikudashi",
+     "snippet": "身上の衣裳口中の食"
+    },
+    {
+     "id": "toushisen310-1",
+     "field": "kakikudashi",
+     "snippet": "雲には衣裳を想い花には容を想う"
+    }
+   ]
+  },
+  {
+   "word": "複道",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 738,
+   "samples": [
+    {
+     "id": "toushisen330-3",
+     "field": "kakikudashi",
+     "snippet": "分明なり複道に恩を奉ぜし時"
+    },
+    {
+     "id": "toushisen016-9",
+     "field": "kakikudashi",
+     "snippet": "複道の交窓合歓を作し"
+    },
+    {
+     "id": "toushisen045-12",
+     "field": "kakikudashi",
+     "snippet": "複道斜めに通ず鳷鵲観"
+    }
+   ]
+  },
+  {
+   "word": "要塞",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 739,
+   "samples": [
+    {
+     "id": "utsuryo05-7",
+     "field": "kakikudashi",
+     "snippet": "きに逼らしめ、男女数重、各〻地形に逼りて要塞を攻む。一城邑に拠りて数道絶し、従いて之を攻む。"
+    },
+    {
+     "id": "utsuryo06-6",
+     "field": "kakikudashi",
+     "snippet": "い必ず之を開き、守り必ず之を出で、出でて要塞に拠り、但だ其の後ろを救いて、其の糧道を絶つこと無く、中外相応ず。此れ救いて"
+    }
+   ]
+  },
+  {
+   "word": "覇王",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 740,
+   "samples": [
+    {
+     "id": "taikobo-2",
+     "field": "kakikudashi",
+     "snippet": "彲に非ず、虎に非ず、羆に非ず、獲る所は、覇王の輔なり、と。"
+    },
+    {
+     "id": "sonshi11-65",
+     "field": "kakikudashi",
+     "snippet": "四五の者、一を知らざれば、覇王の兵に非ざるなり。"
+    },
+    {
+     "id": "sonshi11-66",
+     "field": "kakikudashi",
+     "snippet": "夫れ覇王の兵、大国を伐てば、則ち其の衆聚まるを得ず、威、敵に加うれば、則ち其の交わり、合することを得ず。"
+    }
+   ]
+  },
+  {
+   "word": "親愛",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 741,
+   "samples": [
+    {
+     "id": "rinkiohen-1",
+     "field": "kakikudashi",
+     "snippet": "朗の弟明、字は靖通、少くして武帝の親愛を被り、貞陽侯に封ぜらる。"
+    },
+    {
+     "id": "daigaku08-1",
+     "field": "kakikudashi",
+     "snippet": "所謂其の家を斉うるは其の身を修むるに在りとは、人は其の親愛する所に之て辟す。"
+    },
+    {
+     "id": "utsuryo04-6",
+     "field": "kakikudashi",
+     "snippet": "故に国に必ず礼信親愛の義有らば、則ち飢を以て飽に易う可く、国に必ず孝慈廉恥の俗有らば、則ち死を以て生に易う可し。古は民を"
+    }
+   ]
+  },
+  {
+   "word": "誅有",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "pre_exclude": "n79-pattern: X+ari/nashi construction fragment (gong-you/ri-you/mei-you/sin-nasi etc all 404 or reibun-only in N79)",
+   "rank": 742,
+   "samples": [
+    {
+     "id": "utsuryo17-2",
+     "field": "kakikudashi",
+     "snippet": "次ずるに経卒を以てす。章を亡う者は誅有り。前の一の五行は章を首に置き、次の二の五行は章を項に置き、次の三の五行は章を胸に"
+    },
+    {
+     "id": "utsuryo17-3",
+     "field": "kakikudashi",
+     "snippet": "て進む者は賞有り、五行を踰えて後るる者は誅有り。進退先後を知る所以は、吏卒の功なり。"
+    },
+    {
+     "id": "utsuryo18-2",
+     "field": "kakikudashi",
+     "snippet": "鼓、次を失う者は誅有り。諠譁する者は誅有り。金・鼓・鈴・旗を聴かずして動く者は誅有り。"
+    }
+   ]
+  },
+  {
+   "word": "諸将",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 743,
+   "samples": [
+    {
+     "id": "haisui-2",
+     "field": "kakikudashi",
+     "snippet": "……諸将、首虜を効し、休めて賀を畢わる。因りて信に問いて曰く、……此れ何の術なるや、と。信曰く、……兵法に曰わずや、之を"
+    },
+    {
+     "id": "tata-1",
+     "field": "kakikudashi",
+     "snippet": "上、嘗て従容として信と諸将の能を言う。各〻差有り。上問いて曰く、我の如きは、能く幾何に将たる、と。信曰く、陛下は能く十万"
+    },
+    {
+     "id": "montai04-7",
+     "field": "kakikudashi",
+     "snippet": "太宗曰く、深きかな、深きかな。曹公必ず之を知れり。但だ新書は諸将に授くる所以のみ。奇正の本法に非ず。"
+    }
+   ]
+  },
+  {
+   "word": "財用",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 744,
+   "samples": [
+    {
+     "id": "daigaku10-35",
+     "field": "kakikudashi",
+     "snippet": "国家に長として財用を務むる者は、必ず小人に自る。"
+    },
+    {
+     "id": "rikutou18-12",
+     "field": "kakikudashi",
+     "snippet": "法算二人、三軍の営塁・糧食・財用の出入を会計するを主る。"
+    }
+   ]
+  },
+  {
+   "word": "賢聖",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 745,
+   "samples": [
+    {
+     "id": "daigaku00a-17",
+     "field": "kakikudashi",
+     "snippet": "周の衰うるに及んで、賢聖の君作らず、学校の政修まらず、教化陵夷し風俗頽敗す。"
+    },
+    {
+     "id": "toushisen120-8",
+     "field": "kakikudashi",
+     "snippet": "賢聖幾か凋枯す"
+    },
+    {
+     "id": "rikutou02-1",
+     "field": "kakikudashi",
+     "snippet": "不肖なれば、則ち国危うくして民乱る。君、賢聖なれば、則ち国安くして民治まる。禍福は君に在り、天の時に在らず。"
+    }
+   ]
+  },
+  {
+   "word": "赤幟",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 746,
+   "samples": [
+    {
+     "id": "haisui18-3",
+     "field": "kakikudashi",
+     "snippet": "夜半、信伝して軽騎二千人を発し、人ごとに赤幟を持ち、間道より趙の軍を望ましめ、戒めて曰く、"
+    },
+    {
+     "id": "haisui18-5",
+     "field": "kakikudashi",
+     "snippet": "若、疾く趙の壁に入り、趙の幟を抜き、漢の赤幟を立てよ、と。"
+    },
+    {
+     "id": "haisui18-x12",
+     "field": "kakikudashi",
+     "snippet": "趙の軍已に信等を失いて壁に帰り、赤幟を見て大いに驚き、遂に乱れて遁走す。"
+    }
+   ]
+  },
+  {
+   "word": "趙王",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 747,
+   "samples": [
+    {
+     "id": "kanpeki4k-5",
+     "field": "kakikudashi",
+     "snippet": "大王、璧を得んと欲し、人をして書を発して趙王に至らしむ。趙王悉く群臣を召して議せしむ。皆な曰く、秦は貪にして其の彊きを負"
+    },
+    {
+     "id": "kanpeki4k-7",
+     "field": "kakikudashi",
+     "snippet": "を美人に伝え、以て臣を戯弄す。臣、大王の趙王に城邑を償うに意無きを観、故に臣復た璧を取る。大王必ず臣に急にせんと欲せば、"
+    }
+   ]
+  },
+  {
+   "word": "踵軍",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 748,
+   "samples": [
+    {
+     "id": "utsuryo20-1",
+     "field": "kakikudashi",
+     "snippet": "所謂踵軍とは、大軍を去ること百里にして、会地に期す。三日の熟食を為りて、軍に前だちて行き、戦合の表を為し、表を合せて乃ち"
+    },
+    {
+     "id": "utsuryo20-2",
+     "field": "kakikudashi",
+     "snippet": "興軍とは、踵軍に前だちて行き、表を合せて乃ち起つ。大軍を去ること其の道を一倍にす。踵軍を去ること百里にして、会地に期す。"
+    },
+    {
+     "id": "rikutou34-7",
+     "field": "kakikudashi",
+     "snippet": "已に出づれば、我が踵軍をして、雲火を設けて遠く候わしめ、必ず草木、丘墓、険阻に依れ。敵人の車騎、必ず敢えて遠く追いて長駆"
+    }
+   ]
+  },
+  {
+   "word": "身上",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 749,
+   "samples": [
+    {
+     "id": "baitanoh-6",
+     "field": "kakikudashi",
+     "snippet": "身上の衣裳口中の食"
+    },
+    {
+     "id": "baitanoh-7",
+     "field": "kakikudashi",
+     "snippet": "憐む可し身上衣正に単なり"
+    },
+    {
+     "id": "yushigin-2",
+     "field": "kakikudashi",
+     "snippet": "遊子身上の衣"
+    }
+   ]
+  },
+  {
+   "word": "身修",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 750,
+   "samples": [
+    {
+     "id": "shushinseika-1",
+     "field": "kakikudashi",
+     "snippet": "えんと欲する者は、先ず其の身を修む。……身修まりて后家斉う。家斉いて后国治まる。国治まりて后天下平らかなり。"
+    },
+    {
+     "id": "daigaku01kei-15",
+     "field": "kakikudashi",
+     "snippet": "身修まりて后家斉う。"
+    },
+    {
+     "id": "daigaku08-8",
+     "field": "kakikudashi",
+     "snippet": "此を身修まらざれば、以て其の家を斉う可からずと謂う。"
+    }
+   ]
+  },
+  {
+   "word": "軍容",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 2,
+   "rank": 751,
+   "samples": [
+    {
+     "id": "toushisen128-6",
+     "field": "kakikudashi",
+     "snippet": "軍容塞を出でて華やかなり"
+    }
+   ]
+  },
+  {
+   "word": "軍必",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 752,
+   "samples": [
+    {
+     "id": "rikutou29-7",
+     "field": "kakikudashi",
+     "snippet": "れ北ぐ。城の気出でて我が軍の上を覆えば、軍必ず病む。城の気出でて高くして止まる所無きは、兵を用うること長久なり。"
+    },
+    {
+     "id": "sanryaku01-13",
+     "field": "kakikudashi",
+     "snippet": "則ち敵、利に乗ず。敵、利に乗ずれば、則ち軍必ず喪ぶ。"
+    },
+    {
+     "id": "sanryaku01-17",
+     "field": "kakikudashi",
+     "snippet": "れば、則ち衆姦会る。将に此の三者有れば、軍必ず敗る。将に慮り無ければ、則ち謀士去り、将に勇無ければ、則ち士卒恐る。将妄り"
+    }
+   ]
+  },
+  {
+   "word": "軍門",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 753,
+   "samples": [
+    {
+     "id": "satan-1",
+     "field": "kakikudashi",
+     "snippet": "太尉、之に将とし、軍門に入り、行くゆく軍中に令して曰く、呂氏の為にするものは右袒せよ。劉氏の為にするものは左袒せよ、と。"
+    },
+    {
+     "id": "shiba02-8",
+     "field": "kakikudashi",
+     "snippet": "殷は軍門の外に誓う。民の意を先にして以て事を待たんことを欲するなり。"
+    }
+   ]
+  },
+  {
+   "word": "転関",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 754,
+   "samples": [
+    {
+     "id": "rikutou31-7",
+     "field": "kakikudashi",
+     "snippet": "溝塹を渡るには、飛橋一間、広さ一丈五尺、長さ二丈以上にして、転関、轆轤を著けたるもの八具、環利の通索を以て之を張る。"
+    },
+    {
+     "id": "rikutou34-6",
+     "field": "kakikudashi",
+     "snippet": "其の卒必ず寡からん。此の若き者は、飛江と転関と天潢とを以て、以て吾が軍を済し、勇力材士、我が指す所に従って、敵を衝き陣を"
+    },
+    {
+     "id": "rikutou35-4",
+     "field": "kakikudashi",
+     "snippet": "鳴笳を吹く。溝塹を越ゆるには、則ち飛橋、転関、轆轤、鉏鋙有り。大水を済るには、則ち天潢、飛江有り。波に逆い流れを上るには"
+    }
+   ]
+  },
+  {
+   "word": "農桑",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 755,
+   "samples": [
+    {
+     "id": "nowakuni-2",
+     "field": "kakikudashi",
+     "snippet": "、堅きを棄て偽りに就き、伎巧の利を求め、農桑の基を廃てざるは莫し。"
+    },
+    {
+     "id": "rikutou02-4",
+     "field": "kakikudashi",
+     "snippet": "くす。民の孝慈有る者は、之を愛敬し、力を農桑に尽くす者は、之を慰勉し、淑慝を旌別して、其の門閭に表す。"
+    },
+    {
+     "id": "rikutou09-3",
+     "field": "kakikudashi",
+     "snippet": "二に曰く、民、農桑を事とせず、気に任せて游俠し、法禁を犯歴し、吏の教えに従わざる者有れば、王の化を傷う。"
+    }
+   ]
+  },
+  {
+   "word": "辺声",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 756,
+   "samples": [
+    {
+     "id": "toushisen056-6",
+     "field": "kakikudashi",
+     "snippet": "笳吹夜には辺声"
+    },
+    {
+     "id": "toushisen121-3",
+     "field": "kakikudashi",
+     "snippet": "辺声羌笛を乱し"
+    },
+    {
+     "id": "toushisen254-4",
+     "field": "kakikudashi",
+     "snippet": "半夜辺声を起こす"
+    }
+   ]
+  },
+  {
+   "word": "迂直",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 757,
+   "samples": [
+    {
+     "id": "uchoku-2",
+     "field": "kakikudashi",
+     "snippet": "故に其の途を迂にして、之を誘うに利を以てし、人に後れて発し、人に先んじて至る。此れ迂直の計を知る者なり。"
+    },
+    {
+     "id": "sonshi07-4",
+     "field": "kakikudashi",
+     "snippet": "此れ迂直の計を知る者なり。"
+    },
+    {
+     "id": "sonshi07-17",
+     "field": "kakikudashi",
+     "snippet": "先ず迂直の計を知る者は勝つ。"
+    }
+   ]
+  },
+  {
+   "word": "迷惑",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 2,
+   "rank": 758,
+   "samples": [
+    {
+     "id": "robanochi-1",
+     "field": "kakikudashi",
+     "snippet": "桓公に従いて孤竹を伐つ。春往きて冬反る。迷惑して道を失う。管仲曰く、老馬の智用う可きなり、と。乃ち老馬を放ちて之に随い、"
+    }
+   ]
+  },
+  {
+   "word": "通索",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 2,
+   "rank": 759,
+   "samples": [
+    {
+     "id": "rikutou31-7",
+     "field": "kakikudashi",
+     "snippet": "溝塹を渡るには、飛橋一間、広さ一丈五尺、長さ二丈以上にして、転関、轆轤を著けたるもの八具、環利の通索を以て之を張る。"
+    }
+   ]
+  },
+  {
+   "word": "通達",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 760,
+   "samples": [
+    {
+     "id": "kagyu-3",
+     "field": "kakikudashi",
+     "snippet": "く、心を無窮に遊ばしむるを知りて、反りて通達の国に在るは、存するが若く亡きが若きか、と。"
+    },
+    {
+     "id": "tokaku-1",
+     "field": "kakikudashi",
+     "snippet": "子厚少にして精敏、通達せざる無し。其の父の時に逮んで、少年と雖も已に自ずから成人し、能く進士の第を取り、嶄然として頭角を"
+    },
+    {
+     "id": "rikutou18-2",
+     "field": "kakikudashi",
+     "snippet": "挙げ師を帥いるに、将を以て命と為す。命は通達に在り。一術を守らず、能に因って職を授け、各〻長ずる所を取り、時に随って変化"
+    }
+   ]
+  },
+  {
+   "word": "進止",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 761,
+   "samples": [
+    {
+     "id": "shiba05-1",
+     "field": "kakikudashi",
+     "snippet": "に利あり、衆は正に利あり。衆を用うるには進止し、寡を用うるには進退す。"
+    },
+    {
+     "id": "utsuryo23-5",
+     "field": "kakikudashi",
+     "snippet": "は、止まる所以なり。立坐の陣は、相参えて進止し、将、其の中に在り。坐の兵は剣斧、立の兵は戟弩。将亦た中に居る。善く敵を御"
+    },
+    {
+     "id": "shiba04-4",
+     "field": "kakikudashi",
+     "snippet": "舎するに兵甲を謹み、行くに行列を慎み、戦うに進止を謹む。"
+    }
+   ]
+  },
+  {
+   "word": "道徳",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 762,
+   "samples": [
+    {
+     "id": "toushisen147-12",
+     "field": "kakikudashi",
+     "snippet": "道徳今王に付す"
+    },
+    {
+     "id": "sanryaku02-4",
+     "field": "kakikudashi",
+     "snippet": "略は徳行を差し、権変を審らかにす。下略は道徳を陳べ、安危を察し、賢を賊うの咎を明らかにす。故に人主、深く上略を暁れば、則"
+    },
+    {
+     "id": "sanryaku03-2",
+     "field": "kakikudashi",
+     "snippet": "い、人の其の政令に楽しむを謂い、人の其の道徳に楽しむを謂う。此の如くにして人に君たる者は、乃ち楽を作りて以て之を節し、其"
+    }
+   ]
+  },
+  {
+   "word": "道路",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 763,
+   "samples": [
+    {
+     "id": "koshi19_01-3",
+     "field": "kakikudashi",
+     "snippet": "道路阻にして且つ長し、会面安くんぞ知る可けんや"
+    },
+    {
+     "id": "toushisen050-4",
+     "field": "kakikudashi",
+     "snippet": "道路辺城に入る"
+    },
+    {
+     "id": "sonshi13-2",
+     "field": "kakikudashi",
+     "snippet": "内外騒動し、道路に怠り、事を操るを得ざる者七十万家、相守ること数年にして、以て一日の勝を争う。"
+    }
+   ]
+  },
+  {
+   "word": "遥遥",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 764,
+   "samples": [
+    {
+     "id": "kikyorainoji-9",
+     "field": "kakikudashi",
+     "snippet": "舟は遥遥として以て軽く颺り"
+    },
+    {
+     "id": "toushisen016-29",
+     "field": "kakikudashi",
+     "snippet": "遥遥たる翠幰金堤に没す"
+    },
+    {
+     "id": "toushisen164-7",
+     "field": "kakikudashi",
+     "snippet": "遥遥として西のかた長安の日に向い"
+    }
+   ]
+  },
+  {
+   "word": "部伍",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 765,
+   "samples": [
+    {
+     "id": "p-dancho-2",
+     "field": "kakikudashi",
+     "snippet": "部伍の中に猿子を得る者有り。"
+    },
+    {
+     "id": "toushisen006-6",
+     "field": "kakikudashi",
+     "snippet": "部伍各〻招かる"
+    },
+    {
+     "id": "montai01-13",
+     "field": "kakikudashi",
+     "snippet": "一には則ち力を治め、一には則ち前み拒ぎ、一には則ち部伍を束ね、三者迭いに用を相為す。斯れ馬隆の古法を得る所深きなり。"
+    }
+   ]
+  },
+  {
+   "word": "郷党",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 766,
+   "samples": [
+    {
+     "id": "iukotoata-1",
+     "field": "kakikudashi",
+     "snippet": "孔子、郷党に於いては、恂恂如たり。言うこと能わざる者に似たり。其の宗廟・朝廷に在るや、便便として言う。唯だ謹めるのみ。"
+    },
+    {
+     "id": "kyotooite-1",
+     "field": "kakikudashi",
+     "snippet": "孔子、郷党に於いては、恂恂如たり。言うこと能わざる者に似たり。其の宗廟・朝廷に在るや、便便として言う。唯だ謹めるのみ。"
+    },
+    {
+     "id": "rongo1320-1",
+     "field": "kakikudashi",
+     "snippet": "えて其の次を問う。曰く、宗族は孝を称し、郷党は弟を称す。曰く、敢えて其の次を問う。曰く、言必ず信あり、行い必ず果たす、硜"
+    }
+   ]
+  },
+  {
+   "word": "郷原",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 767,
+   "samples": [
+    {
+     "id": "kyogenzoku-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、郷原は徳の賊なり。"
+    },
+    {
+     "id": "rongo1713-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、郷原は徳の賊なり。"
+    },
+    {
+     "id": "nitehi-1",
+     "field": "kakikudashi",
+     "snippet": "紫を悪むは、其の朱を乱るを恐るればなり。郷原を悪むは、其の徳を乱るを恐るればなり、と。"
+    }
+   ]
+  },
+  {
+   "word": "鄴城",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 768,
+   "samples": [
+    {
+     "id": "toushisen033-1",
+     "field": "kakikudashi",
+     "snippet": "馬より下りて鄴城に登れば"
+    },
+    {
+     "id": "toushisen440-1",
+     "field": "kakikudashi",
+     "snippet": "館娃宮外鄴城の西"
+    },
+    {
+     "id": "sekigonori-8",
+     "field": "kakikudashi",
+     "snippet": "三男鄴城に戍り"
+    }
+   ]
+  },
+  {
+   "word": "酒家",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 769,
+   "samples": [
+    {
+     "id": "seimei-3",
+     "field": "kakikudashi",
+     "snippet": "借問す酒家は何れの処にか有る"
+    },
+    {
+     "id": "shinwai-2",
+     "field": "kakikudashi",
+     "snippet": "夜秦淮に泊して酒家に近し"
+    },
+    {
+     "id": "toushisen027-15",
+     "field": "kakikudashi",
+     "snippet": "長安市上酒家に眠る"
+    }
+   ]
+  },
+  {
+   "word": "金尊",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 770,
+   "samples": [
+    {
+     "id": "sanennosho-8",
+     "field": "kakikudashi",
+     "snippet": "須いず檀板と金尊とを"
+    },
+    {
+     "id": "toushisen051-2",
+     "field": "kakikudashi",
+     "snippet": "金尊綺筵に対す"
+    },
+    {
+     "id": "24shihin09-5",
+     "field": "kakikudashi",
+     "snippet": "金尊に酒満ち、客を伴って琴を弾ず。"
+    }
+   ]
+  },
+  {
+   "word": "金闕",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 771,
+   "samples": [
+    {
+     "id": "toushisen196-3",
+     "field": "kakikudashi",
+     "snippet": "金闕の暁鐘万戸を開き"
+    },
+    {
+     "id": "8gatsu15-1",
+     "field": "kakikudashi",
+     "snippet": "銀台金闕夕べ沈沈"
+    },
+    {
+     "id": "toushisen053-3",
+     "field": "kakikudashi",
+     "snippet": "雲標金闕迥かに"
+    }
+   ]
+  },
+  {
+   "word": "鐘鼓",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 772,
+   "samples": [
+    {
+     "id": "gakutoii-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、礼と云い礼と云う、玉帛を云わんや。楽と云い楽と云う、鐘鼓を云わんや。"
+    },
+    {
+     "id": "sannen-3",
+     "field": "kakikudashi",
+     "snippet": "ち左に従の手を執り、右に刀を抽いて、以て鐘鼓の懸を断つ。明日、政を聴き、伍挙・蘇従に任ず。国人大いに悦ぶ。又孫叔敖を得て"
+    },
+    {
+     "id": "shikyo_kansho-10",
+     "field": "kakikudashi",
+     "snippet": "窈窕たる淑女は鐘鼓之を楽しむ"
+    }
+   ]
+  },
+  {
+   "word": "長久",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 773,
+   "samples": [
+    {
+     "id": "rikutou29-7",
+     "field": "kakikudashi",
+     "snippet": "て高くして止まる所無きは、兵を用うること長久なり。"
+    },
+    {
+     "id": "roushi44-2",
+     "field": "kakikudashi",
+     "snippet": "められず、止まるを知れば殆うからず、以て長久なる可し。"
+    },
+    {
+     "id": "roushi59-4",
+     "field": "kakikudashi",
+     "snippet": "国の母を有てば、以て長久なる可し。是を根を深くし柢を固くし、長生久視の道と謂う。"
+    }
+   ]
+  },
+  {
+   "word": "長松",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 774,
+   "samples": [
+    {
+     "id": "toushisen074-6",
+     "field": "kakikudashi",
+     "snippet": "長松梵声を響かす"
+    },
+    {
+     "id": "toushisen181-7",
+     "field": "kakikudashi",
+     "snippet": "深洞長松何の有る所ぞ"
+    },
+    {
+     "id": "toushisen345-3",
+     "field": "kakikudashi",
+     "snippet": "科頭にして箕踞す長松の下"
+    }
+   ]
+  },
+  {
+   "word": "長生",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 775,
+   "samples": [
+    {
+     "id": "tenwana-1",
+     "field": "kakikudashi",
+     "snippet": "天は長く地は久し。天地の能く長く且つ久しき所以は、其の自ら生きざるを以てなり。故に能く長生す。"
+    },
+    {
+     "id": "toushisen171-8",
+     "field": "kakikudashi",
+     "snippet": "此の処にて長生を学ぶに如くは無し"
+    },
+    {
+     "id": "roushi07-1",
+     "field": "kakikudashi",
+     "snippet": "天は長く地は久し。天地の能く長く且つ久しき所以の者は、其の自ら生きざるを以てなり。故に能く長生す。"
+    }
+   ]
+  },
+  {
+   "word": "長駆",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 776,
+   "samples": [
+    {
+     "id": "rikutou44-1",
+     "field": "kakikudashi",
+     "snippet": "武王、太公に問うて曰く、敵人深く入りて長駆し、我が地を侵掠し、我が牛馬を駆り、其の三軍大いに至り、我が城下に薄り、吾が士"
+    },
+    {
+     "id": "rikutou34-7",
+     "field": "kakikudashi",
+     "snippet": "に依れ。敵人の車騎、必ず敢えて遠く追いて長駆せず。因って火を以て記と為し、先ず出づる者は、火に至りて止まり、四武の衝陣を"
+    },
+    {
+     "id": "rikutou59-3",
+     "field": "kakikudashi",
+     "snippet": "敵人険阻の保固無きに、深く入りて長駆するには、其の糧道を絶たば、敵人必ず飢えん。"
+    }
+   ]
+  },
+  {
+   "word": "門前",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 777,
+   "samples": [
+    {
+     "id": "toushisen375-4",
+     "field": "kakikudashi",
+     "snippet": "直ちに到る門前渓水の流れ"
+    },
+    {
+     "id": "toushisen016-27",
+     "field": "kakikudashi",
+     "snippet": "廷尉の門前雀棲まんと欲す"
+    },
+    {
+     "id": "toushisen268-3",
+     "field": "kakikudashi",
+     "snippet": "為に問う門前の客"
+    }
+   ]
+  },
+  {
+   "word": "門外",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 778,
+   "samples": [
+    {
+     "id": "rokinshi-4",
+     "field": "kakikudashi",
+     "snippet": "門外の野風白蓮開く"
+    },
+    {
+     "id": "toushisen031-6",
+     "field": "kakikudashi",
+     "snippet": "門外の車馬雲の屯するがごとし"
+    },
+    {
+     "id": "toushisen189-4",
+     "field": "kakikudashi",
+     "snippet": "門外の青山旧時に似たり"
+    }
+   ]
+  },
+  {
+   "word": "開塞",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 779,
+   "samples": [
+    {
+     "id": "utsuryo22-2",
+     "field": "kakikudashi",
+     "snippet": "、以て其の聯を結ぶを謂うなり。四に曰く、開塞。地を分ちて以て限り、各〻其の職に死して堅く守るを謂うなり。五に曰く、分限。"
+    },
+    {
+     "id": "utsuryo10-2",
+     "field": "kakikudashi",
+     "snippet": "誅責を厳しくするは、奸を止むるの術なり。開塞を審らかにし、一道を守るは、政を為すの要なり。下に達し上に通ずるは、至聡の聴"
+    }
+   ]
+  },
+  {
+   "word": "関雎",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 780,
+   "samples": [
+    {
+     "id": "kanashimi-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、関雎は楽しみて淫せず、哀しみて傷らず。"
+    },
+    {
+     "id": "tanoshiin-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、関雎は楽しみて淫せず、哀しみて傷らず。"
+    },
+    {
+     "id": "rongo0815-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、師摯の始め、関雎の乱りは、洋洋乎として耳に盈てるかな。"
+    }
+   ]
+  },
+  {
+   "word": "閨中",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 781,
+   "samples": [
+    {
+     "id": "toushisen332-1",
+     "field": "kakikudashi",
+     "snippet": "閨中の少婦愁いを知らず"
+    },
+    {
+     "id": "toushisen356-3",
+     "field": "kakikudashi",
+     "snippet": "閨中只だ是れ空しく相憶うも"
+    },
+    {
+     "id": "getsuya_toho-2",
+     "field": "kakikudashi",
+     "snippet": "閨中只だ独り看るならん"
+    }
+   ]
+  },
+  {
+   "word": "閶闔",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 782,
+   "samples": [
+    {
+     "id": "toushisen174-3",
+     "field": "kakikudashi",
+     "snippet": "九天の閶闔宮殿を開き"
+    },
+    {
+     "id": "toushisen123-1",
+     "field": "kakikudashi",
+     "snippet": "閶闔雲に連なって起り"
+    },
+    {
+     "id": "toushisen030-17",
+     "field": "kakikudashi",
+     "snippet": "迥かに閶闔に立てば長風生ず"
+    }
+   ]
+  },
+  {
+   "word": "闌干",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 783,
+   "samples": [
+    {
+     "id": "toushisen312-4",
+     "field": "kakikudashi",
+     "snippet": "沈香亭北闌干に倚る"
+    },
+    {
+     "id": "toushisen419-2",
+     "field": "kakikudashi",
+     "snippet": "何事ぞ闌干として涙衣を湿す"
+    },
+    {
+     "id": "toushisen425-4",
+     "field": "kakikudashi",
+     "snippet": "長袖をして闌干に倚らしむる莫かれ"
+    }
+   ]
+  },
+  {
+   "word": "険戦",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 784,
+   "samples": [
+    {
+     "id": "rikutou55-3",
+     "field": "kakikudashi",
+     "snippet": "険戦の法、一車は歩卒四十人に当り、四十人は一車に当り、一騎は歩卒四人に当り、四人は一騎に当り、一車は六騎に当り、六騎は一"
+    },
+    {
+     "id": "rikutou55-5",
+     "field": "kakikudashi",
+     "snippet": "ること二十歩、左右四歩、隊の間は五十歩。険戦には、前後相去ること十歩、左右二歩、隊の間は二十五歩。三十騎を一屯と為し、六"
+    },
+    {
+     "id": "rikutou55-4",
+     "field": "kakikudashi",
+     "snippet": "険戦の法は、車は必ず道に循い、十車を聚と為し、二十車を屯と為し、前後相去ること二十歩、左右六歩、隊の間は三十六歩。五車に"
+    }
+   ]
+  },
+  {
+   "word": "陽関",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 785,
+   "samples": [
+    {
+     "id": "genji-4",
+     "field": "kakikudashi",
+     "snippet": "西のかた陽関を出づれば故人無からん"
+    },
+    {
+     "id": "toushisen075-1",
+     "field": "kakikudashi",
+     "snippet": "陽関の路を識らず"
+    },
+    {
+     "id": "toushisen076-1",
+     "field": "kakikudashi",
+     "snippet": "絶域陽関の道"
+    }
+   ]
+  },
+  {
+   "word": "隴山",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 786,
+   "samples": [
+    {
+     "id": "toushisen035-10",
+     "field": "kakikudashi",
+     "snippet": "秦山遥かに望む隴山の雲"
+    },
+    {
+     "id": "toushisen362-3",
+     "field": "kakikudashi",
+     "snippet": "隴山の鸚鵡能く言語す"
+    },
+    {
+     "id": "toushisen449-4",
+     "field": "kakikudashi",
+     "snippet": "胡笳夜聴く隴山の頭"
+    }
+   ]
+  },
+  {
+   "word": "離宮",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 787,
+   "samples": [
+    {
+     "id": "toushisen175-1",
+     "field": "kakikudashi",
+     "snippet": "漢主の離宮露台に接し"
+    },
+    {
+     "id": "toushisen045-8",
+     "field": "kakikudashi",
+     "snippet": "漢家の離宮三十六"
+    },
+    {
+     "id": "toushisen187-4",
+     "field": "kakikudashi",
+     "snippet": "昼は仙液の離宮に注ぐを看る"
+    }
+   ]
+  },
+  {
+   "word": "雨中",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 788,
+   "samples": [
+    {
+     "id": "toushisen177-6",
+     "field": "kakikudashi",
+     "snippet": "雨中の春樹万人の家"
+    },
+    {
+     "id": "toushisen161-4",
+     "field": "kakikudashi",
+     "snippet": "風回りて巌岫は雨中に移る"
+    },
+    {
+     "id": "toushisen218-4",
+     "field": "kakikudashi",
+     "snippet": "竜池の柳色雨中に深し"
+    }
+   ]
+  },
+  {
+   "word": "雲梯",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 789,
+   "samples": [
+    {
+     "id": "p-bokushu-1",
+     "field": "kakikudashi",
+     "snippet": "公輸盤、楚の為に雲梯の械を造りて成り、将に以て宋を攻めんとす。子墨子之を聞き、斉を起ち、行くこと十日十夜にして郢に至り、"
+    },
+    {
+     "id": "rikutou35-3",
+     "field": "kakikudashi",
+     "snippet": "則ち轒轀、臨衝有り。城中を視るには、則ち雲梯、飛楼有り。三軍行止するには、則ち武衝、大櫓有りて、前後拒ぎ守る。"
+    },
+    {
+     "id": "rikutou35-4",
+     "field": "kakikudashi",
+     "snippet": "昼は則ち雲梯に登りて遠く望み、五色の旌旗を立つ。夜は則ち雲火万炬を設け、雷鼓を撃ち、鼙鐸を振い、鳴笳を吹く。溝塹を越ゆる"
+    }
+   ]
+  },
+  {
+   "word": "雲漢",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 790,
+   "samples": [
+    {
+     "id": "toushisen156-2",
+     "field": "kakikudashi",
+     "snippet": "別業初めて開く雲漢の辺"
+    },
+    {
+     "id": "toushisen163-8",
+     "field": "kakikudashi",
+     "snippet": "槎に雲漢の辺に乗ずるを羨まず"
+    },
+    {
+     "id": "gekkadoku01-14",
+     "field": "kakikudashi",
+     "snippet": "相期す邈かなる雲漢に"
+    }
+   ]
+  },
+  {
+   "word": "雲間",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 791,
+   "samples": [
+    {
+     "id": "toushisen165-5",
+     "field": "kakikudashi",
+     "snippet": "雲間の東嶺千尋に出で"
+    },
+    {
+     "id": "toushisen169-1",
+     "field": "kakikudashi",
+     "snippet": "忽ち睹る雲間数雁の廻るを"
+    },
+    {
+     "id": "toushisen369-3",
+     "field": "kakikudashi",
+     "snippet": "已に滴博雲間の戍を収めたり"
+    }
+   ]
+  },
+  {
+   "word": "青松",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 792,
+   "samples": [
+    {
+     "id": "toushisen073-6",
+     "field": "kakikudashi",
+     "snippet": "日色青松に冷やかなり"
+    },
+    {
+     "id": "toushisen011-13",
+     "field": "kakikudashi",
+     "snippet": "青松馳道を夾み"
+    },
+    {
+     "id": "toushisen016-51",
+     "field": "kakikudashi",
+     "snippet": "即今惟だ見る青松の在るを"
+    }
+   ]
+  },
+  {
+   "word": "顚沛",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 793,
+   "samples": [
+    {
+     "id": "inkan-2",
+     "field": "kakikudashi",
+     "snippet": "人亦た言う有り顚沛の掲たる"
+    },
+    {
+     "id": "rongo0405-1",
+     "field": "kakikudashi",
+     "snippet": "違うこと無く、造次にも必ず是に於いてし、顚沛にも必ず是に於いてす。"
+    },
+    {
+     "id": "kunshijinsa-1",
+     "field": "kakikudashi",
+     "snippet": "違うこと無く、造次にも必ず是に於いてし、顚沛にも必ず是に於いてす。"
+    }
+   ]
+  },
+  {
+   "word": "風雲",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 794,
+   "samples": [
+    {
+     "id": "toushisen141-7",
+     "field": "kakikudashi",
+     "snippet": "風雲絶足に随い"
+    },
+    {
+     "id": "toushisen210-4",
+     "field": "kakikudashi",
+     "snippet": "塞上の風雲地に接して陰る"
+    },
+    {
+     "id": "24shihin20-3",
+     "field": "kakikudashi",
+     "snippet": "風雲は態を変え、花草に精神あり。"
+    }
+   ]
+  },
+  {
+   "word": "飄風",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 795,
+   "samples": [
+    {
+     "id": "hyohu-1",
+     "field": "kakikudashi",
+     "snippet": "希言は自然なり。飄風は朝を終えず、驟雨は日を終えず。孰か此を為す者ぞ。天地なり。天地すら尚お久しきこと能わず、而るを況ん"
+    },
+    {
+     "id": "roushi23-1",
+     "field": "kakikudashi",
+     "snippet": "希言は自然なり。飄風は朝を終えず、驟雨は日を終えず。孰か此を為す者ぞ。天地なり。天地すら尚お久しきこと能わず、而るを況ん"
+    },
+    {
+     "id": "soji02k05-2",
+     "field": "kakikudashi",
+     "snippet": "飄風をして先駆せしめ、涷雨をして塵に灑がしむ。"
+    }
+   ]
+  },
+  {
+   "word": "飄飄",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 796,
+   "samples": [
+    {
+     "id": "kikyorainoji-10",
+     "field": "kakikudashi",
+     "snippet": "風は飄飄として衣を吹く"
+    },
+    {
+     "id": "toushisen025-6",
+     "field": "kakikudashi",
+     "snippet": "飄飄として遠く流沙より至る"
+    },
+    {
+     "id": "toushisen097-7",
+     "field": "kakikudashi",
+     "snippet": "飄飄何の似たる所ぞ"
+    }
+   ]
+  },
+  {
+   "word": "飛将",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 797,
+   "samples": [
+    {
+     "id": "toushisen336-3",
+     "field": "kakikudashi",
+     "snippet": "但だ竜城の飛将をして在らしめば"
+    },
+    {
+     "id": "toushisen390-3",
+     "field": "kakikudashi",
+     "snippet": "更に飛将を催して驕虜を追わしむ"
+    },
+    {
+     "id": "toushisen091-7",
+     "field": "kakikudashi",
+     "snippet": "故老飛将を思う"
+    }
+   ]
+  },
+  {
+   "word": "飛江",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 798,
+   "samples": [
+    {
+     "id": "rikutou34-6",
+     "field": "kakikudashi",
+     "snippet": "るも、其の卒必ず寡からん。此の若き者は、飛江と転関と天潢とを以て、以て吾が軍を済し、勇力材士、我が指す所に従って、敵を衝"
+    },
+    {
+     "id": "rikutou31-8",
+     "field": "kakikudashi",
+     "snippet": "、環絡自ら副くるもの三十二具。天浮を以て飛江を張り、大海を済る。之を天潢と謂う。一に天舡と名づく。"
+    }
+   ]
+  },
+  {
+   "word": "首至",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 799,
+   "samples": [
+    {
+     "id": "p-goetsu-3",
+     "field": "kakikudashi",
+     "snippet": "其の首を撃たば則ち尾至り、其の尾を撃たば則ち首至り、其の中を撃たば則ち首尾倶に至る。"
+    },
+    {
+     "id": "jozan-3",
+     "field": "kakikudashi",
+     "snippet": "其の首を撃てば則ち尾至り、其の尾を撃てば則ち首至り、其の中を撃てば則ち首尾倶に至る。"
+    },
+    {
+     "id": "sonshi11-30",
+     "field": "kakikudashi",
+     "snippet": "其の首を撃てば則ち尾至り、其の尾を撃てば則ち首至り、其の中を撃てば則ち首尾倶に至る。"
+    }
+   ]
+  },
+  {
+   "word": "馬上",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 800,
+   "samples": [
+    {
+     "id": "sanjo-1",
+     "field": "kakikudashi",
+     "snippet": "余、平生作る所の文章、多くは三上に在り。乃ち馬上・枕上・厠上なり。蓋し惟だ此れ尤も以て思いを属ぬ可きのみ。"
+    },
+    {
+     "id": "toushisen309-2",
+     "field": "kakikudashi",
+     "snippet": "飲まんと欲すれば琵琶馬上に催す"
+    },
+    {
+     "id": "toushisen304-2",
+     "field": "kakikudashi",
+     "snippet": "桃花の馬上石榴の裙"
+    }
+   ]
+  },
+  {
+   "word": "駑馬",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 801,
+   "samples": [
+    {
+     "id": "koshi19_03-4",
+     "field": "kakikudashi",
+     "snippet": "車を駆り駑馬に策ちて、宛と洛とに遊戯す"
+    },
+    {
+     "id": "utsuryo03-7",
+     "field": "kakikudashi",
+     "snippet": "助けて戦うは、猶お良驥騄駬の駛きに、彼の駑馬の鬐興して角逐するがごとし。何ぞ能く吾が気を紹がんや。"
+    },
+    {
+     "id": "soji06-18",
+     "field": "kakikudashi",
+     "snippet": "将た駑馬の迹に随わんか。"
+    }
+   ]
+  },
+  {
+   "word": "駿馬",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 802,
+   "samples": [
+    {
+     "id": "saio-5",
+     "field": "kakikudashi",
+     "snippet": "居ること数月、其の馬、胡の駿馬を将いて帰る。"
+    },
+    {
+     "id": "shimen-10",
+     "field": "kakikudashi",
+     "snippet": "駿馬あり、名は騅。"
+    }
+   ]
+  },
+  {
+   "word": "驍騎",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 803,
+   "samples": [
+    {
+     "id": "rikutou46-1",
+     "field": "kakikudashi",
+     "snippet": "敵人に遇うに、甚だ衆く且つ武なり。武車、驍騎、我が左右を繞り、吾が三軍皆震え、走りて止む可からず。之を為すこと奈何。"
+    },
+    {
+     "id": "rikutou52-1",
+     "field": "kakikudashi",
+     "snippet": "て曰く、凡そ兵を用うるの要は、必ず武車、驍騎、馳陣、選鋒有り。可を見れば則ち之を撃つ。如何にして撃つ可きか。"
+    }
+   ]
+  },
+  {
+   "word": "驚駭",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 804,
+   "samples": [
+    {
+     "id": "rikutou27-4",
+     "field": "kakikudashi",
+     "snippet": "裂するは、円を撃ち方を破る所以なり。其の驚駭に因るは、一もて十を撃つ所以なり。其の労倦暮舎に因るは、十もて百を撃つ所以な"
+    },
+    {
+     "id": "rikutou34-3",
+     "field": "kakikudashi",
+     "snippet": "騎は中に居く。陣し畢りて徐に行き、慎んで驚駭すること無かれ。"
+    }
+   ]
+  },
+  {
+   "word": "高堂",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 805,
+   "samples": [
+    {
+     "id": "toushisen062-3",
+     "field": "kakikudashi",
+     "snippet": "正に高堂の宴有り"
+    },
+    {
+     "id": "toushisen080-2",
+     "field": "kakikudashi",
+     "snippet": "高堂に老親有ればなり"
+    },
+    {
+     "id": "toushisen363-2",
+     "field": "kakikudashi",
+     "snippet": "高堂に置酒して夜鼓を撃つ"
+    }
+   ]
+  },
+  {
+   "word": "高樹",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 806,
+   "samples": [
+    {
+     "id": "toushisen122-8",
+     "field": "kakikudashi",
+     "snippet": "高樹早涼帰る"
+    },
+    {
+     "id": "yadenko-1",
+     "field": "kakikudashi",
+     "snippet": "高樹悲風多く"
+    },
+    {
+     "id": "toushisen051-5",
+     "field": "kakikudashi",
+     "snippet": "明月高樹に隠れ"
+    }
+   ]
+  },
+  {
+   "word": "高辛",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 2,
+   "rank": 807,
+   "samples": [
+    {
+     "id": "shiki001c-1",
+     "field": "kakikudashi",
+     "snippet": "帝嚳高辛は、黄帝の曾孫なり。高辛の父を蟜極と曰い、蟜極の父を玄囂と曰い、玄囂の父を黄帝と曰う。"
+    }
+   ]
+  },
+  {
+   "word": "鳥獣",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 2,
+   "rank": 808,
+   "samples": [
+    {
+     "id": "rongo1806-1",
+     "field": "kakikudashi",
+     "snippet": "子路行きて以て告ぐ。夫子憮然として曰く、鳥獣は与に群れを同じくす可からず。吾は斯の人の徒と与にするに非ずして、誰と与にせ"
+    },
+    {
+     "id": "p-chojutomo-1",
+     "field": "kakikudashi",
+     "snippet": "鳥獣は与に群れを同じくす可からず。吾は斯の人の徒と与にするに非ずして、誰と与にせん。天下道有らば、丘与に易えざるなり。"
+    }
+   ]
+  },
+  {
+   "word": "鳳池",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 809,
+   "samples": [
+    {
+     "id": "toushisen173-7",
+     "field": "kakikudashi",
+     "snippet": "共に恩波に沐す鳳池の上"
+    },
+    {
+     "id": "toushisen174-8",
+     "field": "kakikudashi",
+     "snippet": "珮声帰り到る鳳池の頭"
+    },
+    {
+     "id": "toushisen205-8",
+     "field": "kakikudashi",
+     "snippet": "夔竜を会送して鳳池に集まる"
+    }
+   ]
+  },
+  {
+   "word": "鸚鵡",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 810,
+   "samples": [
+    {
+     "id": "toushisen362-3",
+     "field": "kakikudashi",
+     "snippet": "隴山の鸚鵡能く言語す"
+    },
+    {
+     "id": "toushisen016-40",
+     "field": "kakikudashi",
+     "snippet": "翡翠の屠蘇鸚鵡の杯"
+    },
+    {
+     "id": "24shihin13-3",
+     "field": "kakikudashi",
+     "snippet": "青春の鸚鵡、楊柳の楼台。"
+    }
+   ]
+  },
+  {
+   "word": "黄雀",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 811,
+   "samples": [
+    {
+     "id": "toushisen038-1",
+     "field": "kakikudashi",
+     "snippet": "黄雀黄花を銜み"
+    },
+    {
+     "id": "yadenko-10",
+     "field": "kakikudashi",
+     "snippet": "黄雀飛び飛ぶを得たり"
+    },
+    {
+     "id": "toushisen045-66",
+     "field": "kakikudashi",
+     "snippet": "黄雀徒らに桂に巣くい"
+    }
+   ]
+  },
+  {
+   "word": "黄雲",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 812,
+   "samples": [
+    {
+     "id": "toushisen075-3",
+     "field": "kakikudashi",
+     "snippet": "黄雲春色を断ち"
+    },
+    {
+     "id": "toushisen379-1",
+     "field": "kakikudashi",
+     "snippet": "十里の黄雲白日曛し"
+    },
+    {
+     "id": "toushisen021-1",
+     "field": "kakikudashi",
+     "snippet": "黄雲城辺鳥棲まんと欲し"
+    }
+   ]
+  },
+  {
+   "word": "黄鶴",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 813,
+   "samples": [
+    {
+     "id": "toushisen022-5",
+     "field": "kakikudashi",
+     "snippet": "仙人待つ有りて黄鶴に乗り"
+    },
+    {
+     "id": "toushisen137-1",
+     "field": "kakikudashi",
+     "snippet": "黄鶴西楼の月"
+    },
+    {
+     "id": "toushisen143-11",
+     "field": "kakikudashi",
+     "snippet": "沙頭暮の黄鶴"
+    }
+   ]
+  },
+  {
+   "word": "黒地",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 814,
+   "samples": [
+    {
+     "id": "rikutou41-2",
+     "field": "kakikudashi",
+     "snippet": "。敵人苟くも至らば、即ち軍を引いて却き、黒地を按じて堅く処れ。"
+    },
+    {
+     "id": "rikutou41-3",
+     "field": "kakikudashi",
+     "snippet": "り、火の起るを見ば、必ず遠く走らん。吾、黒地を按じており、強弩材士、吾が左右を衛り、又吾が前後を燔け。此の若くならば、則"
+    },
+    {
+     "id": "rikutou41-4",
+     "field": "kakikudashi",
+     "snippet": "武王曰く、敵人、吾が左右を燔き、又吾が前後を燔き、煙、吾が軍を覆い、其の大兵、黒地を按じて起らば、之を為すこと奈何。"
+    }
+   ]
+  },
+  {
+   "word": "鼙鼓",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 2,
+   "rank": 815,
+   "samples": [
+    {
+     "id": "rikutou29-4",
+     "field": "kakikudashi",
+     "snippet": "旗前に指し、金鐸の声、揚がりて以て清く、鼙鼓の声、宛として以て鳴るは、此れ神明の助けを得て、大勝するの徴なり。"
+    },
+    {
+     "id": "rikutou29-5",
+     "field": "kakikudashi",
+     "snippet": "車軸を折り、金鐸の声、下くして以て濁り、鼙鼓の声、湿いて以て沐するは、此れ大敗の徴なり。"
+    },
+    {
+     "id": "rikutou36-2",
+     "field": "kakikudashi",
+     "snippet": "く塁を増して出づること無く、旌旗を列ね、鼙鼓を撃ち、完く守備を為さ詩め、我が後軍をして、多く糧食を積んで、敵人をして我が"
+    }
+   ]
+  },
+  {
+   "word": "一歳",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 816,
+   "samples": []
+  },
+  {
+   "word": "不然",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 817,
+   "samples": []
+  },
+  {
+   "word": "不聽",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 818,
+   "samples": []
+  },
+  {
+   "word": "以此",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 819,
+   "samples": []
+  },
+  {
+   "word": "凡兵",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 820,
+   "samples": []
+  },
+  {
+   "word": "即墨",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 821,
+   "samples": []
+  },
+  {
+   "word": "善哉",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 822,
+   "samples": []
+  },
+  {
+   "word": "好學",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 823,
+   "samples": []
+  },
+  {
+   "word": "如此",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 824,
+   "samples": []
+  },
+  {
+   "word": "屈原",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 825,
+   "samples": []
+  },
+  {
+   "word": "恥也",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 826,
+   "samples": []
+  },
+  {
+   "word": "惜乎",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 827,
+   "samples": []
+  },
+  {
+   "word": "是也",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 828,
+   "samples": []
+  },
+  {
+   "word": "深乎",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 829,
+   "samples": []
+  },
+  {
+   "word": "然後",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 830,
+   "samples": []
+  },
+  {
+   "word": "燕軍",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 831,
+   "samples": []
+  },
+  {
+   "word": "約束",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 832,
+   "samples": []
+  },
+  {
+   "word": "請益",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "rank": 833,
+   "samples": []
+  },
+  {
+   "word": "諺曰",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "pre_exclude": "n79-pattern: X-yune citation fragment (~60 fetched in N79, all weblio 404)",
+   "rank": 834,
+   "samples": []
+  },
+  {
+   "word": "象曰",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 2,
+   "pre_exclude": "n79-pattern: X-yune citation fragment (~60 fetched in N79, all weblio 404)",
+   "rank": 835,
+   "samples": []
+  },
+  {
+   "word": "一人之",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 836,
+   "samples": [
+    {
+     "id": "dasoku-4",
+     "field": "kakikudashi",
+     "snippet": "数人之を飲めば足らず、一人之を飲めば余り有り。"
+    },
+    {
+     "id": "iboku-2",
+     "field": "kakikudashi",
+     "snippet": "復た曰く、能く徙す者には五十金を予えん、と。一人之を徙す有り。輒ち五十金を予え、以て欺かざるを明らかにす。卒に令を下す。"
+    },
+    {
+     "id": "utsuryo03-5",
+     "field": "kakikudashi",
+     "snippet": "らかならざればなり。其の制を明らかにして一人之に勝たば、則ち十人にも亦た以て之に勝たん。十人之に勝たば、則ち百千万人にも"
+    }
+   ]
+  },
+  {
+   "word": "三千里",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 3,
+   "rank": 837,
+   "samples": [
+    {
+     "id": "keishinite-1",
+     "field": "kakikudashi",
+     "snippet": "江水三千里"
+    },
+    {
+     "id": "sanryaku01-19",
+     "field": "kakikudashi",
+     "snippet": "年の食無し。二千里なれば、二年の食無し。三千里なれば、三年の食無し。是れを国虚しと謂う。国虚しければ、則ち民貧し。民貧し"
+    }
+   ]
+  },
+  {
+   "word": "三子者",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 838,
+   "samples": [
+    {
+     "id": "rongo1422-1",
+     "field": "kakikudashi",
+     "snippet": "て告げずんばあらざるなり。君は曰く、夫の三子者に告げよと。三子に之きて告ぐ。可かれず。孔子曰く、吾は大夫の後に従うを以て"
+    },
+    {
+     "id": "rongo1125e-1",
+     "field": "kakikudashi",
+     "snippet": "。鏗爾として瑟を舎きて作つ。対えて曰く、三子者の撰に異なり。子曰く、何ぞ傷まんや。亦た各〻其の志を言うなり。曰く、莫春に"
+    },
+    {
+     "id": "rongo1125f-1",
+     "field": "kakikudashi",
+     "snippet": "三子者出づ。曾晳後る。曾晳曰く、夫の三子者の言は何如。子曰く、亦た各〻其の志を言うのみ。曰く、夫子何ぞ由を哂うや。曰く、"
+    }
+   ]
+  },
+  {
+   "word": "不仁者",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 839,
+   "samples": [
+    {
+     "id": "rongo0402-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、不仁者は以て久しく約に処る可からず。以て長く楽に処る可からず。仁者は仁に安んじ、知者は仁を利す。"
+    },
+    {
+     "id": "rongo0406-1",
+     "field": "kakikudashi",
+     "snippet": "る無し。不仁を悪む者は、其れ仁を為さん。不仁者をして其の身に加えしめず。能く一日も其の力を仁に用うること有らんか、我未だ"
+    },
+    {
+     "id": "daigaku10-31",
+     "field": "kakikudashi",
+     "snippet": "仁者は財を以て身を発し、不仁者は身を以て財を発す。"
+    }
+   ]
+  },
+  {
+   "word": "五六十",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 840,
+   "samples": [
+    {
+     "id": "tamitara-1",
+     "field": "kakikudashi",
+     "snippet": "方六七十、如しくは五六十、求や之を為め、三年に及ぶ比い、民を足らしむ可し。"
+    },
+    {
+     "id": "rongo1125c-1",
+     "field": "kakikudashi",
+     "snippet": "爾は何如。対えて曰く、方六七十、如しくは五六十、求や之を為め、三年に及ぶ比い、民を足らしむ可し。其の礼楽の如きは、以て君"
+    },
+    {
+     "id": "rongo1125f-1",
+     "field": "kakikudashi",
+     "snippet": "邦に非ざるか。安くんぞ方六七十、如しくは五六十にして、邦に非ざる者を見んや。唯だ赤は則ち邦に非ざるか。宗廟・会同は、諸侯"
+    }
+   ]
+  },
+  {
+   "word": "五十人",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 841,
+   "samples": [
+    {
+     "id": "montai09-18",
+     "field": "kakikudashi",
+     "snippet": "故に五人を伍と為し、十軌を里と為す。故に五十人を小戎と為し、四里を連と為す。故に二百人を卒と為し、十連を郷と為す。故に二"
+    },
+    {
+     "id": "montai11-4",
+     "field": "kakikudashi",
+     "snippet": "臣謂えらく、百人を卒と曰い、五十人を両と曰う。此れは是れ車一乗ごとに、士百五十人を用う。周制に比すれば差多きのみ。"
+    },
+    {
+     "id": "utsuryo14-1",
+     "field": "kakikudashi",
+     "snippet": "つなり。十人を什と為し、什、相保つなり。五十人を属と為し、属、相保つなり。百人を閭と為し、閭、相保つなり。"
+    }
+   ]
+  },
+  {
+   "word": "五十歩",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 842,
+   "samples": [
+    {
+     "id": "gojippo-x11",
+     "field": "kakikudashi",
+     "snippet": "或いは百歩にして後止まり、或いは五十歩にして後止まる。"
+    },
+    {
+     "id": "gojippo-x12",
+     "field": "kakikudashi",
+     "snippet": "五十歩を以て百歩を笑わば、則ち何如、と。"
+    },
+    {
+     "id": "rikutou55-5",
+     "field": "kakikudashi",
+     "snippet": "前後相去ること二十歩、左右四歩、隊の間は五十歩。険戦には、前後相去ること十歩、左右二歩、隊の間は二十五歩。三十騎を一屯と"
+    }
+   ]
+  },
+  {
+   "word": "光輝有",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 843,
+   "samples": [
+    {
+     "id": "toushisen122-12",
+     "field": "kakikudashi",
+     "snippet": "三署光輝有らん"
+    },
+    {
+     "id": "toushisen155-6",
+     "field": "kakikudashi",
+     "snippet": "君王の鳧雁光輝有り"
+    },
+    {
+     "id": "toushisen419-1",
+     "field": "kakikudashi",
+     "snippet": "相如伝を擁して光輝有り"
+    }
+   ]
+  },
+  {
+   "word": "公子糾",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 844,
+   "samples": [
+    {
+     "id": "kanchuna-1",
+     "field": "kakikudashi",
+     "snippet": "子貢曰く、管仲は仁者に非ざるか。桓公、公子糾を殺すに、死する能わず。又之を相く。子曰く、管仲桓公を相けて、諸侯に覇たらし"
+    },
+    {
+     "id": "kanpo-2",
+     "field": "kakikudashi",
+     "snippet": "已にして鮑叔は斉の公子小白に事え、管仲は公子糾に事う。小白立ちて桓公と為り、公子糾死するに及び、管仲囚えらる。鮑叔遂に管"
+    },
+    {
+     "id": "rongo1417-1",
+     "field": "kakikudashi",
+     "snippet": "子路曰く、桓公、公子糾を殺す。召忽は之に死し、管仲は死せず。曰く、未だ仁ならざるかと。子曰く、桓公、諸侯を九合するに、兵"
+    }
+   ]
+  },
+  {
+   "word": "君子有",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 845,
+   "samples": [
+    {
+     "id": "sessataku-3",
+     "field": "kakikudashi",
+     "snippet": "匪たる君子有り"
+    },
+    {
+     "id": "daigaku03-11",
+     "field": "kakikudashi",
+     "snippet": "斐たる君子有り、終に諠る可からずとは、盛徳至善にして、民の忘るる能わざるを道うなり。"
+    },
+    {
+     "id": "daigaku03-6",
+     "field": "kakikudashi",
+     "snippet": "、彼の淇澳を瞻れば、菉竹猗猗たり。斐たる君子有り、切するが如く磋するが如く、琢するが如く磨するが如し。瑟たり僴たり、赫た"
+    }
+   ]
+  },
+  {
+   "word": "地肥饒",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 3,
+   "rank": 846,
+   "samples": [
+    {
+     "id": "yoryoezu-2",
+     "field": "kakikudashi",
+     "snippet": "立てて王と為し、既に大夏を臣として居る。地肥饒にして、寇少なく、志安楽なり。又た自ら以て漢に遠しとし、殊えて胡に報ずるの"
+    }
+   ]
+  },
+  {
+   "word": "堯又曰",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 3,
+   "pre_exclude": "n79-pattern: X-yune citation fragment (~60 fetched in N79, all weblio 404)",
+   "rank": 847,
+   "samples": [
+    {
+     "id": "shiki001d-2",
+     "field": "kakikudashi",
+     "snippet": "堯曰く、吁、頑凶なり、用いられず、と。堯又曰く、誰か可なる者ぞ、と。讙兜曰く、共工は旁く聚めて功を布かん、用う可し、と。"
+    }
+   ]
+  },
+  {
+   "word": "夏后氏",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 848,
+   "samples": [
+    {
+     "id": "rongo0321-1",
+     "field": "kakikudashi",
+     "snippet": "哀公、社を宰我に問う。宰我、対えて曰く、夏后氏は松を以てし、殷人は柏を以てし、周人は栗を以てす。曰く、民をして戦栗せしむ"
+    },
+    {
+     "id": "shiba02-7",
+     "field": "kakikudashi",
+     "snippet": "夏后氏は軍中に誓う。民、先ず其の慮を成さんことを欲するなり。"
+    },
+    {
+     "id": "shiba02-10",
+     "field": "kakikudashi",
+     "snippet": "章は、夏后氏は日月を以てす。明を尚ぶ。殷は虎を以てす。威を尚ぶなり。周は龍を以てす。文を尚ぶなり。"
+    }
+   ]
+  },
+  {
+   "word": "天下之",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 849,
+   "samples": [
+    {
+     "id": "rikutou01-6",
+     "field": "kakikudashi",
+     "snippet": "文王曰く、斂を立つること何若にして、天下之に帰せん。"
+    },
+    {
+     "id": "roushi43-2",
+     "field": "kakikudashi",
+     "snippet": "吾是を以て無為の益有るを知る。不言の教え、無為の益は、天下之に及ぶもの希なり。"
+    },
+    {
+     "id": "rikutou08-3",
+     "field": "kakikudashi",
+     "snippet": "るに其の陽を以てす。之が為に先ず唱えて、天下之に和す。極まれば其の常に反り、進んで争うこと莫く、退いて遜ること莫し。国を"
+    }
+   ]
+  },
+  {
+   "word": "天下能",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 850,
+   "samples": [
+    {
+     "id": "roushi22-3",
+     "field": "kakikudashi",
+     "snippet": "夫れ唯だ争わず、故に天下能く之と争う莫し。古の所謂曲なれば則ち全しとは、豈に虚言ならんや。誠に全くして之を帰す。"
+    },
+    {
+     "id": "roushi70-1",
+     "field": "kakikudashi",
+     "snippet": "吾が言は甚だ知り易く、甚だ行い易きも天下能く知る莫く、能く行う莫し。"
+    },
+    {
+     "id": "utsuryo03-1",
+     "field": "kakikudashi",
+     "snippet": "し将を殺すには、則ち万人、刃を斉しくす。天下能く其の戦いに当る莫し。"
+    }
+   ]
+  },
+  {
+   "word": "孔子之",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 851,
+   "samples": [
+    {
+     "id": "rongo1426-1",
+     "field": "kakikudashi",
+     "snippet": "蘧伯玉、人を孔子に使わす。孔子之に坐を与えて問う。曰く、夫子何をか為す。対えて曰く、夫子は其の過ちを寡なくせんと欲するも"
+    },
+    {
+     "id": "rongo1806-1",
+     "field": "kakikudashi",
+     "snippet": "長沮・桀溺耦して耕す。孔子之を過ぎ、子路をして津を問わしむ。長沮曰く、夫の輿を執る者は誰と為す。子路曰く、孔丘と為す。曰"
+    },
+    {
+     "id": "koreshin-1",
+     "field": "kakikudashi",
+     "snippet": "長沮・桀溺耦して耕す。孔子之を過ぎ、子路をして津を問わしむ。長沮曰く、夫の輿を執る者は誰と為す。子路曰く、孔丘と為す。曰"
+    }
+   ]
+  },
+  {
+   "word": "孔子其",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 852,
+   "samples": [
+    {
+     "id": "rongo1105-1",
+     "field": "kakikudashi",
+     "snippet": "南容、三たび白圭を復す。孔子其の兄の子を以て之に妻す。"
+    },
+    {
+     "id": "rongo1701-1",
+     "field": "kakikudashi",
+     "snippet": "見んと欲す。孔子見えず。孔子に豚を帰る。孔子其の亡きを時として、往きて之を拝す。諸に塗に遇う。孔子に謂いて曰く、来れ、予"
+    },
+    {
+     "id": "koushihai-1",
+     "field": "kakikudashi",
+     "snippet": "陽貨孔子を見んと欲す。孔子見えず。孔子に豚を帰る。孔子其の亡きを時として、往きて之を拝す。諸に塗に遇う。"
+    }
+   ]
+  },
+  {
+   "word": "孟子懼",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 3,
+   "rank": 853,
+   "samples": [
+    {
+     "id": "mobodanki-5",
+     "field": "kakikudashi",
+     "snippet": "孟子懼れて其の故を問う。"
+    },
+    {
+     "id": "mobodanki-x13",
+     "field": "kakikudashi",
+     "snippet": "孟子懼れ、旦夕学に勤めて息まず。"
+    }
+   ]
+  },
+  {
+   "word": "広武君",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 854,
+   "samples": [
+    {
+     "id": "p-haigun-1",
+     "field": "kakikudashi",
+     "snippet": "信乃ち軍中に広武君を殺す毋かれ、能く生きて得る者有らば千金に購わんと令す。是に於いて広武君を縛して戯下に致す者有り。信乃"
+    },
+    {
+     "id": "haigun-2",
+     "field": "kakikudashi",
+     "snippet": "……是に於いて信、広武君に問いて曰く、僕、北のかた燕を攻め、東のかた斉を伐たんと欲す。何若せば功有らん、と。"
+    },
+    {
+     "id": "haigun-3",
+     "field": "kakikudashi",
+     "snippet": "広武君、辞謝して曰く、臣聞く、敗軍の将は以て勇を言う可からず。亡国の大夫は以て存するを図る可からず。今、臣は敗亡の虜なれ"
+    }
+   ]
+  },
+  {
+   "word": "所謂其",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 855,
+   "samples": [
+    {
+     "id": "shindoku-1",
+     "field": "kakikudashi",
+     "snippet": "所謂其の意を誠にすとは、自ら欺く毋きなり。悪臭を悪むが如く、好色を好むが如くす。此を之自ら謙くすと謂う。故に君子は必ず其"
+    },
+    {
+     "id": "daigaku06-1",
+     "field": "kakikudashi",
+     "snippet": "所謂其の意を誠にすとは、自ら欺く毋きなり。"
+    },
+    {
+     "id": "daigaku08-1",
+     "field": "kakikudashi",
+     "snippet": "所謂其の家を斉うるは其の身を修むるに在りとは、人は其の親愛する所に之て辟す。"
+    }
+   ]
+  },
+  {
+   "word": "抑〻亦",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 856,
+   "samples": [
+    {
+     "id": "itsuwarimu-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、詐りを逆えず、不信を億らず。抑〻亦た先ず覚る者は、是れ賢か。"
+    },
+    {
+     "id": "rongo1320-1",
+     "field": "kakikudashi",
+     "snippet": "い必ず果たす、硜硜然として小人なるかな。抑〻亦た以て次と為す可し。曰く、今の政に従う者は何如。子曰く、噫、斗筲の人、何ぞ"
+    },
+    {
+     "id": "p-genshin-1",
+     "field": "kakikudashi",
+     "snippet": "曰く、言必ず信あり、行い必ず果たす、硜硜然として小人なるかな。抑〻亦た以て次と為す可し。"
+    }
+   ]
+  },
+  {
+   "word": "敵人必",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 857,
+   "samples": [
+    {
+     "id": "rikutou37-4",
+     "field": "kakikudashi",
+     "snippet": "、或いは其の前後を撃ち、三軍疾く戦わば、敵人必ず走らん。"
+    },
+    {
+     "id": "rikutou59-2",
+     "field": "kakikudashi",
+     "snippet": "には、其の前騎を陥れ、其の左右を撃たば、敵人必ず走らん。敵人の行陣、整斉堅固にして、士卒闘わんと欲するには、吾が騎、翼し"
+    },
+    {
+     "id": "rikutou59-3",
+     "field": "kakikudashi",
+     "snippet": "敵人険阻の保固無きに、深く入りて長駆するには、其の糧道を絶たば、敵人必ず飢えん。"
+    }
+   ]
+  },
+  {
+   "word": "李将軍",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 858,
+   "samples": [
+    {
+     "id": "torimono-1",
+     "field": "kakikudashi",
+     "snippet": "余、李将軍を睹るに悛悛として鄙人の如く、口、道辞すること能わず。死するの日に及び、天下、知ると知らざると、皆為に哀しみを"
+    },
+    {
+     "id": "toushisen045-56",
+     "field": "kakikudashi",
+     "snippet": "灞亭誰か畏れん李将軍"
+    },
+    {
+     "id": "toushisen453-3",
+     "field": "kakikudashi",
+     "snippet": "漢家李将軍を失いしより"
+    }
+   ]
+  },
+  {
+   "word": "樊遅仁",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 859,
+   "samples": [
+    {
+     "id": "orutokoro-1",
+     "field": "kakikudashi",
+     "snippet": "樊遅仁を問う。子曰く、居る処恭、事を執りて敬、人に与わりて忠なるは、夷狄に之くと雖も、棄つ可からざるなり。"
+    },
+    {
+     "id": "rongo1222-1",
+     "field": "kakikudashi",
+     "snippet": "樊遅仁を問う。子曰く、人を愛す。知を問う。子曰く、人を知る。樊遅未だ達せず。子曰く、直きを挙げて諸を枉れるに錯けば、能く"
+    },
+    {
+     "id": "naokinao-1",
+     "field": "kakikudashi",
+     "snippet": "樊遅仁を問う。子曰く、人を愛す。知を問う。子曰く、人を知る。樊遅未だ達せず。子曰く、直きを挙げて諸を枉れるに錯けば、能く"
+    }
+   ]
+  },
+  {
+   "word": "漁父曰",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 3,
+   "pre_exclude": "n79-pattern: X-yune citation fragment (~60 fetched in N79, all weblio 404)",
+   "rank": 860,
+   "samples": [
+    {
+     "id": "yotosuii-1",
+     "field": "kakikudashi",
+     "snippet": "漁父曰く、聖人は物に凝滞せずして、能く世と推移す。"
+    }
+   ]
+  },
+  {
+   "word": "臧文仲",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 3,
+   "rank": 861,
+   "samples": [
+    {
+     "id": "rongo0517-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、臧文仲、蔡を居き、節を山にし、梲に藻す。何如ぞ其れ知ならんや。"
+    },
+    {
+     "id": "rongo1513-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、臧文仲は其れ位を窃む者か。柳下恵の賢を知りて、而も与に立たざるなり。"
+    }
+   ]
+  },
+  {
+   "word": "良弓蔵",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 862,
+   "samples": [
+    {
+     "id": "koto-1",
+     "field": "kakikudashi",
+     "snippet": "より大夫種に書を遺りて曰く、蜚鳥尽きて、良弓蔵され、狡兎死して、走狗烹らる。越王の人と為り、長頸烏喙なり、与に患難を共に"
+    },
+    {
+     "id": "koto-2",
+     "field": "kakikudashi",
+     "snippet": "し。狡兎死して、良狗亨られ、高鳥尽きて、良弓蔵され、敵国破れて、謀臣亡ぶ、と。天下已に定まりたれば、我固より当に亨らるべ"
+    },
+    {
+     "id": "sanryaku02-5",
+     "field": "kakikudashi",
+     "snippet": "夫れ高鳥死して良弓蔵れ、敵国滅びて謀臣亡ぶ。亡ぶとは、其の身を喪うに非ざるなり。其の威を奪われ、其の権を廃せらるるを謂う"
+    }
+   ]
+  },
+  {
+   "word": "藺相如",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 863,
+   "samples": [
+    {
+     "id": "kanpeki4k-1",
+     "field": "kakikudashi",
+     "snippet": "是に於いて、王、召見し、藺相如に問いて曰く、秦王、十五城を以て寡人の璧に易えんことを請う。予う可きや不や、と。相如曰く、"
+    },
+    {
+     "id": "p-funkei-5",
+     "field": "kakikudashi",
+     "snippet": "而るに藺相如は徒だ口舌を以て労を為し、而も位は我が上に居る。"
+    },
+    {
+     "id": "funkei-x27",
+     "field": "kakikudashi",
+     "snippet": "廉頗之を聞き、肉袒して荊を負い、賓客に因りて、藺相如の門に至り、罪を謝して曰く、"
+    }
+   ]
+  },
+  {
+   "word": "蘧伯玉",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 864,
+   "samples": [
+    {
+     "id": "rongo1426-1",
+     "field": "kakikudashi",
+     "snippet": "蘧伯玉、人を孔子に使わす。孔子之に坐を与えて問う。曰く、夫子何をか為す。対えて曰く、夫子は其の過ちを寡なくせんと欲するも"
+    },
+    {
+     "id": "rongo1506-1",
+     "field": "kakikudashi",
+     "snippet": "如く、邦に道無きも矢の如し。君子なるかな蘧伯玉、邦に道有れば則ち仕え、邦に道無ければ則ち巻きて之を懐にす可し。"
+    },
+    {
+     "id": "p-gojuni-2",
+     "field": "kakikudashi",
+     "snippet": "故に蘧伯玉は年五十にして、四十九年の非有り。"
+    }
+   ]
+  },
+  {
+   "word": "諸葛亮",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 865,
+   "samples": [
+    {
+     "id": "montai01-8",
+     "field": "kakikudashi",
+     "snippet": "靖曰く、諸葛亮、七たび孟獲を擒にせり。他の道無し。正兵のみ。"
+    },
+    {
+     "id": "montai09-4",
+     "field": "kakikudashi",
+     "snippet": "靖曰く、諸葛亮、石を以て縦横にし、布いて八行を為す。方陣の法、即ち此の図なり。臣、嘗て教閲するに、必ず此の陣を先にす。世"
+    },
+    {
+     "id": "montai09-16",
+     "field": "kakikudashi",
+     "snippet": "に兵法は乃ち王制に本づくを知らざるなり。諸葛亮は王佐の才なり。自ら管楽に比す。此を以て管仲も亦た王佐たるを知るなり。但だ"
+    }
+   ]
+  },
+  {
+   "word": "閔子騫",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 866,
+   "samples": [
+    {
+     "id": "rongo0607-1",
+     "field": "kakikudashi",
+     "snippet": "季氏、閔子騫をして費の宰たらしめんとす。閔子騫曰く、善く我が為に辞せよ。如し我を復びする者有らば、則ち吾は必ず汶の上に在"
+    },
+    {
+     "id": "rongo1102-1",
+     "field": "kakikudashi",
+     "snippet": "者は、皆門に及ばざるなり。徳行には顔淵・閔子騫・冉伯牛・仲弓。言語には宰我・子貢。政事には冉有・季路。文学には子游・子夏"
+    },
+    {
+     "id": "rongo1104-1",
+     "field": "kakikudashi",
+     "snippet": "子曰く、孝なるかな閔子騫。人其の父母昆弟の言を間せず。"
+    }
+   ]
+  },
+  {
+   "word": "靖再拝",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 867,
+   "samples": [
+    {
+     "id": "montai05-5",
+     "field": "kakikudashi",
+     "snippet": "靖再拝して曰く、陛下は神聖にして、迥かに古人に出づ。臣の及ぶ所に非ず。"
+    },
+    {
+     "id": "montai09-17",
+     "field": "kakikudashi",
+     "snippet": "靖再拝して曰く、陛下は神聖にして、人を知ること此の如し。老臣死すと雖も、昔賢に媿ずる無し。"
+    },
+    {
+     "id": "montai14-11",
+     "field": "kakikudashi",
+     "snippet": "靖再拝して曰く、深いかな、陛下の聖慮。已に思い半ばに過ぎたり。"
+    }
+   ]
+  },
+  {
+   "word": "首尾倶",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 868,
+   "samples": [
+    {
+     "id": "p-goetsu-3",
+     "field": "kakikudashi",
+     "snippet": "其の首を撃たば則ち尾至り、其の尾を撃たば則ち首至り、其の中を撃たば則ち首尾倶に至る。"
+    },
+    {
+     "id": "jozan-3",
+     "field": "kakikudashi",
+     "snippet": "其の首を撃てば則ち尾至り、其の尾を撃てば則ち首至り、其の中を撃てば則ち首尾倶に至る。"
+    },
+    {
+     "id": "sonshi11-30",
+     "field": "kakikudashi",
+     "snippet": "其の首を撃てば則ち尾至り、其の尾を撃てば則ち首至り、其の中を撃てば則ち首尾倶に至る。"
+    }
+   ]
+  },
+  {
+   "word": "鬱金香",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 3,
+   "rank": 869,
+   "samples": [
+    {
+     "id": "toushisen016-21",
+     "field": "kakikudashi",
+     "snippet": "羅幃翠被鬱金香"
+    },
+    {
+     "id": "toushisen017-11",
+     "field": "kakikudashi",
+     "snippet": "娼家の美女鬱金香"
+    },
+    {
+     "id": "toushisen313-1",
+     "field": "kakikudashi",
+     "snippet": "蘭陵の美酒鬱金香"
+    }
+   ]
+  },
+  {
+   "word": "不學禮",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 870,
+   "samples": []
+  },
+  {
+   "word": "不學詩",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 871,
+   "samples": []
+  },
+  {
+   "word": "主忠信",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 872,
+   "samples": []
+  },
+  {
+   "word": "則民服",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 873,
+   "samples": []
+  },
+  {
+   "word": "嘗獨立",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 874,
+   "samples": []
+  },
+  {
+   "word": "夫如是",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 875,
+   "samples": []
+  },
+  {
+   "word": "學禮乎",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 876,
+   "samples": []
+  },
+  {
+   "word": "學詩乎",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 877,
+   "samples": []
+  },
+  {
+   "word": "屈原曰",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "pre_exclude": "n79-pattern: X-yune citation fragment (~60 fetched in N79, all weblio 404)",
+   "rank": 878,
+   "samples": []
+  },
+  {
+   "word": "已矣乎",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 879,
+   "samples": []
+  },
+  {
+   "word": "師事之",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 880,
+   "samples": []
+  },
+  {
+   "word": "廢中權",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 881,
+   "samples": []
+  },
+  {
+   "word": "無以立",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 882,
+   "samples": []
+  },
+  {
+   "word": "無以言",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 883,
+   "samples": []
+  },
+  {
+   "word": "爲君難",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 884,
+   "samples": []
+  },
+  {
+   "word": "良弓藏",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 885,
+   "samples": []
+  },
+  {
+   "word": "謂虞仲",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 886,
+   "samples": []
+  },
+  {
+   "word": "身中清",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 887,
+   "samples": []
+  },
+  {
+   "word": "邦有道",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 888,
+   "samples": []
+  },
+  {
+   "word": "邦無道",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 889,
+   "samples": []
+  },
+  {
+   "word": "重八斤",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 890,
+   "samples": []
+  },
+  {
+   "word": "雖無道",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 3,
+   "rank": 891,
+   "samples": []
+  },
+  {
+   "word": "一貴一賤",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 4,
+   "rank": 892,
+   "samples": [
+    {
+     "id": "isshiissei-3",
+     "field": "kakikudashi",
+     "snippet": "ち交情を知る。一貧一富、乃ち交態を知る。一貴一賤、交情乃ち見る、と。汲・鄭にも亦た云う。悲しいかな。"
+    },
+    {
+     "id": "toushisen045-68",
+     "field": "kakikudashi",
+     "snippet": "一貴一賤交情見る"
+    }
+   ]
+  },
+  {
+   "word": "三軍恐懼",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 4,
+   "rank": 893,
+   "samples": [
+    {
+     "id": "rikutou47-1",
+     "field": "kakikudashi",
+     "snippet": "して、草木有る無く、四面に敵を受け、吾が三軍恐懼し、士卒迷惑するに、吾以て守れば則ち固く、以て戦わば則ち勝たんと欲す。之"
+    },
+    {
+     "id": "rikutou58-4",
+     "field": "kakikudashi",
+     "snippet": "は、即ち之を陥れよ。遠く行きて暮に舎し、三軍恐懼するは、即ち之を陥れよ。"
+    }
+   ]
+  },
+  {
+   "word": "他日又独",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 4,
+   "rank": 894,
+   "samples": [
+    {
+     "id": "rongo1613-1",
+     "field": "kakikudashi",
+     "snippet": "、以て言うこと無しと。鯉退きて詩を学ぶ。他日又独り立てり。鯉、趨りて庭を過ぐ。曰く、礼を学びたるか。対えて曰く、未だし。"
+    },
+    {
+     "id": "reiwomana-1",
+     "field": "kakikudashi",
+     "snippet": "他日又独り立てり。鯉、趨りて庭を過ぐ。曰く、礼を学びたるか。対えて曰く、未だし。礼を学ばざれば、以て立つこと無しと。鯉退"
+    },
+    {
+     "id": "teikin-1",
+     "field": "kakikudashi",
+     "snippet": "、以て言うこと無しと。鯉退きて詩を学ぶ。他日又独り立てり。鯉、趨りて庭を過ぐ。曰く、礼を学びたるか。対えて曰く、未だし。"
+    }
+   ]
+  },
+  {
+   "word": "勁弩強矢",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 4,
+   "rank": 895,
+   "samples": [
+    {
+     "id": "utsuryo06-1",
+     "field": "kakikudashi",
+     "snippet": "なる者に非ざるなり。豪傑英俊、堅甲利兵、勁弩強矢、尽く郭中に在り、乃ち窖廩を収め、毀拆して入りて保つは、客、気をして十百"
+    },
+    {
+     "id": "utsuryo06-5",
+     "field": "kakikudashi",
+     "snippet": "わず。必ず其の豪傑英俊を鼓し、堅甲利兵、勁弩強矢を前に并せ、幺麼毀瘠の者を後ろに并す。十万の兵、城下に頓る。"
+    }
+   ]
+  },
+  {
+   "word": "司馬穣苴",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 4,
+   "rank": 896,
+   "samples": [
+    {
+     "id": "montai09-21",
+     "field": "kakikudashi",
+     "snippet": "る。景公尊んで司馬の官と為す。是に由りて司馬穣苴と称し、子孫、司馬氏と号す。"
+    },
+    {
+     "id": "montai09-22",
+     "field": "kakikudashi",
+     "snippet": "馬法を追論し、又穣苴の学ぶ所を述ぶ。遂に司馬穣苴の書数十篇有り。今世に伝うる所の兵家者流なり。又権謀、形勢、陰陽、技巧の"
+    },
+    {
+     "id": "shiki064-1",
+     "field": "kakikudashi",
+     "snippet": "司馬穣苴は、田完の苗裔なり。斉の景公の時、晋、阿・甄を伐ち、而も燕、河上を侵す。斉の師敗績す。"
+    }
+   ]
+  },
+  {
+   "word": "吏卒常無",
+   "freq": 3,
+   "freq_hakubun": 0,
+   "freq_kakikudashi": 3,
+   "len": 4,
+   "rank": 897,
+   "samples": [
+    {
+     "id": "montai13-2",
+     "field": "kakikudashi",
+     "snippet": "孫子に曰えること有り、教道明らかならず、吏卒常無く、兵を陳ぬること縦横なるを乱と曰う。"
+    },
+    {
+     "id": "montai13-5",
+     "field": "kakikudashi",
+     "snippet": "吏卒常無しとは、将臣権任にして久職無きを言うなり。"
+    },
+    {
+     "id": "sonshi10-22",
+     "field": "kakikudashi",
+     "snippet": "将弱くして厳ならず、教道も明らかならず、吏卒常無く、兵を陳ぬること縦横なるを乱と曰う。"
+    }
+   ]
+  },
+  {
+   "word": "士卒迷惑",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 4,
+   "rank": 898,
+   "samples": [
+    {
+     "id": "rikutou47-1",
+     "field": "kakikudashi",
+     "snippet": "る無く、四面に敵を受け、吾が三軍恐懼し、士卒迷惑するに、吾以て守れば則ち固く、以て戦わば則ち勝たんと欲す。之を為すこと奈"
+    }
+   ]
+  },
+  {
+   "word": "天下和服",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 4,
+   "rank": 899,
+   "samples": [
+    {
+     "id": "rikutou07-3",
+     "field": "kakikudashi",
+     "snippet": "絶つに力を以てす。之を敬して疑う勿かれ。天下和服せん。"
+    },
+    {
+     "id": "rikutou40-3",
+     "field": "kakikudashi",
+     "snippet": "え、罪は一人に在りと。此の如くならば則ち天下和服せん。"
+    }
+   ]
+  },
+  {
+   "word": "材士強弩",
+   "freq": 3,
+   "freq_hakubun": 2,
+   "freq_kakikudashi": 1,
+   "len": 4,
+   "rank": 900,
+   "samples": [
+    {
+     "id": "rikutou34-3",
+     "field": "kakikudashi",
+     "snippet": "前に居りて塁を平らげ、軍の為に道を開き、材士強弩は、伏兵と為して後ろに居らしめ、弱卒車騎は中に居く。陣し畢りて徐に行き、"
+    }
+   ]
+  },
+  {
+   "word": "豪傑英俊",
+   "freq": 3,
+   "freq_hakubun": 1,
+   "freq_kakikudashi": 2,
+   "len": 4,
+   "rank": 901,
+   "samples": [
+    {
+     "id": "utsuryo06-1",
+     "field": "kakikudashi",
+     "snippet": "、以て禦ぎ戦うは、善なる者に非ざるなり。豪傑英俊、堅甲利兵、勁弩強矢、尽く郭中に在り、乃ち窖廩を収め、毀拆して入りて保つ"
+    },
+    {
+     "id": "utsuryo06-5",
+     "field": "kakikudashi",
+     "snippet": "るも、則ち亦た止むること能わず。必ず其の豪傑英俊を鼓し、堅甲利兵、勁弩強矢を前に并せ、幺麼毀瘠の者を後ろに并す。十万の兵"
+    }
+   ]
+  },
+  {
+   "word": "一匡天下",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 902,
+   "samples": []
+  },
+  {
+   "word": "不可則止",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 903,
+   "samples": []
+  },
+  {
+   "word": "以臨其民",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 904,
+   "samples": []
+  },
+  {
+   "word": "何謂五美",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 905,
+   "samples": []
+  },
+  {
+   "word": "使於四方",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 906,
+   "samples": []
+  },
+  {
+   "word": "其爲氣也",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 907,
+   "samples": []
+  },
+  {
+   "word": "凡此六者",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 908,
+   "samples": []
+  },
+  {
+   "word": "則如之何",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 909,
+   "samples": []
+  },
+  {
+   "word": "勝之半也",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 910,
+   "samples": []
+  },
+  {
+   "word": "勿施於人",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 911,
+   "samples": []
+  },
+  {
+   "word": "卒遇敵人",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 912,
+   "samples": []
+  },
+  {
+   "word": "可謂士矣",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 913,
+   "samples": []
+  },
+  {
+   "word": "執者失之",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 914,
+   "samples": []
+  },
+  {
+   "word": "如五六十",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 915,
+   "samples": []
+  },
+  {
+   "word": "如切如磋",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 916,
+   "samples": []
+  },
+  {
+   "word": "如琢如磨",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 917,
+   "samples": []
+  },
+  {
+   "word": "子張問曰",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "pre_exclude": "n79-pattern: X-yune citation fragment (~60 fetched in N79, all weblio 404)",
+   "rank": 918,
+   "samples": []
+  },
+  {
+   "word": "子畏於匡",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 919,
+   "samples": []
+  },
+  {
+   "word": "子路問曰",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "pre_exclude": "n79-pattern: X-yune citation fragment (~60 fetched in N79, all weblio 404)",
+   "rank": 920,
+   "samples": []
+  },
+  {
+   "word": "己所不欲",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 921,
+   "samples": []
+  },
+  {
+   "word": "微哉微哉",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 922,
+   "samples": []
+  },
+  {
+   "word": "故能長生",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 923,
+   "samples": []
+  },
+  {
+   "word": "日費千金",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 924,
+   "samples": []
+  },
+  {
+   "word": "是謂玄德",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 925,
+   "samples": []
+  },
+  {
+   "word": "有顏回者",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 926,
+   "samples": []
+  },
+  {
+   "word": "樊遲問仁",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 927,
+   "samples": []
+  },
+  {
+   "word": "欲而不貪",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 928,
+   "samples": []
+  },
+  {
+   "word": "武王伐紂",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 929,
+   "samples": []
+  },
+  {
+   "word": "比及三年",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 930,
+   "samples": []
+  },
+  {
+   "word": "泰而不驕",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 931,
+   "samples": []
+  },
+  {
+   "word": "深溝高壘",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 932,
+   "samples": []
+  },
+  {
+   "word": "爲者敗之",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 933,
+   "samples": []
+  },
+  {
+   "word": "爲臣不易",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 934,
+   "samples": []
+  },
+  {
+   "word": "王之問也",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 935,
+   "samples": []
+  },
+  {
+   "word": "生而不有",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 936,
+   "samples": []
+  },
+  {
+   "word": "百乘之家",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 937,
+   "samples": []
+  },
+  {
+   "word": "至於無形",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 938,
+   "samples": []
+  },
+  {
+   "word": "與敵相當",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 939,
+   "samples": []
+  },
+  {
+   "word": "請問其目",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 940,
+   "samples": []
+  },
+  {
+   "word": "隱居放言",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "rank": 941,
+   "samples": []
+  },
+  {
+   "word": "靖再拜曰",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 4,
+   "pre_exclude": "n79-pattern: X-yune citation fragment (~60 fetched in N79, all weblio 404)",
+   "rank": 942,
+   "samples": []
+  },
+  {
+   "word": "今由與求也",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 5,
+   "rank": 943,
+   "samples": []
+  },
+  {
+   "word": "他日又獨立",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 5,
+   "rank": 944,
+   "samples": []
+  },
+  {
+   "word": "因是而知之",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 5,
+   "rank": 945,
+   "samples": []
+  },
+  {
+   "word": "子謂顏淵曰",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 5,
+   "pre_exclude": "n79-pattern: X-yune citation fragment (~60 fetched in N79, all weblio 404)",
+   "rank": 946,
+   "samples": []
+  },
+  {
+   "word": "廣一丈五尺",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 5,
+   "rank": 947,
+   "samples": []
+  },
+  {
+   "word": "我則異於是",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 5,
+   "rank": 948,
+   "samples": []
+  },
+  {
+   "word": "故去彼取此",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 5,
+   "rank": 949,
+   "samples": []
+  },
+  {
+   "word": "故用兵之法",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 5,
+   "rank": 950,
+   "samples": []
+  },
+  {
+   "word": "無可無不可",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 5,
+   "rank": 951,
+   "samples": []
+  },
+  {
+   "word": "舉直錯諸枉",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 5,
+   "rank": 952,
+   "samples": []
+  },
+  {
+   "word": "請事斯語矣",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 5,
+   "rank": 953,
+   "samples": []
+  },
+  {
+   "word": "過則勿憚改",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 5,
+   "rank": 954,
+   "samples": []
+  },
+  {
+   "word": "鯉退而學禮",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 5,
+   "rank": 955,
+   "samples": []
+  },
+  {
+   "word": "鯉退而學詩",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 5,
+   "rank": 956,
+   "samples": []
+  },
+  {
+   "word": "君子惠而不費",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 6,
+   "rank": 957,
+   "samples": []
+  },
+  {
+   "word": "弟子孰爲好學",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 6,
+   "rank": 958,
+   "samples": []
+  },
+  {
+   "word": "未聞好學者也",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 6,
+   "rank": 959,
+   "samples": []
+  },
+  {
+   "word": "非善之善者也",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 6,
+   "rank": 960,
+   "samples": []
+  },
+  {
+   "word": "一言而可以興邦",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 7,
+   "rank": 961,
+   "samples": []
+  },
+  {
+   "word": "如知爲君之難也",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 7,
+   "rank": 962,
+   "samples": []
+  },
+  {
+   "word": "何如斯可謂之士矣",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 8,
+   "rank": 963,
+   "samples": []
+  },
+  {
+   "word": "吾末如之何也已矣",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 8,
+   "rank": 964,
+   "samples": []
+  },
+  {
+   "word": "材士強弩矛戟爲翼",
+   "freq": 3,
+   "freq_hakubun": 3,
+   "freq_kakikudashi": 0,
+   "len": 8,
+   "rank": 965,
+   "samples": []
+  }
+ ]
+}
