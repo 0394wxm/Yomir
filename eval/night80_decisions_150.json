@@ -4,6 +4,8 @@
  "decisions": [
   {"word": "渭城", "rank": 150, "freq": 4, "verdict": "exclude",
    "exclude_reason": "weblio はウィキペディア「渭城区」（ウェイチョン＝中国語転写のみ・cand_150）で和読み非明記——読み証拠欠く（渭城＝咸陽の古称、語料王維詩 4 行ありのまま記録）"},
+  {"word": "率然", "rank": 164, "freq": 4, "verdict": "exclude",
+   "exclude_reason": "weblio そつぜん【卒然／率然】＝事が急に起こるさま（cand_164）。語料 sonshi11「率然は、常山の蛇なり」は蛇の名で読み・義が別——取り違えリスト高く排除"},
   {"word": "湣王", "rank": 151, "freq": 4, "verdict": "include", "cat": "proper",
    "reading": "びんおう",
    "meaning": "戦国時代の斉（田斉）の第6代の君主。",
