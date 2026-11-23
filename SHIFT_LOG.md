@@ -978,3 +978,4 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 | 2026-11-23 18:20 | Night 84 开工：分支 night84-empty-got 自 master dce1ba6 分出；HEAD/干净树核验通过，pytest 415 跑测中。 |
 | 2026-11-23 18:40 | Night 84 根因定性：空串 249 行全部命中 kana 分流（detect_text_type 把（）内 ruby 假名计入分子、括号排除出分母→占比>0.3 误判假名文学→kakikudashi 空串返回、引擎未调用）；裸库对照非空。修法定案：kana 分支 ruby 尾段 fallback（尾段<=8 白文直出／>8 分段重跑），模拟 16321→7988、0 变差。 |
 | 2026-11-23 18:55 | Night 84 修法落地＋全量验证：backend/main.py kana 分支 ruby 尾段 fallback、tests 422、golden_4000 逐位一致 13.495/24/0、golden_8165 14.526→13.505/30/0 （目标集 16321→7988，改善 248/持平 1/变差 0，非目标行 0 变化）；README 422 同步、ROADMAP/accept 登记完成。 |
+| 2026-11-23 18:58 | Night 84 收尾：accept 84 PASS fail=0 skip=0（30.0s 首跑即过、七门全绿）；主提交 9fbb5b0＋wrap-up 两提交、未合 master、未推远程；REPORT_NIGHT84.md 交付。 |
