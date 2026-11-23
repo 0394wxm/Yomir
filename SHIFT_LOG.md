@@ -974,3 +974,4 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 [2026-11-23T16:05 N82] batch10 rank950-965 judged: 0 in / 16 out; ALL 466 candidates decided - running audit
 [2026-11-23T16:15 N82] extra2 1085->1301 (216 in: noun172 proper28 verb9 modifier7), pytest 385 passed, golden_4000 bit-exact vs night80 (13.517/24/0, diff 0 lines, 105s), verify 17/17 exit 0; ready for main commit
 [2026-11-23T16:18 N82] N82 wrap-up: accept 82 PASS fail=0 skip=0 (31.7s, seven gates green, first-run PASS after main commit fb11eee); REPORT section-4 filled; branch night82-lexicon-expand3 two commits, no merge, no push
+| 2026-11-23 17:40 | Night 83 收尾：合并 bf18daf＋登记 c614075；pytest 415、golden_4000 13.495/24/0 与 night81 逐位一致、golden_8165 14.526/30/0 逐位一致、词库 1301（唯一词形 209+291+801）、verify 18/18 exit 0；accept 83 PASS fail=0 skip=0（30.7s 首跑即过）；wrap-up 提交后不推远程，等用户手推。 |
