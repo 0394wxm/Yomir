@@ -1,0 +1,8361 @@
+{
+ "trials": {
+  "T1 るべ→可 blanket（B2 27 块/22 行の字形对照）": {
+   "kana": "るべ",
+   "repl": "可",
+   "guard": [
+    "可"
+   ],
+   "fired": 151,
+   "outside": 11,
+   "better": 91,
+   "worse": 7,
+   "same": 53,
+   "verdict": "拒（変差 7）",
+   "detail": [
+    {
+     "id": "shushu-4",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "azamukube-1",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 34,
+     "delta": -1
+    },
+    {
+     "id": "ayaukikotoru-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 29,
+     "delta": -2
+    },
+    {
+     "id": "iyashikuko-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 35,
+     "delta": -2
+    },
+    {
+     "id": "ichigenchi-1",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 24,
+     "delta": 0
+    },
+    {
+     "id": "seia-1",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "seia-2",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 8,
+     "delta": 0
+    },
+    {
+     "id": "seia-3",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 8,
+     "delta": 0
+    },
+    {
+     "id": "seia-5",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "imadaezaru-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 35,
+     "delta": -2
+    },
+    {
+     "id": "robanochi-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 19,
+     "delta": -2
+    },
+    {
+     "id": "yukumonoi-1",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 20,
+     "delta": -2
+    },
+    {
+     "id": "onoreshiru-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 17,
+     "delta": -1
+    },
+    {
+     "id": "omoi-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 32,
+     "delta": 1
+    },
+    {
+     "id": "orutokoro-1",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 18,
+     "delta": -2
+    },
+    {
+     "id": "onkochi-1",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "shukateki-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 36,
+     "delta": 0
+    },
+    {
+     "id": "kanpeki4k-1",
+     "cls": "engine",
+     "d0": 82,
+     "d1": 82,
+     "delta": 0
+    },
+    {
+     "id": "kanpeki4k-5",
+     "cls": "engine",
+     "d0": 61,
+     "d1": 59,
+     "delta": -2
+    },
+    {
+     "id": "kyubokue-1",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 26,
+     "delta": -2
+    },
+    {
+     "id": "kyoreichi-1",
+     "cls": "engine",
+     "d0": 34,
+     "d1": 32,
+     "delta": -2
+    },
+    {
+     "id": "rongo0223-1",
+     "cls": "engine",
+     "d0": 27,
+     "d1": 27,
+     "delta": 0
+    },
+    {
+     "id": "rongo0323-1",
+     "cls": "engine",
+     "d0": 33,
+     "d1": 33,
+     "delta": 0
+    },
+    {
+     "id": "rongo0402-1",
+     "cls": "engine",
+     "d0": 19,
+     "d1": 17,
+     "delta": -2
+    },
+    {
+     "id": "rongo0421-1",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 5,
+     "delta": 0
+    },
+    {
+     "id": "rongo0507-1",
+     "cls": "engine",
+     "d0": 51,
+     "d1": 45,
+     "delta": -6
+    },
+    {
+     "id": "rongo0509-1",
+     "cls": "engine",
+     "d0": 47,
+     "d1": 45,
+     "delta": -2
+    },
+    {
+     "id": "rongo0606-1",
+     "cls": "engine",
+     "d0": 84,
+     "d1": 78,
+     "delta": -6
+    },
+    {
+     "id": "rongo0619-1",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 16,
+     "delta": 0
+    },
+    {
+     "id": "rongo0625-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 12,
+     "delta": 0
+    },
+    {
+     "id": "rongo0711-1",
+     "cls": "engine",
+     "d0": 25,
+     "d1": 21,
+     "delta": -4
+    },
+    {
+     "id": "rongo0807-1",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 23,
+     "delta": 0
+    },
+    {
+     "id": "rongo0809-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 10,
+     "delta": -2
+    },
+    {
+     "id": "rongo1212-1",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 10,
+     "delta": -1
+    },
+    {
+     "id": "rongo1215-1",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "rongo1322-1",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 34,
+     "delta": -1
+    },
+    {
+     "id": "rongo1412-1",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 15,
+     "delta": -1
+    },
+    {
+     "id": "rongo1507-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 29,
+     "delta": -2
+    },
+    {
+     "id": "rongo1533-1",
+     "cls": "engine",
+     "d0": 30,
+     "d1": 22,
+     "delta": -8
+    },
+    {
+     "id": "rongo1805-1",
+     "cls": "engine",
+     "d0": 39,
+     "d1": 37,
+     "delta": -2
+    },
+    {
+     "id": "rongo1807-1",
+     "cls": "engine",
+     "d0": 90,
+     "d1": 88,
+     "delta": -2
+    },
+    {
+     "id": "rongo1904-1",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 14,
+     "delta": -1
+    },
+    {
+     "id": "rongo1912-1",
+     "cls": "engine",
+     "d0": 76,
+     "d1": 74,
+     "delta": -2
+    },
+    {
+     "id": "rongo1918-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 20,
+     "delta": -1
+    },
+    {
+     "id": "rongo1924-1",
+     "cls": "engine",
+     "d0": 27,
+     "d1": 25,
+     "delta": -2
+    },
+    {
+     "id": "rongo1925-1",
+     "cls": "engine",
+     "d0": 81,
+     "d1": 80,
+     "delta": -1
+    },
+    {
+     "id": "rongo2002-1",
+     "cls": "engine",
+     "d0": 149,
+     "d1": 147,
+     "delta": -2
+    },
+    {
+     "id": "p-dojitsuno-2",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 18,
+     "delta": 0
+    },
+    {
+     "id": "p-furukita-1",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "p-gekirin-1",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 9,
+     "delta": 1
+    },
+    {
+     "id": "kenro-1",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 44,
+     "delta": 0
+    },
+    {
+     "id": "koryo-1",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 17,
+     "delta": 0
+    },
+    {
+     "id": "koto-1",
+     "cls": "engine",
+     "d0": 67,
+     "d1": 65,
+     "delta": -2
+    },
+    {
+     "id": "kunshigio-1",
+     "cls": "engine",
+     "d0": 34,
+     "d1": 32,
+     "delta": -2
+    },
+    {
+     "id": "mobosansen-1",
+     "cls": "engine",
+     "d0": 75,
+     "d1": 76,
+     "delta": 1
+    },
+    {
+     "id": "ransho-1",
+     "cls": "engine",
+     "d0": 39,
+     "d1": 38,
+     "delta": -1
+    },
+    {
+     "id": "ryogen-1",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 15,
+     "delta": -2
+    },
+    {
+     "id": "ryojo-3",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 28,
+     "delta": 2
+    },
+    {
+     "id": "senrinouma-2",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 48,
+     "delta": -2
+    },
+    {
+     "id": "shika-3",
+     "cls": "engine",
+     "d0": 52,
+     "d1": 51,
+     "delta": -1
+    },
+    {
+     "id": "shiseinishite-1",
+     "cls": "engine",
+     "d0": 73,
+     "d1": 73,
+     "delta": 0
+    },
+    {
+     "id": "showagen-1",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 20,
+     "delta": 0
+    },
+    {
+     "id": "soko-8",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 8,
+     "delta": 0
+    },
+    {
+     "id": "daigaku03-11",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 21,
+     "delta": -1
+    },
+    {
+     "id": "daigaku03-6",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 43,
+     "delta": -1
+    },
+    {
+     "id": "daigaku08-8",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 12,
+     "delta": -2
+    },
+    {
+     "id": "daigaku09-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 16,
+     "delta": -2
+    },
+    {
+     "id": "daigaku10-42",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 24,
+     "delta": -2
+    },
+    {
+     "id": "daigaku10-8",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 41,
+     "delta": 0
+    },
+    {
+     "id": "kokyo15-10",
+     "cls": "engine",
+     "d0": 3,
+     "d1": 3,
+     "delta": 0
+    },
+    {
+     "id": "kokyo15-9",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 10,
+     "delta": 0
+    },
+    {
+     "id": "saio-x13",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "sankyoshu-8",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 7,
+     "delta": 0
+    },
+    {
+     "id": "toushisen136-1",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 5,
+     "delta": -2
+    },
+    {
+     "id": "gusei-2",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 5,
+     "delta": -1
+    },
+    {
+     "id": "tankako_soso-20",
+     "cls": "engine",
+     "d0": 2,
+     "d1": 0,
+     "delta": -2
+    },
+    {
+     "id": "toushisen034-5",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 4,
+     "delta": 0
+    },
+    {
+     "id": "toushisen101-1",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 3,
+     "delta": -2
+    },
+    {
+     "id": "toushisen275-2",
+     "cls": "engine",
+     "d0": 2,
+     "d1": 2,
+     "delta": 0
+    },
+    {
+     "id": "sanennosho-7",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 6,
+     "delta": 1
+    },
+    {
+     "id": "toushisen216-7",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 9,
+     "delta": 2
+    },
+    {
+     "id": "montai04-3",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 48,
+     "delta": -2
+    },
+    {
+     "id": "montai04-6",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 34,
+     "delta": -2
+    },
+    {
+     "id": "montai10-3",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 37,
+     "delta": -4
+    },
+    {
+     "id": "montai11-14",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 27,
+     "delta": -1
+    },
+    {
+     "id": "montai12-10",
+     "cls": "engine",
+     "d0": 25,
+     "d1": 25,
+     "delta": 0
+    },
+    {
+     "id": "montai13-1",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 40,
+     "delta": 0
+    },
+    {
+     "id": "montai13-3",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 9,
+     "delta": -2
+    },
+    {
+     "id": "montai13-8",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 10,
+     "delta": -2
+    },
+    {
+     "id": "montai15-6",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 10,
+     "delta": -2
+    },
+    {
+     "id": "rikutou13-5",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 44,
+     "delta": 0
+    },
+    {
+     "id": "rikutou14-2",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 20,
+     "delta": 0
+    },
+    {
+     "id": "rikutou19-3",
+     "cls": "engine",
+     "d0": 59,
+     "d1": 59,
+     "delta": 0
+    },
+    {
+     "id": "rikutou29-7",
+     "cls": "engine",
+     "d0": 42,
+     "d1": 40,
+     "delta": -2
+    },
+    {
+     "id": "rikutou35-2",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 22,
+     "delta": -1
+    },
+    {
+     "id": "rikutou39-1",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 34,
+     "delta": -1
+    },
+    {
+     "id": "roushi03-1",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 41,
+     "delta": 0
+    },
+    {
+     "id": "roushi14-1",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 48,
+     "delta": -2
+    },
+    {
+     "id": "roushi15-1",
+     "cls": "engine",
+     "d0": 25,
+     "d1": 25,
+     "delta": 0
+    },
+    {
+     "id": "roushi20-1",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 41,
+     "delta": 0
+    },
+    {
+     "id": "roushi31-2",
+     "cls": "engine",
+     "d0": 46,
+     "d1": 44,
+     "delta": -2
+    },
+    {
+     "id": "roushi46-2",
+     "cls": "engine",
+     "d0": 34,
+     "d1": 32,
+     "delta": -2
+    },
+    {
+     "id": "roushi56-2",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 14,
+     "delta": -2
+    },
+    {
+     "id": "sanryaku01-13",
+     "cls": "engine",
+     "d0": 111,
+     "d1": 107,
+     "delta": -4
+    },
+    {
+     "id": "sanryaku01-14",
+     "cls": "engine",
+     "d0": 105,
+     "d1": 104,
+     "delta": -1
+    },
+    {
+     "id": "sanryaku01-15",
+     "cls": "engine",
+     "d0": 75,
+     "d1": 74,
+     "delta": -1
+    },
+    {
+     "id": "sonshi01-1",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 17,
+     "delta": 0
+    },
+    {
+     "id": "sonshi01-22",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 14,
+     "delta": -1
+    },
+    {
+     "id": "sonshi03-31",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 10,
+     "delta": -4
+    },
+    {
+     "id": "sonshi04-2",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 19,
+     "delta": 1
+    },
+    {
+     "id": "sonshi05-9",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 8,
+     "delta": -2
+    },
+    {
+     "id": "sonshi05-10",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 8,
+     "delta": -1
+    },
+    {
+     "id": "sonshi05-12",
+     "cls": "engine",
+     "d0": 25,
+     "d1": 23,
+     "delta": -2
+    },
+    {
+     "id": "sonshi05-19",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 15,
+     "delta": -2
+    },
+    {
+     "id": "sonshi05-20",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "sonshi06-23",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 10,
+     "delta": 0
+    },
+    {
+     "id": "sonshi06-24",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 8,
+     "delta": 0
+    },
+    {
+     "id": "sonshi08-7",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 8,
+     "delta": -2
+    },
+    {
+     "id": "sonshi08-11",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 7,
+     "delta": -2
+    },
+    {
+     "id": "sonshi08-13",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 40,
+     "delta": -4
+    },
+    {
+     "id": "sonshi08-15",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "sonshi09-59",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 14,
+     "delta": -2
+    },
+    {
+     "id": "sonshi10-15",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 8,
+     "delta": 0
+    },
+    {
+     "id": "sonshi10-34",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 22,
+     "delta": -2
+    },
+    {
+     "id": "sonshi10-35",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 24,
+     "delta": -2
+    },
+    {
+     "id": "sonshi10-36",
+     "cls": "engine",
+     "d0": 25,
+     "d1": 21,
+     "delta": -4
+    },
+    {
+     "id": "sonshi10-37",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 31,
+     "delta": -4
+    },
+    {
+     "id": "sonshi11-5",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 8,
+     "delta": 0
+    },
+    {
+     "id": "sonshi11-9",
+     "cls": "engine",
+     "d0": 29,
+     "d1": 27,
+     "delta": -2
+    },
+    {
+     "id": "sonshi11-20",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 37,
+     "delta": 0
+    },
+    {
+     "id": "sonshi11-44",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 6,
+     "delta": 0
+    },
+    {
+     "id": "sonshi12-25",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 2,
+     "delta": -2
+    },
+    {
+     "id": "sonshi13-6",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 10,
+     "delta": -2
+    },
+    {
+     "id": "sonshi13-23",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 4,
+     "delta": -2
+    },
+    {
+     "id": "sonshi13-24",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 8,
+     "delta": -2
+    },
+    {
+     "id": "sonshi13-29",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 6,
+     "delta": 0
+    },
+    {
+     "id": "utsuryo12-4",
+     "cls": "engine",
+     "d0": 46,
+     "d1": 46,
+     "delta": 0
+    },
+    {
+     "id": "24shihin14-1",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "24shihin16-5",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 11,
+     "delta": -2
+    },
+    {
+     "id": "24shihin22-5",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "rikutou04-2",
+     "cls": "rerun",
+     "d0": 47,
+     "d1": 45,
+     "delta": -2
+    },
+    {
+     "id": "rikutou19-2",
+     "cls": "rerun",
+     "d0": 74,
+     "d1": 64,
+     "delta": -10
+    },
+    {
+     "id": "rikutou53-8",
+     "cls": "rerun",
+     "d0": 5,
+     "d1": 5,
+     "delta": 0
+    },
+    {
+     "id": "sanryaku01-11",
+     "cls": "rerun",
+     "d0": 104,
+     "d1": 103,
+     "delta": -1
+    },
+    {
+     "id": "sanryaku03-5",
+     "cls": "rerun",
+     "d0": 124,
+     "d1": 122,
+     "delta": -2
+    },
+    {
+     "id": "utsuryo01-4",
+     "cls": "rerun",
+     "d0": 45,
+     "d1": 43,
+     "delta": -2
+    },
+    {
+     "id": "utsuryo02-4",
+     "cls": "rerun",
+     "d0": 47,
+     "d1": 44,
+     "delta": -3
+    },
+    {
+     "id": "utsuryo03-6",
+     "cls": "rerun",
+     "d0": 67,
+     "d1": 65,
+     "delta": -2
+    },
+    {
+     "id": "utsuryo08-13",
+     "cls": "rerun",
+     "d0": 41,
+     "d1": 41,
+     "delta": 0
+    },
+    {
+     "id": "shiki082-4",
+     "cls": "rerun",
+     "d0": 27,
+     "d1": 25,
+     "delta": -2
+    },
+    {
+     "id": "rongo1125b-1",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 39,
+     "delta": -1
+    }
+   ]
+  },
+  "T2 べからず→可からず guard 可（N72 拒案の現基线再測）": {
+   "kana": "べからず",
+   "repl": "可からず",
+   "guard": [
+    "可"
+   ],
+   "fired": 89,
+   "outside": 1,
+   "better": 79,
+   "worse": 5,
+   "same": 5,
+   "verdict": "拒（変差 5）",
+   "detail": [
+    {
+     "id": "shushu-4",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 12,
+     "delta": 1
+    },
+    {
+     "id": "aowa-1",
+     "cls": "engine",
+     "d0": 27,
+     "d1": 26,
+     "delta": -1
+    },
+    {
+     "id": "imayukyu-1",
+     "cls": "engine",
+     "d0": 51,
+     "d1": 51,
+     "delta": 0
+    },
+    {
+     "id": "iwadaijin-1",
+     "cls": "engine",
+     "d0": 51,
+     "d1": 51,
+     "delta": 0
+    },
+    {
+     "id": "yukumonoi-1",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 21,
+     "delta": -1
+    },
+    {
+     "id": "shukateki-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 39,
+     "delta": 3
+    },
+    {
+     "id": "kanpeki4k-1",
+     "cls": "engine",
+     "d0": 82,
+     "d1": 81,
+     "delta": -1
+    },
+    {
+     "id": "rongo0402-1",
+     "cls": "engine",
+     "d0": 19,
+     "d1": 17,
+     "delta": -2
+    },
+    {
+     "id": "rongo0711-1",
+     "cls": "engine",
+     "d0": 25,
+     "d1": 24,
+     "delta": -1
+    },
+    {
+     "id": "rongo0807-1",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 22,
+     "delta": -1
+    },
+    {
+     "id": "rongo0809-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 11,
+     "delta": -1
+    },
+    {
+     "id": "rongo0929-1",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 41,
+     "delta": -3
+    },
+    {
+     "id": "rongo1223-1",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 23,
+     "delta": 0
+    },
+    {
+     "id": "rongo1322-1",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 34,
+     "delta": -1
+    },
+    {
+     "id": "rongo1507-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 30,
+     "delta": -1
+    },
+    {
+     "id": "rongo1533-1",
+     "cls": "engine",
+     "d0": 30,
+     "d1": 28,
+     "delta": -2
+    },
+    {
+     "id": "rongo1802-1",
+     "cls": "engine",
+     "d0": 47,
+     "d1": 46,
+     "delta": -1
+    },
+    {
+     "id": "rongo1805-1",
+     "cls": "engine",
+     "d0": 39,
+     "d1": 38,
+     "delta": -1
+    },
+    {
+     "id": "rongo1806-1",
+     "cls": "engine",
+     "d0": 90,
+     "d1": 89,
+     "delta": -1
+    },
+    {
+     "id": "p-chojutomo-1",
+     "cls": "engine",
+     "d0": 27,
+     "d1": 26,
+     "delta": -1
+    },
+    {
+     "id": "p-guko-6",
+     "cls": "engine",
+     "d0": 63,
+     "d1": 62,
+     "delta": -1
+    },
+    {
+     "id": "haigun-3",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 38,
+     "delta": -2
+    },
+    {
+     "id": "hazuru-1",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 22,
+     "delta": 0
+    },
+    {
+     "id": "kendochorai-4",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 9,
+     "delta": -1
+    },
+    {
+     "id": "koto-1",
+     "cls": "engine",
+     "d0": 67,
+     "d1": 66,
+     "delta": -1
+    },
+    {
+     "id": "ryogen-1",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 16,
+     "delta": -1
+    },
+    {
+     "id": "ryojo-3",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 27,
+     "delta": 1
+    },
+    {
+     "id": "senrinouma-2",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 49,
+     "delta": -1
+    },
+    {
+     "id": "showagen-1",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 19,
+     "delta": -1
+    },
+    {
+     "id": "soko-8",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 7,
+     "delta": -1
+    },
+    {
+     "id": "daigaku08-8",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 13,
+     "delta": -1
+    },
+    {
+     "id": "daigaku09-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 17,
+     "delta": -1
+    },
+    {
+     "id": "daigaku10-8",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 40,
+     "delta": -1
+    },
+    {
+     "id": "kokyo15-10",
+     "cls": "engine",
+     "d0": 3,
+     "d1": 2,
+     "delta": -1
+    },
+    {
+     "id": "kokyo15-9",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 9,
+     "delta": -1
+    },
+    {
+     "id": "saio-x13",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 14,
+     "delta": 1
+    },
+    {
+     "id": "toushisen136-1",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 6,
+     "delta": -1
+    },
+    {
+     "id": "gusei-2",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 5,
+     "delta": -1
+    },
+    {
+     "id": "tankako_soso-20",
+     "cls": "engine",
+     "d0": 2,
+     "d1": 1,
+     "delta": -1
+    },
+    {
+     "id": "toushisen034-5",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 3,
+     "delta": -1
+    },
+    {
+     "id": "toushisen101-1",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 4,
+     "delta": -1
+    },
+    {
+     "id": "toushisen233-4",
+     "cls": "engine",
+     "d0": 3,
+     "d1": 2,
+     "delta": -1
+    },
+    {
+     "id": "toushisen275-2",
+     "cls": "engine",
+     "d0": 2,
+     "d1": 1,
+     "delta": -1
+    },
+    {
+     "id": "toushisen308-3",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 6,
+     "delta": -1
+    },
+    {
+     "id": "kikyorainoji-54",
+     "cls": "engine",
+     "d0": 2,
+     "d1": 1,
+     "delta": -1
+    },
+    {
+     "id": "toushisen114-11",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 3,
+     "delta": -1
+    },
+    {
+     "id": "toushisen216-7",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 8,
+     "delta": 1
+    },
+    {
+     "id": "montai04-3",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 49,
+     "delta": -1
+    },
+    {
+     "id": "montai10-3",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 38,
+     "delta": -3
+    },
+    {
+     "id": "montai13-3",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 10,
+     "delta": -1
+    },
+    {
+     "id": "montai13-8",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 11,
+     "delta": -1
+    },
+    {
+     "id": "rikutou13-5",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 42,
+     "delta": -2
+    },
+    {
+     "id": "rikutou14-2",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 18,
+     "delta": -2
+    },
+    {
+     "id": "rikutou29-7",
+     "cls": "engine",
+     "d0": 42,
+     "d1": 40,
+     "delta": -2
+    },
+    {
+     "id": "rikutou39-1",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 33,
+     "delta": -2
+    },
+    {
+     "id": "rikutou40-1",
+     "cls": "engine",
+     "d0": 73,
+     "d1": 72,
+     "delta": -1
+    },
+    {
+     "id": "rikutou45-2",
+     "cls": "engine",
+     "d0": 39,
+     "d1": 38,
+     "delta": -1
+    },
+    {
+     "id": "rikutou46-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 35,
+     "delta": -1
+    },
+    {
+     "id": "roushi09-2",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 5,
+     "delta": -1
+    },
+    {
+     "id": "roushi14-1",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 49,
+     "delta": -1
+    },
+    {
+     "id": "roushi15-1",
+     "cls": "engine",
+     "d0": 25,
+     "d1": 23,
+     "delta": -2
+    },
+    {
+     "id": "roushi20-1",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 40,
+     "delta": -1
+    },
+    {
+     "id": "roushi27-1",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 48,
+     "delta": -2
+    },
+    {
+     "id": "roushi56-2",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 10,
+     "delta": -6
+    },
+    {
+     "id": "sanryaku01-13",
+     "cls": "engine",
+     "d0": 111,
+     "d1": 109,
+     "delta": -2
+    },
+    {
+     "id": "sanryaku01-15",
+     "cls": "engine",
+     "d0": 75,
+     "d1": 73,
+     "delta": -2
+    },
+    {
+     "id": "sanryaku02-5",
+     "cls": "engine",
+     "d0": 115,
+     "d1": 113,
+     "delta": -2
+    },
+    {
+     "id": "sonshi01-22",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 14,
+     "delta": -1
+    },
+    {
+     "id": "sonshi04-2",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 18,
+     "delta": 0
+    },
+    {
+     "id": "sonshi04-4",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 7,
+     "delta": -1
+    },
+    {
+     "id": "sonshi06-23",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 9,
+     "delta": -1
+    },
+    {
+     "id": "sonshi06-24",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 7,
+     "delta": -1
+    },
+    {
+     "id": "sonshi11-44",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 5,
+     "delta": -1
+    },
+    {
+     "id": "sonshi12-10",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 30,
+     "delta": -1
+    },
+    {
+     "id": "sonshi12-17",
+     "cls": "engine",
+     "d0": 3,
+     "d1": 2,
+     "delta": -1
+    },
+    {
+     "id": "sonshi12-22",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 21,
+     "delta": -1
+    },
+    {
+     "id": "sonshi12-25",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 2,
+     "delta": -2
+    },
+    {
+     "id": "sonshi13-6",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 9,
+     "delta": -3
+    },
+    {
+     "id": "utsuryo05-3",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 21,
+     "delta": -2
+    },
+    {
+     "id": "24shihin14-1",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 10,
+     "delta": -1
+    },
+    {
+     "id": "24shihin16-5",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 12,
+     "delta": -1
+    },
+    {
+     "id": "24shihin22-5",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 12,
+     "delta": -1
+    },
+    {
+     "id": "rikutou37-2",
+     "cls": "rerun",
+     "d0": 44,
+     "d1": 43,
+     "delta": -1
+    },
+    {
+     "id": "sanryaku02-3",
+     "cls": "rerun",
+     "d0": 174,
+     "d1": 170,
+     "delta": -4
+    },
+    {
+     "id": "sanryaku03-5",
+     "cls": "rerun",
+     "d0": 124,
+     "d1": 122,
+     "delta": -2
+    },
+    {
+     "id": "shiba04-3",
+     "cls": "rerun",
+     "d0": 18,
+     "d1": 17,
+     "delta": -1
+    },
+    {
+     "id": "utsuryo01-4",
+     "cls": "rerun",
+     "d0": 45,
+     "d1": 44,
+     "delta": -1
+    },
+    {
+     "id": "utsuryo02-4",
+     "cls": "rerun",
+     "d0": 47,
+     "d1": 45,
+     "delta": -2
+    },
+    {
+     "id": "utsuryo08-13",
+     "cls": "rerun",
+     "d0": 41,
+     "d1": 40,
+     "delta": -1
+    }
+   ]
+  },
+  "T3 ざるべからず→ざる可からず（prefix 長 key・死行回避試行）": {
+   "kana": "ざるべからず",
+   "repl": "ざる可からず",
+   "guard": [
+    "可"
+   ],
+   "fired": 9,
+   "outside": 0,
+   "better": 8,
+   "worse": 1,
+   "same": 0,
+   "verdict": "拒（変差 1）",
+   "detail": [
+    {
+     "id": "kanpeki4k-1",
+     "cls": "engine",
+     "d0": 82,
+     "d1": 81,
+     "delta": -1
+    },
+    {
+     "id": "rongo0807-1",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 22,
+     "delta": -1
+    },
+    {
+     "id": "ryojo-3",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 27,
+     "delta": 1
+    },
+    {
+     "id": "daigaku10-8",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 40,
+     "delta": -1
+    },
+    {
+     "id": "kokyo15-10",
+     "cls": "engine",
+     "d0": 3,
+     "d1": 2,
+     "delta": -1
+    },
+    {
+     "id": "kokyo15-9",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 9,
+     "delta": -1
+    },
+    {
+     "id": "rikutou14-2",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 18,
+     "delta": -2
+    },
+    {
+     "id": "roushi20-1",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 40,
+     "delta": -1
+    },
+    {
+     "id": "sonshi11-44",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 5,
+     "delta": -1
+    }
+   ]
+  },
+  "T4 るべからず→可からず（prefix 長 key）": {
+   "kana": "るべからず",
+   "repl": "可からず",
+   "guard": [
+    "可"
+   ],
+   "fired": 59,
+   "outside": 0,
+   "better": 34,
+   "worse": 3,
+   "same": 22,
+   "verdict": "拒（変差 3）",
+   "detail": [
+    {
+     "id": "shushu-4",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "yukumonoi-1",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 20,
+     "delta": -2
+    },
+    {
+     "id": "shukateki-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 36,
+     "delta": 0
+    },
+    {
+     "id": "kanpeki4k-1",
+     "cls": "engine",
+     "d0": 82,
+     "d1": 82,
+     "delta": 0
+    },
+    {
+     "id": "rongo0402-1",
+     "cls": "engine",
+     "d0": 19,
+     "d1": 17,
+     "delta": -2
+    },
+    {
+     "id": "rongo0711-1",
+     "cls": "engine",
+     "d0": 25,
+     "d1": 23,
+     "delta": -2
+    },
+    {
+     "id": "rongo0807-1",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 23,
+     "delta": 0
+    },
+    {
+     "id": "rongo0809-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 10,
+     "delta": -2
+    },
+    {
+     "id": "rongo1322-1",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 34,
+     "delta": -1
+    },
+    {
+     "id": "rongo1507-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 29,
+     "delta": -2
+    },
+    {
+     "id": "rongo1533-1",
+     "cls": "engine",
+     "d0": 30,
+     "d1": 26,
+     "delta": -4
+    },
+    {
+     "id": "rongo1805-1",
+     "cls": "engine",
+     "d0": 39,
+     "d1": 37,
+     "delta": -2
+    },
+    {
+     "id": "koto-1",
+     "cls": "engine",
+     "d0": 67,
+     "d1": 65,
+     "delta": -2
+    },
+    {
+     "id": "ryogen-1",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 15,
+     "delta": -2
+    },
+    {
+     "id": "ryojo-3",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 28,
+     "delta": 2
+    },
+    {
+     "id": "senrinouma-2",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 48,
+     "delta": -2
+    },
+    {
+     "id": "showagen-1",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 20,
+     "delta": 0
+    },
+    {
+     "id": "soko-8",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 8,
+     "delta": 0
+    },
+    {
+     "id": "daigaku08-8",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 12,
+     "delta": -2
+    },
+    {
+     "id": "daigaku09-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 16,
+     "delta": -2
+    },
+    {
+     "id": "daigaku10-8",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 41,
+     "delta": 0
+    },
+    {
+     "id": "kokyo15-10",
+     "cls": "engine",
+     "d0": 3,
+     "d1": 3,
+     "delta": 0
+    },
+    {
+     "id": "kokyo15-9",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 10,
+     "delta": 0
+    },
+    {
+     "id": "saio-x13",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "toushisen136-1",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 5,
+     "delta": -2
+    },
+    {
+     "id": "gusei-2",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 5,
+     "delta": -1
+    },
+    {
+     "id": "tankako_soso-20",
+     "cls": "engine",
+     "d0": 2,
+     "d1": 0,
+     "delta": -2
+    },
+    {
+     "id": "toushisen034-5",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 4,
+     "delta": 0
+    },
+    {
+     "id": "toushisen101-1",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 3,
+     "delta": -2
+    },
+    {
+     "id": "toushisen275-2",
+     "cls": "engine",
+     "d0": 2,
+     "d1": 2,
+     "delta": 0
+    },
+    {
+     "id": "toushisen216-7",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 9,
+     "delta": 2
+    },
+    {
+     "id": "montai04-3",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 48,
+     "delta": -2
+    },
+    {
+     "id": "montai10-3",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 37,
+     "delta": -4
+    },
+    {
+     "id": "montai13-3",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 9,
+     "delta": -2
+    },
+    {
+     "id": "montai13-8",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 10,
+     "delta": -2
+    },
+    {
+     "id": "rikutou13-5",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 44,
+     "delta": 0
+    },
+    {
+     "id": "rikutou14-2",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 20,
+     "delta": 0
+    },
+    {
+     "id": "rikutou29-7",
+     "cls": "engine",
+     "d0": 42,
+     "d1": 40,
+     "delta": -2
+    },
+    {
+     "id": "rikutou39-1",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 34,
+     "delta": -1
+    },
+    {
+     "id": "roushi14-1",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 48,
+     "delta": -2
+    },
+    {
+     "id": "roushi15-1",
+     "cls": "engine",
+     "d0": 25,
+     "d1": 25,
+     "delta": 0
+    },
+    {
+     "id": "roushi20-1",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 41,
+     "delta": 0
+    },
+    {
+     "id": "roushi56-2",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 14,
+     "delta": -2
+    },
+    {
+     "id": "sanryaku01-13",
+     "cls": "engine",
+     "d0": 111,
+     "d1": 109,
+     "delta": -2
+    },
+    {
+     "id": "sanryaku01-15",
+     "cls": "engine",
+     "d0": 75,
+     "d1": 74,
+     "delta": -1
+    },
+    {
+     "id": "sonshi01-22",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 14,
+     "delta": -1
+    },
+    {
+     "id": "sonshi04-2",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 19,
+     "delta": 1
+    },
+    {
+     "id": "sonshi06-23",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 10,
+     "delta": 0
+    },
+    {
+     "id": "sonshi06-24",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 8,
+     "delta": 0
+    },
+    {
+     "id": "sonshi11-44",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 6,
+     "delta": 0
+    },
+    {
+     "id": "sonshi12-25",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 2,
+     "delta": -2
+    },
+    {
+     "id": "sonshi13-6",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 10,
+     "delta": -2
+    },
+    {
+     "id": "24shihin14-1",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "24shihin16-5",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 11,
+     "delta": -2
+    },
+    {
+     "id": "24shihin22-5",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "sanryaku03-5",
+     "cls": "rerun",
+     "d0": 124,
+     "d1": 122,
+     "delta": -2
+    },
+    {
+     "id": "utsuryo01-4",
+     "cls": "rerun",
+     "d0": 45,
+     "d1": 43,
+     "delta": -2
+    },
+    {
+     "id": "utsuryo02-4",
+     "cls": "rerun",
+     "d0": 47,
+     "d1": 44,
+     "delta": -3
+    },
+    {
+     "id": "utsuryo08-13",
+     "cls": "rerun",
+     "d0": 41,
+     "d1": 41,
+     "delta": 0
+    }
+   ]
+  },
+  "T5 べきか→可きか（guard 可）": {
+   "kana": "べきか",
+   "repl": "可きか",
+   "guard": [
+    "可"
+   ],
+   "fired": 31,
+   "outside": 0,
+   "better": 25,
+   "worse": 2,
+   "same": 4,
+   "verdict": "拒（変差 2）",
+   "detail": [
+    {
+     "id": "ayaukimei-1",
+     "cls": "engine",
+     "d0": 25,
+     "d1": 25,
+     "delta": 0
+    },
+    {
+     "id": "imayukyu-1",
+     "cls": "engine",
+     "d0": 51,
+     "d1": 49,
+     "delta": -2
+    },
+    {
+     "id": "iwadaijin-1",
+     "cls": "engine",
+     "d0": 51,
+     "d1": 49,
+     "delta": -2
+    },
+    {
+     "id": "onorehaji-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 19,
+     "delta": -2
+    },
+    {
+     "id": "omoi-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 32,
+     "delta": 1
+    },
+    {
+     "id": "omonpaku-1",
+     "cls": "engine",
+     "d0": 61,
+     "d1": 60,
+     "delta": -1
+    },
+    {
+     "id": "onkochi-1",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 10,
+     "delta": -1
+    },
+    {
+     "id": "kyorankito-2",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 19,
+     "delta": -1
+    },
+    {
+     "id": "katakisaki-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 19,
+     "delta": -2
+    },
+    {
+     "id": "kishinkei-1",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 9,
+     "delta": -1
+    },
+    {
+     "id": "kyuyohei-1",
+     "cls": "engine",
+     "d0": 45,
+     "d1": 43,
+     "delta": -2
+    },
+    {
+     "id": "rongo0111-1",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 23,
+     "delta": -1
+    },
+    {
+     "id": "rongo0420-1",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 7,
+     "delta": -1
+    },
+    {
+     "id": "rongo0625-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 11,
+     "delta": -1
+    },
+    {
+     "id": "rongo0716-1",
+     "cls": "engine",
+     "d0": 55,
+     "d1": 55,
+     "delta": 0
+    },
+    {
+     "id": "rongo1215-1",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 12,
+     "delta": -1
+    },
+    {
+     "id": "rongo1311-1",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 23,
+     "delta": -1
+    },
+    {
+     "id": "rongo1320-1",
+     "cls": "engine",
+     "d0": 56,
+     "d1": 54,
+     "delta": -2
+    },
+    {
+     "id": "rongo1328-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 34,
+     "delta": -2
+    },
+    {
+     "id": "rongo1329-1",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 15,
+     "delta": 0
+    },
+    {
+     "id": "rongo1402-1",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 20,
+     "delta": -2
+    },
+    {
+     "id": "rongo1419-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 11,
+     "delta": -1
+    },
+    {
+     "id": "rongo1721-1",
+     "cls": "engine",
+     "d0": 106,
+     "d1": 105,
+     "delta": -1
+    },
+    {
+     "id": "rongo2002-1",
+     "cls": "engine",
+     "d0": 149,
+     "d1": 147,
+     "delta": -2
+    },
+    {
+     "id": "p-dojitsuno-2",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 17,
+     "delta": -1
+    },
+    {
+     "id": "p-furukita-1",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 10,
+     "delta": -1
+    },
+    {
+     "id": "p-gobishiaku-1",
+     "cls": "engine",
+     "d0": 60,
+     "d1": 58,
+     "delta": -2
+    },
+    {
+     "id": "p-gojueki-1",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 17,
+     "delta": 0
+    },
+    {
+     "id": "mobosansen-1",
+     "cls": "engine",
+     "d0": 75,
+     "d1": 76,
+     "delta": 1
+    },
+    {
+     "id": "sakinzu-4",
+     "cls": "engine",
+     "d0": 48,
+     "d1": 47,
+     "delta": -1
+    },
+    {
+     "id": "shika-3",
+     "cls": "engine",
+     "d0": 52,
+     "d1": 51,
+     "delta": -1
+    }
+   ]
+  },
+  "T6 はざる者→わざる者（N72 拍板待ち・kanji 含み key＝M 何のごとし 前例）": {
+   "kana": "はざる者",
+   "repl": "わざる者",
+   "guard": [],
+   "fired": 6,
+   "outside": 0,
+   "better": 6,
+   "worse": 0,
+   "same": 0,
+   "verdict": "収候補",
+   "detail": [
+    {
+     "id": "roushi33-2",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 8,
+     "delta": -1
+    },
+    {
+     "id": "utsuryo06-2",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 36,
+     "delta": -1
+    },
+    {
+     "id": "utsuryo03-5",
+     "cls": "rerun",
+     "d0": 58,
+     "d1": 57,
+     "delta": -1
+    },
+    {
+     "id": "utsuryo19-2",
+     "cls": "rerun",
+     "d0": 26,
+     "d1": 25,
+     "delta": -1
+    },
+    {
+     "id": "utsuryo24-2",
+     "cls": "rerun",
+     "d0": 41,
+     "d1": 40,
+     "delta": -1
+    },
+    {
+     "id": "shiki001a-7",
+     "cls": "rerun",
+     "d0": 26,
+     "d1": 25,
+     "delta": -1
+    }
+   ]
+  },
+  "T7 はざる→わざる blanket（N69 拒案 24shihin10-4 对照再測）": {
+   "kana": "はざる",
+   "repl": "わざる",
+   "guard": [],
+   "fired": 24,
+   "outside": 0,
+   "better": 14,
+   "worse": 1,
+   "same": 9,
+   "verdict": "拒（変差 1）",
+   "detail": [
+    {
+     "id": "atawaza-1",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 34,
+     "delta": -1
+    },
+    {
+     "id": "rongo0112-1",
+     "cls": "engine",
+     "d0": 30,
+     "d1": 29,
+     "delta": -1
+    },
+    {
+     "id": "rongo0306-1",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 16,
+     "delta": -1
+    },
+    {
+     "id": "heiwasesso-2",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 6,
+     "delta": -1
+    },
+    {
+     "id": "kenken-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 20,
+     "delta": -1
+    },
+    {
+     "id": "narai-1",
+     "cls": "engine",
+     "d0": 27,
+     "d1": 27,
+     "delta": 0
+    },
+    {
+     "id": "shika-3",
+     "cls": "engine",
+     "d0": 52,
+     "d1": 51,
+     "delta": -1
+    },
+    {
+     "id": "kokyo17-4",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 23,
+     "delta": 0
+    },
+    {
+     "id": "wakaruru-5",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 7,
+     "delta": 0
+    },
+    {
+     "id": "rikutou14-2",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 19,
+     "delta": -1
+    },
+    {
+     "id": "rikutou20-4",
+     "cls": "engine",
+     "d0": 48,
+     "d1": 47,
+     "delta": -1
+    },
+    {
+     "id": "rikutou35-3",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 50,
+     "delta": 0
+    },
+    {
+     "id": "roushi33-2",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 8,
+     "delta": -1
+    },
+    {
+     "id": "sonshi08-4",
+     "cls": "engine",
+     "d0": 19,
+     "d1": 19,
+     "delta": 0
+    },
+    {
+     "id": "sonshi08-5",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 14,
+     "delta": 0
+    },
+    {
+     "id": "utsuryo06-2",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 36,
+     "delta": -1
+    },
+    {
+     "id": "utsuryo06-5",
+     "cls": "engine",
+     "d0": 63,
+     "d1": 63,
+     "delta": 0
+    },
+    {
+     "id": "24shihin10-4",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 18,
+     "delta": 1
+    },
+    {
+     "id": "soji02k03-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 18,
+     "delta": 0
+    },
+    {
+     "id": "utsuryo03-5",
+     "cls": "rerun",
+     "d0": 58,
+     "d1": 57,
+     "delta": -1
+    },
+    {
+     "id": "utsuryo03-6",
+     "cls": "rerun",
+     "d0": 67,
+     "d1": 67,
+     "delta": 0
+    },
+    {
+     "id": "utsuryo19-2",
+     "cls": "rerun",
+     "d0": 26,
+     "d1": 25,
+     "delta": -1
+    },
+    {
+     "id": "utsuryo24-2",
+     "cls": "rerun",
+     "d0": 41,
+     "d1": 40,
+     "delta": -1
+    },
+    {
+     "id": "shiki001a-7",
+     "cls": "rerun",
+     "d0": 26,
+     "d1": 25,
+     "delta": -1
+    }
+   ]
+  },
+  "T8 しむ→使う guard 使（使役族・字形混在）": {
+   "kana": "しむ",
+   "repl": "使う",
+   "guard": [
+    "使"
+   ],
+   "fired": 158,
+   "outside": 74,
+   "better": 20,
+   "worse": 72,
+   "same": 66,
+   "verdict": "拒（変差 72）",
+   "detail": [
+    {
+     "id": "toranoi-4",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 7,
+     "delta": 2
+    },
+    {
+     "id": "moshisono-1",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 18,
+     "delta": 2
+    },
+    {
+     "id": "inochi-1",
+     "cls": "engine",
+     "d0": 42,
+     "d1": 43,
+     "delta": 1
+    },
+    {
+     "id": "uttaenaki-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 21,
+     "delta": 0
+    },
+    {
+     "id": "uttaenaki-2",
+     "cls": "engine",
+     "d0": 62,
+     "d1": 62,
+     "delta": 0
+    },
+    {
+     "id": "enou-1",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 14,
+     "delta": 1
+    },
+    {
+     "id": "ensui-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 13,
+     "delta": 1
+    },
+    {
+     "id": "osetsu-1",
+     "cls": "engine",
+     "d0": 30,
+     "d1": 32,
+     "delta": 2
+    },
+    {
+     "id": "ooshitoie-1",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 26,
+     "delta": 0
+    },
+    {
+     "id": "onorenoho-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 18,
+     "delta": 0
+    },
+    {
+     "id": "onorehaji-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 21,
+     "delta": 0
+    },
+    {
+     "id": "kunshiyotsu-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 31,
+     "delta": 0
+    },
+    {
+     "id": "kanae-1",
+     "cls": "engine",
+     "d0": 29,
+     "d1": 30,
+     "delta": 1
+    },
+    {
+     "id": "kanae-2",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 52,
+     "delta": 2
+    },
+    {
+     "id": "kanarazuya-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 21,
+     "delta": 0
+    },
+    {
+     "id": "kanohitono-1",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 28,
+     "delta": 2
+    },
+    {
+     "id": "kannareba-1",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 42,
+     "delta": -2
+    },
+    {
+     "id": "kanpeki4k-2",
+     "cls": "engine",
+     "d0": 55,
+     "d1": 54,
+     "delta": -1
+    },
+    {
+     "id": "kanwomo-5",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 29,
+     "delta": 1
+    },
+    {
+     "id": "kimishin-1",
+     "cls": "engine",
+     "d0": 29,
+     "d1": 29,
+     "delta": 0
+    },
+    {
+     "id": "kyugyu-2",
+     "cls": "engine",
+     "d0": 66,
+     "d1": 66,
+     "delta": 0
+    },
+    {
+     "id": "gyushu-2",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 28,
+     "delta": 0
+    },
+    {
+     "id": "kunshisuku-1",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 39,
+     "delta": -1
+    },
+    {
+     "id": "kyonareba-1",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 42,
+     "delta": -2
+    },
+    {
+     "id": "kyokutotsu-3",
+     "cls": "engine",
+     "d0": 52,
+     "d1": 52,
+     "delta": 0
+    },
+    {
+     "id": "kyowa-2",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 25,
+     "delta": 2
+    },
+    {
+     "id": "rongo0105-1",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 17,
+     "delta": 0
+    },
+    {
+     "id": "rongo0321-1",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 28,
+     "delta": 2
+    },
+    {
+     "id": "rongo0505-1",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 17,
+     "delta": 2
+    },
+    {
+     "id": "rongo0507-1",
+     "cls": "engine",
+     "d0": 51,
+     "d1": 54,
+     "delta": 3
+    },
+    {
+     "id": "rongo0515-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 31,
+     "delta": 0
+    },
+    {
+     "id": "rongo0601-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 38,
+     "delta": 1
+    },
+    {
+     "id": "rongo0603-1",
+     "cls": "engine",
+     "d0": 60,
+     "d1": 59,
+     "delta": -1
+    },
+    {
+     "id": "rongo0606-1",
+     "cls": "engine",
+     "d0": 84,
+     "d1": 87,
+     "delta": 3
+    },
+    {
+     "id": "rongo0607-1",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 20,
+     "delta": 0
+    },
+    {
+     "id": "rongo0731-1",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 15,
+     "delta": 0
+    },
+    {
+     "id": "rongo0809-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 14,
+     "delta": 2
+    },
+    {
+     "id": "rongo0811-1",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "rongo0911-1",
+     "cls": "engine",
+     "d0": 62,
+     "d1": 64,
+     "delta": 2
+    },
+    {
+     "id": "rongo1003-1",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 40,
+     "delta": 0
+    },
+    {
+     "id": "rongo1202-1",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 41,
+     "delta": 0
+    },
+    {
+     "id": "rongo1222-1",
+     "cls": "engine",
+     "d0": 83,
+     "d1": 86,
+     "delta": 3
+    },
+    {
+     "id": "rongo1320-1",
+     "cls": "engine",
+     "d0": 56,
+     "d1": 56,
+     "delta": 0
+    },
+    {
+     "id": "rongo1325-1",
+     "cls": "engine",
+     "d0": 61,
+     "d1": 57,
+     "delta": -4
+    },
+    {
+     "id": "rongo1426-1",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 33,
+     "delta": -2
+    },
+    {
+     "id": "rongo1720-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 20,
+     "delta": 2
+    },
+    {
+     "id": "rongo1806-1",
+     "cls": "engine",
+     "d0": 90,
+     "d1": 92,
+     "delta": 2
+    },
+    {
+     "id": "rongo1807-1",
+     "cls": "engine",
+     "d0": 90,
+     "d1": 92,
+     "delta": 2
+    },
+    {
+     "id": "p-bunjiaru-1",
+     "cls": "engine",
+     "d0": 57,
+     "d1": 57,
+     "delta": 0
+    },
+    {
+     "id": "p-choyo-1",
+     "cls": "engine",
+     "d0": 19,
+     "d1": 19,
+     "delta": 0
+    },
+    {
+     "id": "p-doseii-1",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 22,
+     "delta": 2
+    },
+    {
+     "id": "p-gashin-8",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 23,
+     "delta": 0
+    },
+    {
+     "id": "haisui-1",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 23,
+     "delta": 1
+    },
+    {
+     "id": "haisui18-6",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 11,
+     "delta": 2
+    },
+    {
+     "id": "kanpeki4k-6",
+     "cls": "engine",
+     "d0": 65,
+     "d1": 66,
+     "delta": 1
+    },
+    {
+     "id": "kiyu-10",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 10,
+     "delta": 0
+    },
+    {
+     "id": "koreshin-1",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 24,
+     "delta": 2
+    },
+    {
+     "id": "kotoji-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 30,
+     "delta": -1
+    },
+    {
+     "id": "mazukai-9",
+     "cls": "engine",
+     "d0": 3,
+     "d1": 5,
+     "delta": 2
+    },
+    {
+     "id": "naokinao-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 20,
+     "delta": 2
+    },
+    {
+     "id": "nowakuni-4",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 28,
+     "delta": 0
+    },
+    {
+     "id": "rakushika-1",
+     "cls": "engine",
+     "d0": 38,
+     "d1": 38,
+     "delta": 0
+    },
+    {
+     "id": "rissui-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 22,
+     "delta": 1
+    },
+    {
+     "id": "sakinzu-3",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 40,
+     "delta": 0
+    },
+    {
+     "id": "shichishoshi-1",
+     "cls": "engine",
+     "d0": 30,
+     "d1": 30,
+     "delta": 0
+    },
+    {
+     "id": "syuchi-1",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 21,
+     "delta": 1
+    },
+    {
+     "id": "tamitara-1",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 25,
+     "delta": 1
+    },
+    {
+     "id": "yamai-4",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 11,
+     "delta": 2
+    },
+    {
+     "id": "yasukikoto-1",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 35,
+     "delta": 0
+    },
+    {
+     "id": "yoryoezu-1",
+     "cls": "engine",
+     "d0": 93,
+     "d1": 92,
+     "delta": -1
+    },
+    {
+     "id": "yoto-1",
+     "cls": "engine",
+     "d0": 108,
+     "d1": 108,
+     "delta": 0
+    },
+    {
+     "id": "yoyananmen-1",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 10,
+     "delta": 1
+    },
+    {
+     "id": "daigaku00a-5",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 28,
+     "delta": 0
+    },
+    {
+     "id": "daigaku05-7",
+     "cls": "engine",
+     "d0": 46,
+     "d1": 46,
+     "delta": 0
+    },
+    {
+     "id": "daigaku09-3",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 12,
+     "delta": -2
+    },
+    {
+     "id": "daigaku10-3",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 13,
+     "delta": -2
+    },
+    {
+     "id": "toushisen075-7",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 9,
+     "delta": 0
+    },
+    {
+     "id": "toushisen077-8",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 8,
+     "delta": 0
+    },
+    {
+     "id": "toushisen336-3",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 12,
+     "delta": 0
+    },
+    {
+     "id": "toushisen346-3",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 17,
+     "delta": 0
+    },
+    {
+     "id": "toushisen350-4",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 6,
+     "delta": 2
+    },
+    {
+     "id": "toushisen132-7",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 10,
+     "delta": 0
+    },
+    {
+     "id": "toushisen165-7",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 12,
+     "delta": 0
+    },
+    {
+     "id": "toushisen170-8",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 6,
+     "delta": 2
+    },
+    {
+     "id": "toushisen199-7",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "toushisen388-2",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "toushisen430-4",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 7,
+     "delta": 2
+    },
+    {
+     "id": "baitanoh-14",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 8,
+     "delta": -1
+    },
+    {
+     "id": "shokusho-8",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 12,
+     "delta": 2
+    },
+    {
+     "id": "toushisen036-12",
+     "cls": "engine",
+     "d0": 3,
+     "d1": 5,
+     "delta": 2
+    },
+    {
+     "id": "toushisen045-41",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 8,
+     "delta": 0
+    },
+    {
+     "id": "toushisen066-6",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 9,
+     "delta": 0
+    },
+    {
+     "id": "toushisen143-10",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 9,
+     "delta": 0
+    },
+    {
+     "id": "toushisen151-12",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 8,
+     "delta": 0
+    },
+    {
+     "id": "toushisen172-8",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 11,
+     "delta": 2
+    },
+    {
+     "id": "toushisen224-6",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 12,
+     "delta": 0
+    },
+    {
+     "id": "toushisen304-4",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "toushisen313-3",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 5,
+     "delta": 0
+    },
+    {
+     "id": "montai01-2",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 15,
+     "delta": 0
+    },
+    {
+     "id": "montai05-4",
+     "cls": "engine",
+     "d0": 53,
+     "d1": 55,
+     "delta": 2
+    },
+    {
+     "id": "montai06-2",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 24,
+     "delta": 2
+    },
+    {
+     "id": "montai12-6",
+     "cls": "engine",
+     "d0": 33,
+     "d1": 34,
+     "delta": 1
+    },
+    {
+     "id": "montai14-9",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 10,
+     "delta": 2
+    },
+    {
+     "id": "rikutou07-3",
+     "cls": "engine",
+     "d0": 43,
+     "d1": 45,
+     "delta": 2
+    },
+    {
+     "id": "rikutou09-9",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 33,
+     "delta": -2
+    },
+    {
+     "id": "rikutou30-4",
+     "cls": "engine",
+     "d0": 49,
+     "d1": 49,
+     "delta": 0
+    },
+    {
+     "id": "rikutou36-2",
+     "cls": "engine",
+     "d0": 68,
+     "d1": 68,
+     "delta": 0
+    },
+    {
+     "id": "roushi03-1",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 47,
+     "delta": 6
+    },
+    {
+     "id": "roushi03-2",
+     "cls": "engine",
+     "d0": 56,
+     "d1": 58,
+     "delta": 2
+    },
+    {
+     "id": "roushi53-1",
+     "cls": "engine",
+     "d0": 34,
+     "d1": 34,
+     "delta": 0
+    },
+    {
+     "id": "roushi55-7",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 19,
+     "delta": -1
+    },
+    {
+     "id": "roushi74-1",
+     "cls": "engine",
+     "d0": 39,
+     "d1": 39,
+     "delta": 0
+    },
+    {
+     "id": "roushi80-3",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 15,
+     "delta": 0
+    },
+    {
+     "id": "sanryaku01-6",
+     "cls": "engine",
+     "d0": 46,
+     "d1": 46,
+     "delta": 0
+    },
+    {
+     "id": "sanryaku01-7",
+     "cls": "engine",
+     "d0": 79,
+     "d1": 78,
+     "delta": -1
+    },
+    {
+     "id": "sanryaku01-13",
+     "cls": "engine",
+     "d0": 111,
+     "d1": 113,
+     "delta": 2
+    },
+    {
+     "id": "sanryaku02-1",
+     "cls": "engine",
+     "d0": 52,
+     "d1": 52,
+     "delta": 0
+    },
+    {
+     "id": "sanryaku02-2",
+     "cls": "engine",
+     "d0": 99,
+     "d1": 99,
+     "delta": 0
+    },
+    {
+     "id": "sanryaku03-2",
+     "cls": "engine",
+     "d0": 120,
+     "d1": 125,
+     "delta": 5
+    },
+    {
+     "id": "sonshi04-3",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 11,
+     "delta": 2
+    },
+    {
+     "id": "sonshi05-3",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 15,
+     "delta": 1
+    },
+    {
+     "id": "sonshi06-3",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 10,
+     "delta": 0
+    },
+    {
+     "id": "sonshi06-4",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 10,
+     "delta": 0
+    },
+    {
+     "id": "sonshi06-29",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 6,
+     "delta": 2
+    },
+    {
+     "id": "sonshi06-35",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 10,
+     "delta": 1
+    },
+    {
+     "id": "sonshi10-34",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 22,
+     "delta": -2
+    },
+    {
+     "id": "sonshi11-12",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 32,
+     "delta": 0
+    },
+    {
+     "id": "sonshi11-37",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 16,
+     "delta": 0
+    },
+    {
+     "id": "sonshi11-39",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 13,
+     "delta": 2
+    },
+    {
+     "id": "sonshi11-40",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 8,
+     "delta": 2
+    },
+    {
+     "id": "sonshi11-41",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 12,
+     "delta": 2
+    },
+    {
+     "id": "sonshi11-69",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 16,
+     "delta": 0
+    },
+    {
+     "id": "sonshi11-77",
+     "cls": "engine",
+     "d0": 25,
+     "d1": 24,
+     "delta": -1
+    },
+    {
+     "id": "sonshi13-17",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 9,
+     "delta": -1
+    },
+    {
+     "id": "sonshi13-24",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 8,
+     "delta": -2
+    },
+    {
+     "id": "sonshi13-25",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 14,
+     "delta": 1
+    },
+    {
+     "id": "sonshi13-26",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 13,
+     "delta": 2
+    },
+    {
+     "id": "utsuryo03-7",
+     "cls": "engine",
+     "d0": 63,
+     "d1": 63,
+     "delta": 0
+    },
+    {
+     "id": "utsuryo04-1",
+     "cls": "engine",
+     "d0": 33,
+     "d1": 33,
+     "delta": 0
+    },
+    {
+     "id": "utsuryo04-2",
+     "cls": "engine",
+     "d0": 47,
+     "d1": 49,
+     "delta": 2
+    },
+    {
+     "id": "utsuryo04-7",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 39,
+     "delta": -2
+    },
+    {
+     "id": "utsuryo08-6",
+     "cls": "engine",
+     "d0": 38,
+     "d1": 40,
+     "delta": 2
+    },
+    {
+     "id": "utsuryo11-3",
+     "cls": "engine",
+     "d0": 91,
+     "d1": 93,
+     "delta": 2
+    },
+    {
+     "id": "utsuryo11-4",
+     "cls": "engine",
+     "d0": 117,
+     "d1": 119,
+     "delta": 2
+    },
+    {
+     "id": "utsuryo15-1",
+     "cls": "engine",
+     "d0": 92,
+     "d1": 94,
+     "delta": 2
+    },
+    {
+     "id": "utsuryo20-1",
+     "cls": "engine",
+     "d0": 46,
+     "d1": 47,
+     "delta": 1
+    },
+    {
+     "id": "utsuryo20-2",
+     "cls": "engine",
+     "d0": 67,
+     "d1": 69,
+     "delta": 2
+    },
+    {
+     "id": "soji02k05-2",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 17,
+     "delta": 0
+    },
+    {
+     "id": "shiki082-5",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 24,
+     "delta": 1
+    },
+    {
+     "id": "goshi06-2",
+     "cls": "rerun",
+     "d0": 55,
+     "d1": 56,
+     "delta": 1
+    },
+    {
+     "id": "rikutou09-5",
+     "cls": "rerun",
+     "d0": 44,
+     "d1": 45,
+     "delta": 1
+    },
+    {
+     "id": "rikutou15-4",
+     "cls": "rerun",
+     "d0": 104,
+     "d1": 105,
+     "delta": 1
+    },
+    {
+     "id": "sanryaku01-8",
+     "cls": "rerun",
+     "d0": 23,
+     "d1": 25,
+     "delta": 2
+    },
+    {
+     "id": "shiba04-8",
+     "cls": "rerun",
+     "d0": 59,
+     "d1": 61,
+     "delta": 2
+    },
+    {
+     "id": "utsuryo03-3",
+     "cls": "rerun",
+     "d0": 53,
+     "d1": 53,
+     "delta": 0
+    },
+    {
+     "id": "utsuryo04-8",
+     "cls": "rerun",
+     "d0": 48,
+     "d1": 48,
+     "delta": 0
+    },
+    {
+     "id": "shiki064-2",
+     "cls": "rerun",
+     "d0": 16,
+     "d1": 16,
+     "delta": 0
+    },
+    {
+     "id": "rongo1125c-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 37,
+     "delta": 1
+    }
+   ]
+  },
+  "T9 してしむる→使う guard 使": {
+   "kana": "してしむる",
+   "repl": "使う",
+   "guard": [
+    "使"
+   ],
+   "fired": 26,
+   "outside": 5,
+   "better": 20,
+   "worse": 1,
+   "same": 5,
+   "verdict": "拒（変差 1）",
+   "detail": [
+    {
+     "id": "kannareba-1",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 40,
+     "delta": -4
+    },
+    {
+     "id": "kanpeki4k-2",
+     "cls": "engine",
+     "d0": 55,
+     "d1": 55,
+     "delta": 0
+    },
+    {
+     "id": "kyonareba-1",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 40,
+     "delta": -4
+    },
+    {
+     "id": "rongo0507-1",
+     "cls": "engine",
+     "d0": 51,
+     "d1": 48,
+     "delta": -3
+    },
+    {
+     "id": "rongo0601-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 36,
+     "delta": -1
+    },
+    {
+     "id": "rongo0606-1",
+     "cls": "engine",
+     "d0": 84,
+     "d1": 81,
+     "delta": -3
+    },
+    {
+     "id": "rongo0809-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 10,
+     "delta": -2
+    },
+    {
+     "id": "rongo1325-1",
+     "cls": "engine",
+     "d0": 61,
+     "d1": 51,
+     "delta": -10
+    },
+    {
+     "id": "tamitara-1",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 23,
+     "delta": -1
+    },
+    {
+     "id": "yoyananmen-1",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 8,
+     "delta": -1
+    },
+    {
+     "id": "daigaku09-3",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 9,
+     "delta": -5
+    },
+    {
+     "id": "daigaku10-3",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 10,
+     "delta": -5
+    },
+    {
+     "id": "toushisen075-7",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 8,
+     "delta": -1
+    },
+    {
+     "id": "montai12-6",
+     "cls": "engine",
+     "d0": 33,
+     "d1": 33,
+     "delta": 0
+    },
+    {
+     "id": "rikutou09-9",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 32,
+     "delta": -3
+    },
+    {
+     "id": "sanryaku01-13",
+     "cls": "engine",
+     "d0": 111,
+     "d1": 109,
+     "delta": -2
+    },
+    {
+     "id": "sonshi05-3",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 15,
+     "delta": 1
+    },
+    {
+     "id": "sonshi06-35",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 8,
+     "delta": -1
+    },
+    {
+     "id": "sonshi13-17",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 7,
+     "delta": -3
+    },
+    {
+     "id": "sonshi13-25",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 12,
+     "delta": -1
+    },
+    {
+     "id": "sonshi13-26",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "utsuryo04-7",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 36,
+     "delta": -5
+    },
+    {
+     "id": "rikutou09-5",
+     "cls": "rerun",
+     "d0": 44,
+     "d1": 44,
+     "delta": 0
+    },
+    {
+     "id": "shiba04-8",
+     "cls": "rerun",
+     "d0": 59,
+     "d1": 59,
+     "delta": 0
+    },
+    {
+     "id": "utsuryo03-3",
+     "cls": "rerun",
+     "d0": 53,
+     "d1": 52,
+     "delta": -1
+    },
+    {
+     "id": "rongo1125c-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 35,
+     "delta": -1
+    }
+   ]
+  },
+  "T10 してしむ→使う guard 使": {
+   "kana": "してしむ",
+   "repl": "使う",
+   "guard": [
+    "使"
+   ],
+   "fired": 60,
+   "outside": 25,
+   "better": 31,
+   "worse": 3,
+   "same": 26,
+   "verdict": "拒（変差 3）",
+   "detail": [
+    {
+     "id": "uttaenaki-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 21,
+     "delta": 0
+    },
+    {
+     "id": "uttaenaki-2",
+     "cls": "engine",
+     "d0": 62,
+     "d1": 62,
+     "delta": 0
+    },
+    {
+     "id": "enou-1",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 14,
+     "delta": 1
+    },
+    {
+     "id": "kanarazuya-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 21,
+     "delta": 0
+    },
+    {
+     "id": "kannareba-1",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 40,
+     "delta": -4
+    },
+    {
+     "id": "kanpeki4k-2",
+     "cls": "engine",
+     "d0": 55,
+     "d1": 55,
+     "delta": 0
+    },
+    {
+     "id": "kimishin-1",
+     "cls": "engine",
+     "d0": 29,
+     "d1": 26,
+     "delta": -3
+    },
+    {
+     "id": "gyushu-2",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 26,
+     "delta": -2
+    },
+    {
+     "id": "kyonareba-1",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 40,
+     "delta": -4
+    },
+    {
+     "id": "kyokutotsu-3",
+     "cls": "engine",
+     "d0": 52,
+     "d1": 51,
+     "delta": -1
+    },
+    {
+     "id": "rongo0507-1",
+     "cls": "engine",
+     "d0": 51,
+     "d1": 51,
+     "delta": 0
+    },
+    {
+     "id": "rongo0601-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 37,
+     "delta": 0
+    },
+    {
+     "id": "rongo0606-1",
+     "cls": "engine",
+     "d0": 84,
+     "d1": 84,
+     "delta": 0
+    },
+    {
+     "id": "rongo0731-1",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 14,
+     "delta": -1
+    },
+    {
+     "id": "rongo0809-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 12,
+     "delta": 0
+    },
+    {
+     "id": "rongo0811-1",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "rongo1003-1",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 39,
+     "delta": -1
+    },
+    {
+     "id": "rongo1325-1",
+     "cls": "engine",
+     "d0": 61,
+     "d1": 53,
+     "delta": -8
+    },
+    {
+     "id": "kiyu-10",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 8,
+     "delta": -2
+    },
+    {
+     "id": "kotoji-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 28,
+     "delta": -3
+    },
+    {
+     "id": "rakushika-1",
+     "cls": "engine",
+     "d0": 38,
+     "d1": 38,
+     "delta": 0
+    },
+    {
+     "id": "rissui-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 21,
+     "delta": 0
+    },
+    {
+     "id": "shichishoshi-1",
+     "cls": "engine",
+     "d0": 30,
+     "d1": 28,
+     "delta": -2
+    },
+    {
+     "id": "syuchi-1",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 22,
+     "delta": 2
+    },
+    {
+     "id": "tamitara-1",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 24,
+     "delta": 0
+    },
+    {
+     "id": "yoryoezu-1",
+     "cls": "engine",
+     "d0": 93,
+     "d1": 90,
+     "delta": -3
+    },
+    {
+     "id": "yoyananmen-1",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 9,
+     "delta": 0
+    },
+    {
+     "id": "daigaku09-3",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 10,
+     "delta": -4
+    },
+    {
+     "id": "daigaku10-3",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 11,
+     "delta": -4
+    },
+    {
+     "id": "toushisen075-7",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 9,
+     "delta": 0
+    },
+    {
+     "id": "toushisen077-8",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 7,
+     "delta": -1
+    },
+    {
+     "id": "toushisen336-3",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 11,
+     "delta": -1
+    },
+    {
+     "id": "toushisen151-12",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 6,
+     "delta": -2
+    },
+    {
+     "id": "toushisen224-6",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 10,
+     "delta": -2
+    },
+    {
+     "id": "toushisen304-4",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 12,
+     "delta": -1
+    },
+    {
+     "id": "montai12-6",
+     "cls": "engine",
+     "d0": 33,
+     "d1": 33,
+     "delta": 0
+    },
+    {
+     "id": "rikutou09-9",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 33,
+     "delta": -2
+    },
+    {
+     "id": "rikutou30-4",
+     "cls": "engine",
+     "d0": 49,
+     "d1": 47,
+     "delta": -2
+    },
+    {
+     "id": "rikutou36-2",
+     "cls": "engine",
+     "d0": 68,
+     "d1": 68,
+     "delta": 0
+    },
+    {
+     "id": "roushi53-1",
+     "cls": "engine",
+     "d0": 34,
+     "d1": 33,
+     "delta": -1
+    },
+    {
+     "id": "sanryaku01-7",
+     "cls": "engine",
+     "d0": 79,
+     "d1": 76,
+     "delta": -3
+    },
+    {
+     "id": "sanryaku01-13",
+     "cls": "engine",
+     "d0": 111,
+     "d1": 111,
+     "delta": 0
+    },
+    {
+     "id": "sanryaku03-2",
+     "cls": "engine",
+     "d0": 120,
+     "d1": 120,
+     "delta": 0
+    },
+    {
+     "id": "sonshi05-3",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 14,
+     "delta": 0
+    },
+    {
+     "id": "sonshi06-3",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 9,
+     "delta": -1
+    },
+    {
+     "id": "sonshi06-35",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 9,
+     "delta": 0
+    },
+    {
+     "id": "sonshi11-12",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 30,
+     "delta": -2
+    },
+    {
+     "id": "sonshi11-37",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 14,
+     "delta": -2
+    },
+    {
+     "id": "sonshi11-69",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 14,
+     "delta": -2
+    },
+    {
+     "id": "sonshi13-17",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 7,
+     "delta": -3
+    },
+    {
+     "id": "sonshi13-25",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "sonshi13-26",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "utsuryo04-7",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 37,
+     "delta": -4
+    },
+    {
+     "id": "utsuryo20-1",
+     "cls": "engine",
+     "d0": 46,
+     "d1": 46,
+     "delta": 0
+    },
+    {
+     "id": "utsuryo20-2",
+     "cls": "engine",
+     "d0": 67,
+     "d1": 68,
+     "delta": 1
+    },
+    {
+     "id": "rikutou09-5",
+     "cls": "rerun",
+     "d0": 44,
+     "d1": 44,
+     "delta": 0
+    },
+    {
+     "id": "rikutou15-4",
+     "cls": "rerun",
+     "d0": 104,
+     "d1": 103,
+     "delta": -1
+    },
+    {
+     "id": "shiba04-8",
+     "cls": "rerun",
+     "d0": 59,
+     "d1": 59,
+     "delta": 0
+    },
+    {
+     "id": "utsuryo03-3",
+     "cls": "rerun",
+     "d0": 53,
+     "d1": 51,
+     "delta": -2
+    },
+    {
+     "id": "rongo1125c-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 36,
+     "delta": 0
+    }
+   ]
+  },
+  "T11 して→使う guard 使（artifact 对照）": {
+   "kana": "して",
+   "repl": "使う",
+   "guard": [
+    "使"
+   ],
+   "fired": 191,
+   "outside": 2782,
+   "better": 22,
+   "worse": 133,
+   "same": 36,
+   "verdict": "拒（変差 133）",
+   "detail": [
+    {
+     "id": "toranoi-4",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 7,
+     "delta": 2
+    },
+    {
+     "id": "moshisono-1",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 20,
+     "delta": 4
+    },
+    {
+     "id": "ichiji-3",
+     "cls": "engine",
+     "d0": 38,
+     "d1": 38,
+     "delta": 0
+    },
+    {
+     "id": "inochi-1",
+     "cls": "engine",
+     "d0": 42,
+     "d1": 48,
+     "delta": 6
+    },
+    {
+     "id": "uttaenaki-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 22,
+     "delta": 1
+    },
+    {
+     "id": "uttaenaki-2",
+     "cls": "engine",
+     "d0": 62,
+     "d1": 69,
+     "delta": 7
+    },
+    {
+     "id": "eidatsu-2",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 40,
+     "delta": 4
+    },
+    {
+     "id": "enou-1",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 14,
+     "delta": 1
+    },
+    {
+     "id": "ensui-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 14,
+     "delta": 2
+    },
+    {
+     "id": "osetsu-1",
+     "cls": "engine",
+     "d0": 30,
+     "d1": 32,
+     "delta": 2
+    },
+    {
+     "id": "ooshitoie-1",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 26,
+     "delta": 0
+    },
+    {
+     "id": "onorenoho-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 16,
+     "delta": -2
+    },
+    {
+     "id": "kunshiyotsu-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 29,
+     "delta": -2
+    },
+    {
+     "id": "kasei-3",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 9,
+     "delta": 4
+    },
+    {
+     "id": "kanae-1",
+     "cls": "engine",
+     "d0": 29,
+     "d1": 31,
+     "delta": 2
+    },
+    {
+     "id": "kanae-2",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 55,
+     "delta": 5
+    },
+    {
+     "id": "kanarazuya-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 22,
+     "delta": 1
+    },
+    {
+     "id": "kanohitono-1",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 28,
+     "delta": 2
+    },
+    {
+     "id": "kannareba-1",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 42,
+     "delta": -2
+    },
+    {
+     "id": "kanpeki4k-2",
+     "cls": "engine",
+     "d0": 55,
+     "d1": 57,
+     "delta": 2
+    },
+    {
+     "id": "kanpeki4k-5",
+     "cls": "engine",
+     "d0": 61,
+     "d1": 66,
+     "delta": 5
+    },
+    {
+     "id": "kanwomo-5",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 30,
+     "delta": 2
+    },
+    {
+     "id": "kikonoi-1",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 25,
+     "delta": 2
+    },
+    {
+     "id": "kimishin-1",
+     "cls": "engine",
+     "d0": 29,
+     "d1": 26,
+     "delta": -3
+    },
+    {
+     "id": "kyugyu-2",
+     "cls": "engine",
+     "d0": 66,
+     "d1": 69,
+     "delta": 3
+    },
+    {
+     "id": "gyushu-1",
+     "cls": "engine",
+     "d0": 33,
+     "d1": 37,
+     "delta": 4
+    },
+    {
+     "id": "gyushu-2",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 30,
+     "delta": 2
+    },
+    {
+     "id": "kunshisuku-1",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 40,
+     "delta": 0
+    },
+    {
+     "id": "kyonareba-1",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 42,
+     "delta": -2
+    },
+    {
+     "id": "kyokutotsu-3",
+     "cls": "engine",
+     "d0": 52,
+     "d1": 53,
+     "delta": 1
+    },
+    {
+     "id": "kyowa-2",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 25,
+     "delta": 2
+    },
+    {
+     "id": "rongo0105-1",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 17,
+     "delta": 0
+    },
+    {
+     "id": "rongo0220-1",
+     "cls": "engine",
+     "d0": 38,
+     "d1": 41,
+     "delta": 3
+    },
+    {
+     "id": "rongo0321-1",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 28,
+     "delta": 2
+    },
+    {
+     "id": "rongo0406-1",
+     "cls": "engine",
+     "d0": 65,
+     "d1": 66,
+     "delta": 1
+    },
+    {
+     "id": "rongo0505-1",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 17,
+     "delta": 2
+    },
+    {
+     "id": "rongo0507-1",
+     "cls": "engine",
+     "d0": 51,
+     "d1": 53,
+     "delta": 2
+    },
+    {
+     "id": "rongo0515-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 29,
+     "delta": -2
+    },
+    {
+     "id": "rongo0601-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 37,
+     "delta": 0
+    },
+    {
+     "id": "rongo0603-1",
+     "cls": "engine",
+     "d0": 60,
+     "d1": 60,
+     "delta": 0
+    },
+    {
+     "id": "rongo0606-1",
+     "cls": "engine",
+     "d0": 84,
+     "d1": 84,
+     "delta": 0
+    },
+    {
+     "id": "rongo0607-1",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 22,
+     "delta": 2
+    },
+    {
+     "id": "rongo0731-1",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 17,
+     "delta": 2
+    },
+    {
+     "id": "rongo0809-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 12,
+     "delta": 0
+    },
+    {
+     "id": "rongo0811-1",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 14,
+     "delta": 1
+    },
+    {
+     "id": "rongo0911-1",
+     "cls": "engine",
+     "d0": 62,
+     "d1": 66,
+     "delta": 4
+    },
+    {
+     "id": "rongo1003-1",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 45,
+     "delta": 5
+    },
+    {
+     "id": "rongo1008-1",
+     "cls": "engine",
+     "d0": 106,
+     "d1": 106,
+     "delta": 0
+    },
+    {
+     "id": "rongo1202-1",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 39,
+     "delta": -2
+    },
+    {
+     "id": "rongo1222-1",
+     "cls": "engine",
+     "d0": 83,
+     "d1": 89,
+     "delta": 6
+    },
+    {
+     "id": "rongo1325-1",
+     "cls": "engine",
+     "d0": 61,
+     "d1": 57,
+     "delta": -4
+    },
+    {
+     "id": "rongo1426-1",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 36,
+     "delta": 1
+    },
+    {
+     "id": "rongo1704-1",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 42,
+     "delta": 2
+    },
+    {
+     "id": "rongo1720-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 20,
+     "delta": 2
+    },
+    {
+     "id": "rongo1806-1",
+     "cls": "engine",
+     "d0": 90,
+     "d1": 98,
+     "delta": 8
+    },
+    {
+     "id": "rongo1807-1",
+     "cls": "engine",
+     "d0": 90,
+     "d1": 95,
+     "delta": 5
+    },
+    {
+     "id": "rongo1810-1",
+     "cls": "engine",
+     "d0": 27,
+     "d1": 29,
+     "delta": 2
+    },
+    {
+     "id": "p-bunjiaru-1",
+     "cls": "engine",
+     "d0": 57,
+     "d1": 59,
+     "delta": 2
+    },
+    {
+     "id": "p-choyo-1",
+     "cls": "engine",
+     "d0": 19,
+     "d1": 21,
+     "delta": 2
+    },
+    {
+     "id": "p-dojitsuno-1",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 30,
+     "delta": 2
+    },
+    {
+     "id": "p-doseii-1",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 24,
+     "delta": 4
+    },
+    {
+     "id": "p-fuba-2",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 17,
+     "delta": 0
+    },
+    {
+     "id": "p-gashin-8",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 25,
+     "delta": 2
+    },
+    {
+     "id": "p-goetsu-4",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "haisui-1",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 24,
+     "delta": 2
+    },
+    {
+     "id": "haisui18-6",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 11,
+     "delta": 2
+    },
+    {
+     "id": "hikurete-1",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 42,
+     "delta": 2
+    },
+    {
+     "id": "jakkan-1",
+     "cls": "engine",
+     "d0": 63,
+     "d1": 67,
+     "delta": 4
+    },
+    {
+     "id": "kanpeki4k-6",
+     "cls": "engine",
+     "d0": 65,
+     "d1": 67,
+     "delta": 2
+    },
+    {
+     "id": "keimei-2",
+     "cls": "engine",
+     "d0": 46,
+     "d1": 48,
+     "delta": 2
+    },
+    {
+     "id": "keimei-4",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 52,
+     "delta": 2
+    },
+    {
+     "id": "kiyu-10",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 10,
+     "delta": 0
+    },
+    {
+     "id": "koreshin-1",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 26,
+     "delta": 4
+    },
+    {
+     "id": "kotaku-3",
+     "cls": "engine",
+     "d0": 48,
+     "d1": 48,
+     "delta": 0
+    },
+    {
+     "id": "kotoji-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 31,
+     "delta": 0
+    },
+    {
+     "id": "mazukai-9",
+     "cls": "engine",
+     "d0": 3,
+     "d1": 5,
+     "delta": 2
+    },
+    {
+     "id": "naokinao-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 21,
+     "delta": 3
+    },
+    {
+     "id": "nowakuni-4",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 30,
+     "delta": 2
+    },
+    {
+     "id": "rakushika-1",
+     "cls": "engine",
+     "d0": 38,
+     "d1": 42,
+     "delta": 4
+    },
+    {
+     "id": "rissui-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 23,
+     "delta": 2
+    },
+    {
+     "id": "sakinzu-3",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 41,
+     "delta": 1
+    },
+    {
+     "id": "shichishoshi-1",
+     "cls": "engine",
+     "d0": 30,
+     "d1": 30,
+     "delta": 0
+    },
+    {
+     "id": "shinshohi-1",
+     "cls": "engine",
+     "d0": 56,
+     "d1": 58,
+     "delta": 2
+    },
+    {
+     "id": "shiseruko-4",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "syuchi-1",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 23,
+     "delta": 3
+    },
+    {
+     "id": "tamitara-1",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 24,
+     "delta": 0
+    },
+    {
+     "id": "yamai-4",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 9,
+     "delta": 0
+    },
+    {
+     "id": "yasukikoto-1",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 37,
+     "delta": 2
+    },
+    {
+     "id": "yoryoezu-1",
+     "cls": "engine",
+     "d0": 93,
+     "d1": 93,
+     "delta": 0
+    },
+    {
+     "id": "yoto-1",
+     "cls": "engine",
+     "d0": 108,
+     "d1": 110,
+     "delta": 2
+    },
+    {
+     "id": "yoyananmen-1",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 9,
+     "delta": 0
+    },
+    {
+     "id": "daigaku00a-28",
+     "cls": "engine",
+     "d0": 66,
+     "d1": 70,
+     "delta": 4
+    },
+    {
+     "id": "daigaku00a-5",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 30,
+     "delta": 2
+    },
+    {
+     "id": "daigaku05-7",
+     "cls": "engine",
+     "d0": 46,
+     "d1": 48,
+     "delta": 2
+    },
+    {
+     "id": "daigaku09-3",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 12,
+     "delta": -2
+    },
+    {
+     "id": "daigaku10-3",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 13,
+     "delta": -2
+    },
+    {
+     "id": "toushisen075-7",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 10,
+     "delta": 1
+    },
+    {
+     "id": "toushisen077-8",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 6,
+     "delta": -2
+    },
+    {
+     "id": "toushisen336-3",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 15,
+     "delta": 3
+    },
+    {
+     "id": "toushisen350-4",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 6,
+     "delta": 2
+    },
+    {
+     "id": "toushisen132-7",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 9,
+     "delta": -1
+    },
+    {
+     "id": "toushisen165-7",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 14,
+     "delta": 2
+    },
+    {
+     "id": "toushisen170-8",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 6,
+     "delta": 2
+    },
+    {
+     "id": "toushisen199-7",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 12,
+     "delta": -1
+    },
+    {
+     "id": "toushisen247-4",
+     "cls": "engine",
+     "d0": 3,
+     "d1": 5,
+     "delta": 2
+    },
+    {
+     "id": "toushisen388-2",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "toushisen430-4",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 7,
+     "delta": 2
+    },
+    {
+     "id": "nekowoma-8",
+     "cls": "engine",
+     "d0": 3,
+     "d1": 5,
+     "delta": 2
+    },
+    {
+     "id": "oshokun02-1",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 9,
+     "delta": 1
+    },
+    {
+     "id": "shokusho-8",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 12,
+     "delta": 2
+    },
+    {
+     "id": "toushisen036-12",
+     "cls": "engine",
+     "d0": 3,
+     "d1": 5,
+     "delta": 2
+    },
+    {
+     "id": "toushisen045-41",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 9,
+     "delta": 1
+    },
+    {
+     "id": "toushisen055-8",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "toushisen066-6",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 9,
+     "delta": 0
+    },
+    {
+     "id": "toushisen143-10",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 8,
+     "delta": -1
+    },
+    {
+     "id": "toushisen151-12",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 8,
+     "delta": 0
+    },
+    {
+     "id": "toushisen172-8",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 11,
+     "delta": 2
+    },
+    {
+     "id": "toushisen224-6",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 12,
+     "delta": 0
+    },
+    {
+     "id": "toushisen304-4",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "toushisen313-3",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 7,
+     "delta": 2
+    },
+    {
+     "id": "toushisen368-1",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 7,
+     "delta": 2
+    },
+    {
+     "id": "montai01-2",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 17,
+     "delta": 2
+    },
+    {
+     "id": "montai05-4",
+     "cls": "engine",
+     "d0": 53,
+     "d1": 58,
+     "delta": 5
+    },
+    {
+     "id": "montai06-2",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 24,
+     "delta": 2
+    },
+    {
+     "id": "montai06-7",
+     "cls": "engine",
+     "d0": 69,
+     "d1": 72,
+     "delta": 3
+    },
+    {
+     "id": "montai12-6",
+     "cls": "engine",
+     "d0": 33,
+     "d1": 33,
+     "delta": 0
+    },
+    {
+     "id": "montai14-9",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 10,
+     "delta": 2
+    },
+    {
+     "id": "rikutou03-1",
+     "cls": "engine",
+     "d0": 59,
+     "d1": 67,
+     "delta": 8
+    },
+    {
+     "id": "rikutou07-3",
+     "cls": "engine",
+     "d0": 43,
+     "d1": 47,
+     "delta": 4
+    },
+    {
+     "id": "rikutou09-9",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 35,
+     "delta": 0
+    },
+    {
+     "id": "rikutou24-3",
+     "cls": "engine",
+     "d0": 78,
+     "d1": 79,
+     "delta": 1
+    },
+    {
+     "id": "rikutou30-4",
+     "cls": "engine",
+     "d0": 49,
+     "d1": 49,
+     "delta": 0
+    },
+    {
+     "id": "rikutou35-1",
+     "cls": "engine",
+     "d0": 79,
+     "d1": 82,
+     "delta": 3
+    },
+    {
+     "id": "rikutou36-2",
+     "cls": "engine",
+     "d0": 68,
+     "d1": 74,
+     "delta": 6
+    },
+    {
+     "id": "roushi03-1",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 47,
+     "delta": 6
+    },
+    {
+     "id": "roushi03-2",
+     "cls": "engine",
+     "d0": 56,
+     "d1": 58,
+     "delta": 2
+    },
+    {
+     "id": "roushi53-1",
+     "cls": "engine",
+     "d0": 34,
+     "d1": 38,
+     "delta": 4
+    },
+    {
+     "id": "roushi55-7",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 18,
+     "delta": -2
+    },
+    {
+     "id": "roushi74-1",
+     "cls": "engine",
+     "d0": 39,
+     "d1": 43,
+     "delta": 4
+    },
+    {
+     "id": "roushi80-1",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 36,
+     "delta": 1
+    },
+    {
+     "id": "roushi80-3",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 17,
+     "delta": 2
+    },
+    {
+     "id": "sanryaku01-6",
+     "cls": "engine",
+     "d0": 46,
+     "d1": 44,
+     "delta": -2
+    },
+    {
+     "id": "sanryaku01-7",
+     "cls": "engine",
+     "d0": 79,
+     "d1": 78,
+     "delta": -1
+    },
+    {
+     "id": "sanryaku01-9",
+     "cls": "engine",
+     "d0": 93,
+     "d1": 95,
+     "delta": 2
+    },
+    {
+     "id": "sanryaku01-13",
+     "cls": "engine",
+     "d0": 111,
+     "d1": 113,
+     "delta": 2
+    },
+    {
+     "id": "sanryaku01-18",
+     "cls": "engine",
+     "d0": 77,
+     "d1": 81,
+     "delta": 4
+    },
+    {
+     "id": "sanryaku02-1",
+     "cls": "engine",
+     "d0": 52,
+     "d1": 57,
+     "delta": 5
+    },
+    {
+     "id": "sanryaku02-2",
+     "cls": "engine",
+     "d0": 99,
+     "d1": 98,
+     "delta": -1
+    },
+    {
+     "id": "sanryaku03-2",
+     "cls": "engine",
+     "d0": 120,
+     "d1": 122,
+     "delta": 2
+    },
+    {
+     "id": "sonshi04-3",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 11,
+     "delta": 2
+    },
+    {
+     "id": "sonshi05-3",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 14,
+     "delta": 0
+    },
+    {
+     "id": "sonshi06-3",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 13,
+     "delta": 3
+    },
+    {
+     "id": "sonshi06-4",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 12,
+     "delta": 2
+    },
+    {
+     "id": "sonshi06-29",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 6,
+     "delta": 2
+    },
+    {
+     "id": "sonshi06-35",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 9,
+     "delta": 0
+    },
+    {
+     "id": "sonshi10-34",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 25,
+     "delta": 1
+    },
+    {
+     "id": "sonshi11-12",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 35,
+     "delta": 3
+    },
+    {
+     "id": "sonshi11-37",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 15,
+     "delta": -1
+    },
+    {
+     "id": "sonshi11-39",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 13,
+     "delta": 2
+    },
+    {
+     "id": "sonshi11-40",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 8,
+     "delta": 2
+    },
+    {
+     "id": "sonshi11-41",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 12,
+     "delta": 2
+    },
+    {
+     "id": "sonshi11-53",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 11,
+     "delta": 2
+    },
+    {
+     "id": "sonshi11-69",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 14,
+     "delta": -2
+    },
+    {
+     "id": "sonshi13-17",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 8,
+     "delta": -2
+    },
+    {
+     "id": "sonshi13-25",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "sonshi13-26",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "utsuryo03-7",
+     "cls": "engine",
+     "d0": 63,
+     "d1": 68,
+     "delta": 5
+    },
+    {
+     "id": "utsuryo04-1",
+     "cls": "engine",
+     "d0": 33,
+     "d1": 36,
+     "delta": 3
+    },
+    {
+     "id": "utsuryo04-2",
+     "cls": "engine",
+     "d0": 47,
+     "d1": 53,
+     "delta": 6
+    },
+    {
+     "id": "utsuryo04-7",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 40,
+     "delta": -1
+    },
+    {
+     "id": "utsuryo05-7",
+     "cls": "engine",
+     "d0": 79,
+     "d1": 81,
+     "delta": 2
+    },
+    {
+     "id": "utsuryo08-6",
+     "cls": "engine",
+     "d0": 38,
+     "d1": 40,
+     "delta": 2
+    },
+    {
+     "id": "utsuryo11-3",
+     "cls": "engine",
+     "d0": 91,
+     "d1": 93,
+     "delta": 2
+    },
+    {
+     "id": "utsuryo11-4",
+     "cls": "engine",
+     "d0": 117,
+     "d1": 121,
+     "delta": 4
+    },
+    {
+     "id": "utsuryo13-2",
+     "cls": "engine",
+     "d0": 47,
+     "d1": 50,
+     "delta": 3
+    },
+    {
+     "id": "utsuryo15-1",
+     "cls": "engine",
+     "d0": 92,
+     "d1": 96,
+     "delta": 4
+    },
+    {
+     "id": "utsuryo20-1",
+     "cls": "engine",
+     "d0": 46,
+     "d1": 49,
+     "delta": 3
+    },
+    {
+     "id": "utsuryo20-2",
+     "cls": "engine",
+     "d0": 67,
+     "d1": 70,
+     "delta": 3
+    },
+    {
+     "id": "soji02k05-2",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 19,
+     "delta": 2
+    },
+    {
+     "id": "shiki082-5",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 25,
+     "delta": 2
+    },
+    {
+     "id": "goshi06-2",
+     "cls": "rerun",
+     "d0": 55,
+     "d1": 56,
+     "delta": 1
+    },
+    {
+     "id": "rikutou06-2",
+     "cls": "rerun",
+     "d0": 48,
+     "d1": 51,
+     "delta": 3
+    },
+    {
+     "id": "rikutou09-5",
+     "cls": "rerun",
+     "d0": 44,
+     "d1": 46,
+     "delta": 2
+    },
+    {
+     "id": "rikutou15-4",
+     "cls": "rerun",
+     "d0": 104,
+     "d1": 106,
+     "delta": 2
+    },
+    {
+     "id": "rikutou25-2",
+     "cls": "rerun",
+     "d0": 40,
+     "d1": 43,
+     "delta": 3
+    },
+    {
+     "id": "sanryaku01-8",
+     "cls": "rerun",
+     "d0": 23,
+     "d1": 27,
+     "delta": 4
+    },
+    {
+     "id": "shiba04-8",
+     "cls": "rerun",
+     "d0": 59,
+     "d1": 62,
+     "delta": 3
+    },
+    {
+     "id": "utsuryo03-3",
+     "cls": "rerun",
+     "d0": 53,
+     "d1": 56,
+     "delta": 3
+    },
+    {
+     "id": "utsuryo04-8",
+     "cls": "rerun",
+     "d0": 48,
+     "d1": 48,
+     "delta": 0
+    },
+    {
+     "id": "rongo1125b-1",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 40,
+     "delta": 0
+    },
+    {
+     "id": "rongo1125c-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 36,
+     "delta": 0
+    }
+   ]
+  },
+  "T12 とも→与に（N72 拒案 121 変差の再確認）": {
+   "kana": "とも",
+   "repl": "与に",
+   "guard": [
+    "與",
+    "与"
+   ],
+   "fired": 245,
+   "outside": 0,
+   "better": 37,
+   "worse": 137,
+   "same": 71,
+   "verdict": "拒（変差 137）",
+   "detail": [
+    {
+     "id": "mujun-1",
+     "cls": "engine",
+     "d0": 3,
+     "d1": 4,
+     "delta": 1
+    },
+    {
+     "id": "keiko-5",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 10,
+     "delta": 1
+    },
+    {
+     "id": "hisashiku-1",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 7,
+     "delta": 1
+    },
+    {
+     "id": "ichiwokiite-1",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 42,
+     "delta": 2
+    },
+    {
+     "id": "ichikiiteni-1",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 42,
+     "delta": 2
+    },
+    {
+     "id": "imashimezu-1",
+     "cls": "engine",
+     "d0": 29,
+     "d1": 29,
+     "delta": 0
+    },
+    {
+     "id": "imayukyu-1",
+     "cls": "engine",
+     "d0": 51,
+     "d1": 52,
+     "delta": 1
+    },
+    {
+     "id": "iwadaijin-1",
+     "cls": "engine",
+     "d0": 51,
+     "d1": 52,
+     "delta": 1
+    },
+    {
+     "id": "eidatsu-2",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 37,
+     "delta": 1
+    },
+    {
+     "id": "ekimoto-1",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 27,
+     "delta": 1
+    },
+    {
+     "id": "enjaku-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 35,
+     "delta": -1
+    },
+    {
+     "id": "sonooniko-1",
+     "cls": "engine",
+     "d0": 19,
+     "d1": 19,
+     "delta": 0
+    },
+    {
+     "id": "ogoreba-1",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 20,
+     "delta": 0
+    },
+    {
+     "id": "oshiezushi-1",
+     "cls": "engine",
+     "d0": 29,
+     "d1": 29,
+     "delta": 0
+    },
+    {
+     "id": "onorekiyo-1",
+     "cls": "engine",
+     "d0": 43,
+     "d1": 40,
+     "delta": -3
+    },
+    {
+     "id": "orutokoro-1",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 19,
+     "delta": -1
+    },
+    {
+     "id": "shiwaonore-1",
+     "cls": "engine",
+     "d0": 67,
+     "d1": 67,
+     "delta": 0
+    },
+    {
+     "id": "onryokyo-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 35,
+     "delta": -1
+    },
+    {
+     "id": "kagyu-2",
+     "cls": "engine",
+     "d0": 45,
+     "d1": 45,
+     "delta": 0
+    },
+    {
+     "id": "jochikagu-1",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 11,
+     "delta": 1
+    },
+    {
+     "id": "kataifu-1",
+     "cls": "engine",
+     "d0": 27,
+     "d1": 28,
+     "delta": 1
+    },
+    {
+     "id": "gabei-2",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 27,
+     "delta": 1
+    },
+    {
+     "id": "kanpo-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 19,
+     "delta": 1
+    },
+    {
+     "id": "kanpo-3",
+     "cls": "engine",
+     "d0": 64,
+     "d1": 65,
+     "delta": 1
+    },
+    {
+     "id": "kika-2",
+     "cls": "engine",
+     "d0": 81,
+     "d1": 82,
+     "delta": 1
+    },
+    {
+     "id": "giniyoku-1",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 32,
+     "delta": 0
+    },
+    {
+     "id": "kyugyu-2",
+     "cls": "engine",
+     "d0": 66,
+     "d1": 67,
+     "delta": 1
+    },
+    {
+     "id": "kunshisuku-1",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 40,
+     "delta": 0
+    },
+    {
+     "id": "kyubokue-1",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 28,
+     "delta": 0
+    },
+    {
+     "id": "kyowa-2",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 24,
+     "delta": 1
+    },
+    {
+     "id": "rongo0104-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 32,
+     "delta": 1
+    },
+    {
+     "id": "rongo0107-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 32,
+     "delta": 1
+    },
+    {
+     "id": "rongo0209-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 22,
+     "delta": 1
+    },
+    {
+     "id": "rongo0304-1",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 26,
+     "delta": 0
+    },
+    {
+     "id": "rongo0405-1",
+     "cls": "engine",
+     "d0": 47,
+     "d1": 49,
+     "delta": 2
+    },
+    {
+     "id": "rongo0507-1",
+     "cls": "engine",
+     "d0": 51,
+     "d1": 52,
+     "delta": 1
+    },
+    {
+     "id": "rongo0509-1",
+     "cls": "engine",
+     "d0": 47,
+     "d1": 47,
+     "delta": 0
+    },
+    {
+     "id": "rongo0512-1",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 9,
+     "delta": 1
+    },
+    {
+     "id": "rongo0525-1",
+     "cls": "engine",
+     "d0": 56,
+     "d1": 57,
+     "delta": 1
+    },
+    {
+     "id": "rongo0603-1",
+     "cls": "engine",
+     "d0": 60,
+     "d1": 60,
+     "delta": 0
+    },
+    {
+     "id": "rongo0710-1",
+     "cls": "engine",
+     "d0": 42,
+     "d1": 43,
+     "delta": 1
+    },
+    {
+     "id": "rongo0723-1",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 25,
+     "delta": -1
+    },
+    {
+     "id": "rongo0731-1",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 16,
+     "delta": 1
+    },
+    {
+     "id": "rongo0733-1",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 29,
+     "delta": 1
+    },
+    {
+     "id": "rongo0901-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 31,
+     "delta": 0
+    },
+    {
+     "id": "rongo0909-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 21,
+     "delta": 0
+    },
+    {
+     "id": "rongo0911-1",
+     "cls": "engine",
+     "d0": 62,
+     "d1": 62,
+     "delta": 0
+    },
+    {
+     "id": "rongo0926-1",
+     "cls": "engine",
+     "d0": 47,
+     "d1": 48,
+     "delta": 1
+    },
+    {
+     "id": "rongo1016-1",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 45,
+     "delta": 1
+    },
+    {
+     "id": "rongo1115-1",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 33,
+     "delta": 1
+    },
+    {
+     "id": "rongo1205-1",
+     "cls": "engine",
+     "d0": 29,
+     "d1": 28,
+     "delta": -1
+    },
+    {
+     "id": "rongo1209-1",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 42,
+     "delta": -2
+    },
+    {
+     "id": "rongo1314-1",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 22,
+     "delta": 0
+    },
+    {
+     "id": "rongo1419-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 13,
+     "delta": 1
+    },
+    {
+     "id": "rongo1426-1",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 34,
+     "delta": -1
+    },
+    {
+     "id": "rongo1541-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 18,
+     "delta": 0
+    },
+    {
+     "id": "rongo1601-1",
+     "cls": "engine",
+     "d0": 221,
+     "d1": 222,
+     "delta": 1
+    },
+    {
+     "id": "rongo1701-1",
+     "cls": "engine",
+     "d0": 63,
+     "d1": 64,
+     "delta": 1
+    },
+    {
+     "id": "rongo1725-1",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 18,
+     "delta": 1
+    },
+    {
+     "id": "rongo1805-1",
+     "cls": "engine",
+     "d0": 39,
+     "d1": 40,
+     "delta": 1
+    },
+    {
+     "id": "rongo1806-1",
+     "cls": "engine",
+     "d0": 90,
+     "d1": 88,
+     "delta": -2
+    },
+    {
+     "id": "rongo1903-1",
+     "cls": "engine",
+     "d0": 57,
+     "d1": 56,
+     "delta": -1
+    },
+    {
+     "id": "rongo1916-1",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 17,
+     "delta": 0
+    },
+    {
+     "id": "rongo1918-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 22,
+     "delta": 1
+    },
+    {
+     "id": "rongo2002-1",
+     "cls": "engine",
+     "d0": 149,
+     "d1": 149,
+     "delta": 0
+    },
+    {
+     "id": "p-bakugyaku-1",
+     "cls": "engine",
+     "d0": 57,
+     "d1": 54,
+     "delta": -3
+    },
+    {
+     "id": "p-benshakosha-1",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 18,
+     "delta": 1
+    },
+    {
+     "id": "p-bisei-1",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 16,
+     "delta": 1
+    },
+    {
+     "id": "p-bisei-2",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 14,
+     "delta": 1
+    },
+    {
+     "id": "p-bokokuon-2",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 41,
+     "delta": 1
+    },
+    {
+     "id": "p-chojutomo-1",
+     "cls": "engine",
+     "d0": 27,
+     "d1": 25,
+     "delta": -2
+    },
+    {
+     "id": "p-chosan-10",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 17,
+     "delta": -1
+    },
+    {
+     "id": "p-chosan-8",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 15,
+     "delta": -1
+    },
+    {
+     "id": "p-fuba-2",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 18,
+     "delta": 1
+    },
+    {
+     "id": "p-funkei-10",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 16,
+     "delta": 1
+    },
+    {
+     "id": "p-funkei-9",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 14,
+     "delta": 0
+    },
+    {
+     "id": "p-gobishiaku-1",
+     "cls": "engine",
+     "d0": 60,
+     "d1": 60,
+     "delta": 0
+    },
+    {
+     "id": "p-goetsu-6",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 10,
+     "delta": 1
+    },
+    {
+     "id": "p-guko-2",
+     "cls": "engine",
+     "d0": 58,
+     "d1": 58,
+     "delta": 0
+    },
+    {
+     "id": "hitonota-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 32,
+     "delta": 1
+    },
+    {
+     "id": "hosansho-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 22,
+     "delta": 1
+    },
+    {
+     "id": "jakkan-1",
+     "cls": "engine",
+     "d0": 63,
+     "d1": 64,
+     "delta": 1
+    },
+    {
+     "id": "kanpeki18-10",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 16,
+     "delta": 1
+    },
+    {
+     "id": "kanpeki4k-7",
+     "cls": "engine",
+     "d0": 61,
+     "d1": 62,
+     "delta": 1
+    },
+    {
+     "id": "kanpo-8",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 18,
+     "delta": 1
+    },
+    {
+     "id": "keisetsu-3",
+     "cls": "engine",
+     "d0": 69,
+     "d1": 69,
+     "delta": 0
+    },
+    {
+     "id": "kozen-4",
+     "cls": "engine",
+     "d0": 49,
+     "d1": 49,
+     "delta": 0
+    },
+    {
+     "id": "mazukai-6",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 14,
+     "delta": 0
+    },
+    {
+     "id": "nukawone-2",
+     "cls": "engine",
+     "d0": 25,
+     "d1": 26,
+     "delta": 1
+    },
+    {
+     "id": "roshite-3",
+     "cls": "engine",
+     "d0": 27,
+     "d1": 26,
+     "delta": -1
+    },
+    {
+     "id": "sekitoku-1",
+     "cls": "engine",
+     "d0": 33,
+     "d1": 31,
+     "delta": -2
+    },
+    {
+     "id": "senbenwo-2",
+     "cls": "engine",
+     "d0": 55,
+     "d1": 56,
+     "delta": 1
+    },
+    {
+     "id": "senrinouma-2",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 51,
+     "delta": 1
+    },
+    {
+     "id": "shimareni-1",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 9,
+     "delta": 2
+    },
+    {
+     "id": "shokushi-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 37,
+     "delta": 1
+    },
+    {
+     "id": "shurenno-1",
+     "cls": "engine",
+     "d0": 42,
+     "d1": 42,
+     "delta": 0
+    },
+    {
+     "id": "sogyoyasu-4",
+     "cls": "engine",
+     "d0": 80,
+     "d1": 82,
+     "delta": 2
+    },
+    {
+     "id": "sojo-1",
+     "cls": "engine",
+     "d0": 63,
+     "d1": 64,
+     "delta": 1
+    },
+    {
+     "id": "sokano-1",
+     "cls": "engine",
+     "d0": 56,
+     "d1": 57,
+     "delta": 1
+    },
+    {
+     "id": "soko-2",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 11,
+     "delta": -1
+    },
+    {
+     "id": "taigishin-1",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 24,
+     "delta": 0
+    },
+    {
+     "id": "taikobo-3",
+     "cls": "engine",
+     "d0": 68,
+     "d1": 67,
+     "delta": -1
+    },
+    {
+     "id": "tata-1",
+     "cls": "engine",
+     "d0": 42,
+     "d1": 43,
+     "delta": 1
+    },
+    {
+     "id": "tomitattoki-1",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 24,
+     "delta": 2
+    },
+    {
+     "id": "toranoi-10",
+     "cls": "engine",
+     "d0": 2,
+     "d1": 3,
+     "delta": 1
+    },
+    {
+     "id": "torimono-1",
+     "cls": "engine",
+     "d0": 49,
+     "d1": 50,
+     "delta": 1
+    },
+    {
+     "id": "tsuki-1",
+     "cls": "engine",
+     "d0": 27,
+     "d1": 28,
+     "delta": 1
+    },
+    {
+     "id": "yaro-2",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 36,
+     "delta": 0
+    },
+    {
+     "id": "yokoshazo-1",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 14,
+     "delta": 1
+    },
+    {
+     "id": "yoryoezu-1",
+     "cls": "engine",
+     "d0": 93,
+     "d1": 92,
+     "delta": -1
+    },
+    {
+     "id": "yotonotsu-2",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 32,
+     "delta": 1
+    },
+    {
+     "id": "zenhokoru-1",
+     "cls": "engine",
+     "d0": 42,
+     "d1": 43,
+     "delta": 1
+    },
+    {
+     "id": "daigaku00a-11",
+     "cls": "engine",
+     "d0": 29,
+     "d1": 29,
+     "delta": 0
+    },
+    {
+     "id": "daigaku00a-28",
+     "cls": "engine",
+     "d0": 66,
+     "d1": 66,
+     "delta": 0
+    },
+    {
+     "id": "daigaku00a-35",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 21,
+     "delta": 0
+    },
+    {
+     "id": "daigaku03-5",
+     "cls": "engine",
+     "d0": 33,
+     "d1": 34,
+     "delta": 1
+    },
+    {
+     "id": "daigaku10-24",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 17,
+     "delta": 0
+    },
+    {
+     "id": "daigaku10-33",
+     "cls": "engine",
+     "d0": 30,
+     "d1": 30,
+     "delta": 0
+    },
+    {
+     "id": "funkei-x13",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 6,
+     "delta": -2
+    },
+    {
+     "id": "funkei-x15",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 6,
+     "delta": 1
+    },
+    {
+     "id": "funkei-x20",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 18,
+     "delta": 0
+    },
+    {
+     "id": "funkei-x29",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 13,
+     "delta": -1
+    },
+    {
+     "id": "gashin-x14",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 18,
+     "delta": 1
+    },
+    {
+     "id": "keimei-x18",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 9,
+     "delta": 1
+    },
+    {
+     "id": "toushisen012-9",
+     "cls": "engine",
+     "d0": 3,
+     "d1": 4,
+     "delta": 1
+    },
+    {
+     "id": "toushisen031-13",
+     "cls": "engine",
+     "d0": 3,
+     "d1": 4,
+     "delta": 1
+    },
+    {
+     "id": "toushisen049-3",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 8,
+     "delta": 1
+    },
+    {
+     "id": "toushisen076-2",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 5,
+     "delta": 1
+    },
+    {
+     "id": "toushisen179-1",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 9,
+     "delta": -1
+    },
+    {
+     "id": "toushisen181-1",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 10,
+     "delta": 1
+    },
+    {
+     "id": "toushisen220-8",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 7,
+     "delta": 1
+    },
+    {
+     "id": "toushisen133-3",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 3,
+     "delta": -1
+    },
+    {
+     "id": "toushisen149-2",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 6,
+     "delta": 0
+    },
+    {
+     "id": "toushisen295-4",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 7,
+     "delta": -1
+    },
+    {
+     "id": "toushisen428-4",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 6,
+     "delta": -1
+    },
+    {
+     "id": "ei8shoshi-2",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 7,
+     "delta": 1
+    },
+    {
+     "id": "heishako-11",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 9,
+     "delta": 0
+    },
+    {
+     "id": "heishako-20",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "insyu05-8",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 5,
+     "delta": 0
+    },
+    {
+     "id": "kankyo01-2",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 10,
+     "delta": 0
+    },
+    {
+     "id": "kikyorainoji-35",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 7,
+     "delta": 1
+    },
+    {
+     "id": "koshi19_01-1",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 14,
+     "delta": 1
+    },
+    {
+     "id": "koshi19_03-4",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 18,
+     "delta": 0
+    },
+    {
+     "id": "koshi19_14-2",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 10,
+     "delta": 1
+    },
+    {
+     "id": "koshi19_15-5",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 13,
+     "delta": -2
+    },
+    {
+     "id": "kowosemu-10",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 9,
+     "delta": 0
+    },
+    {
+     "id": "kowosemu-12",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 6,
+     "delta": 1
+    },
+    {
+     "id": "sekigonori-24",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 5,
+     "delta": 1
+    },
+    {
+     "id": "sekiheki-3",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 7,
+     "delta": -2
+    },
+    {
+     "id": "toushisen017-23",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 8,
+     "delta": 1
+    },
+    {
+     "id": "toushisen017-24",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 7,
+     "delta": 1
+    },
+    {
+     "id": "toushisen025-4",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 8,
+     "delta": 1
+    },
+    {
+     "id": "toushisen029-23",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 4,
+     "delta": 0
+    },
+    {
+     "id": "toushisen055-4",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 6,
+     "delta": 1
+    },
+    {
+     "id": "toushisen186-2",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 10,
+     "delta": 0
+    },
+    {
+     "id": "toushisen187-7",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 5,
+     "delta": 1
+    },
+    {
+     "id": "toushisen206-6",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "delta": 0
+    },
+    {
+     "id": "toushisen221-8",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "toushisen317-3",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 8,
+     "delta": 0
+    },
+    {
+     "id": "toushisen371-1",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 5,
+     "delta": 0
+    },
+    {
+     "id": "toushisen414-4",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 7,
+     "delta": -1
+    },
+    {
+     "id": "utariennen-5",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 14,
+     "delta": 1
+    },
+    {
+     "id": "goshi00_jo-5",
+     "cls": "engine",
+     "d0": 54,
+     "d1": 55,
+     "delta": 1
+    },
+    {
+     "id": "montai02-9",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 10,
+     "delta": 1
+    },
+    {
+     "id": "montai05-2",
+     "cls": "engine",
+     "d0": 42,
+     "d1": 42,
+     "delta": 0
+    },
+    {
+     "id": "montai11-6",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 15,
+     "delta": 1
+    },
+    {
+     "id": "montai15-5",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 19,
+     "delta": 1
+    },
+    {
+     "id": "rikutou09-6",
+     "cls": "engine",
+     "d0": 29,
+     "d1": 29,
+     "delta": 0
+    },
+    {
+     "id": "rikutou15-5",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 22,
+     "delta": -2
+    },
+    {
+     "id": "rikutou20-2",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 10,
+     "delta": 1
+    },
+    {
+     "id": "rikutou20-6",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 14,
+     "delta": 1
+    },
+    {
+     "id": "rikutou23-4",
+     "cls": "engine",
+     "d0": 88,
+     "d1": 89,
+     "delta": 1
+    },
+    {
+     "id": "rikutou24-2",
+     "cls": "engine",
+     "d0": 83,
+     "d1": 84,
+     "delta": 1
+    },
+    {
+     "id": "rikutou27-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 32,
+     "delta": 1
+    },
+    {
+     "id": "rikutou27-9",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 32,
+     "delta": 1
+    },
+    {
+     "id": "rikutou34-6",
+     "cls": "engine",
+     "d0": 43,
+     "d1": 44,
+     "delta": 1
+    },
+    {
+     "id": "rikutou36-1",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 33,
+     "delta": 1
+    },
+    {
+     "id": "rikutou37-1",
+     "cls": "engine",
+     "d0": 86,
+     "d1": 87,
+     "delta": 1
+    },
+    {
+     "id": "rikutou37-4",
+     "cls": "engine",
+     "d0": 49,
+     "d1": 51,
+     "delta": 2
+    },
+    {
+     "id": "rikutou38-1",
+     "cls": "engine",
+     "d0": 71,
+     "d1": 72,
+     "delta": 1
+    },
+    {
+     "id": "rikutou39-1",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 36,
+     "delta": 1
+    },
+    {
+     "id": "rikutou39-3",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 36,
+     "delta": 1
+    },
+    {
+     "id": "rikutou43-1",
+     "cls": "engine",
+     "d0": 33,
+     "d1": 34,
+     "delta": 1
+    },
+    {
+     "id": "rikutou45-1",
+     "cls": "engine",
+     "d0": 57,
+     "d1": 57,
+     "delta": 0
+    },
+    {
+     "id": "rikutou48-1",
+     "cls": "engine",
+     "d0": 60,
+     "d1": 61,
+     "delta": 1
+    },
+    {
+     "id": "rikutou50-1",
+     "cls": "engine",
+     "d0": 49,
+     "d1": 50,
+     "delta": 1
+    },
+    {
+     "id": "rikutou55-1",
+     "cls": "engine",
+     "d0": 67,
+     "d1": 67,
+     "delta": 0
+    },
+    {
+     "id": "rikutou60-1",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 11,
+     "delta": 1
+    },
+    {
+     "id": "roushi08-2",
+     "cls": "engine",
+     "d0": 61,
+     "d1": 61,
+     "delta": 0
+    },
+    {
+     "id": "roushi20-1",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 43,
+     "delta": 2
+    },
+    {
+     "id": "roushi32-4",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 20,
+     "delta": -1
+    },
+    {
+     "id": "roushi35-2",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 9,
+     "delta": 0
+    },
+    {
+     "id": "roushi44-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 39,
+     "delta": 2
+    },
+    {
+     "id": "roushi65-5",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 12,
+     "delta": 1
+    },
+    {
+     "id": "roushi79-4",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 4,
+     "delta": -1
+    },
+    {
+     "id": "roushi81-2",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 19,
+     "delta": -1
+    },
+    {
+     "id": "sanryaku01-1",
+     "cls": "engine",
+     "d0": 61,
+     "d1": 63,
+     "delta": 2
+    },
+    {
+     "id": "sanryaku01-3",
+     "cls": "engine",
+     "d0": 59,
+     "d1": 60,
+     "delta": 1
+    },
+    {
+     "id": "sanryaku01-6",
+     "cls": "engine",
+     "d0": 46,
+     "d1": 47,
+     "delta": 1
+    },
+    {
+     "id": "sonshi01-4",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 12,
+     "delta": 0
+    },
+    {
+     "id": "sonshi03-31",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 14,
+     "delta": 0
+    },
+    {
+     "id": "sonshi09-48",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 14,
+     "delta": 0
+    },
+    {
+     "id": "sonshi09-64",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 13,
+     "delta": 1
+    },
+    {
+     "id": "sonshi11-33",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 29,
+     "delta": 1
+    },
+    {
+     "id": "sonshi11-42",
+     "cls": "engine",
+     "d0": 48,
+     "d1": 50,
+     "delta": 2
+    },
+    {
+     "id": "sonshi13-20",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 15,
+     "delta": 1
+    },
+    {
+     "id": "utsuryo03-4",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 37,
+     "delta": 0
+    },
+    {
+     "id": "24shihin02-2",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "24shihin03-6",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 17,
+     "delta": -1
+    },
+    {
+     "id": "24shihin08-5",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "24shihin10-4",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 17,
+     "delta": 0
+    },
+    {
+     "id": "24shihin13-1",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 8,
+     "delta": 0
+    },
+    {
+     "id": "24shihin13-6",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 15,
+     "delta": -1
+    },
+    {
+     "id": "24shihin15-2",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 12,
+     "delta": 0
+    },
+    {
+     "id": "24shihin21-2",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "24shihin21-4",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 11,
+     "delta": 1
+    },
+    {
+     "id": "soji02k04-3",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 16,
+     "delta": -1
+    },
+    {
+     "id": "soji02k08-1",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 14,
+     "delta": 0
+    },
+    {
+     "id": "soji06-16",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 22,
+     "delta": 0
+    },
+    {
+     "id": "soji06-17",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 7,
+     "delta": 1
+    },
+    {
+     "id": "soji06-19",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 7,
+     "delta": 1
+    },
+    {
+     "id": "soji06-20",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 8,
+     "delta": 1
+    },
+    {
+     "id": "soji07-21",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 3,
+     "delta": -2
+    },
+    {
+     "id": "goshi05-3",
+     "cls": "rerun",
+     "d0": 30,
+     "d1": 31,
+     "delta": 1
+    },
+    {
+     "id": "goshi06-3",
+     "cls": "rerun",
+     "d0": 29,
+     "d1": 30,
+     "delta": 1
+    },
+    {
+     "id": "rikutou08-3",
+     "cls": "rerun",
+     "d0": 48,
+     "d1": 49,
+     "delta": 1
+    },
+    {
+     "id": "rikutou13-3",
+     "cls": "rerun",
+     "d0": 40,
+     "d1": 41,
+     "delta": 1
+    },
+    {
+     "id": "rikutou15-4",
+     "cls": "rerun",
+     "d0": 104,
+     "d1": 106,
+     "delta": 2
+    },
+    {
+     "id": "rikutou17-2",
+     "cls": "rerun",
+     "d0": 46,
+     "d1": 46,
+     "delta": 0
+    },
+    {
+     "id": "rikutou40-3",
+     "cls": "rerun",
+     "d0": 76,
+     "d1": 76,
+     "delta": 0
+    },
+    {
+     "id": "rikutou58-3",
+     "cls": "rerun",
+     "d0": 93,
+     "d1": 94,
+     "delta": 1
+    },
+    {
+     "id": "sanryaku02-3",
+     "cls": "rerun",
+     "d0": 174,
+     "d1": 175,
+     "delta": 1
+    },
+    {
+     "id": "shiba01-11",
+     "cls": "rerun",
+     "d0": 13,
+     "d1": 13,
+     "delta": 0
+    },
+    {
+     "id": "shiba02-11",
+     "cls": "rerun",
+     "d0": 7,
+     "d1": 9,
+     "delta": 2
+    },
+    {
+     "id": "utsuryo01-4",
+     "cls": "rerun",
+     "d0": 45,
+     "d1": 47,
+     "delta": 2
+    },
+    {
+     "id": "utsuryo05-2",
+     "cls": "rerun",
+     "d0": 45,
+     "d1": 46,
+     "delta": 1
+    },
+    {
+     "id": "utsuryo08-10",
+     "cls": "rerun",
+     "d0": 39,
+     "d1": 40,
+     "delta": 1
+    },
+    {
+     "id": "utsuryo08-13",
+     "cls": "rerun",
+     "d0": 41,
+     "d1": 41,
+     "delta": 0
+    },
+    {
+     "id": "utsuryo23-2",
+     "cls": "rerun",
+     "d0": 67,
+     "d1": 68,
+     "delta": 1
+    },
+    {
+     "id": "soji02k06-4",
+     "cls": "rerun",
+     "d0": 12,
+     "d1": 13,
+     "delta": 1
+    },
+    {
+     "id": "soji02k06-5",
+     "cls": "rerun",
+     "d0": 14,
+     "d1": 15,
+     "delta": 1
+    },
+    {
+     "id": "soji11-2",
+     "cls": "rerun",
+     "d0": 93,
+     "d1": 91,
+     "delta": -2
+    },
+    {
+     "id": "shiki001e-3",
+     "cls": "rerun",
+     "d0": 41,
+     "d1": 41,
+     "delta": 0
+    },
+    {
+     "id": "shiki082-4",
+     "cls": "rerun",
+     "d0": 27,
+     "d1": 28,
+     "delta": 1
+    },
+    {
+     "id": "rongo1125e-1",
+     "cls": "engine",
+     "d0": 52,
+     "d1": 52,
+     "delta": 0
+    }
+   ]
+  }
+ },
+ "bekarazu": [
+  {
+   "id": "shushu-4",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": true,
+   "d0": 11,
+   "d1": 12,
+   "delta": 1
+  },
+  {
+   "id": "aowa-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 27,
+   "d1": 26,
+   "delta": -1
+  },
+  {
+   "id": "imayukyu-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 51,
+   "d1": 51,
+   "delta": 0
+  },
+  {
+   "id": "iwadaijin-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 51,
+   "d1": 51,
+   "delta": 0
+  },
+  {
+   "id": "yukumonoi-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 22,
+   "d1": 21,
+   "delta": -1
+  },
+  {
+   "id": "shukateki-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": true,
+   "d0": 36,
+   "d1": 39,
+   "delta": 3
+  },
+  {
+   "id": "kanpeki4k-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 82,
+   "d1": 81,
+   "delta": -1
+  },
+  {
+   "id": "rongo0402-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 19,
+   "d1": 17,
+   "delta": -2
+  },
+  {
+   "id": "rongo0711-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 25,
+   "d1": 24,
+   "delta": -1
+  },
+  {
+   "id": "rongo0807-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 23,
+   "d1": 22,
+   "delta": -1
+  },
+  {
+   "id": "rongo0809-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 12,
+   "d1": 11,
+   "delta": -1
+  },
+  {
+   "id": "rongo0929-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 44,
+   "d1": 41,
+   "delta": -3
+  },
+  {
+   "id": "rongo1223-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 23,
+   "d1": 23,
+   "delta": 0
+  },
+  {
+   "id": "rongo1322-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 35,
+   "d1": 34,
+   "delta": -1
+  },
+  {
+   "id": "rongo1507-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 31,
+   "d1": 30,
+   "delta": -1
+  },
+  {
+   "id": "rongo1533-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 30,
+   "d1": 28,
+   "delta": -2
+  },
+  {
+   "id": "rongo1802-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 47,
+   "d1": 46,
+   "delta": -1
+  },
+  {
+   "id": "rongo1805-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 39,
+   "d1": 38,
+   "delta": -1
+  },
+  {
+   "id": "rongo1806-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 90,
+   "d1": 89,
+   "delta": -1
+  },
+  {
+   "id": "rongo1923-1",
+   "cls": "engine",
+   "hb_ke": false,
+   "exp_kana": false,
+   "d0": 46,
+   "d1": 46,
+   "delta": 0
+  },
+  {
+   "id": "p-chojutomo-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 27,
+   "d1": 26,
+   "delta": -1
+  },
+  {
+   "id": "p-guko-6",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 63,
+   "d1": 62,
+   "delta": -1
+  },
+  {
+   "id": "haigun-3",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 40,
+   "d1": 38,
+   "delta": -2
+  },
+  {
+   "id": "hazuru-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 22,
+   "d1": 22,
+   "delta": 0
+  },
+  {
+   "id": "kendochorai-4",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 10,
+   "d1": 9,
+   "delta": -1
+  },
+  {
+   "id": "koto-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 67,
+   "d1": 66,
+   "delta": -1
+  },
+  {
+   "id": "ryogen-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 17,
+   "d1": 16,
+   "delta": -1
+  },
+  {
+   "id": "ryojo-3",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": true,
+   "d0": 26,
+   "d1": 27,
+   "delta": 1
+  },
+  {
+   "id": "senrinouma-2",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 50,
+   "d1": 49,
+   "delta": -1
+  },
+  {
+   "id": "showagen-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 20,
+   "d1": 19,
+   "delta": -1
+  },
+  {
+   "id": "soko-8",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 8,
+   "d1": 7,
+   "delta": -1
+  },
+  {
+   "id": "daigaku08-8",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 14,
+   "d1": 13,
+   "delta": -1
+  },
+  {
+   "id": "daigaku09-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 18,
+   "d1": 17,
+   "delta": -1
+  },
+  {
+   "id": "daigaku10-8",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 41,
+   "d1": 40,
+   "delta": -1
+  },
+  {
+   "id": "kokyo15-10",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 3,
+   "d1": 2,
+   "delta": -1
+  },
+  {
+   "id": "kokyo15-9",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 10,
+   "d1": 9,
+   "delta": -1
+  },
+  {
+   "id": "saio-x13",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": true,
+   "d0": 13,
+   "d1": 14,
+   "delta": 1
+  },
+  {
+   "id": "toushisen136-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 7,
+   "d1": 6,
+   "delta": -1
+  },
+  {
+   "id": "gusei-2",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 6,
+   "d1": 5,
+   "delta": -1
+  },
+  {
+   "id": "tankako_soso-20",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 2,
+   "d1": 1,
+   "delta": -1
+  },
+  {
+   "id": "toushisen034-5",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 4,
+   "d1": 3,
+   "delta": -1
+  },
+  {
+   "id": "toushisen101-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 5,
+   "d1": 4,
+   "delta": -1
+  },
+  {
+   "id": "toushisen233-4",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 3,
+   "d1": 2,
+   "delta": -1
+  },
+  {
+   "id": "toushisen275-2",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 2,
+   "d1": 1,
+   "delta": -1
+  },
+  {
+   "id": "toushisen308-3",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 7,
+   "d1": 6,
+   "delta": -1
+  },
+  {
+   "id": "kikyorainoji-54",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 2,
+   "d1": 1,
+   "delta": -1
+  },
+  {
+   "id": "toushisen114-11",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 4,
+   "d1": 3,
+   "delta": -1
+  },
+  {
+   "id": "toushisen216-7",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": true,
+   "d0": 7,
+   "d1": 8,
+   "delta": 1
+  },
+  {
+   "id": "montai04-3",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 50,
+   "d1": 49,
+   "delta": -1
+  },
+  {
+   "id": "montai10-3",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 41,
+   "d1": 38,
+   "delta": -3
+  },
+  {
+   "id": "montai13-3",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 11,
+   "d1": 10,
+   "delta": -1
+  },
+  {
+   "id": "montai13-8",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 12,
+   "d1": 11,
+   "delta": -1
+  },
+  {
+   "id": "rikutou13-5",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 44,
+   "d1": 42,
+   "delta": -2
+  },
+  {
+   "id": "rikutou14-2",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 20,
+   "d1": 18,
+   "delta": -2
+  },
+  {
+   "id": "rikutou29-7",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 42,
+   "d1": 40,
+   "delta": -2
+  },
+  {
+   "id": "rikutou39-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 35,
+   "d1": 33,
+   "delta": -2
+  },
+  {
+   "id": "rikutou40-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 73,
+   "d1": 72,
+   "delta": -1
+  },
+  {
+   "id": "rikutou45-2",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 39,
+   "d1": 38,
+   "delta": -1
+  },
+  {
+   "id": "rikutou46-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 36,
+   "d1": 35,
+   "delta": -1
+  },
+  {
+   "id": "roushi09-2",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 6,
+   "d1": 5,
+   "delta": -1
+  },
+  {
+   "id": "roushi14-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 50,
+   "d1": 49,
+   "delta": -1
+  },
+  {
+   "id": "roushi15-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 25,
+   "d1": 23,
+   "delta": -2
+  },
+  {
+   "id": "roushi20-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 41,
+   "d1": 40,
+   "delta": -1
+  },
+  {
+   "id": "roushi27-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 50,
+   "d1": 48,
+   "delta": -2
+  },
+  {
+   "id": "roushi56-2",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 16,
+   "d1": 10,
+   "delta": -6
+  },
+  {
+   "id": "sanryaku01-13",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 111,
+   "d1": 109,
+   "delta": -2
+  },
+  {
+   "id": "sanryaku01-15",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 75,
+   "d1": 73,
+   "delta": -2
+  },
+  {
+   "id": "sanryaku02-5",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 115,
+   "d1": 113,
+   "delta": -2
+  },
+  {
+   "id": "sonshi01-22",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 15,
+   "d1": 14,
+   "delta": -1
+  },
+  {
+   "id": "sonshi04-2",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 18,
+   "d1": 18,
+   "delta": 0
+  },
+  {
+   "id": "sonshi04-4",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 8,
+   "d1": 7,
+   "delta": -1
+  },
+  {
+   "id": "sonshi06-23",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 10,
+   "d1": 9,
+   "delta": -1
+  },
+  {
+   "id": "sonshi06-24",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 8,
+   "d1": 7,
+   "delta": -1
+  },
+  {
+   "id": "sonshi11-44",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 6,
+   "d1": 5,
+   "delta": -1
+  },
+  {
+   "id": "sonshi12-10",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 31,
+   "d1": 30,
+   "delta": -1
+  },
+  {
+   "id": "sonshi12-17",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 3,
+   "d1": 2,
+   "delta": -1
+  },
+  {
+   "id": "sonshi12-22",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 22,
+   "d1": 21,
+   "delta": -1
+  },
+  {
+   "id": "sonshi12-25",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 4,
+   "d1": 2,
+   "delta": -2
+  },
+  {
+   "id": "sonshi13-6",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 12,
+   "d1": 9,
+   "delta": -3
+  },
+  {
+   "id": "utsuryo05-3",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 23,
+   "d1": 21,
+   "delta": -2
+  },
+  {
+   "id": "24shihin14-1",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 11,
+   "d1": 10,
+   "delta": -1
+  },
+  {
+   "id": "24shihin16-5",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 13,
+   "d1": 12,
+   "delta": -1
+  },
+  {
+   "id": "24shihin22-5",
+   "cls": "engine",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 13,
+   "d1": 12,
+   "delta": -1
+  },
+  {
+   "id": "rikutou37-2",
+   "cls": "rerun",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 44,
+   "d1": 43,
+   "delta": -1
+  },
+  {
+   "id": "sanryaku02-3",
+   "cls": "rerun",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 174,
+   "d1": 170,
+   "delta": -4
+  },
+  {
+   "id": "sanryaku03-5",
+   "cls": "rerun",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 124,
+   "d1": 122,
+   "delta": -2
+  },
+  {
+   "id": "shiba04-3",
+   "cls": "rerun",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 18,
+   "d1": 17,
+   "delta": -1
+  },
+  {
+   "id": "utsuryo01-4",
+   "cls": "rerun",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 45,
+   "d1": 44,
+   "delta": -1
+  },
+  {
+   "id": "utsuryo02-4",
+   "cls": "rerun",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 47,
+   "d1": 45,
+   "delta": -2
+  },
+  {
+   "id": "utsuryo08-13",
+   "cls": "rerun",
+   "hb_ke": true,
+   "exp_kana": false,
+   "d0": 41,
+   "d1": 40,
+   "delta": -1
+  }
+ ],
+ "hazaru_mono": [
+  "roushi33-2",
+  "shiki001a-7",
+  "utsuryo03-5",
+  "utsuryo06-2",
+  "utsuryo19-2",
+  "utsuryo24-2"
+ ],
+ "beki_suffix": {
+  "に非": 1,
+  "所有": 1,
+  "か。": 7,
+  "に狎": 1,
+  "のみ": 1,
+  "は養": 1,
+  "べか": 1,
+  "有り": 1,
+  "こと": 2,
+  "者は": 2,
+  "者な": 1,
+  "とも": 1,
+  "兮夷": 1,
+  "者を": 1,
+  "者有": 2
+ }
+}

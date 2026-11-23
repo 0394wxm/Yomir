@@ -982,3 +982,5 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 | 2026-11-23 20:46 | Night 85 开工：master dce1ba6 核验通过（pytest 415 passed、分支 night84-empty-got tip 6e5661e、merge-base dce1ba6、干净树、零 tracked 改动）；本心跳先行提交，随后单次 --no-ff 合并。 |
 | 2026-11-23 20:57 | Night 85 合并 c35fce7 完成（--no-ff、SHIFT_LOG 字节安全并集 1 文件冲突、其余自动合并）；合后验证 pytest 422、golden_4000 13.495/24/0 与 night83 逐位、golden_8165 13.505/30/0 与 night84 逐位、词库 1301（500+801 零交集）、verify 18/18 exit 0；README 表头→合并提交、8165 行 13.505 新增；登记提交中。 |
 | 2026-11-23 20:59 | Night 85 收尾：accept 85 PASS fail=0 skip=0（31.3s 首跑即过）；提交链 3dbb3f1→c35fce7(merge)→1ff3c15(登记)→wrap-up，未合其他分支、未推远程；REPORT_NIGHT85.md／REPORT_MERGE_84.md 交付。 |
+| 2026-11-23 21:51 | Night 86 开工：master d4738a5 核验通过（pytest 422 passed、分支 night86-ruleo 自 master 分出、干净树、零 tracked 改动）；B2 挖词开始（golden_8165 13.505 基线，只动 kundoku_rules.py）。 |
+| 2026-11-23 22:54 | Night 86 挖词＋落地：B2 mine/probe/sim（基线 night85 归档・行分类 7916/30/218/1 复现）→ Rule O 3 条収録（はざる者→わざる者 6 行・たりせ→為ら guard 爲/爲 6 行・なきか→莫し 3 行；組合 15 行改善 15 変差 0 幂等 bad 0）；真跑 golden_4000 13.491/24/0・golden_8165 13.502/30/0＝sim 逐位一致（計画外 0）；pytest 434；verify 19/19 exit 0（归档源 night78→night86 切换＋Rule O 語数断言追加）。 |
