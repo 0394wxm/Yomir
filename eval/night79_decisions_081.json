@@ -1,0 +1,21 @@
+{
+ "start": 81,
+ "note": "深查・再取得分（rank81 南山＝批1で ERR:URLError、再取得 OK；rank134 三月／rank137 人間＝批2で保留後、ruby 深查で読み確定 → 排除案から include に反転。二つの証拠とも記録）。",
+ "decisions": [
+  {"word": "南山", "rank": 81, "freq": 13, "verdict": "include", "cat": "proper",
+   "reading": "なんざん",
+   "meaning": "南にある山。中国では終南山の異称（「南山の寿」の由来）。",
+   "dict_evidence": "weblio デジタル大辞泉「なん‐ざん【南山】読み方：なんざん１南の方角にある山 ３《「南山の寿」から》長寿を祝うこと…中国の終南山の異称」（cand_081_南山.txt。批1で ERR 再取得）",
+   "corpus_evidence": "golden_8165 13行。例 shinsho-1「節たる彼の南山、維れ石巌巌たり」（詩経・終南山）"},
+  {"word": "三月", "rank": 134, "freq": 9, "verdict": "include", "cat": "noun",
+   "reading": "さんげつ（さんがつ）",
+   "meaning": "三月。また三か月の期間。",
+   "dict_evidence": "weblio デジタル大辞泉「さん‐がつ【三月】読み方：さんがつ 一年の3番目の月。やよい」（cand_134_三月.txt。読みは語料 ruby が さんげつ で差一拍——N75 牧す→ぼくす 先例通り語料 ruby を採用）",
+   "corpus_evidence": "golden_8165 12行。kanbun.info ruby 三月=さんげつ（ichijitsuse.html／rongo0605.html／rongo0713.html ×3・語の直 ruby）。例 rongo0713-1「三月、肉の味を知らず」"},
+  {"word": "人間", "rank": 137, "freq": 9, "verdict": "include", "cat": "noun",
+   "reading": "ひとま・じんかん",
+   "meaning": "人のいない間。人の気づかぬ隙。また人の住む世間。",
+   "dict_evidence": "weblio デジタル大辞泉「ひと‐ま【人間】読み方：ひとま１人のいない間。人の気づかぬすき」＋「じん‐かん【人間】読み方：じんかん 人の住んでいる世界。世間」（cand_137_人間.txt）",
+   "corpus_evidence": "golden_8165 9行（全文 12 行のうち ruby 対象 3 ページ）。kanbun.info ruby 人=ひと・間=ひそ（yotonotsu.html＝「人間かに往き」＝ひとま）＋人=じん（uchinimako.html・shojinkan.html）。例 yotonotsu-1「人間かに往き、夜、弥子に告ぐ」"}
+ ]
+}

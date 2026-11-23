@@ -1,0 +1,129 @@
+######## 而る後 : corpus lines=9
+  rongo0213-1 (https://kanbun.info/keibu/rongo0213.html): 42 ruby pairs
+    而=しか
+    後=のち
+    後=あと
+  rongo0519-1 (https://kanbun.info/keibu/rongo0519.html): 51 ruby pairs
+    而=しか
+    後=のち
+  rongo0731-1 (https://kanbun.info/keibu/rongo0731.html): 25 ruby pairs
+    而=しか
+    後=のち
+######## 而ち : corpus lines=5
+  kasei-5 (https://kanbun.info/koji/kasei.html): FAIL The read operation timed out
+  nansenho-2 (https://kanbun.info/koji/nansenho.html): 29 ruby pairs
+    而=すなわ
+    而=すなわ
+    而=すなわ
+  sonshi10-10 (https://kanbun.info/shibu02/sonshi10.html): 447 ruby pairs
+    而=すなわ
+    而=すなわ
+    而=すなわ
+######## 所以 : corpus lines=72
+  ishiniku-4 (https://kanbun.info/koji/ishiniku.html): 126 ruby pairs
+    所以=ゆえん
+    所以=ゆえん
+    所以=ゆえん
+    所以=ゆえん
+  ishiniku-5 (https://kanbun.info/koji/ishiniku.html): 126 ruby pairs
+    所以=ゆえん
+    所以=ゆえん
+    所以=ゆえん
+    所以=ゆえん
+  uowoete-1 (https://kanbun.info/koji/uowoete.html): 42 ruby pairs
+    所以=ゆえん
+    所以=ゆえん
+    所以=ゆえん
+######## 奈何 : corpus lines=64
+  kanpeki4k-1 (https://kanbun.info/koji/kanpeki4k.html): 350 ruby pairs
+    奈何=いかん
+    何=なん
+  kiyu-7 (https://kanbun.info/koji/kiyu.html): 134 ruby pairs
+    奈何=いかん
+    奈何=いかん
+    奈何=いかん
+  shinshohi-2 (https://kanbun.info/koji/shinshohi.html): 90 ruby pairs
+    奈何=いかん
+######## 左右 : corpus lines=37
+  eidatsu-1 (https://kanbun.info/koji/eidatsu.html): 87 ruby pairs
+    左=さ
+    右=ゆう
+  gaikotsu-1 (https://kanbun.info/koji/gaikotsu.html): 101 ruby pairs
+    左=さ
+    右=ゆう
+  kanpeki4k-3 (https://kanbun.info/koji/kanpeki4k.html): 350 ruby pairs
+    左=さ
+    右=ゆう
+    左=さ
+    右=ゆう
+######## 父母 : corpus lines=23
+  asobunika-1 (https://kanbun.info/koji/asobunika.html): 15 ruby pairs
+    父母=ふぼ
+  ichii-1 (https://kanbun.info/koji/ichii.html): 17 ruby pairs
+    父母=ふぼ
+  kanpo-4 (https://kanbun.info/koji/kanpo.html): 442 ruby pairs
+    母=ぼ
+    父母=ふぼ
+    母=ば
+    父母=ふぼ
+    父=ほ
+    父=ほ
+######## 敵人 : corpus lines=45
+  hajimewasho-1 (https://kanbun.info/koji/hajimewasho.html): 53 ruby pairs
+    敵人=てきじん
+    敵=てき
+    敵人=てきじん
+    敵=てき
+  hajimewasho-2 (https://kanbun.info/koji/hajimewasho.html): 53 ruby pairs
+    敵人=てきじん
+    敵=てき
+    敵人=てきじん
+    敵=てき
+  goshi05-1 (https://kanbun.info/shibu02/goshi05.html): 764 ruby pairs
+    敵人=てきじん
+    敵=てき
+    敵=てき
+    聖人=せいじん
+    敵人=てきじん
+    敵=てき
+    敵=てき
+    敵=てき
+    敵人=てきじん
+    敵=てき
+    敵=てき
+    敵人=てきじん
+    敵=てき
+    敵=てき
+    敵=てき
+    敵人=てきじん
+    敵=てき
+######## 不可 : corpus lines=17
+  imayukyu-1 (https://kanbun.info/koji/imayukyu.html): FAIL The read operation timed out
+  iwadaijin-1 (https://kanbun.info/koji/iwadaijin.html): 66 ruby pairs
+    不可=ふか
+    可=べ
+    不可=ふか
+    可=べ
+  inkyoho-1 (https://kanbun.info/koji/inkyoho.html): 29 ruby pairs
+    可=か
+    不可=ふか
+######## 所有 : corpus lines=26
+  eidatsu-1 (https://kanbun.info/koji/eidatsu.html): 87 ruby pairs
+    所=ところ
+    有=あ
+    所=ところ
+    有=あ
+    有=ゆう
+    所=ところ
+  kanae-4 (https://kanbun.info/koji/kanae.html): 150 ruby pairs
+    有=あ
+    有=あ
+    所=ところ
+    有=あ
+    所=ところ
+  gishin-2 (https://kanbun.info/koji/gishin.html): 96 ruby pairs
+    有=あ
+    所=ところ
+    有=あ
+
+weblio batch progress: 96

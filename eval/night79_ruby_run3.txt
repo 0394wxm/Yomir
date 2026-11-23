@@ -1,0 +1,26 @@
+######## 人間 : corpus lines=12
+  uchinimako-1 (https://kanbun.info/koji/uchinimako.html): 51 ruby pairs
+    人=じん
+    間居=かんきょ
+    人=ひと
+  shojinkan-1 (https://kanbun.info/koji/shojinkan.html): 34 ruby pairs
+    人=じん
+    人=じん
+    間居=かんきょ
+  yotonotsu-1 (https://kanbun.info/koji/yotonotsu.html): 120 ruby pairs
+    人=ひと
+    間=ひそ
+    人=じん
+######## 三月 : corpus lines=12
+  ichijitsuse-1 (https://kanbun.info/koji/ichijitsuse.html): 31 ruby pairs
+    三月=さんげつ
+    三=さん
+    三歳=さんさい
+  rongo0605-1 (https://kanbun.info/keibu/rongo0605.html): 42 ruby pairs
+    三月=さんげつ
+    月=つき
+    幾月=いくつき
+  rongo0713-1 (https://kanbun.info/keibu/rongo0713.html): 52 ruby pairs
+    三月=さんげつ
+
+weblio batch progress: 172

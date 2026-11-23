@@ -1,0 +1,412 @@
+=== SOGEKITATSU bun contains 所謂達 ===
+id=omonpaku-1 src=https://kanbun.info/koji/omonpaku.html
+  bun: 子張問、士何如斯可謂之達矣。子曰、何哉、爾所謂達者。子張對曰、在邦必聞、在家必聞。子曰、是聞也。非達也。夫達也者、質直而好義、察言而觀色、慮以下人。在邦必達、在家必達。夫聞也者、色取仁而行違、居之不疑。在邦必聞、在家必聞。
+  kkd: 子張問う、士は何如なるを斯に之を達と謂う可きか。子曰く、何ぞや、爾の所謂達とは。子張対えて曰く、邦に在りても必ず聞こえ、家に在りても必ず聞こゆ。子曰く、是れ聞なり。達に非ざるなり。夫れ達なる者は、質直にして義を好み、言を察して色を観、慮りて以て人に下る。邦に在りても必ず達し、家に在りても必ず達す。夫れ聞なる者は、色仁を取りて行いは違い、之に居りて疑わず。邦に在りても必ず聞こえ、家に在りても必ず聞こゆ。
+  (shown 1)
+=== KKD contains 貳 or 弐 ===
+id=ayamachifu-1 src=https://kanbun.info/koji/ayamachifu.html
+  bun: 哀公問、弟子孰爲好學。孔子對曰、有顏回者、好學。不遷怒、不貳過。不幸短命死矣。今也則亡。未聞好學者也。
+  kkd: 哀公問う、弟子、孰か学を好むと為す。孔子対えて曰く、顔回なる者有り、学を好む。怒りを遷さず、過ちを弐びせず。不幸短命にして死せり。今や則ち亡し。未だ学を好む者を聞かざるなり。
+id=ikariutsu-1 src=https://kanbun.info/koji/ikariutsu.html
+  bun: 哀公問、弟子孰爲好學。孔子對曰、有顏回者、好學。不遷怒、不貳過。不幸短命死矣。今也則亡。未聞好學者也。
+  kkd: 哀公問う、弟子、孰か学を好むと為す。孔子対えて曰く、顔回なる者有り、学を好む。怒りを遷さず、過ちを弐びせず。不幸短命にして死せり。今や則ち亡し。未だ学を好む者を聞かざるなり。
+  (shown 2)
+=== KKD contains 失す ===
+id=kyokutotsu-2 src=https://kanbun.info/koji/kyokutotsu.html
+  bun: 至是、人爲徐生上書曰、客有過主人。見其竈直突、傍有積薪、謂主人、更爲曲突、速徙其薪。主人不應。俄失火。郷里共救之、幸而得息。
+  kkd: 是に至りて、人、徐生の為に上書して曰く、客に主人を過るもの有り。其の竈の直突にして、傍らに積薪有るを見て、主人に謂う、更めて曲突を為り、速やかに其の薪を徙せ、と。主人応ぜず。俄かに火を失す。郷里共に之を救い、幸いにして息むを得たり。
+id=seikokuwoiru-2 src=https://kanbun.info/koji/seikokuwoiru.html
+  bun: 失諸正鵠、反求諸其身。
+  kkd: 諸を正鵠に失すれば、反って諸を其の身に求む。
+id=daigaku00a-36 src=https://kanbun.info/keibu/daigaku00a.html
+  bun: 顧其爲書、猶頗放失。
+  kkd: 顧うに其の書たる、猶お頗放失すと。
+id=toushisen216-4 src=https://kanbun.info/syubu/toushisen216.html
+  bun: 歸雲擁樹失山村
+  kkd: 帰雲　樹を擁して山村を失す
+id=utsuryo12-5 src=https://kanbun.info/shibu02/utsuryo12.html
+  bun: 其言無謹偸失。其陵犯無節破矣。水潰雷撃、三軍亂矣。必安其危去其患、以智决之。高之以廊廟之論、重之以受命之論、鋭之以踰垠之論、則敵國可不戰而服。
+  kkd: 其の言謹むこと無ければ偸失す。其の陵犯に節無ければ破る。水の潰ゆるがごとく雷の撃つがごとくなれば三軍乱る。必ず其の危うきを安んじ、其の患いを去るには、智を以て之を決す。之を高くするに廊廟の論を以てし、之を重くするに受命の論を以てし、之を鋭くするに踰垠の論を以てすれば、則ち敵国戦わずして服す可し。
+id=sanryaku03-3 src=https://kanbun.info/shibu02/sanryaku03.html
+  bun: 釋近謀遠者、勞而無功、釋遠謀近者、佚而有終。佚政多忠臣、勞政多怨民。故曰、務廣地者荒、務廣德者強。能有其有者安、貪人之有者殘。殘滅之政、累世受患、造作過制、雖成必敗。舍己而教人者逆、正己而化人者順。逆者亂之招、順者治之要。近（ちか）きを釈（す）てて遠（とお）きを謀（はか）る者（もの）は、労（ろう）して功（こう）無（な）く、遠（とお）きを釈（す）てて近（ちか）きを謀（はか）る者（もの）は、佚（いつ）して終（おわ）り有（あ）り。佚政（いつせい）には忠臣（ちゅうしん）多（おお）く、労政（ろうせい）には怨民（えんみん）多（おお）し。故（ゆえ）に曰（いわ）く、務（つと）めて地（ち）を広（ひろ）むる者（もの）は荒（すさ）み、務（つと）めて徳（とく）を広（ひろ）むる者（もの）は強（つよ）し。能（よ）く其（そ）の有（ゆう）を有（たも）つ者（もの）は安（やす）く、人（ひと）の有（ゆう）を貪（むさぼ）る者（もの）は残（そこな）う。残滅（ざんめつ）の政（せい）は、累世（るいせい）、患（わざわ）いを受（う）け、造（ぞう）作（さ）、制（せい）に過（す）ぐれば、成（な）すと雖（いえど）も必（かなら）ず敗（やぶ）る。己（おのれ）を舎（す）てて人（ひと）を教（おし）うるは逆（ぎゃく）なり、己（おのれ）を正（ただ）しうして人（ひと）を化（か）するは順（じゅん）なり。逆（ぎゃく）は乱（らん）の招（まね）き、順（じゅん）は治（ち）の要（よう）なり。04道徳仁義禮五者一體也。道者人之所蹈。徳者人之所得。仁者人之所親。義者人之所冝。禮者人之所體。不可無一焉。故夙興夜寐、禮之制也。討賊報讎、義之决也。惻隠之心、仁之發也。得己得人、徳之路也。使人均平不失其所、道之化也。道（どう）・徳（とく）・仁（じん）・義（ぎ）・礼（れい）の五（いつ）つの者（もの）は一体（いったい）なり。道（みち）は人（ひと）の蹈（ふ）む所（ところ）なり。徳（とく）は人（ひと）の得（う）る所（ところ）なり。仁（じん）は人（ひと）の親（した）しむ所（ところ）なり。義（ぎ）は人（ひと）の宜（よろ）しき所（ところ）なり。礼（れい）は人（ひと）の体（たい）する所（ところ）なり。一（いち）も無（な）かる可（べ）からず。故（ゆえ）に夙（つと）に興（お）き夜（よわ）に寐（い）ぬるは、礼（れい）の制（せい）なり。賊（ぞく）を討（う）ち讐（あだ）を報（ほう）ずるは、義（ぎ）の決（けつ）なり。惻隠（そくいん）の心（こころ）は、仁（じん）の発（はつ）なり。己（おのれ）に得（え）て人（ひと）を得（う）るは、徳（とく）の路（みち）なり。人（ひと）をして均平（きんぺい）にして其（そ）の所（ところ）を失（うしな）わざらしむは、道（みち）の化（か）なり。出君下臣、名曰命。施於竹帛、名曰令。奉而行之、名曰政。夫命失則令不行。令不行則政不立。政不立則道不通。道不通則邪臣勝。邪臣勝則主威傷。
+  kkd: 君より出でて臣に下る、名づけて命と曰う。竹帛に施す、名づけて令と曰う。奉じて之を行う、名づけて政と曰う。夫れ命失すれば則ち令行われず。令行われざれば則ち政立たず。政立たざれば則ち道通ぜず。道通ぜざれば則ち邪臣勝つ。邪臣勝てば則ち主の威傷る。
+  (shown 6)
+=== KKD contains 止する ===
+id=kanae-4 src=https://kanbun.info/koji/kanae.html
+  bun: 天祚明德、有所底止。成王定鼎于郟鄏、卜世三十、卜年七百。天所命也。今周德雖衰、天命未改。鼎之輕重、未可問也。
+  kkd: 天の明徳に祚するや、底止する所有り。成王、鼎を郟鄏に定め、世を卜すること三十、年を卜するに七百。天の命ずる所なり。今、周の徳衰うと雖も、天命未だ改まらず。鼎の軽重、未だ問う可からざるなり、と。
+id=kiyu-6 src=https://kanbun.info/koji/kiyu.html
+  bun: 若屈伸呼吸、終日在天中行止。
+  kkd: 屈伸呼吸の若きは、終日天中に在りて行止するなり。
+id=rikutou35-3 src=https://kanbun.info/shibu02/rikutou35.html
+  bun: 凡三軍有大事、莫不習用器械。若攻城圍邑則有轒轀臨衝。視城中則有雲梯飛樓。三軍行止則有武衝大櫓、前後拒守。
+  kkd: 凡そ三軍に大事有れば、器械を習い用いざる莫し。若し城を攻め邑を囲むには、則ち轒轀、臨衝有り。城中を視るには、則ち雲梯、飛楼有り。三軍行止するには、則ち武衝、大櫓有りて、前後拒ぎ守る。
+id=rikutou41-1 src=https://kanbun.info/shibu02/rikutou41.html
+  bun: 武王問太公曰、引兵深入諸侯之地、遇深草蓊穢、周吾軍前後左右、三軍行數百里、人馬疲倦休止、敵人因天燥疾風之利、燔吾上風、車騎鋭士、堅伏吾後、三軍恐怖、散亂而走。爲之奈何。
+  kkd: 武王、太公に問うて曰く、兵を引いて深く諸侯の地に入りて、深草蓊穢として、吾が軍の前後左右を周るに遇い、三軍行くこと数百里、人馬疲倦して休止するに、敵人、天燥疾風の利に因り、吾が上風を燔き、車騎鋭士、堅く吾が後ろに伏せば、三軍恐怖し、散乱して走らん。之を為すこと奈何。
+  (shown 4)
+=== KKD contains 止むる or 止むな ===
+id=ikkinoko-1 src=https://kanbun.info/koji/ikkinoko.html
+  bun: 子曰、譬如爲山。未成一簣、止吾止也。
+  kkd: 子曰く、譬えば山を為るが如し。未だ一簣を成さざるも、止むは吾が止むなり。
+id=rongo0918-1 src=https://kanbun.info/keibu/rongo0918.html
+  bun: 子曰、譬如爲山。未成一簣、止吾止也。譬如平地。雖覆一簣、進吾往也。
+  kkd: 子曰く、譬えば山を為るが如し。未だ一簣を成さざるも、止むは吾が止むなり。譬えば地を平らかにするが如し。一簣を覆すと雖も、進むは吾が往くなり。
+id=utsuryo06-5 src=https://kanbun.info/shibu02/utsuryo06.html
+  bun: 若彼城堅而救不誠、則愚夫蠢婦無不守陴而泣下。此人之常情也。遂發其窖廩救撫、則亦不能止矣。必鼓其豪傑英俊、堅甲利兵、勁弩強矢并於前、幺麼毀瘠者并於後。十萬之兵頓於城下。
+  kkd: 若し、彼の城堅くして救い誠ならざれば、則ち愚夫蠢婦も陴を守りて泣下らざる無し。此れ人の常情なり。遂に其の窖廩を発して救撫するも、則ち亦た止むること能わず。必ず其の豪傑英俊を鼓し、堅甲利兵、勁弩強矢を前に并せ、幺麼毀瘠の者を後ろに并す。十万の兵、城下に頓る。
+id=rikutou34-7 src=https://kanbun.info/shibu02/rikutou34.html
+  bun: 先燔吾輜重、燒吾糧食、明告吏士、勇闘則生、不勇則死。先（ま）ず吾（わ）が輜（し）重（ちょう）を燔（や）き、吾（わ）が糧食（りょうしょく）を焼（や）き、明（あき）らかに吏士（りし）に告（つ）げよ、勇（いさ）み闘（たたか）わば則（すなわ）ち生（い）き、勇（いさ）まずんば則（すなわ）ち死（し）せん、と。已出、令我踵軍設雲火遠候、必依草木丘墓險阻。敵人車騎、必不敢遠追長驅。因以火爲記、先出者、令至火而止、爲四武衝陳。如此則吾三軍、皆精鋭勇闘、莫我能止。
+  kkd: 已に出づれば、我が踵軍をして、雲火を設けて遠く候わしめ、必ず草木、丘墓、険阻に依れ。敵人の車騎、必ず敢えて遠く追いて長駆せず。因って火を以て記と為し、先ず出づる者は、火に至りて止まり、四武の衝陣を為らしめよ。此の如くせば、則ち吾が三軍皆精鋭にして勇み闘い、我を能く止むる莫し。
+id=utsuryo10-2 src=https://kanbun.info/shibu02/utsuryo10.html
+  bun: 守法稽断、臣下之節也。明法稽驗、主上之操也。明主守等輕重、臣主之權也。法（ほう）を守（まも）り断（だん）を稽（はか）るは、臣（しん）下（か）の節（せつ）なり。法（ほう）を明（あき）らかにし、験（けん）を稽（はか）るは、主（しゅ）上（じょう）の操（そう）なり。主守（しゅしゅ）を明（あき）らかにし、軽（けい）重（ちょう）を等（ひと）しくするは、臣主（しんしゅ）の権（けん）なり。明賞賚嚴誅責、止奸之術也。審開塞守一道、爲政之要也。下達上通、至聰之聽也。知國有無之數、用其仂也。知彼弱者、強之體也。知彼動者、靜之决也。
+  kkd: 賞賚を明らかにし、誅責を厳しくするは、奸を止むるの術なり。開塞を審らかにし、一道を守るは、政を為すの要なり。下に達し上に通ずるは、至聡の聴なり。国の有無の数を知るは、其の仂を用うるなり。彼の弱きを知るは、強の体なり。彼の動きを知るは、静の決なり。
+id=utsuryo11-5 src=https://kanbun.info/shibu02/utsuryo11.html
+  bun: 蒼蒼之天、莫知其極。帝王之君、誰爲法則。往丗不可及、來丗不可待、求己者也。所謂天子者四焉。一曰、神明。二曰、垂光。三曰、洪叙。四曰、無敵。此天子之事也。蒼蒼（そうそう）の天（てん）は、其（そ）の極（きょく）を知（し）る莫（な）し。帝王（ていおう）の君（きみ）は、誰（たれ）をか法則（ほうそく）と為（な）さん。往世（おうせい）は及（およ）ぶ可（べ）からず、来世（らいせい）は待（ま）つ可（べ）からず、己（おのれ）に求（もと）むる者（もの）なり。所謂（いわゆる）天（てん）子（し）とは四（し）なり。一（いち）に曰（いわ）く、神明（しんめい）、二（に）に曰（いわ）く、垂光（すいこう）、三（さん）に曰（いわ）く、洪叙（こうじょ）、四（し）に曰（いわ）く、無（む）敵（てき）。此（こ）れ天（てん）子（し）の事（こと）なり。野物不爲犠牲、雜學不爲通儒。今説者曰、百里之海、不能飲一夫。三尺之泉足止三軍渇。臣謂、欲生於無度、邪生於無禁。太上神化、其次因物、其下在於無奪民時、無損民財。夫禁必以武而成、賞必以文而成。
+  kkd: 野物は犠牲と為さず、雑学は通儒と為さず。今、説く者曰く、百里の海は一夫に飲ましむること能わず。三尺の泉は三軍の渇を止むるに足る、と。臣、謂えらく、欲は度無きに生じ、邪は禁無きに生ず、と。太上は神化なり、其の次は物に因るなり、其の下は民の時を奪う無く、民の財を損ずる無きに在り。夫れ禁は必ず武を以て成り、賞は必ず文を以て成る。
+  (shown 6)
+=== bun 矣 & kkd tail かな/しか/や ===
+id=ikken-1 src=https://kanbun.info/koji/ikken.html
+  bun: 諺曰、一犬吠形、百犬吠聲。世之疾、此固久矣哉。
+  kkd: 諺に曰く、一犬形に吠ゆれば、百犬声に吠ゆ、と。世の疾、此れ固より久しいかな。
+id=katowoida-1 src=https://kanbun.info/koji/katowoida.html
+  bun: 子曰、鳳鳥不至。河不出圖。吾已矣夫。
+  kkd: 子曰く、鳳鳥至らず。河、図を出ださず。吾已んぬるかな。
+id=kanchuna-1 src=https://kanbun.info/koji/kanchuna.html
+  bun: 子貢曰、管仲非仁者與。桓公殺公子糾、不能死。又相之。子曰、管仲相桓公、霸諸侯、一匡天下。民到于今受其賜。微管仲、吾其被髮左衽矣。豈若匹夫匹婦之爲諒也、自經於溝瀆、而莫之知也。
+  kkd: 子貢曰く、管仲は仁者に非ざるか。桓公、公子糾を殺すに、死する能わず。又之を相く。子曰く、管仲桓公を相けて、諸侯に覇たらしめ、天下を一匡す。民今に到るまで其の賜を受く。管仲微かりせば、吾其れ被髪左衽せん。豈に匹夫匹婦の諒を為すや、自ら溝瀆に経れて、之を知るもの莫きが若くならんや。
+id=rongo0608-1 src=https://kanbun.info/keibu/rongo0608.html
+  bun: 伯牛有疾。子問之。自牖執其手、曰、亡之。命矣夫、斯人也而有斯疾也、斯人也而有斯疾也。
+  kkd: 伯牛、疾有り。子、之を問う。牖より其の手を執りて、曰く、之亡からん。命なるかな、斯の人にして斯の疾有るや、斯の人にして斯の疾有るや。
+id=rongo0911-1 src=https://kanbun.info/keibu/rongo0911.html
+  bun: 子疾病。子路使門人爲臣。病間曰、久矣哉、由之行詐也。無臣而爲有臣。吾誰欺。欺天乎。且予與其死於臣之手也、無寧死於二三子之手乎。且予縦不得大葬、予死於道路乎。
+  kkd: 子、疾病なり。子路、門人をして臣たらしむ。病間なるとき曰く、久しいかな、由の詐りを行うや。臣無くして臣有りと為す。吾誰をか欺かん。天を欺かんや。且つ予其の臣の手に死せんよりは、無寧二三子の手に死せんか。且つ予縦い大葬を得ざるも、予道路に死せんや。
+id=rongo0921-1 src=https://kanbun.info/keibu/rongo0921.html
+  bun: 子曰、苗而不秀者有矣夫。秀而不實者有矣夫。
+  kkd: 子曰く、苗にして秀でざる者有るかな。秀でて実らざる者有るかな。
+id=rongo1205-1 src=https://kanbun.info/keibu/rongo1205.html
+  bun: 司馬牛憂曰、人皆有兄弟。我獨亡。子夏曰、商聞之矣。死生有命、富貴在天。君子敬而無失、與人恭而有禮、四海之内、皆兄弟也。君子何患乎無兄弟也。
+  kkd: 司馬牛憂えて曰く、人皆兄弟有り。我独り亡し。子夏曰く、商之を聞く。死生命有り、富貴天に在り。君子敬して失うこと無く、人と与わるに恭しくして礼有らば、四海の内、皆兄弟なり。君子何ぞ兄弟無きを患えんや。
+id=rongo1311-1 src=https://kanbun.info/keibu/rongo1311.html
+  bun: 子曰、善人爲邦百年、亦可以勝殘去殺矣。誠哉是言也。
+  kkd: 子曰く、善人邦を為むること百年ならば、亦た以て残に勝ち殺を去る可し、と。誠なるかな是の言や。
+id=rongo1320-1 src=https://kanbun.info/keibu/rongo1320.html
+  bun: 子貢問曰、何如斯可謂之士矣。子曰、行己有恥、使於四方、不辱君命、可謂士矣。曰、敢問其次。曰、宗族稱孝焉、郷黨稱弟焉。曰、敢問其次。曰、言必信、行必果、硜硜然小人也。抑亦可以爲次矣。曰、今之從政者何如。子曰、噫、斗筲之人、何足算也。
+  kkd: 子貢問いて曰く、何如なるを斯れ之を士と謂う可きか。子曰く、己を行うに恥有り、四方に使いして、君命を辱めざるを、士と謂う可し。曰く、敢えて其の次を問う。曰く、宗族は孝を称し、郷党は弟を称す。曰く、敢えて其の次を問う。曰く、言必ず信あり、行い必ず果たす、硜硜然として小人なるかな。抑〻亦た以て次と為す可し。曰く、今の政に従う者は何如。子曰く、噫、斗筲の人、何ぞ算うるに足らんや。
+id=rongo1516-1 src=https://kanbun.info/keibu/rongo1516.html
+  bun: 子曰、羣居終日、言不及義、好行小慧。難矣哉。
+  kkd: 子曰く、群居すること終日、言、義に及ばず、好みて小慧を行うは、難いかな。
+id=rongo1525-1 src=https://kanbun.info/keibu/rongo1525.html
+  bun: 子曰、吾猶及史之闕文也。有馬者、借人乘之。今亡矣夫。
+  kkd: 子曰く、吾は猶お史の闕文に及べり。馬有る者は、人に借して之に乗らしむ。今は亡きかな。
+id=rongo1923-1 src=https://kanbun.info/keibu/rongo1923.html
+  bun: 叔孫武叔、語大夫於朝曰、子貢賢於仲尼。子服景伯、以告子貢。子貢曰、譬之宮牆、賜之牆也及肩。闚見室家之好。夫子之牆數仞。不得其門而入、不見宗廟之美、百官之富。得其門者或寡矣。夫子之云、不亦宜乎。
+  kkd: 叔孫武叔、大夫に朝に語りて曰く、子貢は仲尼より賢れり。子服景伯、以て子貢に告ぐ。子貢曰く、之を宮牆に譬うれば、賜の牆や肩に及ぶ。室家の好きを闚い見る。夫子の牆は数仞なり。其の門を得て入らざれば、宗廟の美、百官の富を見ず。其の門を得る者或いは寡なし。夫子の云えること、亦た宜ならずや。
+id=kenwooto-1 src=https://kanbun.info/koji/kenwooto.html
+  bun: 楚人有渉江者。其劍自舟中墜於水。遽契其舟曰、是吾劍之所從墜也。舟止。從其所契者、入水求之。舟已行矣。而劍不行。求劍若此、不亦惑乎。
+  kkd: 楚人に江を渉る者有り。其の剣、舟中より水に墜つ。遽かに其の舟に契みて曰く、是れ吾が剣の従りて墜ちし所なり、と。舟止まる。其の契みし所の者より、水に入りて之を求む。舟は已に行けり。而るに剣は行かず。剣を求むること此くの若きは、亦た惑いならずや。
+id=kokyo19-1 src=https://kanbun.info/keibu/kokyo19.html
+  bun: 子曰、閨門之内、具禮矣乎。
+  kkd: 子曰く、閨門の内、礼を具うるかな。
+id=kikyorainoji-49 src=https://kanbun.info/syubu/kikyorainoji.html
+  bun: 已矣乎
+  kkd: 已んぬるかな
+  (shown 15)
+=== kkd ends with かな。 total: 18 ===
+=== bun 而 & kkd no-而 short samples ===
+id=chosan-5 src=https://kanbun.info/koji/chosan.html
+  bun: 俄而匱焉。
+  kkd: 俄かにして匱し。
+id=saio-2 src=https://kanbun.info/koji/saio.html
+  bun: 馬無故亡而入胡。
+  kkd: 馬、故無くして亡げて胡に入る。
+id=saio-5 src=https://kanbun.info/koji/saio.html
+  bun: 居數月、其馬將胡駿馬而歸。
+  kkd: 居ること数月、其の馬、胡の駿馬を将いて帰る。
+id=toranoi-2 src=https://kanbun.info/koji/toranoi.html
+  bun: 虎求百獸而食之、得狐。
+  kkd: 虎、百獣を求めて之を食らい、狐を得たり。
+id=shushu-2 src=https://kanbun.info/koji/shushu.html
+  bun: 田中有株、兎走觸株、折頸而死。
+  kkd: 田中に株有り、兎走りて株に触れ、頸を折りて死す。
+id=shushu-3 src=https://kanbun.info/koji/shushu.html
+  bun: 因釋其耒而守株、冀復得兎。
+  kkd: 因りて其の耒を釈てて株を守り、復た兎を得んと冀う。
+id=shushu-4 src=https://kanbun.info/koji/shushu.html
+  bun: 兎不可復得、而身爲宋國笑。
+  kkd: 兎は復た得べからずして、身は宋国の笑いと為れり。
+id=moshisono-1 src=https://kanbun.info/koji/moshisono.html
+  bun: 孟氏使陽膚爲士師。問於曾子。曾子曰、上失其道、民散久矣。如得其情、則哀矜而勿喜。
+  kkd: 孟氏、陽膚をして士師為らしむ。曾子に問う。曾子曰く、上其の道を失い、民散ずること久し。如し其の情を得れば、則ち哀矜して喜ぶこと勿かれ。
+id=aeteokure-1 src=https://kanbun.info/koji/aeteokure.html
+  bun: 子曰、孟之反不伐。奔而殿。將入門、策其馬曰、非敢後也、馬不進也。
+  kkd: 子曰く、孟之反は伐らず。奔りて殿たり。将に門に入らんとするや、其の馬に策うちて曰く、敢えて後れたるに非ず、馬進まざればなり、と。
+id=aowa-1 src=https://kanbun.info/koji/aowa.html
+  bun: 君子曰、學不可以已。青取之於藍、而青於藍、冰水爲之、而寒於水。
+  kkd: 君子曰く、学は以て已む可からず。青は之を藍より取りて、藍よりも青く、氷は水之を為して、水よりも寒し、と。
+id=akuiakusho-1 src=https://kanbun.info/koji/akuiakusho.html
+  bun: 子曰、士志於道、而恥惡衣惡食者、未足與議也。
+  kkd: 子曰く、士、道に志して、悪衣悪食を恥ずる者は、未だ与に議るに足らざるなり。
+id=atsumono-1 src=https://kanbun.info/koji/atsumono.html
+  bun: 懲於羹而吹虀兮何不變此志也
+  kkd: 羹に懲りて虀を吹く　何ぞ此の志を変えざるや
+id=ayaukikotoru-2 src=https://kanbun.info/koji/ayaukikotoru.html
+  bun: 故曹小國也、而迫於晉楚之間、其君之危猶累卵也。
+  kkd: 故に曹は小国にして、晋・楚の間に迫る、其の君の危うきこと猶お累卵のごときなり。
+id=ayamachitea-1 src=https://kanbun.info/koji/ayamachitea.html
+  bun: 子曰、過而不改、是謂過矣。
+  kkd: 子曰く、過ちて改めざる、是れを過ちと謂う。
+id=anshi-2 src=https://kanbun.info/koji/anshi.html
+  bun: 其御之妻、從門閒而闚其夫。
+  kkd: 其の御の妻、門間よりして其の夫を闚う。
+id=anshi-4 src=https://kanbun.info/koji/anshi.html
+  bun: 旣而歸。其妻請去。
+  kkd: 既にして帰る。其の妻去らんことを請う。
+id=hisashiku-1 src=https://kanbun.info/koji/hisashiku.html
+  bun: 子曰、晏平仲善與人交。久而敬之。
+  kkd: 子曰く、晏平仲は善く人と交わる。久しくして之を敬す。
+id=iaritake-1 src=https://kanbun.info/koji/iaritake.html
+  bun: 子張曰、何謂五美。子曰、君子惠而不費、勞而不怨、欲而不貪、泰而不驕、威而不猛。
+  kkd: 子張曰く、何をか五美と謂う。子曰く、君子は恵して費やさず、労して怨みず、欲して貪らず、泰にして驕らず、威ありて猛からず。
+id=izukunei-1 src=https://kanbun.info/koji/izukunei.html
+  bun: 或曰、雍也仁而不佞。子曰、焉用佞。禦人以口給、屢憎於人。不知其仁。焉用佞。
+  kkd: 或ひと曰く、雍や、仁にして佞ならず。子曰く、焉くんぞ佞を用いん。人に禦るに口給を以てすれば、屢〻人に憎まる。其の仁なるを知らず。焉くんぞ佞を用いん。
+id=ichinitora-1 src=https://kanbun.info/koji/ichinitora.html
+  bun: 夫市之無虎也明矣。然而三人言而成虎。
+  kkd: 夫れ市の虎無きは明らかなり。然れども三人言えば虎を成す。
+id=ichiyo-1 src=https://kanbun.info/koji/ichiyo.html
+  bun: 見一葉落、而知歳之將暮、睹瓶中之冰、而知天下之寒。以近論遠。
+  kkd: 一葉の落つるを見て、歳の将に暮れなんとするを知り、瓶中の氷を睹て、天下の寒きを知る。近きを以て遠きを論ずるなり。
+id=ikkyosyu-3 src=https://kanbun.info/koji/ikkyosyu.html
+  bun: ……聊試仰首一鳴號焉。庸詎知有力者不哀其窮、而忘一擧手一投足之勞、而轉之清波乎。
+  kkd: ……聊か試みに首を仰ぎて一たび鳴号す。庸詎んぞ有力の者其の窮を哀れみ、一挙手一投足の労を忘れて、之を清波に転ぜざるを知らんや。
+id=ippanwo-3 src=https://kanbun.info/koji/ippanwo.html
+  bun: 子敬瞋目曰、遠慙荀奉倩、近愧劉眞長。遂拂衣而去。
+  kkd: 子敬、目を瞋せて曰く、遠くは荀奉倩に慙じ、近くは劉真長に愧ず、と。遂に衣を払って去る。
+id=kowokaete-4 src=https://kanbun.info/koji/kowokaete.html
+  bun: 古者易子而教之。父子之間不責善。責善則離。離則不祥莫大焉。
+  kkd: 古は子を易えて之を教う。父子の間は善を責めず。善を責むれば則ち離る。離るれば則ち不祥焉より大なるは莫し、と。
+id=imadakore-1 src=https://kanbun.info/koji/imadakore.html
+  bun: 唐棣之華、偏其反而。豈不爾思。室是遠而。子曰、未之思也。夫何遠之有。
+  kkd: 唐棣の華、偏として其れ反せり。豈に爾を思わざらんや。室是れ遠ければなり。子曰く、未だ之を思わざるなり。夫れ何の遠きことか之れ有らん。
+  (shown 25)
+=== KKD contains 牧す (all) ===
+id=ishoku-1 src=https://kanbun.info/koji/ishoku.html
+  bun: 凡有地牧民者、務在四時、守在倉廩。國多財、則遠者來、地辟舉、則民留處。倉廩實則知禮節、衣食足則知榮辱。
+  kkd: 凡そ地を有し民を牧する者は、務め四時に在り、守り倉廩に在り。国に財多ければ、則ち遠き者来たり、地、辟挙すれば、則ち民、留処す。倉廩実ちて則ち礼節を知り、衣食足りて則ち栄辱を知る。
+id=toushisen453-4 src=https://kanbun.info/syubu/toushisen453.html
+  bun: 單于公然來牧馬
+  kkd: 単于公然と来って馬を牧す
+id=rikutou08-2 src=https://kanbun.info/shibu02/rikutou08.html
+  bun: 太公曰、天生四時、地生萬物。天下有民、聖人牧之。故春道生、萬物榮。夏道長、萬物成。秋道斂、萬物盈。冬道藏、萬物靜。盈則藏、藏則復起。莫知所終、莫知所始。聖人配之、以爲天地經紀。
+  kkd: 太公曰く、天は四時を生じ、地は万物を生ず。天下に民有り、聖人之を牧す。故に春の道は生じ、万物栄ゆ。夏の道は長じ、万物成る。秋の道は斂め、万物盈つ。冬の道は蔵し、万物静かなり。盈つれば則ち蔵し、蔵すれば則ち復た起る。終る所を知る莫く、始まる所を知る莫し。聖人之に配し、以て天地の経紀と為す。
+id=rikutou48-1 src=https://kanbun.info/shibu02/rikutou48.html
+  bun: 武王問太公曰、引兵深入諸侯之地、與敵人臨水相拒、敵冨而衆、我貧而寡、踰水撃之、則不能前。欲久其日、則糧食少、吾居斥鹵之地、四旁無邑、又無草木、三軍無所掠取、牛馬無所芻牧。爲之奈何。
+  kkd: 武王、太公に問うて曰く、兵を引いて深く諸侯の地に入り、敵人と水に臨んで相拒ぐに、敵は富んで衆く、我は貧しくして寡く、水を踰えて之を撃たんとするも、則ち前むこと能わず。其の日を久しくせんと欲するも、則ち糧食少なく、吾、斥鹵の地に居り、四旁に邑無く、又草木無く、三軍掠取する所無く、牛馬芻牧する所無し。之を為すこと奈何。
+id=sanryaku01-9 src=https://kanbun.info/shibu02/sanryaku01.html
+  bun: 世能祖祖、鮮能下下。祖祖爲親、下下爲君。下下者務耕桑、不奪其時、薄賦斂、不匱其財。罕徭役、不使其勞、則國富而家娯。然後選士以司牧之。夫所謂士者、英雄也。故曰、羅其英雄則敵國窮。英雄者國之幹、庶民者國之本。得其幹、収其本、則政行而無怨。
+  kkd: 世能く祖を祖とすれども、能く下に下ること鮮なし。祖を祖とするは親たり、下に下るは君たり。下に下る者は耕桑を務め、其の時を奪わず、賦斂を薄くし、其の財を匱しくせず。徭役を罕にし、其れをして労せしめざれば、則ち国富みて家娯しむ。然る後に士を選んで以て之を司牧す。夫れ所謂士とは、英雄なり。故に曰く、其の英雄を羅すれば則ち敵国窮す、と。英雄は国の幹、庶民は国の本なり。其の幹を得、其の本を収むれば、則ち政行われて怨み無し。
+  (shown 5)
+=== KKD contains 愛れ/愈れ ===
+id=ichiwokiite-1 src=https://kanbun.info/koji/ichiwokiite.html
+  bun: 子謂子貢曰、女與回也孰愈。對曰、賜也何敢望回。回也聞一以知十。賜也聞一以知二。子曰、弗如也。吾與女弗如也。
+  kkd: 子、子貢に謂いて曰く、女と回と孰れか愈れる。対えて曰く、賜や何ぞ敢えて回を望まん。回や一を聞いて以て十を知る。賜や一を聞いて以て二を知るのみ。子曰く、如かざるなり。吾と女と如かざるなり。
+id=ichikiiteni-1 src=https://kanbun.info/koji/ichikiiteni.html
+  bun: 子謂子貢曰、女與回也孰愈。對曰、賜也何敢望回。回也聞一以知十。賜也聞一以知二。子曰、弗如也。吾與女弗如也。
+  kkd: 子、子貢に謂いて曰く、女と回と孰れか愈れる。対えて曰く、賜や何ぞ敢えて回を望まん。回や一を聞いて以て十を知る。賜や一を聞いて以て二を知るのみ。子曰く、如かざるなり。吾と女と如かざるなり。
+id=rongo1115-1 src=https://kanbun.info/keibu/rongo1115.html
+  bun: 子貢問、師與商也孰賢。子曰、師也過。商也不及。曰、然則師愈與。子曰、過猶不及。
+  kkd: 子貢問う、師と商と孰れか賢れる。子曰く、師や過ぎたり。商や及ばず。曰く、然らば則ち師愈れるか。子曰く、過ぎたるは猶お及ばざるがごとし。
+  (shown 3)
+=== kkd 釈て=4 釈つ=0 釈す=12 ===
+=== KKD contains 釈て ===
+id=shushu-3 src=https://kanbun.info/koji/shushu.html
+  bun: 因釋其耒而守株、冀復得兎。
+  kkd: 因りて其の耒を釈てて株を守り、復た兎を得んと冀う。
+id=ryou-1 src=https://kanbun.info/koji/ryou.html
+  bun: 且兩雄不倶立。楚漢久相持不決。百姓騷動、海内搖蕩。農夫釋耒、工女下機。天下之心未有所定也。
+  kkd: 且つ両雄は倶には立たず。楚・漢久しく相持して決せず。百姓騒動し、海内 揺蕩す。農夫は耒を釈て、工女は機を下る。天下の心未だ定まる所有らざるなり。
+id=yokonou-1 src=https://kanbun.info/koji/yokonou.html
+  bun: 項王已約、乃引兵解而東歸。漢欲西歸。張良陳平說曰、漢有天下大半、而諸侯皆附之。楚兵罷食盡。此天亡楚之時也。不如因其機而遂取之。今釋弗撃、此所謂養虎自遺患也。漢王聽之。
+  kkd: 項王已に約し、乃ち兵を引きて解きて東に帰る。漢、西に帰らんと欲す。張良・陳平説きて曰く、漢、天下の大半を有ち、而して諸侯皆之に附く。楚は兵罷れ食尽く。此れ天、楚を亡ぼすの時なり。其の機に因りて遂に之を取るに如かず。今、釈てて撃たざるは、此れ所謂虎を養いて自ら患いを遺すなり、と。漢王之を聴す。
+id=soji06-28 src=https://kanbun.info/syubu02/soji06.html
+  bun: 詹尹乃釋策而謝曰、
+  kkd: 詹尹乃ち策を釈てて謝して曰く、
+  (shown 4)
+=== bun contains 貳 or 弐 ===
+id=ayamachifu-1 src=https://kanbun.info/koji/ayamachifu.html
+  bun: 哀公問、弟子孰爲好學。孔子對曰、有顏回者、好學。不遷怒、不貳過。不幸短命死矣。今也則亡。未聞好學者也。
+  kkd: 哀公問う、弟子、孰か学を好むと為す。孔子対えて曰く、顔回なる者有り、学を好む。怒りを遷さず、過ちを弐びせず。不幸短命にして死せり。今や則ち亡し。未だ学を好む者を聞かざるなり。
+id=ikariutsu-1 src=https://kanbun.info/koji/ikariutsu.html
+  bun: 哀公問、弟子孰爲好學。孔子對曰、有顏回者、好學。不遷怒、不貳過。不幸短命死矣。今也則亡。未聞好學者也。
+  kkd: 哀公問う、弟子、孰か学を好むと為す。孔子対えて曰く、顔回なる者有り、学を好む。怒りを遷さず、過ちを弐びせず。不幸短命にして死せり。今や則ち亡し。未だ学を好む者を聞かざるなり。
+id=toushisen354-4 src=https://kanbun.info/syubu/toushisen354.html
+  bun: 祗今誰數貳師功
+  kkd: 祗今　誰か数えん　弍師の功
+  (shown 3)
+=== id ichinitora ===
+id=ichinitora-1 src=https://kanbun.info/koji/ichinitora.html
+  bun: 夫市之無虎也明矣。然而三人言而成虎。
+  kkd: 夫れ市の虎無きは明らかなり。然れども三人言えば虎を成す。
+  (shown 1)
+=== id kofuku ===
+id=kofuku-1 src=https://kanbun.info/koji/kofuku.html
+  bun: 帝堯陶唐氏、伊祁姓。或曰、名放勛。帝嚳子也。
+  kkd: 帝堯陶唐氏は、伊祁姓なり。或いは曰く、名は放勛と。帝嚳の子なり。
+id=kofuku-10 src=https://kanbun.info/koji/kofuku.html
+  bun: 問在野不知。
+  kkd: 在野に問うに知らず。
+id=kofuku-11 src=https://kanbun.info/koji/kofuku.html
+  bun: 乃微服遊於康衢。
+  kkd: 乃ち微服して康衢に遊ぶ。
+id=kofuku-2 src=https://kanbun.info/koji/kofuku.html
+  bun: 其仁如天、其知如神。
+  kkd: 其の仁は天の如く、其の知は神の如し。
+id=kofuku-3 src=https://kanbun.info/koji/kofuku.html
+  bun: 就之如日、望之如雲。
+  kkd: 之に就けば日の如く、之を望めば雲の如し。
+id=kofuku-4 src=https://kanbun.info/koji/kofuku.html
+  bun: 都平陽。
+  kkd: 平陽に都す。
+id=kofuku-5 src=https://kanbun.info/koji/kofuku.html
+  bun: 茆茨不翦、土階三等。
+  kkd: 茆茨は翦らず、土階三等のみ。
+id=kofuku-6 src=https://kanbun.info/koji/kofuku.html
+  bun: 有草生庭。十五日以前、日生一葉、以後日落一葉。月小盡、則一葉厭而不落。名曰蓂莢。觀之以知旬朔。
+  kkd: 草有り庭に生ず。十五日以前は、日に一葉を生じ、以後は日に一葉を落す。月小にして尽くれば、則ち一葉厭りて落ちず。名づけて蓂莢と曰う。之を観て以て旬朔を知る。
+id=kofuku-8 src=https://kanbun.info/koji/kofuku.html
+  bun: 問左右不知。
+  kkd: 左右に問うに知らず。
+id=kofuku-9 src=https://kanbun.info/koji/kofuku.html
+  bun: 問外朝不知。
+  kkd: 外朝に問うに知らず。
+id=kofuku-x12 src=https://kanbun.info/koji/kofuku.html
+  bun: 聞童謠曰、
+  kkd: 童謡を聞くに曰く、
+id=kofuku-x13 src=https://kanbun.info/koji/kofuku.html
+  bun: 立我烝民莫匪爾極
+  kkd: 我が烝民を立つるは　爾の極に匪ざる莫し
+id=kofuku-x14 src=https://kanbun.info/koji/kofuku.html
+  bun: 不識不知順帝之則
+  kkd: 識らず知らず　帝の則に順うと
+id=kofuku-x15 src=https://kanbun.info/koji/kofuku.html
+  bun: 有老人、含哺鼓腹、撃壤而歌曰、
+  kkd: 老人有り、哺を含み腹を鼓し、壌を撃ちて歌いて曰く、
+id=kofuku-x16 src=https://kanbun.info/koji/kofuku.html
+  bun: 日出而作日入而息
+  kkd: 日出でて作し　日入りて息う
+id=kofuku-x17 src=https://kanbun.info/koji/kofuku.html
+  bun: 鑿井而飮耕田而食
+  kkd: 井を鑿ちて飲み　田を耕して食う
+id=kofuku-x18 src=https://kanbun.info/koji/kofuku.html
+  bun: 帝力何有於我哉
+  kkd: 帝力何ぞ我に有らんやと
+  (shown 17)
+=== id mobodanki ===
+id=mobodanki-1 src=https://kanbun.info/koji/mobodanki.html
+  bun: 孟子之少也、既學而歸、孟母方織。
+  kkd: 孟子の少きとき、既に学びて帰るに、孟母方に織る。
+id=mobodanki-10 src=https://kanbun.info/koji/mobodanki.html
+  bun: 何以異於織績而食、中道廢而不爲。
+  kkd: 何を以て織績して食するに、中道にして廃して為さざるに異ならんや。
+id=mobodanki-2 src=https://kanbun.info/koji/mobodanki.html
+  bun: 問曰、學何所至矣。
+  kkd: 問いて曰く、学何れに至る所ぞ、と。
+id=mobodanki-3 src=https://kanbun.info/koji/mobodanki.html
+  bun: 孟子曰、自若也。
+  kkd: 孟子曰く、自若たり、と。
+id=mobodanki-4 src=https://kanbun.info/koji/mobodanki.html
+  bun: 孟母以刀斷其織。
+  kkd: 孟母刀を以て其の織を断つ。
+id=mobodanki-5 src=https://kanbun.info/koji/mobodanki.html
+  bun: 孟子懼而問其故。
+  kkd: 孟子懼れて其の故を問う。
+id=mobodanki-6 src=https://kanbun.info/koji/mobodanki.html
+  bun: 孟母曰、子之廢學、若吾斷斯織也。
+  kkd: 孟母曰く、子の学を廃するは、吾の斯の織を断つが若きなり。
+id=mobodanki-7 src=https://kanbun.info/koji/mobodanki.html
+  bun: 夫君子學以立名、問則廣知。
+  kkd: 夫れ君子は学びて以て名を立て、問いて則ち知を広む。
+id=mobodanki-8 src=https://kanbun.info/koji/mobodanki.html
+  bun: 是以居則安寧、動則遠害。
+  kkd: 是を以て居らば則ち安寧、動かば則ち害に遠ざかる。
+id=mobodanki-9 src=https://kanbun.info/koji/mobodanki.html
+  bun: 今而廢之、是不免於廝役、而無以離於禍患也。
+  kkd: 今にして之を廃するは、是れ廝役より免れずして、以て禍患より離るる無きなり。
+id=mobodanki-x11 src=https://kanbun.info/koji/mobodanki.html
+  bun: 寧能衣其夫・子、而長不乏糧食哉。
+  kkd: 寧くんぞ能く其の夫・子に衣せて、長く糧食に乏しからざらしめんや。
+id=mobodanki-x12 src=https://kanbun.info/koji/mobodanki.html
+  bun: 女則廢其所食、男則墮於脩德、不爲竊盗、則爲虜役矣。
+  kkd: 女則ち其の食する所を廃し、男則ち徳を脩むるを堕らば、窃盗を為さずんば、則ち虜役と為らん、と。
+  (shown 12)
+=== id ikken ===
+id=ikken-1 src=https://kanbun.info/koji/ikken.html
+  bun: 諺曰、一犬吠形、百犬吠聲。世之疾、此固久矣哉。
+  kkd: 諺に曰く、一犬形に吠ゆれば、百犬声に吠ゆ、と。世の疾、此れ固より久しいかな。
+  (shown 1)
+=== id == akujisenri-2 ===
+id=akujisenri-2 src=https://kanbun.info/koji/akujisenri.html
+  bun: 洎入相、專托人收拾焚毀不暇。
+  kkd: 入りて相たるに洎び、専ら人に托して収拾し焚毀するに暇あらず。
+  (shown 1)
+=== id == seia-2 ===
+id=seia-2 src=https://kanbun.info/koji/seia.html
+  bun: 夏蟲不可以語於氷者、篤於時也。
+  kkd: 夏虫には以て氷を語る可からざるは、時に篤ければなり。
+  (shown 1)
+=== id == seia-3 ===
+id=seia-3 src=https://kanbun.info/koji/seia.html
+  bun: 曲士不可以語於道者、束於教也。
+  kkd: 曲士は以て道を語る可からざるは、教えに束ねらるればなり。
+  (shown 1)
+=== id == aogitesho-1 ===
+id=aogitesho-1 src=https://kanbun.info/koji/aogitesho.html
+  bun: 仰則觀象於天、俯則法類於地。天則有日月。地則有陰陽。天有五星。地有五行。天則有列宿。地則有州域。三光者、陰陽之精、氣本在地、而聖人統理之。
+  kkd: 仰ぎては則ち象を天に観、俯しては則ち類を地に法る。天には則ち日月有り。地には則ち陰陽有り。天には五星有り。地には五行有り。天には則ち列宿有り。地には則ち州域有り。三光は、陰陽の精にして、気は本地に在り、而して聖人之を統理す。
+  (shown 1)
+=== id == asobunika-1 ===
+id=asobunika-1 src=https://kanbun.info/koji/asobunika.html
+  bun: 子曰、父母在、不遠遊。遊必有方。
+  kkd: 子曰く、父母在せば、遠く遊ばず。遊ぶに必ず方有り。
+  (shown 1)
+=== id == toushisen453-4 ===
+id=toushisen453-4 src=https://kanbun.info/syubu/toushisen453.html
+  bun: 單于公然來牧馬
+  kkd: 単于公然と来って馬を牧す
+  (shown 1)
+=== id == shimen-1 ===
+id=shimen-1 src=https://kanbun.info/koji/shimen.html
+  bun: 項王軍壁垓下。
+  kkd: 項王の軍、垓下に壁す。
+  (shown 1)
+=== id == rongo1115-1 ===
+id=rongo1115-1 src=https://kanbun.info/keibu/rongo1115.html
+  bun: 子貢問、師與商也孰賢。子曰、師也過。商也不及。曰、然則師愈與。子曰、過猶不及。
+  kkd: 子貢問う、師と商と孰れか賢れる。子曰く、師や過ぎたり。商や及ばず。曰く、然らば則ち師愈れるか。子曰く、過ぎたるは猶お及ばざるがごとし。
+  (shown 1)
+=== id == shushu-3 ===
+id=shushu-3 src=https://kanbun.info/koji/shushu.html
+  bun: 因釋其耒而守株、冀復得兎。
+  kkd: 因りて其の耒を釈てて株を守り、復た兎を得んと冀う。
+  (shown 1)
+=== id == chosan-1 ===
+id=chosan-1 src=https://kanbun.info/koji/chosan.html
+  bun: 宋有狙公者。
+  kkd: 宋に狙公なる者有り。
+  (shown 1)
+=== id == ichinenkoku-1 ===
+id=ichinenkoku-1 src=https://kanbun.info/koji/ichinenkoku.html
+  bun: 一年之計、莫如樹穀。十年之計、莫如樹木。終身之計、莫如樹人。
+  kkd: 一年の計は、穀を樹うるに如くは莫し。十年の計は、木を樹うるに如くは莫し。終身の計は、人を樹うるに如くは莫し。
+  (shown 1)
+=== id == mizutsumori-1 ===
+id=mizutsumori-1 src=https://kanbun.info/koji/mizutsumori.html
+  bun: 欲致魚者、先通水、欲致鳥者、先樹木。
+  kkd: 魚を致さんと欲する者は、先ず水を通し、鳥を致さんと欲する者は、先ず木を樹う。
+  (shown 1)
+=== id == gashin-x17 ===
+id=gashin-x17 src=https://kanbun.info/koji/gashin.html
+  bun: 子胥告其家人曰、必樹吾墓檟。
+  kkd: 子胥其の家人に告げて曰く、必ず吾が墓に檟を樹えよ。
+  (shown 1)

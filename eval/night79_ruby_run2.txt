@@ -1,0 +1,25 @@
+######## 何如 : corpus lines=37
+  mujun-4 (https://kanbun.info/koji/mujun.html): 72 ruby pairs
+    何如=いかん
+  toranoi-1 (https://kanbun.info/koji/toranoi.html): 125 ruby pairs
+    何如=いかん
+  ouwotsuge-1 (https://kanbun.info/koji/ouwotsuge.html): 57 ruby pairs
+    何如=いかん
+    如=ごと
+    如=ごと
+    如=ごと
+    如=ごと
+######## 一人 : corpus lines=36
+  dasoku-4 (https://kanbun.info/koji/dasoku.html): 97 ruby pairs
+    舎人=しゃじん
+    舎人=しゃじん
+    数人=すうにん
+    一人=いちにん
+    一人=いちにん
+    一人=いちにん
+  iboku-2 (https://kanbun.info/koji/iboku.html): 64 ruby pairs
+    一人=いちにん
+  rongo1810-1 (https://kanbun.info/keibu/rongo1810.html): 65 ruby pairs
+    一人=いちにん
+
+weblio batch progress: 123

@@ -1,0 +1,107 @@
+{
+ "night": 77,
+ "purpose": "headword-fix corpus hits (冀う / 弐びす) after N77 lexicon fix16",
+ "corpus": "eval/golden_8165.json",
+ "forms": [
+  {
+   "form": "冀ふ",
+   "note": "旧词头（修前，N76 判语料非使用）",
+   "bun_doc_hits": 0,
+   "bun_occ": 0,
+   "kkd_doc_hits": 0,
+   "kkd_occ": 0,
+   "kkd_ids": []
+  },
+  {
+   "form": "冀う",
+   "note": "新词头（修后）",
+   "bun_doc_hits": 0,
+   "bun_occ": 0,
+   "kkd_doc_hits": 1,
+   "kkd_occ": 1,
+   "kkd_ids": [
+    "shushu-3"
+   ]
+  },
+  {
+   "form": "貳す",
+   "note": "旧词头（修前，语料非使用——语料用字形「弐」）",
+   "bun_doc_hits": 0,
+   "bun_occ": 0,
+   "kkd_doc_hits": 0,
+   "kkd_occ": 0,
+   "kkd_ids": []
+  },
+  {
+   "form": "弐びす",
+   "note": "新词头（修后，终止形）",
+   "bun_doc_hits": 0,
+   "bun_occ": 0,
+   "kkd_doc_hits": 0,
+   "kkd_occ": 0,
+   "kkd_ids": []
+  },
+  {
+   "form": "弐びせず",
+   "note": "语料实际形（ayamachifu-1/ikariutsu-1）",
+   "bun_doc_hits": 0,
+   "bun_occ": 0,
+   "kkd_doc_hits": 2,
+   "kkd_occ": 2,
+   "kkd_ids": [
+    "ayamachifu-1",
+    "ikariutsu-1"
+   ]
+  },
+  {
+   "form": "弐びせ",
+   "note": "语料活用词干（对照）",
+   "bun_doc_hits": 0,
+   "bun_occ": 0,
+   "kkd_doc_hits": 2,
+   "kkd_occ": 2,
+   "kkd_ids": [
+    "ayamachifu-1",
+    "ikariutsu-1"
+   ]
+  }
+ ],
+ "find_in_lexicon_probes": [
+  {
+   "id": "shushu-3",
+   "kakikudashi": "因りて其の耒を釈てて株を守り、復た兎を得んと冀う。",
+   "lexicon_hit_words": [
+    "冀う",
+    "釈て",
+    "株",
+    "復",
+    "守"
+   ],
+   "new_headword_hit": true
+  },
+  {
+   "id": "ayamachifu-1",
+   "kakikudashi": "哀公問う、弟子、孰か学を好むと為す。孔子対えて曰く、顔回なる者有り、学を好む。怒りを遷さず、過ちを弐びせず。不幸短命にして死せり。今や則ち亡し。未だ学を好む者を聞かざるなり。",
+   "lexicon_hit_words": [
+    "孰か学を好む",
+    "遷さず",
+    "好む",
+    "問う",
+    "哀公"
+   ],
+   "new_headword_hit": false
+  },
+  {
+   "id": "ikariutsu-1",
+   "kakikudashi": "哀公問う、弟子、孰か学を好むと為す。孔子対えて曰く、顔回なる者有り、学を好む。怒りを遷さず、過ちを弐びせず。不幸短命にして死せり。今や則ち亡し。未だ学を好む者を聞かざるなり。",
+   "lexicon_hit_words": [
+    "孰か学を好む",
+    "遷さず",
+    "好む",
+    "問う",
+    "哀公"
+   ],
+   "new_headword_hit": false
+  }
+ ]
+}
