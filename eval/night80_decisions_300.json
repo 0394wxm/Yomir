@@ -1,0 +1,436 @@
+{
+ "start": 300,
+ "note": "N80 batch6 ranks 300-349: 20 in (18 noun, 2 proper) / 30 out (27 404 fragments, 3 sense-mismatch ichiyo=place/sanyuu=buddhist/joutoku=place)",
+ "decisions": [
+  {
+   "word": "寛則得衆",
+   "rank": 300,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語成句断片「寛則得衆」"
+  },
+  {
+   "word": "慢令致期",
+   "rank": 301,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語四悪段 白文成句断片（慢令致期）"
+  },
+  {
+   "word": "敏則有功",
+   "rank": 302,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語成句断片「敏則有功」"
+  },
+  {
+   "word": "爲而不恃",
+   "rank": 303,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。老子成句断片「為而不恃」"
+  },
+  {
+   "word": "謂之有司",
+   "rank": 304,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。N79 パターン（謂之＋X 構文断片）"
+  },
+  {
+   "word": "冠者五六人",
+   "rank": 305,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語先進成句断片「冠者五六人」"
+  },
+  {
+   "word": "童子六七人",
+   "rank": 306,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語先進成句断片「童子六七人」"
+  },
+  {
+   "word": "不可不察也",
+   "rank": 307,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。孫子成句断片「不可不察也」"
+  },
+  {
+   "word": "則不得其正",
+   "rank": 308,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。大学構文断片「則不得其正」"
+  },
+  {
+   "word": "猶之與人也",
+   "rank": 309,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語構文断片「猶之與人也」"
+  },
+  {
+   "word": "鯉趨而過庭",
+   "rank": 310,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語成句断片「鯉趨而過庭」（過庭の訓 本形404）"
+  },
+  {
+   "word": "君子亦有惡乎",
+   "rank": 311,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語構文断片「君子亦有悪乎」"
+  },
+  {
+   "word": "吾欲以守則固",
+   "rank": 312,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「吾欲以守則固」"
+  },
+  {
+   "word": "堯舜其猶病諸",
+   "rank": 313,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語成句断片「堯舜其猶病諸」"
+  },
+  {
+   "word": "惡勇而無禮者",
+   "rank": 314,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語陽貨「悪」列挙構文断片"
+  },
+  {
+   "word": "惡徼以爲知者",
+   "rank": 315,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語陽貨「悪」列挙構文断片"
+  },
+  {
+   "word": "惡果敢而窒者",
+   "rank": 316,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語陽貨「悪」列挙構文断片"
+  },
+  {
+   "word": "惡称人之惡者",
+   "rank": 317,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語陽貨「悪」列挙構文断片"
+  },
+  {
+   "word": "惡訐以爲直者",
+   "rank": 318,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語陽貨「悪」列挙構文断片"
+  },
+  {
+   "word": "賜也亦有惡乎",
+   "rank": 319,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語構文断片「賜也亦有悪乎」"
+  },
+  {
+   "word": "長七尺五寸以上",
+   "rank": 320,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。六韜選士法構文断片「長七尺五寸以上」"
+  },
+  {
+   "word": "惡不孫以爲勇者",
+   "rank": 321,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語陽貨「悪」列挙構文断片"
+  },
+  {
+   "word": "惡居下流而訕上者",
+   "rank": 322,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語陽貨「悪」列挙構文断片"
+  },
+  {
+   "word": "一匡",
+   "rank": 323,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「一匡」（一匡天下）"
+  },
+  {
+   "word": "一夜",
+   "rank": 324,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いちや",
+   "meaning": "一夜。一晩。",
+   "dict_evidence": "weblio デジタル大辞泉「いち‐や【一夜】読み方：いちや」（別読み ひとよ あり）（cand_324_一夜.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen378-4「風吹いて一夜関山に満つ」"
+  },
+  {
+   "word": "一字",
+   "rank": 325,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いちじ",
+   "meaning": "一字。一つの文字。",
+   "dict_evidence": "weblio デジタル大辞泉「いち‐じ【一字】読み方：いちじ」（cand_325_一字.txt）",
+   "corpus_evidence": "golden_8165 3行。例 ichiji-4「其の上に懸け、諸侯の游士賓客を延く、能く一字を増損する者有らば、千金」"
+  },
+  {
+   "word": "一杯",
+   "rank": 326,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いっぱい",
+   "meaning": "一杯。器に一杯の量。一度の分量。",
+   "dict_evidence": "weblio デジタル大辞泉「いっ‐ぱい【一杯】読み方：いっぱい」（別読み ひとはた あり）（cand_326_一杯.txt）",
+   "corpus_evidence": "golden_8165 3行。例 genji-3「君に勧む更に尽くせ一杯の酒」"
+  },
+  {
+   "word": "一枝",
+   "rank": 327,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区は地名辞典のみ（イチエダ 地名＝別義）＋機械生成区。語料「一枝に過ぎず」sense の国語辞書条目なし——N79 東流 先例の sense-mismatch 排除"
+  },
+  {
+   "word": "一行",
+   "rank": 328,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いちぎょう・いっこう",
+   "meaning": "一行。書物や文の一つの行。連なって一つに並ぶもの。",
+   "dict_evidence": "weblio デジタル大辞泉「いち‐ぎょう〔‐ギヤウ〕【一行】読み方：いちぎょう」（別読み いっこう・ひとくだり あり）（cand_328_一行.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen357-2「故人那んぞ惜しむ一行の書」"
+  },
+  {
+   "word": "一身",
+   "rank": 329,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いっしん",
+   "meaning": "一身。一個の身体。自分自身。",
+   "dict_evidence": "weblio デジタル大辞泉「いっ‐しん【一身】読み方：いっしん」（cand_329_一身.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen009-1「一身軽舟と為る」"
+  },
+  {
+   "word": "一騎",
+   "rank": 330,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いっき",
+   "meaning": "一騎。騎馬一つ。騎兵一名。",
+   "dict_evidence": "weblio デジタル大辞泉「いっ‐き【一騎】読み方：いっき」（cand_330_一騎.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou55-1「歩卒か一車に当る。騎を以て歩卒と戦わば、一騎は幾歩卒に当り、幾歩卒か」"
+  },
+  {
+   "word": "七十",
+   "rank": 331,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しちじゅう",
+   "meaning": "七十。年齢・数。",
+   "dict_evidence": "weblio デジタル大辞泉「しち‐じゅう〔‐ジフ〕【七十】読み方：しちじゅう」（別読み ななそ・ななそじ あり）（cand_331_七十.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo0204-1「五十にして天命を知る。六十にして耳順う。七十にして心の欲する所に従え」"
+  },
+  {
+   "word": "万乗",
+   "rank": 332,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ばんじょう",
+   "meaning": "万乗。天子の位・天子の国（万乗の主・万乗の卿）。",
+   "dict_evidence": "weblio デジタル大辞泉「ばん‐じょう【万乗】読み方：ばんじょう」（cand_332_万乗.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kotaku-3「千乗の君なり。子を以て我が使者と為さば、万乗の卿なり。子、我が舎人と」"
+  },
+  {
+   "word": "万仞",
+   "rank": 333,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ばんじん",
+   "meaning": "万仞。非常に高いことのたとえ。",
+   "dict_evidence": "weblio デジタル大辞泉「ばん‐じん【万尋／万×仞】読み方：ばんじん」（cand_333_万仞.txt）",
+   "corpus_evidence": "golden_8165 3行。例 p-guko-1「太行・王屋の二山は、方七百里、高さ万仞。本冀州の南、河陽の北に在り。」"
+  },
+  {
+   "word": "万古",
+   "rank": 334,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ばんこ",
+   "meaning": "万古。永遠の昔から後まで。長い年月。",
+   "dict_evidence": "weblio デジタル大辞泉「ばん‐こ【万古】読み方：ばんこ」（cand_334_万古.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen011-18「万古青濛濛たり」"
+  },
+  {
+   "word": "万歳",
+   "rank": 335,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ばんざい・ばんぜい",
+   "meaning": "万歳。長寿の祝語。また死後の婉曲表現（万歳の後）。",
+   "dict_evidence": "weblio デジタル大辞泉「ばん‐ざい【万歳】読み方：ばんざい」（別読み ばんぜい・まんざい あり）（cand_335_万歳.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kanpeki4k-3「、伝えて以て美人及び左右に示す。左右皆な万歳と呼ぶ。」"
+  },
+  {
+   "word": "万民",
+   "rank": 336,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ばんみん",
+   "meaning": "万民。多くの民。すべての民。",
+   "dict_evidence": "weblio デジタル大辞泉「ばん‐みん【万民】読み方：ばんみん」（cand_336_万民.txt）",
+   "corpus_evidence": "golden_8165 3行。例 goshi01-1「呉子曰く、昔の国家を図る者は、必ず先ず百姓を教え、而して万民を親しむ」"
+  },
+  {
+   "word": "万重",
+   "rank": 337,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「万重」（意万重・万重の煙）"
+  },
+  {
+   "word": "三代",
+   "rank": 338,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さんだい",
+   "meaning": "三代。夏・殷・周の三王朝。また祖父・父・子の三代。",
+   "dict_evidence": "weblio デジタル大辞泉「さん‐だい【三代】読み方：さんだい」（別読み ミシロ あり）（cand_338_三代.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo1524-1「所有る者は、其れ試むる所有り。斯の民や、三代の直道にして行う所以なり」"
+  },
+  {
+   "word": "三峡",
+   "rank": 339,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "さんきょう",
+   "meaning": "三峡。長江（揚子江）上流の瞿塘峡・巫峡・西陵峡の総称。",
+   "dict_evidence": "weblio デジタル大辞泉「さん‐きょう〔‐ケフ〕【三峡】読み方：さんきょう」（cand_339_三峡.txt）",
+   "corpus_evidence": "golden_8165 3行。例 p-dancho-1「桓公蜀に入り、三峡の中に至る。」"
+  },
+  {
+   "word": "三春",
+   "rank": 340,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さんしゅん",
+   "meaning": "三春。春の三ヶ月。",
+   "dict_evidence": "weblio デジタル大辞泉「さん‐しゅん【三春】読み方：さんしゅん」（別読み みはる＝地名 は別義）（cand_340_三春.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen076-3「三春時に雁有るも」"
+  },
+  {
+   "word": "三有",
+   "rank": 341,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 条目は仏教語「三有」＝別義。語料は「十に三有り」数え構文——N79 諸有 先例の sense-mismatch 排除"
+  },
+  {
+   "word": "三歳",
+   "rank": 342,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "みとせ",
+   "meaning": "三歳。三年。",
+   "dict_evidence": "weblio デジタル大辞泉「み‐とせ【三▽年／三▽歳】読み方：みとせ」（詩経訓読伝統読み）（cand_342_三歳.txt）",
+   "corpus_evidence": "golden_8165 3行。例 ichijitsuse-3「彼の艾を采らん一日見わざれば三歳の如し」"
+  },
+  {
+   "word": "三舎",
+   "rank": 343,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さんしゃ",
+   "meaning": "三舎。軍行一日の行程三十里。退避の意（三舎を避く）。",
+   "dict_evidence": "weblio デジタル大辞泉「さん‐しゃ【三舎】読み方：さんしゃ」（cand_343_三舎.txt）",
+   "corpus_evidence": "golden_8165 3行。例 sansha-1「若し君の霊を以て、晋国に反るを得、晋・楚兵を治めて中原に遇わば、其れ」"
+  },
+  {
+   "word": "上徳",
+   "rank": 344,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区は地名辞典のみ（カミトク）＝別義。語料は老子「上徳無為」哲学用語、該当条目なし——sense-mismatch 排除"
+  },
+  {
+   "word": "上林",
+   "rank": 345,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "じょうりん",
+   "meaning": "上林。漢の宮苑上林苑（長安西）。漢詩に多用される宮廷苑園名。",
+   "dict_evidence": "weblio デジタル大辞泉「じょう‐りん〔ジヤウ‐〕【上林】読み方：じょうりん」（姓氏読み ウエバヤシ等 は別義）（cand_345_上林.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen218-1「二月黄鸝上林に飛び」"
+  },
+  {
+   "word": "上皇",
+   "rank": 346,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じょうこう",
+   "meaning": "上皇。位を退いた天皇・太上皇。また君主の父。",
+   "dict_evidence": "weblio デジタル大辞泉「じょう‐こう〔ジヤウクワウ〕【上皇】読み方：じょうこう」（cand_346_上皇.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen431-3「長に説く上皇涙を垂れて教えしを」"
+  },
+  {
+   "word": "上礼",
+   "rank": 347,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。老子構文断片「上礼を好めば」（上徳・上義・上礼 系列）"
+  },
+  {
+   "word": "上賞",
+   "rank": 348,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「上賞を蒙る」"
+  },
+  {
+   "word": "不信",
+   "rank": 349,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ふしん",
+   "meaning": "不信。信じないこと。疑うこと。",
+   "dict_evidence": "weblio デジタル大辞泉「ふ‐しん【不信】読み方：ふしん」（cand_349_不信.txt）",
+   "corpus_evidence": "golden_8165 3行。例 itsuwarimu-1「子曰く、詐りを逆えず、不信を億らず。抑〻亦た先ず覚る者は、是れ賢か。」"
+  }
+ ]
+}

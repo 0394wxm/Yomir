@@ -1,0 +1,356 @@
+{
+ "start": 900,
+ "note": "N82 batch rank 900-949: 0 in (noun 0/proper 0/verb 0/modifier 0/function 0) / 50 out",
+ "decisions": [
+  {
+   "word": "材士強弩",
+   "rank": 900,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「材士強弩は伏兵と為し」＝六韜の並列構文——N80 白文成句 先例。"
+  },
+  {
+   "word": "豪傑英俊",
+   "rank": 901,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「豪傑英俊、堅甲利兵」＝並列構文——N80 白文成句 先例。"
+  },
+  {
+   "word": "一匡天下",
+   "rank": 902,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「一匡天下」——N80 白文成句 先例（N80 で「一匡」も排除済み）。"
+  },
+  {
+   "word": "不可則止",
+   "rank": 903,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「不可則止」——N80 白文成句 先例。"
+  },
+  {
+   "word": "以臨其民",
+   "rank": 904,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「以臨其民」——N80 白文成句 先例。"
+  },
+  {
+   "word": "何謂五美",
+   "rank": 905,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「何謂五美」——N80 白文成句 先例。"
+  },
+  {
+   "word": "使於四方",
+   "rank": 906,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「使於四方」——N80 白文成句 先例。"
+  },
+  {
+   "word": "其爲氣也",
+   "rank": 907,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「其爲氣也」——N80 白文成句 先例。"
+  },
+  {
+   "word": "凡此六者",
+   "rank": 908,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「凡此六者」＝数え構文——N80 先例。"
+  },
+  {
+   "word": "則如之何",
+   "rank": 909,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「則如之何」——N80 白文成句 先例。"
+  },
+  {
+   "word": "勝之半也",
+   "rank": 910,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「勝之半也」——N80 白文成句 先例。"
+  },
+  {
+   "word": "勿施於人",
+   "rank": 911,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「勿施於人」（己所不欲、勿施於人）——N80 白文成句 先例。"
+  },
+  {
+   "word": "卒遇敵人",
+   "rank": 912,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「卒遇敵人」——N80 白文成句 先例。"
+  },
+  {
+   "word": "可謂士矣",
+   "rank": 913,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「可謂士矣」——N80 白文成句 先例。"
+  },
+  {
+   "word": "執者失之",
+   "rank": 914,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「執者失之」——N80 白文成句 先例。"
+  },
+  {
+   "word": "如五六十",
+   "rank": 915,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「如五六十」＝数え構文——N80 先例。"
+  },
+  {
+   "word": "如切如磋",
+   "rank": 916,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「如切如磋」（詩経）——N80 白文成句 先例。"
+  },
+  {
+   "word": "如琢如磨",
+   "rank": 917,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「如琢如磨」（詩経）——N80 白文成句 先例。"
+  },
+  {
+   "word": "子張問曰",
+   "rank": 918,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「子張問曰く」＝X-yune 系（N79 実証済み）。"
+  },
+  {
+   "word": "子畏於匡",
+   "rank": 919,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「子畏於匡」——N80 白文成句 先例。"
+  },
+  {
+   "word": "子路問曰",
+   "rank": 920,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「子路問曰く」＝X-yune 系（N79 実証済み）。"
+  },
+  {
+   "word": "己所不欲",
+   "rank": 921,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「己所不欲」——N80 白文成句 先例。"
+  },
+  {
+   "word": "微哉微哉",
+   "rank": 922,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「微哉微哉」——N80 白文成句 先例。"
+  },
+  {
+   "word": "故能長生",
+   "rank": 923,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「故能長生」——N80 白文成句 先例。"
+  },
+  {
+   "word": "日費千金",
+   "rank": 924,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「日費千金」——N80 白文成句 先例。"
+  },
+  {
+   "word": "是謂玄德",
+   "rank": 925,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「是謂玄德」——N80 白文成句 先例。"
+  },
+  {
+   "word": "有顏回者",
+   "rank": 926,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「有顏回者」＝X+ari 系。"
+  },
+  {
+   "word": "樊遲問仁",
+   "rank": 927,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「樊遅問仁」——N80 白文成句 先例。"
+  },
+  {
+   "word": "欲而不貪",
+   "rank": 928,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「欲而不貪」——N80 白文成句 先例。"
+  },
+  {
+   "word": "武王伐紂",
+   "rank": 929,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「武王伐紂」——N80 白文成句 先例。"
+  },
+  {
+   "word": "比及三年",
+   "rank": 930,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「比及三年」——N80 白文成句 先例。"
+  },
+  {
+   "word": "泰而不驕",
+   "rank": 931,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「泰而不驕」——N80 白文成句 先例。"
+  },
+  {
+   "word": "深溝高壘",
+   "rank": 932,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「深溝高壘」——N80 白文成句 先例。"
+  },
+  {
+   "word": "爲者敗之",
+   "rank": 933,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「爲者敗之」（老子）——N80 白文成句 先例。"
+  },
+  {
+   "word": "爲臣不易",
+   "rank": 934,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「爲臣不易」——N80 白文成句 先例。"
+  },
+  {
+   "word": "王之問也",
+   "rank": 935,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「王之問也」——N80 白文成句 先例。"
+  },
+  {
+   "word": "生而不有",
+   "rank": 936,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「生而不有」（老子）——N80 白文成句 先例。"
+  },
+  {
+   "word": "百乘之家",
+   "rank": 937,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「百乘之家」＝数え構文——N80 先例。"
+  },
+  {
+   "word": "至於無形",
+   "rank": 938,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「至於無形」——N80 白文成句 先例。"
+  },
+  {
+   "word": "與敵相當",
+   "rank": 939,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「與敵相當」——N80 白文成句 先例。"
+  },
+  {
+   "word": "請問其目",
+   "rank": 940,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「請問其目」——N80 白文成句 先例。"
+  },
+  {
+   "word": "隱居放言",
+   "rank": 941,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「隱居放言」——N80 白文成句 先例（放言 は本夜 rank565 入库済み）。"
+  },
+  {
+   "word": "靖再拜曰",
+   "rank": 942,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「靖再拝して曰く」＝X-yune 系。"
+  },
+  {
+   "word": "今由與求也",
+   "rank": 943,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「今由與求也」——N80 白文成句 先例。"
+  },
+  {
+   "word": "他日又獨立",
+   "rank": 944,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「他日又獨立」——N80 白文成句 先例。"
+  },
+  {
+   "word": "因是而知之",
+   "rank": 945,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「因是而知之」——N80 白文成句 先例。"
+  },
+  {
+   "word": "子謂顏淵曰",
+   "rank": 946,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「子謂顏淵曰く」＝X-yune 系。"
+  },
+  {
+   "word": "廣一丈五尺",
+   "rank": 947,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「廣一丈五尺」＝数え構文——N80 先例。"
+  },
+  {
+   "word": "我則異於是",
+   "rank": 948,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「我則異於是」——N80 白文成句 先例。"
+  },
+  {
+   "word": "故去彼取此",
+   "rank": 949,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「故去彼取此」（老子）——N80 白文成句 先例。"
+  }
+ ]
+}

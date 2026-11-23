@@ -1,0 +1,492 @@
+{
+ "start": 450,
+ "note": "N80 batch9 ranks 450-499: 34 in (27 noun, 2 modifier, 5 proper) / 16 out (8 404 fragments, 2 machine/wikipedia-only, 4 sense-mismatch jouten-tenjou/oshiyuu/koeppen/oozawa-ooara, 2 wikipedia-conservative)",
+ "decisions": [
+  {
+   "word": "地下",
+   "rank": 450,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ちか・じげ",
+   "meaning": "地の下。転じて死者のいる世界（黄泉）。地下人・地下の身分。",
+   "dict_evidence": "weblio デジタル大辞泉「じ‐げ〔ヂ‐〕【地下】」両読み じげ・ちか；語料「地下に遊ぶを得ば」＝黄泉義 ちか 前頭（cand_450_地下.txt）",
+   "corpus_evidence": "golden_8165 3行。例 sekkan-1「雲呼びて曰く、臣、下竜逢・比干に従いて、地下に遊ぶを得ば、足る。未だ」"
+  },
+  {
+   "word": "坐中",
+   "rank": 451,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「玉帳の佳人坐中に老ゆ」（坐＋中）"
+  },
+  {
+   "word": "垂楊",
+   "rank": 452,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "すいよう",
+   "meaning": "枝垂れる柳。垂楊柳。",
+   "dict_evidence": "weblio デジタル大辞泉「すい‐よう〔‐ヤウ〕【垂×楊】読み方：すいよう」（cand_452_垂楊.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen374-1「花は垂楊に映じて漢水清く」"
+  },
+  {
+   "word": "城南",
+   "rank": 453,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じょうなん",
+   "meaning": "城の南。城南。",
+   "dict_evidence": "weblio デジタル大辞泉「じょう‐なん〔ジヤウ‐〕【城南】読み方：じょうなん」（cand_453_城南.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen105-1「城南虜已に合し」"
+  },
+  {
+   "word": "城堅",
+   "rank": 454,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「城堅くして厚く」（城＋堅し）"
+  },
+  {
+   "word": "城辺",
+   "rank": 455,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=名字辞典のみ（城辺＝日本の姓）＝別義。語料「黄雲城辺」＝城のほとり——N79 東流 先例 sense-mismatch 排除"
+  },
+  {
+   "word": "城邑",
+   "rank": 456,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じょうゆう",
+   "meaning": "城と邑。都市。",
+   "dict_evidence": "weblio デジタル大辞泉「じょう‐ゆう〔ジヤウイフ〕【城×邑】読み方：じょうゆう」（cand_456_城邑.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kanpeki4k-7「に伝え、以て臣を戯弄す。臣、大王の趙王に城邑を償うに意無きを観、故に」"
+  },
+  {
+   "word": "城闕",
+   "rank": 457,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じょうけつ",
+   "meaning": "城と宮殿の楼閣。都の宮城。",
+   "dict_evidence": "weblio デジタル大辞泉「じょう‐けつ〔ジヤウ‐〕【城×闕】読み方：じょうけつ」（cand_457_城闕.txt）",
+   "corpus_evidence": "golden_8165 3行。例 shikyo_shikin-8「城闕に在り」"
+  },
+  {
+   "word": "城頭",
+   "rank": 458,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じょうとう",
+   "meaning": "城壁の上。城の上。",
+   "dict_evidence": "weblio デジタル大辞泉「じょう‐とう〔ジヤウ‐〕【城頭】読み方：じょうとう」（cand_458_城頭.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen404-2「夢後城頭暁角哀し」"
+  },
+  {
+   "word": "堅強",
+   "rank": 459,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "けんきょう",
+   "meaning": "堅くて強いこと。丈夫なこと。",
+   "dict_evidence": "weblio デジタル大辞泉「けん‐きょう〔‐キヤウ〕【堅強】読み方：けんきょう」（cand_459_堅強.txt）",
+   "corpus_evidence": "golden_8165 3行。例 roushi76-1「人の生くるや柔弱、其の死するや堅強。万物草木の生くるや柔脆、其の死す」"
+  },
+  {
+   "word": "壮士",
+   "rank": 460,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "そうし",
+   "meaning": "元気のよい男。勇ましい武士。",
+   "dict_evidence": "weblio デジタル大辞泉「そう‐し〔サウ‐〕【壮士】読み方：そうし」（cand_460_壮士.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen005-3「滄海に壮士を得て」"
+  },
+  {
+   "word": "変動",
+   "rank": 461,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "へんどう",
+   "meaning": "変わり動くこと。情勢の変化。",
+   "dict_evidence": "weblio デジタル大辞泉「へん‐どう【変動】読み方：へんどう」（cand_461_変動.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou42-2「人事を知り、高きに登り下望して、以て敵の変動を観る。其の塁を望めば則」"
+  },
+  {
+   "word": "多病",
+   "rank": 462,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "たびょう",
+   "meaning": "病気がちなこと。病気を多く病むこと。",
+   "dict_evidence": "weblio デジタル大辞泉「た‐びょう〔‐ビヤウ〕【多病】読み方：たびょう」（cand_462_多病.txt）",
+   "corpus_evidence": "golden_8165 3行。例 koson_toho-7「多病須つ所は唯だ薬物」"
+  },
+  {
+   "word": "夢裏",
+   "rank": 463,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "むり",
+   "meaning": "夢の中。夢のうち。",
+   "dict_evidence": "weblio デジタル大辞泉「む‐り【夢×裡／夢裏】読み方：むり」（cand_463_夢裏.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen340-3「愁いて清猿の夢裏に長きを聴かんことを」"
+  },
+  {
+   "word": "大倫",
+   "rank": 464,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいりん",
+   "meaning": "人倫の大道。君臣・父子などの大きな道。",
+   "dict_evidence": "weblio デジタル大辞泉「たい‐りん【大倫】読み方：たいりん」（cand_464_大倫.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo1807-1「其れ之を廃せん。其の身を絜くせんと欲して大倫を乱る。君子の仕うるや、」"
+  },
+  {
+   "word": "大功",
+   "rank": 465,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいこう",
+   "meaning": "大きな功績。国に対する大いなる功。",
+   "dict_evidence": "weblio デジタル大辞泉「たい‐こう【大功】読み方：たいこう」（cand_465_大功.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen025-4「人と心を一にして大功を成せり」"
+  },
+  {
+   "word": "大徳",
+   "rank": 466,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "だいとく",
+   "meaning": "大きな徳。",
+   "dict_evidence": "weblio デジタル大辞泉「だい‐とく【大徳】読み方：だいとく」（別読み だいとこ あり）（cand_466_大徳.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kyujinnoko-1「嗚呼、夙夜勤めざる或る罔かれ。細行を矜まざれば、終に大徳を累わす。山」"
+  },
+  {
+   "word": "大数",
+   "rank": 467,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいすう",
+   "meaning": "おおまかな数。全体の数。",
+   "dict_evidence": "weblio デジタル大辞泉「たい‐すう【大数】読み方：たいすう」（cand_467_大数.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou31-2「は之を聞かん。太公曰く、凡そ兵を用うるの大数、甲士万人を将いるに、法」"
+  },
+  {
+   "word": "大沢",
+   "rank": 468,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=河川・湖沼名辞典のみ（オオサワ＝日本地名）。語料は陳渉大沢郷・大きな沼——sense-mismatch 排除"
+  },
+  {
+   "word": "大荒",
+   "rank": 469,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=地名辞典のみ（オオアラ＝日本地名）。語料「平沙落日大荒の西」＝広大な荒野——sense-mismatch 排除"
+  },
+  {
+   "word": "大象",
+   "rank": 470,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=Wikipedia のみ（老子「大象無形」哲学語）。N79 待拍板路子本夜未承認のため保守排除"
+  },
+  {
+   "word": "天上",
+   "rank": 471,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "てんじょう",
+   "meaning": "空の上。天の世界。",
+   "dict_evidence": "weblio デジタル大辞泉「てん‐じょう〔‐ジヤウ〕【天上】読み方：てんじょう」（cand_471_天上.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen236-3「美人天上より落ち」"
+  },
+  {
+   "word": "天井",
+   "rank": 472,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：dict=天井（部屋の上の面・相場高値・成長阻害）＝建物義のみ；語料は孫子地形語（四方高く中央低き地）——大辞泉条目にも地形義なし"
+  },
+  {
+   "word": "天羅",
+   "rank": 473,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。孫子地形語「天牢・天羅」（条目なし）"
+  },
+  {
+   "word": "天運",
+   "rank": 474,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "てんうん",
+   "meaning": "天の運行。天命。自然の運命。",
+   "dict_evidence": "weblio デジタル大辞泉「てん‐うん【天運】読み方：てんうん」（cand_474_天運.txt）",
+   "corpus_evidence": "golden_8165 3行。例 daigaku00a-30「天運の循環、往いて復らざる無し。」"
+  },
+  {
+   "word": "天門",
+   "rank": 475,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "てんもん",
+   "meaning": "天の門。天宮の門。",
+   "dict_evidence": "weblio デジタル大辞泉「てん‐もん【天門】読み方：てんもん」（cand_475_天門.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen155-4「竜は天門に向かって紫微に入る」"
+  },
+  {
+   "word": "天風",
+   "rank": 476,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "てんぷう",
+   "meaning": "空から吹く風。天が吹かせる風。",
+   "dict_evidence": "weblio デジタル大辞泉「てん‐ぷう【天風】読み方：てんぷう」（cand_476_天風.txt）",
+   "corpus_evidence": "golden_8165 3行。例 uminiuka-4「月明錫を飛ばして天風に下る」"
+  },
+  {
+   "word": "太上",
+   "rank": 477,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいじょう",
+   "meaning": "この上なくすぐれたこと。最上。また太古・天地の始まり。",
+   "dict_evidence": "weblio デジタル大辞泉「たい‐じょう〔‐ジヤウ〕【太上】読み方：たいじょう」（cand_477_太上.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kyugyu-4「太上は先を辱めず、其の次は身を辱めず、其の次は理色を辱めず、其の次は」"
+  },
+  {
+   "word": "太宗",
+   "rank": 478,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "たいそう",
+   "meaning": "廟号。唐代第二帝太宗（李世民）など歴代の太宗。",
+   "dict_evidence": "weblio デジタル大辞泉「たい‐そう【太宗】読み方：たいそう」（cand_478_太宗.txt）",
+   "corpus_evidence": "golden_8165 3行。例 sogyoyasu-1「貞観十年、太宗、侍臣に謂いて曰く、帝王の業、草創と守成と、孰れか難き」"
+  },
+  {
+   "word": "太山",
+   "rank": 479,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "たいざん",
+   "meaning": "泰山。山東省の岱宗。「太山より重し」と重さのたとえに用いる。",
+   "dict_evidence": "weblio デジタル大辞泉「たい‐ざん【大山／太山】読み方：たいざん」（cand_479_太山.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kyugyu-3「人固より一死有り、或いは太山より重く、或いは鴻毛より軽し。用の趨く所」"
+  },
+  {
+   "word": "太廟",
+   "rank": 480,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio OK だがウィキペディア小見出し辞書（機械生成区）のみ。太廟＝天子の宗廟、条目なし"
+  },
+  {
+   "word": "太行",
+   "rank": 481,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。太行・王屋＝山名、辞書条目なし"
+  },
+  {
+   "word": "夷狄",
+   "rank": 482,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いてき",
+   "meaning": "夷と狄。四方の異民族の呼称。未開の異族。",
+   "dict_evidence": "weblio デジタル大辞泉「い‐てき【×夷×狄】読み方：いてき」（cand_482_夷狄.txt）",
+   "corpus_evidence": "golden_8165 3行。例 itekikimi-1「子曰く、夷狄の君有るは、諸夏の亡きに如かず。」"
+  },
+  {
+   "word": "如今",
+   "rank": 483,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「如今」（今に至るまで 义の接続語）"
+  },
+  {
+   "word": "妻子",
+   "rank": 484,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さいし",
+   "meaning": "妻と子。妻子眷属。",
+   "dict_evidence": "weblio デジタル大辞泉「さい‐し【妻子】読み方：さいし」（条目内 古読み つまこ・めこ あり）（cand_484_妻子.txt）",
+   "corpus_evidence": "golden_8165 3行。例 hisomi-1「見、堅く門を閉じて出でず。貧人は之を見、妻子を挈げて之を去りて走る。」"
+  },
+  {
+   "word": "娼家",
+   "rank": 485,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しょうか",
+   "meaning": "遊女のいる家。妓楼。",
+   "dict_evidence": "weblio デジタル大辞泉「しょう‐か〔シヤウ‐〕【×娼家】読み方：しょうか」（cand_485_娼家.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen016-33「共に宿る娼家桃李の蹊」"
+  },
+  {
+   "word": "子有",
+   "rank": 486,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：dict=子有（しゆう）＝孔子弟子冉求の字（人名）；語料「子有りて存す」＝子＋有り 構文断片——N79 東流 先例"
+  },
+  {
+   "word": "孔丘",
+   "rank": 487,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "こうきゅう",
+   "meaning": "孔子の諱。孔丘（仲尼）。",
+   "dict_evidence": "weblio デジタル大辞泉「こう‐きゅう〔‐キウ〕【孔丘】読み方：こうきゅう」（cand_487_孔丘.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo1806-1「く、夫の輿を執る者は誰と為す。子路曰く、孔丘と為す。曰く、是れ魯の孔」"
+  },
+  {
+   "word": "学問",
+   "rank": 488,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "がくもん",
+   "meaning": "学んで問うこと。学業。学識。",
+   "dict_evidence": "weblio デジタル大辞泉「がく‐もん【学問】読み方：がくもん」（cand_488_学問.txt）",
+   "corpus_evidence": "golden_8165 3行。例 p-dongaku-1「学問に利鈍有り、文章に巧拙有り。学に鈍なるも功を累ぬれば、精熟を妨げ」"
+  },
+  {
+   "word": "孫呉",
+   "rank": 489,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "そんご",
+   "meaning": "孫子（孫武）と呉子（呉起）の併称。兵法の聖典の代称。",
+   "dict_evidence": "weblio デジタル大辞泉「そん‐ご【孫呉】読み方：そんご」（cand_489_孫呉.txt）",
+   "corpus_evidence": "golden_8165 3行。例 montai02-9「太宗曰く、霍去病、暗に孫呉と合す。誠に是れ有るかな。」"
+  },
+  {
+   "word": "孫武",
+   "rank": 490,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "そんぶ",
+   "meaning": "春秋時代の呉の将軍・兵法家孫武（孫子）。",
+   "dict_evidence": "weblio デジタル大辞泉「そん‐ぶ【孫武】読み方：そんぶ」（cand_490_孫武.txt）",
+   "corpus_evidence": "golden_8165 3行。例 montai04-6「孫武が所謂、人を形せしめて我に形無しとは、此れ乃ち奇正の極致なり。是」"
+  },
+  {
+   "word": "守成",
+   "rank": 491,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しゅせい",
+   "meaning": "先人の成した業を守り保つこと（草創と対になる語）。",
+   "dict_evidence": "weblio デジタル大辞泉「しゅ‐せい【守成】読み方：しゅせい」（cand_491_守成.txt）",
+   "corpus_evidence": "golden_8165 3行。例 sogyoyasu-1「貞観十年、太宗、侍臣に謂いて曰く、帝王の業、草創と守成と、孰れか難き」"
+  },
+  {
+   "word": "安危",
+   "rank": 492,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "あんき",
+   "meaning": "安泰と危難。",
+   "dict_evidence": "weblio デジタル大辞泉「あん‐き【安危】読み方：あんき」（cand_492_安危.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou18-4「謀士五人、安危を図り、未萌を慮り、行能を論じ、賞罰を明らかにし、官位」"
+  },
+  {
+   "word": "実無",
+   "rank": 493,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「実無し」"
+  },
+  {
+   "word": "客心",
+   "rank": 494,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "かくしん・きゃくしん",
+   "meaning": "旅人の心。異郷に身を寄せる者の心。",
+   "dict_evidence": "weblio デジタル大辞泉「かく‐しん【客心】読み方：かくしん」（別読み きゃくしん）；漢詩訓読＝かくしん 前頭（cand_494_客心.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen377-2「客心何事ぞ転た悽然」"
+  },
+  {
+   "word": "宣言",
+   "rank": 495,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せんげん",
+   "meaning": "広く言いふらすこと。公開にはっきり言い表すこと。",
+   "dict_evidence": "weblio デジタル大辞泉「せん‐げん【宣言】読み方：せんげん」（cand_495_宣言.txt）",
+   "corpus_evidence": "golden_8165 3行。例 p-funkei-8「宣言して曰く、我相如を見ば、必ず之を辱めん、と。」"
+  },
+  {
+   "word": "宮牆",
+   "rank": 496,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語構文「之を宮牆に譬うれば」（宮牆＝夫子の墻、条目なし）"
+  },
+  {
+   "word": "宰我",
+   "rank": 497,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=Wikipedia のみ（宰我＝孔子弟子 专名）。N79 待拍板路子本夜未承認のため保守排除"
+  },
+  {
+   "word": "家書",
+   "rank": 498,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "かしょ",
+   "meaning": "家族に宛てた手紙。家の書物。",
+   "dict_evidence": "weblio デジタル大辞泉「か‐しょ【家書】読み方：かしょ」（cand_498_家書.txt）",
+   "corpus_evidence": "golden_8165 3行。例 keishinite-2「家書十五行」"
+  },
+  {
+   "word": "家残",
+   "rank": 499,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「家残われ」（家＋残る）"
+  }
+ ]
+}

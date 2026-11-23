@@ -1,0 +1,480 @@
+{
+ "start": 650,
+ "note": "N82 batch rank 650-699: 31 in (noun 28/proper 1/verb 1/modifier 1/function 0) / 19 out",
+ "decisions": [
+  {
+   "word": "犬馬",
+   "rank": 650,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "けんば",
+   "meaning": "犬と馬。転じて己を謙そる語（犬馬の心）。論語「犬馬に至るまで皆能く養うこと有り」。",
+   "dict_evidence": "weblio デジタル大辞泉；けん‐ば【犬馬】；読み方：けんば（cand_650_犬馬.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kenbanoya-1「子游、孝を問う。子曰く、今の孝は、是れ能く養うを謂う。犬馬に至るまで、皆能く養うこと有り。敬せずんば、何を以て別たんや。」"
+  },
+  {
+   "word": "狂夫",
+   "rank": 651,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。呼称「狂夫」——N79/N80 呼称部 先例。"
+  },
+  {
+   "word": "玉壺",
+   "rank": 652,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ぎょっこ",
+   "meaning": "玉の壺。王昌齢「一片の氷心玉壺に在り」。",
+   "dict_evidence": "weblio デジタル大辞泉；ぎょっ‐こ〔ギヨク‐〕【玉×壺】；読み方：ぎょっこ（cand_652_玉壺.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen338-4「一片の氷心玉壺に在り」"
+  },
+  {
+   "word": "王公",
+   "rank": 653,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "おうこう",
+   "meaning": "王と公。天子と諸侯。礼記「王公より以下、庶人の子弟に至るまで」。",
+   "dict_evidence": "weblio デジタル大辞泉；おう‐こう〔ワウ‐〕【王公】；読み方：おうこう（cand_653_王公.txt）",
+   "corpus_evidence": "golden_8165 3行。例 daigaku00a-9「人生れて八歳なれば、則ち王公より以下、庶人の子弟に至るまで、皆小学に入る。」"
+  },
+  {
+   "word": "王国",
+   "rank": 654,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "おうこく",
+   "meaning": "王の治める国。詩経「王国に克く生まる」。",
+   "dict_evidence": "weblio デジタル大辞泉；おう‐こく〔ワウ‐〕【王国】；読み方：おうこく（cand_654_王国.txt）",
+   "corpus_evidence": "golden_8165 3行。例 tashiseisei-4「此の王国に生まる」"
+  },
+  {
+   "word": "王必",
+   "rank": 655,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=三国志小事典のみ（読み方・释义不載）＝別義。語料「王必ず人無くんば」＝構文断片 王＋必ず——sense-mismatch 排除。"
+  },
+  {
+   "word": "珊瑚",
+   "rank": 656,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さんご",
+   "meaning": "珊瑚。海中の腔腸動物の骨格。越人自ら貢す珊瑚の樹。",
+   "dict_evidence": "weblio デジタル大辞泉；さん‐ご【×珊×瑚】；読み方：さんご（cand_656_珊瑚.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen193-3「越人自ら貢す珊瑚の樹」"
+  },
+  {
+   "word": "珠履",
+   "rank": 657,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しゅり",
+   "meaning": "真珠を飾った履物。孟嘗君食客三千「珠履」の典。",
+   "dict_evidence": "weblio デジタル大辞泉；しゅ‐り【珠履】；読み方：しゅり（cand_657_珠履.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen123-4「珠履雁行来る」"
+  },
+  {
+   "word": "田家",
+   "rank": 658,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "でんか",
+   "meaning": "農家。田舎の家。",
+   "dict_evidence": "weblio デジタル大辞泉；でん‐か【田家】；読み方：でんか（cand_658_田家.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen150-1「田家にして復た近臣」"
+  },
+  {
+   "word": "疏食",
+   "rank": 659,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "そし",
+   "meaning": "粗末な食事。論語「疏食を飯い水を飲み、肱を曲げて之を枕とす」。",
+   "dict_evidence": "weblio デジタル大辞泉；そ‐し【疎▽食／×疏▽食】；読み方：そし（cand_659_疏食.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kyokukou-1「子曰く、疏食を飯い水を飲み、肱を曲げて之を枕とす。楽しみ亦た其の中に在り。不義にして富み且つ貴きは、我に於いて浮雲の如し」"
+  },
+  {
+   "word": "疾有",
+   "rank": 660,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「曾子、疾有り」＝X+ari 系。"
+  },
+  {
+   "word": "瘴癘",
+   "rank": 661,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しょうれい",
+   "meaning": "瘴気と悪疫。南方の熱帯の病気。",
+   "dict_evidence": "weblio デジタル大辞泉；しょう‐れい〔シヤウ‐〕【×瘴×癘】；読み方：しょうれい（cand_661_瘴癘.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen139-7「風霜瘴癘を駆り」"
+  },
+  {
+   "word": "登臨",
+   "rank": 662,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "とうりん",
+   "meaning": "高い所に登って眺めること。",
+   "dict_evidence": "weblio デジタル大辞泉；とう‐りん【登臨】；読み方：とうりん（cand_662_登臨.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen011-3「登臨すれば世界を出で」"
+  },
+  {
+   "word": "白眼",
+   "rank": 663,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "はくがん・しらめ",
+   "meaning": "白い目。冷たい目。世説 阮籍「白眼を以て之に対す」。",
+   "dict_evidence": "weblio デジタル大辞泉；しら‐め【白目／白▽眼】；読み方：しらめ（cand_663_白眼.txt）",
+   "corpus_evidence": "golden_8165 3行。例 p-gensekisei-1「籍は又能く青白眼を為す。礼俗の士を見れば、白眼を以て之に対す。」"
+  },
+  {
+   "word": "白骨",
+   "rank": 664,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "はっこつ・しらほね",
+   "meaning": "白くなった死体の骨。「白骨縦横乱麻に似たり」。",
+   "dict_evidence": "weblio デジタル大辞泉；しら‐ほね【白骨】；読み方：しらほね（cand_664_白骨.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kishi03-1「白骨縦横乱麻に似たり」"
+  },
+  {
+   "word": "百獣",
+   "rank": 665,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ひゃくじゅう",
+   "meaning": "あらゆる獣。戦国策「天帝、我をして百獣に長たらしむ」。",
+   "dict_evidence": "weblio デジタル大辞泉；ひゃく‐じゅう〔‐ジウ〕【百獣】；読み方：ひゃくじゅう（cand_665_百獣.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toranoi-2「虎、百獣を求めて之を食らい、狐を得たり。」"
+  },
+  {
+   "word": "皆之",
+   "rank": 666,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「皆之を奇と謂うか」＝皆＋之。"
+  },
+  {
+   "word": "皆以",
+   "rank": 667,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「皆以て焼けて」＝皆＋以て。"
+  },
+  {
+   "word": "皆自",
+   "rank": 668,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「皆自ら悟り」＝皆＋自ら。"
+  },
+  {
+   "word": "益無",
+   "rank": 669,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし（例文区のみ）。構文断片「益無し」＝X+nasi 系（論語）。"
+  },
+  {
+   "word": "相向",
+   "rank": 670,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「相向かい」＝相＋向く。"
+  },
+  {
+   "word": "相守",
+   "rank": 671,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「相守りて」＝相＋守る。"
+  },
+  {
+   "word": "相為",
+   "rank": 672,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「相為に謀らず」＝相＋為す（論語）。"
+  },
+  {
+   "word": "相知",
+   "rank": 673,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "そうち・あいち",
+   "meaning": "互いに知り合うこと。親交。「白首の相知も猶お剣を按じ」。",
+   "dict_evidence": "weblio デジタル大辞泉；そう‐ち〔サウ‐〕【相知】；読み方：そうち（cand_673_相知.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kenro-1「窺う。稍出でて之に近づくに、憖憖然として相知る莫し。」"
+  },
+  {
+   "word": "相送",
+   "rank": 674,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「相送りて高台に臨めば」＝相＋送る。"
+  },
+  {
+   "word": "眼中",
+   "rank": 675,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "がんちゅう",
+   "meaning": "眼の中。「万里眼中に明らかなる」。",
+   "dict_evidence": "weblio デジタル大辞泉；がん‐ちゅう【眼中】；読み方：がんちゅう（cand_675_眼中.txt）",
+   "corpus_evidence": "golden_8165 3行。例 sononihon-8「万里眼中に明らかなるを」"
+  },
+  {
+   "word": "瞽叟",
+   "rank": 676,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。人名「瞽叟」（舜の父）——N79/N80 呼称部 先例。"
+  },
+  {
+   "word": "瞽者",
+   "rank": 677,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢文語「瞽者」（盲人、論語）——専門語 weblio 不載。"
+  },
+  {
+   "word": "石榴",
+   "rank": 678,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ざくろ・せきりゅう",
+   "meaning": "ザクロ。ザクロ科の果樹。王荊公「万緑叢中紅一点」。",
+   "dict_evidence": "weblio デジタル大辞泉；ざく‐ろ【▽石×榴／×柘×榴】；読み方：ざくろ（cand_678_石榴.txt）",
+   "corpus_evidence": "golden_8165 3行。例 p-banryokuso-1「王荊公の石榴の詩に、万緑叢中紅一点、人を動かす春色多きを須いず、と。」"
+  },
+  {
+   "word": "祗今",
+   "rank": 679,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢詩語「祗今」（ただ今）——N80 同款 404 排除。"
+  },
+  {
+   "word": "神農",
+   "rank": 680,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "しんのう",
+   "meaning": "三皇の一。農業と医薬を教えた伝説の帝王。",
+   "dict_evidence": "weblio デジタル大辞泉；しんのう【神農】；読み方：しんのう（cand_680_神農.txt）",
+   "corpus_evidence": "golden_8165 3行。例 daigaku00a-6「此れ伏羲・神農・黄帝・堯・舜の天を継ぎて極を立つる所以にして、司徒の職、典楽の官の由りて設くる所なり。」"
+  },
+  {
+   "word": "神霊",
+   "rank": 681,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しんれい",
+   "meaning": "神と霊。神霊の力。史記「生まれて神霊」。",
+   "dict_evidence": "weblio デジタル大辞泉；しん‐れい【神霊】；読み方：しんれい（cand_681_神霊.txt）",
+   "corpus_evidence": "golden_8165 3行。例 shiki001a-2「生まれて神霊、弱にして能く言い、幼にして徇斉、長じて敦敏、成りて聡明なり。」"
+  },
+  {
+   "word": "祭祀",
+   "rank": 682,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さいし",
+   "meaning": "神や祖先を祭ること。",
+   "dict_evidence": "weblio デジタル大辞泉；さい‐し【祭×祀】；読み方：さいし（cand_682_祭祀.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kokyo05-7「然る後、能く其の禄位を保って、其の祭祀を守る。」"
+  },
+  {
+   "word": "禾黍",
+   "rank": 683,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢文語「禾黍」（故宫禾黍の悲）——専門語 weblio 不載。"
+  },
+  {
+   "word": "秋声",
+   "rank": 684,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しゅうせい",
+   "meaning": "秋の風の音。欧陽脩「秋声」賦の語。",
+   "dict_evidence": "weblio デジタル大辞泉；しゅう‐せい〔シウ‐〕【秋声】；読み方：しゅうせい（cand_684_秋声.txt）",
+   "corpus_evidence": "golden_8165 3行。例 gusei-4「階前の梧葉已に秋声」"
+  },
+  {
+   "word": "秋雨",
+   "rank": 685,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しゅうう・あきさめ",
+   "meaning": "秋の雨。韋応物「淮南秋雨の夜」。",
+   "dict_evidence": "weblio デジタル大辞泉；あき‐さめ【秋雨】；読み方：あきさめ（cand_685_秋雨.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen278-3「淮南秋雨の夜」"
+  },
+  {
+   "word": "穆穆",
+   "rank": 686,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "ぼくぼく",
+   "meaning": "威儀があって重々しく美しいさま。",
+   "dict_evidence": "weblio 実用日本語表現辞典「穆穆」読み方：ぼくぼく（威儀があり美しいさま・詩経に用例「穆穆文王」）＝語料義と一致（cand_686_穆穆.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo0302-1「三家者、雍を以て徹す。子曰く、相くるは維れ辟公、天子は穆穆たりと。奚んぞ三家の堂に取らん。」"
+  },
+  {
+   "word": "積水",
+   "rank": 687,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せきすい",
+   "meaning": "溜まって深く広がった水。孫子「積水極む可からず」。",
+   "dict_evidence": "weblio デジタル大辞泉；せき‐すい【積水】；読み方：せきすい（cand_687_積水.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen136-1「積水極む可からず」"
+  },
+  {
+   "word": "積雪",
+   "rank": 688,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せきせつ",
+   "meaning": "積もった雪。「万里の寒光積雪に生じ」。",
+   "dict_evidence": "weblio デジタル大辞泉；せき‐せつ【積雪】；読み方：せきせつ（cand_688_積雪.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen014-7「川冰積雪に生じ」"
+  },
+  {
+   "word": "空林",
+   "rank": 689,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=名字辞典のみ（別義）——sense-mismatch 排除。漢詩語「空林」。"
+  },
+  {
+   "word": "空潭",
+   "rank": 690,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢詩語「空潭」——N80 同款 404 排除。"
+  },
+  {
+   "word": "空虚",
+   "rank": 691,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "くうきょ",
+   "meaning": "からっぽであること。むなしいこと。孫子「敵人の空虚の地」。",
+   "dict_evidence": "weblio デジタル大辞泉；くう‐きょ【空虚】；読み方：くうきょ（cand_691_空虚.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou34-2「宝と為し、勇闘を首と為す。審らかに敵人の空虚の地、無人の処を知らば、以て必ず出づ可し。将士、玄旗を持ち、器械を操り、銜枚」"
+  },
+  {
+   "word": "窮困",
+   "rank": 692,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きゅうこん",
+   "meaning": "行き詰まり苦しむこと。史記「更に窮困す」。",
+   "dict_evidence": "weblio デジタル大辞泉；きゅう‐こん【窮困】；読み方：きゅうこん（cand_692_窮困.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kanpo-3「ればなり。吾嘗て鮑叔の為に事を謀るも更に窮困す。鮑叔、我を以て愚と為さず。時に利不利有るを知れればなり。吾嘗て三たび仕え」"
+  },
+  {
+   "word": "窮寇",
+   "rank": 693,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きゅうこう",
+   "meaning": "窮した敵。孫子「窮寇には迫る勿かれ」。",
+   "dict_evidence": "weblio 実用日本語表現辞典「窮寇」読み方：きゅうこう（窮した敵・窮寇勿追）＝語料義と一致（cand_693_窮寇.txt）",
+   "corpus_evidence": "golden_8165 3行。例 sonshi07-32「帰師には遏むる勿かれ、囲師には必ず闕き、窮寇には迫る勿かれ。此れ兵を用うるの法なり。」"
+  },
+  {
+   "word": "竜堆",
+   "rank": 694,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。西域の砂漠名「竜堆」（白龍堆）——専門語 weblio 不載。"
+  },
+  {
+   "word": "笙歌",
+   "rank": 695,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しょうか",
+   "meaning": "笙の音と歌。宴楽。「笙歌日暮能く客を留め」。",
+   "dict_evidence": "weblio デジタル大辞泉；しょう‐か〔シヤウ‐〕【×笙歌】；読み方：しょうか（cand_695_笙歌.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen349-3「笙歌日暮能く客を留め」"
+  },
+  {
+   "word": "節制",
+   "rank": 696,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せっせい",
+   "meaning": "節度をもって統制すること。李衛公問対「之を節制の師と謂う」。",
+   "dict_evidence": "weblio デジタル大辞泉；せっ‐せい【節制】；読み方：せっせい（cand_696_節制.txt）",
+   "corpus_evidence": "golden_8165 3行。例 montai09-15「管仲に任じて、復た太公の法を修む。之を節制の師と謂う。諸侯畢く服す。」"
+  },
+  {
+   "word": "紅顔",
+   "rank": 697,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうがん",
+   "meaning": "若い女の美しい顔。転じて美人・若者。「紅顔歳歳金微に老い」。",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐がん【紅顔】；読み方：こうがん（cand_697_紅顔.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen454-1「紅顔歳歳金微に老い」"
+  },
+  {
+   "word": "終南",
+   "rank": 698,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし、Wikipedia のみ＝保守排除。漢詩の山名 終南（終南山）——後日承認なら翻案可。"
+  },
+  {
+   "word": "絶世",
+   "rank": 699,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ぜっせい",
+   "meaning": "世系が絶えること。転じて（絶世の美女）当代一の美。論語「滅国を興し、絶世を継ぎ」。",
+   "dict_evidence": "weblio デジタル大辞泉；ぜっ‐せい【絶世】；読み方：ぜっせい（cand_699_絶世.txt）",
+   "corpus_evidence": "golden_8165 3行。例 itsumina-1「滅国を興し、絶世を継ぎ、逸民を挙ぐれば、天下の民心を帰す。」"
+  }
+ ]
+}

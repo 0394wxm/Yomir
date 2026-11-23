@@ -1,0 +1,49 @@
+# night82 digest rank 950..965 (count=16)
+
+=== [950] 故用兵之法  freq=3 h=3 k=0 len=5 status=HTTP404 bytes=0
+  (no dictionary region found)
+
+=== [951] 無可無不可  freq=3 h=3 k=0 len=5 status=HTTP404 bytes=0
+  (no dictionary region found)
+
+=== [952] 舉直錯諸枉  freq=3 h=3 k=0 len=5 status=HTTP404 bytes=0
+  (no dictionary region found)
+
+=== [953] 請事斯語矣  freq=3 h=3 k=0 len=5 status=HTTP404 bytes=0
+  (no dictionary region found)
+
+=== [954] 過則勿憚改  freq=3 h=3 k=0 len=5 status=HTTP404 bytes=0
+  (no dictionary region found)
+
+=== [955] 鯉退而學禮  freq=3 h=3 k=0 len=5 status=HTTP404 bytes=0
+  (no dictionary region found)
+
+=== [956] 鯉退而學詩  freq=3 h=3 k=0 len=5 status=HTTP404 bytes=0
+  (no dictionary region found)
+
+=== [957] 君子惠而不費  freq=3 h=3 k=0 len=6 status=HTTP404 bytes=0
+  (no dictionary region found)
+
+=== [958] 弟子孰爲好學  freq=3 h=3 k=0 len=6 status=HTTP404 bytes=0
+  (no dictionary region found)
+
+=== [959] 未聞好學者也  freq=3 h=3 k=0 len=6 status=HTTP404 bytes=0
+  (no dictionary region found)
+
+=== [960] 非善之善者也  freq=3 h=3 k=0 len=6 status=HTTP404 bytes=0
+  (no dictionary region found)
+
+=== [961] 一言而可以興邦  freq=3 h=3 k=0 len=7 status=HTTP404 bytes=0
+  (no dictionary region found)
+
+=== [962] 如知爲君之難也  freq=3 h=3 k=0 len=7 status=HTTP404 bytes=0
+  (no dictionary region found)
+
+=== [963] 何如斯可謂之士矣  freq=3 h=3 k=0 len=8 status=HTTP404 bytes=0
+  (no dictionary region found)
+
+=== [964] 吾末如之何也已矣  freq=3 h=3 k=0 len=8 status=HTTP404 bytes=0
+  (no dictionary region found)
+
+=== [965] 材士強弩矛戟爲翼  freq=3 h=3 k=0 len=8 status=HTTP404 bytes=0
+  (no dictionary region found)

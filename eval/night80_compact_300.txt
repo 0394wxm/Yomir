@@ -1,0 +1,293 @@
+[[300] 寛則得衆  freq=4 h=4 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[301] 慢令致期  freq=4 h=4 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[302] 敏則有功  freq=4 h=4 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[303] 爲而不恃  freq=4 h=4 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[304] 謂之有司  freq=4 h=4 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[305] 冠者五六人  freq=4 h=2 k=2 len=5 status=HTTP404 bytes=0
+  corpus: 言うなり。曰く、莫春には、春服既に成る。冠者五六人、童子六七人、沂に浴し、舞雩に風し、詠じて; 言うなり。曰く、莫春には
+  [no-real-dict-region]
+
+[[306] 童子六七人  freq=4 h=2 k=2 len=5 status=HTTP404 bytes=0
+  corpus: く、莫春には、春服既に成る。冠者五六人、童子六七人、沂に浴し、舞雩に風し、詠じて帰らん。夫子; く、莫春には、春服既に成
+  [no-real-dict-region]
+
+[[307] 不可不察也  freq=4 h=4 k=0 len=5 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[308] 則不得其正  freq=4 h=4 k=0 len=5 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[309] 猶之與人也  freq=4 h=4 k=0 len=5 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[310] 鯉趨而過庭  freq=4 h=4 k=0 len=5 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[311] 君子亦有惡乎  freq=4 h=4 k=0 len=6 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[312] 吾欲以守則固  freq=4 h=4 k=0 len=6 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[313] 堯舜其猶病諸  freq=4 h=4 k=0 len=6 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[314] 惡勇而無禮者  freq=4 h=4 k=0 len=6 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[315] 惡徼以爲知者  freq=4 h=4 k=0 len=6 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[316] 惡果敢而窒者  freq=4 h=4 k=0 len=6 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[317] 惡称人之惡者  freq=4 h=4 k=0 len=6 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[318] 惡訐以爲直者  freq=4 h=4 k=0 len=6 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[319] 賜也亦有惡乎  freq=4 h=4 k=0 len=6 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[320] 長七尺五寸以上  freq=4 h=2 k=2 len=7 status=HTTP404 bytes=0
+  corpus: 太公曰く、車士を選ぶの法は、年四十以下、長七尺五寸以上にして、走りて能く奔馬を逐い、及び馳せ; 太公曰く、騎士を選ぶの法
+  [no-real-dict-region]
+
+[[321] 惡不孫以爲勇者  freq=4 h=4 k=0 len=7 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[322] 惡居下流而訕上者  freq=4 h=4 k=0 len=8 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[323] 一匡  freq=3 h=0 k=3 len=2 status=HTTP404 bytes=0
+  corpus: 仲桓公を相けて、諸侯に覇たらしめ、天下を一匡す。民今に到るまで其の賜を受く。管仲微かりせば、; 斉の桓公以て覇たり。諸侯
+  [no-real-dict-region]
+
+[[324] 一夜  freq=3 h=0 k=3 len=2 status=OK bytes=279124
+  corpus: 風吹いて一夜関山に満つ; 縦然一夜風吹き去るとも
+  [src] 一夜の意味・解説
+  def: デジタル大辞泉
+  def: いち‐や【一夜】
+  [read] 読み方：いちや
+  [read] 読み方：ひとよ
+
+[[325] 一字  freq=3 h=0 k=3 len=2 status=OK bytes=210067
+  corpus: 其の上に懸け、諸侯の游士賓客を延く、能く一字を増損する者有らば、千金を予えん、と。; 春秋は一字を以て褒貶を為すと雖も、然れども皆数句を須いて以て言を成す。
+  [src] 一字の意味・解説
+  def: デジタル大辞泉
+  def: いち‐じ【一字】
+  [read] 読み方：いちじ
+  [read] 読み方：イチノジ（ｉｃｈｉｎｏｊｉ）
+  [read] 読み方：いちのじ
+
+[[326] 一杯  freq=3 h=0 k=3 len=2 status=OK bytes=236131
+  corpus: 君に勧む更に尽くせ一杯の酒; 桃李春風一杯の酒
+  [src] 一杯の意味・解説
+  def: デジタル大辞泉
+  def: いっ‐ぱい【一杯】
+  [read] 読み方：いっぱい
+  [read] 読み方：ひとはた
+  [read] 読み方：いっぱい
+  [wikibody-cut] Wiktionary日本語版（日本語カテ
+
+[[327] 一枝  freq=3 h=0 k=3 len=2 status=OK bytes=203696
+  corpus: 鷦鷯深林に巣くうも、一枝に過ぎず。偃鼠河に飲むも、満腹に過ぎず。帰休せよや君。予天下を用て為; 馬を立め君を煩わして一枝を折る
+  [src] 一枝の意味・解説
+  def: 地名辞典
+  def: 一枝
+  [read] 読み方：イチエダ（ｉｃｈｉｅｄａ）
+  [wikibody-cut] ウィキペディア小見出し辞書
+
+[[328] 一行  freq=3 h=1 k=2 len=2 status=OK bytes=257829
+  corpus: 故人那んぞ惜しむ一行の書; 一行の白鷺青天に上る
+  [src] 一行の意味・解説
+  def: デジタル大辞泉
+  def: いち‐ぎょう〔‐ギヤウ〕【一行】
+  [read] 読み方：いちぎょう
+  [read] 読み方：いちぎょう
+  [read] 読み方：いっこう
+  [read] 読み方：ひとくだり
+  [read] 読み方：ひとつら
+  [read] 読み方：ヒトツラ（ｈｉｔｏｔｓｕｒａ）
+  [read] 読み方：ヒトクダリ（ｈｉｔｏｋｕｄａｒｉ），　イチギョウ（ｉｃｈｉｇｙｏｕ）
+  [wikibody-cut] ウィキペディア
+
+[[329] 一身  freq=3 h=1 k=2 len=2 status=OK bytes=205603
+  corpus: 一身軽舟と為る; 君と双び棲みて一身を共にせん
+  [src] 一身の意味・解説
+  def: デジタル大辞泉
+  def: いっ‐しん【一身】
+  [read] 読み方：いっしん
+  [read] 読み方：ひとみ
+  [wikibody-cut] Wiktionary日本語版（日本語カテ
+
+[[330] 一騎  freq=3 h=0 k=3 len=2 status=OK bytes=196041
+  corpus: 歩卒か一車に当る。騎を以て歩卒と戦わば、一騎は幾歩卒に当り、幾歩卒か一騎に当る。車を以て騎と; 以なり。故に車騎は敵せずして戦わば、則ち一騎は歩卒一人に当ること能わず。三軍の衆、陣を成して
+  [src] 一騎の意味・解説
+  def: デジタル大辞泉
+  def: いっ‐き【一騎】
+  [read] 読み方：いっき
+
+[[331] 七十  freq=3 h=1 k=2 len=2 status=OK bytes=213060
+  corpus: 五十にして天命を知る。六十にして耳順う。七十にして心の欲する所に従えども、矩を踰えず。; う。官政に服す。六十を耆と曰う。指使す。七十を老と曰う。而うして伝う。八十九十を耄と曰う。七
+  [src] 七十の意味・解説
+  def: デジタル大辞泉
+  def: しち‐じゅう〔‐ジフ〕【七十】
+  [read] 読み方：しちじゅう
+  [read] 読み方：ななそ
+  [read] 読み方：ななそじ
+  [wikibody-cut] Wiktionary日本語版（日本語カテ
+
+[[332] 万乗  freq=3 h=0 k=3 len=2 status=OK bytes=199585
+  corpus: 千乗の君なり。子を以て我が使者と為さば、万乗の卿なり。子、我が舎人と為るに如かず、と。田成子; 栄観有りと雖も、燕処して超然たり。奈何ぞ万乗の主にして、身を以て天下より軽しとせんや。
+  [src] 万乗の意味・解説
+  def: デジタル大辞泉
+  def: ばん‐じょう【万乗】
+  [read] 読み方：ばんじょう
+  [wikibody-cut] ウィキペディア
+
+[[333] 万仞  freq=3 h=0 k=3 len=2 status=OK bytes=188372
+  corpus: 太行・王屋の二山は、方七百里、高さ万仞。本冀州の南、河陽の北に在り。; 一片の孤城万仞の山
+  [src] 万仞の意味・解説
+  def: デジタル大辞泉
+  def: ばん‐じん【万尋／万×仞】
+  [read] 読み方：ばんじん
+
+[[334] 万古  freq=3 h=0 k=3 len=2 status=OK bytes=246762
+  corpus: 万古青濛濛たり; 万古の凡馬を一洗して空し
+  [src] 万古の意味・解説
+  def: デジタル大辞泉
+  def: ばん‐こ【万古】
+  [read] 読み方：ばんこ
+  [wikibody-cut] ウィキペディア
+
+[[335] 万歳  freq=3 h=1 k=2 len=2 status=OK bytes=440180
+  corpus: 、伝えて以て美人及び左右に示す。左右皆な万歳と呼ぶ。; 、游子故郷を悲しむ。吾関中に都すと雖も、万歳の後、吾が魂魄猶お沛を楽思せん、と。
+  [src] 万歳の意味・解説
+  def: デジタル大辞泉
+  def: ばん‐ざい【万歳】
+  [read] 読み方：ばんざい
+  [read] 読み方：ばんぜい
+  [read] 読み方：まんざい
+  [read] 読み方：バンゼイ（ｂａｎｚｅｉ）
+  [read] 読み方：マンザイ（ｍａｎｚａｉ）
+
+[[336] 万民  freq=3 h=2 k=1 len=2 status=OK bytes=199289
+  corpus: 呉子曰く、昔の国家を図る者は、必ず先ず百姓を教え、而して万民を親しむ。
+  [src] 万民の意味・解説
+  def: デジタル大辞泉
+  def: ばん‐みん【万民】
+  [read] 読み方：ばんみん
+  [wikibody-cut] Wiktionary日本語版（日本語カテ
+
+[[337] 万重  freq=3 h=0 k=3 len=2 status=HTTP404 bytes=0
+  corpus: 千枝の紅雨万重の煙; 家書を作らんと欲して意万重
+  [no-real-dict-region]
+
+[[338] 三代  freq=3 h=0 k=3 len=2 status=OK bytes=219359
+  corpus: 所有る者は、其れ試むる所有り。斯の民や、三代の直道にして行う所以なり。; 三代の隆んなるや、其の法寖く備わる。
+  [src] 三代の意味・解説
+  def: デジタル大辞泉
+  def: さん‐だい【三代】
+  [read] 読み方：さんだい
+  [read] 読み方：ミシロ（ｍｉｓｈｉｒｏ）
+  [wikibody-cut] ウィキペディア
+
+[[339] 三峡  freq=3 h=0 k=3 len=2 status=OK bytes=260577
+  corpus: 桓公蜀に入り、三峡の中に至る。; 三峡の星河影動揺
+  [src] 三峡の意味・解説
+  def: デジタル大辞泉
+  def: さん‐きょう〔‐ケフ〕【三峡】
+  [read] 読み方：さんきょう
+  [wikibody-cut] ウィキペディア
+
+[[340] 三春  freq=3 h=0 k=3 len=2 status=OK bytes=234202
+  corpus: 三春時に雁有るも; 三春の行楽誰が辺にか在る
+  [src] 三春の意味・解説
+  def: デジタル大辞泉
+  def: さん‐しゅん【三春】
+  [read] 読み方：さんしゅん
+  [read] 読み方：みはる
+  [read] 読み方：みはる
+
+[[341] 三有  freq=3 h=0 k=3 len=2 status=OK bytes=321240
+  corpus: 生に出でて死に入る。生の徒は十に三有り。死の徒も十に三有り。; 人の生、動きて死地に之くもの、亦た十に三有り。夫れ何の故ぞ。其の生を生とするの厚きを以てなり
+  [src] 三有の意味・解説
+  def: デジタル大辞泉
+  def: さん‐う【三有】
+  [read] 読み方：さんう
+  [read] 読み方：さんぬ
+  [wikibody-cut] ウィキペディア
+
+[[342] 三歳  freq=3 h=0 k=3 len=2 status=OK bytes=192766
+  corpus: 彼の艾を采らん一日見わざれば三歳の如し; 三歳女に貫えしも
+  [src] 三歳の意味・解説
+  def: デジタル大辞泉
+  def: み‐とせ【三▽年／三▽歳】
+  [read] 読み方：みとせ
+
+[[343] 三舎  freq=3 h=1 k=2 len=2 status=OK bytes=193586
+  corpus: 若し君の霊を以て、晋国に反るを得、晋・楚兵を治めて中原に遇わば、其れ君を避くること三舎せん。; 古は奔るを逐うこと、百歩に過ぎず。綏くを縦うこと三舎に過ぎず。是を以て其の礼を明らかにするな
+  [src] 三舎の意味・解説
+  def: デジタル大辞泉
+  def: さん‐しゃ【三舎】
+  [read] 読み方：さんしゃ
+
+[[344] 上徳  freq=3 h=0 k=3 len=2 status=OK bytes=209054
+  corpus: 、進道は退くが若く、夷道は纇なるが若く、上徳は谷の若く、大白は辱れたるが若く、広徳は足らざる; 上徳は徳とせず、是を以て徳有り。下徳は徳を失わず、是を以て徳無し。上徳は無為にして、以て為に
+  [src] 上徳の意味・解説
+  def: 地名辞典
+  def: 上徳
+  [read] 読み方：カミトク（ｋａｍｉｔｏｋｕ）
+  [read] 読み方：カミトク（ｋａｍｉｔｏｋｕ）
+  [wikibody-cut] ウィキペディア
+
+[[345] 上林  freq=3 h=0 k=3 len=2 status=OK bytes=223048
+  corpus: 二月黄鸝上林に飛び; 新花低く発く上林の枝
+  [src] 上林の意味・解説
+  def: デジタル大辞泉
+  def: じょう‐りん〔ジヤウ‐〕【上林】
+  [read] 読み方：じょうりん
+  [read] 読み方：ウエバヤシ（ｕｅｂａｙａｓｈｉ）
+  [read] 読み方：カミバヤシ（ｋａｍｉｂａｙａｓｈｉ）
+  [read] 読み方：カミバヤシ（ｋａｍｉｂａｙａｓｈｉ）
+  [read] 読み方：カンバヤシ（ｋａｎｂａｙａｓｈｉ）
+  [read] 読み方：カンバヤシ（ｋａｎｂａｙａｓｈｉ）
+  [read] 読み方：カンバヤシ（ｋａｎｂａｙａｓｈｉ）
+  [read] 読み方：ウエバヤシ（ｕｅｂａｙａｓｈｉ）
+
+[[346] 上皇  freq=3 h=0 k=3 len=2 status=OK bytes=323519
+  corpus: 長に説く上皇涙を垂れて教えしを; 上皇の帰馬雲の若く屯す
+  [src] 上皇の意味・解説
+  def: デジタル大辞泉
+  def: じょう‐こう〔ジヤウクワウ〕【上皇】
+  [read] 読み方：じょうこう
+  [read] 読み方：ジョウコウ（ｊｏｕｋｏｕ）
+  [wikibody-cut] ウィキペディア
+
+[[347] 上礼  freq=3 h=0 k=3 len=2 status=HTTP404 bytes=0
+  corpus: 。樊遅出づ。子曰く、小人なるかな樊須や。上礼を好めば、則ち民敢えて敬せざる莫し。上義を好めば; 子曰く、上礼を好めば、則
+  [no-real-dict-region]
+
+[[348] 上賞  freq=3 h=1 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 共に道う賢を進むれば上賞を蒙ると; 戦い、外に勝ち、功、内に立つ。吏遷され上賞せられ、百姓歓悦し、将、咎殃無し。是の故に
+  [no-real-dict-region]
+
+[[349] 不信  freq=3 h=1 k=2 len=2 status=OK bytes=220863
+  corpus: 子曰く、詐りを逆えず、不信を億らず。抑〻亦た先ず覚る者は、是れ賢か。; す。徳は善なり。信なる者は吾之を信とし、不信なる者も吾亦た之を信とす。徳は信なり。
+  [src] 不信の意味・解説
+  def: デジタル大辞泉
+  def: ふ‐しん【不信】
+  [read] 読み方：ふしん
+  [wikibody-cut] ウィキペディア

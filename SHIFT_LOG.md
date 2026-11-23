@@ -946,3 +946,31 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 | 2026-11-23 12:55 | Night 81 合并完成：规则链 96036e6（pytest 337，4000 13.495/24/0 逐位一致）＋词库链 76ded5a（pytest 393，4000 复跑 13.495/24/0、8165 14.526/30/0 均逐位一致，词库 500+324=824）；SHIFT_LOG/ACCEPT_LOG 字节安全并集（78 段前插 74-77 段、尾接 79 段），byte807=243 未动。 |
 | 2026-11-23 13:10 | Night 81 收尾：verify 18/18 exit 0；accept 81 PASS（fail=0 skip=0，29.1s，首跑即过）；登记 ad72c0d；wrap-up 提交（REPORT_MERGE_72_79＋REPORT_NIGHT81＋ACCEPT_LOG＋accept_night_81.json＋本行）后不推远程。 |
 | 2026-11-23 17:20 | Night 83 合并班开工：HEAD 30a15d4 ✓ pytest 393 passed ✓；fetch clone night82-lexicon-expand3＝9e256b0 ✓（＋step 0 报告数字修正 aad4a42：§3 本体 209 口径＋双读法 32 条文件实值，报告/test 统一）；clone master 陈旧＝N70 wrap-up ad18f20（系 8d84613 祖先、分支血统完整），主仓侧 merge-base 预期 8d84613。 |
+[2026-11-23T01:44 N80] start gate: branch night80-lexicon-expand2 from night79-lexicon-expand, HEAD=8d84613, pytest 363 passed (28.1s), tree clean (4 untracked cache dirs). Scope: lexicon wave2 from golden_8165 freq 3-4 zone (500 candidates, 966 zone, 53 N79-pattern pre-flagged, kkd-attested 451). Same dual-evidence gate as N79. No OCR/guwenbert, zero contact with main repo.
+[2026-11-23T01:49 N80] batch0 (rank0-49) judged: include 38 / exclude 12 (nansen astronomy-vs-sanguo-region, futago twins-vs-two-sons, chu-yu no-entry) / 1 ruby-pending (rank44 hokuzan). Progress commit for card-safety.
+[2026-11-23T01:53 N80] batch1 (rank50-99) judged: include 31 / exclude 18 (kiyou dexterous-vs-equipment mismatch, etc) / 2 ruby-resolved (hokuzan=hokuzan, guochu=kokuchuu both corpus-ruby direct). Running totals: 70 in / 30 out / 100 of 500 processed. Progress commit.
+[2026-11-23T01:55 N80] batch2 (rank100-149) judged: include 31 / exclude 19 (fukakasa Kyoto-placename-vs-sunzi-terrain, kouzan city-only-no-word-entry). Running totals: 101 in / 49 out / 150 of 500 processed. Progress commit.
+[2026-11-23T01:58 N80] batch3 (rank150-199) judged: include 29 / exclude 21 (zisen snake-name-vs-suddenly, xiang+verb formula family consistent with N79 xiangjian precedent, weicheng no-Japanese-reading, soushoku/shiraha reading-risk conservative). Running: 130 in / 70 out / 200 of 500. Progress commit.
+[2026-11-23T02:03 N80] audit fix: dup shisi removed, 33 formula-excludes backfilled (batches1-3). batches0-4 fully accounted: 247 decided (246 unique... verifying). batch5-9 remain (rank 250-499). Progress commit.
+[2026-11-23T13:54 N80] N80 batch5 judged (6 in / 44 out): proper Mengchangjun+LiuxiaHui, idioms Xinshang-Hibatsu+Bunshitsu-Hinpin+Boko-Hyoga, adjadv Konkon-Tonton; X-yune/syntax-fragment 404s excluded. Decided 300 of 500
+[2026-11-23T13:56 N80] N80 batch6 judged (20 in / 30 out): ichi- series 6 nouns, sannen/sankyuu/ramuli numerals-nouns, proper Sanzan+Jourin, sense-mismatch 3 excluded (ichiyo-place/sanyuu-buddhist/joutoku-place). Decided 350 of 500
+[2026-11-23T14:02 N80] N80 batch7 judged (23 in / 27 out):官员军制 nouns (chuujo/shushou/fukuhei/shisha), temporal (gogatsu/gokou/kesa-kinchou), 4 machine-example-only + 2 wikipedia-only conservative excludes, sense-mismatch renchi. Decided 400 of 500
+[2026-11-23T14:10 N80] N80 batch8 judged (25 in / 25 out): reduplicated adverbs zenzen/meimei/seisei, temporal sokkon/tadaima, military nouns heika/heisha/hachijin, Hokkai verified north-sea sense; ushou wrong-page & riki-tari sense-mismatch excluded. Decided 450 of 500
+[2026-11-23T14:22 N80] N80 batch9 judged (34 in / 16 out): castle/celestial noun family (joushi/jouken/joutou/tenjou/tenmon/tenpuu), proper Taisou/Taizan/Konkyuu/Songo/Sonbu, sense-mismatch tenjou-building/oshiyuu-Ranyou excluded. All 500 candidates decided
+[2026-11-23T14:29 N80] N80 all 500 candidates decided (261 in / 239 out); build appended 261 to extra2 (824->1085), pytest 374 passed, golden_4000 bit-exact vs night79 archive (13.517/24/0), README/ROADMAP/accept-80 registered, REPORT_NIGHT80.md drafted. Ready for main commit + accept run
+[2026-11-23T14:41 N80] N80 wrap-up: accept 80 PASS fail=0 skip=0 (28.1s, seven gates green, first-run PASS after main commit); REPORT section-4 filled; branch night80-lexicon-expand2 two commits done, no merge, no push
+[2026-11-23T15:29 N82] Night82 start: branch night82-lexicon-expand3 from night80 6fba6a7, pytest 374 passed, tracked tree clean, freq rerun pending
+[2026-11-23T15:34 N82] N72 45min rule applied: weblio fetch rewritten gzip (semantics unchanged, one-line record) + 4-way range split, 466 pages
+[2026-11-23T15:42 N82] batch1 rank500-549 judged: 35 in (noun28 proper5 modifier2) / 15 out (404 6, machine-only 2, sense-mismatch 3, wiki-only 2, pattern 2); fetch 466/466 done
+[2026-11-23T15:48 N82] batch2 rank550-599 judged: 31 in / 19 out
+[2026-11-23T15:51 N82] batch3 rank600-649 judged: 32 in / 18 out
+[2026-11-23T15:51 N82] correction: batch3 actual 35 in / 15 out (prior line miscounted); cumulative 150/466 judged: 101 in / 49 out
+[2026-11-23T15:53 N82] batch4 rank700-749 judged: 30 in / 20 out
+[2026-11-23T15:55 N82] batch5 rank650-699 judged: 31 in / 19 out
+[2026-11-23T15:58 N82] batch6 rank750-799 judged: 34 in / 16 out; cumulative 300/466
+[2026-11-23T16:01 N82] batch7 rank800-849 judged: 16 in / 34 out (h-only runs mostly junk per N80 patterns)
+[2026-11-23T16:02 N82] batch8 rank850-899 judged: 4 in / 46 out
+[2026-11-23T16:04 N82] batch9 rank900-949 judged: 0 in / 50 out (all 404 hakubun phrases); remaining batch10 rank950-965
+[2026-11-23T16:05 N82] batch10 rank950-965 judged: 0 in / 16 out; ALL 466 candidates decided - running audit
+[2026-11-23T16:15 N82] extra2 1085->1301 (216 in: noun172 proper28 verb9 modifier7), pytest 385 passed, golden_4000 bit-exact vs night80 (13.517/24/0, diff 0 lines, 105s), verify 17/17 exit 0; ready for main commit
+[2026-11-23T16:18 N82] N82 wrap-up: accept 82 PASS fail=0 skip=0 (31.7s, seven gates green, first-run PASS after main commit fb11eee); REPORT section-4 filled; branch night82-lexicon-expand3 two commits, no merge, no push

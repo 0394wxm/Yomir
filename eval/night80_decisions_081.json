@@ -1,0 +1,237 @@
+{
+ "start": 81,
+ "note": "批1-3 の公式型排除の追記漏れ分（digest 判定済み・decisions 未記載だった 29 条）。weblio 404／例文辞書のみ／機械区のみの記録。",
+ "decisions": [
+  {
+   "word": "天潢",
+   "rank": 81,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404＝辞書条目なし。六韜の車具名、語料 4 行ありのまま記録"
+  },
+  {
+   "word": "子云",
+   "rank": 86,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。「子云う」の呼称部（子＋云う）"
+  },
+  {
+   "word": "子子",
+   "rank": 87,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。「子子たり」の重言公式"
+  },
+  {
+   "word": "子胥",
+   "rank": 89,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。伍子胥の名の一部、単独条目なし"
+  },
+  {
+   "word": "家貧",
+   "rank": 93,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。「家貧にして」の断片（家＋貧）"
+  },
+  {
+   "word": "少連",
+   "rank": 95,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。逸民の名（柳下恵・少連）、条目なし"
+  },
+  {
+   "word": "我往",
+   "rank": 118,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。「我往かず」「我往きて」の断片"
+  },
+  {
+   "word": "我独",
+   "rank": 119,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。「我独り…」の断片"
+  },
+  {
+   "word": "楚子",
+   "rank": 134,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。楚の君主呼称（春秋左氏伝式）、条目なし"
+  },
+  {
+   "word": "楚雲",
+   "rank": 135,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。詩語、条目なし"
+  },
+  {
+   "word": "武衝",
+   "rank": 137,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。六韜の戦車名、条目なし"
+  },
+  {
+   "word": "殷勤",
+   "rank": 138,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。語料「殷勤にす」詩語、条目なし"
+  },
+  {
+   "word": "民服",
+   "rank": 139,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。「民服せん」の構文断片（民＋服す）"
+  },
+  {
+   "word": "溝塹",
+   "rank": 152,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。溝＋塹 並列、条目なし"
+  },
+  {
+   "word": "滄洲",
+   "rank": 153,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。隠者の住む水辺（詩語）、条目なし"
+  },
+  {
+   "word": "漢将",
+   "rank": 154,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。「漢将の…」の呼称部"
+  },
+  {
+   "word": "父父",
+   "rank": 157,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。「父父たり」の重言公式"
+  },
+  {
+   "word": "牛羊",
+   "rank": 158,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。牛＋羊 並列、条目なし"
+  },
+  {
+   "word": "牢曰",
+   "rank": 160,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404＋N79 パターン（X曰型。「牢曰く」の呼称部）"
+  },
+  {
+   "word": "物或",
+   "rank": 161,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。「物或いは…」の断片（物＋或いは）"
+  },
+  {
+   "word": "玄囂",
+   "rank": 162,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。黄帝の子の名、条目なし"
+  },
+  {
+   "word": "玉珂",
+   "rank": 165,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。馬の飾り玉（詩語）、条目なし"
+  },
+  {
+   "word": "用有",
+   "rank": 167,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404＋N79 パターン（X＋有り構文断片）"
+  },
+  {
+   "word": "白羽",
+   "rank": 170,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio しらは【白羽】＝矢の羽（cand_170）だが読みが語料訓読（はくう系）と取り違えリスト高・ruby 未確認——conservative 排除"
+  },
+  {
+   "word": "相思",
+   "rank": 175,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio そうし【相思】＝互いに恋しく思うこと（名詞・cand_175）だが語料「最も相思う」は相＋思う 訓読公式——N79 相見 先例で排除"
+  },
+  {
+   "word": "相親",
+   "rank": 176,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio は隠語辞典のみ（俗語）。「相親しむ」の訓読公式（相＋親）"
+  },
+  {
+   "word": "相識",
+   "rank": 177,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio そうしき【相識】ありだが語料「相識らず」は相＋知る 訓読公式——N79 相見 先例で排除"
+  },
+  {
+   "word": "私無",
+   "rank": 179,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404＋N79 パターン（X＋無し構文断片。「其の私無き」）"
+  },
+  {
+   "word": "臣有",
+   "rank": 188,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404＋N79 パターン（X＋有り構文断片）"
+  },
+  {
+   "word": "臣臣",
+   "rank": 189,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。「臣臣たり」の重言公式"
+  },
+  {
+   "word": "花落",
+   "rank": 190,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。「花落ちて」の断片（花＋落つ）"
+  },
+  {
+   "word": "草色",
+   "rank": 194,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio くさいろ【草色】＝色名（cand_194）のみで語料訓読（そうしょく系）の読み証拠欠く——conservative 排除"
+  },
+  {
+   "word": "重地",
+   "rank": 211,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio は地名辞典のみ（ジュウジ・新潟県＝別義）。孫子九地用語の語義条目なし——排除"
+  }
+ ]
+}

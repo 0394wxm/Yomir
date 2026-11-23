@@ -1,0 +1,11 @@
+{
+ "start": 44,
+ "note": "深查分：rank44 北山 は辞書読み きたやま に対し語料 ruby ほくざん 直证（×3 页）——N75 牧す→ぼくす 先例で语料 ruby 採用、差一拍ありのまま記録。",
+ "decisions": [
+  {"word": "北山", "rank": 44, "freq": 4, "verdict": "include", "cat": "noun",
+   "reading": "ほくざん（きたやま）",
+   "meaning": "北方の山。",
+   "dict_evidence": "weblio デジタル大辞泉「きた‐やま【北山】読み方：きたやま１北方の山」（cand_044_北山.txt。読みは語料 ruby ほくざん が直证——N75 牧す先例で语料 ruby 採用）",
+   "corpus_evidence": "golden_8165 4行。kanbun.info ruby 北山=ほくざん（guko.html ×2・toushisen198.html ×1・語の直 ruby）。例 p-guko-2「北山の愚公なる者、年且に九十ならんとす」"}
+ ]
+}

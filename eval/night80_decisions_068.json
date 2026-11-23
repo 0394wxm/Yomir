@@ -1,0 +1,11 @@
+{
+ "start": 68,
+ "note": "深查分：rank68 国中 は歴史民俗用語辞典の読み クンナカ に対し語料 ruby こくちゅう 直证（sannen-1 語の直 ruby）——N75 牧す先例で语料 ruby 採用。附随確認：国人=こくじん（decisions_050 の読み選択を支持）。",
+ "decisions": [
+  {"word": "国中", "rank": 68, "freq": 4, "verdict": "include", "cat": "noun",
+   "reading": "こくちゅう",
+   "meaning": "国の中央部。国じゅう。",
+   "dict_evidence": "weblio 歴史民俗用語辞典「国中 読み方：クンナカ 国の中央部」（cand_068_国中.txt。読みは語料 ruby こくちゅう が直证——N75 牧す先例で语料 ruby 採用）",
+   "corpus_evidence": "golden_8165 4行。kanbun.info ruby 国中=こくちゅう（sannen-1.html 語の直 ruby）。例 sannen-1「国中に令す、敢えて諫むる者有らしめず」"}
+ ]
+}

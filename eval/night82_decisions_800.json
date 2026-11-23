@@ -1,0 +1,420 @@
+{
+ "start": 800,
+ "note": "N82 batch rank 800-849: 16 in (noun 13/proper 2/verb 1/modifier 0/function 0) / 34 out",
+ "decisions": [
+  {
+   "word": "馬上",
+   "rank": 800,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ばじょう",
+   "meaning": "馬の上。乗馬のまま。欧陽脩三上「馬上・枕上・厠上」。",
+   "dict_evidence": "weblio デジタル大辞泉；ば‐じょう〔‐ジヤウ〕【馬上】；読み方：ばじょう（cand_800_馬上.txt）",
+   "corpus_evidence": "golden_8165 3行。例 sanjo-1「余、平生作る所の文章、多くは三上に在り。乃ち馬上・枕上・厠上なり。蓋し惟だ此れ尤も以て思いを属ぬ可きのみ。」"
+  },
+  {
+   "word": "駑馬",
+   "rank": 801,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "どば",
+   "meaning": "足の遅い馬。劣った馬。「駑馬の鬐興して角逐する」。",
+   "dict_evidence": "weblio デジタル大辞泉；ど‐ば【×駑馬】；読み方：どば（cand_801_駑馬.txt）",
+   "corpus_evidence": "golden_8165 3行。例 koshi19_03-4「車を駆り駑馬に策ちて、宛と洛とに遊戯す」"
+  },
+  {
+   "word": "駿馬",
+   "rank": 802,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しゅんば・しゅんめ",
+   "meaning": "速く立派な馬。史記「其の馬、胡の駿馬を将いて帰る」。",
+   "dict_evidence": "weblio デジタル大辞泉；しゅん‐ば【×駿馬】；読み方：しゅんば（cand_802_駿馬.txt）",
+   "corpus_evidence": "golden_8165 3行。例 saio-5「居ること数月、其の馬、胡の駿馬を将いて帰る。」"
+  },
+  {
+   "word": "驍騎",
+   "rank": 803,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。六韜の兵種語「驍騎」——専門語 weblio 不載。"
+  },
+  {
+   "word": "驚駭",
+   "rank": 804,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "きょうがい・けいがい",
+   "meaning": "驚きおののくこと。",
+   "dict_evidence": "weblio デジタル大辞泉；きょう‐がい〔キヤウ‐〕【驚×駭】；読み方：きょうがい（cand_804_驚駭.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou27-4「裂するは、円を撃ち方を破る所以なり。其の驚駭に因るは、一もて十を撃つ所以なり。其の労倦暮舎に因るは、十もて百を撃つ所以な」"
+  },
+  {
+   "word": "高堂",
+   "rank": 805,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうどう",
+   "meaning": "高い堂。転じて父母の居る所。李白「高堂の宴」・「高堂に老親有れば」。",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐どう〔カウダウ〕【高堂】；読み方：こうどう（cand_805_高堂.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen062-3「正に高堂の宴有り」"
+  },
+  {
+   "word": "高樹",
+   "rank": 806,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし（src=高樹郷＝台湾の郷）＝別義＋Wikipedia のみ＝保守排除。漢詩語「高樹」——後日承認なら翻案可。"
+  },
+  {
+   "word": "高辛",
+   "rank": 807,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし、Wikipedia のみ＝保守排除（N80 先例——後日承認なら翻案可）。人名 高辛（帝嚳の号）。"
+  },
+  {
+   "word": "鳥獣",
+   "rank": 808,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ちょうじゅう",
+   "meaning": "鳥と獣。論語「鳥獣は与に群れを同じくす可からず」。",
+   "dict_evidence": "weblio デジタル大辞泉；ちょう‐じゅう〔テウジウ〕【鳥獣】；読み方：ちょうじゅう（cand_808_鳥獣.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo1806-1「子路行きて以て告ぐ。夫子憮然として曰く、鳥獣は与に群れを同じくす可からず。吾は斯の人の徒と与にするに非ずして、誰と与にせ」"
+  },
+  {
+   "word": "鳳池",
+   "rank": 809,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ほうち",
+   "meaning": "鳳凰池。中書省の別称。転じて高位の官職。「共に恩波に沐す鳳池の上」。",
+   "dict_evidence": "weblio デジタル大辞泉；ほう‐ち【×鳳池】；読み方：ほうち（cand_809_鳳池.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen173-7「共に恩波に沐す鳳池の上」"
+  },
+  {
+   "word": "鸚鵡",
+   "rank": 810,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "おうむ",
+   "meaning": "オウム。人語をまねる鳥。「隴山の鸚鵡能く言語す」。",
+   "dict_evidence": "weblio デジタル大辞泉；おう‐む〔アウ‐〕【×鸚×鵡】；読み方：おうむ（cand_810_鸚鵡.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen362-3「隴山の鸚鵡能く言語す」"
+  },
+  {
+   "word": "黄雀",
+   "rank": 811,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうじゃく",
+   "meaning": "シメ。黄雀。曹植野田黄雀行の語。",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐じゃく〔クワウ‐〕【黄×雀】；読み方：こうじゃく（cand_811_黄雀.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen038-1「黄雀黄花を銜み」"
+  },
+  {
+   "word": "黄雲",
+   "rank": 812,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こううん",
+   "meaning": "黄土色の雲。塵雲。高適「十里の黄雲白日曛し」。",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐うん〔クワウ‐〕【黄雲】；読み方：こううん（cand_812_黄雲.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen075-3「黄雲春色を断ち」"
+  },
+  {
+   "word": "黄鶴",
+   "rank": 813,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=近代文学作品名辞典のみ（別義）＋Wikipedia のみ＝保守排除。崔顥黄鶴楼の詩語 黄鶴——後日承認なら翻案可。"
+  },
+  {
+   "word": "黒地",
+   "rank": 814,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "くろじ",
+   "meaning": "黒い土地。暗黒の地。六韜「吾、黒地を按じて堅く処れ」。",
+   "dict_evidence": "weblio デジタル大辞泉；くろ‐じ〔‐ヂ〕【黒地】；読み方：くろじ（cand_814_黒地.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou41-2「。敵人苟くも至らば、即ち軍を引いて却き、黒地を按じて堅く処れ。」"
+  },
+  {
+   "word": "鼙鼓",
+   "rank": 815,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。六韜の軍楽器「鼙鼓」——専門語 weblio 不載。"
+  },
+  {
+   "word": "一歳",
+   "rank": 816,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区なし（例文区のみ）。白文 run「一歳」＝数え語（k=0、書き下し文に同 run 証拠なし）。"
+  },
+  {
+   "word": "不然",
+   "rank": 817,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「不然」＝構文断片（然らず）——N80 白文成句 先例。"
+  },
+  {
+   "word": "不聽",
+   "rank": 818,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「不聽」＝構文断片（聴かず）——N80 白文成句 先例。"
+  },
+  {
+   "word": "以此",
+   "rank": 819,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「以此」＝構文断片（此れを以て）——N80 白文成句 先例。"
+  },
+  {
+   "word": "凡兵",
+   "rank": 820,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「凡兵」＝構文断片（凡そ兵）——N80 白文成句 先例。"
+  },
+  {
+   "word": "即墨",
+   "rank": 821,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=三国志小事典のみ（読み方・释义不載）＋Wikipedia のみ＝保守排除。戦国斉の即墨——後日承認なら翻案可。"
+  },
+  {
+   "word": "善哉",
+   "rank": 822,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "ぜんざい",
+   "meaning": "よいかな。感嘆の詞。仏語。論語「子曰、善哉問」。",
+   "dict_evidence": "weblio デジタル大辞泉；ぜん‐ざい【善×哉】；読み方：ぜんざい（cand_822_善哉.txt）",
+   "corpus_evidence": "golden_8165 3行（白文）。例 rongo「子曰、善哉問。先事後得、非崇德與」"
+  },
+  {
+   "word": "好學",
+   "rank": 823,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうがく",
+   "meaning": "学を好むこと。論語「弟子孰爲好學。孔子對曰、有顏回者、好學」。",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐がく〔カウ‐〕【好学】；読み方：こうがく（cand_823_好學.txt）",
+   "corpus_evidence": "golden_8165 3行（白文）。例 rongo「哀公問、弟子孰爲好學。孔子對曰、有顏回者、好學」"
+  },
+  {
+   "word": "如此",
+   "rank": 824,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「如此」＝構文断片（この如し）——N80 白文成句 先例。"
+  },
+  {
+   "word": "屈原",
+   "rank": 825,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "くつげん",
+   "meaning": "戦国楚の詩人。楚辞の作者。「屈原旣放三年、不得復見」。",
+   "dict_evidence": "weblio デジタル大辞泉；くつ‐げん【屈原】；読み方：くつげん（cand_825_屈原.txt）",
+   "corpus_evidence": "golden_8165 3行（白文）。例 yufu? 「屈原旣放三年、不得復見。竭知盡忠、而蔽鄣於讒」"
+  },
+  {
+   "word": "恥也",
+   "rank": 826,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「恥也」＝構文断片——N80 白文成句 先例。"
+  },
+  {
+   "word": "惜乎",
+   "rank": 827,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「惜乎」＝構文断片——N80 白文成句 先例。"
+  },
+  {
+   "word": "是也",
+   "rank": 828,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「是也」＝構文断片——N80 白文成句 先例。"
+  },
+  {
+   "word": "深乎",
+   "rank": 829,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「深乎」＝構文断片——N80 白文成句 先例。"
+  },
+  {
+   "word": "然後",
+   "rank": 830,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「然後」＝構文断片（然る後に）——N80 白文成句 先例。"
+  },
+  {
+   "word": "燕軍",
+   "rank": 831,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「燕軍」＝燕＋軍の呼称部——N80 呼称部 先例。"
+  },
+  {
+   "word": "約束",
+   "rank": 832,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "やくそく",
+   "meaning": "契り。つなぎ合わせる規約。六韜「田里相伍、其約束符信也」。",
+   "dict_evidence": "weblio デジタル大辞泉；やく‐そく【約束】；読み方：やくそく（cand_832_約束.txt）",
+   "corpus_evidence": "golden_8165 3行（白文・訓読文）。例 六韜「田里相伍、其約束符信也」訓「田里相伍するは、其の約束符信なり」"
+  },
+  {
+   "word": "請益",
+   "rank": 833,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「請益」＝構文断片（益を請う）——N80 白文成句 先例。"
+  },
+  {
+   "word": "諺曰",
+   "rank": 834,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「諺曰」＝X-yune 系（N79 実証済み）。"
+  },
+  {
+   "word": "象曰",
+   "rank": 835,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「象曰」＝X-yune 系（N79 実証済み）。"
+  },
+  {
+   "word": "一人之",
+   "rank": 836,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「一人之を飲めば」＝一人＋之。"
+  },
+  {
+   "word": "三千里",
+   "rank": 837,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さんぜんり",
+   "meaning": "三千の里。遠く隔たった距離。「江水三千里」。",
+   "dict_evidence": "weblio デジタル大辞泉；さんぜんり【三千里】；読み方：さんぜんり（cand_837_三千里.txt）",
+   "corpus_evidence": "golden_8165 3行。例 keishinite-1「江水三千里」"
+  },
+  {
+   "word": "三子者",
+   "rank": 838,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「夫の三子者に告げよ」＝三子＋者。"
+  },
+  {
+   "word": "不仁者",
+   "rank": 839,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「不仁者は」＝不仁＋者。"
+  },
+  {
+   "word": "五六十",
+   "rank": 840,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区なし（例文区のみ）。数え構文「方六七十、如しくは五六十」——N79/N80 数え構文 先例。"
+  },
+  {
+   "word": "五十人",
+   "rank": 841,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区なし（例文区のみ）。数え構文「五十人を小戎と為し」——N79/N80 数え構文 先例。"
+  },
+  {
+   "word": "五十歩",
+   "rank": 842,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区なし（例文区のみ）。数え構文「五十歩を以て百歩を笑わば」——N79/N80 数え構文 先例。"
+  },
+  {
+   "word": "光輝有",
+   "rank": 843,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「光輝有らん」＝X+ari 系。"
+  },
+  {
+   "word": "公子糾",
+   "rank": 844,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし、Wikipedia のみ＝保守排除（N80 先例）。人名 公子糾（斉の公子）——後日承認なら翻案可。"
+  },
+  {
+   "word": "君子有",
+   "rank": 845,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「匪たる君子有り」＝X+ari 系。"
+  },
+  {
+   "word": "地肥饒",
+   "rank": 846,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「地肥饒にして」＝地＋肥饒。"
+  },
+  {
+   "word": "堯又曰",
+   "rank": 847,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句「堯又曰く」＝X-yune 系（N79 実証済み）。"
+  },
+  {
+   "word": "夏后氏",
+   "rank": 848,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし、Wikipedia のみ＝保守排除。王朝呼称 夏后氏——後日承認なら翻案可。"
+  },
+  {
+   "word": "天下之",
+   "rank": 849,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「天下之に帰せん」＝天下＋之。"
+  }
+ ]
+}

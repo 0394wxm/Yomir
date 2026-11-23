@@ -25,7 +25,7 @@ from backend.glossary_lexicon_extra2 import (  # noqa: E402
     LEXICON_EXTRA2, LEXICON_EXTRA2_SOURCE, find_in_lexicon2)
 
 N_BASE = 500
-N_EXTRA = 324
+N_EXTRA = 801  # N79 324 + N80 261 + N82 216 (必要伴随: 词库 1085->1301)
 
 _EXTRA2_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                             "backend", "glossary_lexicon_extra2.py")
@@ -41,7 +41,7 @@ def test_base_lexicon_unchanged_500():
 
 def test_extra2_size_and_total():
     assert len(LEXICON_EXTRA2) == N_EXTRA
-    assert N_BASE + N_EXTRA == 824
+    assert N_BASE + N_EXTRA == 1301
 
 
 def test_extra2_format():
@@ -80,6 +80,16 @@ def test_every_entry_has_dual_evidence():
     for path in sorted(glob.glob(os.path.join(
             os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
             "eval", "night79_decisions_*.json"))):
+        for d in json.load(open(path, encoding="utf-8"))["decisions"]:
+            decs[d["word"]] = d
+    for path in sorted(glob.glob(os.path.join(
+            os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+            "eval", "night80_decisions_*.json"))):
+        for d in json.load(open(path, encoding="utf-8"))["decisions"]:
+            decs[d["word"]] = d
+    for path in sorted(glob.glob(os.path.join(
+            os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+            "eval", "night82_decisions_*.json"))):
         for d in json.load(open(path, encoding="utf-8"))["decisions"]:
             decs[d["word"]] = d
     missing = []

@@ -1,0 +1,496 @@
+{
+ "start": 500,
+ "note": "N82 batch rank 500-549: 35 in (noun 28/proper 5/verb 0/modifier 2/function 0) / 15 out",
+ "decisions": [
+  {
+   "word": "寒暑",
+   "rank": 500,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "かんしょ",
+   "meaning": "寒さと暑さ。冬夏の気候。",
+   "dict_evidence": "weblio デジタル大辞泉；かん‐しょ【寒暑】；読み方：かんしょ（cand_500_寒暑.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou23-4「将、士卒と寒暑、労苦、飢飽を共にす。故に三軍の衆、鼓声を聞けば則ち喜び、金声を聞けば則ち怒り、高城深池、矢石繁く下るも、」"
+  },
+  {
+   "word": "寒空",
+   "rank": 501,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さむぞら",
+   "meaning": "寒々とした空。冬の空。",
+   "dict_evidence": "weblio デジタル大辞泉；さむ‐ぞら【寒空】；読み方：さむぞら（cand_501_寒空.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen129-6「寒空削成に映ず」"
+  },
+  {
+   "word": "寒雨",
+   "rank": 502,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "かんう",
+   "meaning": "寒々と降る雨。",
+   "dict_evidence": "weblio デジタル大辞泉；かん‐う【寒雨】；読み方：かんう（cand_502_寒雨.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen338-1「寒雨江に連なって夜呉に入る」"
+  },
+  {
+   "word": "封侯",
+   "rank": 503,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ほうこう",
+   "meaning": "諸侯に封ぜられること。転じて高位を得ること。",
+   "dict_evidence": "weblio デジタル大辞泉；ほう‐こう【封侯】；読み方：ほうこう（cand_503_封侯.txt）",
+   "corpus_evidence": "golden_8165 3行。例 isshoko-3「君に憑って話ること莫かれ封侯の事」"
+  },
+  {
+   "word": "将帥",
+   "rank": 504,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しょうすい",
+   "meaning": "将と副将。軍の指揮官。",
+   "dict_evidence": "weblio デジタル大辞泉；しょう‐すい〔シヤウ‐〕【将帥】；読み方：しょうすい（cand_504_将帥.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou37-1「未だ敢えて先ず挙げざるに、吾、敵人をして将帥は恐懼し、士卒は心傷み、行陣は固からず、後陣は走らんと欲し、前陣は数〻顧み、」"
+  },
+  {
+   "word": "将必",
+   "rank": 505,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「其の将必ず労し」＝将＋必ず。"
+  },
+  {
+   "word": "尋常",
+   "rank": 506,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じんじょう",
+   "meaning": "尋（八尺）と常（十六尺）。転じて平凡なこと、普通。",
+   "dict_evidence": "weblio デジタル大辞泉；じん‐じょう〔‐ジヤウ〕【尋常】；読み方：じんじょう（cand_506_尋常.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rakutensho-3「尋常は省曾て此の如くならざりき」"
+  },
+  {
+   "word": "小国",
+   "rank": 507,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しょうこく",
+   "meaning": "小さな国。",
+   "dict_evidence": "weblio デジタル大辞泉；しょう‐こく〔セウ‐〕【小国】；読み方：しょうこく（cand_507_小国.txt）",
+   "corpus_evidence": "golden_8165 3行。例 ayaukikotoru-2「故に曹は小国にして、晋・楚の間に迫る、其の君の危うきこと猶お累卵のごときなり。」"
+  },
+  {
+   "word": "小子",
+   "rank": 508,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しょうし",
+   "meaning": "若い者。弟子。孔子が門人を呼ぶ語。",
+   "dict_evidence": "weblio デジタル大辞泉；しょう‐し〔セウ‐〕【小子】；読み方：しょうし（cand_508_小子.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kaeranka-1「子、陳に在りて曰く、帰らんか、帰らんか。吾が党の小子、狂簡にして、斐然として章を成す。之を裁する所以を知らず。」"
+  },
+  {
+   "word": "小過",
+   "rank": 509,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しょうか",
+   "meaning": "わずかな過ち。",
+   "dict_evidence": "weblio デジタル大辞泉「しょう‐か〔セウクワ〕【小過】わずかな過失」（語料＝過失義で一致；易の卦義はウィキ区のみ）（cand_509_小過.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo1302-1「と為り、政を問う。子曰く、有司を先にし、小過を赦し、賢才を挙げよ。曰く、焉くんぞ賢才を知りて之を挙げん。曰く、爾の知る所」"
+  },
+  {
+   "word": "少婦",
+   "rank": 510,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しょうふ",
+   "meaning": "年若い妻。若い婦人。",
+   "dict_evidence": "weblio デジタル大辞泉；しょう‐ふ〔セウ‐〕【少婦】；読み方：しょうふ（cand_510_少婦.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen332-1「閨中の少婦愁いを知らず」"
+  },
+  {
+   "word": "少小",
+   "rank": 511,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しょうしょう",
+   "meaning": "幼いこと。若いとき。",
+   "dict_evidence": "weblio デジタル大辞泉；しょう‐しょう〔セウセウ〕【少小】；読み方：しょうしょう（cand_511_少小.txt）",
+   "corpus_evidence": "golden_8165 3行。例 keisetsu-1「孫氏世録に曰く、康、家貧にして油無し。常に雪に映して書を読む。少小より清介にして、交遊雑ならず。後に御史大夫に至る。」"
+  },
+  {
+   "word": "尚書",
+   "rank": 512,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "しょうしょ",
+   "meaning": "中国の官名（隋唐以降は六部の長官）。また書経の異称。語料＝官名義。",
+   "dict_evidence": "weblio デジタル大辞泉；しょう‐しょ〔シヤウ‐〕【尚書】；読み方：しょうしょ（cand_512_尚書.txt）",
+   "corpus_evidence": "golden_8165 3行。例 uyu-1「為らん。賦成らば之を奏せん、と。上許し、尚書をして筆札を給せしむ。」"
+  },
+  {
+   "word": "尾生",
+   "rank": 513,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=地名辞典のみ（日本の地名）＝別義、人物義は Wikipedia のみ＝保守排除（N80 宰我・元王 先例——後日承認なら翻案可）。"
+  },
+  {
+   "word": "尾至",
+   "rank": 514,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「其の首を撃たば則ち尾至り」＝尾＋至る。"
+  },
+  {
+   "word": "屏風",
+   "rank": 515,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "びょうぶ",
+   "meaning": "室内を仕切るのに用いる、絵や字を書いた具。",
+   "dict_evidence": "weblio デジタル大辞泉；びょう‐ぶ〔ビヤウ‐〕【×屏風】；読み方：びょうぶ（cand_515_屏風.txt）",
+   "corpus_evidence": "golden_8165 3行。例 soko-6「帝、主をして屏風の後ろに坐せしめ、因りて弘に謂いて曰く、」"
+  },
+  {
+   "word": "山上",
+   "rank": 516,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さんじょう・やまのうえ",
+   "meaning": "山の上。",
+   "dict_evidence": "weblio デジタル大辞泉；さん‐じょう〔‐ジヤウ〕【山上】；読み方：さんじょう（cand_516_山上.txt）",
+   "corpus_evidence": "golden_8165 3行。例 shunjitsu01-3「山上の春雲我が懶の如く」"
+  },
+  {
+   "word": "山河",
+   "rank": 517,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さんが",
+   "meaning": "山と川。転じて国土。",
+   "dict_evidence": "weblio デジタル大辞泉；さん‐が【山河】；読み方：さんが（cand_517_山河.txt）",
+   "corpus_evidence": "golden_8165 3行。例 nishikiyo-1「て東す。人或いは項王に説きて曰く、関中は山河を阻てて四塞し、地は肥饒なり。都して以て霸たる可し、と。」"
+  },
+  {
+   "word": "川原",
+   "rank": 518,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "かわら",
+   "meaning": "川のほとりの砂礫の地。河原。",
+   "dict_evidence": "weblio デジタル大辞泉；かわら〔かはら〕【河‐原／川‐原／×磧】；読み方：かわら（cand_518_川原.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen242-2「川原杳として何ぞ極まらん」"
+  },
+  {
+   "word": "巫山",
+   "rank": 519,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "ふざん",
+   "meaning": "蜀の東、長江沿いの山。神女伝説（宋玉高唐賦）で名高い。",
+   "dict_evidence": "weblio デジタル大辞泉；ふ‐ざん【巫山】；読み方：ふざん（cand_519_巫山.txt）",
+   "corpus_evidence": "golden_8165 3行。例 gasshoren-1「中の利有り、北に胡貉・代馬の用有り、南に巫山・黔中の限り有り、東に殽・函の固め有り、田は肥美に、民は殷富に、戦車万乗、奮」"
+  },
+  {
+   "word": "布衣",
+   "rank": 520,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ふい・ぬのきぬ",
+   "meaning": "布の着物。転じて平民、無官の人。",
+   "dict_evidence": "weblio デジタル大辞泉「ぬの‐きぬ【布▽衣】」他辞書欄に ふい・ほい・ほうい；語料「布衣の交わり」＝平民義 ふい 前頭（N79 敵人 両読み形式）（cand_520_布衣.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kanpeki4k-6「臣以為えらく、布衣の交わりすら、尚お相欺かず。況んや大国をや。且つ一璧の故を以て、彊秦の驩に逆らうは、不可なり、と。是に」"
+  },
+  {
+   "word": "帝郷",
+   "rank": 521,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢詩語「帝郷」（天帝の住処・帝都）——N80 同款 404 排除。"
+  },
+  {
+   "word": "帰雁",
+   "rank": 522,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きがん",
+   "meaning": "帰りゆく雁。春、北へ帰る雁。",
+   "dict_evidence": "weblio デジタル大辞泉；き‐がん【帰×雁】；読み方：きがん（cand_522_帰雁.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen078-4「帰雁胡天に入る」"
+  },
+  {
+   "word": "平原",
+   "rank": 523,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "へいげん",
+   "meaning": "平らで広い原野。",
+   "dict_evidence": "weblio デジタル大辞泉；へい‐げん【平原】；読み方：へいげん（cand_523_平原.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen001-9「出没平原を望む」"
+  },
+  {
+   "word": "平台",
+   "rank": 524,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 大辞泉＝印刷機・書店台・演劇台、地名辞典＝日本地名＝別義。語料「平台の賓客」＝梁孝王の築いた台の名（中国の台名）——N79 東流 先例 sense-mismatch 排除。"
+  },
+  {
+   "word": "平旦",
+   "rank": 525,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "へいたん",
+   "meaning": "夜明け。早朝。",
+   "dict_evidence": "weblio デジタル大辞泉；へい‐たん【平旦】；読み方：へいたん（cand_525_平旦.txt）",
+   "corpus_evidence": "golden_8165 3行。例 haisui18-7「平旦、大将の旗鼓を建て、鼓行して井陘口より出づ。」"
+  },
+  {
+   "word": "平明",
+   "rank": 526,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "へいめい",
+   "meaning": "明け方。夜の明ける時。",
+   "dict_evidence": "weblio デジタル大辞泉；へい‐めい【平明】；読み方：へいめい（cand_526_平明.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen338-2「平明客を送れば楚山孤なり」"
+  },
+  {
+   "word": "平沙",
+   "rank": 527,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "へいさ",
+   "meaning": "広々とした砂地。平らかな砂原。",
+   "dict_evidence": "weblio デジタル大辞泉；へい‐さ【平沙】；読み方：へいさ（cand_527_平沙.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen448-1「平沙の落日大荒の西」"
+  },
+  {
+   "word": "幾時",
+   "rank": 528,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区＝例文用例辞書のみ（機械生成区）——N80 機械区のみ 先例。"
+  },
+  {
+   "word": "幾歳",
+   "rank": 529,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区＝例文用例辞書のみ（機械生成区）——N80 機械区のみ 先例。"
+  },
+  {
+   "word": "広大",
+   "rank": 530,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "こうだい・ひろだい",
+   "meaning": "広々として大きいこと。",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐だい〔クワウ‐〕【広大／×宏大】；読み方：こうだい（cand_530_広大.txt）",
+   "corpus_evidence": "golden_8165 3行。例 yaro-2「の故に、各〻自ら以て一州の主と為し、漢の広大なるを知らず。」"
+  },
+  {
+   "word": "廟算",
+   "rank": 531,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "びょうさん",
+   "meaning": "廟堂（朝廷）で定める戦略。孫子「未だ戦わずして廟算して勝つ者」。",
+   "dict_evidence": "weblio デジタル大辞泉；びょう‐さん〔ベウ‐〕【×廟算】；読み方：びょうさん（cand_531_廟算.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen133-2「廟算兵を休むに在り」"
+  },
+  {
+   "word": "廬山",
+   "rank": 532,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "ろざん",
+   "meaning": "江西省九江の南の山。蘇軾「廬山の真面目を識らざるは」で名高い。",
+   "dict_evidence": "weblio デジタル大辞泉；ろ‐ざん【廬山】；読み方：ろざん（cand_532_廬山.txt）",
+   "corpus_evidence": "golden_8165 3行。例 seirinno-3「廬山の真面目を識らざるは」"
+  },
+  {
+   "word": "廷尉",
+   "rank": 533,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "ていい",
+   "meaning": "秦漢の官名。刑獄を司る九卿の一。",
+   "dict_evidence": "weblio デジタル大辞泉；てい‐い〔‐ヰ〕【廷尉】；読み方：ていい（cand_533_廷尉.txt）",
+   "corpus_evidence": "golden_8165 3行。例 isshiissei-2「下邽の翟公言う有り。始め翟公、廷尉と為るや、賓客門に闐つ。廃せらるるに及べば、門外雀羅を設く可し。翟公復た廷尉と為るや、」"
+  },
+  {
+   "word": "建徳",
+   "rank": 534,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 大辞泉＝日本南朝の年号（1370-1372）のみ＝別義。語料「建徳は偸きが若し」＝老子「徳を建つ」義——sense-mismatch 排除。"
+  },
+  {
+   "word": "張良",
+   "rank": 535,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "ちょうりょう",
+   "meaning": "漢の開国の功臣。留侯。兵法を張良・韓信で序次すと太宗言う。",
+   "dict_evidence": "weblio デジタル大辞泉；ちょう‐りょう〔チヤウリヤウ〕【張良】；読み方：ちょうりょう（cand_535_張良.txt）",
+   "corpus_evidence": "golden_8165 3行。例 yokonou-1「て解きて東に帰る。漢、西に帰らんと欲す。張良・陳平説きて曰く、漢、天下の大半を有ち、而して諸侯皆之に附く。楚は兵罷れ食尽」"
+  },
+  {
+   "word": "彭沢",
+   "rank": 536,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=三国志小事典のみ（読み方・释义不載）＋Wikipedia のみ＝保守排除（後日承認なら翻案可）。"
+  },
+  {
+   "word": "征人",
+   "rank": 537,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢詩語「征人」（遠征の兵士）——N80 同款 404 排除。"
+  },
+  {
+   "word": "征戍",
+   "rank": 538,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せいじゅ",
+   "meaning": "遠征と国境の番。出征と防戍。",
+   "dict_evidence": "weblio デジタル大辞泉；せい‐じゅ【征×戍】；読み方：せいじゅ（cand_538_征戍.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen035-4「愁殺す楼蘭征戍の児」"
+  },
+  {
+   "word": "従来",
+   "rank": 539,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じゅうらい",
+   "meaning": "それまでずっと。これまで。",
+   "dict_evidence": "weblio 実用日本語表現辞典「従来」読み方：じゅうらい（cand_539_従来.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen165-3「禅室は従来塵外の賞」"
+  },
+  {
+   "word": "得失",
+   "rank": 540,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "とくしつ",
+   "meaning": "得ることと失うこと。利点と欠点。",
+   "dict_evidence": "weblio デジタル大辞泉；とく‐しつ【得失】；読み方：とくしつ（cand_540_得失.txt）",
+   "corpus_evidence": "golden_8165 3行。例 sonshi06-36「故に之を策りて得失の計を知り、之を作して動静の理を知り、之を形して死生の地を知り、之に角れて有余不足の処を知る。」"
+  },
+  {
+   "word": "微妙",
+   "rank": 541,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "びみょう・みみょう",
+   "meaning": "精妙で計り知れないこと。老子「六甲の分、微妙の神」。",
+   "dict_evidence": "weblio デジタル大辞泉；び‐みょう〔‐メウ〕【微妙】；読み方：びみょう（cand_541_微妙.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou28-3「五行の道は、天地の自然にして、六甲の分、微妙の神なり。」"
+  },
+  {
+   "word": "徳無",
+   "rank": 542,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「徳無し」＝X+ari/nashi 系（N79 実証済みパターン）。"
+  },
+  {
+   "word": "徳行",
+   "rank": 543,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "とっこう・とくぎょう",
+   "meaning": "徳のある行い。人徳。論語四科の「徳行」科。",
+   "dict_evidence": "weblio デジタル大辞泉；とっ‐こう〔トクカウ〕【徳行】；読み方：とっこう（cand_543_徳行.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo1102-1「陳・蔡に従いし者は、皆門に及ばざるなり。徳行には顔淵・閔子騫・冉伯牛・仲弓。言語には宰我・子貢。政事には冉有・季路。文学」"
+  },
+  {
+   "word": "心有",
+   "rank": 544,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし（例文区のみ）。構文断片「心有り」＝X+ari 系。"
+  },
+  {
+   "word": "必死",
+   "rank": 545,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ひっし",
+   "meaning": "死を決する覚悟。命がけ。孫子「必死は殺さる可く」。",
+   "dict_evidence": "weblio デジタル大辞泉；ひっ‐し【必死】；読み方：ひっし（cand_545_必死.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou53-6「貧窮にして忿怒し、其の志を快くせんと欲する者有れば、聚めて一卒と為し、名づけて必死の士と曰う。」"
+  },
+  {
+   "word": "志有",
+   "rank": 546,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「志有り」＝X+ari 系。"
+  },
+  {
+   "word": "忠言",
+   "rank": 547,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ちゅうげん",
+   "meaning": "忠実な言葉。真心から出る戒めの言葉。",
+   "dict_evidence": "weblio デジタル大辞泉；ちゅう‐げん【忠言】；読み方：ちゅうげん（cand_547_忠言.txt）",
+   "corpus_evidence": "golden_8165 3行。例 ryoyaku-1「曰く、良薬は口に苦けれども、病に利あり。忠言は耳に逆らえども、行いに利あり。湯・武は諤諤を以て昌え、桀・紂は唯唯を以て亡」"
+  },
+  {
+   "word": "恥有",
+   "rank": 548,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「恥有り」＝X+ari 系。"
+  },
+  {
+   "word": "愁人",
+   "rank": 549,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢詩語「愁人」（憂うべき人・詩人の自指）——N80 同款 404 排除。"
+  }
+ ]
+}

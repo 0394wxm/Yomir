@@ -1,0 +1,448 @@
+{
+ "start": 350,
+ "note": "N80 batch7 ranks 350-399: 23 in (22 noun, 1 modifier teitei) / 27 out (19 404 fragments, 4 machine-example-only, 2 wikipedia-only conservative, 1 sense-mismatch renchi, 1 special)",
+ "decisions": [
+  {
+   "word": "不知",
+   "rank": 350,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しらず・ふち",
+   "meaning": "知らないこと。無知。",
+   "dict_evidence": "weblio デジタル大辞泉「ふ‐ち【不知】」両読み ふち・しらず；語料論語訓読「一言を以て不知（しらず）と為す」に合わせ しらず 前頭（cand_350_不知.txt）",
+   "corpus_evidence": "golden_8165 3行。例 ichigenchi-1「貢曰く、君子は一言以て知と為し、一言以て不知と為す。言は慎まざる可か」"
+  },
+  {
+   "word": "世俗",
+   "rank": 351,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せいぞく・せぞく",
+   "meaning": "世間。世間一般の風俗・流儀。俗世間。",
+   "dict_evidence": "weblio デジタル大辞泉「せい‐ぞく【世俗】」両読み せいぞく・せぞく；訓読慣用 せぞく（cand_351_世俗.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou10-2「文王曰く、其の失安くにか在る。太公曰く、其の失、君、世俗の誉むる所を」"
+  },
+  {
+   "word": "丞相",
+   "rank": 352,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じょうしょう・しょうじょう",
+   "meaning": "中国古代の最高官職（丞相）。漢詩で蜀の丞相＝諸葛亮を指す。日本では太政大臣の唐名。",
+   "dict_evidence": "weblio デジタル大辞泉「しょう‐じょう〔‐ジヤウ〕【×丞相】」両読み しょうじょう・じょうしょう；語料「丞相祠堂」＝じょうしょう 前頭（cand_352_丞相.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kokushi-1「、自ら之を追う。人の上に言う有りて曰く、丞相の何、亡ぐ、と。上、大い」"
+  },
+  {
+   "word": "両旁",
+   "rank": 353,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「其の両旁を陥れ」（両旁＝両側 方位語）"
+  },
+  {
+   "word": "中軍",
+   "rank": 354,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ちゅうぐん",
+   "meaning": "主将の直率する軍。三軍（中軍・左軍・右軍）の中央。",
+   "dict_evidence": "weblio デジタル大辞泉「ちゅう‐ぐん【中軍】読み方：ちゅうぐん」（cand_354_中軍.txt）",
+   "corpus_evidence": "golden_8165 3行。例 utsuryo15-1「中軍、左右前後の軍、皆分地有り。之を方するに行垣を以てして、其の交往」"
+  },
+  {
+   "word": "主上",
+   "rank": 355,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しゅじょう",
+   "meaning": "君主。天皇・皇帝の尊称。",
+   "dict_evidence": "weblio デジタル大辞泉「しゅ‐じょう〔‐ジヤウ〕【主上】読み方：しゅじょう」（cand_355_主上.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kyugyu-1「僕の先、剖符丹書の功有るに非ず。文史星暦、卜祝の間に近し。固より主上」"
+  },
+  {
+   "word": "之亡",
+   "rank": 356,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「是れ之亡き」（之＋亡し）"
+  },
+  {
+   "word": "九合",
+   "rank": 357,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「諸侯を九合し」（九合諸侯 成句断片）"
+  },
+  {
+   "word": "九変",
+   "rank": 358,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。孫子「九変の利」構文断片"
+  },
+  {
+   "word": "九天",
+   "rank": 359,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きゅうてん",
+   "meaning": "九つの天。天の極めて高い所。天空。",
+   "dict_evidence": "weblio デジタル大辞泉「きゅう‐てん〔キウ‐〕【九天】読み方：きゅうてん」（別読み くてん あり）（cand_359_九天.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen174-3「九天の閶闔宮殿を開き」"
+  },
+  {
+   "word": "乱邦",
+   "rank": 360,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "らんぽう",
+   "meaning": "乱れた国。太平でない国。",
+   "dict_evidence": "weblio デジタル大辞泉「らん‐ぽう〔‐パウ〕【乱邦】読み方：らんぽう」（cand_360_乱邦.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kihoranpo-1「、死を守りて道を善くす。危邦には入らず、乱邦には居らず。天下道有れば」"
+  },
+  {
+   "word": "争地",
+   "rank": 361,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。孫子九地術語「争地と為す」構文断片"
+  },
+  {
+   "word": "二術",
+   "rank": 362,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「二術を奇と為せ」"
+  },
+  {
+   "word": "云何",
+   "rank": 363,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。疑問構文「云何」（条目なし）"
+  },
+  {
+   "word": "五世",
+   "rank": 364,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio OK だが Weblio日本語例文用例辞書（機械生成例文区）のみ——N79 機械生成区块排除先例"
+  },
+  {
+   "word": "五侯",
+   "rank": 365,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢成帝の五侯＝专名呼称、辞書条目なし"
+  },
+  {
+   "word": "五更",
+   "rank": 366,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ごこう",
+   "meaning": "夜を五つに分けた時称の総称。特に明け方の第五更。",
+   "dict_evidence": "weblio デジタル大辞泉「ご‐こう〔‐カウ〕【五更】読み方：ごこう」（cand_366_五更.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen106-4「客と為る五更の愁い」"
+  },
+  {
+   "word": "五月",
+   "rank": 367,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ごがつ",
+   "meaning": "陰暦五月。五月雨の季節。",
+   "dict_evidence": "weblio デジタル大辞泉「ご‐がつ〔‐グワツ〕【五月】読み方：ごがつ」（別読み さつき あり）（cand_367_五月.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen364-1「火山五月行人少なり」"
+  },
+  {
+   "word": "五有",
+   "rank": 368,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。数え構文「勝を知るに五有り」（五＋有り）——N79 諸有 先例"
+  },
+  {
+   "word": "五湖",
+   "rank": 369,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio OK だが機械生成例文区のみ。五湖＝太湖体系专名だが国語辞書条目なし——排除"
+  },
+  {
+   "word": "五章",
+   "rank": 370,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。大学伝文序構文「右伝の五章」"
+  },
+  {
+   "word": "五美",
+   "rank": 371,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語構文断片「何をか五美と謂う」"
+  },
+  {
+   "word": "五者",
+   "rank": 372,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。指示構文断片「此の五者」"
+  },
+  {
+   "word": "亡地",
+   "rank": 373,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。孫子構文断片「亡地に置きて後存す」"
+  },
+  {
+   "word": "交地",
+   "rank": 374,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。孫子九地術語「交地と為す」構文断片"
+  },
+  {
+   "word": "交河",
+   "rank": 375,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。交河（吐魯番の地名）＝专名、辞書条目なし"
+  },
+  {
+   "word": "亭亭",
+   "rank": 376,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "ていてい",
+   "meaning": "高くそびえるさま。澄んで静かなさま。",
+   "dict_evidence": "weblio デジタル大辞泉「てい‐てい【亭亭】読み方：ていてい」（形容・畳語）（cand_376_亭亭.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen009-7「亭亭として碧流暗く」"
+  },
+  {
+   "word": "人以",
+   "rank": 377,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio OK だがウィキペディア小見出し辞書（機械生成区）のみ。語料も「人以て」＝人＋以て 構文断片"
+  },
+  {
+   "word": "人必",
+   "rank": 378,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「人必ず之を知る」"
+  },
+  {
+   "word": "人或",
+   "rank": 379,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「人或いは～に説きて」"
+  },
+  {
+   "word": "人知",
+   "rank": 380,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：dict=人知（じんち）＝人の知恵・世間の知識；語料「人知らずして慍らず」＝人＋知らず 動詞句——N79 東流 先例"
+  },
+  {
+   "word": "人衆",
+   "rank": 381,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio OK だが機械生成例文区のみ（人衆ければ天に勝つ は例文）——排除"
+  },
+  {
+   "word": "今人",
+   "rank": 382,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こんじん",
+   "meaning": "今の人。当代の人（古人に対して）。",
+   "dict_evidence": "weblio デジタル大辞泉「こん‐じん【今人】読み方：こんじん」（cand_382_今人.txt）",
+   "corpus_evidence": "golden_8165 3行。例 tewohiru-4「此の道今人棄つること土の如し」"
+  },
+  {
+   "word": "今何",
+   "rank": 383,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「今何くにか在る」"
+  },
+  {
+   "word": "今朝",
+   "rank": 384,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こんちょう・けさ",
+   "meaning": "今日の朝。今の朝。",
+   "dict_evidence": "weblio デジタル大辞泉「けさ【今‐朝】」両読み けさ・こんちょう；語料漢詩訓読「今朝天子の貴」＝こんちょう 前頭（cand_384_今朝.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen124-11「今朝天子の貴きこと」"
+  },
+  {
+   "word": "今者",
+   "rank": 385,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「今者、臣来たる」（今＋者）"
+  },
+  {
+   "word": "仙郎",
+   "rank": 386,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せんろう",
+   "meaning": "仙官のような高官の称。尚書郎の美称。",
+   "dict_evidence": "weblio デジタル大辞泉「せん‐ろう〔‐ラウ〕【仙郎】読み方：せんろう」（cand_386_仙郎.txt）",
+   "corpus_evidence": "golden_8165 3行。例 sobetsu_gyo01-2「料らざりき仙郎別離有らんとは」"
+  },
+  {
+   "word": "令尹",
+   "rank": 387,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=Wikipedia のみ（令尹＝楚の官名）。N79 待拍板路子（Wikipedia 采録）は本夜未承認のため保守排除——後日承認なら翻案可"
+  },
+  {
+   "word": "令行",
+   "rank": 388,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「令行わる」"
+  },
+  {
+   "word": "伏兵",
+   "rank": 389,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ふくへい",
+   "meaning": "潜伏して待ち伏せる兵。",
+   "dict_evidence": "weblio デジタル大辞泉「ふく‐へい【伏兵】読み方：ふくへい」（cand_389_伏兵.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou34-3「を平らげ、軍の為に道を開き、材士強弩は、伏兵と為して後ろに居らしめ、」"
+  },
+  {
+   "word": "佞人",
+   "rank": 390,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ねいじん",
+   "meaning": "口先が巧みで心の誠でない人。",
+   "dict_evidence": "weblio デジタル大辞泉「ねい‐じん【×佞人】読み方：ねいじん」（cand_390_佞人.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo1510-1「の冕を服し、楽は則ち韶舞し、鄭声を放ち、佞人を遠ざく。鄭声は淫にして」"
+  },
+  {
+   "word": "使者",
+   "rank": 391,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ししゃ",
+   "meaning": "主の命を受けて使いをする者。使者。",
+   "dict_evidence": "weblio デジタル大辞泉「し‐しゃ【使者】読み方：ししゃ」（cand_391_使者.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kotaku-3「上客と為さば、千乗の君なり。子を以て我が使者と為さば、万乗の卿なり。」"
+  },
+  {
+   "word": "使臣",
+   "rank": 392,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ししん",
+   "meaning": "主の命を受けて他国に遣わされる臣。",
+   "dict_evidence": "weblio デジタル大辞泉「し‐しん【使臣】読み方：ししん」（cand_392_使臣.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen077-8「応に使臣の星を逐うべし」"
+  },
+  {
+   "word": "俠客",
+   "rank": 393,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きょうかく",
+   "meaning": "任侠を旨とし武芸にすぐれて客遊びする者。",
+   "dict_evidence": "weblio デジタル大辞泉「きょう‐かく〔ケフ‐〕【×侠客】読み方：きょうかく」（cand_393_俠客.txt）",
+   "corpus_evidence": "golden_8165 3行。例 p-dojitsuno-2「要するに功見れ言信なるを以てす。俠客の義、又曷ぞ少とする可けんや。」"
+  },
+  {
+   "word": "倉廩",
+   "rank": 394,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "そうりん",
+   "meaning": "穀物を収める倉と廩。穀倉。転じて財力。",
+   "dict_evidence": "weblio デジタル大辞泉「そう‐りん〔サウ‐〕【倉×廩】読み方：そうりん」（cand_394_倉廩.txt）",
+   "corpus_evidence": "golden_8165 3行。例 ishoku-1「有し民を牧する者は、務め四時に在り、守り倉廩に在り。国に財多ければ、」"
+  },
+  {
+   "word": "億万",
+   "rank": 395,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "おくまん",
+   "meaning": "億と万。数のきわめて多いこと。",
+   "dict_evidence": "weblio デジタル大辞泉「おく‐まん【億万】読み方：おくまん」（cand_395_億万.txt）",
+   "corpus_evidence": "golden_8165 3行。例 utsuryo08-8「左にし、死士三百、戦士三万なり。紂の陣は億万にして、飛廉、悪来、身、」"
+  },
+  {
+   "word": "元王",
+   "rank": 396,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 辞書区=Wikipedia のみ（周の元王＝专名）。N79 待拍板路子本夜未承認のため保守排除"
+  },
+  {
+   "word": "先後",
+   "rank": 397,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せんご",
+   "meaning": "先と後。物事の順序。",
+   "dict_evidence": "weblio デジタル大辞泉「せん‐ご【先後】読み方：せんご」（別読み せんこう あり）（cand_397_先後.txt）",
+   "corpus_evidence": "golden_8165 3行。例 daigaku01kei-3「物に本末有り、事に終始有り。先後する所を知れば、則ち道に近し。」"
+  },
+  {
+   "word": "児女",
+   "rank": 398,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じじょ",
+   "meaning": "乳飲み子・幼い子。また若い男女。",
+   "dict_evidence": "weblio デジタル大辞泉「じ‐じょ〔‐ヂヨ〕【児女】読み方：じじょ」（cand_398_児女.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen049-8「児女と共に巾を沾すを」"
+  },
+  {
+   "word": "八人",
+   "rank": 399,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "はちにん",
+   "meaning": "八人の数。",
+   "dict_evidence": "weblio デジタル大辞泉「はち‐にん【八人】読み方：はちにん」（六韜兵数対句で頻出）（cand_399_八人.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rikutou55-2「十人に当り、八十人は一車に当り、一騎歩卒八人に当り、八人は一騎に当り」"
+  }
+ ]
+}

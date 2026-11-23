@@ -1,0 +1,380 @@
+{
+ "start": 250,
+ "note": "N80 batch5 ranks 250-299: 6 in (2 proper, 3 noun, 1 adjadv) / 44 out (X-yune 12, syntax-fragment 22, sentence-fragment 9, machine-only 1)",
+ "decisions": [
+  {
+   "word": "孟嘗君",
+   "rank": 250,
+   "freq": 4,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "もうしょうくん",
+   "meaning": "中国戦国時代の斉の公族。姓は田、名は文。鶏鳴狗盗の故事で知られる戦国四君の一人。",
+   "dict_evidence": "weblio デジタル大辞泉「もうしょう‐くん〔マウシヤウ‐〕【孟嘗君】読み方：もうしょうくん」公族释义あり（cand_250_孟嘗君.txt）",
+   "corpus_evidence": "golden_8165 4行。例 keimei-1「昭王即ち孟嘗君を以て秦の相と為す。人或いは秦の昭王に説きて曰く、孟嘗」"
+  },
+  {
+   "word": "孟母曰",
+   "rank": 251,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。N79 パターン（X＋曰く 呼称部。孟母＋曰く）"
+  },
+  {
+   "word": "季康子",
+   "rank": 252,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語人名だが辞書条目なし（N79 稀有人名先例）"
+  },
+  {
+   "word": "宰我問",
+   "rank": 253,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。N79 パターン（宰我＋問う 呼称部）"
+  },
+  {
+   "word": "柳下恵",
+   "rank": 254,
+   "freq": 4,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "りゅうかけい",
+   "meaning": "周代魯の賢者。本名展禽、字は季。柳下に住み、恵と諡された名。直道を守って君に仕えた。",
+   "dict_evidence": "weblio デジタル大辞泉「りゅうか‐けい〔リウカ‐〕【柳下恵】読み方：りゅうかけい」賢者释义あり（cand_254_柳下恵.txt）",
+   "corpus_evidence": "golden_8165 4行。例 rongo1513-1「子曰く、臧文仲は其れ位を窃む者か。柳下恵の賢を知りて、而も与に立たざ」"
+  },
+  {
+   "word": "直千金",
+   "rank": 255,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。「直千金＝値に千金」構文断片（直＋千金）"
+  },
+  {
+   "word": "管仲曰",
+   "rank": 256,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。N79 パターン（管仲＋曰く 呼称部）"
+  },
+  {
+   "word": "謀臣亡",
+   "rank": 257,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。成句断片「謀臣亡ぶ」（狡兎死して走狗烹らる 系構文）"
+  },
+  {
+   "word": "長沮曰",
+   "rank": 258,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。N79 パターン（長沮＋曰く 呼称部）"
+  },
+  {
+   "word": "顔淵曰",
+   "rank": 259,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。N79 パターン（顔淵＋曰く 呼称部）"
+  },
+  {
+   "word": "顔淵死",
+   "rank": 260,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「顔淵死す」（顔淵＋死す）"
+  },
+  {
+   "word": "同其塵",
+   "rank": 261,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。老子「和其光、同其塵」構文断片"
+  },
+  {
+   "word": "和其光",
+   "rank": 262,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。老子「和其光、同其塵」構文断片"
+  },
+  {
+   "word": "康誥曰",
+   "rank": 263,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。書経篇名「康誥」＋曰く 呼称部"
+  },
+  {
+   "word": "挫其鋭",
+   "rank": 264,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。老子「挫其鋭、解其紛」構文断片"
+  },
+  {
+   "word": "色思溫",
+   "rank": 265,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語「色思温」構文断片（九思の節）"
+  },
+  {
+   "word": "解其紛",
+   "rank": 266,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。老子「挫其鋭、解其紛」構文断片"
+  },
+  {
+   "word": "謂之暴",
+   "rank": 267,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。N79 パターン（謂之＋X 構文断片）"
+  },
+  {
+   "word": "謂之虐",
+   "rank": 268,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。N79 パターン（謂之＋X 構文断片）"
+  },
+  {
+   "word": "謂之賊",
+   "rank": 269,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。N79 パターン（謂之＋X 構文断片）"
+  },
+  {
+   "word": "顏淵曰",
+   "rank": 270,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。N79 パターン（顔淵＋曰く 呼称部・異体字顏 run）"
+  },
+  {
+   "word": "顏淵死",
+   "rank": 271,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「顔淵死す」（異体字顏 run）"
+  },
+  {
+   "word": "中庶子曰",
+   "rank": 272,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。官名＋曰く 呼称部（中庶子＋曰く）"
+  },
+  {
+   "word": "令尹子文",
+   "rank": 273,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。人名呼称（令尹子文）辞書条目なし"
+  },
+  {
+   "word": "信賞必罰",
+   "rank": 274,
+   "freq": 4,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しんしょうひつばつ",
+   "meaning": "信じて賞し、必ず罰す。功を確かめて賞し、罪を必ず罰すること。",
+   "dict_evidence": "weblio デジタル大辞泉「しんしょう‐ひつばつ〔シンシヤウ‐〕【信賞必罰】読み方：しんしょうひつばつ」（cand_274_信賞必罰.txt）",
+   "corpus_evidence": "golden_8165 4行。例 shinshohi-2「公曰く、戦わざるを得る無からしむること奈何、と。狐子対えて曰く、信賞」"
+  },
+  {
+   "word": "叔孫武叔",
+   "rank": 275,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio OK だがウィキペディア小見出し辞書（機械生成区）のみ＝N79 排除先例"
+  },
+  {
+   "word": "四海困窮",
+   "rank": 276,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語・書経成句断片「四海困窮」"
+  },
+  {
+   "word": "堅甲利兵",
+   "rank": 277,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。墨子成句断片「堅甲利兵」"
+  },
+  {
+   "word": "奇正相生",
+   "rank": 278,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。孫子構文「奇正相生ず」（相＋動詞 構文）"
+  },
+  {
+   "word": "季子然問",
+   "rank": 279,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。N79 パターン（季子然＋問う 呼称部）"
+  },
+  {
+   "word": "文質彬彬",
+   "rank": 280,
+   "freq": 4,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ぶんしつひんぴん",
+   "meaning": "文と質が調和して偏らないさま。人柄が内外ともに整っているさま。",
+   "dict_evidence": "weblio デジタル大辞泉「ぶんしつ‐ひんぴん【文質×彬×彬】読み方：ぶんしつひんぴん」（難読表記×彬×彬つき条目）（cand_280_文質彬彬.txt）",
+   "corpus_evidence": "golden_8165 4行。例 rongo0616-1「子曰く、質、文に勝てば則ち野なり。文、質に勝てば則ち史なり。文質彬彬」"
+  },
+  {
+   "word": "日夜霖雨",
+   "rank": 281,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「日夜霖雨して」（連用修飾成句）"
+  },
+  {
+   "word": "暴虎馮河",
+   "rank": 282,
+   "freq": 4,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ぼうこひょうが",
+   "meaning": "徒手で虎と闘い、船なしで川を渡る。無謀な勇気のたとえ。",
+   "dict_evidence": "weblio デジタル大辞泉「ぼうこ‐ひょうが【暴虎×馮河】読み方：ぼうこひょうが」（cand_282_暴虎馮河.txt）",
+   "corpus_evidence": "golden_8165 4行。例 rongo0710-1「三軍を行らば、則ち誰と与にせん。子曰く、暴虎馮河し、死して悔ゆる無き」"
+  },
+  {
+   "word": "棘子成曰",
+   "rank": 283,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。N79 パターン（棘子成＋曰く 呼称部）"
+  },
+  {
+   "word": "渾渾沌沌",
+   "rank": 284,
+   "freq": 4,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "こんこんとんとん",
+   "meaning": "渾々として沌々たるさま。混迷して判然としないさま。",
+   "dict_evidence": "weblio デジタル大辞泉「こんこん‐とんとん【×渾×渾×沌×沌】読み方：こんこんとんとん」（cand_284_渾渾沌沌.txt）",
+   "corpus_evidence": "golden_8165 4行。例 montai09-10「紛紜紜として、闘い乱るるとも法は乱れず。渾渾沌沌として、形円くして勢」"
+  },
+  {
+   "word": "至大至剛",
+   "rank": 285,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。孟子構文断片「至大至剛」（浩然の気の節）"
+  },
+  {
+   "word": "藺相如曰",
+   "rank": 286,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。N79 パターン（藺相如＋曰く 呼称部）"
+  },
+  {
+   "word": "衆口相惑",
+   "rank": 287,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。六韜構文「衆口相惑わし」（相＋動詞 構文）"
+  },
+  {
+   "word": "閔子騫曰",
+   "rank": 288,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。N79 パターン（閔子騫＋曰く 呼称部）"
+  },
+  {
+   "word": "三軍之衆",
+   "rank": 289,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句断片「三軍之衆」"
+  },
+  {
+   "word": "不戒視成",
+   "rank": 290,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語四悪段 白文成句断片（不戒視成）"
+  },
+  {
+   "word": "不教而殺",
+   "rank": 291,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語四悪段 白文成句断片（不教而殺）"
+  },
+  {
+   "word": "人之言曰",
+   "rank": 292,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「人之言曰」"
+  },
+  {
+   "word": "以戰則勝",
+   "rank": 293,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句断片「以戰則勝」"
+  },
+  {
+   "word": "何謂四惡",
+   "rank": 294,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「何謂四悪」（何謂＋X）"
+  },
+  {
+   "word": "出納之吝",
+   "rank": 295,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語四悪段 白文成句断片（出納之吝）"
+  },
+  {
+   "word": "勞而不怨",
+   "rank": 296,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句断片「労而不怨」"
+  },
+  {
+   "word": "可謂仁乎",
+   "rank": 297,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「可謂仁乎」（可謂＋X＋乎）"
+  },
+  {
+   "word": "天下有道",
+   "rank": 298,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語成句断片「天下有道」"
+  },
+  {
+   "word": "威而不猛",
+   "rank": 299,
+   "freq": 4,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。白文成句断片「威而不猛」"
+  }
+ ]
+}

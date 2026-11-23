@@ -1,0 +1,476 @@
+{
+ "start": 700,
+ "note": "N82 batch rank 700-749: 30 in (noun 26/proper 3/verb 0/modifier 1/function 0) / 20 out",
+ "decisions": [
+  {
+   "word": "絶地",
+   "rank": 700,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。孫子九地の地形語「絶地」——専門語 weblio 不載。"
+  },
+  {
+   "word": "緑樹",
+   "rank": 701,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "りょくじゅ",
+   "meaning": "緑の樹。高騈「緑樹陰濃やかにして夏日長し」。",
+   "dict_evidence": "weblio デジタル大辞泉；りょく‐じゅ【緑樹】；読み方：りょくじゅ（cand_701_緑樹.txt）",
+   "corpus_evidence": "golden_8165 3行。例 santei-1「緑樹陰濃やかにして夏日長し」"
+  },
+  {
+   "word": "繊繊",
+   "rank": 702,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "せんせん",
+   "meaning": "繊細なさま。細くかよわいさま。古诗「繊繊として素手を出だす」。",
+   "dict_evidence": "weblio デジタル大辞泉；せん‐せん【繊繊】；読み方：せんせん（cand_702_繊繊.txt）",
+   "corpus_evidence": "golden_8165 3行。例 koshi19_02-3「娥娥たる紅粉の粧い、繊繊として素手を出だす」"
+  },
+  {
+   "word": "織女",
+   "rank": 703,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "しょくじょ・たなばた",
+   "meaning": "織姫。天の織女星。牽牛と七夕に相望む。",
+   "dict_evidence": "weblio デジタル大辞泉；たな‐ばた【七‐夕／棚機／織＝女】；読み方：たなばた（cand_703_織女.txt）",
+   "corpus_evidence": "golden_8165 3行。例 enkako_sohi01-14「牽牛織女遥かに相望む」"
+  },
+  {
+   "word": "美言",
+   "rank": 704,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "びげん",
+   "meaning": "美しい言葉。飾りごと。老子「信言は美ならず、美言は信ならず」。",
+   "dict_evidence": "weblio デジタル大辞泉；び‐げん【美言】；読み方：びげん（cand_704_美言.txt）",
+   "corpus_evidence": "golden_8165 3行。例 p-bigen-1「信言は美ならず、美言は信ならず。善なる者は弁ぜず、弁ずる者は善ならず。知る者は博からず、博き者は知らず。」"
+  },
+  {
+   "word": "義無",
+   "rank": 705,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「義無ければ」＝X+nasi 系。"
+  },
+  {
+   "word": "老病",
+   "rank": 706,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ろうびょう",
+   "meaning": "老いと病。",
+   "dict_evidence": "weblio デジタル大辞泉；ろう‐びょう〔ラウビヤウ〕【老病】；読み方：ろうびょう（cand_706_老病.txt）",
+   "corpus_evidence": "golden_8165 3行。例 kakutei_toho-6「老病已に翁と成る」"
+  },
+  {
+   "word": "者三",
+   "rank": 707,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「道なる者三あり」＝者＋三。"
+  },
+  {
+   "word": "者多",
+   "rank": 708,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「為さんとする者多し」＝者＋多し。"
+  },
+  {
+   "word": "者曰",
+   "rank": 709,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「之を暁す者曰く」＝者＋曰く（X-yune 系）。"
+  },
+  {
+   "word": "聖智",
+   "rank": 710,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。孫子用間篇の語「聖智」——専門語 weblio 不載。"
+  },
+  {
+   "word": "聖賢",
+   "rank": 711,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せいけん",
+   "meaning": "聖人と賢人。世説「聖賢は固より言を忘るる所なり」。",
+   "dict_evidence": "weblio デジタル大辞泉；せい‐けん【聖賢】；読み方：せいけん（cand_711_聖賢.txt）",
+   "corpus_evidence": "golden_8165 3行。例 okuka-2「夫れ聖賢の書は、人に誠孝なること、言を慎み迹を検すること、身を立て名を揚ぐることを教え、亦た已に備われり。魏・晋已来、著」"
+  },
+  {
+   "word": "聚斂",
+   "rank": 712,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しゅうれん",
+   "meaning": "税を重ねて集め取ること。論語「聚斂の臣有らんよりは、寧ろ盗臣」。",
+   "dict_evidence": "weblio デジタル大辞泉；しゅう‐れん【×聚×斂】；読み方：しゅうれん（cand_712_聚斂.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo1116-1「氏、周公よりも富めり。而して求や之が為に聚斂して之に附益す。子曰く、吾が徒に非ざるなり。小子鼓を鳴らして之を攻めて可なり」"
+  },
+  {
+   "word": "胡人",
+   "rank": 713,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こじん",
+   "meaning": "北方異民族の人。胡の民。淮南子「胡人は馬に便に」。",
+   "dict_evidence": "weblio デジタル大辞泉；こ‐じん【×胡人】；読み方：こじん（cand_713_胡人.txt）",
+   "corpus_evidence": "golden_8165 3行。例 nansenho-1「胡人は馬に便に、越人は舟に便なり。」"
+  },
+  {
+   "word": "胡馬",
+   "rank": 714,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こば",
+   "meaning": "胡の馬。古诗十九首「胡馬は北風に依り、越鳥は南枝に巣くう」。",
+   "dict_evidence": "weblio デジタル大辞泉；こ‐ば【×胡馬】；読み方：こば（cand_714_胡馬.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen336-4「胡馬をして陰山を度らしめず」"
+  },
+  {
+   "word": "臣愚",
+   "rank": 715,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「臣愚にして謂えらく」＝臣＋愚し。"
+  },
+  {
+   "word": "臣按",
+   "rank": 716,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「臣按ずるに」＝臣＋按ず。"
+  },
+  {
+   "word": "臣為",
+   "rank": 717,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「臣為ること易からず」＝臣＋為る。"
+  },
+  {
+   "word": "至徳",
+   "rank": 718,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しとく",
+   "meaning": "至高の徳。論語「泰伯は其れ至徳と謂う可きのみ」。",
+   "dict_evidence": "weblio デジタル大辞泉；し‐とく【至徳】；読み方：しとく（cand_718_至徳.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rongo0801-1「子曰く、泰伯は其れ至徳と謂う可きのみ。三たび天下を以て譲り、民得て称する無し。」"
+  },
+  {
+   "word": "舎人",
+   "rank": 719,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しゃじん・とねり",
+   "meaning": "家に仕える人。侍従・家臣。韓非子「子、我が舎人と為るに如かず」。",
+   "dict_evidence": "weblio デジタル大辞泉；しゃ‐じん【舎人】；読み方：しゃじん（cand_719_舎人.txt）",
+   "corpus_evidence": "golden_8165 3行。例 dasoku-2「其の舎人に巵酒を賜う。」"
+  },
+  {
+   "word": "舞雩",
+   "rank": 720,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。論語の語「舞雩」（祈雨の壇）——専門語 weblio 不載。"
+  },
+  {
+   "word": "良薬",
+   "rank": 721,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "りょうやく",
+   "meaning": "良い薬。転じて有益な忠告。「良薬は口に苦し」。",
+   "dict_evidence": "weblio デジタル大辞泉；りょう‐やく〔リヤウ‐〕【良薬】；読み方：りょうやく（cand_721_良薬.txt）",
+   "corpus_evidence": "golden_8165 3行。例 ryoyaku-1「孔子曰く、良薬は口に苦けれども、病に利あり。忠言は耳に逆らえども、行いに利あり。湯・武は諤諤を以て昌え、桀・紂は唯唯を以」"
+  },
+  {
+   "word": "色無",
+   "rank": 722,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし（例文区のみ）。構文断片「慍る色無し」＝色＋無し（X+nasi 系）。"
+  },
+  {
+   "word": "花草",
+   "rank": 723,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "はなくさ",
+   "meaning": "花と草。杜牧「呉宮の花草は幽径に埋もれ」。",
+   "dict_evidence": "weblio 植物名辞典「花草」読み方：ハナクサ（花と草）＝語料義と一致（cand_723_花草.txt）",
+   "corpus_evidence": "golden_8165 3行。例 shozansoku-2「竹西の花草春柔を弄す」"
+  },
+  {
+   "word": "茱萸",
+   "rank": 724,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しゅゆ・ぐみ",
+   "meaning": "胡頽子（ぐみ）。また呉茱萸。重陽に枝を挿す俗。王維「遍く茱萸を挿して一人を少く」。",
+   "dict_evidence": "weblio デジタル大辞泉；ぐみ【茱＝萸／胡＝頽＝子】；読み方：ぐみ（cand_724_茱萸.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen344-4「遍く茱萸を挿して一人を少くを」"
+  },
+  {
+   "word": "荇菜",
+   "rank": 725,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "あさざ",
+   "meaning": "アサザ。水草。詩経「参差たる荇菜は左右に之を流む」。",
+   "dict_evidence": "weblio デジタル大辞泉；あさざ【莕＝菜／荇＝菜】；読み方：あさざ（cand_725_荇菜.txt）",
+   "corpus_evidence": "golden_8165 3行。例 shikyo_kansho-3「参差たる荇菜は左右に之を流む」"
+  },
+  {
+   "word": "荊州",
+   "rank": 726,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "けいしゅう",
+   "meaning": "古の九州の一。湖北湖南の地。三国志で劉備の拠点。",
+   "dict_evidence": "weblio デジタル大辞泉；けい‐しゅう〔‐シウ〕【荊州】；読み方：けいしゅう（cand_726_荊州.txt）",
+   "corpus_evidence": "golden_8165 3行。例 hatenko-1「唐の荊州は衣冠藪沢、毎歳挙人を解送するも、多く名を成さず。号して曰く、天荒解、と。劉蛻舎人、荊の解を以て及第す。号して破」"
+  },
+  {
+   "word": "落月",
+   "rank": 727,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "らくげつ",
+   "meaning": "沈みゆく月。",
+   "dict_evidence": "weblio デジタル大辞泉；らく‐げつ【落月】；読み方：らくげつ（cand_727_落月.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen043-24「江潭の落月復た西に斜めなり」"
+  },
+  {
+   "word": "落木",
+   "rank": 728,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢詩語「落木」（枯れ落ちる木）——N80 同款 404 排除。"
+  },
+  {
+   "word": "蒺藜",
+   "rank": 729,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。六韜の兵器語「蒺藜」（いかり・鉄蔦）——専門語 weblio 不載。"
+  },
+  {
+   "word": "蓬萊",
+   "rank": 730,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "ほうらい",
+   "meaning": "海上の仙境。不死の山。",
+   "dict_evidence": "weblio デジタル大辞泉；ほうらい【蓬莱】；読み方：ほうらい（cand_730_蓬萊.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen026-7「蓬萊の織女竜車を回らし」"
+  },
+  {
+   "word": "蕭関",
+   "rank": 731,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。漢詩の関名「蕭関」——N80 同款 404 排除。"
+  },
+  {
+   "word": "薄暮",
+   "rank": 732,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "はくぼ",
+   "meaning": "夕暮れ。王績「東皐薄暮に望み」。",
+   "dict_evidence": "weblio デジタル大辞泉；はく‐ぼ【薄暮】；読み方：はくぼ（cand_732_薄暮.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen047-1「東皐薄暮に望み」"
+  },
+  {
+   "word": "行楽",
+   "rank": 733,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうらく",
+   "meaning": "遊興。遊びに出て楽しむこと。",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐らく〔カウ‐〕【行楽】；読み方：こうらく（cand_733_行楽.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen150-2「行楽して親に違わず」"
+  },
+  {
+   "word": "行止",
+   "rank": 734,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし（例文区のみ）。漢文語「行止」＝行くこと止まること（列子）。"
+  },
+  {
+   "word": "衛君",
+   "rank": 735,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。呼称部「衛君」（論語）——N79/N80 呼称部 先例。"
+  },
+  {
+   "word": "衣帯",
+   "rank": 736,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いたい",
+   "meaning": "衣服と帯。一衣帯水の典。",
+   "dict_evidence": "weblio デジタル大辞泉；い‐たい【衣帯】；読み方：いたい（cand_736_衣帯.txt）",
+   "corpus_evidence": "golden_8165 3行。例 ichii-1「我は百姓の父母たり、豈に一の衣帯の水を限りて、之を拯わざる可けんや。」"
+  },
+  {
+   "word": "衣裳",
+   "rank": 737,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いしょう・きぬも",
+   "meaning": "衣服。",
+   "dict_evidence": "weblio デジタル大辞泉；い‐しょう〔‐シヤウ〕【衣装／衣×裳】；読み方：いしょう（cand_737_衣裳.txt）",
+   "corpus_evidence": "golden_8165 3行。例 enkako_sohi01-9「覚えず涙下りて衣裳を霑すを」"
+  },
+  {
+   "word": "複道",
+   "rank": 738,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ふくどう",
+   "meaning": "殿閣を結ぶ高架の廊道。漢詩「複道の交窓合歓を作し」。",
+   "dict_evidence": "weblio デジタル大辞泉；ふく‐どう〔‐ダウ〕【複道／復道】；読み方：ふくどう（cand_738_複道.txt）",
+   "corpus_evidence": "golden_8165 3行。例 toushisen330-3「分明なり複道に恩を奉ぜし時」"
+  },
+  {
+   "word": "要塞",
+   "rank": 739,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ようさい",
+   "meaning": "攻防の要となる砦。",
+   "dict_evidence": "weblio 実用日本語表現辞典「要塞」読み方：ようさい；語料「出でて要塞に拠り」＝要害の砦義（cand_739_要塞.txt）",
+   "corpus_evidence": "golden_8165 3行。例 utsuryo05-7「きに逼らしめ、男女数重、各〻地形に逼りて要塞を攻む。一城邑に拠りて数道絶し、従いて之を攻む。」"
+  },
+  {
+   "word": "覇王",
+   "rank": 740,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "はおう",
+   "meaning": "覇者と王者。覇道と王道。孫子「覇王の兵に非ざるなり」。",
+   "dict_evidence": "weblio デジタル大辞泉；は‐おう〔‐ワウ〕【覇王】；読み方：はおう（cand_740_覇王.txt）",
+   "corpus_evidence": "golden_8165 3行。例 taikobo-2「彲に非ず、虎に非ず、羆に非ず、獲る所は、覇王の輔なり、と。」"
+  },
+  {
+   "word": "親愛",
+   "rank": 741,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しんあい",
+   "meaning": "親しく愛すること。親愛の情。",
+   "dict_evidence": "weblio デジタル大辞泉；しん‐あい【親愛】；読み方：しんあい（cand_741_親愛.txt）",
+   "corpus_evidence": "golden_8165 3行。例 rinkiohen-1「朗の弟明、字は靖通、少くして武帝の親愛を被り、貞陽侯に封ぜらる。」"
+  },
+  {
+   "word": "誅有",
+   "rank": 742,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。構文断片「章を亡う者は誅有り」＝X+ari 系。"
+  },
+  {
+   "word": "諸将",
+   "rank": 743,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しょしょう",
+   "meaning": "諸軍の将たち。史記淮陰侯伝「諸将、首虜を効し」。",
+   "dict_evidence": "weblio デジタル大辞泉；しょ‐しょう〔‐シヤウ〕【諸将】；読み方：しょしょう（cand_743_諸将.txt）",
+   "corpus_evidence": "golden_8165 3行。例 haisui-2「……諸将、首虜を効し、休めて賀を畢わる。因りて信に問いて曰く、……此れ何の術なるや、と。信曰く、……兵法に曰わずや、之を」"
+  },
+  {
+   "word": "財用",
+   "rank": 744,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ざいよう",
+   "meaning": "財物と費用。六韜「財用の出入を会計する」。",
+   "dict_evidence": "weblio デジタル大辞泉；ざい‐よう【財用】；読み方：ざいよう（cand_744_財用.txt）",
+   "corpus_evidence": "golden_8165 3行。例 daigaku10-35「国家に長として財用を務むる者は、必ず小人に自る。」"
+  },
+  {
+   "word": "賢聖",
+   "rank": 745,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "けんじょう・けんせい",
+   "meaning": "賢人と聖人。",
+   "dict_evidence": "weblio デジタル大辞泉；けん‐じょう〔‐ジヤウ〕【賢▽聖】；読み方：けんじょう（cand_745_賢聖.txt）",
+   "corpus_evidence": "golden_8165 3行。例 daigaku00a-17「周の衰うるに及んで、賢聖の君作らず、学校の政修まらず、教化陵夷し風俗頽敗す。」"
+  },
+  {
+   "word": "赤幟",
+   "rank": 746,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。史記淮陰侯伝の語「赤幟」（赤い旗）——専門語 weblio 不載。"
+  },
+  {
+   "word": "趙王",
+   "rank": 747,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 国語辞書条目なし、Wikipedia のみ＝保守排除（N80 令尹・元王 先例——後日承認なら翻案可）。呼称部「趙王」。"
+  },
+  {
+   "word": "踵軍",
+   "rank": 748,
+   "freq": 3,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404。尉繚子の兵制語「踵軍」——専門語 weblio 不載。"
+  },
+  {
+   "word": "身上",
+   "rank": 749,
+   "freq": 3,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しんしょう・しんじょう",
+   "meaning": "身体。身の上。",
+   "dict_evidence": "weblio デジタル大辞泉；しん‐しょう〔‐シヤウ〕【身上】；読み方：しんしょう（cand_749_身上.txt）",
+   "corpus_evidence": "golden_8165 3行。例 baitanoh-6「身上の衣裳口中の食」"
+  }
+ ]
+}

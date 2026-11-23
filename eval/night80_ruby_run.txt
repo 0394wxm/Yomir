@@ -1,0 +1,29 @@
+######## 北山 : corpus lines=4
+  p-guko-2 (https://kanbun.info/koji/guko.html): 248 ruby pairs
+    山=やま
+    山=ざん
+    北=きた
+    北山=ほくざん
+    山=やま
+    山北=さんぽく
+    北=きた
+    山=やま
+    北山=ほくざん
+    山=やま
+    山=ざん
+  p-guko-6 (https://kanbun.info/koji/guko.html): 248 ruby pairs
+    山=やま
+    山=ざん
+    北=きた
+    北山=ほくざん
+    山=やま
+    山北=さんぽく
+    北=きた
+    山=やま
+    北山=ほくざん
+    山=やま
+    山=ざん
+  toushisen198-2 (https://kanbun.info/syubu/toushisen198.html): 151 ruby pairs
+    北山=ほくざん
+
+weblio batch progress: 512

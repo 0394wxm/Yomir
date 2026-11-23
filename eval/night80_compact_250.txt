@@ -1,0 +1,201 @@
+[[250] 孟嘗君  freq=4 h=0 k=4 len=3 status=OK bytes=241686
+  corpus: 昭王即ち孟嘗君を以て秦の相と為す。人或いは秦の昭王に説きて曰く、孟嘗君は賢にして又た斉の族な; 孟嘗君之を患え、徧く客に問うも、能く対うるもの莫し。最下の坐に能く狗盗を為す者有り。曰く、臣
+  [src] 孟嘗君の意味・解説
+  def: デジタル大辞泉
+  def: もうしょう‐くん〔マウシヤウ‐〕【孟嘗君】
+  [read] 読み方：もうしょうくん
+  [wikibody-cut] ウィキペディア
+
+[[251] 孟母曰  freq=4 h=2 k=2 len=3 status=HTTP404 bytes=0
+  corpus: 孟母曰く、子の学を廃するは、吾の斯の織を断つが若きなり。; 孟子少にして嬉遊するに、墓間の事を為す。孟母曰く、此れ吾が子
+  [no-real-dict-region]
+
+[[252] 季康子  freq=4 h=0 k=4 len=3 status=HTTP404 bytes=0
+  corpus: 季康子、盗を患えて、孔子に問う。孔子対えて曰く、苟くも子の欲せざれば、之を賞すと雖も窃まず。; 季康子、政を孔子に問う。
+  [no-real-dict-region]
+
+[[253] 宰我問  freq=4 h=2 k=2 len=3 status=HTTP404 bytes=0
+  corpus: 宰我問う。三年の喪は、期已だ久し。君子三年礼を為さざれば、礼必ず壊れん。三年楽を為さざれば、; 宰我問う。三年の喪は、期
+  [no-real-dict-region]
+
+[[254] 柳下恵  freq=4 h=0 k=4 len=3 status=OK bytes=181241
+  corpus: 子曰く、臧文仲は其れ位を窃む者か。柳下恵の賢を知りて、而も与に立たざるなり。; 柳下恵、士師と為りて、三たび黜けらる。人曰く、子未だ以て去る可からざるか。曰く、道を直くして
+  [src] 柳下恵の意味・解説
+  def: デジタル大辞泉
+  def: りゅうか‐けい〔リウカ‐〕【柳下恵】
+  [read] 読み方：りゅうかけい
+
+[[255] 直千金  freq=4 h=1 k=3 len=3 status=HTTP404 bytes=0
+  corpus: ん、と。此の時孟嘗君、一の狐白裘を有す。直千金、天下無双なり。秦に入りて、之を昭王に献じ、更; 春宵一刻直千金
+  [no-real-dict-region]
+
+[[256] 管仲曰  freq=4 h=2 k=2 len=3 status=HTTP404 bytes=0
+  corpus: 伐つ。春往きて冬反る。迷惑して道を失う。管仲曰く、老馬の智用う可きなり、と。乃ち老馬を放ちて; 管仲曰く、吾始め困しみし
+  [no-real-dict-region]
+
+[[257] 謀臣亡  freq=4 h=2 k=2 len=3 status=HTTP404 bytes=0
+  corpus: れ、高鳥尽きて、良弓蔵され、敵国破れて、謀臣亡ぶ、と。天下已に定まりたれば、我固より当に亨ら; 夫れ高鳥死して良弓蔵れ、
+  [no-real-dict-region]
+
+[[258] 長沮曰  freq=4 h=2 k=2 len=3 status=HTTP404 bytes=0
+  corpus: 。孔子之を過ぎ、子路をして津を問わしむ。長沮曰く、夫の輿を執る者は誰と為す。子路曰く、孔丘と; 。孔子之を過ぎ、子路をし
+  [no-real-dict-region]
+
+[[259] 顔淵曰  freq=4 h=0 k=4 len=3 status=HTTP404 bytes=0
+  corpus: 、朋友と共にし、之を敝りて憾み無からん。顔淵曰く、願わくは善に伐ること無く、労を施すこと無か; 仁を為すは己に由る。而し
+  [no-real-dict-region]
+
+[[260] 顔淵死  freq=4 h=0 k=4 len=3 status=HTTP404 bytes=0
+  corpus: 顔淵死す。子曰く、噫、天予を喪ぼせり、天予を喪ぼせり。; 顔淵死す。子、之を哭して慟す。従者曰く、子慟せりと。曰く、慟す
+  [no-real-dict-region]
+
+[[261] 同其塵  freq=4 h=4 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[262] 和其光  freq=4 h=4 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[263] 康誥曰  freq=4 h=4 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[264] 挫其鋭  freq=4 h=4 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[265] 色思溫  freq=4 h=4 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[266] 解其紛  freq=4 h=4 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[267] 謂之暴  freq=4 h=4 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[268] 謂之虐  freq=4 h=4 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[269] 謂之賊  freq=4 h=4 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[270] 顏淵曰  freq=4 h=4 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[271] 顏淵死  freq=4 h=4 k=0 len=3 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[272] 中庶子曰  freq=4 h=2 k=2 len=4 status=HTTP404 bytes=0
+  corpus: は何の病ぞ。国中の治穣、衆事に過ぐ、と。中庶子曰く、太子の病は、血気時ならず、交錯して泄する; 中庶子曰く、先生、之を誕
+  [no-real-dict-region]
+
+[[273] 令尹子文  freq=4 h=2 k=2 len=4 status=HTTP404 bytes=0
+  corpus: 子張問いて曰く、令尹子文、三たび仕えて令尹と為りて喜ぶ色無し。三たび之を已めらるれども慍る色; 子張問いて曰く、令尹子文
+  [no-real-dict-region]
+
+[[274] 信賞必罰  freq=4 h=2 k=2 len=4 status=OK bytes=202402
+  corpus: 公曰く、戦わざるを得る無からしむること奈何、と。狐子対えて曰く、信賞必罰、其れ以て戦わしむる; 孝宣の治は、信賞必罰、名実を綜核す。
+  [src] 信賞必罰の意味・解説
+  def: デジタル大辞泉
+  def: しんしょう‐ひつばつ〔シンシヤウ‐〕【信賞必罰】
+  [read] 読み方：しんしょうひつばつ
+  [wikibody-cut] ウィキペディア
+
+[[275] 叔孫武叔  freq=4 h=2 k=2 len=4 status=OK bytes=180709
+  corpus: 叔孫武叔、大夫に朝に語りて曰く、子貢は仲尼より賢れり。子服景伯、以て子貢に告ぐ。子貢曰く、之; 叔孫武叔、仲尼を毀る。子貢曰く、以て為す無きなり。仲尼は毀る可からざるなり。他人の賢者は丘陵
+  [src] 叔孫武叔の意味・解説
+  [wikibody-cut] ウィキペディア小見出し辞書
+
+[[276] 四海困窮  freq=4 h=2 k=2 len=4 status=HTTP404 bytes=0
+  corpus: の暦数、爾の躬に在り。允に其の中を執れ。四海困窮せば、天禄永く終わらん、と。舜も亦た以て禹に; 堯曰く、咨、爾舜、天の暦
+  [no-real-dict-region]
+
+[[277] 堅甲利兵  freq=4 h=2 k=2 len=4 status=HTTP404 bytes=0
+  corpus: 戦うは、善なる者に非ざるなり。豪傑英俊、堅甲利兵、勁弩強矢、尽く郭中に在り、乃ち窖廩を収め、; むること能わず。必ず其の
+  [no-real-dict-region]
+
+[[278] 奇正相生  freq=4 h=2 k=2 len=4 status=HTTP404 bytes=0
+  corpus: ざるも、奇正の変は、勝げて窮む可からず。奇正相生ずること、循環の端無きが如し。孰か能く之を窮; 臣、前に曾て蕃漢必ず号を
+  [no-real-dict-region]
+
+[[279] 季子然問  freq=4 h=2 k=2 len=4 status=HTTP404 bytes=0
+  corpus: 季子然問う、仲由・冉求は大臣と謂う可きか。子曰く、吾子を以て異なるを之れ問うと為す。曾ち由と; 季子然問う、仲由・冉求は
+  [no-real-dict-region]
+
+[[280] 文質彬彬  freq=4 h=2 k=2 len=4 status=OK bytes=192776
+  corpus: 子曰く、質、文に勝てば則ち野なり。文、質に勝てば則ち史なり。文質彬彬として、然る後に君子なり; 子曰く、質、文に勝てば則ち野、文、質に勝てば則ち史なり。文質彬彬として、然る後に君子なり。
+  [src] 文質彬彬の意味・解説
+  def: デジタル大辞泉
+  def: ぶんしつ‐ひんぴん【文質×彬×彬】
+  [read] 読み方：ぶんしつひんぴん
+  [read] 読み方：ブンシツ（ｂｕｎｓｈｉｔｓｕ）
+  [wikibody-cut] Wiktionary日本語版（日本語カテ
+
+[[281] 日夜霖雨  freq=4 h=2 k=2 len=4 status=HTTP404 bytes=0
+  corpus: 、敵と相当りて、天大いに寒く、甚だ暑く、日夜霖雨して、旬日まで止まず、溝塁悉く壊れ、隘塞守ら; 深水有り、右に峻阪有るは
+  [no-real-dict-region]
+
+[[282] 暴虎馮河  freq=4 h=2 k=2 len=4 status=OK bytes=199732
+  corpus: 三軍を行らば、則ち誰と与にせん。子曰く、暴虎馮河し、死して悔ゆる無き者は、吾与にせざるなり。; 子曰く、暴虎馮河し、死して悔ゆる無き者は、吾与せざるなり。必ずや事に臨んで懼れ、謀を好んで成
+  [src] 暴虎馮河の意味・解説
+  def: デジタル大辞泉
+  def: ぼうこ‐ひょうが【暴虎×馮河】
+  [read] 読み方：ぼうこひょうが
+  [wikibody-cut] Wiktionary日本語版（日本語カテ
+
+[[283] 棘子成曰  freq=4 h=2 k=2 len=4 status=HTTP404 bytes=0
+  corpus: 棘子成曰く、君子は質のみ。何ぞ文を以て為さんと。子貢曰く、惜しいかな、夫子の君子を説くや、駟; 棘子成曰く、君子は質のみ
+  [no-real-dict-region]
+
+[[284] 渾渾沌沌  freq=4 h=2 k=2 len=4 status=OK bytes=175221
+  corpus: 紛紜紜として、闘い乱るるとも法は乱れず。渾渾沌沌として、形円くして勢い散ぜず。此れ所謂散じて; 渾渾沌沌として、形円くして敗る可からず。
+  [src] 渾渾沌沌の意味・解説
+  def: デジタル大辞泉
+  def: こんこん‐とんとん【×渾×渾×沌×沌】
+  [read] 読み方：こんこんとんとん
+
+[[285] 至大至剛  freq=4 h=2 k=2 len=4 status=HTTP404 bytes=0
+  corpus: 、と。曰く、言い難きなり。其の気たるや、至大至剛、直を以て養うて害すること無ければ、則ち天地; 其の気たるや、至大至剛、
+  [no-real-dict-region]
+
+[[286] 藺相如曰  freq=4 h=2 k=2 len=4 status=HTTP404 bytes=0
+  corpus: 藺相如曰く、願わくは璧を奉じて往かん。; 藺相如曰く、王、名を以て括を使うは、柱に膠して瑟を鼓するが若きのみ。括は徒だに
+  [no-real-dict-region]
+
+[[287] 衆口相惑  freq=4 h=2 k=2 len=4 status=HTTP404 bytes=0
+  corpus: 今、彼の有商は、衆口相惑わし、紛紛渺渺として、色を好むこと極まり無し。此れ亡国の証なり。; に不利を以てし、耳目相属ぎ、
+  [no-real-dict-region]
+
+[[288] 閔子騫曰  freq=4 h=2 k=2 len=4 status=HTTP404 bytes=0
+  corpus: 魯人長府を為る。閔子騫曰く、旧貫に仍らば、之を如何。何ぞ必ずしも改め作らん。子曰く、夫の人言; 季氏、閔子騫をして費の宰
+  [no-real-dict-region]
+
+[[289] 三軍之衆  freq=4 h=4 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[290] 不戒視成  freq=4 h=4 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[291] 不教而殺  freq=4 h=4 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[292] 人之言曰  freq=4 h=4 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[293] 以戰則勝  freq=4 h=4 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[294] 何謂四惡  freq=4 h=4 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[295] 出納之吝  freq=4 h=4 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[296] 勞而不怨  freq=4 h=4 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[297] 可謂仁乎  freq=4 h=4 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[298] 天下有道  freq=4 h=4 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
+
+[[299] 威而不猛  freq=4 h=4 k=0 len=4 status=HTTP404 bytes=0
+  [no-real-dict-region]
