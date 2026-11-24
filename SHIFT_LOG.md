@@ -988,3 +988,4 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 | 2026-11-24 10:21 | Night 87 开工：master d4738a5 核验通过（pytest 422 passed、分支 night86-ruleo tip 596687f、merge-base d4738a5、干净树、零 tracked 改动）；本心跳先行提交，随后单次 --no-ff 合并。 |
 | 2026-11-24 10:47 | Night 87 合并 994f530 完成（--no-ff、SHIFT_LOG 字节安全并集 1 文件冲突、其余自动合并）；合后验证 pytest 434、golden_4000 13.491/24/0 与 night86 归档逐位（输出差异 0 行）、golden_8165 13.502/30/0 与 night86 归档逐位（输出差异 0 行）、词库 1301（209+291+801 零交集）、verify 19/19 exit 0；README 表头→合并提交、登记提交中。 |
 | 2026-11-24 10:52 | Night 87 收尾：accept 87 PASS fail=0 skip=0（30.9s 首跑即过、七门全绿）；提交链 03c2de4→994f530(merge --no-ff night86-ruleo)→f025adc(登记)→wrap-up，未合其他分支、未推远程；REPORT_NIGHT87.md／REPORT_MERGE_86.md 交付。 |
+| 2026-11-24 14:49 | Night 90 开工：master 35ba6e5 核验通过（pytest 434 passed、分支 night89-lexicon-freq2 tip 76c678b、merge-base 35ba6e5、干净树、零 tracked 改动）；本心跳先行提交，随后单次 git merge --no-ff night89-lexicon-freq2（N88 零规则分支 night88-rulep 本夜不合、其文件不动）。 |
