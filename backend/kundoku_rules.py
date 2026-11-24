@@ -844,6 +844,63 @@ def style_kana_to_kanji_o(text: str, hakubun: str = "") -> str:
     return text
 
 
+# ---------------------------------------------------------------------------
+# N92 Rule Q（假名 → 汉字 第十二批）——B2 主切面长键手測（1 字块锚定）
+#
+# 挖法＝night92_mine A 表 1 字块枚举（got 侧 1 字假名 × exp 侧汉字头，(べ,可) 型＝
+# B2 定义扫不到的块，N88 べきなり 发现路径）→ 以块为锚试替长键（活用形 full key／
+# prefix 长键，N78 方法论）→ night92_probe T1〜T8＋night92_sim 单条 0 変差硬门。
+#
+# 收录（night92_sim 单条実績・组回 37 行改写 15 改善 0 変差・幂等 bad 0）：
+#   ことなく→こと莫く（guard 莫）——
+#     白文「莫〜」構文の got「〜ことなく」×exp「〜こと莫く」（T3：21 発火 11 改善/
+#     0 変差 same 10・rikutou08-3 rerun 行含む）。Rule O なきか→莫し の なく系
+#     兄弟（否定連用形对位＝語彙対応）。
+#   すべからず→可からず（guard 可）——
+#     白文「可〜」構文の got「〜すべからず」×exp「〜可からず」（T6：16 発火
+#     4 改善/0 変差 same 12）。るべからず prefix（N86 T4 3 変差）同族の prefix
+#     分離で死因避开＝1 字块手測（(べ,可) 118 行）の回収。
+#
+# 拒绝（night92_probe/sim 実数归档）:
+#   は→将に（265 発火 207 変差・発火/pair=12.0）／は→未だ（172 発火 131 変差）／
+#     たる→為る（113 発火 20 変差）／以て→以為えらく（288 発火 277 変差）——
+#     いずれも blanket key 発火 ≫ 1 字块 pair 行数＝語彙対応でない scramble
+#     （N88 して→問す T3 判別実例の适用）
+#   ことなき→こと莫き（2 変差 roushi46-2/rikutou26-5＝got 已含莫かれ・exp 字形
+#     混在 莫く/莫しで単一 repl 不成）
+#   对照測定（現基线再确认・N86/N88 拒案の数字完全一致）：るべ→可（91/7）・
+#     べきか→可きか（25/2）・べからず→可からず（79/5）・べからざる→可からざる
+#     （79/1 shiseinishite-1）・なかれ→莫かれ（13/1 kokyo09-5 拍板事項のまま）
+#   长尾 scan 3 件（してなる→使うや・なるをしゆるの→令・はなる→少くして）＝
+#     N86/N88 拒案逐字同名の scramble patch（枯竭复核・過拟合拒）
+Q_KANA_TO_KANJI = [
+    ("ことなく", "こと莫く", ("莫",)),          # 白文 莫〜 の否定連用形对位（O なきか→莫し のなく系兄弟）
+    ("すべからず", "可からず", ("可",)),        # 白文 可〜 のべからず族 prefix 分離（1 字块 (べ,可) 手測回収）
+]
+
+# Rule Q 的词界护栏（与 E〜O 分开维护）。全 2 条 probe/sim 実測无更长词冲突
+# （ことなく/すべからず の後続は成形語と交わらない＝night92_probe/sim 実測）。
+Q_LONGER_WORDS = {
+    "ことなく": (),
+    "すべからず": (),
+}
+
+
+def style_kana_to_kanji_q(text: str, hakubun: str = "") -> str:
+    """假名 → 汉字（第十二批）。N92 Rule Q。
+
+    与 E〜O 同构的两道护栏，用 Q 自己的更长词表。guard は白文含字の正条件
+    （空白文で発火＝E〜K 世代同语义）。
+    全 2 条＝night92_sim 单条 0 変差・组合 37 行改写 15 改善／変差 0／幂等 bad 0。
+    """
+    hb = re.sub(r"\s+", "", hakubun) if hakubun else ""
+    for kana, repl, guard in Q_KANA_TO_KANJI:
+        if guard and hb and not any(g in hb for g in guard):
+            continue
+        text = _replace_word_boundary(text, kana, repl, Q_LONGER_WORDS)
+    return text
+
+
 def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     """带白文上下文的规则总入口（D11 起后端实际调用这个）。
 
@@ -866,6 +923,7 @@ def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     t = style_kana_to_kanji_m(t, hakubun)   # N73 Rule M
     t = style_kana_to_kanji_n(t, hakubun)   # N78 Rule N
     t = style_kana_to_kanji_o(t, hakubun)   # N86 Rule O
+    t = style_kana_to_kanji_q(t, hakubun)   # N92 Rule Q
     return t
 
 # ---------------------------------------------------------------------------
