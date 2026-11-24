@@ -901,6 +901,61 @@ def style_kana_to_kanji_q(text: str, hakubun: str = "") -> str:
     return text
 
 
+# ---------------------------------------------------------------------------
+# Rule R（N94）：假名 → 汉字（第十三批）。1 字块 3〜5 行区＋N92 未试替块の长键手測。
+#
+# 收录（night94_mine A 表 1 字块 (ゆ,之) 3 行锚定 → probe T15 → sim 収録）:
+#   ゆく→之く（guard 之）——白文 之〜 構文の got「〜にゆく」×exp「〜に之く」
+#     （orutokoro-1/kotaku-1/sonshi11-42 等）。probe T15：12 発火 10 改善/0 変差
+#     same 2 Δ−0.001225＝N69 収録線達成。Rule L ゆき→之（daigaku08 之其所…）
+#     の兄弟键（「ゆく」2 字长键・く 形対位）。
+#
+# 拒绝（night94_probe T1〜T31 実数归档、再発防止は tests/test_night94_rule_r.py に锁）:
+#   (a) N92 未试替 11 块全拒：の→之に（1464 発火 1393 変差・の blanket）／
+#     は→有（614 発火 186 変差）／も→与に（248/173）／とも→与に（B2 4 字长键
+#     でも 245/137）／は→少（80/16）／は→白（133/23）／は→行（284/78）／
+#     は→来（182/27）／は→尽（105/20）／は→樹（68/9）／は→闕（32/5）／
+#     な→莫（85/24＝ことなき/なかれ 禁区残量の blanket scramble 再確認）
+#     ——(は,*) 块は N92 §7 预判どおり blanket scramble（実測で再拒・预判では拒らず）
+#   (b) 3〜5 行区新块：嗟や→嗟乎（3 発火 3 改善 0 変差 Δ−0.000367＝収録線未達
+#     の無益拒）・や→乎 blanket（251 発火 82 変差）・他は重排 artifact 型
+#     （は→請う 46/42・は→見ずや 196/183・は→無 535/152・は→不 1245/430・
+#     は→為に 615/561・に→郷 48/30 等）＝語彙対応でない
+#   对照測定（現基线再確認）：は→将に（265 発火 27 改善 207 変差 Δ+0.085）・
+#     は→未だ（172 発火 25 改善 131 変差）＝N92 T1/T2 と完全一致；ことなき→
+#     こと莫き（2 変差 roushi46-2/rikutou26-5 禁区維持）・るべ→可（151 発火
+#     91/7）・べきか→可きか（31 発火 25/2）・べからず→可からず（78 発火 70/5・
+#     変差 5 維持・発火 89→78 は Rule Q すべからず 16 行収録の自然残量変動）・
+#     べからざる→可からざる（82 発火 79/1）・なかれ→莫かれ（17 発火 13/1
+#     kokyo09-5）
+#   长尾 scan 3 件（してなる→使うや・なるをしむるの→令・はなる→少くして）＝
+#     N86/N88/N92 拒案逐字同名の scramble patch（枯竭复核・過拟合拒）
+R_KANA_TO_KANJI = [
+    ("ゆく", "之く", ("之",)),               # 白文 之〜 の got「ゆく」对位（Rule L ゆき→之 の兄弟键）
+]
+
+# Rule R 的词界护栏（与 E〜Q 分开维护）。probe/sim 実測ゆく後続冲突なし。
+R_LONGER_WORDS = {
+    "ゆく": (),                                # 実測 12 発火 0 変差＝长词冲突なし
+}
+
+
+def style_kana_to_kanji_r(text: str, hakubun: str = "") -> str:
+    """假名 → 汉字（第十三批）。N94 Rule R。
+
+    与 E〜Q 同构的两道护栏，用 R 自己的更长词表。guard は白文含字の正条件
+    （空白文で発火＝E〜K 世代同语义）。新旧両形は guard_forms 并查（N72 移交①）で
+    probe/sim 実施済み（之 は新旧変異なし）。
+    全 1 条＝night94_sim 单条 0 変差・组合 12 行改写 10 改善／変差 0／幂等 bad 0。
+    """
+    hb = re.sub(r"\s+", "", hakubun) if hakubun else ""
+    for kana, repl, guard in R_KANA_TO_KANJI:
+        if guard and hb and not any(g in hb for g in guard):
+            continue
+        text = _replace_word_boundary(text, kana, repl, R_LONGER_WORDS)
+    return text
+
+
 def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     """带白文上下文的规则总入口（D11 起后端实际调用这个）。
 
@@ -924,6 +979,7 @@ def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     t = style_kana_to_kanji_n(t, hakubun)   # N78 Rule N
     t = style_kana_to_kanji_o(t, hakubun)   # N86 Rule O
     t = style_kana_to_kanji_q(t, hakubun)   # N92 Rule Q
+    t = style_kana_to_kanji_r(t, hakubun)   # N94 Rule R
     return t
 
 # ---------------------------------------------------------------------------
