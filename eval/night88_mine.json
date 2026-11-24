@@ -1,0 +1,771 @@
+{
+ "baseline": "night87_results_8165.json",
+ "rows": 8165,
+ "class": {
+  "engine": 7916,
+  "echo": 30,
+  "rerun": 218,
+  "no_tail": 1
+ },
+ "reachable": 8134,
+ "opcode_pairs": [
+  {
+   "kana": "るべ",
+   "head": "可",
+   "rows": 27,
+   "guard_forms": [
+    "可"
+   ],
+   "guard_hit_rows": 22,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "可",
+     "n": 27
+    }
+   ],
+   "example_id": "daigaku10-42"
+  },
+  {
+   "kana": "べきか",
+   "head": "可",
+   "rows": 23,
+   "guard_forms": [
+    "可"
+   ],
+   "guard_hit_rows": 21,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "可し",
+     "n": 20
+    },
+    {
+     "exp_seg": "可けんや",
+     "n": 1
+    },
+    {
+     "exp_seg": "可し、と",
+     "n": 1
+    },
+    {
+     "exp_seg": "可けんや、と",
+     "n": 1
+    }
+   ],
+   "example_id": "imayukyu-1"
+  },
+  {
+   "kana": "して",
+   "head": "使",
+   "rows": 7,
+   "guard_forms": [
+    "使"
+   ],
+   "guard_hit_rows": 7,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "使うには",
+     "n": 2
+    },
+    {
+     "exp_seg": "使うに",
+     "n": 2
+    },
+    {
+     "exp_seg": "使うを",
+     "n": 1
+    },
+    {
+     "exp_seg": "使うこと",
+     "n": 1
+    },
+    {
+     "exp_seg": "使うに賞を",
+     "n": 1
+    }
+   ],
+   "example_id": "kimishin-1"
+  },
+  {
+   "kana": "してしむる",
+   "head": "使",
+   "rows": 7,
+   "guard_forms": [
+    "使"
+   ],
+   "guard_hit_rows": 6,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "使う",
+     "n": 4
+    },
+    {
+     "exp_seg": "使うに",
+     "n": 2
+    },
+    {
+     "exp_seg": "使うこと",
+     "n": 1
+    }
+   ],
+   "example_id": "daigaku09-3"
+  },
+  {
+   "kana": "しむ",
+   "head": "使",
+   "rows": 5,
+   "guard_forms": [
+    "使"
+   ],
+   "guard_hit_rows": 5,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "使いす",
+     "n": 2
+    },
+    {
+     "exp_seg": "使いせん",
+     "n": 1
+    },
+    {
+     "exp_seg": "使わす",
+     "n": 1
+    },
+    {
+     "exp_seg": "使を通ず",
+     "n": 1
+    }
+   ],
+   "example_id": "kanpeki4k-2"
+  },
+  {
+   "kana": "とも",
+   "head": "与",
+   "rows": 5,
+   "guard_forms": [
+    "与",
+    "與"
+   ],
+   "guard_hit_rows": 5,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "与に",
+     "n": 5
+    }
+   ],
+   "example_id": "funkei-x13"
+  },
+  {
+   "kana": "して",
+   "head": "問",
+   "rows": 5,
+   "guard_forms": [
+    "問"
+   ],
+   "guard_hit_rows": 5,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "問す",
+     "n": 5
+    }
+   ],
+   "example_id": "seimei-3"
+  },
+  {
+   "kana": "たり",
+   "head": "為",
+   "rows": 4,
+   "guard_forms": [
+    "為",
+    "爲"
+   ],
+   "guard_hit_rows": 4,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "為ること",
+     "n": 3
+    },
+    {
+     "exp_seg": "為るや",
+     "n": 1
+    }
+   ],
+   "example_id": "ichigenoko-1"
+  },
+  {
+   "kana": "してしむ",
+   "head": "使",
+   "rows": 4,
+   "guard_forms": [
+    "使"
+   ],
+   "guard_hit_rows": 4,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "使い",
+     "n": 2
+    },
+    {
+     "exp_seg": "使うは",
+     "n": 1
+    },
+    {
+     "exp_seg": "使うが若きは",
+     "n": 1
+    }
+   ],
+   "example_id": "kimishin-1"
+  },
+  {
+   "kana": "なかれ",
+   "head": "莫",
+   "rows": 4,
+   "guard_forms": [
+    "莫"
+   ],
+   "guard_hit_rows": 4,
+   "handled": true,
+   "variants": [
+    {
+     "exp_seg": "莫し",
+     "n": 3
+    },
+    {
+     "exp_seg": "莫きや",
+     "n": 1
+    }
+   ],
+   "example_id": "kokyo07-7"
+  },
+  {
+   "kana": "べきなり",
+   "head": "可",
+   "rows": 4,
+   "guard_forms": [
+    "可"
+   ],
+   "guard_hit_rows": 3,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "可く",
+     "n": 2
+    },
+    {
+     "exp_seg": "可くんば",
+     "n": 1
+    },
+    {
+     "exp_seg": "可けんや",
+     "n": 1
+    }
+   ],
+   "example_id": "rongo0301-1"
+  }
+ ],
+ "nakare_mokaku": {
+  "莫かれ": {
+   "better": 13,
+   "worse": 1,
+   "same": 3,
+   "detail": [
+    {
+     "id": "ichinenkoku-1",
+     "run": "きことなかれ",
+     "d0": 31,
+     "d1": 28,
+     "mark": "改善"
+    },
+    {
+     "id": "kunmotokyu-1",
+     "run": "すことなかれ",
+     "d0": 27,
+     "d1": 26,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1501-1",
+     "run": "すことなかれ",
+     "d0": 41,
+     "d1": 40,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1709-1",
+     "run": "ぶことなかれ",
+     "d0": 25,
+     "d1": 24,
+     "mark": "改善"
+    },
+    {
+     "id": "sakinzu-4",
+     "run": "すことなかれ",
+     "d0": 48,
+     "d1": 47,
+     "mark": "改善"
+    },
+    {
+     "id": "soko-3",
+     "run": "ぶことなかれ",
+     "d0": 17,
+     "d1": 16,
+     "mark": "改善"
+    },
+    {
+     "id": "yaro-1",
+     "run": "すことなかれ",
+     "d0": 25,
+     "d1": 25,
+     "mark": "same"
+    },
+    {
+     "id": "kokyo07-7",
+     "run": "すことなかれ",
+     "d0": 20,
+     "d1": 19,
+     "mark": "改善"
+    },
+    {
+     "id": "kokyo09-5",
+     "run": "すことなかれ",
+     "d0": 15,
+     "d1": 16,
+     "mark": "変差"
+    },
+    {
+     "id": "kokyo12-2",
+     "run": "くなかれ",
+     "d0": 14,
+     "d1": 14,
+     "mark": "same"
+    },
+    {
+     "id": "kofuku-x13",
+     "run": "になかれ",
+     "d0": 12,
+     "d1": 12,
+     "mark": "same"
+    },
+    {
+     "id": "toushisen034-4",
+     "run": "くことなかれ",
+     "d0": 11,
+     "d1": 10,
+     "mark": "改善"
+    },
+    {
+     "id": "toushisen409-3",
+     "run": "すことなかれ",
+     "d0": 12,
+     "d1": 11,
+     "mark": "改善"
+    },
+    {
+     "id": "montai06-4",
+     "run": "ぶべきことなかれ",
+     "d0": 23,
+     "d1": 22,
+     "mark": "改善"
+    },
+    {
+     "id": "roushi59-1",
+     "run": "くことなかれ",
+     "d0": 25,
+     "d1": 24,
+     "mark": "改善"
+    },
+    {
+     "id": "roushi78-1",
+     "run": "つことなかれ",
+     "d0": 35,
+     "d1": 34,
+     "mark": "改善"
+    },
+    {
+     "id": "rikutou34-7",
+     "run": "すことなかれ",
+     "d0": 81,
+     "d1": 80,
+     "mark": "改善"
+    }
+   ]
+  },
+  "莫し": {
+   "better": 15,
+   "worse": 2,
+   "same": 0,
+   "detail": [
+    {
+     "id": "ichinenkoku-1",
+     "run": "きことなかれ",
+     "d0": 31,
+     "d1": 22,
+     "mark": "改善"
+    },
+    {
+     "id": "kunmotokyu-1",
+     "run": "すことなかれ",
+     "d0": 27,
+     "d1": 24,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1501-1",
+     "run": "すことなかれ",
+     "d0": 41,
+     "d1": 38,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1709-1",
+     "run": "ぶことなかれ",
+     "d0": 25,
+     "d1": 24,
+     "mark": "改善"
+    },
+    {
+     "id": "sakinzu-4",
+     "run": "すことなかれ",
+     "d0": 48,
+     "d1": 45,
+     "mark": "改善"
+    },
+    {
+     "id": "soko-3",
+     "run": "ぶことなかれ",
+     "d0": 17,
+     "d1": 14,
+     "mark": "改善"
+    },
+    {
+     "id": "yaro-1",
+     "run": "すことなかれ",
+     "d0": 25,
+     "d1": 24,
+     "mark": "改善"
+    },
+    {
+     "id": "kokyo07-7",
+     "run": "すことなかれ",
+     "d0": 20,
+     "d1": 17,
+     "mark": "改善"
+    },
+    {
+     "id": "kokyo09-5",
+     "run": "すことなかれ",
+     "d0": 15,
+     "d1": 14,
+     "mark": "改善"
+    },
+    {
+     "id": "kokyo12-2",
+     "run": "くなかれ",
+     "d0": 14,
+     "d1": 12,
+     "mark": "改善"
+    },
+    {
+     "id": "kofuku-x13",
+     "run": "になかれ",
+     "d0": 12,
+     "d1": 10,
+     "mark": "改善"
+    },
+    {
+     "id": "toushisen034-4",
+     "run": "くことなかれ",
+     "d0": 11,
+     "d1": 12,
+     "mark": "変差"
+    },
+    {
+     "id": "toushisen409-3",
+     "run": "すことなかれ",
+     "d0": 12,
+     "d1": 13,
+     "mark": "変差"
+    },
+    {
+     "id": "montai06-4",
+     "run": "ぶべきことなかれ",
+     "d0": 23,
+     "d1": 20,
+     "mark": "改善"
+    },
+    {
+     "id": "roushi59-1",
+     "run": "くことなかれ",
+     "d0": 25,
+     "d1": 22,
+     "mark": "改善"
+    },
+    {
+     "id": "roushi78-1",
+     "run": "つことなかれ",
+     "d0": 35,
+     "d1": 32,
+     "mark": "改善"
+    },
+    {
+     "id": "rikutou34-7",
+     "run": "すことなかれ",
+     "d0": 81,
+     "d1": 78,
+     "mark": "改善"
+    }
+   ]
+  },
+  "莫": {
+   "better": 14,
+   "worse": 2,
+   "same": 1,
+   "detail": [
+    {
+     "id": "ichinenkoku-1",
+     "run": "きことなかれ",
+     "d0": 31,
+     "d1": 25,
+     "mark": "改善"
+    },
+    {
+     "id": "kunmotokyu-1",
+     "run": "すことなかれ",
+     "d0": 27,
+     "d1": 25,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1501-1",
+     "run": "すことなかれ",
+     "d0": 41,
+     "d1": 39,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1709-1",
+     "run": "ぶことなかれ",
+     "d0": 25,
+     "d1": 24,
+     "mark": "改善"
+    },
+    {
+     "id": "sakinzu-4",
+     "run": "すことなかれ",
+     "d0": 48,
+     "d1": 46,
+     "mark": "改善"
+    },
+    {
+     "id": "soko-3",
+     "run": "ぶことなかれ",
+     "d0": 17,
+     "d1": 15,
+     "mark": "改善"
+    },
+    {
+     "id": "yaro-1",
+     "run": "すことなかれ",
+     "d0": 25,
+     "d1": 23,
+     "mark": "改善"
+    },
+    {
+     "id": "kokyo07-7",
+     "run": "すことなかれ",
+     "d0": 20,
+     "d1": 18,
+     "mark": "改善"
+    },
+    {
+     "id": "kokyo09-5",
+     "run": "すことなかれ",
+     "d0": 15,
+     "d1": 15,
+     "mark": "same"
+    },
+    {
+     "id": "kokyo12-2",
+     "run": "くなかれ",
+     "d0": 14,
+     "d1": 13,
+     "mark": "改善"
+    },
+    {
+     "id": "kofuku-x13",
+     "run": "になかれ",
+     "d0": 12,
+     "d1": 11,
+     "mark": "改善"
+    },
+    {
+     "id": "toushisen034-4",
+     "run": "くことなかれ",
+     "d0": 11,
+     "d1": 12,
+     "mark": "変差"
+    },
+    {
+     "id": "toushisen409-3",
+     "run": "すことなかれ",
+     "d0": 12,
+     "d1": 13,
+     "mark": "変差"
+    },
+    {
+     "id": "montai06-4",
+     "run": "ぶべきことなかれ",
+     "d0": 23,
+     "d1": 21,
+     "mark": "改善"
+    },
+    {
+     "id": "roushi59-1",
+     "run": "くことなかれ",
+     "d0": 25,
+     "d1": 23,
+     "mark": "改善"
+    },
+    {
+     "id": "roushi78-1",
+     "run": "つことなかれ",
+     "d0": 35,
+     "d1": 33,
+     "mark": "改善"
+    },
+    {
+     "id": "rikutou34-7",
+     "run": "すことなかれ",
+     "d0": 81,
+     "d1": 79,
+     "mark": "改善"
+    }
+   ]
+  }
+ },
+ "hazaru": [
+  {
+   "id": "atawaza-1",
+   "d0": 35,
+   "d1": 34
+  },
+  {
+   "id": "rongo0112-1",
+   "d0": 30,
+   "d1": 29
+  },
+  {
+   "id": "rongo0306-1",
+   "d0": 17,
+   "d1": 16
+  },
+  {
+   "id": "heiwasesso-2",
+   "d0": 7,
+   "d1": 6
+  },
+  {
+   "id": "kenken-1",
+   "d0": 21,
+   "d1": 20
+  },
+  {
+   "id": "narai-1",
+   "d0": 27,
+   "d1": 27
+  },
+  {
+   "id": "shika-3",
+   "d0": 52,
+   "d1": 51
+  },
+  {
+   "id": "kokyo17-4",
+   "d0": 23,
+   "d1": 23
+  },
+  {
+   "id": "wakaruru-5",
+   "d0": 7,
+   "d1": 7
+  },
+  {
+   "id": "rikutou14-2",
+   "d0": 20,
+   "d1": 19
+  },
+  {
+   "id": "rikutou20-4",
+   "d0": 48,
+   "d1": 47
+  },
+  {
+   "id": "rikutou35-3",
+   "d0": 50,
+   "d1": 50
+  },
+  {
+   "id": "sonshi08-4",
+   "d0": 19,
+   "d1": 19
+  },
+  {
+   "id": "sonshi08-5",
+   "d0": 14,
+   "d1": 14
+  },
+  {
+   "id": "utsuryo06-5",
+   "d0": 63,
+   "d1": 63
+  },
+  {
+   "id": "24shihin10-4",
+   "d0": 17,
+   "d1": 18
+  },
+  {
+   "id": "soji02k03-1",
+   "d0": 18,
+   "d1": 18
+  },
+  {
+   "id": "utsuryo03-6",
+   "d0": 67,
+   "d1": 67
+  }
+ ],
+ "handled_residual": {
+  "がため": 1,
+  "ゆゑん": 0,
+  "つひに": 0,
+  "いずくんぞ": 0,
+  "しばしば": 0,
+  "ほとんど": 0,
+  "いよいよ": 0,
+  "はやや": 0,
+  "することなかれ": 0,
+  "ざることなかれ": 0,
+  "なることなかれ": 0,
+  "うことなかれ": 0,
+  "ることなかれ": 0,
+  "そく": 0,
+  "はあるいは": 0,
+  "ゆき": 0,
+  "はそれ": 0,
+  "何のごとし": 0,
+  "何のごとく": 1,
+  "はざる者": 0,
+  "たりせ": 0,
+  "なきか": 0
+ },
+ "shinjitai_left": []
+}
