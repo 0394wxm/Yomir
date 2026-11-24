@@ -1009,3 +1009,4 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 [2026-11-24 18:24] night93 合并夜开工：master=b6a6248 确认，pytest 443 passed，night92-ruleq tip=a39e648、merge-base=b6a6248（N92 自 master 直分）。合并 night92-ruleq（Rule Q 2 条）进 master 开始。
 [2026-11-24 18:31] night93 合后验证：pytest 453 passed；golden_4000 13.491/24/0 与 night92 归档逐位一致（diff 0 行）；golden_8165 13.500/30/0 逐位一致（N91 13.502 から 37 行改写改善生效）；词库 1531 实证；verify 20/20 exit 0。
 [2026-11-24 18:35] Night 93 完成：accept 93 PASS fail=0 skip=0（31.1s 首跑即 PASS・七门全绿・eval_integrity 実查 night93_results_4000.json）。master 链 b6a6248→5a78d0b（心跳）→3a64ff0（merge --no-ff night92-ruleq・冲突 1 文件 SHIFT_LOG 字节安全并集）→852850d（登记）→wrap-up，未推远程。golden_4000 13.491/24/0・golden_8165 13.500/30/0 与 night92 归档逐位一致（diff 0 行），pytest 453，词库 1531，verify 20/20。
+Night 95 heartbeat: merge night94-ruler session start (master 07ff902, pytest 453, branch tip efa818b, step0 fix f024951, merge-base 07ff902)
