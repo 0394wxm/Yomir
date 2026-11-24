@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """accept_night.py — 每夜验收门（D2）。
 
 设计目标：
@@ -67,6 +67,7 @@ NIGHT_ARTIFACTS = {
     89: ["night89_results_4000.json"],   # N89 词库夜：频次 2 区追加 230 条（词库不进规则引擎・与 night87 归档逐位一致 13.491/24/0）
     90: ["night90_results_4000.json"],   # N90 合并夜：night89-lexicon-freq2 入 master（与 night89 归档逐位一致 13.491/24/0）
     91: ["night91_results_4000.json"],   # N91 合并夜：night88-rulep 零规则夜入 master（与 night90 归档逐位一致 13.491/24/0）
+    92: ["night92_results_4000.json"],   # N92 Rule Q 上线後の默认口径（13.491/24/0・8165 13.502→13.500 改善）
     22: ["night22_results_full.json"],
     23: ["night23_results_rongo.json"],
     26: ["night26_results_full.json"],
