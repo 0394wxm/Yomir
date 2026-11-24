@@ -69,6 +69,7 @@ NIGHT_ARTIFACTS = {
     91: ["night91_results_4000.json"],   # N91 合并夜：night88-rulep 零规则夜入 master（与 night90 归档逐位一致 13.491/24/0）
     92: ["night92_results_4000.json"],   # N92 Rule Q 上线後の默认口径（13.491/24/0・8165 13.502→13.500 改善）
     93: ["night93_results_4000.json"],   # N93 合并夜：night92-ruleq Rule Q 2 条入 master（与 night92 归档逐位一致 13.491/24/0・8165 13.500）
+    94: ["night94_results_4000.json"],   # N94 Rule R 上线後の默认口径（13.489/24/0・8165 13.500→13.498 改善）
     22: ["night22_results_full.json"],
     23: ["night23_results_rongo.json"],
     26: ["night26_results_full.json"],

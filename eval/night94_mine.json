@@ -1,0 +1,2046 @@
+{
+ "baseline": "night92_results_8165.json",
+ "rows": 8165,
+ "q_diff_rows": 37,
+ "class": {
+  "engine": 7916,
+  "echo": 30,
+  "rerun": 218,
+  "no_tail": 1
+ },
+ "reachable": 8134,
+ "one_blocks": [
+  {
+   "kana": "べ",
+   "head": "可",
+   "rows": 110,
+   "guard_forms": [
+    "可"
+   ],
+   "guard_hit_rows": 110,
+   "n92_untested": false,
+   "tested_n92": true,
+   "variants": [
+    {
+     "exp_seg": "可",
+     "n": 134
+    }
+   ],
+   "example_id": "24shihin22-5"
+  },
+  {
+   "kana": "は",
+   "head": "将",
+   "rows": 22,
+   "guard_forms": [
+    "将",
+    "將"
+   ],
+   "guard_hit_rows": 22,
+   "n92_untested": false,
+   "tested_n92": true,
+   "variants": [
+    {
+     "exp_seg": "将に",
+     "n": 22
+    },
+    {
+     "exp_seg": "将",
+     "n": 1
+    }
+   ],
+   "example_id": "bokutaku-1"
+  },
+  {
+   "kana": "は",
+   "head": "未",
+   "rows": 16,
+   "guard_forms": [
+    "未"
+   ],
+   "guard_hit_rows": 16,
+   "n92_untested": false,
+   "tested_n92": true,
+   "variants": [
+    {
+     "exp_seg": "未だ",
+     "n": 16
+    },
+    {
+     "exp_seg": "未央",
+     "n": 1
+    },
+    {
+     "exp_seg": "未だ受けず伏",
+     "n": 1
+    }
+   ],
+   "example_id": "bokutaku-1"
+  },
+  {
+   "kana": "た",
+   "head": "為",
+   "rows": 9,
+   "guard_forms": [
+    "為",
+    "爲"
+   ],
+   "guard_hit_rows": 9,
+   "n92_untested": false,
+   "tested_n92": true,
+   "variants": [
+    {
+     "exp_seg": "為",
+     "n": 9
+    }
+   ],
+   "example_id": "ichigenoko-1"
+  },
+  {
+   "kana": "の",
+   "head": "之",
+   "rows": 9,
+   "guard_forms": [
+    "之"
+   ],
+   "guard_hit_rows": 9,
+   "n92_untested": true,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "之に",
+     "n": 5
+    },
+    {
+     "exp_seg": "之",
+     "n": 2
+    },
+    {
+     "exp_seg": "之は",
+     "n": 1
+    },
+    {
+     "exp_seg": "之を経るに",
+     "n": 1
+    },
+    {
+     "exp_seg": "之を",
+     "n": 1
+    }
+   ],
+   "example_id": "goshi01-3"
+  },
+  {
+   "kana": "て",
+   "head": "為",
+   "rows": 7,
+   "guard_forms": [
+    "為",
+    "爲"
+   ],
+   "guard_hit_rows": 7,
+   "n92_untested": false,
+   "tested_n92": true,
+   "variants": [
+    {
+     "exp_seg": "為えらく、",
+     "n": 5
+    },
+    {
+     "exp_seg": "為えらく、為に鼓するに",
+     "n": 1
+    },
+    {
+     "exp_seg": "為らく",
+     "n": 1
+    }
+   ],
+   "example_id": "ichiji-4"
+  },
+  {
+   "kana": "は",
+   "head": "有",
+   "rows": 7,
+   "guard_forms": [
+    "有"
+   ],
+   "guard_hit_rows": 7,
+   "n92_untested": true,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "有",
+     "n": 4
+    },
+    {
+     "exp_seg": "有らば",
+     "n": 1
+    },
+    {
+     "exp_seg": "有り",
+     "n": 1
+    },
+    {
+     "exp_seg": "有りて",
+     "n": 1
+    }
+   ],
+   "example_id": "p-fusetsuga-2"
+  },
+  {
+   "kana": "も",
+   "head": "与",
+   "rows": 7,
+   "guard_forms": [
+    "与",
+    "與"
+   ],
+   "guard_hit_rows": 7,
+   "n92_untested": true,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "与に",
+     "n": 4
+    },
+    {
+     "exp_seg": "与にか",
+     "n": 3
+    },
+    {
+     "exp_seg": "与わるに",
+     "n": 1
+    }
+   ],
+   "example_id": "24shihin03-6"
+  },
+  {
+   "kana": "は",
+   "head": "少",
+   "rows": 6,
+   "guard_forms": [
+    "少"
+   ],
+   "guard_hit_rows": 6,
+   "n92_untested": true,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "少き",
+     "n": 2
+    },
+    {
+     "exp_seg": "少にして",
+     "n": 2
+    },
+    {
+     "exp_seg": "少",
+     "n": 1
+    },
+    {
+     "exp_seg": "少なく",
+     "n": 1
+    }
+   ],
+   "example_id": "enjaku-1"
+  },
+  {
+   "kana": "は",
+   "head": "白",
+   "rows": 6,
+   "guard_forms": [
+    "白"
+   ],
+   "guard_hit_rows": 6,
+   "n92_untested": true,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "白",
+     "n": 4
+    },
+    {
+     "exp_seg": "白蓮",
+     "n": 1
+    },
+    {
+     "exp_seg": "白波に",
+     "n": 1
+    }
+   ],
+   "example_id": "rokinshi-4"
+  },
+  {
+   "kana": "は",
+   "head": "行",
+   "rows": 6,
+   "guard_forms": [
+    "行"
+   ],
+   "guard_hit_rows": 6,
+   "n92_untested": true,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "行〻",
+     "n": 2
+    },
+    {
+     "exp_seg": "行",
+     "n": 2
+    },
+    {
+     "exp_seg": "行人",
+     "n": 1
+    },
+    {
+     "exp_seg": "行くこと",
+     "n": 1
+    }
+   ],
+   "example_id": "heishako-7"
+  },
+  {
+   "kana": "は",
+   "head": "来",
+   "rows": 6,
+   "guard_forms": [
+    "来",
+    "來"
+   ],
+   "guard_hit_rows": 6,
+   "n92_untested": true,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "来って",
+     "n": 2
+    },
+    {
+     "exp_seg": "来",
+     "n": 2
+    },
+    {
+     "exp_seg": "来る",
+     "n": 1
+    },
+    {
+     "exp_seg": "来の",
+     "n": 1
+    }
+   ],
+   "example_id": "heishako-32"
+  },
+  {
+   "kana": "は",
+   "head": "尽",
+   "rows": 6,
+   "guard_forms": [
+    "尽",
+    "盡"
+   ],
+   "guard_hit_rows": 6,
+   "n92_untested": true,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "尽きて",
+     "n": 3
+    },
+    {
+     "exp_seg": "尽く",
+     "n": 3
+    }
+   ],
+   "example_id": "toushisen003-3"
+  },
+  {
+   "kana": "は",
+   "head": "樹",
+   "rows": 6,
+   "guard_forms": [
+    "樹"
+   ],
+   "guard_hit_rows": 6,
+   "n92_untested": true,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "樹",
+     "n": 4
+    },
+    {
+     "exp_seg": "樹の",
+     "n": 2
+    }
+   ],
+   "example_id": "kojinnoso-3"
+  },
+  {
+   "kana": "は",
+   "head": "闕",
+   "rows": 6,
+   "guard_forms": [
+    "闕"
+   ],
+   "guard_hit_rows": 6,
+   "n92_untested": true,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "闕",
+     "n": 5
+    },
+    {
+     "exp_seg": "闕の",
+     "n": 1
+    }
+   ],
+   "example_id": "8gatsu15-1"
+  },
+  {
+   "kana": "は",
+   "head": "聞",
+   "rows": 5,
+   "guard_forms": [
+    "聞"
+   ],
+   "guard_hit_rows": 5,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "聞く、",
+     "n": 2
+    },
+    {
+     "exp_seg": "聞かずや",
+     "n": 2
+    },
+    {
+     "exp_seg": "聞くに",
+     "n": 1
+    }
+   ],
+   "example_id": "heishako-15"
+  },
+  {
+   "kana": "な",
+   "head": "莫",
+   "rows": 5,
+   "guard_forms": [
+    "莫"
+   ],
+   "guard_hit_rows": 5,
+   "n92_untested": true,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "莫",
+     "n": 6
+    }
+   ],
+   "example_id": "rongo0615-1"
+  },
+  {
+   "kana": "は",
+   "head": "為",
+   "rows": 5,
+   "guard_forms": [
+    "為",
+    "爲"
+   ],
+   "guard_hit_rows": 5,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "為に",
+     "n": 4
+    },
+    {
+     "exp_seg": "為れぞ",
+     "n": 1
+    }
+   ],
+   "example_id": "24shihin19-1"
+  },
+  {
+   "kana": "は",
+   "head": "舎",
+   "rows": 5,
+   "guard_forms": [
+    "舎",
+    "舍"
+   ],
+   "guard_hit_rows": 5,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "舎",
+     "n": 4
+    },
+    {
+     "exp_seg": "舎を",
+     "n": 1
+    }
+   ],
+   "example_id": "genji-2"
+  },
+  {
+   "kana": "は",
+   "head": "無",
+   "rows": 5,
+   "guard_forms": [
+    "無"
+   ],
+   "guard_hit_rows": 5,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "無",
+     "n": 6
+    }
+   ],
+   "example_id": "gyoou-6"
+  },
+  {
+   "kana": "は",
+   "head": "請",
+   "rows": 4,
+   "guard_forms": [
+    "請"
+   ],
+   "guard_hit_rows": 4,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "請う",
+     "n": 3
+    },
+    {
+     "exp_seg": "請う、",
+     "n": 1
+    }
+   ],
+   "example_id": "kagyu-3"
+  },
+  {
+   "kana": "は",
+   "head": "不",
+   "rows": 4,
+   "guard_forms": [
+    "不"
+   ],
+   "guard_hit_rows": 4,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "不",
+     "n": 4
+    }
+   ],
+   "example_id": "funkei-x18"
+  },
+  {
+   "kana": "は",
+   "head": "之",
+   "rows": 4,
+   "guard_forms": [
+    "之"
+   ],
+   "guard_hit_rows": 4,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "之に風を",
+     "n": 2
+    },
+    {
+     "exp_seg": "之に",
+     "n": 2
+    }
+   ],
+   "example_id": "kunshikaze-1"
+  },
+  {
+   "kana": "は",
+   "head": "上",
+   "rows": 4,
+   "guard_forms": [
+    "上"
+   ],
+   "guard_hit_rows": 4,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "上の",
+     "n": 3
+    },
+    {
+     "exp_seg": "上・",
+     "n": 1
+    }
+   ],
+   "example_id": "koinkun-3"
+  },
+  {
+   "kana": "は",
+   "head": "見",
+   "rows": 4,
+   "guard_forms": [
+    "見"
+   ],
+   "guard_hit_rows": 4,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "見ずや",
+     "n": 4
+    }
+   ],
+   "example_id": "heishako-31"
+  },
+  {
+   "kana": "は",
+   "head": "鳴",
+   "rows": 4,
+   "guard_forms": [
+    "鳴"
+   ],
+   "guard_hit_rows": 4,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "鳴",
+     "n": 2
+    },
+    {
+     "exp_seg": "鳴いて",
+     "n": 1
+    },
+    {
+     "exp_seg": "鳴りて",
+     "n": 1
+    }
+   ],
+   "example_id": "shikyo_fuu-2"
+  },
+  {
+   "kana": "が",
+   "head": "有",
+   "rows": 4,
+   "guard_forms": [
+    "有"
+   ],
+   "guard_hit_rows": 4,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "有り行を",
+     "n": 1
+    },
+    {
+     "exp_seg": "有ってか",
+     "n": 1
+    },
+    {
+     "exp_seg": "有らば",
+     "n": 1
+    },
+    {
+     "exp_seg": "有れども、",
+     "n": 1
+    }
+   ],
+   "example_id": "shikyo_yujodosha-7"
+  },
+  {
+   "kana": "は",
+   "head": "自",
+   "rows": 4,
+   "guard_forms": [
+    "自"
+   ],
+   "guard_hit_rows": 4,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "自ずから",
+     "n": 5
+    },
+    {
+     "exp_seg": "自ら",
+     "n": 1
+    }
+   ],
+   "example_id": "roushi57-3"
+  },
+  {
+   "kana": "は",
+   "head": "復",
+   "rows": 4,
+   "guard_forms": [
+    "復"
+   ],
+   "guard_hit_rows": 4,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "復た",
+     "n": 3
+    },
+    {
+     "exp_seg": "復た旧き池台",
+     "n": 1
+    }
+   ],
+   "example_id": "sanchuni-2"
+  },
+  {
+   "kana": "を",
+   "head": "者",
+   "rows": 3,
+   "guard_forms": [
+    "者"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "者に",
+     "n": 3
+    }
+   ],
+   "example_id": "iukotoata-1"
+  },
+  {
+   "kana": "は",
+   "head": "成",
+   "rows": 3,
+   "guard_forms": [
+    "成"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "成りて",
+     "n": 1
+    },
+    {
+     "exp_seg": "成らば",
+     "n": 1
+    },
+    {
+     "exp_seg": "成って",
+     "n": 1
+    }
+   ],
+   "example_id": "isshoko-4"
+  },
+  {
+   "kana": "の",
+   "head": "有",
+   "rows": 3,
+   "guard_forms": [
+    "有"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "有る",
+     "n": 2
+    },
+    {
+     "exp_seg": "有征を",
+     "n": 1
+    }
+   ],
+   "example_id": "intoku-3"
+  },
+  {
+   "kana": "は",
+   "head": "猶",
+   "rows": 3,
+   "guard_forms": [
+    "猶"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "猶お",
+     "n": 3
+    }
+   ],
+   "example_id": "kanarazuya-1"
+  },
+  {
+   "kana": "や",
+   "head": "乎",
+   "rows": 3,
+   "guard_forms": [
+    "乎"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "乎",
+     "n": 3
+    }
+   ],
+   "example_id": "enjaku-3"
+  },
+  {
+   "kana": "ゆ",
+   "head": "之",
+   "rows": 3,
+   "guard_forms": [
+    "之"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "之",
+     "n": 3
+    }
+   ],
+   "example_id": "kotaku-1"
+  },
+  {
+   "kana": "は",
+   "head": "縦",
+   "rows": 3,
+   "guard_forms": [
+    "縦",
+    "縱"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "縦",
+     "n": 2
+    },
+    {
+     "exp_seg": "縦い",
+     "n": 1
+    }
+   ],
+   "example_id": "kishi03-1"
+  },
+  {
+   "kana": "は",
+   "head": "人",
+   "rows": 3,
+   "guard_forms": [
+    "人"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "人を",
+     "n": 1
+    },
+    {
+     "exp_seg": "人代の",
+     "n": 1
+    },
+    {
+     "exp_seg": "人心を",
+     "n": 1
+    }
+   ],
+   "example_id": "rongo1431-1"
+  },
+  {
+   "kana": "は",
+   "head": "宜",
+   "rows": 3,
+   "guard_forms": [
+    "宜"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "宜",
+     "n": 1
+    },
+    {
+     "exp_seg": "宜しき所",
+     "n": 1
+    },
+    {
+     "exp_seg": "宜しく",
+     "n": 1
+    }
+   ],
+   "example_id": "hakubi-1"
+  },
+  {
+   "kana": "は",
+   "head": "服",
+   "rows": 3,
+   "guard_forms": [
+    "服"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "服",
+     "n": 3
+    }
+   ],
+   "example_id": "kenken-1"
+  },
+  {
+   "kana": "は",
+   "head": "知",
+   "rows": 3,
+   "guard_forms": [
+    "知"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "知",
+     "n": 2
+    },
+    {
+     "exp_seg": "知らず",
+     "n": 1
+    }
+   ],
+   "example_id": "koukeini-2"
+  },
+  {
+   "kana": "は",
+   "head": "謂",
+   "rows": 3,
+   "guard_forms": [
+    "謂"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "謂いて",
+     "n": 1
+    },
+    {
+     "exp_seg": "謂う",
+     "n": 1
+    },
+    {
+     "exp_seg": "謂えらく、",
+     "n": 1
+    }
+   ],
+   "example_id": "montai06-8"
+  },
+  {
+   "kana": "は",
+   "head": "用",
+   "rows": 3,
+   "guard_forms": [
+    "用"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "用",
+     "n": 1
+    },
+    {
+     "exp_seg": "用て",
+     "n": 1
+    },
+    {
+     "exp_seg": "用いず",
+     "n": 1
+    }
+   ],
+   "example_id": "kokyo01-3"
+  },
+  {
+   "kana": "は",
+   "head": "賞",
+   "rows": 3,
+   "guard_forms": [
+    "賞"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "賞",
+     "n": 2
+    },
+    {
+     "exp_seg": "賞して",
+     "n": 1
+    }
+   ],
+   "example_id": "shinshohi-1"
+  },
+  {
+   "kana": "ら",
+   "head": "回",
+   "rows": 3,
+   "guard_forms": [
+    "回",
+    "囘"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "回か",
+     "n": 3
+    }
+   ],
+   "example_id": "ritangenseki-8"
+  },
+  {
+   "kana": "は",
+   "head": "塞",
+   "rows": 3,
+   "guard_forms": [
+    "塞"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "塞を",
+     "n": 2
+    },
+    {
+     "exp_seg": "塞",
+     "n": 1
+    }
+   ],
+   "example_id": "toushisen075-6"
+  },
+  {
+   "kana": "は",
+   "head": "天",
+   "rows": 3,
+   "guard_forms": [
+    "天"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "天に",
+     "n": 2
+    },
+    {
+     "exp_seg": "天を",
+     "n": 1
+    }
+   ],
+   "example_id": "toushisen016-39"
+  },
+  {
+   "kana": "は",
+   "head": "須",
+   "rows": 3,
+   "guard_forms": [
+    "須"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "須らく",
+     "n": 2
+    },
+    {
+     "exp_seg": "須いず",
+     "n": 1
+    }
+   ],
+   "example_id": "gekkadoku01-8"
+  },
+  {
+   "kana": "に",
+   "head": "郷",
+   "rows": 3,
+   "guard_forms": [
+    "郷",
+    "鄉"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "郷",
+     "n": 3
+    }
+   ],
+   "example_id": "toushisen050-1"
+  },
+  {
+   "kana": "は",
+   "head": "悲",
+   "rows": 3,
+   "guard_forms": [
+    "悲"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "悲しみに",
+     "n": 1
+    },
+    {
+     "exp_seg": "悲",
+     "n": 1
+    },
+    {
+     "exp_seg": "悲風",
+     "n": 1
+    }
+   ],
+   "example_id": "gakugakuo-8"
+  },
+  {
+   "kana": "は",
+   "head": "愁",
+   "rows": 3,
+   "guard_forms": [
+    "愁"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "愁",
+     "n": 2
+    },
+    {
+     "exp_seg": "愁夢",
+     "n": 1
+    }
+   ],
+   "example_id": "chokeiko-4"
+  },
+  {
+   "kana": "は",
+   "head": "思",
+   "rows": 3,
+   "guard_forms": [
+    "思"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "思",
+     "n": 2
+    },
+    {
+     "exp_seg": "思う明",
+     "n": 1
+    }
+   ],
+   "example_id": "toushisen043-15"
+  },
+  {
+   "kana": "な",
+   "head": "悠",
+   "rows": 3,
+   "guard_forms": [
+    "悠"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "悠た",
+     "n": 3
+    }
+   ],
+   "example_id": "24shihin17-2"
+  },
+  {
+   "kana": "は",
+   "head": "明",
+   "rows": 3,
+   "guard_forms": [
+    "明"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "明らかにして",
+     "n": 1
+    },
+    {
+     "exp_seg": "明",
+     "n": 1
+    },
+    {
+     "exp_seg": "明の",
+     "n": 1
+    }
+   ],
+   "example_id": "24shihin09-4"
+  },
+  {
+   "kana": "に",
+   "head": "来",
+   "rows": 3,
+   "guard_forms": [
+    "来",
+    "來"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "来",
+     "n": 3
+    }
+   ],
+   "example_id": "kanko-3"
+  },
+  {
+   "kana": "は",
+   "head": "巧",
+   "rows": 3,
+   "guard_forms": [
+    "巧"
+   ],
+   "guard_hit_rows": 3,
+   "n92_untested": false,
+   "tested_n92": false,
+   "variants": [
+    {
+     "exp_seg": "巧宦を",
+     "n": 1
+    },
+    {
+     "exp_seg": "巧の",
+     "n": 1
+    },
+    {
+     "exp_seg": "巧",
+     "n": 1
+    }
+   ],
+   "example_id": "montai09-22"
+  }
+ ],
+ "opcode_pairs": [
+  {
+   "kana": "るべ",
+   "head": "可",
+   "rows": 27,
+   "guard_forms": [
+    "可"
+   ],
+   "guard_hit_rows": 22,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "可",
+     "n": 27
+    }
+   ],
+   "example_id": "daigaku10-42"
+  },
+  {
+   "kana": "べきか",
+   "head": "可",
+   "rows": 23,
+   "guard_forms": [
+    "可"
+   ],
+   "guard_hit_rows": 21,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "可し",
+     "n": 20
+    },
+    {
+     "exp_seg": "可けんや",
+     "n": 1
+    },
+    {
+     "exp_seg": "可し、と",
+     "n": 1
+    },
+    {
+     "exp_seg": "可けんや、と",
+     "n": 1
+    }
+   ],
+   "example_id": "imayukyu-1"
+  },
+  {
+   "kana": "して",
+   "head": "使",
+   "rows": 7,
+   "guard_forms": [
+    "使"
+   ],
+   "guard_hit_rows": 7,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "使うには",
+     "n": 2
+    },
+    {
+     "exp_seg": "使うに",
+     "n": 2
+    },
+    {
+     "exp_seg": "使うを",
+     "n": 1
+    },
+    {
+     "exp_seg": "使うこと",
+     "n": 1
+    },
+    {
+     "exp_seg": "使うに賞を",
+     "n": 1
+    }
+   ],
+   "example_id": "kimishin-1"
+  },
+  {
+   "kana": "してしむる",
+   "head": "使",
+   "rows": 7,
+   "guard_forms": [
+    "使"
+   ],
+   "guard_hit_rows": 6,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "使う",
+     "n": 4
+    },
+    {
+     "exp_seg": "使うに",
+     "n": 2
+    },
+    {
+     "exp_seg": "使うこと",
+     "n": 1
+    }
+   ],
+   "example_id": "daigaku09-3"
+  },
+  {
+   "kana": "しむ",
+   "head": "使",
+   "rows": 5,
+   "guard_forms": [
+    "使"
+   ],
+   "guard_hit_rows": 5,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "使いす",
+     "n": 2
+    },
+    {
+     "exp_seg": "使いせん",
+     "n": 1
+    },
+    {
+     "exp_seg": "使わす",
+     "n": 1
+    },
+    {
+     "exp_seg": "使を通ず",
+     "n": 1
+    }
+   ],
+   "example_id": "kanpeki4k-2"
+  },
+  {
+   "kana": "とも",
+   "head": "与",
+   "rows": 5,
+   "guard_forms": [
+    "与",
+    "與"
+   ],
+   "guard_hit_rows": 5,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "与に",
+     "n": 5
+    }
+   ],
+   "example_id": "funkei-x13"
+  },
+  {
+   "kana": "して",
+   "head": "問",
+   "rows": 5,
+   "guard_forms": [
+    "問"
+   ],
+   "guard_hit_rows": 5,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "問す",
+     "n": 5
+    }
+   ],
+   "example_id": "seimei-3"
+  },
+  {
+   "kana": "たり",
+   "head": "為",
+   "rows": 4,
+   "guard_forms": [
+    "為",
+    "爲"
+   ],
+   "guard_hit_rows": 4,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "為ること",
+     "n": 3
+    },
+    {
+     "exp_seg": "為るや",
+     "n": 1
+    }
+   ],
+   "example_id": "ichigenoko-1"
+  },
+  {
+   "kana": "してしむ",
+   "head": "使",
+   "rows": 4,
+   "guard_forms": [
+    "使"
+   ],
+   "guard_hit_rows": 4,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "使い",
+     "n": 2
+    },
+    {
+     "exp_seg": "使うは",
+     "n": 1
+    },
+    {
+     "exp_seg": "使うが若きは",
+     "n": 1
+    }
+   ],
+   "example_id": "kimishin-1"
+  },
+  {
+   "kana": "なかれ",
+   "head": "莫",
+   "rows": 4,
+   "guard_forms": [
+    "莫"
+   ],
+   "guard_hit_rows": 4,
+   "handled": true,
+   "variants": [
+    {
+     "exp_seg": "莫し",
+     "n": 3
+    },
+    {
+     "exp_seg": "莫きや",
+     "n": 1
+    }
+   ],
+   "example_id": "kokyo07-7"
+  },
+  {
+   "kana": "べきなり",
+   "head": "可",
+   "rows": 4,
+   "guard_forms": [
+    "可"
+   ],
+   "guard_hit_rows": 3,
+   "handled": false,
+   "variants": [
+    {
+     "exp_seg": "可く",
+     "n": 2
+    },
+    {
+     "exp_seg": "可くんば",
+     "n": 1
+    },
+    {
+     "exp_seg": "可けんや",
+     "n": 1
+    }
+   ],
+   "example_id": "rongo0301-1"
+  }
+ ],
+ "nakare_mokaku": {
+  "莫かれ": {
+   "better": 13,
+   "worse": 1,
+   "same": 3,
+   "detail": [
+    {
+     "id": "ichinenkoku-1",
+     "run": "きことなかれ",
+     "d0": 31,
+     "d1": 28,
+     "mark": "改善"
+    },
+    {
+     "id": "kunmotokyu-1",
+     "run": "すことなかれ",
+     "d0": 27,
+     "d1": 26,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1501-1",
+     "run": "すことなかれ",
+     "d0": 41,
+     "d1": 40,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1709-1",
+     "run": "ぶことなかれ",
+     "d0": 25,
+     "d1": 24,
+     "mark": "改善"
+    },
+    {
+     "id": "sakinzu-4",
+     "run": "すことなかれ",
+     "d0": 48,
+     "d1": 47,
+     "mark": "改善"
+    },
+    {
+     "id": "soko-3",
+     "run": "ぶことなかれ",
+     "d0": 17,
+     "d1": 16,
+     "mark": "改善"
+    },
+    {
+     "id": "yaro-1",
+     "run": "すことなかれ",
+     "d0": 25,
+     "d1": 25,
+     "mark": "same"
+    },
+    {
+     "id": "kokyo07-7",
+     "run": "すことなかれ",
+     "d0": 20,
+     "d1": 19,
+     "mark": "改善"
+    },
+    {
+     "id": "kokyo09-5",
+     "run": "すことなかれ",
+     "d0": 15,
+     "d1": 16,
+     "mark": "変差"
+    },
+    {
+     "id": "kokyo12-2",
+     "run": "くなかれ",
+     "d0": 14,
+     "d1": 14,
+     "mark": "same"
+    },
+    {
+     "id": "kofuku-x13",
+     "run": "になかれ",
+     "d0": 12,
+     "d1": 12,
+     "mark": "same"
+    },
+    {
+     "id": "toushisen034-4",
+     "run": "くことなかれ",
+     "d0": 11,
+     "d1": 10,
+     "mark": "改善"
+    },
+    {
+     "id": "toushisen409-3",
+     "run": "すことなかれ",
+     "d0": 12,
+     "d1": 11,
+     "mark": "改善"
+    },
+    {
+     "id": "montai06-4",
+     "run": "ぶべきことなかれ",
+     "d0": 23,
+     "d1": 22,
+     "mark": "改善"
+    },
+    {
+     "id": "roushi59-1",
+     "run": "くことなかれ",
+     "d0": 25,
+     "d1": 24,
+     "mark": "改善"
+    },
+    {
+     "id": "roushi78-1",
+     "run": "つことなかれ",
+     "d0": 35,
+     "d1": 34,
+     "mark": "改善"
+    },
+    {
+     "id": "rikutou34-7",
+     "run": "すことなかれ",
+     "d0": 81,
+     "d1": 80,
+     "mark": "改善"
+    }
+   ]
+  },
+  "莫し": {
+   "better": 15,
+   "worse": 2,
+   "same": 0,
+   "detail": [
+    {
+     "id": "ichinenkoku-1",
+     "run": "きことなかれ",
+     "d0": 31,
+     "d1": 22,
+     "mark": "改善"
+    },
+    {
+     "id": "kunmotokyu-1",
+     "run": "すことなかれ",
+     "d0": 27,
+     "d1": 24,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1501-1",
+     "run": "すことなかれ",
+     "d0": 41,
+     "d1": 38,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1709-1",
+     "run": "ぶことなかれ",
+     "d0": 25,
+     "d1": 24,
+     "mark": "改善"
+    },
+    {
+     "id": "sakinzu-4",
+     "run": "すことなかれ",
+     "d0": 48,
+     "d1": 45,
+     "mark": "改善"
+    },
+    {
+     "id": "soko-3",
+     "run": "ぶことなかれ",
+     "d0": 17,
+     "d1": 14,
+     "mark": "改善"
+    },
+    {
+     "id": "yaro-1",
+     "run": "すことなかれ",
+     "d0": 25,
+     "d1": 24,
+     "mark": "改善"
+    },
+    {
+     "id": "kokyo07-7",
+     "run": "すことなかれ",
+     "d0": 20,
+     "d1": 17,
+     "mark": "改善"
+    },
+    {
+     "id": "kokyo09-5",
+     "run": "すことなかれ",
+     "d0": 15,
+     "d1": 14,
+     "mark": "改善"
+    },
+    {
+     "id": "kokyo12-2",
+     "run": "くなかれ",
+     "d0": 14,
+     "d1": 12,
+     "mark": "改善"
+    },
+    {
+     "id": "kofuku-x13",
+     "run": "になかれ",
+     "d0": 12,
+     "d1": 10,
+     "mark": "改善"
+    },
+    {
+     "id": "toushisen034-4",
+     "run": "くことなかれ",
+     "d0": 11,
+     "d1": 12,
+     "mark": "変差"
+    },
+    {
+     "id": "toushisen409-3",
+     "run": "すことなかれ",
+     "d0": 12,
+     "d1": 13,
+     "mark": "変差"
+    },
+    {
+     "id": "montai06-4",
+     "run": "ぶべきことなかれ",
+     "d0": 23,
+     "d1": 20,
+     "mark": "改善"
+    },
+    {
+     "id": "roushi59-1",
+     "run": "くことなかれ",
+     "d0": 25,
+     "d1": 22,
+     "mark": "改善"
+    },
+    {
+     "id": "roushi78-1",
+     "run": "つことなかれ",
+     "d0": 35,
+     "d1": 32,
+     "mark": "改善"
+    },
+    {
+     "id": "rikutou34-7",
+     "run": "すことなかれ",
+     "d0": 81,
+     "d1": 78,
+     "mark": "改善"
+    }
+   ]
+  },
+  "莫": {
+   "better": 14,
+   "worse": 2,
+   "same": 1,
+   "detail": [
+    {
+     "id": "ichinenkoku-1",
+     "run": "きことなかれ",
+     "d0": 31,
+     "d1": 25,
+     "mark": "改善"
+    },
+    {
+     "id": "kunmotokyu-1",
+     "run": "すことなかれ",
+     "d0": 27,
+     "d1": 25,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1501-1",
+     "run": "すことなかれ",
+     "d0": 41,
+     "d1": 39,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1709-1",
+     "run": "ぶことなかれ",
+     "d0": 25,
+     "d1": 24,
+     "mark": "改善"
+    },
+    {
+     "id": "sakinzu-4",
+     "run": "すことなかれ",
+     "d0": 48,
+     "d1": 46,
+     "mark": "改善"
+    },
+    {
+     "id": "soko-3",
+     "run": "ぶことなかれ",
+     "d0": 17,
+     "d1": 15,
+     "mark": "改善"
+    },
+    {
+     "id": "yaro-1",
+     "run": "すことなかれ",
+     "d0": 25,
+     "d1": 23,
+     "mark": "改善"
+    },
+    {
+     "id": "kokyo07-7",
+     "run": "すことなかれ",
+     "d0": 20,
+     "d1": 18,
+     "mark": "改善"
+    },
+    {
+     "id": "kokyo09-5",
+     "run": "すことなかれ",
+     "d0": 15,
+     "d1": 15,
+     "mark": "same"
+    },
+    {
+     "id": "kokyo12-2",
+     "run": "くなかれ",
+     "d0": 14,
+     "d1": 13,
+     "mark": "改善"
+    },
+    {
+     "id": "kofuku-x13",
+     "run": "になかれ",
+     "d0": 12,
+     "d1": 11,
+     "mark": "改善"
+    },
+    {
+     "id": "toushisen034-4",
+     "run": "くことなかれ",
+     "d0": 11,
+     "d1": 12,
+     "mark": "変差"
+    },
+    {
+     "id": "toushisen409-3",
+     "run": "すことなかれ",
+     "d0": 12,
+     "d1": 13,
+     "mark": "変差"
+    },
+    {
+     "id": "montai06-4",
+     "run": "ぶべきことなかれ",
+     "d0": 23,
+     "d1": 21,
+     "mark": "改善"
+    },
+    {
+     "id": "roushi59-1",
+     "run": "くことなかれ",
+     "d0": 25,
+     "d1": 23,
+     "mark": "改善"
+    },
+    {
+     "id": "roushi78-1",
+     "run": "つことなかれ",
+     "d0": 35,
+     "d1": 33,
+     "mark": "改善"
+    },
+    {
+     "id": "rikutou34-7",
+     "run": "すことなかれ",
+     "d0": 81,
+     "d1": 79,
+     "mark": "改善"
+    }
+   ]
+  }
+ },
+ "hazaru": [
+  {
+   "id": "atawaza-1",
+   "d0": 35,
+   "d1": 34
+  },
+  {
+   "id": "rongo0112-1",
+   "d0": 30,
+   "d1": 29
+  },
+  {
+   "id": "rongo0306-1",
+   "d0": 17,
+   "d1": 16
+  },
+  {
+   "id": "heiwasesso-2",
+   "d0": 7,
+   "d1": 6
+  },
+  {
+   "id": "kenken-1",
+   "d0": 21,
+   "d1": 20
+  },
+  {
+   "id": "narai-1",
+   "d0": 27,
+   "d1": 27
+  },
+  {
+   "id": "shika-3",
+   "d0": 52,
+   "d1": 51
+  },
+  {
+   "id": "kokyo17-4",
+   "d0": 23,
+   "d1": 23
+  },
+  {
+   "id": "wakaruru-5",
+   "d0": 7,
+   "d1": 7
+  },
+  {
+   "id": "rikutou14-2",
+   "d0": 20,
+   "d1": 19
+  },
+  {
+   "id": "rikutou20-4",
+   "d0": 48,
+   "d1": 47
+  },
+  {
+   "id": "rikutou35-3",
+   "d0": 50,
+   "d1": 50
+  },
+  {
+   "id": "sonshi08-4",
+   "d0": 19,
+   "d1": 19
+  },
+  {
+   "id": "sonshi08-5",
+   "d0": 14,
+   "d1": 14
+  },
+  {
+   "id": "utsuryo06-5",
+   "d0": 63,
+   "d1": 63
+  },
+  {
+   "id": "24shihin10-4",
+   "d0": 17,
+   "d1": 18
+  },
+  {
+   "id": "soji02k03-1",
+   "d0": 18,
+   "d1": 18
+  },
+  {
+   "id": "utsuryo03-6",
+   "d0": 67,
+   "d1": 67
+  }
+ ],
+ "handled_residual": {
+  "がため": 1,
+  "ゆゑん": 0,
+  "つひに": 0,
+  "いずくんぞ": 0,
+  "しばしば": 0,
+  "ほとんど": 0,
+  "いよいよ": 0,
+  "はやや": 0,
+  "することなかれ": 0,
+  "ざることなかれ": 0,
+  "なることなかれ": 0,
+  "うことなかれ": 0,
+  "ることなかれ": 0,
+  "そく": 0,
+  "はあるいは": 0,
+  "ゆき": 0,
+  "はそれ": 0,
+  "何のごとし": 0,
+  "何のごとく": 1,
+  "はざる者": 0,
+  "たりせ": 0,
+  "なきか": 0,
+  "ことなく": 5,
+  "すべからず": 0
+ },
+ "shinjitai_left": []
+}
