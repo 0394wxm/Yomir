@@ -1,0 +1,480 @@
+{
+ "start": 350,
+ "note": "N89 batch rank 350-399: 31 in (noun 25/proper 1/verb 0/modifier 5/function 0) / 19 out",
+ "decisions": [
+  {
+   "word": "堂々",
+   "rank": 352,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "どうどう",
+   "meaning": "堂々たるさま・威厳のあるさま。语料：堂々の陣を撃つこと勿かれ（実用日本語表現辞典 どうどう・语料义一致）",
+   "dict_evidence": "weblio デジタル大辞泉；どう‐どう〔ダウダウ〕【堂堂】；読み方：どうどう（cand_352_堂々.txt）",
+   "corpus_evidence": "golden_8165 2行。例 seiseidodo-1「正々の旗を邀うること無かれ、堂々の陣を撃つこと勿かれ。」"
+  },
+  {
+   "word": "堂堂",
+   "rank": 354,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "どうどう",
+   "meaning": "堂々たるさま。语料：曾子曰く堂堂たるかな張や（実用日本語表現辞典 堂々・语料义一致・々/堂 両形を別词形として収録）",
+   "dict_evidence": "weblio デジタル大辞泉；どう‐どう〔ダウダウ〕【堂堂】；読み方：どうどう（cand_354_堂堂.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo1916-1「曾子曰く、堂堂たるかな張や。与に並びて仁を為し難し。」"
+  },
+  {
+   "word": "塵埃",
+   "rank": 355,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じんあい",
+   "meaning": "ちりとあい・浮遊する微細な土埃。语料：塵埃に見えず咸陽橋（大辞泉 じんあい）",
+   "dict_evidence": "weblio デジタル大辞泉；じん‐あい〔ヂン‐〕【×塵×埃】；読み方：じんあい（cand_355_塵埃.txt）",
+   "corpus_evidence": "golden_8165 2行。例 heishako-4「塵埃に見えず咸陽橋」"
+  },
+  {
+   "word": "壮麗",
+   "rank": 358,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "そうれい",
+   "meaning": "壮麗なさま。语料：壮麗一朝に尽き（大辞泉 そうれい）",
+   "dict_evidence": "weblio デジタル大辞泉；そう‐れい〔サウ‐〕【壮麗】；読み方：そうれい（cand_358_壮麗.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen124-3「壮麗一朝に尽き」"
+  },
+  {
+   "word": "声色",
+   "rank": 360,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せいしょく",
+   "meaning": "声と色・音と気色の徴候。语料：此の五音は声色の符なり（実用日本語表現辞典 せいしょく・语料义一致）",
+   "dict_evidence": "weblio デジタル大辞泉；こわ‐いろ【声色】；読み方：こわいろ（cand_360_声色.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou28-4「として聞こゆる無きは宮なり。此の五音は、声色の符なり。」"
+  },
+  {
+   "word": "外国",
+   "rank": 361,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "がいこく",
+   "meaning": "外国。语料：須らく外国の使いをして（大辞泉 がいこく）",
+   "dict_evidence": "weblio デジタル大辞泉；がい‐こく〔グワイ‐〕【外国】；読み方：がいこく（cand_361_外国.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen075-7「須らく外国の使いをして」"
+  },
+  {
+   "word": "外貌",
+   "rank": 362,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "がいぼう",
+   "meaning": "外の姿・見かけ。语料：士は外貌中情と相応ぜざる者十五あり（大辞泉 がいぼう）",
+   "dict_evidence": "weblio デジタル大辞泉；がい‐ぼう〔グワイバウ〕【外貌】；読み方：がいぼう（cand_362_外貌.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou20-2「太公曰く、夫れ士は外貌、中情と相応ぜざる者十五あり。」"
+  },
+  {
+   "word": "多力",
+   "rank": 363,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たりょく",
+   "meaning": "力の強いこと。语料：先ず登る者は未だ嘗て多力の国士に非ず（大辞泉 たりょく）",
+   "dict_evidence": "weblio デジタル大辞泉；た‐りょく【多力】；読み方：たりょく（cand_363_多力.txt）",
+   "corpus_evidence": "golden_8165 2行。例 sonshi04-11「故に秋亳を挙ぐるは多力と為さず。」"
+  },
+  {
+   "word": "多士",
+   "rank": 364,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たし",
+   "meaning": "多くの士・諸士。语料：済済たる多士（大辞泉 たし）",
+   "dict_evidence": "weblio デジタル大辞泉；た‐し【多士】；読み方：たし（cand_364_多士.txt）",
+   "corpus_evidence": "golden_8165 2行。例 tashiseisei-3「思に皇いなる多士」"
+  },
+  {
+   "word": "多情",
+   "rank": 365,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "たじょう",
+   "meaning": "情が深いこと・多感なさま。语料：多情は却って似たり総て無情なるに（大辞泉 たじょう）",
+   "dict_evidence": "weblio デジタル大辞泉；た‐じょう〔‐ジヤウ〕【多情】；読み方：たじょう（cand_365_多情.txt）",
+   "corpus_evidence": "golden_8165 2行。例 shuen-1「自ら歎ず多情は是れ足愁なるを」"
+  },
+  {
+   "word": "多能",
+   "rank": 366,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たのう",
+   "meaning": "多くの技能に通じること。语料：夫子は聖者か何ぞ其れ多能なるや（大辞泉 たのう）",
+   "dict_evidence": "weblio デジタル大辞泉；た‐のう【多能】；読み方：たのう（cand_366_多能.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo0906-1「子貢に問いて曰く、夫子は聖者か。何ぞ其れ多能なるや。子貢曰く、固より天、之を縦して将に聖ならんとす。又多能なり。子之を聞」"
+  },
+  {
+   "word": "多言",
+   "rank": 367,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たげん",
+   "meaning": "あれこれ繰り返し言うこと。语料：多言は数〻窮す中を守るに如かず（大辞泉 たげん）",
+   "dict_evidence": "weblio デジタル大辞泉；た‐げん【多言】；読み方：たげん（cand_367_多言.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rinkiohen-2「……明、謀略出ださず、号令行う莫し。諸将事を諮る毎に、輒ち怒りて曰く、吾自ら機に臨み変を制す。多言すること勿かれ、と。」"
+  },
+  {
+   "word": "夜中",
+   "rank": 368,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "やちゅう",
+   "meaning": "夜半・真夜中。语料：夜中寐ぬる能わず（大辞泉 やちゅう）",
+   "dict_evidence": "weblio デジタル大辞泉；や‐ちゅう【夜中】；読み方：やちゅう（cand_368_夜中.txt）",
+   "corpus_evidence": "golden_8165 2行。例 eikaishi01-1「夜中寐ぬる能わず」"
+  },
+  {
+   "word": "大人",
+   "rank": 372,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいじん",
+   "meaning": "有徳の高位の人・尊ぶべき人。语料：天命を畏れ大人を畏れ聖人の言を畏る（大辞泉 うし／たいじん）",
+   "dict_evidence": "weblio デジタル大辞泉；うし【大＝人】；読み方：うし（cand_372_大人.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo1608-1「孔子曰く、君子に三畏有り。天命を畏れ、大人を畏れ、聖人の言を畏る。小人は天命を知らずして、畏れざるなり。大人に狎れ、聖人」"
+  },
+  {
+   "word": "大兵",
+   "rank": 373,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "だいひょう",
+   "meaning": "大軍・大きな軍勢。语料：煙、吾が軍を覆い其の大兵黒地を按じて起る（大辞泉 だいひょう）",
+   "dict_evidence": "weblio デジタル大辞泉；だい‐ひょう〔‐ヒヤウ〕【大兵】；読み方：だいひょう（cand_373_大兵.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou41-4「武王曰く、敵人、吾が左右を燔き、又吾が前後を燔き、煙、吾が軍を覆い、其の大兵、黒地を按じて起らば、之を為すこと奈何。」"
+  },
+  {
+   "word": "大勢",
+   "rank": 374,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいせい",
+   "meaning": "大きな兵勢・大勢の軍。语料：時に大勢を与えて以て之を誘い（大辞泉 たいせい）",
+   "dict_evidence": "weblio デジタル大辞泉；おお‐ぜい〔おほ‐〕【大勢】；読み方：おおぜい（cand_374_大勢.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou15-5「し、良犬馬を遺りて、以て之を労らす。時に大勢を与えて、以て之を誘い、上察して天下と与に之を図る。」"
+  },
+  {
+   "word": "大匠",
+   "rank": 375,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいしょう",
+   "meaning": "優れた大工・名工。语料：大匠に代りて斲る者は其の手を傷つけざる有ること希なり（大辞泉 たいしょう）",
+   "dict_evidence": "weblio デジタル大辞泉；たい‐しょう〔‐シヤウ〕【大匠】；読み方：たいしょう（cand_375_大匠.txt）",
+   "corpus_evidence": "golden_8165 2行。例 roushi74-2「常に殺を司る者有りて殺す。夫れ殺を司る者に代りて殺す、是を大匠に代りて斲ると謂う。」"
+  },
+  {
+   "word": "大器",
+   "rank": 376,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいき",
+   "meaning": "大いなる器・大きな才能。语料：大方は隅無く大器は晩成し（大辞泉 たいき）",
+   "dict_evidence": "weblio デジタル大辞泉；たい‐き【大器】；読み方：たいき（cand_376_大器.txt）",
+   "corpus_evidence": "golden_8165 2行。例 taiki-2「大方は隅無く、大器は晩成し、大音は希声にして、大象は無形なり。」"
+  },
+  {
+   "word": "大患",
+   "rank": 378,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいかん",
+   "meaning": "大きな患い。语料：大患を貴ぶこと身の若し（大辞泉 たいかん）",
+   "dict_evidence": "weblio デジタル大辞泉；たい‐かん〔‐クワン〕【大患】；読み方：たいかん（cand_378_大患.txt）",
+   "corpus_evidence": "golden_8165 2行。例 roushi13-1「寵辱驚くが若く、大患を貴ぶこと身の若し。」"
+  },
+  {
+   "word": "大敗",
+   "rank": 379,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいはい",
+   "meaning": "大きな負け。语料：此れ大敗の徴なり（大辞泉 たいはい）",
+   "dict_evidence": "weblio デジタル大辞泉；たい‐はい【大敗】；読み方：たいはい（cand_379_大敗.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou29-5「濁り、鼙鼓の声、湿いて以て沐するは、此れ大敗の徴なり。」"
+  },
+  {
+   "word": "大海",
+   "rank": 382,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいかい",
+   "meaning": "大海・大きな海。语料：爾崖涘より出でて大海を観乃ち爾の醜を知る（大辞泉 おおうみ／たいかい・语料は たいかい）",
+   "dict_evidence": "weblio デジタル大辞泉；おお‐うみ〔おほ‐〕【大海】；読み方：おおうみ（cand_382_大海.txt）",
+   "corpus_evidence": "golden_8165 2行。例 seia-4「今爾崖涘より出で、大海を観、乃ち爾の醜を知る。」"
+  },
+  {
+   "word": "大白",
+   "rank": 383,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "たいはく",
+   "meaning": "大いに白いこと・極めて潔白なこと。语料：大白は辱れたるが若し（大辞泉 たいはく）",
+   "dict_evidence": "weblio デジタル大辞泉；たい‐はく【大白】；読み方：たいはく（cand_383_大白.txt）",
+   "corpus_evidence": "golden_8165 2行。例 taiki-1「く、夷道は纇なるが若く、上徳は谷の若く、大白は辱れたるが若く、広徳は足らざるが若く、建徳は偸きが若く、質真は渝るが若し。」"
+  },
+  {
+   "word": "大祭",
+   "rank": 384,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいさい",
+   "meaning": "大きな祭り。语料：民を使うには大祭を承くるが如くす（大辞泉 たいさい）",
+   "dict_evidence": "weblio デジタル大辞泉；たい‐さい【大祭】；読み方：たいさい（cand_384_大祭.txt）",
+   "corpus_evidence": "golden_8165 2行。例 onorenoho-1「を出でては大賓を見るが如く、民を使うには大祭を承くるが如くす。己の欲せざる所は、人に施すこと勿かれ。」"
+  },
+  {
+   "word": "大衆",
+   "rank": 386,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいしゅう",
+   "meaning": "多くの兵・大軍。语料：大衆の合する所を正と為し（大辞泉 だいしゅ／たいしゅう・语料は たいしゅう）",
+   "dict_evidence": "weblio デジタル大辞泉；だい‐しゅ【大衆】；読み方：だいしゅ（cand_386_大衆.txt）",
+   "corpus_evidence": "golden_8165 2行。例 montai05-3「臣愚にして謂えらく、大衆の合する所を正と為し、将の自ら出す所を奇と為す。烏くんぞ先後旁撃の拘り有らんや。」"
+  },
+  {
+   "word": "大要",
+   "rank": 387,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいよう",
+   "meaning": "大要・最も大切なところ。语料：凡そ兵を用うるの大要は敵に当り戦いに臨んで（大辞泉 たいよう）",
+   "dict_evidence": "weblio デジタル大辞泉；たい‐よう〔‐エウ〕【大要】；読み方：たいよう（cand_387_大要.txt）",
+   "corpus_evidence": "golden_8165 2行。例 montai01-12「偏箱、鹿角は兵の大要なり。」"
+  },
+  {
+   "word": "大音",
+   "rank": 391,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "だいおん",
+   "meaning": "大いなる音。语料：大音は希声にして（大辞泉 だいおん）",
+   "dict_evidence": "weblio デジタル大辞泉；だい‐おん【大音】；読み方：だいおん（cand_391_大音.txt）",
+   "corpus_evidence": "golden_8165 2行。例 taiki-2「大方は隅無く、大器は晩成し、大音は希声にして、大象は無形なり。」"
+  },
+  {
+   "word": "天台",
+   "rank": 394,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "てんだい",
+   "meaning": "天台山（浙江省の山・天台宗の祖山）。语料：天台総て雲に映ず（大辞泉 てんだい）",
+   "dict_evidence": "weblio デジタル大辞泉；てん‐だい【天台】；読み方：てんだい（cand_394_天台.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen095-2「天台総て雲に映ず」"
+  },
+  {
+   "word": "天外",
+   "rank": 395,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "てんがい",
+   "meaning": "天の果て・空のかなた。语料：天外の三峰削れども成らず（大辞泉 てんがい）",
+   "dict_evidence": "weblio デジタル大辞泉；てん‐がい〔‐グワイ〕【天外】；読み方：てんがい（cand_395_天外.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen171-2「天外の三峰削れども成らず」"
+  },
+  {
+   "word": "天帝",
+   "rank": 397,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "てんてい",
+   "meaning": "天の帝・最高神。语料：天帝、我をして百獣に長たらしむ（大辞泉 てんてい）",
+   "dict_evidence": "weblio デジタル大辞泉；てん‐てい【天帝】；読み方：てんてい（cand_397_天帝.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toranoi-4「天帝、我をして百獣に長たらしむ。」"
+  },
+  {
+   "word": "天心",
+   "rank": 398,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "てんしん",
+   "meaning": "天の心・天意。语料：月天心に到る処（大辞泉 てんしん）",
+   "dict_evidence": "weblio デジタル大辞泉；てん‐しん【天心】；読み方：てんしん（cand_398_天心.txt）",
+   "corpus_evidence": "golden_8165 2行。例 seiyagin-1「月天心に到る処」"
+  },
+  {
+   "word": "天明",
+   "rank": 399,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "てんめい",
+   "meaning": "夜明け・明け方。语料：天明前途に登り（大辞泉「夜明け。明けがた」）",
+   "dict_evidence": "weblio デジタル大辞泉；てん‐めい【天明】；読み方：てんめい（cand_399_天明.txt）",
+   "corpus_evidence": "golden_8165 2行。例 sekigonori-23「天明前途に登り」"
+  },
+  {
+   "word": "城池",
+   "rank": 350,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch・専門辞典（河川・湖沼名辞典）のみ：読み シロイケ＝日本の地名で语料（城壁と濠）と対位せず・未許可"
+  },
+  {
+   "word": "城隅",
+   "rank": 351,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載（我を城隅に俟つ）"
+  },
+  {
+   "word": "堂前",
+   "rank": 353,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch・専門辞典（地名辞典）のみ：読み ドウマエ＝日本地名で语料（堂の前）と対位せず・未許可"
+  },
+  {
+   "word": "士争",
+   "rank": 356,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：士争いて燕に趨く"
+  },
+  {
+   "word": "士衆",
+   "rank": 357,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文語で辞書不載（士衆を整斉する）"
+  },
+  {
+   "word": "声無",
+   "rank": 359,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+無系構文断片（寂として声無きが若く）"
+  },
+  {
+   "word": "夜久",
+   "rank": 369,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "名字辞典のみ・语料は「夜久しくして」構文断片（夜＋形容詞）"
+  },
+  {
+   "word": "夜月",
+   "rank": 370,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載（二十五絃夜月に弾ずれば）"
+  },
+  {
+   "word": "夜静",
+   "rank": 371,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語構文で辞書不載（夜静かにして春山空し）"
+  },
+  {
+   "word": "大尊",
+   "rank": 377,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "専門辞典（世界宗教用語大事典）のみ＝日本神名おおさざきのみこと、语料（大いなる尊位）と sense-mismatch・未許可"
+  },
+  {
+   "word": "大方",
+   "rank": 380,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：大辞泉＝大体・世間一般（おおかた）、语料＝老子「大方は隅無く」（大いなる方正）"
+  },
+  {
+   "word": "大林",
+   "rank": 381,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch・専門辞典（地名辞典）のみ：読み オオバヤシ＝日本地名で语料（大きな林・六韜）と対位せず・未許可"
+  },
+  {
+   "word": "大簡",
+   "rank": 385,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・論語語（乃ち大簡なること無からんや）で辞書不載"
+  },
+  {
+   "word": "大謀",
+   "rank": 388,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・論語語（則ち大謀を乱る）で辞書不載"
+  },
+  {
+   "word": "大賓",
+   "rank": 389,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・論語語（門を出でては大賓を見るが如く）で辞書不載"
+  },
+  {
+   "word": "大邑",
+   "rank": 390,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "Wikipedia のみ（四川の県名）で语料（大きな邑）と対位せず"
+  },
+  {
+   "word": "大風",
+   "rank": 392,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：dict＝強風、语料＝大風歌（劉邦の歌名）の歌名用法"
+  },
+  {
+   "word": "大黄",
+   "rank": 393,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：dict＝薬草の大黄、语料＝強弩の名（自ら大黄を以て其の裨将を射・史記李将軍伝）"
+  },
+  {
+   "word": "天将",
+   "rank": 396,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：天将に夫子を以て木鐸と為さんとす"
+  }
+ ]
+}

@@ -1,0 +1,420 @@
+{
+ "start": 300,
+ "note": "N89 batch rank 300-349: 16 in (noun 13/proper 1/verb 1/modifier 1/function 0) / 34 out",
+ "decisions": [
+  {
+   "word": "哀号",
+   "rank": 310,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "あいごう",
+   "meaning": "悲しみて号くこと。语料：其の母岸に縁りて哀号し行くこと百余里にして去らず（大辞泉 あいごう）",
+   "dict_evidence": "weblio デジタル大辞泉；あい‐ごう〔‐ガウ〕【哀号】；読み方：あいごう（cand_310_哀号.txt）",
+   "corpus_evidence": "golden_8165 2行。例 p-dancho-3「其の母岸に縁りて哀号し、行くこと百余里にして去らず。」"
+  },
+  {
+   "word": "哭声",
+   "rank": 314,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こくせい",
+   "meaning": "泣き叫ぶ声。语料：哭声直ちに上りて雲霄を干す（大辞泉 こくせい）",
+   "dict_evidence": "weblio デジタル大辞泉；こく‐せい【×哭声】；読み方：こくせい（cand_314_哭声.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kiyo02-4「隴水東流して哭声を聞く」"
+  },
+  {
+   "word": "啾啾",
+   "rank": 316,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "しゅうしゅう",
+   "meaning": "鳥や虫の鳴く声のさま。语料：蟪蛄鳴いて啾啾たり・啾啾として棲鳥過ぐ（大辞泉 しゅうしゅう）",
+   "dict_evidence": "weblio デジタル大辞泉；しゅう‐しゅう〔シウシウ〕【×啾×啾】；読み方：しゅうしゅう（cand_316_啾啾.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen090-2「啾啾として棲鳥過ぐ」"
+  },
+  {
+   "word": "喪家",
+   "rank": 318,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "そうか",
+   "meaning": "喪主の家・礼を失った家。语料：纍然として喪家の狗の如し（大辞泉 そうか）",
+   "dict_evidence": "weblio デジタル大辞泉；そう‐か〔サウ‐〕【喪家】；読み方：そうか（cand_318_喪家.txt）",
+   "corpus_evidence": "golden_8165 2行。例 sokano-1「り以下は禹に及ばざること三寸、纍然として喪家の狗の如し、と。」"
+  },
+  {
+   "word": "四岳",
+   "rank": 320,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "しがく",
+   "meaning": "四方の高山・官名（太岳）。语料：其の先祖嘗て四岳と為り禹を佐けて水土を平らげ（大辞泉 しがく）",
+   "dict_evidence": "weblio デジタル大辞泉；し‐がく【四岳】；読み方：しがく（cand_320_四岳.txt）",
+   "corpus_evidence": "golden_8165 2行。例 taikobo-1「太公望呂尚は、東海の上の人なり。其の先祖嘗て四岳と為り、禹を佐けて水土を平らげ、甚だ功有り。」"
+  },
+  {
+   "word": "四種",
+   "rank": 322,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ししゅ",
+   "meaning": "四つの種類。语料：権謀形勢陰陽技巧の四種を分け（大辞泉 ししゅ）",
+   "dict_evidence": "weblio デジタル大辞泉；し‐しゅ【四種】；読み方：ししゅ（cand_322_四種.txt）",
+   "corpus_evidence": "golden_8165 2行。例 montai09-22「兵家者流なり。又権謀、形勢、陰陽、技巧の四種を分け、皆司馬法より出づ。」"
+  },
+  {
+   "word": "回風",
+   "rank": 325,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "かいふう",
+   "meaning": "旋風・めぐる風。语料：回風度雨渭城の西（大辞泉 かいふう）",
+   "dict_evidence": "weblio デジタル大辞泉；かい‐ふう〔クワイ‐〕【回風／×廻風】；読み方：かいふう（cand_325_回風.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen200-1「回風度雨渭城の西」"
+  },
+  {
+   "word": "国士",
+   "rank": 330,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こくし",
+   "meaning": "国中の傑出した人物。语料：深く国士の恩を懐う（大辞泉 こくし）",
+   "dict_evidence": "weblio デジタル大辞泉；こく‐し【国士】；読み方：こくし（cand_330_国士.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen001-15「深く国士の恩を懐う」"
+  },
+  {
+   "word": "国政",
+   "rank": 334,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こくせい",
+   "meaning": "国の政治。语料：国政を挙げて大夫種に属し（実用日本語表現辞典 こくせい・语料义一致）",
+   "dict_evidence": "weblio デジタル大辞泉；こく‐せい【国政】；読み方：こくせい（cand_334_国政.txt）",
+   "corpus_evidence": "golden_8165 2行。例 gashin-x14「国政を挙げて大夫種に属し、而して范蠡と兵を治め、呉を謀ることを事とす。」"
+  },
+  {
+   "word": "国都",
+   "rank": 335,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こくと",
+   "meaning": "国の都。语料：乃ち三丈の木を国都の市の南門に立て（大辞泉 こくと）",
+   "dict_evidence": "weblio デジタル大辞泉；こく‐と【国都】；読み方：こくと（cand_335_国都.txt）",
+   "corpus_evidence": "golden_8165 2行。例 iboku-1「ざらんことを恐るればなり。乃ち三丈の木を国都の市の南門に立て、民を募り、能く徙して北門に置く者有らば、十金を予えん、と。」"
+  },
+  {
+   "word": "園林",
+   "rank": 337,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "えんりん",
+   "meaning": "庭園と林・庭園。语料：灃水園林に映ず（大辞泉 えんりん）",
+   "dict_evidence": "weblio デジタル大辞泉；えん‐りん〔ヱン‐〕【園林】；読み方：えんりん（cand_337_園林.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen102-4「灃水園林に映ず」"
+  },
+  {
+   "word": "土地",
+   "rank": 338,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "とち",
+   "meaning": "土地。语料：土地の肥磽を量りて邑を立つ（大辞泉 とち）",
+   "dict_evidence": "weblio デジタル大辞泉；と‐ち【土地】；読み方：とち（cand_338_土地.txt）",
+   "corpus_evidence": "golden_8165 2行。例 utsuryo02-1「土地の肥磽を量りて邑を立つ。城を建つるには地を称り、城を以て人を称り、人を以て粟を称り、三つ相称わば、則ち内は以て固く守」"
+  },
+  {
+   "word": "地軸",
+   "rank": 343,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ちじく",
+   "meaning": "地の軸・大地の中枢。语料：八水流れを分ちて地軸に横たわる（大辞泉 ちじく）",
+   "dict_evidence": "weblio デジタル大辞泉；ち‐じく〔‐ヂク〕【地軸】；読み方：ちじく（cand_343_地軸.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen045-6「八水流れを分ちて地軸に横たわる」"
+  },
+  {
+   "word": "坐臥",
+   "rank": 345,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ざが",
+   "meaning": "座ることと臥すこと・起居。语料：句践国に反り胆を坐臥に懸け（大辞泉 ざが）",
+   "dict_evidence": "weblio デジタル大辞泉；ざ‐が〔‐グワ〕【座×臥／×坐×臥】；読み方：ざが（cand_345_坐臥.txt）",
+   "corpus_evidence": "golden_8165 2行。例 gashin-x13「句践国に反り、胆を坐臥に懸け、即ち胆を仰ぎ之を嘗めて曰く、女、会稽の恥を忘れたるか、と。」"
+  },
+  {
+   "word": "城下",
+   "rank": 346,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じょうか",
+   "meaning": "城壁の下・城の足元。语料：十万の兵城下に頓る（大辞泉 じょうか）",
+   "dict_evidence": "weblio デジタル大辞泉；じょう‐か〔ジヤウ‐〕【城下】；読み方：じょうか（cand_346_城下.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou44-1「我が牛馬を駆り、其の三軍大いに至り、我が城下に薄り、吾が士卒大いに恐れ、人民係累せられて、敵の虜とする所と為らんに、吾、」"
+  },
+  {
+   "word": "城北",
+   "rank": 348,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じょうほく",
+   "meaning": "城の北。语料：城南に往かんと欲して城北を忘る（大辞泉 じょうほく）",
+   "dict_evidence": "weblio デジタル大辞泉；じょう‐ほく〔ジヤウ‐〕【城北】；読み方：じょうほく（cand_348_城北.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen041-4「城北原平らかにして皂鵰を掣す」"
+  },
+  {
+   "word": "吾与",
+   "rank": 300,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：吾与にせざる（代名詞＋介詞）"
+  },
+  {
+   "word": "吾女",
+   "rank": 301,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "語料は解析 artifact：吾女＝「吾女を以て死せりと為す」（吾＋女 なんじ）の誤連接・dict（わおんな 現代俗語）と sense-mismatch"
+  },
+  {
+   "word": "吾少",
+   "rank": 302,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：吾少くして賤し"
+  },
+  {
+   "word": "吾日",
+   "rank": 303,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：吾日に三たび吾が身を省みる"
+  },
+  {
+   "word": "吾知",
+   "rank": 304,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：吾知ること有らんや"
+  },
+  {
+   "word": "吾老",
+   "rank": 305,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：吾老いたり"
+  },
+  {
+   "word": "吾試",
+   "rank": 306,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：吾試いられず"
+  },
+  {
+   "word": "吾諸",
+   "rank": 307,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：吾諸を夫子に聞けり"
+  },
+  {
+   "word": "周行",
+   "rank": 309,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩経・老子語（周行して殆まらず）で辞書不載"
+  },
+  {
+   "word": "哀怨",
+   "rank": 311,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載（玉関の哀怨）"
+  },
+  {
+   "word": "哀戚",
+   "rank": 312,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・孝経語（之を哀戚し）で辞書不載"
+  },
+  {
+   "word": "哀矜",
+   "rank": 313,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "Wiktionary のみ（機械区）で国語辞書条目なし"
+  },
+  {
+   "word": "商山",
+   "rank": 315,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・地名（商山四皓）で辞書不載"
+  },
+  {
+   "word": "善賈",
+   "rank": 317,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・論語語（善賈を求めて）で辞書不載"
+  },
+  {
+   "word": "営塁",
+   "rank": 319,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・軍事語で辞書不載（三軍の営塁）"
+  },
+  {
+   "word": "四旁",
+   "rank": 321,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・六韜語（其の四旁を御し）で辞書不載"
+  },
+  {
+   "word": "四章",
+   "rank": 323,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・大学伝四章の章数構文"
+  },
+  {
+   "word": "四維",
+   "rank": 324,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：大辞泉＝礼義廉恥、语料＝四つの綱で支える（之を四維するがごとし・江山四維を弁ず）"
+  },
+  {
+   "word": "固曰",
+   "rank": 326,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X曰系呼称部（固曰く＝伏生）"
+  },
+  {
+   "word": "固毋",
+   "rank": 327,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：固毋く（子の四絶）"
+  },
+  {
+   "word": "固老",
+   "rank": 328,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：固老いたり（固＝人名＋形容詞）"
+  },
+  {
+   "word": "国亡",
+   "rank": 329,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：其の国必ず亡ぶ"
+  },
+  {
+   "word": "国安",
+   "rank": 331,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "構文断片：国安くして民治まる（主語＋形容詞）・dict は名字义で対位せず"
+  },
+  {
+   "word": "国富",
+   "rank": 332,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "構文断片：国富みて家娯しむ（主語＋形容詞）・dict（経済用語 国の富）と対位せず"
+  },
+  {
+   "word": "国必",
+   "rank": 333,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：其の国必ず削らる"
+  },
+  {
+   "word": "国門",
+   "rank": 336,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "名字辞典のみ（名字義）で语料（国の城門・尉繚子）と対位せず・未許可"
+  },
+  {
+   "word": "地大",
+   "rank": 339,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：大辞泉＝地水火風の四大の一（仏語）、语料＝地が広い（主語＋形容詞構文）"
+  },
+  {
+   "word": "地広",
+   "rank": 340,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：地広ければ則ち鹿角車を用う"
+  },
+  {
+   "word": "地無",
+   "rank": 341,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ・X+無系構文断片（下に地無く）"
+  },
+  {
+   "word": "地禁",
+   "rank": 342,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・尉繚子兵教条目名（二に曰く地禁）"
+  },
+  {
+   "word": "地陣",
+   "rank": 344,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・六韜語（天陣地陣人陣）で辞書不載"
+  },
+  {
+   "word": "城入",
+   "rank": 347,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：城入らずんば"
+  },
+  {
+   "word": "城抜",
+   "rank": 349,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：其の城抜く可からず"
+  },
+  {
+   "word": "周文",
+   "rank": 308,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：大辞泉＝室町の画僧周文（天章）、语料＝周の文王（周文の鎬に燕するを歌いし・鎬飲周文の楽しみ）"
+  }
+ ]
+}

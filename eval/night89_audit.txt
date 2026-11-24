@@ -1,0 +1,1 @@
+candidates=500 decided=500 (include=230 exclude=270) dup=0 missing=0

@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """test_night82_lexicon_expand3.py — N82 词库再扩充第三波（1085 → 1301）的回归测试。
 
 - 本体 GLOSSARY_LEXICON 仍 500 条（N75/N77 不变式维持——extra2 不 extend 本体）；
@@ -28,8 +28,9 @@ N_BASE = 500
 N_N79 = 324
 N_N80 = 261
 N_N82 = 216
-N_EXTRA = N_N79 + N_N80 + N_N82  # 801
-N_TOTAL = N_BASE + N_EXTRA  # 1301
+N_N89 = 230
+N_EXTRA = N_N79 + N_N80 + N_N82 + N_N89  # 1031
+N_TOTAL = N_BASE + N_EXTRA  # 1531
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 _EXTRA2_PATH = os.path.join(ROOT, "backend", "glossary_lexicon_extra2.py")
@@ -44,8 +45,8 @@ def test_base_lexicon_unchanged_500():
 
 
 def test_extra2_size_and_total():
-    assert len(LEXICON_EXTRA2) == N_EXTRA == 801
-    assert N_TOTAL == 1301
+    assert len(LEXICON_EXTRA2) == N_EXTRA == 1031
+    assert N_TOTAL == 1531
 
 
 def test_source_string_mentions_all_waves():

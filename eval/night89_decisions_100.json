@@ -1,0 +1,440 @@
+{
+ "start": 100,
+ "note": "N89 batch rank 100-149: 21 in (noun 18/proper 1/verb 0/modifier 0/function 2) / 29 out",
+ "decisions": [
+  {
+   "word": "五味",
+   "rank": 101,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ごみ",
+   "meaning": "甘辛酸苦鹹の五つの味。语料：五味は人の口をして爽わしむ（大辞泉 ごみ）",
+   "dict_evidence": "weblio デジタル大辞泉；ご‐み【五味】；読み方：ごみ（cand_101_五味.txt）",
+   "corpus_evidence": "golden_8165 2行。例 roushi12-1「五色は人の目をして盲ならしむ。五音は人の耳をして聾せしむ。五味は人の口をして爽わしむ。」"
+  },
+  {
+   "word": "五日",
+   "rank": 102,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いつか",
+   "meaning": "五日（数）。语料：斎戒すること五日（大辞泉 いつか）",
+   "dict_evidence": "weblio デジタル大辞泉；いつ‐か【五日】；読み方：いつか（cand_102_五日.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kanpeki4k-6「り、と。是に於いて、趙王乃ち斎戒すること五日、臣をして璧を奉ぜしめ、書を庭に拝送す。何となれば、大国の威を厳れて、以て敬」"
+  },
+  {
+   "word": "五穀",
+   "rank": 104,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ごこく",
+   "meaning": "稲・黍・稷・麦・菰等の五種の穀物。语料：五穀に非ざれば以て腹に充たす無し（大辞泉 ごこく）",
+   "dict_evidence": "weblio デジタル大辞泉；ご‐こく【五穀】；読み方：ごこく（cand_104_五穀.txt）",
+   "corpus_evidence": "golden_8165 2行。例 utsuryo11-1「凡そ人を治むるとは、何ぞや。曰く、五穀に非ざれば、以て腹に充たす無し。絲麻に非ざれば、以て形を蓋う無し。故に腹を充たすに」"
+  },
+  {
+   "word": "五雲",
+   "rank": 106,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ごうん",
+   "meaning": "五色の瑞雲。语料：還た五雲の飛ぶを見る（大辞泉 ごうん）",
+   "dict_evidence": "weblio デジタル大辞泉；ご‐うん【五雲】；読み方：ごうん（cand_106_五雲.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen176-4「詎ぞ銅池に五雲を出すこと有らん」"
+  },
+  {
+   "word": "五音",
+   "rank": 107,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ごいん",
+   "meaning": "宮商角徴羽の五声。语料：五音は人の耳をして聾せしむ（大辞泉 ごいん）",
+   "dict_evidence": "weblio デジタル大辞泉；ご‐いん〔‐イン｜‐ヰン〕【五音／五韻】；読み方：ごいん（cand_107_五音.txt）",
+   "corpus_evidence": "golden_8165 2行。例 roushi12-1「五色は人の目をして盲ならしむ。五音は人の耳をして聾せしむ。五味は人の口をして爽わしむ。」"
+  },
+  {
+   "word": "交情",
+   "rank": 108,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうじょう",
+   "meaning": "交わりの情・友人としての情。语料：一死一生乃ち交情を知る（大辞泉 こうじょう）",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐じょう〔カウジヤウ〕【交情】；読み方：こうじょう（cand_108_交情.txt）",
+   "corpus_evidence": "golden_8165 2行。例 isshiissei-3「乃ち其の門に大署して曰く、一死一生、乃ち交情を知る。一貧一富、乃ち交態を知る。一貴一賤、交情乃ち見る、と。汲・鄭にも亦た」"
+  },
+  {
+   "word": "京師",
+   "rank": 109,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "けいし",
+   "meaning": "天子の都・都。语料：白草原頭京師を望めば（大辞泉 けいし）",
+   "dict_evidence": "weblio デジタル大辞泉；けい‐し【京師】；読み方：けいし（cand_109_京師.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen333-1「白草原頭京師を望めば」"
+  },
+  {
+   "word": "人人",
+   "rank": 111,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "にんにん",
+   "meaning": "人々・おのおの人。语料：人人、騰陵して胆を張り（大辞泉 にんにん）",
+   "dict_evidence": "weblio デジタル大辞泉；にん‐にん【人人】；読み方：にんにん（cand_111_人人.txt）",
+   "corpus_evidence": "golden_8165 2行。例 utsuryo02-6「らしむ。兵は総木の如く、弩は羊角の如く、人人、騰陵して胆を張り、疑慮を絶ち、堂堂として決して去らざる無し。」"
+  },
+  {
+   "word": "仁賢",
+   "rank": 122,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じんけん",
+   "meaning": "仁徳ある賢者。语料：仁賢の智、聖明の慮（大辞泉 じんけん）",
+   "dict_evidence": "weblio デジタル大辞泉；じん‐けん【仁賢】；読み方：じんけん（cand_122_仁賢.txt）",
+   "corpus_evidence": "golden_8165 2行。例 sanryaku01-20「し、各〻親しむ所を進め、姦枉を招き挙げ、仁賢を抑え挫き、公に背き私を立て、同位相訕る。是れを乱の源と謂う、と。軍讖に曰く」"
+  },
+  {
+   "word": "今吾",
+   "rank": 123,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こんご",
+   "meaning": "今の自分（過去の吾に対する語・荘子由来）。语料：今吾、人に於けるや其の言を聴きて其の行いを観る（大辞泉 こんご）",
+   "dict_evidence": "weblio デジタル大辞泉；こん‐ご【今×吾】；読み方：こんご（cand_123_今吾.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo0509-1「けるや、其の言を聴きて其の行いを信ぜり。今吾、人に於けるや、其の言を聴きて其の行いを観る。予に於いてか是れを改む。」"
+  },
+  {
+   "word": "今夕",
+   "rank": 124,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こんせき",
+   "meaning": "今夜・今宵。语料：今夕復た何の夕べぞ（大辞泉 こんせき）",
+   "dict_evidence": "weblio デジタル大辞泉；こん‐せき【今夕】；読み方：こんせき（cand_124_今夕.txt）",
+   "corpus_evidence": "golden_8165 2行。例 yujinoku-3「誰か言う千里今夕よりすと」"
+  },
+  {
+   "word": "他人",
+   "rank": 125,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たにん",
+   "meaning": "他人・よその人。语料：他人の賢者は丘陵なり（大辞泉 たにん）",
+   "dict_evidence": "weblio デジタル大辞泉；あだ‐びと【▽他人】；読み方：あだびと（cand_125_他人.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo1924-1「為す無きなり。仲尼は毀る可からざるなり。他人の賢者は丘陵なり。猶お踰ゆ可きなり。仲尼は日月なり。得て踰ゆる無し。人自ら絶」"
+  },
+  {
+   "word": "他邦",
+   "rank": 126,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たほう",
+   "meaning": "よその国・他国。语料：棄てて之を違り他邦に至る（大辞泉 たほう）",
+   "dict_evidence": "weblio デジタル大辞泉；た‐ほう〔‐ハウ〕【他邦】；読み方：たほう（cand_126_他邦.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo0518-1「す。陳文子、馬十乗有り。棄てて之を違り、他邦に至る。則ち曰く、猶お吾が大夫崔子のごときなり、と。之を違る。一邦に之き、則」"
+  },
+  {
+   "word": "他郷",
+   "rank": 127,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たきょう",
+   "meaning": "ほかの土地・異郷。语料：怨む莫かれ他郷暫らく離別するを（大辞泉 たきょう）",
+   "dict_evidence": "weblio デジタル大辞泉；た‐きょう〔‐キヤウ〕【他郷】；読み方：たきょう（cand_127_他郷.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen195-7「怨む莫かれ他郷暫らく離別するを」"
+  },
+  {
+   "word": "以下",
+   "rank": 128,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "function",
+   "reading": "いか",
+   "meaning": "それより下の範囲・以下。语料：腰より以下は禹に及ばざること三寸（実用日本語表現辞典 いか・语料义一致）",
+   "dict_evidence": "weblio デジタル大辞泉；い‐か【以下／×已下】；読み方：いか（cand_128_以下.txt）",
+   "corpus_evidence": "golden_8165 2行。例 sokano-1「似、其の肩は子産に似たり。然れども腰より以下は禹に及ばざること三寸、纍然として喪家の狗の如し、と。」"
+  },
+  {
+   "word": "以来",
+   "rank": 130,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "function",
+   "reading": "いらい",
+   "meaning": "ある時から後・それより後。语料：兵法は黄帝より以来正を先にし奇を後にし（大辞泉 いらい）",
+   "dict_evidence": "weblio デジタル大辞泉；い‐らい【以来／×已来】；読み方：いらい（cand_130_以来.txt）",
+   "corpus_evidence": "golden_8165 2行。例 daigaku00a-27「是より以来、俗儒の記誦詞章の習いは、其の功小学に倍すれども用無く、異端の虚無寂滅の教えは、其の高きこと大学に過ぐるも実無」"
+  },
+  {
+   "word": "会同",
+   "rank": 138,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "かいどう",
+   "meaning": "諸侯が会合すること。语料：宗廟の事如しくは会同に端章甫して（大辞泉 かいどう）",
+   "dict_evidence": "weblio デジタル大辞泉；かい‐どう〔クワイ‐〕【会同】；読み方：かいどう（cand_138_会同.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo1125d-1「非ず。願わくは学ばん。宗廟の事、如しくは会同に、端章甫して、願わくは小相と為らん。」"
+  },
+  {
+   "word": "会稽",
+   "rank": 140,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "かいけい",
+   "meaning": "地名（浙江省の旧会稽郡・句践の国）。语料：女、会稽の恥を忘れたるか（大辞泉 かいけい）",
+   "dict_evidence": "weblio デジタル大辞泉；かいけい〔クワイケイ〕【会稽】；読み方：かいけい（cand_140_会稽.txt）",
+   "corpus_evidence": "golden_8165 2行。例 sakinzu-2「其の九月、会稽の守、通、梁に謂いて曰く、江西皆な反す。此れ亦た天、秦を亡ぼすの時なり。」"
+  },
+  {
+   "word": "会計",
+   "rank": 141,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "かいけい",
+   "meaning": "勘定・計算して合せること。语料：三軍の営塁・糧食・財用の出入を会計するを主る（大辞泉 かいけい）",
+   "dict_evidence": "weblio デジタル大辞泉；かい‐けい〔クワイ‐〕【会計】；読み方：かいけい（cand_141_会計.txt）",
+   "corpus_evidence": "golden_8165 2行。例 utsuryo10-1「。善を好み悪を罰し、法を正比するは、民を会計するの具なり。井地を均しくし、賦斂を節するは、取与の度なり。工人を程り、器用」"
+  },
+  {
+   "word": "伺候",
+   "rank": 146,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しこう",
+   "meaning": "伺い見張ること・警戒に侍立つこと。语料：雞犬は其の伺候なり・騎は軍の伺候なり（大辞泉 さもらい／しこう・语料は しこう）",
+   "dict_evidence": "weblio デジタル大辞泉；さ‐もらい〔‐もらひ〕【伺＝候】；読み方：さもらい（cand_146_伺候.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou30-2「牛馬は、糧を転輸する所以なり。雞犬は其の伺候なり。婦人の織紝は、其の旌旗なり。丈夫の壌を平らぐるは、其の城を攻むるなり。」"
+  },
+  {
+   "word": "何処",
+   "rank": 149,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いずこ",
+   "meaning": "どこ・どちら（疑问の代名詞）。语料：君が家は何処にか住む（大辞泉 いずこ）",
+   "dict_evidence": "weblio デジタル大辞泉；いず‐く〔いづ‐〕【▽何▽処】；読み方：いずく（cand_149_何処.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen261-1「君が家は何処にか住む」"
+  },
+  {
+   "word": "五兵",
+   "rank": 100,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・兵書専門語（蚩尤五兵）で辞書不載"
+  },
+  {
+   "word": "五火",
+   "rank": 103,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "専門辞典（隠語大辞典）のみ・読み こび／ごび 不審で语料（孫子 五火の変）と読み义一致を確認できず"
+  },
+  {
+   "word": "五車",
+   "rank": 105,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：大辞泉＝書物の多いこと（恵子五車）、语料＝軍制の車五両（数え構文）"
+  },
+  {
+   "word": "人之",
+   "rank": 110,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片（人之＝名詞＋指示詞）"
+  },
+  {
+   "word": "人任",
+   "rank": 112,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ・構文断片：人任じ＝人を任じる（主語＋動詞）"
+  },
+  {
+   "word": "人去",
+   "rank": 113,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：人去り尽くす"
+  },
+  {
+   "word": "人固",
+   "rank": 114,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：人固より一死有り（人＋副詞）"
+  },
+  {
+   "word": "人望",
+   "rank": 115,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：大辞泉＝人望（popularity 名詞）、语料＝儼然として人望みて之を畏る（人が望む 主語＋動詞の誤連接）"
+  },
+  {
+   "word": "人未",
+   "rank": 116,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "短編小説作品名辞典のみ・语料は「人未だ」構文断片"
+  },
+  {
+   "word": "人能",
+   "rank": 117,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：人能く道を弘む"
+  },
+  {
+   "word": "人言",
+   "rank": 118,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "語料は解析 artifact：「子曰く、夫の人言」＝論語「夫人不言」の誤分割（大辞泉 人言条目はあるが语料义と対位せず）"
+  },
+  {
+   "word": "人陣",
+   "rank": 119,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・六韜専門語（天陣地陣人陣）"
+  },
+  {
+   "word": "仁有",
+   "rank": 120,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+有系構文断片（井に仁有りと曰う）"
+  },
+  {
+   "word": "仁聖",
+   "rank": 121,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・荘子専門語（仁聖の道）で辞書不載"
+  },
+  {
+   "word": "以有",
+   "rank": 129,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+有系構文断片（以て有るなり）"
+  },
+  {
+   "word": "以謂",
+   "rank": 131,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：以謂えらく＝以て謂えらく（副詞＋動詞）"
+  },
+  {
+   "word": "仲忽",
+   "rank": 132,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・人名（周八士）、weblio 不載＝整组排除先例"
+  },
+  {
+   "word": "仲曰",
+   "rank": 133,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X曰系呼称部（仲曰く＝管仲）"
+  },
+  {
+   "word": "仲突",
+   "rank": 134,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・人名（周八士）"
+  },
+  {
+   "word": "伏波",
+   "rank": 135,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・官名人名（伏波将軍馬援）、weblio 不載＝整组排除先例"
+  },
+  {
+   "word": "伐氷",
+   "rank": 136,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・礼記専門語（伐氷之家）"
+  },
+  {
+   "word": "休明",
+   "rank": 137,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ（左傳語・国語辞書条目なし）"
+  },
+  {
+   "word": "会地",
+   "rank": 139,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ・尉繚子専門語（会地に期す）"
+  },
+  {
+   "word": "伯氏",
+   "rank": 142,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・呼称部（伯氏＝兄分の氏）"
+  },
+  {
+   "word": "伯适",
+   "rank": 143,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・人名（周八士）"
+  },
+  {
+   "word": "伯達",
+   "rank": 144,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・人名（周八士）"
+  },
+  {
+   "word": "伯魚",
+   "rank": 145,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・人名（孔子の子 鯉）"
+  },
+  {
+   "word": "位無",
+   "rank": 147,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+無系構文断片（位無きを患えず）"
+  },
+  {
+   "word": "体胖",
+   "rank": 148,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・大学専門語（心広体胖）"
+  }
+ ]
+}

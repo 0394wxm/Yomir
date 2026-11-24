@@ -1,0 +1,297 @@
+[[450] 孝悌  freq=2 h=0 k=2 len=2 status=OK bytes=203054
+  corpus: 有子曰く、其の人と為りや孝悌にして、上を犯すを好む者は鮮なし。上を犯すことを好まずして、乱を; 孝悌の至りは、神明に通じ、四海に光ち、通ぜざる所無し。
+  [src] 孝悌の意味・解説
+  def: デジタル大辞泉
+  def: こう‐てい〔カウ‐〕【孝×悌／孝弟】
+  [read] 読み方：こうてい
+  [wikibody-cut] ウィキペディア
+
+[[451] 孟氏  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 孟氏、陽膚をして士師為らしむ。曾子に問う。曾子曰く、上其の道を失い、民散ずること久し。如し其; 是に於いて河南の程氏両夫
+  [no-real-dict-region]
+
+[[452] 季騧  freq=2 h=1 k=1 len=2 status=HTTP404 bytes=0
+  corpus: 周に八士有り。伯達・伯适・仲突・仲忽・叔夜・叔夏・季随・季騧。
+  [no-real-dict-region]
+
+[[453] 孤月  freq=2 h=0 k=2 len=2 status=OK bytes=193454
+  corpus: 孤月と将に猿愁に対すること莫かれ; 亭亭たる孤月行舟を照らし
+  [src] 孤月の意味・解説
+  def: デジタル大辞泉
+  def: こ‐げつ【孤月】
+  [read] 読み方：こげつ
+  [wikibody-cut] ウィキペディア
+
+[[454] 孤鴻  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 孤鴻外野に号び; 孤鴻海上より来り
+  [no-real-dict-region]
+
+[[455] 学校  freq=2 h=0 k=2 len=2 status=OK bytes=398720
+  corpus: 夫れ学校の設け、其の広きこと此の如く、之を教うるの術、其の次第・節目の詳かなること又此の如き; 周の衰うるに及んで、賢聖の君作らず、学校の政修まらず、教化陵夷し風俗頽敗す。
+  [src] 学校の意味・解説
+  def: デジタル大辞泉
+  def: がっ‐こう〔ガクカウ〕【学校】
+  [read] 読み方：がっこう
+  [wikibody-cut] ウィキペディア
+
+[[456] 孫子  freq=2 h=0 k=2 len=2 status=OK bytes=246118
+  corpus: 靖曰く、臣按ずるに、曹公、孫子を注して曰く、先ず出でて合戦するを正と為し、後に出づるを奇と為; は激する所有りて云えるのみ。臣案ずるに、孫子に曰えること有り、教道明らかならず、吏卒常無く、
+  [src] 孫子の意味・解説
+  def: デジタル大辞泉
+  def: そん‐し【孫子】
+  [read] 読み方：そんし
+  [read] 読み方：まごこ
+  [read] 読み方：ソンシ（ｓｏｎｓｈｉ）
+  [wikibody-cut] ウィキペディア
+
+[[457] 孫曰  freq=2 h=1 k=1 len=2 status=HTTP404 bytes=0
+  corpus: 孫曰く、流れに枕する所以は、其の耳を洗わんと欲すればなり。
+  [no-real-dict-region]
+
+[[458] 孫有  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 惟だ乳下の孫有るのみ; 孫有りて母の未だ去らざるも
+  [no-real-dict-region]
+
+[[459] 孰与  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 、漢の使者と言いて曰く、漢は我が大なるに孰与ぞ、と。及び夜郎侯も亦た然り。道通ぜざるを以ての; 藺相如固く之を止めて曰く
+  [no-real-dict-region]
+
+[[460] 守将  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 凡そ将、正にして奇無きは、則ち守将なり。奇にして正無きは、則ち闘将なり。奇正皆得るは、国の輔; 所、人の殺さんと欲する所
+  [no-real-dict-region]
+
+[[461] 守禦  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 股肱四人、重きに任じ難きを持し、溝塹を修め、壁塁を治め、以て守禦に備うるを主る。; 武王、太公に問うて曰く、天下安定し、
+  [no-real-dict-region]
+
+[[462] 宋人  freq=2 h=0 k=2 len=2 status=OK bytes=189840
+  corpus: 宋人に田を耕す者有り。; 宋人に其の苗の長ぜざるを閔えて、之を揠く者有り。
+  [src] 宋人の意味・解説
+  [wikibody-cut] ウィキペディア小見出し辞書
+
+[[463] 宗人  freq=2 h=1 k=1 len=2 status=HTTP404 bytes=0
+  corpus: 其の宗人をして尽く其の車軸の末を断ちて鉄篭を傅けしむ。
+  [no-real-dict-region]
+
+[[464] 宗祀  freq=2 h=0 k=2 len=2 status=OK bytes=184278
+  corpus: 昔者、周公は后稷を郊祀して以て天に配し、文王を明堂に宗祀して以て上帝に配す。; 宗祀日のごとく光輝あり
+  [src] 宗祀の意味・解説
+  def: デジタル大辞泉
+  def: そう‐し【宗×祀】
+  [read] 読み方：そうし
+
+[[465] 宗臣  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 宗臣有征を事とす; 居守宗臣に付す
+  [no-real-dict-region]
+
+[[466] 官人  freq=2 h=0 k=2 len=2 status=OK bytes=266699
+  corpus: 書は官人の才を顕し、書は君子の智を添う。; 内間とは、其の官人に因りて之を用う。
+  [src] 官人の意味・解説
+  def: デジタル大辞泉
+  def: かん‐じん〔クワン‐〕【官人】
+  [read] 読み方：かんじん
+  [read] 読み方：かんにん
+  [read] 読み方：つかさびと
+  [read] 読み方：カンニン（ｋａｎｎｉｎ），　カンジン（ｋａｎｊｉｎ）
+  [wikibody-cut] ウィキペディア
+
+[[467] 宝剣  freq=2 h=0 k=2 len=2 status=OK bytes=192155
+  corpus: 仍お宝剣の名を題す; 宝剣直千金
+  [src] 宝剣の意味・解説
+  def: デジタル大辞泉
+  def: ほう‐けん【宝剣】
+  [read] 読み方：ほうけん
+  [wikibody-cut] ウィキペディア小見出し辞書
+
+[[468] 宝蓋  freq=2 h=0 k=2 len=2 status=OK bytes=183892
+  corpus: 竜は宝蓋を銜んで朝日を承け; 宝蓋雕鞍金絡馬
+  [src] 宝蓋の意味・解説
+  def: デジタル大辞泉
+  def: ほう‐がい【宝蓋】
+  [read] 読み方：ほうがい
+
+[[469] 客散  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 客散じて江亭雨未だ休まず; 猿啼き客散ず暮江の頭
+  [no-real-dict-region]
+
+[[470] 客有  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 独り鳳皇池上の客有り; 坐中沙場に老いたるの客有り
+  [no-real-dict-region]
+
+[[471] 客舎  freq=2 h=0 k=2 len=2 status=OK bytes=188951
+  corpus: 并州に客舎して已に十霜; 客舎平居送迎を絶つ
+  [src] 客舎の意味・解説
+  def: デジタル大辞泉
+  def: かく‐しゃ【客舎】
+  [read] 読み方：かくしゃ
+  [read] 読み方：きゃくしゃ
+
+[[472] 客路  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 客路青山の外; 愁う君が客路其の中に在るを
+  [no-real-dict-region]
+
+[[473] 宣王  freq=2 h=0 k=2 len=2 status=OK bytes=188740
+  corpus: 荊の宣王、群臣に問いて曰く、吾、北方の昭奚恤を畏るるを聞く。果たして誠に何如、と。群臣対うる; 靖郭君田嬰は、宣王の庶弟なり。
+  [src] 宣王の意味・解説
+  [wikibody-cut] ウィキペディア
+
+[[474] 室家  freq=2 h=0 k=2 len=2 status=OK bytes=190086
+  corpus: 、之を宮牆に譬うれば、賜の牆や肩に及ぶ。室家の好きを闚い見る。夫子の牆は数仞なり。其の門を得; 之の子于き帰ぐ其の室家に宜しからん
+  [src] 室家の意味・解説
+  def: デジタル大辞泉
+  def: しっ‐か【室家】
+  [read] 読み方：しっか
+
+[[475] 宦遊  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 同じく是れ宦遊の人; 独り宦遊に人有り
+  [no-real-dict-region]
+
+[[476] 宮観  freq=2 h=0 k=2 len=2 status=OK bytes=210520
+  corpus: 宮観何ぞ玲瓏たる; 銅台の宮観灰塵に委す
+  [src] 宮観の意味・解説
+  [wikibody-cut] ウィキペディア
+
+[[477] 宮門  freq=2 h=0 k=2 len=2 status=OK bytes=193988
+  corpus: 扁鵲、虢に過る。虢の太子死す。扁鵲、虢の宮門の下に至り、中庶子の方を喜む者に問いて曰く、太子; 平明馬に騎って宮門に入る
+  [src] 宮門の意味・解説
+  def: デジタル大辞泉
+  def: きゅう‐もん【宮門】
+  [read] 読み方：きゅうもん
+  [read] 読み方：キュウモン（ｋｙｕｕｍｏｎ），　ミカド（ｍｉｋａｄｏ）
+
+[[478] 宰予  freq=2 h=0 k=2 len=2 status=OK bytes=207386
+  corpus: 宰予、昼寝ぬ。子曰く、朽木は雕る可からず。糞土の牆は杇る可からず。予に於いてか何ぞ誅めん。; 宰予、昼寝ぬ。子曰く、朽木は雕る可からず。糞土の牆は、杇る可からず。予に於いてか何ぞ誅めん。
+  [src] 宰予の意味・解説
+  def: デジタル大辞泉
+  def: さい‐よ【宰予】
+  [read] 読み方：さいよ
+  [wikibody-cut] ウィキペディア
+
+[[479] 害無  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 臣をして礼賞を待たずして功有り、美にして害無からしむ。; 安く、臣は義を以て退く。亦た能く美にして害無し。覇者は士を制す
+  [no-real-dict-region]
+
+[[480] 家斉  freq=2 h=0 k=2 len=2 status=OK bytes=647616
+  corpus: 者は、先ず其の身を修む。……身修まりて后家斉う。家斉いて后国治まる。国治まりて后天下平らかな; 家斉いて后国治まる。
+  [src] 家斉の意味・解説
+  [wikibody-cut] ウィキペディア
+
+[[481] 宸遊  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 是れ宸遊物華を玩ぶにあらず; 宸遊の風景初年に入る
+  [no-real-dict-region]
+
+[[482] 宿昔  freq=2 h=0 k=2 len=2 status=OK bytes=181342
+  corpus: 宿昔の間、便ち大なる梓木有りて、二つの冢の端に生じ、旬日にして大なること抱に盈ち、体を屈して; 宿昔青雲の志
+  [src] 宿昔の意味・解説
+  def: デジタル大辞泉
+  def: しゅく‐せき【宿昔】
+  [read] 読み方：しゅくせき
+
+[[483] 密曰  freq=2 h=1 k=1 len=2 status=HTTP404 bytes=0
+  corpus: を知る、君故人を知らざるは、何ぞや、と。密曰く、暮夜なれば知る者無し、と。震曰く、天知る、神
+  [no-real-dict-region]
+
+[[484] 寒山  freq=2 h=0 k=2 len=2 status=OK bytes=262735
+  corpus: 日は出づ寒山の外; 日夕寒山を見ては
+  [src] 寒山の意味・解説
+  def: デジタル大辞泉
+  def: かん‐ざん【寒山】
+  [read] 読み方：かんざん
+  [read] 読み方：かんざん
+  [wikibody-cut] ウィキペディア
+
+[[485] 寒梅  freq=2 h=0 k=2 len=2 status=OK bytes=202181
+  corpus: 已に寒梅の発くを見; 寒梅花を著けしや未だしや
+  [src] 寒梅の意味・解説
+  def: デジタル大辞泉
+  def: かん‐ばい【寒梅】
+  [read] 読み方：かんばい
+  [read] 読み方：カンバイ（ｋａｎｂａｉ）
+
+[[486] 寒食  freq=2 h=0 k=2 len=2 status=OK bytes=251971
+  corpus: 千村万落寒食の如し; 寒食東風御柳斜めなり
+  [src] 寒食の意味・解説
+  def: デジタル大辞泉
+  def: かん‐しょく【寒食】
+  [read] 読み方：かんしょく
+  [read] 読み方：カンショク（ｋａｎｓｈｏｋｕ）
+  [wikibody-cut] ウィキペディア
+
+[[487] 専一  freq=2 h=0 k=2 len=2 status=OK bytes=198397
+  corpus: 人既に専一なれば、則ち勇者も独り進むことを得ず、怯者も独り退くことを得ず。; 専一なれば則ち勝ち、離散すれば則ち敗る。陣は密なるを以て則ち固く、鋒は疏なるを以て則ち達す。
+  [src] 専一の意味・解説
+  def: デジタル大辞泉
+  def: せん‐いち【専一】
+  [read] 読み方：せんいち
+  [read] 読み方：せんいつ
+  [read] 読み方：センイチ（ｓｅｎ’ｉｃｈｉ），　センイツ（ｓｅｎ’ｉｔｓｕ）
+  [wikibody-cut] Wiktionary日本語版（日本語カテ
+
+[[488] 将吏  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 軍擾乱し、皆敗れて走り、士卒に闘志無く、将吏に守る心無くんば、之を為すこと奈何。; 令に曰く、五人を伍と為し、一符を共に
+  [no-real-dict-region]
+
+[[489] 将能  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: すれば則ち乱を致す。夫れ将は国の命なり。将能く勝を制すれば、則ち国家安定す。; べば、則ち卒吏相救う。是れ兵の二勝なり。
+  [no-real-dict-region]
+
+[[490] 小大  freq=2 h=0 k=2 len=2 status=OK bytes=188699
+  corpus: 。又た焉くんぞ貪らん。君子は衆寡と無く、小大と無く、敢えて慢る無し。斯れ亦た泰にして驕らざる; 君子は衆寡と無く、小大と無く、敢えて慢る無し。斯れ亦た泰にして驕らざるにあらずや。
+  [src] 小大の意味・解説
+
+[[491] 小学  freq=2 h=0 k=2 len=2 status=OK bytes=243961
+  corpus: 曲礼・少儀・内則・弟子職の諸篇の若きは、固より小学の支流余裔なり。; 而して此の篇は、則ち小学の成功に因り、以て大学の明法を著し、外は以て其の規模の大を極むる有り
+  [src] 小学の意味・解説
+  def: デジタル大辞泉
+  def: しょう‐がく〔セウ‐〕【小学】
+  [read] 読み方：しょうがく
+  [read] 読み方：しょうがく
+  [read] 読み方：ショウガク（ｓｈｏｕｇａｋｕ）
+  [read] 読み方：ショウガク（ｓｈｏｕｇａｋｕ）
+  [wikibody-cut] ウィキペディア
+
+[[492] 小白  freq=2 h=0 k=2 len=2 status=OK bytes=186906
+  corpus: 兄の襄公は無道なり。群弟、禍の及ばんことを恐る。子糾は魯に奔る。管仲之に傅たり。小白は莒に奔; 為り、無知も亦た人の殺す所と為る。斉人、小白を莒より召く。而して魯も亦た兵を発して糾を送る。
+  [src] 小白の意味・解説
+  [wikibody-cut] ウィキペディア小見出し辞書
+
+[[493] 小臣  freq=2 h=0 k=2 len=2 status=OK bytes=187762
+  corpus: 小臣に晨に公を負いて以て天に登るを夢みる有り。日中するに及び、晋侯を負いて諸を厠より出し、遂; 小臣持して寿を献じ
+  [src] 小臣の意味・解説
+  def: デジタル大辞泉
+  def: しょう‐しん〔セウ‐〕【小臣】
+  [read] 読み方：しょうしん
+  [wikibody-cut] ウィキペディア小見出し辞書
+
+[[494] 小苑  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 小苑の城辺猟騎回る; 小苑鶯歌歇み
+  [no-real-dict-region]
+
+[[495] 少儀  freq=2 h=1 k=1 len=2 status=HTTP404 bytes=0
+  corpus: 曲礼・少儀・内則・弟子職の諸篇の若きは、固より小学の支流余裔なり。
+  [no-real-dict-region]
+
+[[496] 少者  freq=2 h=0 k=2 len=2 status=OK bytes=189398
+  corpus: 曰く、老者は之を安んじ、朋友は之を信じ、少者は之を懐けん。; 子路曰く、願わくは子の志を聞かん。子曰く、老者は之を安んじ、朋友は之を信じ、少者は之を懐けん
+  [src] 少者の意味・解説
+  def: デジタル大辞泉
+  def: しょう‐しゃ〔セウ‐〕【少者】
+  [read] 読み方：しょうしゃ
+
+[[497] 少陵  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 才を以て、窮まり無きの意を追えば、淵明・少陵と雖も、工みなるを得ざるなり。; 少陵の野老声を呑んで哭し
+  [no-real-dict-region]
+
+[[498] 居延  freq=2 h=0 k=2 len=2 status=OK bytes=181779
+  corpus: 属国居延を過ぐ; 沙場馬を走らせて居延に向う
+  [src] 居延の意味・解説
+  def: 三国志小事典
+  def: 居延Ju yan
+
+[[499] 屋下  freq=2 h=0 k=2 len=2 status=OK bytes=183464
+  corpus: に貴し。謝太傅云う、爾るを得ず。此は是れ屋下に屋を架するのみ。事事擬学して倹狭たるを免れず、; 重なり事複し、逓いに相模斅すること、猶お屋下に屋を架し、牀上に牀を施すがごときのみ。
+  [src] 屋下の意味・解説
+  def: デジタル大辞泉
+  def: おく‐か〔ヲク‐〕【屋下】
+  [read] 読み方：おくか
+  [read] 読み方：おっか

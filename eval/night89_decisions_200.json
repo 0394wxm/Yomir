@@ -1,0 +1,468 @@
+{
+ "start": 200,
+ "note": "N89 batch rank 200-249: 28 in (noun 23/proper 2/verb 1/modifier 2/function 0) / 22 out",
+ "decisions": [
+  {
+   "word": "凝滞",
+   "rank": 200,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "ぎょうたい",
+   "meaning": "凝り固まって滞ること。语料：聖人は物に凝滞せずして能く世と推移す（大辞泉 ぎょうたい）",
+   "dict_evidence": "weblio デジタル大辞泉；ぎょう‐たい【凝滞】；読み方：ぎょうたい（cand_200_凝滞.txt）",
+   "corpus_evidence": "golden_8165 2行。例 yotosuii-1「漁父曰く、聖人は物に凝滞せずして、能く世と推移す。」"
+  },
+  {
+   "word": "処女",
+   "rank": 201,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しょじょ",
+   "meaning": "嫁入り前の娘・処女。语料：始めは処女の如く敵人戸を開き（実用日本語表現辞典 しょじょ・语料义一致）",
+   "dict_evidence": "weblio デジタル大辞泉；しょ‐じょ〔‐ヂヨ〕【処女】；読み方：しょじょ（cand_201_処女.txt）",
+   "corpus_evidence": "golden_8165 2行。例 hajimewasho-2「是の故に始めは処女の如く、敵人戸を開き、後には脱兎の如くにして、敵拒ぐに及ばず。」"
+  },
+  {
+   "word": "凶器",
+   "rank": 203,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きょうき",
+   "meaning": "害をなす器・兵器。语料：兵は凶器なり争いは逆徳なり（大辞泉 きょうき）",
+   "dict_evidence": "weblio デジタル大辞泉；きょう‐き【凶器／×兇器】；読み方：きょうき（cand_203_凶器.txt）",
+   "corpus_evidence": "golden_8165 2行。例 utsuryo08-9「制せられず、中、人に制せられず。故に兵は凶器なり。争いは逆徳なり。将は死官なり。故に已むを得ずして之を用う。上に天無く、」"
+  },
+  {
+   "word": "出処",
+   "rank": 205,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しゅっしょ",
+   "meaning": "官に仕えることと民間にいること・去就。语料：出処は同じからずと雖も（大辞泉「（出処）官に仕えることと民間にいること」）",
+   "dict_evidence": "weblio デジタル大辞泉；しゅっ‐しょ【出所／出処】；読み方：しゅっしょ（cand_205_出処.txt）",
+   "corpus_evidence": "golden_8165 2行。例 shisenno-7「出処は同じからずと雖も」"
+  },
+  {
+   "word": "切切",
+   "rank": 209,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "せつせつ",
+   "meaning": "切実なさま・心にしみるさま。语料：霜草は蒼蒼として虫は切切（大辞泉 せつせつ）",
+   "dict_evidence": "weblio デジタル大辞泉；せつ‐せつ【切切】；読み方：せつせつ（cand_209_切切.txt）",
+   "corpus_evidence": "golden_8165 2行。例 wakaruru-7「切切として兄弟に委ね」"
+  },
+  {
+   "word": "刎頸",
+   "rank": 210,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ふんけい",
+   "meaning": "首を刎ねること。语料：刎頸の交わりを為す（大辞泉 ふんけい）",
+   "dict_evidence": "weblio デジタル大辞泉；ふん‐けい【×刎×頸】；読み方：ふんけい（cand_210_刎頸.txt）",
+   "corpus_evidence": "golden_8165 2行。例 funkei-x29「卒に相与に驩び、刎頸の交わりを為す。」"
+  },
+  {
+   "word": "刑罰",
+   "rank": 211,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "けいばつ",
+   "meaning": "刑と罰。语料：刑罰を明らかにし勧賞を正すは兵教の法に在り（大辞泉 けいばつ）",
+   "dict_evidence": "weblio デジタル大辞泉；けい‐ばつ【刑罰】；読み方：けいばつ（cand_211_刑罰.txt）",
+   "corpus_evidence": "golden_8165 2行。例 utsuryo04-6「信を先にして爵禄を後にし、廉恥を先にして刑罰を後にし、親愛を先にして其の身を律するを後にす。」"
+  },
+  {
+   "word": "別業",
+   "rank": 212,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "べつぎょう",
+   "meaning": "本邸のほかに持つ荘園・別荘。语料：別業幽処に居る（大辞泉 べつぎょう）",
+   "dict_evidence": "weblio デジタル大辞泉；べつ‐ぎょう〔‐ゲフ〕【別業】；読み方：べつぎょう（cand_212_別業.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen102-1「別業幽処に居る」"
+  },
+  {
+   "word": "別軍",
+   "rank": 213,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "べつぐん",
+   "meaning": "本隊のほかに分れた軍。语料：審らかに敵人の別軍の在る所（大辞泉 べつぐん）",
+   "dict_evidence": "weblio デジタル大辞泉；べつ‐ぐん【別軍】；読み方：べつぐん（cand_213_別軍.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou40-1「略するに、大城の下す可からざる有り。其の別軍、険を守りて、我と相拒ぎ、我、城を攻め邑を囲まんと欲するも、其の別軍、卒かに」"
+  },
+  {
+   "word": "利剣",
+   "rank": 214,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "りけん",
+   "meaning": "鋭利な剣。语料：利剣を帯び飲食に厭き（大辞泉 りけん）",
+   "dict_evidence": "weblio デジタル大辞泉；り‐けん【利剣】；読み方：りけん（cand_214_利剣.txt）",
+   "corpus_evidence": "golden_8165 2行。例 yadenko-3「利剣掌に在らずんば」"
+  },
+  {
+   "word": "利口",
+   "rank": 215,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "りこう",
+   "meaning": "口が達者なこと・巧言。语料：利口の邦家を覆す者を悪む（大辞泉 りこう）",
+   "dict_evidence": "weblio デジタル大辞泉；り‐こう〔‐コウ｜‐カウ〕【利口／×悧口／利巧／×悧巧】；読み方：りこう（cand_215_利口.txt）",
+   "corpus_evidence": "golden_8165 2行。例 murasakino-1「子曰く、紫の朱を奪うを悪む。鄭声の雅楽を乱るを悪む。利口の邦家を覆す者を悪む。」"
+  },
+  {
+   "word": "利害",
+   "rank": 216,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "りがい",
+   "meaning": "得と損・利益と損害。语料：智者の慮は必ず利害に雑う（大辞泉 りがい）",
+   "dict_evidence": "weblio デジタル大辞泉；り‐がい【利害】；読み方：りがい（cand_216_利害.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou18-6「地利三人、軍の行止の形勢、利害の消息、遠近険易、水涸山阻、地の利を失わざるを主る。」"
+  },
+  {
+   "word": "前言",
+   "rank": 217,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ぜんげん",
+   "meaning": "先の言葉・前の発言。语料：前言は之に戯れしのみ（大辞泉 ぜんげん）",
+   "dict_evidence": "weblio デジタル大辞泉；ぜん‐げん【前言】；読み方：ぜんげん（cand_217_前言.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo1704-1「い易しと。子曰く、二三子、偃の言是なり。前言は之に戯れしのみ。」"
+  },
+  {
+   "word": "剛強",
+   "rank": 218,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "ごうきょう",
+   "meaning": "刚强で屈しないさま。语料：剛強なるは必ず死し仁義なるは王たり（大辞泉 ごうきょう）",
+   "dict_evidence": "weblio デジタル大辞泉；ごう‐きょう〔ガウキヤウ〕【剛強】；読み方：ごうきょう（cand_218_剛強.txt）",
+   "corpus_evidence": "golden_8165 2行。例 gubijinso-5「剛強なるは必ず死し仁義なるは王たり」"
+  },
+  {
+   "word": "功臣",
+   "rank": 224,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうしん",
+   "meaning": "功労ある臣。语料：凌煙の功臣顔色少くも（大辞泉 こうしん）",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐しん【功臣】；読み方：こうしん（cand_224_功臣.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen030-9「凌煙の功臣顔色少くも」"
+  },
+  {
+   "word": "労苦",
+   "rank": 225,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ろうく",
+   "meaning": "労して苦しむこと。语料：将、士卒と寒暑労苦飢飽を共にす（大辞泉 ろうく）",
+   "dict_evidence": "weblio デジタル大辞泉；ろう‐く〔ラウ‐〕【労苦】；読み方：ろうく（cand_225_労苦.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou23-4「将、士卒と寒暑、労苦、飢飽を共にす。故に三軍の衆、鼓声を聞けば則ち喜び、金声を聞けば則ち怒り、高城深池、矢石繁く下るも、」"
+  },
+  {
+   "word": "勇士",
+   "rank": 226,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ゆうし",
+   "meaning": "勇ましい兵士・勇者。语料：勇士を内れて其の気を高からしむ（大辞泉 ゆうし）",
+   "dict_evidence": "weblio デジタル大辞泉；ゆう‐し【勇士】；読み方：ゆうし（cand_226_勇士.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou15-4「、陰かに智士を内れて、其の計を図らしめ、勇士を内れて、其の気を高からしむ。富貴甚だ足りて、常に繁滋有れば、徒党已に具わる」"
+  },
+  {
+   "word": "匈奴",
+   "rank": 230,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "きょうど",
+   "meaning": "北方の遊牧民族匈奴。语料：天子、匈奴の降る者に問うに（大辞泉 きょうど）",
+   "dict_evidence": "weblio デジタル大辞泉；きょうど【×匈奴】；読み方：きょうど（cand_230_匈奴.txt）",
+   "corpus_evidence": "golden_8165 2行。例 yoryoezu-1「の人なり。建元中に郎と為る。是の時天子、匈奴の降る者に問うに、皆な言う、匈奴、月氏王を破り、其の頭を以て飲器と為す。月氏」"
+  },
+  {
+   "word": "北闕",
+   "rank": 235,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ほっけつ",
+   "meaning": "宮城の北の楼門・臣下の待詔所。语料：簪纓北闕より来る（大辞泉 ほっけつ）",
+   "dict_evidence": "weblio デジタル大辞泉；ほっ‐けつ〔ホク‐〕【北×闕】；読み方：ほっけつ（cand_235_北闕.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen197-6「北闕の晴雲禁闈を捧ぐ」"
+  },
+  {
+   "word": "北面",
+   "rank": 236,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ほくめん",
+   "meaning": "北を向くこと（人臣が君に面して仕えるさま）。语料：親しく北面して之に事えたり（大辞泉 ほくめん）",
+   "dict_evidence": "weblio デジタル大辞泉；きた‐おもて【北面】；読み方：きたおもて（cand_236_北面.txt）",
+   "corpus_evidence": "golden_8165 2行。例 hikurete-2「……今、子は故平王の臣、親しく北面して之に事えたり。今、死人を僇するに至る。此れ豈に其れ天道を無みするの極みか、と。伍子」"
+  },
+  {
+   "word": "匡廬",
+   "rank": 237,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "きょうろ",
+   "meaning": "廬山の別称。语料：匡廬登る可からず（大辞泉 きょうろ）",
+   "dict_evidence": "weblio デジタル大辞泉；きょう‐ろ〔キヤウ‐〕【匡廬】；読み方：きょうろ（cand_237_匡廬.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen275-2「匡廬登る可からず」"
+  },
+  {
+   "word": "匹夫",
+   "rank": 238,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ひっぷ",
+   "meaning": "つまらぬ男・平凡な一男子。语料：匹夫も志を奪う可からざるなり（大辞泉 ひっぷ）",
+   "dict_evidence": "weblio デジタル大辞泉；ひっ‐ぷ【匹夫】；読み方：ひっぷ（cand_238_匹夫.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo0925-1「子曰く、三軍も帥を奪う可きなり。匹夫も志を奪う可からざるなり。」"
+  },
+  {
+   "word": "十目",
+   "rank": 241,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じゅうもく",
+   "meaning": "十の目・多くの人の目。语料：十目の視る所十手の指さす所其れ厳なるかな（大辞泉 じゅうもく）",
+   "dict_evidence": "weblio デジタル大辞泉；じゅう‐もく〔ジフ‐〕【十目】；読み方：じゅうもく（cand_241_十目.txt）",
+   "corpus_evidence": "golden_8165 2行。例 jisshi-1「曾子曰く、十目の視る所、十手の指さす所、其れ厳なるかな、と。」"
+  },
+  {
+   "word": "千仞",
+   "rank": 244,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せんじん",
+   "meaning": "千仞・非常に高い所。语料：積水を千仞の谿に決するが若きは形なり（大辞泉 せんじん）",
+   "dict_evidence": "weblio デジタル大辞泉；せん‐じん【千尋／千×仞】；読み方：せんじん（cand_244_千仞.txt）",
+   "corpus_evidence": "golden_8165 2行。例 sonshi04-26「勝者の民を戦わしむるや、積水を千仞の谿に決するが若きは、形なり。」"
+  },
+  {
+   "word": "千山",
+   "rank": 245,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せんざん",
+   "meaning": "数多くの山。语料：千山鳥飛ぶこと絶え（大辞泉 せんざん）",
+   "dict_evidence": "weblio デジタル大辞泉；せん‐ざん【千山】；読み方：せんざん（cand_245_千山.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen398-3「南のかた千山を望めば黛色の如し」"
+  },
+  {
+   "word": "千慮",
+   "rank": 246,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せんりょ",
+   "meaning": "幾度もの思慮。语料：智者も千慮に必ず一失有り（大辞泉 せんりょ）",
+   "dict_evidence": "weblio デジタル大辞泉；せん‐りょ【千慮】；読み方：せんりょ（cand_246_千慮.txt）",
+   "corpus_evidence": "golden_8165 2行。例 senryo-1「広武君曰く、臣聞く、智者も千慮に必ず一失有り、愚者も千慮に必ず一得有り、と。故に曰く、狂夫の言も、聖人は焉を択ぶ、と。」"
+  },
+  {
+   "word": "千歳",
+   "rank": 247,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せんざい",
+   "meaning": "千年・長い年月。语料：常に千歳の憂いを懐く（大辞泉 せんざい）",
+   "dict_evidence": "weblio デジタル大辞泉；せん‐ざい【千歳／千載】；読み方：せんざい（cand_247_千歳.txt）",
+   "corpus_evidence": "golden_8165 2行。例 koshi19_15-1「生年百に満たず、常に千歳の憂いを懐く」"
+  },
+  {
+   "word": "半夜",
+   "rank": 249,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "はんや",
+   "meaning": "真夜中・深夜。语料：半夜舟を回らして楚郷に入る（大辞泉 はんや）",
+   "dict_evidence": "weblio デジタル大辞泉；はん‐や【半夜】；読み方：はんや（cand_249_半夜.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen407-1「半夜舟を回らして楚郷に入る」"
+  },
+  {
+   "word": "処所",
+   "rank": 202,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文語で辞書不載（其の処所を究めしむ）"
+  },
+  {
+   "word": "凶服",
+   "rank": 204,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・論語語（凶服の者には之に式す）で辞書不載"
+  },
+  {
+   "word": "函関",
+   "rank": 206,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・地名（函谷関）で辞書不載"
+  },
+  {
+   "word": "分日",
+   "rank": 207,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・尉繚子専門語（戒むること分日）"
+  },
+  {
+   "word": "分限",
+   "rank": 208,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：大辞泉＝身分・財力、语料＝尉繚子兵教の条目名（左右相禁じ）"
+  },
+  {
+   "word": "剣刃",
+   "rank": 219,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・六韜兵器語（剣刃の扶胥）"
+  },
+  {
+   "word": "劉氏",
+   "rank": 220,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "Wikipedia のみ保守排除（漢の劉氏・翻案可を注明）"
+  },
+  {
+   "word": "力卒",
+   "rank": 221,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・尉繚子兵教条目名（十二に曰く力卒）"
+  },
+  {
+   "word": "力屈",
+   "rank": 222,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：力屈し財中原に殫き（力＋動詞）"
+  },
+  {
+   "word": "力能",
+   "rank": 223,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：顧うに力能わざるのみ"
+  },
+  {
+   "word": "勇有",
+   "rank": 227,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+有系構文断片（仁者は必ず勇有り）"
+  },
+  {
+   "word": "勇無",
+   "rank": 228,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+無系構文断片（義を見て為ざるは勇無きなり）"
+  },
+  {
+   "word": "勝兵",
+   "rank": 229,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・孫子軍形語（勝兵は先ず勝ちて）で辞書不載"
+  },
+  {
+   "word": "匏瓜",
+   "rank": 231,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・論語語（吾豈に匏瓜ならんや）で辞書不載"
+  },
+  {
+   "word": "北人",
+   "rank": 232,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "Wikipedia のみ保守排除（世説語・翻案可を注明）"
+  },
+  {
+   "word": "北渚",
+   "rank": 233,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・楚辞詩語で辞書不載"
+  },
+  {
+   "word": "北門",
+   "rank": 234,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "専門辞典（地名辞典）のみ・読み キタモンで语料（北の城門・商君書）と対位せず"
+  },
+  {
+   "word": "十一",
+   "rank": 239,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "数え構文断片：十一に曰く（尉繚子・握機経の条目番号列挙）"
+  },
+  {
+   "word": "十手",
+   "rank": 240,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：大辞泉＝武器の十手、语料＝十の手（十目十手の数え構文）"
+  },
+  {
+   "word": "十觴",
+   "rank": 242,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載（十觴亦た酔わず）"
+  },
+  {
+   "word": "十里",
+   "rank": 243,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "専門辞典（地名辞典）のみ（地名義）で语料（十里の堤＝距離）と対位せず・未許可"
+  },
+  {
+   "word": "千騎",
+   "rank": 248,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・数え構文・詩語（使君千騎にて帰る）で辞書不載"
+  }
+ ]
+}
