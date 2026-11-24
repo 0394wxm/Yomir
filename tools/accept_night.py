@@ -63,6 +63,7 @@ NIGHT_ARTIFACTS = {
     84: ["night84_results_4000.json"],
     85: ["night85_results_4000.json"],
     86: ["night86_results_4000.json"],   # N86 Rule O 上线後の默认口径（13.491/24/0）
+    87: ["night87_results_4000.json"],   # N87 合并夜：night86-ruleo 入 master（与 night86 归档逐位一致 13.491/24/0）
     22: ["night22_results_full.json"],
     23: ["night23_results_rongo.json"],
     26: ["night26_results_full.json"],
