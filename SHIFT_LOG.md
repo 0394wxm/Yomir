@@ -1005,3 +1005,4 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 [2026-11-24 16:49] night92-ruleq 开工：分支 night92-ruleq 自 master b6a6248 分出，HEAD=b6a6248 确认，pytest 443 passed，已跟踪文件零改动。Night 92 Rule Q 挖规则（B2 主切面长键手測）开始。
 [2026-11-24 17:27] night92 主进展：mine 1 字块枚举→probe T1-T8（4 scramble 拒）→sim 收录 Rule Q 2 条（ことなく→こと莫く・すべからず→可からず）→kundoku_rules.py 落地＋test_night92_rule_q.py 10 tests（pytest 453）→golden_4000 真跑 13.491/24/0 持平、golden_8165 13.502→13.500 改善，两口径改写行与 sim 逐位一致（12/37 行）・変差 0。
 [2026-11-24 17:35] night92 收尾：verify 20/20 exit 0（归档源 night86→night92 切换＋Rule Q 語数断言追加・README テスト行 453/8165 行 13.500 同步）。NIGHT_ARTIFACTS 加 92 登记完毕，REPORT_NIGHT92.md 写入，主提交前。
+[2026-11-24 17:39] Night 92 完成：accept 92 PASS fail=0 skip=0（30.8s 首跑即 PASS・七门全绿・eval_integrity 実查 night92_results_4000.json）。分支两提交 22e4e9e（主）＋wrap-up，未合 master、未推远程。Rule Q 2 条収録（ことなく→こと莫く・すべからず→可からず），golden_4000 13.491/24/0 持平、golden_8165 13.502→13.500 改善，pytest 453。
