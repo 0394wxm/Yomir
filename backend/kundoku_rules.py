@@ -954,6 +954,57 @@ def style_kana_to_kanji_r(text: str, hakubun: str = "") -> str:
             continue
         text = _replace_word_boundary(text, kana, repl, R_LONGER_WORDS)
     return text
+# Rule S（N96・micro 区带 rows<=2 主力＋B2 (べ,可) prefix 分離 副切面）。収録 1 条：
+#   なきなり→勿かれ（guard 勿）：B2 micro 新長键 4 発火 4 改善 0 変差 Δ−0.001960
+#   ＝N69 収録線 Δ<=−0.001 達成（ことなきなり→こと勿かれ 型・azamukuko-1/
+#   sonshi09-19/sonshi10-12/rikutou21-2(rerun・guard 上下文=尾段)＝論語憲問・
+#   孫子 9 篇/10 篇・越絶書）。
+#   拒案（night96_probe T1〜T9/night96_sim 単条门 実数・tests/test_night96_rule_s.py に锁）：
+#     か→哉（104 発火 45 変差・(か,哉) micro 2 pair は詩経反復の語汇対応だが guard では
+#       守れない）・なるか→なる哉（28/15＝集約パス (a) 不成立）・ず→毋く（7/3＝
+#       必ず→必毋く 2 行は改善だが shindoku-1 の exp 必ず で変差・guard 分離不成）・
+#       なきなり→毋かれ（4/2＝exp 毋きなり/毋かれ 字形混在）・な→勿（31/11 blanket）・
+#       るか→可し（34/11 blanket）・べきか→可し（31 発火 26 改善/3 変差＝(べ,可) 族
+#       新 repl 実測・0 変差硬门で拒）——いずれも単条 0 変差门で拒。
+#     B3 (べ,可) 族：(すべ,可) prefix 分離は既收規則（すべからず・べから）で吸収済み
+#       ＝B2 exp 頭可 pair に すべ 系残存なし（10 件全て べきか/べきなり/るべ/るか）。
+#       B2 rows>=4 11 族＝N86/N88/N92/N94 数字完全一致（Rule R 生效後も変動なし）。
+#     禁区（拍板事項・本夜も一字未动）：べきなり→可きなり（1 変差 p-gekirin-1）・
+#       べからず族（可からず 78 発火 70/5・可からざる 82/79/1）・なかれ→莫かれ
+#       （17 発火 13/1 kokyo09-5）・ことなき→こと莫き（15 発火 12/2 維持）・
+#       がため/何のごとく 各 1 行（rerun tail 機構変更待ち）・嗟や→嗟乎（在庫再測
+#       3 発火 3 改善 0 変差 Δ−0.000367＝収録線未達の無益拒・データ増強拍板待ち）・
+#       guard 外 ことなく 5 行（白文側字形対応データ拍板待ち）
+#   长尾 scan 3 件（してなる→使うや・なるをしむるの→令・はなる→少くして）＝
+#     N86/N88/N92/N94 拒案逐字同名の scramble patch（5 夜連続同名・Δ線達成でも
+#     N86 惯例 過拟合拒＝scan 由来の語彙対応候補枯竭確認）
+S_KANA_TO_KANJI = [
+    ("なきなり", "勿かれ", ("勿",)),          # 白文 勿〜 の got「なきなり」对位（ことなきなり→こと勿かれ 型）
+]
+
+# Rule S 的词界护栏（与 E〜R 分开维护）。probe/sim 実測なきなり後続冲突なし。
+S_LONGER_WORDS = {
+    "なきなり": (),                           # 実測 4 発火 0 変差＝长词冲突なし
+}
+
+
+def style_kana_to_kanji_s(text: str, hakubun: str = "") -> str:
+    """假名 → 汉字（第十四批）。N96 Rule S。
+
+    与 E〜R 同构的两道护栏，用 S 自己的更长词表。guard は白文含字の正条件
+    （空白文で発火＝E〜K 世代同语义）。新旧両形は guard_forms 并查（N72 移交①）で
+    probe/sim 実施済み（勿 は新旧変異なし）。
+    全 1 条＝night96_sim 单条 0 変差・组合 4 行改写 4 改善／変差 0／幂等 bad 0。
+    """
+    hb = re.sub(r"\s+", "", hakubun) if hakubun else ""
+    for kana, repl, guard in S_KANA_TO_KANJI:
+        if guard and hb and not any(g in hb for g in guard):
+            continue
+        text = _replace_word_boundary(text, kana, repl, S_LONGER_WORDS)
+    return text
+
+
+
 
 
 def style_fix_with_hakubun(text: str, hakubun: str) -> str:
@@ -980,6 +1031,7 @@ def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     t = style_kana_to_kanji_o(t, hakubun)   # N86 Rule O
     t = style_kana_to_kanji_q(t, hakubun)   # N92 Rule Q
     t = style_kana_to_kanji_r(t, hakubun)   # N94 Rule R
+    t = style_kana_to_kanji_s(t, hakubun)   # N96 Rule S
     return t
 
 # ---------------------------------------------------------------------------

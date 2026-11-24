@@ -1,0 +1,2009 @@
+{
+ "baseline": "night95_results_8165.json",
+ "trials": [
+  {
+   "id": "T1",
+   "kana": "か",
+   "repl": "哉",
+   "guard": [
+    "哉"
+   ],
+   "note": "(か,哉) micro 2 pair（詩経反復・悠なるか→悠なる哉）・guard 予測 106 発火≫2 pair",
+   "pair_anchor": [
+    "one",
+    "か",
+    "哉"
+   ],
+   "pair_rows": 2,
+   "fired": 104,
+   "better": 3,
+   "worse": 45,
+   "same": 56,
+   "delta": 0.007716,
+   "fired_detail": [
+    {
+     "id": "iyashikuko-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 37,
+     "mark": "same"
+    },
+    {
+     "id": "ikken-1",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 18,
+     "mark": "変差"
+    },
+    {
+     "id": "ittanno-1",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 23,
+     "mark": "same"
+    },
+    {
+     "id": "icchoikari-1",
+     "cls": "engine",
+     "d0": 56,
+     "d1": 56,
+     "mark": "same"
+    },
+    {
+     "id": "idetekou-1",
+     "cls": "engine",
+     "d0": 27,
+     "d1": 27,
+     "mark": "same"
+    },
+    {
+     "id": "imadaezaru-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 37,
+     "mark": "same"
+    },
+    {
+     "id": "uyu-1",
+     "cls": "engine",
+     "d0": 103,
+     "d1": 104,
+     "mark": "変差"
+    },
+    {
+     "id": "enjaku-3",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 12,
+     "mark": "same"
+    },
+    {
+     "id": "onorenika-1",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 26,
+     "mark": "same"
+    },
+    {
+     "id": "onoreuya-1",
+     "cls": "engine",
+     "d0": 27,
+     "d1": 28,
+     "mark": "変差"
+    },
+    {
+     "id": "omonpaku-1",
+     "cls": "engine",
+     "d0": 61,
+     "d1": 62,
+     "mark": "変差"
+    },
+    {
+     "id": "gakutoii-1",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 20,
+     "mark": "same"
+    },
+    {
+     "id": "kamiitekan-1",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 15,
+     "mark": "same"
+    },
+    {
+     "id": "kamireikei-1",
+     "cls": "engine",
+     "d0": 70,
+     "d1": 71,
+     "mark": "変差"
+    },
+    {
+     "id": "karewoya-1",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 8,
+     "mark": "same"
+    },
+    {
+     "id": "kibini-1",
+     "cls": "engine",
+     "d0": 33,
+     "d1": 33,
+     "mark": "same"
+    },
+    {
+     "id": "kyowa-1",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 34,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0210-1",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 20,
+     "mark": "same"
+    },
+    {
+     "id": "rongo0222-1",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 23,
+     "mark": "same"
+    },
+    {
+     "id": "rongo0304-1",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 27,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0314-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 13,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0322-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 38,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0502-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 19,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0609-1",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 22,
+     "mark": "same"
+    },
+    {
+     "id": "rongo0623-1",
+     "cls": "engine",
+     "d0": 9,
+     "d1": 9,
+     "mark": "same"
+    },
+    {
+     "id": "rongo0702-1",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 8,
+     "mark": "same"
+    },
+    {
+     "id": "rongo0729-1",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 15,
+     "mark": "same"
+    },
+    {
+     "id": "rongo0815-1",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 15,
+     "mark": "same"
+    },
+    {
+     "id": "rongo0819-1",
+     "cls": "engine",
+     "d0": 49,
+     "d1": 50,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0902-1",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 24,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0906-1",
+     "cls": "engine",
+     "d0": 51,
+     "d1": 52,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0907-1",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 14,
+     "mark": "same"
+    },
+    {
+     "id": "rongo0911-1",
+     "cls": "engine",
+     "d0": 61,
+     "d1": 62,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0912-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 20,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1018-1",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 26,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1104-1",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 5,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1201-1",
+     "cls": "engine",
+     "d0": 65,
+     "d1": 69,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1211-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 37,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1222-1",
+     "cls": "engine",
+     "d0": 83,
+     "d1": 86,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1303-1",
+     "cls": "engine",
+     "d0": 87,
+     "d1": 88,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1309-1",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 26,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1311-1",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 25,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1406-1",
+     "cls": "engine",
+     "d0": 29,
+     "d1": 29,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1410-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 36,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1431-1",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 14,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1442-1",
+     "cls": "engine",
+     "d0": 55,
+     "d1": 58,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1505-1",
+     "cls": "engine",
+     "d0": 62,
+     "d1": 62,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1506-1",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 22,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1516-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 18,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1517-1",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 15,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1705-1",
+     "cls": "engine",
+     "d0": 34,
+     "d1": 35,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1707-1",
+     "cls": "engine",
+     "d0": 58,
+     "d1": 59,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1719-1",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 29,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1722-1",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 28,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1806-1",
+     "cls": "engine",
+     "d0": 90,
+     "d1": 93,
+     "mark": "変差"
+    },
+    {
+     "id": "p-dojitsuno-2",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 18,
+     "mark": "same"
+    },
+    {
+     "id": "hippu-1",
+     "cls": "engine",
+     "d0": 34,
+     "d1": 35,
+     "mark": "変差"
+    },
+    {
+     "id": "kokobigyo-1",
+     "cls": "engine",
+     "d0": 19,
+     "d1": 21,
+     "mark": "変差"
+    },
+    {
+     "id": "kouji-2",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 7,
+     "mark": "same"
+    },
+    {
+     "id": "koukeini-4",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 10,
+     "mark": "same"
+    },
+    {
+     "id": "kunshitana-1",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 22,
+     "mark": "same"
+    },
+    {
+     "id": "masuredo-1",
+     "cls": "engine",
+     "d0": 30,
+     "d1": 30,
+     "mark": "same"
+    },
+    {
+     "id": "shika-1",
+     "cls": "engine",
+     "d0": 77,
+     "d1": 78,
+     "mark": "変差"
+    },
+    {
+     "id": "shosei-1",
+     "cls": "engine",
+     "d0": 39,
+     "d1": 40,
+     "mark": "変差"
+    },
+    {
+     "id": "sokano-2",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 24,
+     "mark": "変差"
+    },
+    {
+     "id": "yotonotsu-1",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 51,
+     "mark": "変差"
+    },
+    {
+     "id": "yotonotsu-2",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 32,
+     "mark": "変差"
+    },
+    {
+     "id": "daigaku10-21",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 7,
+     "mark": "変差"
+    },
+    {
+     "id": "daigaku10-23",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 14,
+     "mark": "same"
+    },
+    {
+     "id": "funkei-x23",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 5,
+     "mark": "same"
+    },
+    {
+     "id": "kofuku-x18",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 6,
+     "mark": "same"
+    },
+    {
+     "id": "mazukai-x15",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "mark": "same"
+    },
+    {
+     "id": "mobodanki-x11",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 20,
+     "mark": "same"
+    },
+    {
+     "id": "shikyo_chokuko-5",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 5,
+     "mark": "same"
+    },
+    {
+     "id": "shikyo_kansho-6",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 5,
+     "mark": "改善"
+    },
+    {
+     "id": "shikyo_kunshiu-3",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 6,
+     "mark": "same"
+    },
+    {
+     "id": "toushisen278-2",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 7,
+     "mark": "same"
+    },
+    {
+     "id": "toushisen057-2",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 3,
+     "mark": "改善"
+    },
+    {
+     "id": "toushisen127-12",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 4,
+     "mark": "改善"
+    },
+    {
+     "id": "toushisen130-12",
+     "cls": "engine",
+     "d0": 6,
+     "d1": 6,
+     "mark": "same"
+    },
+    {
+     "id": "toushisen003-4",
+     "cls": "engine",
+     "d0": 5,
+     "d1": 5,
+     "mark": "same"
+    },
+    {
+     "id": "montai02-7",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 21,
+     "mark": "same"
+    },
+    {
+     "id": "montai03-4",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 35,
+     "mark": "same"
+    },
+    {
+     "id": "montai04-5",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 32,
+     "mark": "same"
+    },
+    {
+     "id": "montai05-3",
+     "cls": "engine",
+     "d0": 40,
+     "d1": 40,
+     "mark": "same"
+    },
+    {
+     "id": "montai06-3",
+     "cls": "engine",
+     "d0": 25,
+     "d1": 25,
+     "mark": "same"
+    },
+    {
+     "id": "montai12-12",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 20,
+     "mark": "same"
+    },
+    {
+     "id": "montai14-7",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 12,
+     "mark": "same"
+    },
+    {
+     "id": "rikutou13-5",
+     "cls": "engine",
+     "d0": 44,
+     "d1": 49,
+     "mark": "変差"
+    },
+    {
+     "id": "rikutou28-2",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 32,
+     "mark": "変差"
+    },
+    {
+     "id": "rikutou31-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 37,
+     "mark": "変差"
+    },
+    {
+     "id": "rikutou37-3",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 33,
+     "mark": "変差"
+    },
+    {
+     "id": "roushi20-1",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 43,
+     "mark": "変差"
+    },
+    {
+     "id": "roushi21-3",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 10,
+     "mark": "same"
+    },
+    {
+     "id": "roushi22-3",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 24,
+     "mark": "same"
+    },
+    {
+     "id": "roushi53-2",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 36,
+     "mark": "変差"
+    },
+    {
+     "id": "roushi54-3",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 14,
+     "mark": "same"
+    },
+    {
+     "id": "roushi57-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 31,
+     "mark": "same"
+    },
+    {
+     "id": "sonshi06-33",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 14,
+     "mark": "same"
+    },
+    {
+     "id": "sonshi13-19",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 13,
+     "mark": "変差"
+    },
+    {
+     "id": "utsuryo03-7",
+     "cls": "engine",
+     "d0": 63,
+     "d1": 63,
+     "mark": "same"
+    },
+    {
+     "id": "rikutou01-5",
+     "cls": "rerun",
+     "d0": 46,
+     "d1": 48,
+     "mark": "変差"
+    },
+    {
+     "id": "rikutou14-3",
+     "cls": "rerun",
+     "d0": 20,
+     "d1": 21,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1125-1",
+     "cls": "engine",
+     "d0": 33,
+     "d1": 33,
+     "mark": "same"
+    }
+   ]
+  },
+  {
+   "id": "T2",
+   "kana": "なるか",
+   "repl": "なる哉",
+   "guard": [
+    "哉"
+   ],
+   "note": "T1 の 2 字长键化（集約パス (a)・pair=0 制式＝変差実数判定）",
+   "pair_anchor": [
+    "blk",
+    "なるか",
+    "なる哉"
+   ],
+   "pair_rows": 0,
+   "fired": 28,
+   "better": 2,
+   "worse": 15,
+   "same": 11,
+   "delta": 0.00147,
+   "fired_detail": [
+    {
+     "id": "iyashikuko-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 37,
+     "mark": "same"
+    },
+    {
+     "id": "ikken-1",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 18,
+     "mark": "変差"
+    },
+    {
+     "id": "icchoikari-1",
+     "cls": "engine",
+     "d0": 56,
+     "d1": 56,
+     "mark": "same"
+    },
+    {
+     "id": "imadaezaru-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 37,
+     "mark": "same"
+    },
+    {
+     "id": "onoreuya-1",
+     "cls": "engine",
+     "d0": 27,
+     "d1": 28,
+     "mark": "変差"
+    },
+    {
+     "id": "kyowa-1",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 33,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0304-1",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 27,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0314-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 13,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0322-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 38,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0819-1",
+     "cls": "engine",
+     "d0": 49,
+     "d1": 50,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0902-1",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 24,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0911-1",
+     "cls": "engine",
+     "d0": 61,
+     "d1": 62,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1211-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 37,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1309-1",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 26,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1311-1",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 25,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1442-1",
+     "cls": "engine",
+     "d0": 55,
+     "d1": 55,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1516-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 18,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1707-1",
+     "cls": "engine",
+     "d0": 58,
+     "d1": 58,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1722-1",
+     "cls": "engine",
+     "d0": 28,
+     "d1": 28,
+     "mark": "same"
+    },
+    {
+     "id": "hippu-1",
+     "cls": "engine",
+     "d0": 34,
+     "d1": 35,
+     "mark": "変差"
+    },
+    {
+     "id": "koukeini-4",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 10,
+     "mark": "same"
+    },
+    {
+     "id": "masuredo-1",
+     "cls": "engine",
+     "d0": 30,
+     "d1": 30,
+     "mark": "same"
+    },
+    {
+     "id": "shika-1",
+     "cls": "engine",
+     "d0": 77,
+     "d1": 78,
+     "mark": "変差"
+    },
+    {
+     "id": "shosei-1",
+     "cls": "engine",
+     "d0": 39,
+     "d1": 40,
+     "mark": "変差"
+    },
+    {
+     "id": "shikyo_kansho-6",
+     "cls": "engine",
+     "d0": 7,
+     "d1": 5,
+     "mark": "改善"
+    },
+    {
+     "id": "toushisen057-2",
+     "cls": "engine",
+     "d0": 4,
+     "d1": 3,
+     "mark": "改善"
+    },
+    {
+     "id": "rikutou31-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 37,
+     "mark": "変差"
+    },
+    {
+     "id": "rikutou37-3",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 33,
+     "mark": "変差"
+    }
+   ]
+  },
+  {
+   "id": "T3",
+   "kana": "ず",
+   "repl": "毋く",
+   "guard": [
+    "毋"
+   ],
+   "note": "(ず,毋) micro 2 pair（必ず→必毋く・論語子絶四）・guard 予測 8 発火",
+   "pair_anchor": [
+    "one",
+    "ず",
+    "毋"
+   ],
+   "pair_rows": 2,
+   "fired": 7,
+   "better": 2,
+   "worse": 3,
+   "same": 2,
+   "delta": 0.00049,
+   "fired_detail": [
+    {
+     "id": "shiwotatsu-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 17,
+     "mark": "改善"
+    },
+    {
+     "id": "oko-2",
+     "cls": "engine",
+     "d0": 69,
+     "d1": 71,
+     "mark": "変差"
+    },
+    {
+     "id": "onoreshika-2",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 20,
+     "mark": "same"
+    },
+    {
+     "id": "rongo0603-1",
+     "cls": "engine",
+     "d0": 60,
+     "d1": 62,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0904-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 17,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1223-1",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 23,
+     "mark": "same"
+    },
+    {
+     "id": "shindoku-1",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 34,
+     "mark": "変差"
+    }
+   ]
+  },
+  {
+   "id": "T4",
+   "kana": "なきなり",
+   "repl": "勿かれ",
+   "guard": [
+    "勿"
+   ],
+   "note": "B2 micro 新長键 3 pair（azamukuko-1/sonshi09-19/sonshi10-12・勿/毋 字形別は guard 分離）",
+   "pair_anchor": [
+    "blk",
+    "なきなり",
+    "勿かれ"
+   ],
+   "pair_rows": 3,
+   "fired": 4,
+   "better": 4,
+   "worse": 0,
+   "same": 0,
+   "delta": -0.00196,
+   "fired_detail": [
+    {
+     "id": "azamukuko-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 8,
+     "mark": "改善"
+    },
+    {
+     "id": "sonshi09-19",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 28,
+     "mark": "改善"
+    },
+    {
+     "id": "sonshi10-12",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 10,
+     "mark": "改善"
+    },
+    {
+     "id": "rikutou21-2",
+     "cls": "rerun",
+     "d0": 126,
+     "d1": 122,
+     "mark": "改善"
+    }
+   ]
+  },
+  {
+   "id": "T5",
+   "kana": "なきなり",
+   "repl": "毋かれ",
+   "guard": [
+    "毋"
+   ],
+   "note": "B2 micro 新長键 2 pair（ichijicho-1/rongo1125-1）",
+   "pair_anchor": [
+    "blk",
+    "なきなり",
+    "毋かれ"
+   ],
+   "pair_rows": 2,
+   "fired": 4,
+   "better": 2,
+   "worse": 2,
+   "same": 0,
+   "delta": -0.00049,
+   "fired_detail": [
+    {
+     "id": "ichijicho-1",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 11,
+     "mark": "改善"
+    },
+    {
+     "id": "shindoku-1",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 34,
+     "mark": "変差"
+    },
+    {
+     "id": "daigaku06-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 14,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1125-1",
+     "cls": "engine",
+     "d0": 33,
+     "d1": 29,
+     "mark": "改善"
+    }
+   ]
+  },
+  {
+   "id": "T6",
+   "kana": "な",
+   "repl": "勿",
+   "guard": [
+    "勿"
+   ],
+   "note": "blanket 測定（な×勿 guard 予測 36 発火≫1 pair＝(な,勿) micro・実数判定）",
+   "pair_anchor": [
+    "one",
+    "な",
+    "勿"
+   ],
+   "pair_rows": 1,
+   "fired": 31,
+   "better": 6,
+   "worse": 11,
+   "same": 14,
+   "delta": 0.000857,
+   "fired_detail": [
+    {
+     "id": "moshisono-1",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 13,
+     "mark": "same"
+    },
+    {
+     "id": "azamukuko-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 11,
+     "mark": "改善"
+    },
+    {
+     "id": "onorenoho-2",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 17,
+     "mark": "same"
+    },
+    {
+     "id": "rinkiohen-2",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 32,
+     "mark": "same"
+    },
+    {
+     "id": "rongo0604-1",
+     "cls": "engine",
+     "d0": 16,
+     "d1": 15,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1201-1",
+     "cls": "engine",
+     "d0": 65,
+     "d1": 66,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1202-1",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 42,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1408-1",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 14,
+     "mark": "same"
+    },
+    {
+     "id": "shibutsu-1",
+     "cls": "engine",
+     "d0": 39,
+     "d1": 40,
+     "mark": "変差"
+    },
+    {
+     "id": "toushisen080-8",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 11,
+     "mark": "改善"
+    },
+    {
+     "id": "koshi19_01-8",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 22,
+     "mark": "same"
+    },
+    {
+     "id": "montai03-2",
+     "cls": "engine",
+     "d0": 52,
+     "d1": 55,
+     "mark": "変差"
+    },
+    {
+     "id": "montai06-7",
+     "cls": "engine",
+     "d0": 69,
+     "d1": 71,
+     "mark": "変差"
+    },
+    {
+     "id": "montai12-6",
+     "cls": "engine",
+     "d0": 33,
+     "d1": 34,
+     "mark": "変差"
+    },
+    {
+     "id": "montai15-8",
+     "cls": "engine",
+     "d0": 27,
+     "d1": 27,
+     "mark": "same"
+    },
+    {
+     "id": "rikutou03-1",
+     "cls": "engine",
+     "d0": 59,
+     "d1": 59,
+     "mark": "same"
+    },
+    {
+     "id": "rikutou09-7",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 33,
+     "mark": "変差"
+    },
+    {
+     "id": "rikutou09-9",
+     "cls": "engine",
+     "d0": 35,
+     "d1": 35,
+     "mark": "same"
+    },
+    {
+     "id": "sonshi07-32",
+     "cls": "engine",
+     "d0": 62,
+     "d1": 63,
+     "mark": "変差"
+    },
+    {
+     "id": "sonshi09-4",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 21,
+     "mark": "same"
+    },
+    {
+     "id": "sonshi09-19",
+     "cls": "engine",
+     "d0": 32,
+     "d1": 31,
+     "mark": "改善"
+    },
+    {
+     "id": "sonshi10-10",
+     "cls": "engine",
+     "d0": 19,
+     "d1": 19,
+     "mark": "same"
+    },
+    {
+     "id": "sonshi10-12",
+     "cls": "engine",
+     "d0": 14,
+     "d1": 13,
+     "mark": "改善"
+    },
+    {
+     "id": "sonshi11-20",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 37,
+     "mark": "same"
+    },
+    {
+     "id": "sonshi12-10",
+     "cls": "engine",
+     "d0": 29,
+     "d1": 30,
+     "mark": "変差"
+    },
+    {
+     "id": "goshi05-2",
+     "cls": "rerun",
+     "d0": 57,
+     "d1": 58,
+     "mark": "変差"
+    },
+    {
+     "id": "rikutou04-2",
+     "cls": "rerun",
+     "d0": 47,
+     "d1": 48,
+     "mark": "変差"
+    },
+    {
+     "id": "rikutou09-5",
+     "cls": "rerun",
+     "d0": 44,
+     "d1": 44,
+     "mark": "same"
+    },
+    {
+     "id": "rikutou21-2",
+     "cls": "rerun",
+     "d0": 126,
+     "d1": 124,
+     "mark": "改善"
+    },
+    {
+     "id": "rikutou40-2",
+     "cls": "rerun",
+     "d0": 64,
+     "d1": 64,
+     "mark": "same"
+    },
+    {
+     "id": "rikutou40-3",
+     "cls": "rerun",
+     "d0": 76,
+     "d1": 76,
+     "mark": "same"
+    }
+   ]
+  },
+  {
+   "id": "T7",
+   "kana": "べきか",
+   "repl": "可し",
+   "guard": [
+    "可"
+   ],
+   "note": "B3 (べ,可) 族对照再測（N92/N94: 31 発火 25 改善/2 変差・20 pair uniform 可し）",
+   "pair_anchor": [
+    "blk",
+    "べきか",
+    "可し"
+   ],
+   "pair_rows": 18,
+   "fired": 31,
+   "better": 26,
+   "worse": 3,
+   "same": 2,
+   "delta": -0.007838,
+   "fired_detail": [
+    {
+     "id": "ayaukimei-1",
+     "cls": "engine",
+     "d0": 25,
+     "d1": 25,
+     "mark": "same"
+    },
+    {
+     "id": "imayukyu-1",
+     "cls": "engine",
+     "d0": 51,
+     "d1": 49,
+     "mark": "改善"
+    },
+    {
+     "id": "iwadaijin-1",
+     "cls": "engine",
+     "d0": 51,
+     "d1": 49,
+     "mark": "改善"
+    },
+    {
+     "id": "onorehaji-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 19,
+     "mark": "改善"
+    },
+    {
+     "id": "omoi-1",
+     "cls": "engine",
+     "d0": 31,
+     "d1": 30,
+     "mark": "改善"
+    },
+    {
+     "id": "omonpaku-1",
+     "cls": "engine",
+     "d0": 61,
+     "d1": 62,
+     "mark": "変差"
+    },
+    {
+     "id": "onkochi-1",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 8,
+     "mark": "改善"
+    },
+    {
+     "id": "kyorankito-2",
+     "cls": "engine",
+     "d0": 20,
+     "d1": 17,
+     "mark": "改善"
+    },
+    {
+     "id": "katakisaki-1",
+     "cls": "engine",
+     "d0": 21,
+     "d1": 15,
+     "mark": "改善"
+    },
+    {
+     "id": "kishinkei-1",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 7,
+     "mark": "改善"
+    },
+    {
+     "id": "kyuyohei-1",
+     "cls": "engine",
+     "d0": 45,
+     "d1": 39,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo0111-1",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 21,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo0420-1",
+     "cls": "engine",
+     "d0": 8,
+     "d1": 5,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo0625-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 13,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0716-1",
+     "cls": "engine",
+     "d0": 55,
+     "d1": 51,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1215-1",
+     "cls": "engine",
+     "d0": 13,
+     "d1": 14,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1311-1",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 22,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1320-1",
+     "cls": "engine",
+     "d0": 56,
+     "d1": 54,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1328-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 34,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1329-1",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 13,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1402-1",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 20,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1419-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 9,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1721-1",
+     "cls": "engine",
+     "d0": 106,
+     "d1": 103,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo2002-1",
+     "cls": "engine",
+     "d0": 149,
+     "d1": 147,
+     "mark": "改善"
+    },
+    {
+     "id": "p-dojitsuno-2",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 17,
+     "mark": "改善"
+    },
+    {
+     "id": "p-furukita-1",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 8,
+     "mark": "改善"
+    },
+    {
+     "id": "p-gobishiaku-1",
+     "cls": "engine",
+     "d0": 60,
+     "d1": 58,
+     "mark": "改善"
+    },
+    {
+     "id": "p-gojueki-1",
+     "cls": "engine",
+     "d0": 17,
+     "d1": 15,
+     "mark": "改善"
+    },
+    {
+     "id": "mobosansen-1",
+     "cls": "engine",
+     "d0": 75,
+     "d1": 75,
+     "mark": "same"
+    },
+    {
+     "id": "sakinzu-4",
+     "cls": "engine",
+     "d0": 48,
+     "d1": 46,
+     "mark": "改善"
+    },
+    {
+     "id": "shika-3",
+     "cls": "engine",
+     "d0": 52,
+     "d1": 51,
+     "mark": "改善"
+    }
+   ]
+  },
+  {
+   "id": "T8",
+   "kana": "るか",
+   "repl": "可し",
+   "guard": [
+    "可"
+   ],
+   "note": "B3 micro 1 pair（るか→可し）",
+   "pair_anchor": [
+    "blk",
+    "るか",
+    "可し"
+   ],
+   "pair_rows": 1,
+   "fired": 34,
+   "better": 7,
+   "worse": 11,
+   "same": 16,
+   "delta": 0.001102,
+   "fired_detail": [
+    {
+     "id": "ashitani-1",
+     "cls": "engine",
+     "d0": 10,
+     "d1": 9,
+     "mark": "改善"
+    },
+    {
+     "id": "iyashikuko-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 37,
+     "mark": "same"
+    },
+    {
+     "id": "seia-5",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 11,
+     "mark": "same"
+    },
+    {
+     "id": "imadaezaru-1",
+     "cls": "engine",
+     "d0": 37,
+     "d1": 37,
+     "mark": "same"
+    },
+    {
+     "id": "yukumonoi-1",
+     "cls": "engine",
+     "d0": 22,
+     "d1": 21,
+     "mark": "改善"
+    },
+    {
+     "id": "kataikana-1",
+     "cls": "engine",
+     "d0": 43,
+     "d1": 43,
+     "mark": "same"
+    },
+    {
+     "id": "rongo0519-1",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 14,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo0606-1",
+     "cls": "engine",
+     "d0": 84,
+     "d1": 87,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo0725-1",
+     "cls": "engine",
+     "d0": 60,
+     "d1": 60,
+     "mark": "same"
+    },
+    {
+     "id": "rongo0820-1",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 50,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1212-1",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 13,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1303-1",
+     "cls": "engine",
+     "d0": 87,
+     "d1": 89,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1311-1",
+     "cls": "engine",
+     "d0": 24,
+     "d1": 26,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1701-1",
+     "cls": "engine",
+     "d0": 63,
+     "d1": 63,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1721-1",
+     "cls": "engine",
+     "d0": 106,
+     "d1": 105,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1805-1",
+     "cls": "engine",
+     "d0": 39,
+     "d1": 38,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1806-1",
+     "cls": "engine",
+     "d0": 90,
+     "d1": 90,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1807-1",
+     "cls": "engine",
+     "d0": 90,
+     "d1": 90,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1808-1",
+     "cls": "engine",
+     "d0": 69,
+     "d1": 70,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1903-1",
+     "cls": "engine",
+     "d0": 57,
+     "d1": 58,
+     "mark": "変差"
+    },
+    {
+     "id": "rongo1904-1",
+     "cls": "engine",
+     "d0": 15,
+     "d1": 15,
+     "mark": "same"
+    },
+    {
+     "id": "rongo1912-1",
+     "cls": "engine",
+     "d0": 76,
+     "d1": 77,
+     "mark": "変差"
+    },
+    {
+     "id": "kunshigio-1",
+     "cls": "engine",
+     "d0": 34,
+     "d1": 34,
+     "mark": "same"
+    },
+    {
+     "id": "ransho-1",
+     "cls": "engine",
+     "d0": 39,
+     "d1": 39,
+     "mark": "same"
+    },
+    {
+     "id": "shiseinishite-1",
+     "cls": "engine",
+     "d0": 73,
+     "d1": 73,
+     "mark": "same"
+    },
+    {
+     "id": "daigaku10-8",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 42,
+     "mark": "変差"
+    },
+    {
+     "id": "montai04-3",
+     "cls": "engine",
+     "d0": 50,
+     "d1": 50,
+     "mark": "same"
+    },
+    {
+     "id": "montai12-11",
+     "cls": "engine",
+     "d0": 26,
+     "d1": 24,
+     "mark": "改善"
+    },
+    {
+     "id": "roushi20-1",
+     "cls": "engine",
+     "d0": 41,
+     "d1": 43,
+     "mark": "変差"
+    },
+    {
+     "id": "roushi31-2",
+     "cls": "engine",
+     "d0": 46,
+     "d1": 46,
+     "mark": "same"
+    },
+    {
+     "id": "utsuryo12-4",
+     "cls": "engine",
+     "d0": 46,
+     "d1": 46,
+     "mark": "same"
+    },
+    {
+     "id": "utsuryo12-5",
+     "cls": "engine",
+     "d0": 82,
+     "d1": 83,
+     "mark": "変差"
+    },
+    {
+     "id": "utsuryo02-4",
+     "cls": "rerun",
+     "d0": 47,
+     "d1": 46,
+     "mark": "改善"
+    },
+    {
+     "id": "utsuryo03-6",
+     "cls": "rerun",
+     "d0": 67,
+     "d1": 68,
+     "mark": "変差"
+    }
+   ]
+  },
+  {
+   "id": "T9",
+   "kana": "ことなき",
+   "repl": "こと莫き",
+   "guard": [
+    "莫"
+   ],
+   "note": "禁区对照（N92 T4 2 変差維持確認・got 已含莫かれ・exp 字形混在）",
+   "pair_anchor": [
+    "blk",
+    "ことなき",
+    "こと莫き"
+   ],
+   "pair_rows": 0,
+   "fired": 15,
+   "better": 12,
+   "worse": 2,
+   "same": 1,
+   "delta": -0.00147,
+   "fired_detail": [
+    {
+     "id": "mujun-2",
+     "cls": "engine",
+     "d0": 11,
+     "d1": 10,
+     "mark": "改善"
+    },
+    {
+     "id": "onoreshiru-1",
+     "cls": "engine",
+     "d0": 18,
+     "d1": 17,
+     "mark": "改善"
+    },
+    {
+     "id": "kagakujota-1",
+     "cls": "engine",
+     "d0": 27,
+     "d1": 26,
+     "mark": "改善"
+    },
+    {
+     "id": "kanchuna-1",
+     "cls": "engine",
+     "d0": 82,
+     "d1": 81,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo0615-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 11,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo0732-1",
+     "cls": "engine",
+     "d0": 23,
+     "d1": 22,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1315-1",
+     "cls": "engine",
+     "d0": 115,
+     "d1": 112,
+     "mark": "改善"
+    },
+    {
+     "id": "rongo1442-1",
+     "cls": "engine",
+     "d0": 55,
+     "d1": 54,
+     "mark": "改善"
+    },
+    {
+     "id": "p-danjoshitsu-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 35,
+     "mark": "改善"
+    },
+    {
+     "id": "tarekako-1",
+     "cls": "engine",
+     "d0": 12,
+     "d1": 11,
+     "mark": "改善"
+    },
+    {
+     "id": "tonan-1",
+     "cls": "engine",
+     "d0": 29,
+     "d1": 28,
+     "mark": "改善"
+    },
+    {
+     "id": "warekimi-1",
+     "cls": "engine",
+     "d0": 36,
+     "d1": 35,
+     "mark": "改善"
+    },
+    {
+     "id": "roushi46-2",
+     "cls": "engine",
+     "d0": 34,
+     "d1": 35,
+     "mark": "変差"
+    },
+    {
+     "id": "utsuryo03-7",
+     "cls": "engine",
+     "d0": 63,
+     "d1": 63,
+     "mark": "same"
+    },
+    {
+     "id": "rikutou26-5",
+     "cls": "rerun",
+     "d0": 53,
+     "d1": 54,
+     "mark": "変差"
+    }
+   ]
+  }
+ ]
+}
