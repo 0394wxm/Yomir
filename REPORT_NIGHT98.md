@@ -26,7 +26,7 @@
 | 行分类 | engine 7916 / echo 30 / rerun 218 / no_tail 1（reachable 8134） | 同 | 一致 |
 | lev 实现 | 纯 Python 回退（.night72_deps 不存在＝N86 先例，与归档同一算法） | 同 | 一致 |
 | master 链 | f80046e（心跳）→ 9c4c308（merge --no-ff night96-rules）→ d5d22bd（登记）→ d7bd2ff（wrap-up） | 同 | 一致 |
-| 分支/远程 | night98-report 未合 master；origin/master＝9d3b8a8（N95 链），master 未推 rev-list=6 | 同 | 一致 |
+| 分支/远程 | night98-report 未合 master、未推远程；origin/master＝**d7bd2ff**（N97 链已由用户推送・本夜实测），本夜零推送 | 交接记录为 9d3b8a8 未推＝已变化（用户侧推送・非本夜行为） | 已更新 |
 
 审计硬门全部通过（pytest／verify／双口径逐位／词库 1531／行分类——任何一项对不上即 exit 2，本夜无触发）。
 
