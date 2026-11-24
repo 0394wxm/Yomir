@@ -1007,3 +1007,4 @@ repo_clean 如实 FAIL（验收门设计行为），提交后终跑 PASS。
 [2026-11-24 17:35] night92 收尾：verify 20/20 exit 0（归档源 night86→night92 切换＋Rule Q 語数断言追加・README テスト行 453/8165 行 13.500 同步）。NIGHT_ARTIFACTS 加 92 登记完毕，REPORT_NIGHT92.md 写入，主提交前。
 [2026-11-24 17:39] Night 92 完成：accept 92 PASS fail=0 skip=0（30.8s 首跑即 PASS・七门全绿・eval_integrity 実查 night92_results_4000.json）。分支两提交 22e4e9e（主）＋wrap-up，未合 master、未推远程。Rule Q 2 条収録（ことなく→こと莫く・すべからず→可からず），golden_4000 13.491/24/0 持平、golden_8165 13.502→13.500 改善，pytest 453。
 [2026-11-24 18:24] night93 合并夜开工：master=b6a6248 确认，pytest 443 passed，night92-ruleq tip=a39e648、merge-base=b6a6248（N92 自 master 直分）。合并 night92-ruleq（Rule Q 2 条）进 master 开始。
+[2026-11-24 18:31] night93 合后验证：pytest 453 passed；golden_4000 13.491/24/0 与 night92 归档逐位一致（diff 0 行）；golden_8165 13.500/30/0 逐位一致（N91 13.502 から 37 行改写改善生效）；词库 1531 实证；verify 20/20 exit 0。
