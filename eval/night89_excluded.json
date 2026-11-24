@@ -1,0 +1,1626 @@
+{
+ "generated": "2026-11-24T14:04",
+ "rule": "dual evidence gate: weblio dictionary + corpus (golden_8165 lines / kanbun.info ruby)",
+ "excluded": [
+  {
+   "word": "一乗",
+   "rank": 0,
+   "freq": 2,
+   "exclude_reason": "weblio 404 相当：大辞泉条目は仏語義のみ（法華経の一仏乗）で语料「周の一乗は歩卒七十二人」兵制単位義と sense-mismatch（N80 天井・N82 平台 先例）"
+  },
+  {
+   "word": "一以",
+   "rank": 1,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：一以て之を貫く（一以貫之）の読み節、単語でない（N79 数え・構文断片 口径）"
+  },
+  {
+   "word": "一善",
+   "rank": 3,
+   "freq": 2,
+   "exclude_reason": "機械生成区のみ：Weblio日本語例文用例辞書だけで国語辞書条目なし（N82 幾時 同例）"
+  },
+  {
+   "word": "一屯",
+   "rank": 6,
+   "freq": 2,
+   "exclude_reason": "404・数え構文断片：三十騎を一屯と為し（軍制単位、N82 五十歩 同例）"
+  },
+  {
+   "word": "一率",
+   "rank": 11,
+   "freq": 2,
+   "exclude_reason": "404・数え構文断片：百騎に一率（軍制単位）"
+  },
+  {
+   "word": "一経",
+   "rank": 14,
+   "freq": 2,
+   "exclude_reason": "Wikipedia のみ保守排除（一経＝一つの経書、語料义は翻案可を注明・N80 令尹 同例）"
+  },
+  {
+   "word": "一術",
+   "rank": 17,
+   "freq": 2,
+   "exclude_reason": "404・兵書専門語：一術を正と為し（六韜系、N82 扶胥 同例）"
+  },
+  {
+   "word": "一長",
+   "rank": 19,
+   "freq": 2,
+   "exclude_reason": "機械生成区のみ：例文用例辞書だけで国語辞書条目なし"
+  },
+  {
+   "word": "一雁",
+   "rank": 20,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載（N82 寒空 さむぞら 同列・証拠なき読みを造らない）"
+  },
+  {
+   "word": "七術",
+   "rank": 21,
+   "freq": 2,
+   "exclude_reason": "404・韓非子専門語（主の用うる所七術）"
+  },
+  {
+   "word": "七貴",
+   "rank": 22,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載"
+  },
+  {
+   "word": "万徹",
+   "rank": 23,
+   "freq": 2,
+   "exclude_reason": "404・人名（李万徹）、weblio 不載＝N80 同类词形整组排除先例"
+  },
+  {
+   "word": "三万",
+   "rank": 29,
+   "freq": 2,
+   "exclude_reason": "404・数詞構文断片：三万の衆"
+  },
+  {
+   "word": "三勝",
+   "rank": 30,
+   "freq": 2,
+   "exclude_reason": "専門辞典（隠語大辞典）のみ・読み さんかつ 不審で语料「兵の三勝」と义一致を確認できず（N82 専門辞典は语料义一致時のみ・未達）"
+  },
+  {
+   "word": "三宮",
+   "rank": 32,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：大辞泉＝三后（三后宮）・神戸地名、语料「天将三宮を下り」诗语义と不一致（N80 天井 先例）"
+  },
+  {
+   "word": "三山",
+   "rank": 35,
+   "freq": 2,
+   "exclude_reason": "新語時事用語辞典（現代コブト）のみで国語辞書条目なし・语料（蓬莱方丈瀛洲の仙山义）と不一致、Wikipedia 区のみ（N82 江城 同例）"
+  },
+  {
+   "word": "三発",
+   "rank": 38,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：三発して一知す（韓非子）"
+  },
+  {
+   "word": "三隊",
+   "rank": 41,
+   "freq": 2,
+   "exclude_reason": "機械区のみ：ウィキペディア小見出し辞書だけで国語辞書条目なし"
+  },
+  {
+   "word": "上仁",
+   "rank": 42,
+   "freq": 2,
+   "exclude_reason": "404・老子専門語（上仁為之而無以為）"
+  },
+  {
+   "word": "上六",
+   "rank": 43,
+   "freq": 2,
+   "exclude_reason": "Wikipedia のみ保守排除（易経爻名・翻案可を注明）"
+  },
+  {
+   "word": "上将",
+   "rank": 45,
+   "freq": 2,
+   "exclude_reason": "Wikipedia のみ保守排除（上将軍義・翻案可を注明）"
+  },
+  {
+   "word": "上義",
+   "rank": 48,
+   "freq": 2,
+   "exclude_reason": "404・老子専門語（上義為之而有以為）"
+  },
+  {
+   "word": "上許",
+   "rank": 49,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：上（皇帝）が許す＝主語＋動詞の文節連接、単語でない"
+  },
+  {
+   "word": "上驚",
+   "rank": 52,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：上（皇帝）が驚く＝主語＋動詞の連接、単語でない"
+  },
+  {
+   "word": "不賢",
+   "rank": 58,
+   "freq": 2,
+   "exclude_reason": "404・否定形で辞書不載（不賢を見ては）"
+  },
+  {
+   "word": "世主",
+   "rank": 60,
+   "freq": 2,
+   "exclude_reason": "404・構文語で辞書不載（世の主）"
+  },
+  {
+   "word": "丘与",
+   "rank": 63,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：丘（孔子）与に易えざる＝主語＋介詞の連接"
+  },
+  {
+   "word": "丘墓",
+   "rank": 64,
+   "freq": 2,
+   "exclude_reason": "404・列挙構文断片（城邑、丘墓、地形の利）"
+  },
+  {
+   "word": "両陣",
+   "rank": 69,
+   "freq": 2,
+   "exclude_reason": "404・軍事構文断片（両陣の間）"
+  },
+  {
+   "word": "中宵",
+   "rank": 71,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載（中宵＝真夜中、証拠なき読みを造らない）"
+  },
+  {
+   "word": "中略",
+   "rank": 75,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：大辞泉＝引用の省略記号、语料＝兵書三略の中篇（N82 建徳 先例）"
+  },
+  {
+   "word": "主曰",
+   "rank": 80,
+   "freq": 2,
+   "exclude_reason": "404・X曰系呼称部（主曰く、N79 X-yune パターン）"
+  },
+  {
+   "word": "主無",
+   "rank": 81,
+   "freq": 2,
+   "exclude_reason": "404・X+無系構文断片（官に主無ければ）"
+  },
+  {
+   "word": "主第",
+   "rank": 82,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載（公主の邸、証拠なき読みを造らない）"
+  },
+  {
+   "word": "九河",
+   "rank": 87,
+   "freq": 2,
+   "exclude_reason": "404・黄河九派の専門語で辞書不載"
+  },
+  {
+   "word": "予君",
+   "rank": 91,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：予君たる（われ君たる）＝代名詞＋名詞連接"
+  },
+  {
+   "word": "予譲",
+   "rank": 92,
+   "freq": 2,
+   "exclude_reason": "Wikipedia のみ保守排除（人名 豫譲・翻案可を注明・N80 令尹 同例）"
+  },
+  {
+   "word": "予違",
+   "rank": 93,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：予違わば（書経 予違汝弼＝主語＋動詞）"
+  },
+  {
+   "word": "事成",
+   "rank": 94,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：事成らず（事＋動詞の連接）"
+  },
+  {
+   "word": "事毎",
+   "rank": 95,
+   "freq": 2,
+   "exclude_reason": "機械区のみ・構文断片：事毎に問う（事ごとに、副詞的連接で辞書条目なし）"
+  },
+  {
+   "word": "事無",
+   "rank": 96,
+   "freq": 2,
+   "exclude_reason": "機械区のみ・X+無系構文断片（事無ければ）"
+  },
+  {
+   "word": "二山",
+   "rank": 98,
+   "freq": 2,
+   "exclude_reason": "名字辞典のみ（名字義）で语料（太行王屋の二山）と sense-mismatch・専門辞典未許可"
+  },
+  {
+   "word": "二年",
+   "rank": 99,
+   "freq": 2,
+   "exclude_reason": "404・数詞構文断片：積むこと二年"
+  },
+  {
+   "word": "五兵",
+   "rank": 100,
+   "freq": 2,
+   "exclude_reason": "404・兵書専門語（蚩尤五兵）で辞書不載"
+  },
+  {
+   "word": "五火",
+   "rank": 103,
+   "freq": 2,
+   "exclude_reason": "専門辞典（隠語大辞典）のみ・読み こび／ごび 不審で语料（孫子 五火の変）と読み义一致を確認できず"
+  },
+  {
+   "word": "五車",
+   "rank": 105,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：大辞泉＝書物の多いこと（恵子五車）、语料＝軍制の車五両（数え構文）"
+  },
+  {
+   "word": "人之",
+   "rank": 110,
+   "freq": 2,
+   "exclude_reason": "404・構文断片（人之＝名詞＋指示詞）"
+  },
+  {
+   "word": "人任",
+   "rank": 112,
+   "freq": 2,
+   "exclude_reason": "機械区のみ・構文断片：人任じ＝人を任じる（主語＋動詞）"
+  },
+  {
+   "word": "人去",
+   "rank": 113,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：人去り尽くす"
+  },
+  {
+   "word": "人固",
+   "rank": 114,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：人固より一死有り（人＋副詞）"
+  },
+  {
+   "word": "人望",
+   "rank": 115,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：大辞泉＝人望（popularity 名詞）、语料＝儼然として人望みて之を畏る（人が望む 主語＋動詞の誤連接）"
+  },
+  {
+   "word": "人未",
+   "rank": 116,
+   "freq": 2,
+   "exclude_reason": "短編小説作品名辞典のみ・语料は「人未だ」構文断片"
+  },
+  {
+   "word": "人能",
+   "rank": 117,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：人能く道を弘む"
+  },
+  {
+   "word": "人言",
+   "rank": 118,
+   "freq": 2,
+   "exclude_reason": "語料は解析 artifact：「子曰く、夫の人言」＝論語「夫人不言」の誤分割（大辞泉 人言条目はあるが语料义と対位せず）"
+  },
+  {
+   "word": "人陣",
+   "rank": 119,
+   "freq": 2,
+   "exclude_reason": "404・六韜専門語（天陣地陣人陣）"
+  },
+  {
+   "word": "仁有",
+   "rank": 120,
+   "freq": 2,
+   "exclude_reason": "404・X+有系構文断片（井に仁有りと曰う）"
+  },
+  {
+   "word": "仁聖",
+   "rank": 121,
+   "freq": 2,
+   "exclude_reason": "404・荘子専門語（仁聖の道）で辞書不載"
+  },
+  {
+   "word": "以有",
+   "rank": 129,
+   "freq": 2,
+   "exclude_reason": "404・X+有系構文断片（以て有るなり）"
+  },
+  {
+   "word": "以謂",
+   "rank": 131,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：以謂えらく＝以て謂えらく（副詞＋動詞）"
+  },
+  {
+   "word": "仲忽",
+   "rank": 132,
+   "freq": 2,
+   "exclude_reason": "404・人名（周八士）、weblio 不載＝整组排除先例"
+  },
+  {
+   "word": "仲曰",
+   "rank": 133,
+   "freq": 2,
+   "exclude_reason": "404・X曰系呼称部（仲曰く＝管仲）"
+  },
+  {
+   "word": "仲突",
+   "rank": 134,
+   "freq": 2,
+   "exclude_reason": "404・人名（周八士）"
+  },
+  {
+   "word": "伏波",
+   "rank": 135,
+   "freq": 2,
+   "exclude_reason": "404・官名人名（伏波将軍馬援）、weblio 不載＝整组排除先例"
+  },
+  {
+   "word": "伐氷",
+   "rank": 136,
+   "freq": 2,
+   "exclude_reason": "404・礼記専門語（伐氷之家）"
+  },
+  {
+   "word": "休明",
+   "rank": 137,
+   "freq": 2,
+   "exclude_reason": "機械区のみ（左傳語・国語辞書条目なし）"
+  },
+  {
+   "word": "会地",
+   "rank": 139,
+   "freq": 2,
+   "exclude_reason": "機械区のみ・尉繚子専門語（会地に期す）"
+  },
+  {
+   "word": "伯氏",
+   "rank": 142,
+   "freq": 2,
+   "exclude_reason": "404・呼称部（伯氏＝兄分の氏）"
+  },
+  {
+   "word": "伯适",
+   "rank": 143,
+   "freq": 2,
+   "exclude_reason": "404・人名（周八士）"
+  },
+  {
+   "word": "伯達",
+   "rank": 144,
+   "freq": 2,
+   "exclude_reason": "404・人名（周八士）"
+  },
+  {
+   "word": "伯魚",
+   "rank": 145,
+   "freq": 2,
+   "exclude_reason": "404・人名（孔子の子 鯉）"
+  },
+  {
+   "word": "位無",
+   "rank": 147,
+   "freq": 2,
+   "exclude_reason": "404・X+無系構文断片（位無きを患えず）"
+  },
+  {
+   "word": "体胖",
+   "rank": 148,
+   "freq": 2,
+   "exclude_reason": "404・大学専門語（心広体胖）"
+  },
+  {
+   "word": "何遽",
+   "rank": 150,
+   "freq": 2,
+   "exclude_reason": "404・文語疑問副詞で辞書不載（何遽ぞ＝どうして〜か、証拠なき読みを造らない）"
+  },
+  {
+   "word": "余奇",
+   "rank": 151,
+   "freq": 2,
+   "exclude_reason": "404・握機経専門語（余奇を握機と為す）"
+  },
+  {
+   "word": "佳兵",
+   "rank": 152,
+   "freq": 2,
+   "exclude_reason": "404・老子専門語（佳兵者不祥之器）"
+  },
+  {
+   "word": "佳士",
+   "rank": 153,
+   "freq": 2,
+   "exclude_reason": "404・構文語で辞書不載（佳き士）"
+  },
+  {
+   "word": "佳期",
+   "rank": 154,
+   "freq": 2,
+   "exclude_reason": "404・楚辞語で辞書不載"
+  },
+  {
+   "word": "侯王",
+   "rank": 156,
+   "freq": 2,
+   "exclude_reason": "404・構文語で辞書不載（侯と王・老子語）"
+  },
+  {
+   "word": "信有",
+   "rank": 160,
+   "freq": 2,
+   "exclude_reason": "404・X+有系構文断片（言いて信有らば）"
+  },
+  {
+   "word": "信無",
+   "rank": 161,
+   "freq": 2,
+   "exclude_reason": "404・X+無系構文断片（信無くんば）"
+  },
+  {
+   "word": "信言",
+   "rank": 162,
+   "freq": 2,
+   "exclude_reason": "404・老子専門語（信言は美ならず）"
+  },
+  {
+   "word": "偏箱",
+   "rank": 164,
+   "freq": 2,
+   "exclude_reason": "404・兵車専門語（偏箱車）"
+  },
+  {
+   "word": "備曰",
+   "rank": 165,
+   "freq": 2,
+   "exclude_reason": "404・X曰系呼称部（備曰く＝劉備）"
+  },
+  {
+   "word": "僧問",
+   "rank": 168,
+   "freq": 2,
+   "exclude_reason": "404・X問系呼称部（僧問う＝禅録）"
+  },
+  {
+   "word": "儀忒",
+   "rank": 169,
+   "freq": 2,
+   "exclude_reason": "404・詩経専門語（其の儀忒わず）"
+  },
+  {
+   "word": "全曲",
+   "rank": 175,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：大辞泉＝曲の全体（音楽）、语料＝尉繚子兵教の条目名（曲折相従い）"
+  },
+  {
+   "word": "全車",
+   "rank": 177,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：大辞泉＝貨車等の車全体、语料＝尉繚子兵教の条目名（甲首相附き）"
+  },
+  {
+   "word": "八寸",
+   "rank": 178,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：大辞泉＝料理の八寸、语料＝符の長さ八寸（数詞＋寸の構文）"
+  },
+  {
+   "word": "八尺",
+   "rank": 179,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：大辞泉＝やさか（尊称のみ）、语料＝長さ八尺・八尺の車輪（証拠なき読みを造らない）"
+  },
+  {
+   "word": "六四",
+   "rank": 182,
+   "freq": 2,
+   "exclude_reason": "専門辞典（隠語大辞典）のみ・読み むし 不審で语料（易経爻名）と义一致を確認できず"
+  },
+  {
+   "word": "六寸",
+   "rank": 184,
+   "freq": 2,
+   "exclude_reason": "専門辞典（隠語大辞典）のみ（長さ六寸・実用日本語表現・植物名辞典以外の専門辞典は未許可）"
+  },
+  {
+   "word": "六章",
+   "rank": 188,
+   "freq": 2,
+   "exclude_reason": "404・大学伝六章の章数構文"
+  },
+  {
+   "word": "六論",
+   "rank": 189,
+   "freq": 2,
+   "exclude_reason": "404・呂氏春秋六論の書名構成語"
+  },
+  {
+   "word": "共工",
+   "rank": 190,
+   "freq": 2,
+   "exclude_reason": "専門辞典（世界宗教用語大事典）のみ・N82 許可済み専門辞典（実用日本語表現・植物名）以外は未許可（翻案可を注明）"
+  },
+  {
+   "word": "兵少",
+   "rank": 192,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：兵少く食尽く"
+  },
+  {
+   "word": "兵弱",
+   "rank": 193,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：兵弱く国亡う"
+  },
+  {
+   "word": "兵教",
+   "rank": 194,
+   "freq": 2,
+   "exclude_reason": "404・尉繚子篇名（兵教の法）"
+  },
+  {
+   "word": "具臣",
+   "rank": 195,
+   "freq": 2,
+   "exclude_reason": "404・論語語（具臣と謂う可し）で辞書不載"
+  },
+  {
+   "word": "内則",
+   "rank": 196,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：大辞泉＝団体の内部規則・内規、语料＝礼記の篇名（曲礼少儀内則弟子職）"
+  },
+  {
+   "word": "冕者",
+   "rank": 198,
+   "freq": 2,
+   "exclude_reason": "404・論語語（冕者と瞽者と）で辞書不載"
+  },
+  {
+   "word": "処所",
+   "rank": 202,
+   "freq": 2,
+   "exclude_reason": "404・構文語で辞書不載（其の処所を究めしむ）"
+  },
+  {
+   "word": "凶服",
+   "rank": 204,
+   "freq": 2,
+   "exclude_reason": "404・論語語（凶服の者には之に式す）で辞書不載"
+  },
+  {
+   "word": "函関",
+   "rank": 206,
+   "freq": 2,
+   "exclude_reason": "404・地名（函谷関）で辞書不載"
+  },
+  {
+   "word": "分日",
+   "rank": 207,
+   "freq": 2,
+   "exclude_reason": "404・尉繚子専門語（戒むること分日）"
+  },
+  {
+   "word": "分限",
+   "rank": 208,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：大辞泉＝身分・財力、语料＝尉繚子兵教の条目名（左右相禁じ）"
+  },
+  {
+   "word": "剣刃",
+   "rank": 219,
+   "freq": 2,
+   "exclude_reason": "404・六韜兵器語（剣刃の扶胥）"
+  },
+  {
+   "word": "劉氏",
+   "rank": 220,
+   "freq": 2,
+   "exclude_reason": "Wikipedia のみ保守排除（漢の劉氏・翻案可を注明）"
+  },
+  {
+   "word": "力卒",
+   "rank": 221,
+   "freq": 2,
+   "exclude_reason": "404・尉繚子兵教条目名（十二に曰く力卒）"
+  },
+  {
+   "word": "力屈",
+   "rank": 222,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：力屈し財中原に殫き（力＋動詞）"
+  },
+  {
+   "word": "力能",
+   "rank": 223,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：顧うに力能わざるのみ"
+  },
+  {
+   "word": "勇有",
+   "rank": 227,
+   "freq": 2,
+   "exclude_reason": "404・X+有系構文断片（仁者は必ず勇有り）"
+  },
+  {
+   "word": "勇無",
+   "rank": 228,
+   "freq": 2,
+   "exclude_reason": "404・X+無系構文断片（義を見て為ざるは勇無きなり）"
+  },
+  {
+   "word": "勝兵",
+   "rank": 229,
+   "freq": 2,
+   "exclude_reason": "404・孫子軍形語（勝兵は先ず勝ちて）で辞書不載"
+  },
+  {
+   "word": "匏瓜",
+   "rank": 231,
+   "freq": 2,
+   "exclude_reason": "404・論語語（吾豈に匏瓜ならんや）で辞書不載"
+  },
+  {
+   "word": "北人",
+   "rank": 232,
+   "freq": 2,
+   "exclude_reason": "Wikipedia のみ保守排除（世説語・翻案可を注明）"
+  },
+  {
+   "word": "北渚",
+   "rank": 233,
+   "freq": 2,
+   "exclude_reason": "404・楚辞詩語で辞書不載"
+  },
+  {
+   "word": "北門",
+   "rank": 234,
+   "freq": 2,
+   "exclude_reason": "専門辞典（地名辞典）のみ・読み キタモンで语料（北の城門・商君書）と対位せず"
+  },
+  {
+   "word": "十一",
+   "rank": 239,
+   "freq": 2,
+   "exclude_reason": "数え構文断片：十一に曰く（尉繚子・握機経の条目番号列挙）"
+  },
+  {
+   "word": "十手",
+   "rank": 240,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：大辞泉＝武器の十手、语料＝十の手（十目十手の数え構文）"
+  },
+  {
+   "word": "十觴",
+   "rank": 242,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載（十觴亦た酔わず）"
+  },
+  {
+   "word": "十里",
+   "rank": 243,
+   "freq": 2,
+   "exclude_reason": "専門辞典（地名辞典）のみ（地名義）で语料（十里の堤＝距離）と対位せず・未許可"
+  },
+  {
+   "word": "千騎",
+   "rank": 248,
+   "freq": 2,
+   "exclude_reason": "404・数え構文・詩語（使君千騎にて帰る）で辞書不載"
+  },
+  {
+   "word": "南容",
+   "rank": 252,
+   "freq": 2,
+   "exclude_reason": "404・人名（論語 南容）で辞書不載"
+  },
+  {
+   "word": "南斗",
+   "rank": 253,
+   "freq": 2,
+   "exclude_reason": "Wikipedia のみ保守排除（星宿名・翻案可を注明）"
+  },
+  {
+   "word": "南湖",
+   "rank": 257,
+   "freq": 2,
+   "exclude_reason": "専門辞典（河川・湖沼名辞典）のみ・未許可（N82 許可済みは実用日本語表現・植物名のみ）"
+  },
+  {
+   "word": "南門",
+   "rank": 258,
+   "freq": 2,
+   "exclude_reason": "機械区のみ：ウィキペディア小見出し辞書だけで国語辞書条目なし"
+  },
+  {
+   "word": "単車",
+   "rank": 260,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：大辞泉＝オートバイ、语料＝一輌の戦車（単車辺を問わんと欲し）"
+  },
+  {
+   "word": "危石",
+   "rank": 263,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載（泉声危石に咽び）"
+  },
+  {
+   "word": "原上",
+   "rank": 265,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch・専門辞典（地名辞典）のみ：読み ハルガミ＝日本の地名で语料（原の上）と対位せず・未許可"
+  },
+  {
+   "word": "厭然",
+   "rank": 267,
+   "freq": 2,
+   "exclude_reason": "404・大学語（厭然として其の不善を揜いて）で辞書不載"
+  },
+  {
+   "word": "又之",
+   "rank": 269,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：又之を相く（副詞＋代名詞）"
+  },
+  {
+   "word": "又能",
+   "rank": 270,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：又能く死節する者（副詞＋動詞）"
+  },
+  {
+   "word": "双双",
+   "rank": 272,
+   "freq": 2,
+   "exclude_reason": "404・畳語詩語で辞書不載（胡蝶双双）"
+  },
+  {
+   "word": "双峰",
+   "rank": 273,
+   "freq": 2,
+   "exclude_reason": "機械区のみ（ウィキペディア小見出し・寺名義で语料と対位せず）"
+  },
+  {
+   "word": "双闕",
+   "rank": 274,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載（双闕の連甍）"
+  },
+  {
+   "word": "叔夏",
+   "rank": 275,
+   "freq": 2,
+   "exclude_reason": "404・人名（周八士）"
+  },
+  {
+   "word": "叔夜",
+   "rank": 276,
+   "freq": 2,
+   "exclude_reason": "404・人名（周八士）"
+  },
+  {
+   "word": "右背",
+   "rank": 281,
+   "freq": 2,
+   "exclude_reason": "404・孫子軍行語（高きを右背にし）で辞書不載"
+  },
+  {
+   "word": "右角",
+   "rank": 282,
+   "freq": 2,
+   "exclude_reason": "404・荘子語（蝸の右角）で辞書不載"
+  },
+  {
+   "word": "名姓",
+   "rank": 287,
+   "freq": 2,
+   "exclude_reason": "404・構文語で辞書不載（名姓を変じて）"
+  },
+  {
+   "word": "名正",
+   "rank": 288,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：名正しからざれば"
+  },
+  {
+   "word": "吏有",
+   "rank": 290,
+   "freq": 2,
+   "exclude_reason": "404・X+有系構文断片（里に吏有り）"
+  },
+  {
+   "word": "君去",
+   "rank": 291,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：君去って試みに看よ（主語＋動詞）"
+  },
+  {
+   "word": "君在",
+   "rank": 292,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：君在せば踧踖如たり"
+  },
+  {
+   "word": "君師",
+   "rank": 293,
+   "freq": 2,
+   "exclude_reason": "404・構文語で辞書不載（君師の位）"
+  },
+  {
+   "word": "君怒",
+   "rank": 294,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：君怒る"
+  },
+  {
+   "word": "君有",
+   "rank": 295,
+   "freq": 2,
+   "exclude_reason": "404・X+有系構文断片（夷狄の君有るは）"
+  },
+  {
+   "word": "君祭",
+   "rank": 296,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：君祭れば先ず飯す"
+  },
+  {
+   "word": "君自",
+   "rank": 297,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：君自ら寛うせよ"
+  },
+  {
+   "word": "君薨",
+   "rank": 298,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：君薨ずれば"
+  },
+  {
+   "word": "君長",
+   "rank": 299,
+   "freq": 2,
+   "exclude_reason": "404・構文語で辞書不載（西南夷の君長）"
+  },
+  {
+   "word": "吾与",
+   "rank": 300,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：吾与にせざる（代名詞＋介詞）"
+  },
+  {
+   "word": "吾女",
+   "rank": 301,
+   "freq": 2,
+   "exclude_reason": "語料は解析 artifact：吾女＝「吾女を以て死せりと為す」（吾＋女 なんじ）の誤連接・dict（わおんな 現代俗語）と sense-mismatch"
+  },
+  {
+   "word": "吾少",
+   "rank": 302,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：吾少くして賤し"
+  },
+  {
+   "word": "吾日",
+   "rank": 303,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：吾日に三たび吾が身を省みる"
+  },
+  {
+   "word": "吾知",
+   "rank": 304,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：吾知ること有らんや"
+  },
+  {
+   "word": "吾老",
+   "rank": 305,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：吾老いたり"
+  },
+  {
+   "word": "吾試",
+   "rank": 306,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：吾試いられず"
+  },
+  {
+   "word": "吾諸",
+   "rank": 307,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：吾諸を夫子に聞けり"
+  },
+  {
+   "word": "周文",
+   "rank": 308,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：大辞泉＝室町の画僧周文（天章）、语料＝周の文王（周文の鎬に燕するを歌いし・鎬飲周文の楽しみ）"
+  },
+  {
+   "word": "周行",
+   "rank": 309,
+   "freq": 2,
+   "exclude_reason": "404・詩経・老子語（周行して殆まらず）で辞書不載"
+  },
+  {
+   "word": "哀怨",
+   "rank": 311,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載（玉関の哀怨）"
+  },
+  {
+   "word": "哀戚",
+   "rank": 312,
+   "freq": 2,
+   "exclude_reason": "404・孝経語（之を哀戚し）で辞書不載"
+  },
+  {
+   "word": "哀矜",
+   "rank": 313,
+   "freq": 2,
+   "exclude_reason": "Wiktionary のみ（機械区）で国語辞書条目なし"
+  },
+  {
+   "word": "商山",
+   "rank": 315,
+   "freq": 2,
+   "exclude_reason": "404・地名（商山四皓）で辞書不載"
+  },
+  {
+   "word": "善賈",
+   "rank": 317,
+   "freq": 2,
+   "exclude_reason": "404・論語語（善賈を求めて）で辞書不載"
+  },
+  {
+   "word": "営塁",
+   "rank": 319,
+   "freq": 2,
+   "exclude_reason": "404・軍事語で辞書不載（三軍の営塁）"
+  },
+  {
+   "word": "四旁",
+   "rank": 321,
+   "freq": 2,
+   "exclude_reason": "404・六韜語（其の四旁を御し）で辞書不載"
+  },
+  {
+   "word": "四章",
+   "rank": 323,
+   "freq": 2,
+   "exclude_reason": "404・大学伝四章の章数構文"
+  },
+  {
+   "word": "四維",
+   "rank": 324,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：大辞泉＝礼義廉恥、语料＝四つの綱で支える（之を四維するがごとし・江山四維を弁ず）"
+  },
+  {
+   "word": "固曰",
+   "rank": 326,
+   "freq": 2,
+   "exclude_reason": "404・X曰系呼称部（固曰く＝伏生）"
+  },
+  {
+   "word": "固毋",
+   "rank": 327,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：固毋く（子の四絶）"
+  },
+  {
+   "word": "固老",
+   "rank": 328,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：固老いたり（固＝人名＋形容詞）"
+  },
+  {
+   "word": "国亡",
+   "rank": 329,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：其の国必ず亡ぶ"
+  },
+  {
+   "word": "国安",
+   "rank": 331,
+   "freq": 2,
+   "exclude_reason": "構文断片：国安くして民治まる（主語＋形容詞）・dict は名字义で対位せず"
+  },
+  {
+   "word": "国富",
+   "rank": 332,
+   "freq": 2,
+   "exclude_reason": "構文断片：国富みて家娯しむ（主語＋形容詞）・dict（経済用語 国の富）と対位せず"
+  },
+  {
+   "word": "国必",
+   "rank": 333,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：其の国必ず削らる"
+  },
+  {
+   "word": "国門",
+   "rank": 336,
+   "freq": 2,
+   "exclude_reason": "名字辞典のみ（名字義）で语料（国の城門・尉繚子）と対位せず・未許可"
+  },
+  {
+   "word": "地大",
+   "rank": 339,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：大辞泉＝地水火風の四大の一（仏語）、语料＝地が広い（主語＋形容詞構文）"
+  },
+  {
+   "word": "地広",
+   "rank": 340,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：地広ければ則ち鹿角車を用う"
+  },
+  {
+   "word": "地無",
+   "rank": 341,
+   "freq": 2,
+   "exclude_reason": "機械区のみ・X+無系構文断片（下に地無く）"
+  },
+  {
+   "word": "地禁",
+   "rank": 342,
+   "freq": 2,
+   "exclude_reason": "404・尉繚子兵教条目名（二に曰く地禁）"
+  },
+  {
+   "word": "地陣",
+   "rank": 344,
+   "freq": 2,
+   "exclude_reason": "404・六韜語（天陣地陣人陣）で辞書不載"
+  },
+  {
+   "word": "城入",
+   "rank": 347,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：城入らずんば"
+  },
+  {
+   "word": "城抜",
+   "rank": 349,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：其の城抜く可からず"
+  },
+  {
+   "word": "城池",
+   "rank": 350,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch・専門辞典（河川・湖沼名辞典）のみ：読み シロイケ＝日本の地名で语料（城壁と濠）と対位せず・未許可"
+  },
+  {
+   "word": "城隅",
+   "rank": 351,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載（我を城隅に俟つ）"
+  },
+  {
+   "word": "堂前",
+   "rank": 353,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch・専門辞典（地名辞典）のみ：読み ドウマエ＝日本地名で语料（堂の前）と対位せず・未許可"
+  },
+  {
+   "word": "士争",
+   "rank": 356,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：士争いて燕に趨く"
+  },
+  {
+   "word": "士衆",
+   "rank": 357,
+   "freq": 2,
+   "exclude_reason": "404・構文語で辞書不載（士衆を整斉する）"
+  },
+  {
+   "word": "声無",
+   "rank": 359,
+   "freq": 2,
+   "exclude_reason": "404・X+無系構文断片（寂として声無きが若く）"
+  },
+  {
+   "word": "夜久",
+   "rank": 369,
+   "freq": 2,
+   "exclude_reason": "名字辞典のみ・语料は「夜久しくして」構文断片（夜＋形容詞）"
+  },
+  {
+   "word": "夜月",
+   "rank": 370,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載（二十五絃夜月に弾ずれば）"
+  },
+  {
+   "word": "夜静",
+   "rank": 371,
+   "freq": 2,
+   "exclude_reason": "404・詩語構文で辞書不載（夜静かにして春山空し）"
+  },
+  {
+   "word": "大尊",
+   "rank": 377,
+   "freq": 2,
+   "exclude_reason": "専門辞典（世界宗教用語大事典）のみ＝日本神名おおさざきのみこと、语料（大いなる尊位）と sense-mismatch・未許可"
+  },
+  {
+   "word": "大方",
+   "rank": 380,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：大辞泉＝大体・世間一般（おおかた）、语料＝老子「大方は隅無く」（大いなる方正）"
+  },
+  {
+   "word": "大林",
+   "rank": 381,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch・専門辞典（地名辞典）のみ：読み オオバヤシ＝日本地名で语料（大きな林・六韜）と対位せず・未許可"
+  },
+  {
+   "word": "大簡",
+   "rank": 385,
+   "freq": 2,
+   "exclude_reason": "404・論語語（乃ち大簡なること無からんや）で辞書不載"
+  },
+  {
+   "word": "大謀",
+   "rank": 388,
+   "freq": 2,
+   "exclude_reason": "404・論語語（則ち大謀を乱る）で辞書不載"
+  },
+  {
+   "word": "大賓",
+   "rank": 389,
+   "freq": 2,
+   "exclude_reason": "404・論語語（門を出でては大賓を見るが如く）で辞書不載"
+  },
+  {
+   "word": "大邑",
+   "rank": 390,
+   "freq": 2,
+   "exclude_reason": "Wikipedia のみ（四川の県名）で语料（大きな邑）と対位せず"
+  },
+  {
+   "word": "大風",
+   "rank": 392,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：dict＝強風、语料＝大風歌（劉邦の歌名）の歌名用法"
+  },
+  {
+   "word": "大黄",
+   "rank": 393,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch：dict＝薬草の大黄、语料＝強弩の名（自ら大黄を以て其の裨将を射・史記李将軍伝）"
+  },
+  {
+   "word": "天将",
+   "rank": 396,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：天将に夫子を以て木鐸と為さんとす"
+  },
+  {
+   "word": "天牢",
+   "rank": 401,
+   "freq": 2,
+   "exclude_reason": "404・孫子地形語（絶澗天井天牢天羅）で辞書不載"
+  },
+  {
+   "word": "天知",
+   "rank": 403,
+   "freq": 2,
+   "exclude_reason": "機械区のみ・構文断片：天知る神知る（主語＋動詞）"
+  },
+  {
+   "word": "天陣",
+   "rank": 404,
+   "freq": 2,
+   "exclude_reason": "404・六韜語（天陣地陣人陣）で辞書不載"
+  },
+  {
+   "word": "太清",
+   "rank": 409,
+   "freq": 2,
+   "exclude_reason": "Wikipedia のみ保守排除（天空义・翻案可を注明）"
+  },
+  {
+   "word": "太空",
+   "rank": 410,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載（浮雲の太空を過ぐるに）"
+  },
+  {
+   "word": "夷吾",
+   "rank": 412,
+   "freq": 2,
+   "exclude_reason": "機械区のみ（ウィキペディア小見出し・人名 管夷吾）"
+  },
+  {
+   "word": "夷道",
+   "rank": 413,
+   "freq": 2,
+   "exclude_reason": "sense-mismatch・専門辞典（三国志小事典）のみ＝地名夷道县、语料＝老子「夷道は纇なるが若し」（平坦な道）・未許可"
+  },
+  {
+   "word": "奇有",
+   "rank": 414,
+   "freq": 2,
+   "exclude_reason": "404・X+有系構文断片（必ず奇有るなり）"
+  },
+  {
+   "word": "女有",
+   "rank": 416,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：女有り車を同じくす"
+  },
+  {
+   "word": "好書",
+   "rank": 418,
+   "freq": 2,
+   "exclude_reason": "404・構文語で辞書不載（好書は卒に逢い難し）"
+  },
+  {
+   "word": "妖祥",
+   "rank": 420,
+   "freq": 2,
+   "exclude_reason": "404・六韜語（其の動静言語妖祥）で辞書不載"
+  },
+  {
+   "word": "妻曰",
+   "rank": 421,
+   "freq": 2,
+   "exclude_reason": "404・X曰系呼称部（妻曰く＝晏子の妻）"
+  },
+  {
+   "word": "威無",
+   "rank": 422,
+   "freq": 2,
+   "exclude_reason": "404・X+無系構文断片（将、威無ければ）"
+  },
+  {
+   "word": "威神",
+   "rank": 423,
+   "freq": 2,
+   "exclude_reason": "機械区のみ（ウィキペディア小見出し・六韜語 以て威神を成す）"
+  },
+  {
+   "word": "威行",
+   "rank": 424,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：将の威行われず"
+  },
+  {
+   "word": "娥娥",
+   "rank": 427,
+   "freq": 2,
+   "exclude_reason": "404・詩語畳語で辞書不載（娥娥たる紅粉の粧い）"
+  },
+  {
+   "word": "媒無",
+   "rank": 428,
+   "freq": 2,
+   "exclude_reason": "404・X+無系構文断片（洛橋に寄せんに媒無し）"
+  },
+  {
+   "word": "媯汭",
+   "rank": 429,
+   "freq": 2,
+   "exclude_reason": "404・地名（舜の居地）で辞書不載"
+  },
+  {
+   "word": "孀妻",
+   "rank": 431,
+   "freq": 2,
+   "exclude_reason": "404・構文語で辞書不載（孀妻に遺男有り）"
+  },
+  {
+   "word": "子出",
+   "rank": 432,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：子出づ"
+  },
+  {
+   "word": "子善",
+   "rank": 433,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：子善を欲すれば民善なり"
+  },
+  {
+   "word": "子在",
+   "rank": 434,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：子在す"
+  },
+  {
+   "word": "子姓",
+   "rank": 435,
+   "freq": 2,
+   "exclude_reason": "404・構文語で辞書不載（宋は子姓＝姓称）"
+  },
+  {
+   "word": "子往",
+   "rank": 436,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：子往かんと欲す"
+  },
+  {
+   "word": "子敢",
+   "rank": 437,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：子敢えて我を食らうこと無かれ"
+  },
+  {
+   "word": "子楚",
+   "rank": 438,
+   "freq": 2,
+   "exclude_reason": "404・人名（秦の荘襄王）で辞書不載"
+  },
+  {
+   "word": "子独",
+   "rank": 439,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：子独り夫の寿陵の余子を聞かずや"
+  },
+  {
+   "word": "子生",
+   "rank": 440,
+   "freq": 2,
+   "exclude_reason": "構文断片：子生まれて三年（主語＋動詞）・地名辞典（子生 コナジ）义は対位せず・未許可"
+  },
+  {
+   "word": "子知",
+   "rank": 441,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：子知る何ぞ知るもの無しと謂うや"
+  },
+  {
+   "word": "子祀",
+   "rank": 442,
+   "freq": 2,
+   "exclude_reason": "404・人名（荘子 子祀子輿子犁子来）"
+  },
+  {
+   "word": "子華",
+   "rank": 443,
+   "freq": 2,
+   "exclude_reason": "404・人名（孔子弟子 公西華）"
+  },
+  {
+   "word": "子虚",
+   "rank": 444,
+   "freq": 2,
+   "exclude_reason": "404・賦名（子虚の賦）で辞書不載"
+  },
+  {
+   "word": "子西",
+   "rank": 445,
+   "freq": 2,
+   "exclude_reason": "404・人名（楚国の子西）"
+  },
+  {
+   "word": "子説",
+   "rank": 446,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：子説ぶ"
+  },
+  {
+   "word": "子貧",
+   "rank": 447,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：子貧しくして此に客たれば"
+  },
+  {
+   "word": "子輿",
+   "rank": 448,
+   "freq": 2,
+   "exclude_reason": "404・人名（荘子 子輿）"
+  },
+  {
+   "word": "孔氏",
+   "rank": 449,
+   "freq": 2,
+   "exclude_reason": "404・呼称（孔氏の門）で辞書不載"
+  },
+  {
+   "word": "孟氏",
+   "rank": 451,
+   "freq": 2,
+   "exclude_reason": "404・氏族呼称（孟氏・程氏）で辞書不載"
+  },
+  {
+   "word": "季騧",
+   "rank": 452,
+   "freq": 2,
+   "exclude_reason": "404・人名（周八士）"
+  },
+  {
+   "word": "孤鴻",
+   "rank": 454,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載（孤鴻海上より来り）"
+  },
+  {
+   "word": "孫曰",
+   "rank": 457,
+   "freq": 2,
+   "exclude_reason": "404・X曰系呼称部（孫曰く＝孫楚）"
+  },
+  {
+   "word": "孫有",
+   "rank": 458,
+   "freq": 2,
+   "exclude_reason": "404・X+有系構文断片（惟だ乳下の孫有るのみ）"
+  },
+  {
+   "word": "孰与",
+   "rank": 459,
+   "freq": 2,
+   "exclude_reason": "404・比較疑問構文（孰与ぞ＝いずれぞ）で辞書不載・証拠なき読みを造らない"
+  },
+  {
+   "word": "守将",
+   "rank": 460,
+   "freq": 2,
+   "exclude_reason": "404・孫子語（則ち守将なり）で辞書不載"
+  },
+  {
+   "word": "守禦",
+   "rank": 461,
+   "freq": 2,
+   "exclude_reason": "404・六韜語（以て守禦に備うる）で辞書不載"
+  },
+  {
+   "word": "宋人",
+   "rank": 462,
+   "freq": 2,
+   "exclude_reason": "機械区のみ（ウィキペディア小見出し辞書で国語辞書条目なし）"
+  },
+  {
+   "word": "宗人",
+   "rank": 463,
+   "freq": 2,
+   "exclude_reason": "404・構文語で辞書不載（其の宗人をして）"
+  },
+  {
+   "word": "宗臣",
+   "rank": 465,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載（宗臣有征を事とす）"
+  },
+  {
+   "word": "客散",
+   "rank": 469,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：客散じて江亭（主語＋動詞）"
+  },
+  {
+   "word": "客有",
+   "rank": 470,
+   "freq": 2,
+   "exclude_reason": "404・X+有系構文断片（坐中に客有り）"
+  },
+  {
+   "word": "客路",
+   "rank": 472,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載（客路青山の外）"
+  },
+  {
+   "word": "宣王",
+   "rank": 473,
+   "freq": 2,
+   "exclude_reason": "Wikipedia のみ保守排除（斉の宣王等・翻案可を注明）"
+  },
+  {
+   "word": "宦遊",
+   "rank": 475,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載（同じく是れ宦遊の人）"
+  },
+  {
+   "word": "宮観",
+   "rank": 476,
+   "freq": 2,
+   "exclude_reason": "機械区のみ（ウィキペディア小見出しで国語辞書条目なし）"
+  },
+  {
+   "word": "害無",
+   "rank": 479,
+   "freq": 2,
+   "exclude_reason": "404・X+無系構文断片（美にして害無からしむ）"
+  },
+  {
+   "word": "家斉",
+   "rank": 480,
+   "freq": 2,
+   "exclude_reason": "機械区のみ・構文断片：家斉う（大学 家＋動詞の誤連接）"
+  },
+  {
+   "word": "宸遊",
+   "rank": 481,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載（是れ宸遊物華を玩ぶにあらず）"
+  },
+  {
+   "word": "密曰",
+   "rank": 483,
+   "freq": 2,
+   "exclude_reason": "404・X曰系呼称部（密曰く＝楊震）"
+  },
+  {
+   "word": "将吏",
+   "rank": 488,
+   "freq": 2,
+   "exclude_reason": "404・構文語で辞書不載（将吏に守る心無く）"
+  },
+  {
+   "word": "将能",
+   "rank": 489,
+   "freq": 2,
+   "exclude_reason": "404・構文断片：将能く勝を制すれば"
+  },
+  {
+   "word": "小大",
+   "rank": 490,
+   "freq": 2,
+   "exclude_reason": "機械区のみ・構文断片：君子は小大と無く"
+  },
+  {
+   "word": "小白",
+   "rank": 492,
+   "freq": 2,
+   "exclude_reason": "機械区のみ（ウィキペディア小見出し・人名 小白＝斉桓公）"
+  },
+  {
+   "word": "小苑",
+   "rank": 494,
+   "freq": 2,
+   "exclude_reason": "404・詩語で辞書不載（小苑の城辺）"
+  },
+  {
+   "word": "少儀",
+   "rank": 495,
+   "freq": 2,
+   "exclude_reason": "404・礼記篇名（曲礼少儀内則）で辞書不載"
+  },
+  {
+   "word": "少陵",
+   "rank": 497,
+   "freq": 2,
+   "exclude_reason": "404・杜甫の号（少陵野老）で辞書不載"
+  },
+  {
+   "word": "居延",
+   "rank": 498,
+   "freq": 2,
+   "exclude_reason": "専門辞典（三国志小事典）のみ＝地名居延・未許可（翻案可を注明）"
+  }
+ ]
+}

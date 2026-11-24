@@ -1,0 +1,440 @@
+{
+ "start": 450,
+ "note": "N89 batch rank 450-499: 21 in (noun 16/proper 4/verb 0/modifier 1/function 0) / 29 out",
+ "decisions": [
+  {
+   "word": "孝悌",
+   "rank": 450,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうてい",
+   "meaning": "親に孝行し兄に従順なこと。语料：其の人と為りや孝悌にして上を犯すを好む者は鮮なし（大辞泉 こうてい）",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐てい〔カウ‐〕【孝×悌／孝弟】；読み方：こうてい（cand_450_孝悌.txt）",
+   "corpus_evidence": "golden_8165 2行。例 mototachi-1「有子曰く、其の人と為りや孝悌にして、上を犯すを好む者は鮮なし。上を犯すことを好まずして、乱を作すを好む者は未だ之れ有らざ」"
+  },
+  {
+   "word": "孤月",
+   "rank": 453,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こげつ",
+   "meaning": "さみしげな一つの月。语料：亭亭たる孤月行舟を照らし（大辞泉 こげつ）",
+   "dict_evidence": "weblio デジタル大辞泉；こ‐げつ【孤月】；読み方：こげつ（cand_453_孤月.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen341-3「孤月と将に猿愁に対すること莫かれ」"
+  },
+  {
+   "word": "学校",
+   "rank": 455,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "がっこう",
+   "meaning": "人を教える施設・学びの所。语料：夫れ学校の設け其の広きこと此の如く（大辞泉 がっこう）",
+   "dict_evidence": "weblio デジタル大辞泉；がっ‐こう〔ガクカウ〕【学校】；読み方：がっこう（cand_455_学校.txt）",
+   "corpus_evidence": "golden_8165 2行。例 daigaku00a-14「夫れ学校の設け、其の広きこと此の如く、之を教うるの術、其の次第・節目の詳かなること又此の如きを以てして、而して其の教えを」"
+  },
+  {
+   "word": "孫子",
+   "rank": 456,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "そんし",
+   "meaning": "兵書『孫子』（孫武の著・十三編）。语料：曹公、孫子を注して曰く先ず出でて合戦するを正と為し（大辞泉 そんし「戦国時代の兵法書」）",
+   "dict_evidence": "weblio デジタル大辞泉；そん‐し【孫子】；読み方：そんし（cand_456_孫子.txt）",
+   "corpus_evidence": "golden_8165 2行。例 montai05-2「靖曰く、臣按ずるに、曹公、孫子を注して曰く、先ず出でて合戦するを正と為し、後に出づるを奇と為す、と。此れ旁より撃つの説と」"
+  },
+  {
+   "word": "宗祀",
+   "rank": 464,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "そうし",
+   "meaning": "祖宗を祀ること。语料：文王を明堂に宗祀して以て上帝に配す（大辞泉 そうし）",
+   "dict_evidence": "weblio デジタル大辞泉；そう‐し【宗×祀】；読み方：そうし（cand_464_宗祀.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kokyo09-7「昔者、周公は后稷を郊祀して以て天に配し、文王を明堂に宗祀して以て上帝に配す。」"
+  },
+  {
+   "word": "官人",
+   "rank": 466,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "かんじん",
+   "meaning": "官に奉職する人・役人。语料：書は官人の才を顕し（大辞泉 かんじん）",
+   "dict_evidence": "weblio デジタル大辞泉；かん‐じん〔クワン‐〕【官人】；読み方：かんじん（cand_466_官人.txt）",
+   "corpus_evidence": "golden_8165 2行。例 showoyome-2「書は官人の才を顕し、書は君子の智を添う。」"
+  },
+  {
+   "word": "宝剣",
+   "rank": 467,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ほうけん",
+   "meaning": "宝の剣。语料：宝剣直千金（大辞泉 ほうけん）",
+   "dict_evidence": "weblio デジタル大辞泉；ほう‐けん【宝剣】；読み方：ほうけん（cand_467_宝剣.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen133-12「仍お宝剣の名を題す」"
+  },
+  {
+   "word": "宝蓋",
+   "rank": 468,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ほうがい",
+   "meaning": "宝の幡蓋・装飾した傘。语料：竜は宝蓋を銜んで朝日を承け（大辞泉 ほうがい）",
+   "dict_evidence": "weblio デジタル大辞泉；ほう‐がい【宝蓋】；読み方：ほうがい（cand_468_宝蓋.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen016-4「竜は宝蓋を銜んで朝日を承け」"
+  },
+  {
+   "word": "客舎",
+   "rank": 471,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "かくしゃ",
+   "meaning": "旅宿・宿屋。语料：并州に客舎して已に十霜（大辞泉 かくしゃ）",
+   "dict_evidence": "weblio デジタル大辞泉；かく‐しゃ【客舎】；読み方：かくしゃ（cand_471_客舎.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen433-1「并州に客舎して已に十霜」"
+  },
+  {
+   "word": "室家",
+   "rank": 474,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しっか",
+   "meaning": "家・一家。语料：室家の好きを闚い見る（大辞泉 しっか）",
+   "dict_evidence": "weblio デジタル大辞泉；しっ‐か【室家】；読み方：しっか（cand_474_室家.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo1923-1「、之を宮牆に譬うれば、賜の牆や肩に及ぶ。室家の好きを闚い見る。夫子の牆は数仞なり。其の門を得て入らざれば、宗廟の美、百官」"
+  },
+  {
+   "word": "宮門",
+   "rank": 477,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きゅうもん",
+   "meaning": "宮城の門。语料：扁鵲、虢の宮門の下に至り（大辞泉 きゅうもん）",
+   "dict_evidence": "weblio デジタル大辞泉；きゅう‐もん【宮門】；読み方：きゅうもん（cand_477_宮門.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kanwomo-1「扁鵲、虢に過る。虢の太子死す。扁鵲、虢の宮門の下に至り、中庶子の方を喜む者に問いて曰く、太子は何の病ぞ。国中の治穣、衆事」"
+  },
+  {
+   "word": "宰予",
+   "rank": 478,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "さいよ",
+   "meaning": "孔子の弟子・字は子我（宰我）。语料：宰予、昼寝ぬ（大辞泉 さいよ）",
+   "dict_evidence": "weblio デジタル大辞泉；さい‐よ【宰予】；読み方：さいよ（cand_478_宰予.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kyubokue-1「宰予、昼寝ぬ。子曰く、朽木は雕る可からず。糞土の牆は杇る可からず。予に於いてか何ぞ誅めん。」"
+  },
+  {
+   "word": "宿昔",
+   "rank": 482,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しゅくせき",
+   "meaning": "昔・前日以来。语料：宿昔の間便ち大なる梓木有り（大辞泉 しゅくせき）",
+   "dict_evidence": "weblio デジタル大辞泉；しゅく‐せき【宿昔】；読み方：しゅくせき（cand_482_宿昔.txt）",
+   "corpus_evidence": "golden_8165 2行。例 enou-2「宿昔の間、便ち大なる梓木有りて、二つの冢の端に生じ、旬日にして大なること抱に盈ち、体を屈して相就き、根は下に交わり、枝は」"
+  },
+  {
+   "word": "寒山",
+   "rank": 484,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "かんざん",
+   "meaning": "寒々とした冬の山。语料：日は出づ寒山の外（大辞泉 かんざん「草木が枯れ寒々とした冬の山」）",
+   "dict_evidence": "weblio デジタル大辞泉；かん‐ざん【寒山】；読み方：かんざん（cand_484_寒山.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kakutei_toho-3「日は出づ寒山の外」"
+  },
+  {
+   "word": "寒梅",
+   "rank": 485,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "かんばい",
+   "meaning": "寒中の梅。语料：寒梅花を著けしや未だしや（大辞泉 かんばい）",
+   "dict_evidence": "weblio デジタル大辞泉；かん‐ばい【寒梅】；読み方：かんばい（cand_485_寒梅.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen244-1「已に寒梅の発くを見」"
+  },
+  {
+   "word": "寒食",
+   "rank": 486,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "かんしょく",
+   "meaning": "清明前日の節句・寒食節。语料：寒食東風御柳斜めなり（大辞泉 かんしょく）",
+   "dict_evidence": "weblio デジタル大辞泉；かん‐しょく【寒食】；読み方：かんしょく（cand_486_寒食.txt）",
+   "corpus_evidence": "golden_8165 2行。例 yukei-3「千村万落寒食の如し」"
+  },
+  {
+   "word": "専一",
+   "rank": 487,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "せんいち",
+   "meaning": "心が一つに専ること。语料：人既に専一なれば則ち勇者も独り進むことを得ず（大辞泉 せんいち）",
+   "dict_evidence": "weblio デジタル大辞泉；せん‐いち【専一】；読み方：せんいち（cand_487_専一.txt）",
+   "corpus_evidence": "golden_8165 2行。例 sonshi07-22「人既に専一なれば、則ち勇者も独り進むことを得ず、怯者も独り退くことを得ず。」"
+  },
+  {
+   "word": "小学",
+   "rank": 491,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "しょうがく",
+   "meaning": "朱熹の門人劉子澄が編んだ初学の教科書『小学』。语料：此の篇は則ち小学の成功に因り以て大学の明法を著し（大辞泉「朱熹…が編集した初学者用の教科書」）",
+   "dict_evidence": "weblio デジタル大辞泉 しょうがく〔セウガク〕【小学】読み方：しょうがく 中国宋代に朱熹の門人劉子澄が編集した初学者用の教科書（cand_491_小学.txt）",
+   "corpus_evidence": "golden_8165 2行。例 daigaku00a-20「曲礼・少儀・内則・弟子職の諸篇の若きは、固より小学の支流余裔なり。」"
+  },
+  {
+   "word": "小臣",
+   "rank": 493,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しょうしん",
+   "meaning": "身分の低い臣下。语料：小臣に晨に公を負いて以て天に登るを夢みる（大辞泉 しょうしん）",
+   "dict_evidence": "weblio デジタル大辞泉；しょう‐しん〔セウ‐〕【小臣】；読み方：しょうしん（cand_493_小臣.txt）",
+   "corpus_evidence": "golden_8165 2行。例 yamai-x15「小臣に晨に公を負いて以て天に登るを夢みる有り。日中するに及び、晋侯を負いて諸を厠より出し、遂に以て殉とせらる。」"
+  },
+  {
+   "word": "少者",
+   "rank": 496,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しょうしゃ",
+   "meaning": "若い者・年少者。语料：老者は之を安んじ朋友は之を信じ少者は之を懐けん（大辞泉 しょうしゃ）",
+   "dict_evidence": "weblio デジタル大辞泉；しょう‐しゃ〔セウ‐〕【少者】；読み方：しょうしゃ（cand_496_少者.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo0525-1「曰く、老者は之を安んじ、朋友は之を信じ、少者は之を懐けん。」"
+  },
+  {
+   "word": "屋下",
+   "rank": 499,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "おくか",
+   "meaning": "家の下・屋根の下。语料：猶お屋下に屋を架し牀上に牀を施すがごときのみ（大辞泉 おくか）",
+   "dict_evidence": "weblio デジタル大辞泉；おく‐か〔ヲク‐〕【屋下】；読み方：おくか（cand_499_屋下.txt）",
+   "corpus_evidence": "golden_8165 2行。例 okuka-1「に貴し。謝太傅云う、爾るを得ず。此は是れ屋下に屋を架するのみ。事事擬学して倹狭たるを免れず、と。」"
+  },
+  {
+   "word": "孟氏",
+   "rank": 451,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・氏族呼称（孟氏・程氏）で辞書不載"
+  },
+  {
+   "word": "季騧",
+   "rank": 452,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・人名（周八士）"
+  },
+  {
+   "word": "孤鴻",
+   "rank": 454,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載（孤鴻海上より来り）"
+  },
+  {
+   "word": "孫曰",
+   "rank": 457,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X曰系呼称部（孫曰く＝孫楚）"
+  },
+  {
+   "word": "孫有",
+   "rank": 458,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+有系構文断片（惟だ乳下の孫有るのみ）"
+  },
+  {
+   "word": "孰与",
+   "rank": 459,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・比較疑問構文（孰与ぞ＝いずれぞ）で辞書不載・証拠なき読みを造らない"
+  },
+  {
+   "word": "守将",
+   "rank": 460,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・孫子語（則ち守将なり）で辞書不載"
+  },
+  {
+   "word": "守禦",
+   "rank": 461,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・六韜語（以て守禦に備うる）で辞書不載"
+  },
+  {
+   "word": "宋人",
+   "rank": 462,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ（ウィキペディア小見出し辞書で国語辞書条目なし）"
+  },
+  {
+   "word": "宗人",
+   "rank": 463,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文語で辞書不載（其の宗人をして）"
+  },
+  {
+   "word": "宗臣",
+   "rank": 465,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載（宗臣有征を事とす）"
+  },
+  {
+   "word": "客散",
+   "rank": 469,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：客散じて江亭（主語＋動詞）"
+  },
+  {
+   "word": "客有",
+   "rank": 470,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+有系構文断片（坐中に客有り）"
+  },
+  {
+   "word": "客路",
+   "rank": 472,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載（客路青山の外）"
+  },
+  {
+   "word": "宣王",
+   "rank": 473,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "Wikipedia のみ保守排除（斉の宣王等・翻案可を注明）"
+  },
+  {
+   "word": "宦遊",
+   "rank": 475,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載（同じく是れ宦遊の人）"
+  },
+  {
+   "word": "宮観",
+   "rank": 476,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ（ウィキペディア小見出しで国語辞書条目なし）"
+  },
+  {
+   "word": "害無",
+   "rank": 479,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+無系構文断片（美にして害無からしむ）"
+  },
+  {
+   "word": "家斉",
+   "rank": 480,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ・構文断片：家斉う（大学 家＋動詞の誤連接）"
+  },
+  {
+   "word": "宸遊",
+   "rank": 481,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載（是れ宸遊物華を玩ぶにあらず）"
+  },
+  {
+   "word": "密曰",
+   "rank": 483,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X曰系呼称部（密曰く＝楊震）"
+  },
+  {
+   "word": "将吏",
+   "rank": 488,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文語で辞書不載（将吏に守る心無く）"
+  },
+  {
+   "word": "将能",
+   "rank": 489,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：将能く勝を制すれば"
+  },
+  {
+   "word": "小大",
+   "rank": 490,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ・構文断片：君子は小大と無く"
+  },
+  {
+   "word": "小白",
+   "rank": 492,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ（ウィキペディア小見出し・人名 小白＝斉桓公）"
+  },
+  {
+   "word": "小苑",
+   "rank": 494,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載（小苑の城辺）"
+  },
+  {
+   "word": "少儀",
+   "rank": 495,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・礼記篇名（曲礼少儀内則）で辞書不載"
+  },
+  {
+   "word": "少陵",
+   "rank": 497,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・杜甫の号（少陵野老）で辞書不載"
+  },
+  {
+   "word": "居延",
+   "rank": 498,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "専門辞典（三国志小事典）のみ＝地名居延・未許可（翻案可を注明）"
+  }
+ ]
+}

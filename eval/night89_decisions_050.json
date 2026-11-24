@@ -1,0 +1,476 @@
+{
+ "start": 50,
+ "note": "N89 batch rank 50-99: 30 in (noun 28/proper 0/verb 0/modifier 2/function 0) / 20 out",
+ "decisions": [
+  {
+   "word": "上達",
+   "rank": 50,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じょうたつ",
+   "meaning": "上に達すること・進んで善くなること。语料：下学して上達す・君子は上達し小人は下達す（大辞泉 じょうたつ）",
+   "dict_evidence": "weblio デジタル大辞泉；じょう‐たつ〔ジヤウ‐〕【上達】；読み方：じょうたつ（cand_050_上達.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kagakujota-1「子曰く、天を怨みず、人を尤めず、下学して上達す。我を知る者は其れ天か。」"
+  },
+  {
+   "word": "上風",
+   "rank": 51,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "うわかぜ",
+   "meaning": "風上・風の吹いてくる方。语料：火、上風に発すれば下風を攻むること無かれ（大辞泉 うわかぜ）",
+   "dict_evidence": "weblio デジタル大辞泉；うわ‐かぜ〔うは‐〕【上風】；読み方：うわかぜ（cand_051_上風.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou41-1「止するに、敵人、天燥疾風の利に因り、吾が上風を燔き、車騎鋭士、堅く吾が後ろに伏せば、三軍恐怖し、散乱して走らん。之を為す」"
+  },
+  {
+   "word": "不敏",
+   "rank": 53,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "ふびん",
+   "meaning": "聡くない・できない（謙辞）。语料：雍、不敏なりと雖も（実用日本語表現辞典 ふびん・语料义一致）",
+   "dict_evidence": "weblio デジタル大辞泉；ふ‐びん【不敏】；読み方：ふびん（cand_053_不敏.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo1202-1「く、家に在りても怨み無し。仲弓曰く、雍、不敏なりと雖も、請う斯の語を事とせん。」"
+  },
+  {
+   "word": "不測",
+   "rank": 54,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "ふそく",
+   "meaning": "測り知れないこと。语料：不測の利を図らん（大辞泉 ふそく）",
+   "dict_evidence": "weblio デジタル大辞泉；ふ‐そく【不測】；読み方：ふそく（cand_054_不測.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou25-1「り、主と将と、兵を合して無窮の変を行い、不測の利を図らんと欲す。其の事繁多にして、符も明らかにすること能わず、相去ること」"
+  },
+  {
+   "word": "不用",
+   "rank": 55,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ふよう",
+   "meaning": "用いないこと・役に立たないこと。语料：用なるも之に不用を示し（大辞泉 ふよう）",
+   "dict_evidence": "weblio デジタル大辞泉；ふ‐よう【不用】；読み方：ふよう（cand_055_不用.txt）",
+   "corpus_evidence": "golden_8165 2行。例 heiwakido-2「故に能なるも之に不能を示し、用なるも之に不用を示し、近くとも之に遠きを示し、遠くとも之に近きを示し、利にして之を誘い、乱」"
+  },
+  {
+   "word": "不言",
+   "rank": 56,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ふげん",
+   "meaning": "言わないこと。语料：不言の教えを行う（大辞泉 ふげん）",
+   "dict_evidence": "weblio デジタル大辞泉；ふ‐げん【不言】；読み方：ふげん（cand_056_不言.txt）",
+   "corpus_evidence": "golden_8165 2行。例 roushi02-3「是を以て聖人は、無為の事に処り、不言の教えを行う。万物作りて辞せず、生じて有せず、為して恃まず、功成りて居らず。夫れ唯だ」"
+  },
+  {
+   "word": "不識",
+   "rank": 57,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ふしき",
+   "meaning": "知らないこと・識らざること。语料：謀は不識よりも大なるは莫し（大辞泉 ふしき）",
+   "dict_evidence": "weblio デジタル大辞泉；ふ‐しき【不識】；読み方：ふしき（cand_057_不識.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou26-5「は莫く、動は不意よりも大なるは莫く、謀は不識よりも大なるは莫し。夫れ先ず勝つ者は、先ず弱きを敵に見して後に戦う者なり。故」"
+  },
+  {
+   "word": "不道",
+   "rank": 59,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ふどう",
+   "meaning": "道に背くこと・道理でないこと。语料：物壮なれば則ち老ゆ、之を不道と謂う（実用日本語表現辞典 ふどう・语料义一致）",
+   "dict_evidence": "weblio デジタル大辞泉；ぶ‐どう〔‐ダウ〕【無道／不道】；読み方：ぶどう（cand_059_不道.txt）",
+   "corpus_evidence": "golden_8165 2行。例 roushi30-3「物は壮なれば則ち老ゆ、是を不道と謂う。不道は早く已む。」"
+  },
+  {
+   "word": "世事",
+   "rank": 61,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せいじ",
+   "meaning": "世間の出来事・世事。语料：世事は浮雲何ぞ問うに足らん（大辞泉 せいじ）",
+   "dict_evidence": "weblio デジタル大辞泉；せい‐じ【世事】；読み方：せいじ（cand_061_世事.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen179-7「世事は浮雲何ぞ問うに足らん」"
+  },
+  {
+   "word": "世人",
+   "rank": 62,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せじん",
+   "meaning": "世間の人・世人。语料：世人交わりを結ぶに黄金を須う（大辞泉 せじん）",
+   "dict_evidence": "weblio デジタル大辞泉；せ‐じん【世人】；読み方：せじん（cand_062_世人.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen383-1「世人交わりを結ぶに黄金を須う」"
+  },
+  {
+   "word": "丘山",
+   "rank": 65,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きゅうざん",
+   "meaning": "丘と山・積み重なって大きな山となるもの。语料：累土して輟まざれば丘山も崇成す（大辞泉 きゅうざん）",
+   "dict_evidence": "weblio デジタル大辞泉；きゅう‐ざん〔キウ‐〕【丘山】；読み方：きゅうざん（cand_065_丘山.txt）",
+   "corpus_evidence": "golden_8165 2行。例 p-habetsu-1「故に蹞歩して休まざれば、跛鼈も千里、累土して輟まざれば、丘山も崇成す。」"
+  },
+  {
+   "word": "両人",
+   "rank": 66,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "りょうにん",
+   "meaning": "二人（の者）。语料：徒だ吾が両人の在るを以てなり（大辞泉 りょうにん）",
+   "dict_evidence": "weblio デジタル大辞泉；りょう‐にん〔リヤウ‐〕【両人】；読み方：りょうにん（cand_066_両人.txt）",
+   "corpus_evidence": "golden_8165 2行。例 funkei-x24「顧だ吾之を念うに、彊秦の敢えて兵を趙に加えざる所以の者は、徒だ吾が両人の在るを以てなり。」"
+  },
+  {
+   "word": "両岸",
+   "rank": 67,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "りょうがん",
+   "meaning": "川の両側の岸。语料：両岸の猿声啼いて住まざるに（大辞泉 りょうがん）",
+   "dict_evidence": "weblio デジタル大辞泉；りょう‐がん〔リヤウ‐〕【両岸】；読み方：りょうがん（cand_067_両岸.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen320-3「両岸の青山相対して出で」"
+  },
+  {
+   "word": "両端",
+   "rank": 68,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "りょうたん",
+   "meaning": "両方の端・物事の両極。语料：我其の両端を叩きて（大辞泉 りょうたん）",
+   "dict_evidence": "weblio デジタル大辞泉；りょう‐たん〔リヤウ‐〕【両端】；読み方：りょうたん（cand_068_両端.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo0907-1「子曰く、吾知ること有らんや、知ること無きなり。鄙夫有り、我に問う、空空如たり。我其の両端を叩きて竭す。」"
+  },
+  {
+   "word": "中分",
+   "rank": 70,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ちゅうぶん",
+   "meaning": "真ん中で分かつこと・半分ずつに分れること。语料：天下中分して遂に支えず（大辞泉 ちゅうぶん）",
+   "dict_evidence": "weblio デジタル大辞泉；ちゅう‐ぶん【中分】；読み方：ちゅうぶん（cand_070_中分.txt）",
+   "corpus_evidence": "golden_8165 2行。例 gakugakuo-6「天下中分して遂に支えず」"
+  },
+  {
+   "word": "中州",
+   "rank": 72,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ちゅうしゅう",
+   "meaning": "世界の中央に位置する国・中原。语料：中州の善国以て其の家を富まし（大辞泉「世界の中央に位置する国」）",
+   "dict_evidence": "weblio デジタル大辞泉；ちゅう‐しゅう〔‐シウ〕【中州】；読み方：ちゅうしゅう（cand_072_中州.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen134-12「垂象中州に満つ」"
+  },
+  {
+   "word": "中庸",
+   "rank": 73,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ちゅうよう",
+   "meaning": "過不足のない中正の徳。语料：中庸の徳為るや其れ至れるかな（大辞泉 ちゅうよう）",
+   "dict_evidence": "weblio デジタル大辞泉；ちゅう‐よう【中庸】；読み方：ちゅうよう（cand_073_中庸.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo0627-1「子曰く、中庸の徳為るや、其れ至れるかな。民鮮なきこと久し。」"
+  },
+  {
+   "word": "中情",
+   "rank": 74,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ちゅうじょう",
+   "meaning": "心の中の真情。语料：士は外貌、中情と相応ぜざる者十五あり（大辞泉 ちゅうじょう）",
+   "dict_evidence": "weblio デジタル大辞泉；ちゅう‐じょう〔‐ジヤウ〕【中情】；読み方：ちゅうじょう（cand_074_中情.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou20-2「太公曰く、夫れ士は外貌、中情と相応ぜざる者十五あり。」"
+  },
+  {
+   "word": "中秋",
+   "rank": 76,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ちゅうしゅう",
+   "meaning": "秋の半ば・八月十五夜。语料：憐れむべし今夜中秋の月（大辞泉 ちゅうしゅう）",
+   "dict_evidence": "weblio デジタル大辞泉；ちゅう‐しゅう〔‐シウ〕【中秋】；読み方：ちゅうしゅう（cand_076_中秋.txt）",
+   "corpus_evidence": "golden_8165 2行。例 okuseki02-3「憐れむべし今夜中秋の月」"
+  },
+  {
+   "word": "丹心",
+   "rank": 77,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たんしん",
+   "meaning": "赤誠の心・忠誠心。语料：丹心を留取して汗青を照らさん（大辞泉 たんしん）",
+   "dict_evidence": "weblio デジタル大辞泉；たん‐しん【丹心】；読み方：たんしん（cand_077_丹心.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen127-14「丹心已に灰と作る」"
+  },
+  {
+   "word": "主君",
+   "rank": 78,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しゅくん",
+   "meaning": "主となる君・自分の主上。语料：主君、安にか此を用う（大辞泉 しゅくん）",
+   "dict_evidence": "weblio デジタル大辞泉；しゅ‐くん【主君】；読み方：しゅくん（cand_078_主君.txt）",
+   "corpus_evidence": "golden_8165 2行。例 goshi00_jo-2「乗りて以て田すれば則ち軽からず。識らず、主君、安にか此を用うる。」"
+  },
+  {
+   "word": "主将",
+   "rank": 79,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "しゅしょう",
+   "meaning": "軍を率いる大将。语料：密かに主将に勅して（大辞泉 しゅしょう）",
+   "dict_evidence": "weblio デジタル大辞泉；しゅ‐しょう〔‐シヤウ〕【主将】；読み方：しゅしょう（cand_079_主将.txt）",
+   "corpus_evidence": "golden_8165 2行。例 montai12-7「或いは寇の至るに遇わば、則ち密かに主将に勅して、時に臨んで号を変じ服を易え、奇を出して之を撃たしむ。」"
+  },
+  {
+   "word": "九十",
+   "rank": 83,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きゅうじゅう",
+   "meaning": "九十（数）。语料：年且に九十ならんとす・百里を行く者は九十を半ばとす（大辞泉 きゅうじゅう）",
+   "dict_evidence": "weblio デジタル大辞泉；ここのそ‐じ〔‐ぢ〕【九▽十／九▽十路】；読み方：ここのそじ（cand_083_九十.txt）",
+   "corpus_evidence": "golden_8165 2行。例 p-guko-2「北山の愚公なる者、年且に九十ならんとす。山に面して居り、山北の塞がりて出入の迂なるに懲しむ。室を聚めて謀りて曰く、吾、汝」"
+  },
+  {
+   "word": "九地",
+   "rank": 84,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きゅうち",
+   "meaning": "孫子の九種の地形・地下の極み。语料：九地の下に蔵れ（大辞泉 きゅうち）",
+   "dict_evidence": "weblio デジタル大辞泉；きゅう‐ち〔キウ‐〕【九地】；読み方：きゅうち（cand_084_九地.txt）",
+   "corpus_evidence": "golden_8165 2行。例 sonshi04-7「善く守る者は、九地の下に蔵れ、善く攻むる者は九天の上に動く。」"
+  },
+  {
+   "word": "九夷",
+   "rank": 85,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きゅうい",
+   "meaning": "九つの夷・東方異民族の総称。语料：子、九夷に居らんと欲す（大辞泉 きゅうい）",
+   "dict_evidence": "weblio デジタル大辞泉；きゅう‐い〔キウ‐〕【九×夷】；読み方：きゅうい（cand_085_九夷.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo0913-1「子、九夷に居らんと欲す。或ひと曰く、陋なり、之を如何せん。子曰く、君子之に居らば、何の陋か之れ有らん。」"
+  },
+  {
+   "word": "九日",
+   "rank": 86,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きゅうじつ",
+   "meaning": "九月九日・重陽の節句。语料：九日陶家酒を載すと雖も（大辞泉 九日）",
+   "dict_evidence": "weblio デジタル大辞泉；ここぬ‐か【▽九日】；読み方：ここぬか（cand_086_九日.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen223-6「旅服沾すに従す九日の霜」"
+  },
+  {
+   "word": "乱世",
+   "rank": 88,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "らんせい",
+   "meaning": "乱れた世の中。语料：乱世の音は怨みて以て怒れるは其の政乖けばなり（大辞泉 らんせい）",
+   "dict_evidence": "weblio デジタル大辞泉；らん‐せい【乱世】；読み方：らんせい（cand_088_乱世.txt）",
+   "corpus_evidence": "golden_8165 2行。例 p-bokokuon-2「くして以て楽しめるは、其の政和げばなり。乱世の音は怨みて以て怒れるは、其の政乖けばなり、亡国の音は哀しみて以て思うは、其」"
+  },
+  {
+   "word": "乱山",
+   "rank": 89,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "らんざん",
+   "meaning": "いくつも重なり合う山々。语料：路は乱山に入りて行く（大辞泉 らんざん）",
+   "dict_evidence": "weblio デジタル大辞泉；らん‐ざん【乱山】；読み方：らんざん（cand_089_乱山.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen153-8「路は乱山に入りて行く」"
+  },
+  {
+   "word": "乱臣",
+   "rank": 90,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "らんしん",
+   "meaning": "乱す臣・逆臣。语料：其の乱臣を養いて以て之を迷わし（大辞泉 らんしん）",
+   "dict_evidence": "weblio デジタル大辞泉；らん‐しん【乱臣】；読み方：らんしん（cand_090_乱臣.txt）",
+   "corpus_evidence": "golden_8165 2行。例 ranshinzo-1「昔者禹、洪水を抑めて、天下平かなり。周公、夷狄を兼ね、猛獣を駆りて、百姓寧し。孔子、春秋を成して、乱臣・賊子懼る。」"
+  },
+  {
+   "word": "二女",
+   "rank": 97,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "にじょ",
+   "meaning": "二人の娘。语料：堯は之に二女を妻せ（大辞泉 にじょ）",
+   "dict_evidence": "weblio デジタル大辞泉；に‐じょ〔‐ヂョ〕【二女】；読み方：にじょ（cand_097_二女.txt）",
+   "corpus_evidence": "golden_8165 2行。例 shiki001d-4「是に於いて堯は之に二女を妻せ、其の徳の二女に於けるを観る。舜、二女を媯汭に飭え下し、婦の礼の如くす。堯、之を善みす。」"
+  },
+  {
+   "word": "上驚",
+   "rank": 52,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：上（皇帝）が驚く＝主語＋動詞の連接、単語でない"
+  },
+  {
+   "word": "不賢",
+   "rank": 58,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・否定形で辞書不載（不賢を見ては）"
+  },
+  {
+   "word": "世主",
+   "rank": 60,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文語で辞書不載（世の主）"
+  },
+  {
+   "word": "丘与",
+   "rank": 63,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：丘（孔子）与に易えざる＝主語＋介詞の連接"
+  },
+  {
+   "word": "丘墓",
+   "rank": 64,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・列挙構文断片（城邑、丘墓、地形の利）"
+  },
+  {
+   "word": "両陣",
+   "rank": 69,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・軍事構文断片（両陣の間）"
+  },
+  {
+   "word": "中宵",
+   "rank": 71,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載（中宵＝真夜中、証拠なき読みを造らない）"
+  },
+  {
+   "word": "中略",
+   "rank": 75,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：大辞泉＝引用の省略記号、语料＝兵書三略の中篇（N82 建徳 先例）"
+  },
+  {
+   "word": "主曰",
+   "rank": 80,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X曰系呼称部（主曰く、N79 X-yune パターン）"
+  },
+  {
+   "word": "主無",
+   "rank": 81,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+無系構文断片（官に主無ければ）"
+  },
+  {
+   "word": "主第",
+   "rank": 82,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載（公主の邸、証拠なき読みを造らない）"
+  },
+  {
+   "word": "九河",
+   "rank": 87,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・黄河九派の専門語で辞書不載"
+  },
+  {
+   "word": "予君",
+   "rank": 91,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：予君たる（われ君たる）＝代名詞＋名詞連接"
+  },
+  {
+   "word": "予譲",
+   "rank": 92,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "Wikipedia のみ保守排除（人名 豫譲・翻案可を注明・N80 令尹 同例）"
+  },
+  {
+   "word": "予違",
+   "rank": 93,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：予違わば（書経 予違汝弼＝主語＋動詞）"
+  },
+  {
+   "word": "事成",
+   "rank": 94,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：事成らず（事＋動詞の連接）"
+  },
+  {
+   "word": "事毎",
+   "rank": 95,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ・構文断片：事毎に問う（事ごとに、副詞的連接で辞書条目なし）"
+  },
+  {
+   "word": "事無",
+   "rank": 96,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ・X+無系構文断片（事無ければ）"
+  },
+  {
+   "word": "二山",
+   "rank": 98,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "名字辞典のみ（名字義）で语料（太行王屋の二山）と sense-mismatch・専門辞典未許可"
+  },
+  {
+   "word": "二年",
+   "rank": 99,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・数詞構文断片：積むこと二年"
+  }
+ ]
+}

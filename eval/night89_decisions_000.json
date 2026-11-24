@@ -1,0 +1,464 @@
+{
+ "start": 0,
+ "note": "N89 batch rank 0-49: 27 in (noun 26/proper 0/verb 1/modifier 0/function 0) / 23 out",
+ "decisions": [
+  {
+   "word": "一乗",
+   "rank": 0,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "weblio 404 相当：大辞泉条目は仏語義のみ（法華経の一仏乗）で语料「周の一乗は歩卒七十二人」兵制単位義と sense-mismatch（N80 天井・N82 平台 先例）"
+  },
+  {
+   "word": "一体",
+   "rank": 2,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いったい",
+   "meaning": "別異のものが一つのまとまりをなすこと・全体。语料：死生存亡の一体（大辞泉 いったい）",
+   "dict_evidence": "weblio デジタル大辞泉；いっ‐たい【一体】；読み方：いったい（cand_002_一体.txt）",
+   "corpus_evidence": "golden_8165 2行。例 p-bakugyaku-1「と為し、死を以て尻と為す。孰か死生存亡の一体なるを知る者ぞ。吾之と友たらん、と。四人相視て笑い、心に逆らう莫く、遂に相与」"
+  },
+  {
+   "word": "一将",
+   "rank": 4,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いっしょう",
+   "meaning": "一人の将軍。语料：二百騎に一将なり・万人に一将あらしめ（大辞泉「一人の将軍」）",
+   "dict_evidence": "weblio デジタル大辞泉；いっ‐しょう〔‐シヤウ〕【一将】；読み方：いっしょう（cand_004_一将.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou55-5「に一長、十騎に一吏、百騎に一率、二百騎に一将なり。易戦の法は、五騎、列を為し、前後相去ること二十歩、左右四歩、隊の間は五」"
+  },
+  {
+   "word": "一尺",
+   "rank": 5,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いっしゃく",
+   "meaning": "尺貫法の長さの単位・尺の一つ。语料：城外一尺の雪・長さ一尺（大辞泉）",
+   "dict_evidence": "weblio デジタル大辞泉；いっ‐しゃく【一尺】；読み方：いっしゃく（cand_005_一尺.txt）",
+   "corpus_evidence": "golden_8165 2行。例 baitanoh-9「夜来城外一尺の雪」"
+  },
+  {
+   "word": "一悪",
+   "rank": 7,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いちあく",
+   "meaning": "一つの悪。语料：一悪を賞すれば則ち衆悪帰す（歴史民俗用語辞典 イチアク）",
+   "dict_evidence": "weblio 歴史民俗用語辞典 一悪 読み方：イチアク（cand_007_一悪.txt）",
+   "corpus_evidence": "golden_8165 2行。例 sanryaku03-4「を尽くす。一善を廃すれば、則ち衆善衰う。一悪を賞すれば、則ち衆悪帰す。善なる者其の佑を得、悪なる者其の誅を受くれば、則ち」"
+  },
+  {
+   "word": "一月",
+   "rank": 8,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いちげつ・いちがつ",
+   "meaning": "ひと月・一か月／暦の一月。语料：一月主人笑うこと幾回ぞ（ひと月の意・いちげつ 前頭。大辞泉両読み）",
+   "dict_evidence": "weblio デジタル大辞泉；いち‐がつ〔‐グワツ〕【一月】；読み方：いちがつ（cand_008_一月.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen462-1「一月主人笑うこと幾回ぞ」"
+  },
+  {
+   "word": "一毛",
+   "rank": 9,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いちもう",
+   "meaning": "極めて僅かなもの・一つの毛。语料：九牛の一毛を亡うが若し（大辞泉 いちもう）",
+   "dict_evidence": "weblio デジタル大辞泉；いち‐もう【一毛】；読み方：いちもう（cand_009_一毛.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kyugyu-2「仮令僕、法に伏し誅を受くるも、九牛の一毛を亡うが若し、螻蟻と何を以て異ならんや。而して世は又能く死節する者を与さず、特だ」"
+  },
+  {
+   "word": "一水",
+   "rank": 10,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いっすい",
+   "meaning": "一筋の水・一つの川。语料：盈盈たる一水の間・一水中分す白鷺洲（大辞泉 いっすい）",
+   "dict_evidence": "weblio デジタル大辞泉；いっ‐すい【一水】；読み方：いっすい（cand_010_一水.txt）",
+   "corpus_evidence": "golden_8165 2行。例 koshi19_10-5「盈盈たる一水の間、眽眽として語るを得ず」"
+  },
+  {
+   "word": "一瓢",
+   "rank": 12,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いっぴょう",
+   "meaning": "一つの瓢簞（ひさご）。语料：一簞の食、一瓢の飲（大辞泉 いっぴょう）",
+   "dict_evidence": "weblio デジタル大辞泉；いっ‐ぴょう〔‐ペウ〕【一×瓢】；読み方：いっぴょう（cand_012_一瓢.txt）",
+   "corpus_evidence": "golden_8165 2行。例 ittanno-1「子曰く、賢なるかな回や。一簞の食、一瓢の飲、陋巷に在り。人は其の憂いに堪えず。回や其の楽しみを改めず。賢なるかな回や。」"
+  },
+  {
+   "word": "一簞",
+   "rank": 13,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いったん",
+   "meaning": "一つの竹のかご（飯を盛る器）。语料：一簞の食（大辞泉 いったん）",
+   "dict_evidence": "weblio デジタル大辞泉；いっ‐たん【一×箪】；読み方：いったん（cand_013_一簞.txt）",
+   "corpus_evidence": "golden_8165 2行。例 ittanno-1「子曰く、賢なるかな回や。一簞の食、一瓢の飲、陋巷に在り。人は其の憂いに堪えず。回や其の楽しみを改めず。賢なるかな回や。」"
+  },
+  {
+   "word": "一花",
+   "rank": 15,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いっか",
+   "meaning": "一つの花。语料：山上一花の開くに・一花復た一花（大辞泉 いっか）",
+   "dict_evidence": "weblio デジタル大辞泉；いっ‐か〔‐クワ〕【一花】；読み方：いっか（cand_015_一花.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen169-2「更に逢う山上一花の開くに」"
+  },
+  {
+   "word": "一葉",
+   "rank": 16,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いちよう",
+   "meaning": "一枚の葉。语料：一葉の落つるを見て歳の将に暮れなんとするを知る（大辞泉 いちよう）",
+   "dict_evidence": "weblio デジタル大辞泉；いち‐よう〔‐エフ〕【一葉】；読み方：いちよう（cand_016_一葉.txt）",
+   "corpus_evidence": "golden_8165 2行。例 ichiyo-1「一葉の落つるを見て、歳の将に暮れなんとするを知り、瓶中の氷を睹て、天下の寒きを知る。近きを以て遠きを論ずるなり。」"
+  },
+  {
+   "word": "一道",
+   "rank": 18,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いちどう",
+   "meaning": "ただ一つの道・一貫した道理。语料：一道より出づれば欲心去り（大辞泉 いちどう）",
+   "dict_evidence": "weblio デジタル大辞泉；いち‐どう〔‐ダウ〕【一道】；読み方：いちどう（cand_018_一道.txt）",
+   "corpus_evidence": "golden_8165 2行。例 utsuryo11-4「ち非を為す者無からん。本に反り理に縁り、一道より出づれば、則ち欲心去り、争奪止み、囹圄空なり。野充ち粟多く、民を安んじ遠」"
+  },
+  {
+   "word": "万方",
+   "rank": 24,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ばんぽう",
+   "meaning": "あらゆる方面・天下万民。语料：万方罪有らば罪朕が躬に在らん（大辞泉「あらゆる方面」）",
+   "dict_evidence": "weblio デジタル大辞泉；ばん‐ぽう〔‐パウ〕【万方】；読み方：ばんぽう（cand_024_万方.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo2001-1「簡ぶこと帝の心に在り。朕が躬に罪有らば、万方を以てすること無かれ。万方罪有らば、罪朕が躬に在らん、と。周に大いなる賚有り」"
+  },
+  {
+   "word": "万死",
+   "rank": 25,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ばんし",
+   "meaning": "幾たびもの死に瀕すること。语料：万死を出でて一生に遇えり（大辞泉 ばんし）",
+   "dict_evidence": "weblio デジタル大辞泉；ばん‐し【万死】；読み方：ばんし（cand_025_万死.txt）",
+   "corpus_evidence": "golden_8165 2行。例 sogyoyasu-4「、我に従いて天下を定め、備に艱苦を嘗め、万死を出でて一生に遇えり。草創の難きを見る所以なり。魏徴は、我と天下を安んじ、驕」"
+  },
+  {
+   "word": "万籟",
+   "rank": 26,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ばんらい",
+   "meaning": "天地間のあらゆる物音。语料：万籟此に倶に寂たり（大辞泉 ばんらい）",
+   "dict_evidence": "weblio デジタル大辞泉；ばん‐らい【万×籟】；読み方：ばんらい（cand_026_万籟.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen107-7「万籟此に倶に寂たり」"
+  },
+  {
+   "word": "万金",
+   "rank": 27,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ばんきん・まんきん",
+   "meaning": "非常に多額の金。语料：家書万金に抵たる（大辞泉両読み・ばんきん 前頭）",
+   "dict_evidence": "weblio デジタル大辞泉；ばん‐きん【万金】；読み方：ばんきん（cand_027_万金.txt）",
+   "corpus_evidence": "golden_8165 2行。例 shunbo-6「家書万金に抵たる」"
+  },
+  {
+   "word": "丈人",
+   "rank": 28,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じょうじん",
+   "meaning": "年長の男子・徳のある老人。语料：丈人の杖を以て蓧を荷う（大辞泉 じょうじん）",
+   "dict_evidence": "weblio デジタル大辞泉；じょう‐じん〔ヂヤウ‐〕【丈人】；読み方：じょうじん（cand_028_丈人.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo1807-1「子路従いて後る。丈人の杖を以て蓧を荷うに遇う。子路問いて曰く、子、夫子を見たるか。丈人曰く、四体勤めず、五穀分たず、孰を」"
+  },
+  {
+   "word": "三千",
+   "rank": 31,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さんぜん",
+   "meaning": "三千・多数の弟子等をいう数。语料：三千の徒蓋し其の説を聞かざるは莫し（大辞泉 さんぜん）",
+   "dict_evidence": "weblio デジタル大辞泉；さん‐ぜん【三千】；読み方：さんぜん（cand_031_三千.txt）",
+   "corpus_evidence": "golden_8165 2行。例 daigaku00a-22「三千の徒、蓋し其の説を聞かざるは莫し。」"
+  },
+  {
+   "word": "三寸",
+   "rank": 33,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さんずん",
+   "meaning": "長さの単位・三寸。语料：腰より以下は禹に及ばざること三寸（大辞泉 さんずん）",
+   "dict_evidence": "weblio デジタル大辞泉；さん‐ずん【三寸】；読み方：さんずん（cand_033_三寸.txt）",
+   "corpus_evidence": "golden_8165 2行。例 sokano-1「り。然れども腰より以下は禹に及ばざること三寸、纍然として喪家の狗の如し、と。」"
+  },
+  {
+   "word": "三尺",
+   "rank": 34,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さんじゃく",
+   "meaning": "長さの単位・剣の代称。语料：風塵三尺の剣・三尺の泉（大辞泉 さんじゃく）",
+   "dict_evidence": "weblio デジタル大辞泉；さん‐じゃく【三尺】；読み方：さんじゃく（cand_034_三尺.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen142-3「風塵三尺の剣」"
+  },
+  {
+   "word": "三杯",
+   "rank": 36,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さんばい",
+   "meaning": "三杯（酒）。语料：濁酒三杯豪気発し（大辞泉 さんばい）",
+   "dict_evidence": "weblio デジタル大辞泉 さん‐ばい【三杯／三盃】読み方：さんばい（cand_036_三杯.txt）",
+   "corpus_evidence": "golden_8165 2行。例 youte-3「濁酒三杯豪気発し」"
+  },
+  {
+   "word": "三王",
+   "rank": 37,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さんおう",
+   "meaning": "夏殷周の三代の王。语料：施きて三王に及ばん（大辞泉 さんおう）",
+   "dict_evidence": "weblio デジタル大辞泉；さん‐おう〔‐ワウ〕【三王】；読み方：さんおう（cand_037_三王.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou01-1「、汝に師を遺り、之を以て昌を佐け、施きて三王に及ばん。文王曰く、兆、是を致せるか。史編曰く、編の太祖史疇、舜の為に占いて」"
+  },
+  {
+   "word": "三皇",
+   "rank": 39,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さんこう",
+   "meaning": "上古の聖王天皇・地皇・人皇等の総称。语料：三皇の世は虚無の情（大辞泉 さんこう）",
+   "dict_evidence": "weblio デジタル大辞泉；さん‐こう〔‐クワウ〕【三皇】；読み方：さんこう（cand_039_三皇.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou28-3「古者、三皇の世は、虚無の情、以て剛強を制し、文字有ること無く、皆五行に由れり。五行の道は、天地の自然にして、六甲の分、微」"
+  },
+  {
+   "word": "三章",
+   "rank": 40,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さんしょう",
+   "meaning": "三つの条章・約法三章。语料：法は三章のみ（大辞泉 さんしょう）",
+   "dict_evidence": "weblio デジタル大辞泉；さん‐しょう〔‐シヤウ〕【三章】；読み方：さんしょう（cand_040_三章.txt）",
+   "corpus_evidence": "golden_8165 2行。例 hosansho-1「父老と約せん、法は三章のみ。人を殺す者は死し、人を傷つくるもの及び盗むものは罪に抵る。余は悉く秦の法を除去せん、と。」"
+  },
+  {
+   "word": "上客",
+   "rank": 44,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じょうかく・じょうきゃく",
+   "meaning": "最も位の高い客人・貴賓。语料：子を以て我が上客と為さば（大辞泉両読み・じょうかく 前頭）",
+   "dict_evidence": "weblio デジタル大辞泉；じょう‐かく〔ジヤウ‐〕【上客】；読み方：じょうかく（cand_044_上客.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kyokutotsu-3「のに恩沢無く、頭を焦がし額を爛らすものを上客と為すか、と。上、乃ち福に帛を賜い、以て郎と為す。」"
+  },
+  {
+   "word": "上帝",
+   "rank": 46,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じょうてい",
+   "meaning": "天神・最高神。语料：克く上帝に配す（大辞泉 じょうてい）",
+   "dict_evidence": "weblio デジタル大辞泉；じょう‐てい〔ジヤウ‐〕【上帝】；読み方：じょうてい（cand_046_上帝.txt）",
+   "corpus_evidence": "golden_8165 2行。例 daigaku10-9「詩に云く、殷の未だ師を喪わざるや、克く上帝に配す。儀しく殷に監みるべし、峻命易からず、と。衆を得れば則ち国を得、衆を失え」"
+  },
+  {
+   "word": "上疏",
+   "rank": 47,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "じょうそ",
+   "meaning": "天子に奏疏を上ること。语料：皇帝陛下に上疏す（大辞泉 じょうそ）",
+   "dict_evidence": "weblio デジタル大辞泉；じょう‐そ〔ジヤウ‐〕【上×疏】；読み方：じょうそ（cand_047_上疏.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kyokutotsu-1「ぜらる。初め霍氏、奢縦なり。茂陵の徐福、上疏して言う、宣しく時を以て抑制し、亡に至らしむること無かるべし、と。書三たび上」"
+  },
+  {
+   "word": "一以",
+   "rank": 1,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：一以て之を貫く（一以貫之）の読み節、単語でない（N79 数え・構文断片 口径）"
+  },
+  {
+   "word": "一善",
+   "rank": 3,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械生成区のみ：Weblio日本語例文用例辞書だけで国語辞書条目なし（N82 幾時 同例）"
+  },
+  {
+   "word": "一屯",
+   "rank": 6,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・数え構文断片：三十騎を一屯と為し（軍制単位、N82 五十歩 同例）"
+  },
+  {
+   "word": "一率",
+   "rank": 11,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・数え構文断片：百騎に一率（軍制単位）"
+  },
+  {
+   "word": "一経",
+   "rank": 14,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "Wikipedia のみ保守排除（一経＝一つの経書、語料义は翻案可を注明・N80 令尹 同例）"
+  },
+  {
+   "word": "一術",
+   "rank": 17,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・兵書専門語：一術を正と為し（六韜系、N82 扶胥 同例）"
+  },
+  {
+   "word": "一長",
+   "rank": 19,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械生成区のみ：例文用例辞書だけで国語辞書条目なし"
+  },
+  {
+   "word": "一雁",
+   "rank": 20,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載（N82 寒空 さむぞら 同列・証拠なき読みを造らない）"
+  },
+  {
+   "word": "七術",
+   "rank": 21,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・韓非子専門語（主の用うる所七術）"
+  },
+  {
+   "word": "七貴",
+   "rank": 22,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載"
+  },
+  {
+   "word": "万徹",
+   "rank": 23,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・人名（李万徹）、weblio 不載＝N80 同类词形整组排除先例"
+  },
+  {
+   "word": "三万",
+   "rank": 29,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・数詞構文断片：三万の衆"
+  },
+  {
+   "word": "三勝",
+   "rank": 30,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "専門辞典（隠語大辞典）のみ・読み さんかつ 不審で语料「兵の三勝」と义一致を確認できず（N82 専門辞典は语料义一致時のみ・未達）"
+  },
+  {
+   "word": "三宮",
+   "rank": 32,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：大辞泉＝三后（三后宮）・神戸地名、语料「天将三宮を下り」诗语义と不一致（N80 天井 先例）"
+  },
+  {
+   "word": "三山",
+   "rank": 35,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "新語時事用語辞典（現代コブト）のみで国語辞書条目なし・语料（蓬莱方丈瀛洲の仙山义）と不一致、Wikipedia 区のみ（N82 江城 同例）"
+  },
+  {
+   "word": "三発",
+   "rank": 38,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：三発して一知す（韓非子）"
+  },
+  {
+   "word": "三隊",
+   "rank": 41,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ：ウィキペディア小見出し辞書だけで国語辞書条目なし"
+  },
+  {
+   "word": "上仁",
+   "rank": 42,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・老子専門語（上仁為之而無以為）"
+  },
+  {
+   "word": "上六",
+   "rank": 43,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "Wikipedia のみ保守排除（易経爻名・翻案可を注明）"
+  },
+  {
+   "word": "上将",
+   "rank": 45,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "Wikipedia のみ保守排除（上将軍義・翻案可を注明）"
+  },
+  {
+   "word": "上義",
+   "rank": 48,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・老子専門語（上義為之而有以為）"
+  },
+  {
+   "word": "上許",
+   "rank": 49,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：上（皇帝）が許す＝主語＋動詞の文節連接、単語でない"
+  }
+ ]
+}

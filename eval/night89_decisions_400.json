@@ -1,0 +1,408 @@
+{
+ "start": 400,
+ "note": "N89 batch rank 400-449: 13 in (noun 12/proper 0/verb 0/modifier 1/function 0) / 37 out",
+ "decisions": [
+  {
+   "word": "天時",
+   "rank": 400,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "てんじ",
+   "meaning": "天の時・時運。语料：元亀を啓き之を天時に参じ吉にして乃ち後に挙ぐ（大辞泉 てんじ）",
+   "dict_evidence": "weblio デジタル大辞泉；てん‐じ【天時】；読み方：てんじ（cand_400_天時.txt）",
+   "corpus_evidence": "golden_8165 2行。例 goshi01-2「信ぜず、必ず祖廟に告げ、元亀を啓き、之を天時に参じ、吉にして乃ち後に挙ぐ。」"
+  },
+  {
+   "word": "天理",
+   "rank": 402,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "てんり",
+   "meaning": "天然の理法・天道。语料：吾が心の良知は即ち所謂天理なり（大辞泉 てんり）",
+   "dict_evidence": "weblio デジタル大辞泉；てん‐り【天理】；読み方：てんり（cand_402_天理.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kakubutsu-4「物物に致すなり。吾が心の良知は、即ち所謂天理なり。吾が心の良知の天理を事事物物に致せば、則ち事事物物は皆其の理を得るなり」"
+  },
+  {
+   "word": "天際",
+   "rank": 405,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "てんさい",
+   "meaning": "空の際・天のかなた。语料：唯だ見る長江の天際に流るるを（大辞泉 てんさい）",
+   "dict_evidence": "weblio デジタル大辞泉；てん‐さい【天際】；読み方：てんさい（cand_405_天際.txt）",
+   "corpus_evidence": "golden_8165 2行。例 gyoou-5「天際を迴看して中流を下れば」"
+  },
+  {
+   "word": "太守",
+   "rank": 406,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいしゅ",
+   "meaning": "郡の長官。语料：酒泉の太守能く剣舞す（大辞泉 たいしゅ）",
+   "dict_evidence": "weblio デジタル大辞泉；たい‐しゅ【太守】；読み方：たいしゅ（cand_406_太守.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen363-1「酒泉の太守能く剣舞す」"
+  },
+  {
+   "word": "太尉",
+   "rank": 407,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいい",
+   "meaning": "漢代の軍事を司る最高官・太尉。语料：太尉、之に将とし軍門に入り（大辞泉 たいい）",
+   "dict_evidence": "weblio デジタル大辞泉；たい‐い〔‐ヰ〕【大尉】；読み方：たいい（cand_407_太尉.txt）",
+   "corpus_evidence": "golden_8165 2行。例 satan-1「太尉、之に将とし、軍門に入り、行くゆく軍中に令して曰く、呂氏の為にするものは右袒せよ。劉氏の為にするものは左袒せよ、と。」"
+  },
+  {
+   "word": "太平",
+   "rank": 408,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "たいへい",
+   "meaning": "世の中が平和に治まり穏やかなこと。语料：太平の時節身遇い難し（大辞泉 たいへい「世の中が平和に治まり穏やかなこと」）",
+   "dict_evidence": "weblio デジタル大辞泉 たい‐へい【太平／泰平】読み方：たいへい 世の中が平和に治まり穏やかなこと「天下―」（cand_408_太平.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen226-7「太平の時節身遇い難し」"
+  },
+  {
+   "word": "夫人",
+   "rank": 411,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ふじん",
+   "meaning": "天子・諸侯の正妻。语料：邦君の妻、君之を称して夫人と曰う（大辞泉 ふじん）",
+   "dict_evidence": "weblio デジタル大辞泉；ふ‐じん【夫人】；読み方：ふじん（cand_411_夫人.txt）",
+   "corpus_evidence": "golden_8165 2行。例 uramikotsu-1「文公の夫人は秦の女なり。秦の三囚将の為に請いて曰く、繆公の此の三人を怨むや、骨髄に入れり。願わくは此の三人をして帰らしめ」"
+  },
+  {
+   "word": "奮撃",
+   "rank": 415,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ふんげき",
+   "meaning": "奮って撃つこと。语料：朕が奮撃するに及んで反って我が利と為れり（大辞泉 ふんげき）",
+   "dict_evidence": "weblio デジタル大辞泉；ふん‐げき【奮撃】；読み方：ふんげき（cand_415_奮撃.txt）",
+   "corpus_evidence": "golden_8165 2行。例 montai02-10「右軍の却くに当って、高祖色を失えり。朕が奮撃するに及んで、反って我が利と為れり。孫呉と暗に合す。卿、実に言を知れり。」"
+  },
+  {
+   "word": "好悪",
+   "rank": 417,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうお",
+   "meaning": "好き嫌い・好むことと憎むこと。语料：之に示すに好悪を以てして民、禁を知る（大辞泉 こうお）",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐お〔カウヲ〕【好悪】；読み方：こうお（cand_417_好悪.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kokyo07-11「之に示すに好悪を以てして、民、禁を知る。」"
+  },
+  {
+   "word": "好色",
+   "rank": 419,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうしょく",
+   "meaning": "色を好むこと。语料：悪臭を悪むが如く好色を好むが如し（大辞泉 こうしょく）",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐しょく〔カウ‐〕【好色】；読み方：こうしょく（cand_419_好色.txt）",
+   "corpus_evidence": "golden_8165 2行。例 shindoku-1「は、自ら欺く毋きなり。悪臭を悪むが如く、好色を好むが如くす。此を之自ら謙くすと謂う。故に君子は必ず其の独りを慎むなり。」"
+  },
+  {
+   "word": "威霊",
+   "rank": 425,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "いれい",
+   "meaning": "威厳と霊威。语料：天時に墜ちて威霊は怒り（大辞泉 いれい）",
+   "dict_evidence": "weblio デジタル大辞泉；い‐れい〔ヰ‐〕【威霊】；読み方：いれい（cand_425_威霊.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen124-4「威霊千載に空し」"
+  },
+  {
+   "word": "娟娟",
+   "rank": 426,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "けんけん",
+   "meaning": "美しく優美なさま。语料：石瀬月娟娟たり（大辞泉 けんけん）",
+   "dict_evidence": "weblio デジタル大辞泉；けん‐けん【×娟×娟】；読み方：けんけん（cand_426_娟娟.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen098-2「石瀬月娟娟たり」"
+  },
+  {
+   "word": "嫌疑",
+   "rank": 430,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "けんぎ",
+   "meaning": "疑わしいこと・疑念。语料：君子は未然に防ぎ嫌疑の間に処らず（大辞泉 けんぎ）",
+   "dict_evidence": "weblio デジタル大辞泉；けん‐ぎ【嫌疑】；読み方：けんぎ（cand_430_嫌疑.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kaden-1「君子は未然に防ぎ、嫌疑の間に処らず。瓜田に履を納れず、李下に冠を正さず。」"
+  },
+  {
+   "word": "天牢",
+   "rank": 401,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・孫子地形語（絶澗天井天牢天羅）で辞書不載"
+  },
+  {
+   "word": "天知",
+   "rank": 403,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ・構文断片：天知る神知る（主語＋動詞）"
+  },
+  {
+   "word": "天陣",
+   "rank": 404,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・六韜語（天陣地陣人陣）で辞書不載"
+  },
+  {
+   "word": "太清",
+   "rank": 409,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "Wikipedia のみ保守排除（天空义・翻案可を注明）"
+  },
+  {
+   "word": "太空",
+   "rank": 410,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載（浮雲の太空を過ぐるに）"
+  },
+  {
+   "word": "夷吾",
+   "rank": 412,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ（ウィキペディア小見出し・人名 管夷吾）"
+  },
+  {
+   "word": "夷道",
+   "rank": 413,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch・専門辞典（三国志小事典）のみ＝地名夷道县、语料＝老子「夷道は纇なるが若し」（平坦な道）・未許可"
+  },
+  {
+   "word": "奇有",
+   "rank": 414,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+有系構文断片（必ず奇有るなり）"
+  },
+  {
+   "word": "女有",
+   "rank": 416,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：女有り車を同じくす"
+  },
+  {
+   "word": "好書",
+   "rank": 418,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文語で辞書不載（好書は卒に逢い難し）"
+  },
+  {
+   "word": "妖祥",
+   "rank": 420,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・六韜語（其の動静言語妖祥）で辞書不載"
+  },
+  {
+   "word": "妻曰",
+   "rank": 421,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X曰系呼称部（妻曰く＝晏子の妻）"
+  },
+  {
+   "word": "威無",
+   "rank": 422,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+無系構文断片（将、威無ければ）"
+  },
+  {
+   "word": "威神",
+   "rank": 423,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ（ウィキペディア小見出し・六韜語 以て威神を成す）"
+  },
+  {
+   "word": "威行",
+   "rank": 424,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：将の威行われず"
+  },
+  {
+   "word": "娥娥",
+   "rank": 427,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語畳語で辞書不載（娥娥たる紅粉の粧い）"
+  },
+  {
+   "word": "媒無",
+   "rank": 428,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+無系構文断片（洛橋に寄せんに媒無し）"
+  },
+  {
+   "word": "媯汭",
+   "rank": 429,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・地名（舜の居地）で辞書不載"
+  },
+  {
+   "word": "孀妻",
+   "rank": 431,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文語で辞書不載（孀妻に遺男有り）"
+  },
+  {
+   "word": "子出",
+   "rank": 432,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：子出づ"
+  },
+  {
+   "word": "子善",
+   "rank": 433,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：子善を欲すれば民善なり"
+  },
+  {
+   "word": "子在",
+   "rank": 434,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：子在す"
+  },
+  {
+   "word": "子姓",
+   "rank": 435,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文語で辞書不載（宋は子姓＝姓称）"
+  },
+  {
+   "word": "子往",
+   "rank": 436,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：子往かんと欲す"
+  },
+  {
+   "word": "子敢",
+   "rank": 437,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：子敢えて我を食らうこと無かれ"
+  },
+  {
+   "word": "子楚",
+   "rank": 438,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・人名（秦の荘襄王）で辞書不載"
+  },
+  {
+   "word": "子独",
+   "rank": 439,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：子独り夫の寿陵の余子を聞かずや"
+  },
+  {
+   "word": "子生",
+   "rank": 440,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "構文断片：子生まれて三年（主語＋動詞）・地名辞典（子生 コナジ）义は対位せず・未許可"
+  },
+  {
+   "word": "子知",
+   "rank": 441,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：子知る何ぞ知るもの無しと謂うや"
+  },
+  {
+   "word": "子祀",
+   "rank": 442,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・人名（荘子 子祀子輿子犁子来）"
+  },
+  {
+   "word": "子華",
+   "rank": 443,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・人名（孔子弟子 公西華）"
+  },
+  {
+   "word": "子虚",
+   "rank": 444,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・賦名（子虚の賦）で辞書不載"
+  },
+  {
+   "word": "子西",
+   "rank": 445,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・人名（楚国の子西）"
+  },
+  {
+   "word": "子説",
+   "rank": 446,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：子説ぶ"
+  },
+  {
+   "word": "子貧",
+   "rank": 447,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：子貧しくして此に客たれば"
+  },
+  {
+   "word": "子輿",
+   "rank": 448,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・人名（荘子 子輿）"
+  },
+  {
+   "word": "孔氏",
+   "rank": 449,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・呼称（孔氏の門）で辞書不載"
+  }
+ ]
+}

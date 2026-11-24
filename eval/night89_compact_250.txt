@@ -1,0 +1,327 @@
+[[250] 卑湿  freq=2 h=0 k=2 len=2 status=OK bytes=181977
+  corpus: 長沙は卑湿の地; 江陵は卑湿にして秋陰足る
+  [src] 卑湿の意味・解説
+  def: デジタル大辞泉
+  def: ひ‐しつ【卑湿】
+  [read] 読み方：ひしつ
+  [read] 読み方：ひしゅう
+
+[[251] 南人  freq=2 h=0 k=2 len=2 status=OK bytes=201052
+  corpus: 褚季野、孫安国に語りて云う、北人の学問は、淵綜広博なり。孫答えて曰く、南人の学問は、清通簡要; 北人の書を看るは、顕処に月を視るが如く、南人の学問は、牖中に日を窺うが如し、と。
+  [src] 南人の意味・解説
+  def: デジタル大辞泉
+  def: なん‐じん【南人】
+  [read] 読み方：なんじん
+  [wikibody-cut] ウィキペディア
+
+[[252] 南容  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 非ざるなりと。其の子を以て之に妻す。子、南容を謂う、邦に道有れば廃せられず。邦に道無きも刑戮; 南容、三たび白圭を復す。
+  [no-real-dict-region]
+
+[[253] 南斗  freq=2 h=0 k=2 len=2 status=OK bytes=212695
+  corpus: 剣は南斗に留まりて近く; 遠く南斗の外より
+  [src] 南斗の意味・解説
+  [wikibody-cut] ウィキペディア
+
+[[254] 南方  freq=2 h=0 k=2 len=2 status=OK bytes=264039
+  corpus: 南方より帰り去って再び天に生ず; 南方実に未だ招かれざるの魂有り
+  [src] 南方の意味・解説
+  def: デジタル大辞泉
+  def: なん‐ぽう〔‐パウ〕【南方】
+  [read] 読み方：なんぽう
+  [read] 読み方：なんぽう
+  [read] 読み方：ナンボウ（ｎａｎｂｏｕ）
+  [read] 読み方：ミナミガタ（ｍｉｎａｍｉｇａｔａ）
+  [read] 読み方：ミナミガタ（ｍｉｎａｍｉｇａｔａ）
+  [read] 読み方：ミナミガタ（ｍｉｎａｍｉｇａｔａ）
+  [read] 読み方：ミナミガタ（ｍｉｎａｍｉｇａｔａ）
+  [read] 読み方：ミナミガタ（ｍｉｎａｍｉｇａｔａ）
+  [read] 読み方：ミナミガタ（ｍｉｎａｍｉｇａｔａ）
+  [read] 読み方：ミナミガタ（ｍｉｎａｍｉｇａｔａ）
+  [read] 読み方：ミナミガタ（ｍｉｎａｍｉｇａｔａ）
+  [read] 読み方：ミナミカタ（ｍｉｎａｍｉｋａｔａ）
+
+[[255] 南浦  freq=2 h=0 k=2 len=2 status=OK bytes=214872
+  corpus: 画棟朝に飛ぶ南浦の雲; 南浦の清江万里橋
+  [src] 南浦の意味・解説
+  def: デジタル大辞泉
+  def: ナムポ【南浦】
+  [read] 読み方：なむぽ
+  [read] 読み方：なんぽ
+  [read] 読み方：なんぽ
+  [read] 読み方：ミナミウラ（ｍｉｎａｍｉｕｒａ）
+  [read] 読み方：ミナミウラ（ｍｉｎａｍｉｕｒａ）
+  [wikibody-cut] ウィキペディア
+
+[[256] 南海  freq=2 h=0 k=2 len=2 status=OK bytes=253217
+  corpus: 楚子、師と言わしめて曰く、君は北海に処り、寡人は南海に処り、唯だ是れ風する馬牛も相及ばざるな; 我は北海に居り君は南海
+  [src] 南海の意味・解説
+  def: デジタル大辞泉
+  def: なん‐かい【南海】
+  [read] 読み方：なんかい
+  [read] 読み方：ナンガイ（ｎａｎｇａｉ）
+  [wikibody-cut] ウィキペディア
+
+[[257] 南湖  freq=2 h=0 k=2 len=2 status=OK bytes=206234
+  corpus: 樹裏の南湖一片明らかなり; 今日南湖薇蕨を采る
+  [src] 南湖の意味・解説
+  def: 河川・湖沼名辞典
+  def: 南湖
+  [read] 読み方：ナンコ（ｎａｎｋｏ）
+  [read] 読み方：ナンコ（ｎａｎｋｏ）
+  [read] 読み方：ナンゴ（ｎａｎｇｏ）
+  [wikibody-cut] ウィキペディア
+
+[[258] 南門  freq=2 h=0 k=2 len=2 status=OK bytes=194534
+  corpus: を恐るればなり。乃ち三丈の木を国都の市の南門に立て、民を募り、能く徙して北門に置く者有らば、; 市の南門の外泥中に歇む
+  [src] 南門の意味・解説
+  [wikibody-cut] ウィキペディア小見出し辞書
+
+[[259] 単于  freq=2 h=0 k=2 len=2 status=OK bytes=258686
+  corpus: 単于秋色来る; 単于遠く遁逃す
+  [src] 単于の意味・解説
+  def: デジタル大辞泉
+  def: ぜん‐う【▽単×于】
+  [read] 読み方：ぜんう
+  [read] 読み方：ゼンウ（ｚｅｎ’ｕ）
+  [wikibody-cut] ウィキペディア
+
+[[260] 単車  freq=2 h=0 k=2 len=2 status=OK bytes=224012
+  corpus: 単車辺を問わんと欲し; 近ごろ単車と与に洛陽に向う
+  [src] 単車の意味・解説
+  def: デジタル大辞泉
+  def: たん‐しゃ【単車】
+  [read] 読み方：たんしゃ
+  [wikibody-cut] ウィキペディア
+
+[[261] 卜筮  freq=2 h=1 k=1 len=2 status=OK bytes=189951
+  corpus: あり。法を明らかにし令を審らかにすれば、卜筮せずして吉を獲、功を貴び労を養えば、禱祠せずして
+  [src] 卜筮の意味・解説
+  def: デジタル大辞泉
+  def: ぼく‐ぜい【×卜×筮】
+  [read] 読み方：ぼくぜい
+  [read] 読み方：ボクゼイ（ｂｏｋｕｚｅｉ）
+
+[[262] 危亡  freq=2 h=0 k=2 len=2 status=OK bytes=184744
+  corpus: 我と天下を安んじ、驕逸の端を生ぜば、必ず危亡の地を践まんことを慮る。守成の難きを見る所以なり; 能わず、世の乱るること愈〻甚だしく、以て危亡を致すは何ぞや。太公曰く、賢を挙ぐるも用いず。是
+  [src] 危亡の意味・解説
+  def: デジタル大辞泉
+  def: き‐ぼう〔‐バウ〕【危亡】
+  [read] 読み方：きぼう
+
+[[263] 危石  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 泉声危石に咽び; 船は危石を経て住まり
+  [no-real-dict-region]
+
+[[264] 危邦  freq=2 h=0 k=2 len=2 status=OK bytes=174611
+  corpus: く信じて学を好み、死を守りて道を善くす。危邦には入らず、乱邦には居らず。天下道有れば則ち見れ; く信じて学を好み、死を守りて道を善くす。危邦には入らず、乱邦には居らず。天下道有れば則ち見れ
+  [src] 危邦の意味・解説
+  def: デジタル大辞泉
+  def: き‐ほう〔‐ハウ〕【危邦】
+  [read] 読み方：きほう
+
+[[265] 原上  freq=2 h=0 k=2 len=2 status=OK bytes=183893
+  corpus: 遠く看る原上の村; 青血化して原上の草と為る
+  [src] 原上の意味・解説
+  def: 地名辞典
+  def: 原上
+  [read] 読み方：ハルガミ（ｈａｒｕｇａｍｉ）
+
+[[266] 原野  freq=2 h=0 k=2 len=2 status=OK bytes=284799
+  corpus: 兵は朝廷に勝つ有り。原野に勝つ有り。市井に勝つ有り。闘えば則ち得、服すれば則ち失う。幸いにし; 天時に墜ちて威霊は怒り、厳殺し尽くして原野に棄つ。
+  [src] 原野の意味・解説
+  def: デジタル大辞泉
+  def: げん‐や【原野】
+  [read] 読み方：げんや
+  [read] 読み方：はらの
+  [read] 読み方：ハラノ（ｈａｒａｎｏ）
+  [read] 読み方：ハラノ（ｈａｒａｎｏ）
+  [wikibody-cut] ウィキペディア
+
+[[267] 厭然  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 、至らざる所無し。君子を見て、而して后に厭然として、其の不善を揜いて、其の善を著す。人の己を; 君子を見て、而して后に厭
+  [no-real-dict-region]
+
+[[268] 去留  freq=2 h=0 k=2 len=2 status=OK bytes=178906
+  corpus: 曷ぞ心に委ねて去留を任せざる; 妓を載せ波に随って去留に任す
+  [src] 去留の意味・解説
+  def: 歴史民俗用語辞典
+  def: 去留
+  [read] 読み方：キョリュウ（ｋｙｏｒｙｕｕ）
+
+[[269] 又之  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: か。桓公、公子糾を殺すに、死する能わず。又之を相く。子曰く、管仲桓公を相けて、諸侯に覇たらし; 既にして又之が為に其の簡
+  [no-real-dict-region]
+
+[[270] 又能  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: し、螻蟻と何を以て異ならんや。而して世は又能く死節する者を与さず、特だ以て智窮し罪極まり、自; 籍は又能く青白眼を為す。
+  [no-real-dict-region]
+
+[[271] 及第  freq=2 h=0 k=2 len=2 status=OK bytes=195979
+  corpus: 曰く、天荒解、と。劉蛻舎人、荊の解を以て及第す。号して破天荒と為す。; 号す。大中四年、劉蛻舎人、是の府解を以て及第す。時に崔魏公鎮と作り、破天荒を以て、銭七十万も
+  [src] 及第の意味・解説
+  def: デジタル大辞泉
+  def: きゅう‐だい〔キフ‐〕【及第】
+  [read] 読み方：きゅうだい
+  [read] 読み方：キュウダイ（ｋｙｕｕｄａｉ）
+
+[[272] 双双  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 胡蝶双双菜花に入る; 双双玉珂を鳴らす
+  [no-real-dict-region]
+
+[[273] 双峰  freq=2 h=0 k=2 len=2 status=OK bytes=189494
+  corpus: 吟余却って起す双峰の念; 更に憶う双峰の最高頂
+  [src] 双峰の意味・解説
+  [wikibody-cut] ウィキペディア
+
+[[274] 双闕  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 暁気晴れ来る双闕の間; 双闕の連甍鳳翼を垂る
+  [no-real-dict-region]
+
+[[275] 叔夏  freq=2 h=1 k=1 len=2 status=HTTP404 bytes=0
+  corpus: 周に八士有り。伯達・伯适・仲突・仲忽・叔夜・叔夏・季随・季騧。
+  [no-real-dict-region]
+
+[[276] 叔夜  freq=2 h=1 k=1 len=2 status=HTTP404 bytes=0
+  corpus: 周に八士有り。伯達・伯适・仲突・仲忽・叔夜・叔夏・季随・季騧。
+  [no-real-dict-region]
+
+[[277] 受命  freq=2 h=1 k=1 len=2 status=OK bytes=194679
+  corpus: くするに廊廟の論を以てし、之を重くするに受命の論を以てし、之を鋭くするに踰垠の論を以てすれば
+  [src] 受命の意味・解説
+  def: デジタル大辞泉
+  def: じゅ‐めい【受命】
+  [read] 読み方：じゅめい
+  [wikibody-cut] Wiktionary日本語版（日本語カテ
+
+[[278] 古法  freq=2 h=0 k=2 len=2 status=OK bytes=183782
+  corpus: 一には則ち力を治め、一には則ち前み拒ぎ、一には則ち部伍を束ね、三者迭いに用を相為す。斯れ馬隆; 臣、西のかた突厥を討ちしとき、険を越えること数千里、此の制は未だ嘗て敢えて易えず。蓋し古法の
+  [src] 古法の意味・解説
+  def: デジタル大辞泉
+  def: こ‐ほう〔‐ハフ〕【古法】
+  [read] 読み方：こほう
+
+[[279] 古道  freq=2 h=0 k=2 len=2 status=OK bytes=241592
+  corpus: 古道人行少なり; 蒼苔の古道行いて応に遍ねかるべし
+  [src] 古道の意味・解説
+  def: デジタル大辞泉
+  def: こ‐どう〔‐ダウ〕【古道】
+  [read] 読み方：こどう
+  [read] 読み方：ふるみち
+  [read] 読み方：コドウ（ｋｏｄｏｕ）
+  [read] 読み方：フルミチ（ｆｕｒｕｍｉｃｈｉ）
+  [read] 読み方：フルミチ（ｆｕｒｕｍｉｃｈｉ）
+  [wikibody-cut] ウィキペディア
+
+[[280] 台榭  freq=2 h=1 k=1 len=2 status=OK bytes=176438
+  corpus: 楚王の台榭は空しく山丘
+  [src] 台榭の意味・解説
+  def: 歴史民俗用語辞典
+  def: 台榭
+  [read] 読み方：ダイシャ（ｄａｉｓｈａ）
+
+[[281] 右背  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 平陸には易きに処りて、高きを右背にし、死を前にして生を後ろにす。; 丘陵・隄防には、必ず其の陽に処りて、之を右背にす。
+  [no-real-dict-region]
+
+[[282] 右角  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 蝸の左角に国する者有り、触氏と曰う。蝸の右角に国する者有り、蛮氏と曰う。時に相与に地を争いて; 一は左角と為し、一は右角
+  [no-real-dict-region]
+
+[[283] 司徒  freq=2 h=0 k=2 len=2 status=OK bytes=208207
+  corpus: 聖人之を憂うる有り。契をして司徒たらしめ、教うるに人倫を以てす。父子親有り、君臣義有り、夫婦; 此れ伏羲・神農・黄帝・堯・舜の天を継ぎて極を立つる所以にして、司徒の職、典楽の官の由りて設く
+  [src] 司徒の意味・解説
+  def: デジタル大辞泉
+  def: し‐と【司徒】
+  [read] 読み方：しと
+  [wikibody-cut] ウィキペディア
+
+[[284] 合戦  freq=2 h=0 k=2 len=2 status=OK bytes=260312
+  corpus: るに、曹公、孫子を注して曰く、先ず出でて合戦するを正と為し、後に出づるを奇と為す、と。此れ旁; 師を帥いるに、三軍分れて数処と為り、将、合戦を期会し、賞罰を約誓せんと欲す。之を為すこと奈何
+  [src] 合戦の意味・解説
+  def: デジタル大辞泉
+  def: かっ‐せん【合戦】
+  [read] 読み方：かっせん
+  [read] 読み方：カッセン（ｋａｓｓｅｎ）
+  [wikibody-cut] ウィキペディア
+
+[[285] 合歓  freq=2 h=0 k=2 len=2 status=OK bytes=432672
+  corpus: 裁ちて合歓の扇と為せば; 複道の交窓合歓を作し
+  [src] 合歓の意味・解説
+  def: デジタル大辞泉
+  def: ごう‐かん〔ガフクワン〕【合歓】
+  [read] 読み方：ごうかん
+  [read] 読み方：ねぶ
+  [read] 読み方：ねむ
+  [read] 読み方：ゴウカン（ｇｏｕｋａｎ）
+  [read] 読み方：ネム（ｎｅｍｕ），　ネブ（ｎｅｂｕ）
+
+[[286] 吉日  freq=2 h=1 k=1 len=2 status=OK bytes=212404
+  corpus: 吉日の辰も良し。穆みて将に上皇を愉ませんとす。
+  [src] 吉日の意味・解説
+  def: デジタル大辞泉
+  def: きち‐じつ【吉日】
+  [read] 読み方：きちじつ
+  [read] 読み方：きちにち
+  [read] 読み方：きつじつ
+  [read] 読み方：キチジツ（ｋｉｃｈｉｊｉｔｓｕ）
+  [read] 読み方：きちにち
+  [wikibody-cut] Wiktionary日本語版（日本語カテ
+
+[[287] 名姓  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 出づるを得て、即ち馳せ去る。封伝を更め、名姓を変じて、以て関を出づ。夜半に函谷関に至る。秦の; 匈奴名姓を知らんと欲する
+  [no-real-dict-region]
+
+[[288] 名正  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: は其の知らざる所に於いて、蓋し闕如たり。名正しからざれば、則ち言順わず。言順わざれば、則ち事; 名正しからざれば、則ち言
+  [no-real-dict-region]
+
+[[289] 名誉  freq=2 h=0 k=2 len=2 status=OK bytes=305281
+  corpus: 此れより前、諸葛誕・鄧颺等、名誉を馳せ、四窗八達の誚り有り。帝之を疾む。; 羽翼四人、名誉を揚げ、遠方を震わし、四境を動かし、以て敵の心を弱くするを主る。
+  [src] 名誉の意味・解説
+  def: デジタル大辞泉
+  def: めい‐よ【名誉】
+  [read] 読み方：めいよ
+  [read] 読み方：めいよ
+  [read] 読み方：めいよう
+  [wikibody-cut] ウィキペディア
+
+[[290] 吏有  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 吏有り夜人を捉う; 田里相伍するは、其の約束符信なり。里に吏有り、官に長有るは、其の将帥なり。里に周垣有り、相過
+  [no-real-dict-region]
+
+[[291] 君去  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 君去って試みに看よ汾水の上; 君去って春江正に淼茫たり
+  [no-real-dict-region]
+
+[[292] 君在  freq=2 h=1 k=1 len=2 status=HTTP404 bytes=0
+  corpus: 朝にて下大夫と言うときは、侃侃如たり。上大夫と言うときは、誾誾如たり。君在せば、踧踖如たり、
+  [no-real-dict-region]
+
+[[293] 君師  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 時に則ち孔子の聖の若き有れども、君師の位を得て、以て其の政教を行わず。; れば、則ち天は必ず之に命じて、以て億兆の君師と
+  [no-real-dict-region]
+
+[[294] 君怒  freq=2 h=1 k=1 len=2 status=HTTP404 bytes=0
+  corpus: 死馬の骨を五百金に買いて返る。君怒る。
+  [no-real-dict-region]
+
+[[295] 君有  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 子曰く、夷狄の君有るは、諸夏の亡きに如かず。; 言に宗有り、事に君有り。夫れ唯だ知る無し、是を以て我を知らず。
+  [no-real-dict-region]
+
+[[296] 君祭  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: を賜えば、必ず之を畜う。君に侍食するに、君祭れば先ず飯す。; を賜えば、必ず之を畜う。君に侍食するに、君祭れば先ず飯す。
+  [no-real-dict-region]
+
+[[297] 君自  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 酒を酌んで君に与う君自ら寛うせよ; 陰を成し実を結ばば君自ら取れ
+  [no-real-dict-region]
+
+[[298] 君薨  freq=2 h=1 k=1 len=2 status=HTTP404 bytes=0
+  corpus: 必ずしも高宗のみならん。古の人は皆然り。君薨ずれば、百官己を総べて、以て冢宰に聴くこと三年な
+  [no-real-dict-region]
+
+[[299] 君長  freq=2 h=0 k=2 len=2 status=HTTP404 bytes=0
+  corpus: 西南夷の君長は什を以て数え、夜郎最も大なり。其の西は靡莫の属、什を以て数え、滇最も大なり。; 士庶の義は、必ず父母に奉じ
+  [no-real-dict-region]

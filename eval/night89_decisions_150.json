@@ -1,0 +1,444 @@
+{
+ "start": 150,
+ "note": "N89 batch rank 150-199: 22 in (noun 13/proper 2/verb 6/modifier 1/function 0) / 28 out",
+ "decisions": [
+  {
+   "word": "侍食",
+   "rank": 155,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "じしょく",
+   "meaning": "君に侍して食を共にすること。语料：君に侍食するに君祭れば先ず飯す（大辞泉 じしょく）",
+   "dict_evidence": "weblio デジタル大辞泉；じ‐しょく【侍食】；読み方：じしょく（cand_155_侍食.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kimijisho-1「薦む。君、生を賜えば、必ず之を畜う。君に侍食するに、君祭れば先ず飯す。」"
+  },
+  {
+   "word": "侵奪",
+   "rank": 157,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "しんだつ",
+   "meaning": "侵して奪い取ること。语料：諸侯の地を侵奪し徴求滋〻多く（大辞泉 しんだつ）",
+   "dict_evidence": "weblio デジタル大辞泉；しん‐だつ【侵奪】；読み方：しんだつ（cand_157_侵奪.txt）",
+   "corpus_evidence": "golden_8165 2行。例 nukawone-1「讒賊に聴き、擅に律令を変更し、諸侯の地を侵奪し、徴求滋〻多く、良善を誅罰すること、日に以て益〻甚だし。里語に之れ有り、糠」"
+  },
+  {
+   "word": "侵掠",
+   "rank": 158,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "しんりゃく",
+   "meaning": "侵し掠め取ること。语料：侵掠すること火の如く（大辞泉 しんりゃく）",
+   "dict_evidence": "weblio デジタル大辞泉；しん‐りゃく【侵略／侵×掠】；読み方：しんりゃく（cand_158_侵掠.txt）",
+   "corpus_evidence": "golden_8165 2行。例 p-furin-1「こと風の如く、其の徐かなること林の如く、侵掠すること火の如く、動かざること山の如く、知り難きこと陰の如く、動くこと雷震の」"
+  },
+  {
+   "word": "便便",
+   "rank": 159,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "べんべん",
+   "meaning": "弁舌がさわやかで雄弁なさま。语料：其の宗廟朝廷に在るや便便と（大辞泉 べんべん）",
+   "dict_evidence": "weblio デジタル大辞泉；べん‐べん【便便】；読み方：べんべん（cand_159_便便.txt）",
+   "corpus_evidence": "golden_8165 2行。例 iukotoata-1「孔子、郷党に於いては、恂恂如たり。言うこと能わざる者に似たり。其の宗廟・朝廷に在るや、便便として言う。唯だ謹めるのみ。」"
+  },
+  {
+   "word": "倉庫",
+   "rank": 163,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "そうこ",
+   "meaning": "穀物や財貨を収める倉と庫。语料：其の倉庫を視其の糧食を度り（大辞泉 そうこ）",
+   "dict_evidence": "weblio デジタル大辞泉；そう‐こ〔サウ‐〕【倉庫】；読み方：そうこ（cand_163_倉庫.txt）",
+   "corpus_evidence": "golden_8165 2行。例 gaikotsu-1「、属託行われ、貨賂至り、賦斂を并重して、倉庫は内るること少なく、左右に便事して、陂池の魚は、権宗に入る。此の時に当たり、」"
+  },
+  {
+   "word": "傷心",
+   "rank": 166,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "しょうしん",
+   "meaning": "心を痛めること。语料：傷心す橋下春波緑なり（大辞泉 しょうしん）",
+   "dict_evidence": "weblio デジタル大辞泉；しょう‐しん〔シヤウ‐〕【傷心】；読み方：しょうしん（cand_166_傷心.txt）",
+   "corpus_evidence": "golden_8165 2行。例 shinen01-3「傷心す橋下春波緑なり」"
+  },
+  {
+   "word": "傾国",
+   "rank": 167,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "けいこく",
+   "meaning": "国を傾けるほどの美女。语料：名花傾国両つながら相歓ぶ（大辞泉 けいこく）",
+   "dict_evidence": "weblio デジタル大辞泉；けい‐こく【傾国】；読み方：けいこく（cand_167_傾国.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen312-1「名花傾国両つながら相歓ぶ」"
+  },
+  {
+   "word": "充塞",
+   "rank": 170,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "じゅうそく",
+   "meaning": "行き渡って満たすこと。语料：四虚に充塞し処として塊亡きは亡し（大辞泉 じゅうそく）",
+   "dict_evidence": "weblio デジタル大辞泉；じゅう‐そく【充塞】；読み方：じゅうそく（cand_170_充塞.txt）",
+   "corpus_evidence": "golden_8165 2行。例 daigaku00a-28「衆技の流れ、世を惑わし民を誣いて、仁義を充塞する所以の者と、又紛然として其の間に雑出し、其の君子をして不幸にして大道の要」"
+  },
+  {
+   "word": "先知",
+   "rank": 171,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "せんち",
+   "meaning": "先んじて知ること・予知。语料：先知なる者は鬼神に取る可からず（大辞泉 せんち）",
+   "dict_evidence": "weblio デジタル大辞泉；せん‐ち【先知】；読み方：せんち（cand_171_先知.txt）",
+   "corpus_evidence": "golden_8165 2行。例 sonshi13-5「故に明君・賢将の動きて人に勝ち、成功の衆に出づる所以の者は、先知なり。」"
+  },
+  {
+   "word": "先行",
+   "rank": 172,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "verb",
+   "reading": "せんこう",
+   "meaning": "先んじて行くこと。语料：信、乃ち万人をして先行せしめ（大辞泉 せんこう）",
+   "dict_evidence": "weblio デジタル大辞泉；せん‐こう〔‐カウ〕【先行】；読み方：せんこう（cand_172_先行.txt）",
+   "corpus_evidence": "golden_8165 2行。例 haisui-1「信、乃ち万人をして先行せしめ、出でて水を背にして陳せしむ。趙の軍、望み見て大いに笑う。」"
+  },
+  {
+   "word": "光輝",
+   "rank": 173,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうき",
+   "meaning": "光り輝くこと・光。语料：始めて覚ゆ屛障に光輝の生ずるを（大辞泉 こうき）",
+   "dict_evidence": "weblio デジタル大辞泉；こう‐き〔クワウ‐〕【光輝】；読み方：こうき（cand_173_光輝.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen029-9「始めて覚ゆ屛障に光輝の生ずるを」"
+  },
+  {
+   "word": "児童",
+   "rank": 174,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じどう",
+   "meaning": "児童・子供。语料：児童相見て相識らず（大辞泉 じどう）",
+   "dict_evidence": "weblio デジタル大辞泉；じ‐どう【児童】；読み方：じどう（cand_174_児童.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kyonikaeri-3「児童相見て相識らず」"
+  },
+  {
+   "word": "全盛",
+   "rank": 176,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ぜんせい",
+   "meaning": "最も盛んなこと。语料：梁王昔全盛なりしとき（大辞泉 ぜんせい）",
+   "dict_evidence": "weblio デジタル大辞泉；ぜん‐せい【全盛】；読み方：ぜんせい（cand_176_全盛.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen010-1「梁王昔全盛なりしとき」"
+  },
+  {
+   "word": "公事",
+   "rank": 180,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうじ",
+   "meaning": "公の事・公務。语料：公事に非ざれば未だ嘗て偃の室に至らざるなり（大辞泉 こうじ）",
+   "dict_evidence": "weblio デジタル大辞泉；おおやけ‐ごと〔おほやけ‐〕【公事】；読み方：おおやけごと（cand_180_公事.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo0612-1「、澹台滅明なる者有り。行くに径に由らず。公事に非ざれば、未だ嘗て偃の室に至らざるなり。」"
+  },
+  {
+   "word": "公家",
+   "rank": 181,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こうか",
+   "meaning": "国家・公（おおやけ）。语料：公家の費破車罷馬十に其の六を去る（大辞泉 こうか）",
+   "dict_evidence": "weblio デジタル大辞泉；く‐げ【▽公家】；読み方：くげ（cand_181_公家.txt）",
+   "corpus_evidence": "golden_8165 2行。例 sonshi02-16「公家の費、破車罷馬、甲冑矢弩、戟楯蔽櫓、丘牛大車、十に其の六を去る。」"
+  },
+  {
+   "word": "六国",
+   "rank": 183,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "ろっこく",
+   "meaning": "戦国時代の楚・斉・燕・韓・魏・趙の六国。语料：六国の兵四に守りて勢い甚だ便ならず（大辞泉 ろっこく）",
+   "dict_evidence": "weblio デジタル大辞泉；りく‐こく【六国】；読み方：りくこく（cand_183_六国.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rissui-1「武王、紂を伐ち、其の後を宋に封ぜり。今、秦、徳を失い義を弃て、諸侯の社稷を侵伐し、六国の後を滅ぼし、立錐の地無からしむ。」"
+  },
+  {
+   "word": "六尺",
+   "rank": 185,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ろくしゃく",
+   "meaning": "長さの単位・六尺（幼児の身長にもいう）。语料：以て六尺の孤を託す可く（大辞泉 ろくしゃく）",
+   "dict_evidence": "weblio デジタル大辞泉；ろく‐しゃく【六尺】；読み方：ろくしゃく（cand_185_六尺.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo0806-1「曾子曰く、以て六尺の孤を託す可く、以て百里の命を寄す可し。大節に臨みて奪う可からず。君子人か、君子人なり。」"
+  },
+  {
+   "word": "六朝",
+   "rank": 186,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "ろくちょう",
+   "meaning": "呉・東晋・宋・斉・梁・陳の六王朝。语料：六朝夢の如く鳥空しく啼く（大辞泉 ろくちょう）",
+   "dict_evidence": "weblio デジタル大辞泉；りく‐ちょう〔‐テウ〕【六朝】；読み方：りくちょう（cand_186_六朝.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kinryo-2「六朝夢の如く鳥空しく啼く」"
+  },
+  {
+   "word": "六畜",
+   "rank": 187,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "りくちく",
+   "meaning": "馬・牛・羊・犬・豚・鶏の六畜。语料：必ず其の六畜を遂げ（大辞泉 りくちく）",
+   "dict_evidence": "weblio デジタル大辞泉；りく‐ちく【▽六畜】；読み方：りくちく（cand_187_六畜.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rikutou30-4「国を為むる者は、人事に取る。故に必ず其の六畜を遂げ、其の田野を闢き、其の処所を究めしむ。丈夫の田を治むるに畝数有り。婦人」"
+  },
+  {
+   "word": "兵刃",
+   "rank": 191,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "へいじん",
+   "meaning": "兵器と刃物・武器。语料：節するに兵刃を以てし勝つことを求めずして勝つなり（大辞泉 へいじん）",
+   "dict_evidence": "weblio デジタル大辞泉；へい‐じん【兵刃】；読み方：へいじん（cand_191_兵刃.txt）",
+   "corpus_evidence": "golden_8165 2行。例 utsuryo05-5「戦攻の日、鼓を合わせ角を合わせ、節するに兵刃を以てし、勝つことを求めずして勝つなり。兵に備を去り威を徹てて勝つ者有り。其」"
+  },
+  {
+   "word": "再拝",
+   "rank": 197,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "さいはい",
+   "meaning": "二度拝む礼。语料：人を他邦に問わしむるときは再拝して之を送る（大辞泉 さいはい）",
+   "dict_evidence": "weblio デジタル大辞泉；さい‐はい【再拝】；読み方：さいはい（cand_197_再拝.txt）",
+   "corpus_evidence": "golden_8165 2行。例 gaikotsu-1「わくば骸骨を乞い、賢者の路を避けん、と。再拝して便ち僻く。」"
+  },
+  {
+   "word": "冢宰",
+   "rank": 199,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ちょうさい",
+   "meaning": "六卿の長・天官冢宰。语料：百官己を総べて以て冢宰に聴くこと三年なり（大辞泉 ちょうさい）",
+   "dict_evidence": "weblio デジタル大辞泉；ちょう‐さい【×冢宰】；読み方：ちょうさい（cand_199_冢宰.txt）",
+   "corpus_evidence": "golden_8165 2行。例 rongo1443-1「皆然り。君薨ずれば、百官己を総べて、以て冢宰に聴くこと三年なり。」"
+  },
+  {
+   "word": "何遽",
+   "rank": 150,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・文語疑問副詞で辞書不載（何遽ぞ＝どうして〜か、証拠なき読みを造らない）"
+  },
+  {
+   "word": "余奇",
+   "rank": 151,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・握機経専門語（余奇を握機と為す）"
+  },
+  {
+   "word": "佳兵",
+   "rank": 152,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・老子専門語（佳兵者不祥之器）"
+  },
+  {
+   "word": "佳士",
+   "rank": 153,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文語で辞書不載（佳き士）"
+  },
+  {
+   "word": "佳期",
+   "rank": 154,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・楚辞語で辞書不載"
+  },
+  {
+   "word": "侯王",
+   "rank": 156,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文語で辞書不載（侯と王・老子語）"
+  },
+  {
+   "word": "信有",
+   "rank": 160,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+有系構文断片（言いて信有らば）"
+  },
+  {
+   "word": "信無",
+   "rank": 161,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+無系構文断片（信無くんば）"
+  },
+  {
+   "word": "信言",
+   "rank": 162,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・老子専門語（信言は美ならず）"
+  },
+  {
+   "word": "偏箱",
+   "rank": 164,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・兵車専門語（偏箱車）"
+  },
+  {
+   "word": "備曰",
+   "rank": 165,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X曰系呼称部（備曰く＝劉備）"
+  },
+  {
+   "word": "僧問",
+   "rank": 168,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X問系呼称部（僧問う＝禅録）"
+  },
+  {
+   "word": "儀忒",
+   "rank": 169,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩経専門語（其の儀忒わず）"
+  },
+  {
+   "word": "全曲",
+   "rank": 175,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：大辞泉＝曲の全体（音楽）、语料＝尉繚子兵教の条目名（曲折相従い）"
+  },
+  {
+   "word": "全車",
+   "rank": 177,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：大辞泉＝貨車等の車全体、语料＝尉繚子兵教の条目名（甲首相附き）"
+  },
+  {
+   "word": "八寸",
+   "rank": 178,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：大辞泉＝料理の八寸、语料＝符の長さ八寸（数詞＋寸の構文）"
+  },
+  {
+   "word": "八尺",
+   "rank": 179,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：大辞泉＝やさか（尊称のみ）、语料＝長さ八尺・八尺の車輪（証拠なき読みを造らない）"
+  },
+  {
+   "word": "六四",
+   "rank": 182,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "専門辞典（隠語大辞典）のみ・読み むし 不審で语料（易経爻名）と义一致を確認できず"
+  },
+  {
+   "word": "六寸",
+   "rank": 184,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "専門辞典（隠語大辞典）のみ（長さ六寸・実用日本語表現・植物名辞典以外の専門辞典は未許可）"
+  },
+  {
+   "word": "六章",
+   "rank": 188,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・大学伝六章の章数構文"
+  },
+  {
+   "word": "六論",
+   "rank": 189,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・呂氏春秋六論の書名構成語"
+  },
+  {
+   "word": "共工",
+   "rank": 190,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "専門辞典（世界宗教用語大事典）のみ・N82 許可済み専門辞典（実用日本語表現・植物名）以外は未許可（翻案可を注明）"
+  },
+  {
+   "word": "兵少",
+   "rank": 192,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：兵少く食尽く"
+  },
+  {
+   "word": "兵弱",
+   "rank": 193,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：兵弱く国亡う"
+  },
+  {
+   "word": "兵教",
+   "rank": 194,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・尉繚子篇名（兵教の法）"
+  },
+  {
+   "word": "具臣",
+   "rank": 195,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・論語語（具臣と謂う可し）で辞書不載"
+  },
+  {
+   "word": "内則",
+   "rank": 196,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：大辞泉＝団体の内部規則・内規、语料＝礼記の篇名（曲礼少儀内則弟子職）"
+  },
+  {
+   "word": "冕者",
+   "rank": 198,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・論語語（冕者と瞽者と）で辞書不載"
+  }
+ ]
+}

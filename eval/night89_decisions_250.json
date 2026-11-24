@@ -1,0 +1,440 @@
+{
+ "start": 250,
+ "note": "N89 batch rank 250-299: 21 in (noun 18/proper 2/verb 0/modifier 1/function 0) / 29 out",
+ "decisions": [
+  {
+   "word": "卑湿",
+   "rank": 250,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "modifier",
+   "reading": "ひしつ",
+   "meaning": "土地が低く湿っていること。语料：長沙は卑湿の地・江陵は卑湿にして秋陰足る（大辞泉 ひしつ）",
+   "dict_evidence": "weblio デジタル大辞泉；ひ‐しつ【卑湿】；読み方：ひしつ（cand_250_卑湿.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen110-7「長沙は卑湿の地」"
+  },
+  {
+   "word": "南人",
+   "rank": 251,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "なんじん",
+   "meaning": "南方の人。语料：南人の学問は清通簡要なり（大辞泉 なんじん）",
+   "dict_evidence": "weblio デジタル大辞泉；なん‐じん【南人】；読み方：なんじん（cand_251_南人.txt）",
+   "corpus_evidence": "golden_8165 2行。例 yuchuni-1「褚季野、孫安国に語りて云う、北人の学問は、淵綜広博なり。孫答えて曰く、南人の学問は、清通簡要なり、と。」"
+  },
+  {
+   "word": "南方",
+   "rank": 254,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "なんぽう",
+   "meaning": "南の方角・南方。语料：南方実に未だ招かれざるの魂有り（大辞泉 なんぽう）",
+   "dict_evidence": "weblio デジタル大辞泉；なん‐ぽう〔‐パウ〕【南方】；読み方：なんぽう（cand_254_南方.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen158-1「南方より帰り去って再び天に生ず」"
+  },
+  {
+   "word": "南浦",
+   "rank": 255,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "なんぽ",
+   "meaning": "南の岸辺・送別の地。语料：画棟朝に飛ぶ南浦の雲（大辞泉 なんぽ）",
+   "dict_evidence": "weblio デジタル大辞泉；ナムポ【南浦】；読み方：なむぽ（cand_255_南浦.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen015-3「画棟朝に飛ぶ南浦の雲」"
+  },
+  {
+   "word": "南海",
+   "rank": 256,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "なんかい",
+   "meaning": "南の海。语料：君は北海に処り寡人は南海に処り（大辞泉 なんかい）",
+   "dict_evidence": "weblio デジタル大辞泉；なん‐かい【南海】；読み方：なんかい（cand_256_南海.txt）",
+   "corpus_evidence": "golden_8165 2行。例 p-fuba-2「楚子、師と言わしめて曰く、君は北海に処り、寡人は南海に処り、唯だ是れ風する馬牛も相及ばざるなり。」"
+  },
+  {
+   "word": "単于",
+   "rank": 259,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "ぜんう",
+   "meaning": "匈奴の君主の称号。语料：単于秋色来る・単于遠く遁逃す（大辞泉 ぜんう）",
+   "dict_evidence": "weblio デジタル大辞泉；ぜん‐う【▽単×于】；読み方：ぜんう（cand_259_単于.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen066-4「単于秋色来る」"
+  },
+  {
+   "word": "卜筮",
+   "rank": 261,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ぼくぜい",
+   "meaning": "占い（亀卜と筮竹）。语料：卜筮せずして吉を獲（大辞泉 ぼくぜい）",
+   "dict_evidence": "weblio デジタル大辞泉；ぼく‐ぜい【×卜×筮】；読み方：ぼくぜい（cand_261_卜筮.txt）",
+   "corpus_evidence": "golden_8165 2行。例 utsuryo04-12「あり。法を明らかにし令を審らかにすれば、卜筮せずして吉を獲、功を貴び労を養えば、禱祠せずして福を得、と。」"
+  },
+  {
+   "word": "危亡",
+   "rank": 262,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きぼう",
+   "meaning": "危く滅びること。语料：必ず危亡の地を践まんことを慮る（大辞泉 きぼう）",
+   "dict_evidence": "weblio デジタル大辞泉；き‐ぼう〔‐バウ〕【危亡】；読み方：きぼう（cand_262_危亡.txt）",
+   "corpus_evidence": "golden_8165 2行。例 sogyoyasu-4「我と天下を安んじ、驕逸の端を生ぜば、必ず危亡の地を践まんことを慮る。守成の難きを見る所以なり。今、草創の難きは、既に已に」"
+  },
+  {
+   "word": "危邦",
+   "rank": 264,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きほう",
+   "meaning": "危うい国。语料：危邦には入らず乱邦には居らず（大辞泉 きほう）",
+   "dict_evidence": "weblio デジタル大辞泉；き‐ほう〔‐ハウ〕【危邦】；読み方：きほう（cand_264_危邦.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kihoranpo-1「く信じて学を好み、死を守りて道を善くす。危邦には入らず、乱邦には居らず。天下道有れば則ち見れ、道無ければ則ち隠る。」"
+  },
+  {
+   "word": "原野",
+   "rank": 266,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "げんや",
+   "meaning": "広々とした野原。语料：厳殺し尽くして原野に棄つ（大辞泉 げんや）",
+   "dict_evidence": "weblio デジタル大辞泉；げん‐や【原野】；読み方：げんや（cand_266_原野.txt）",
+   "corpus_evidence": "golden_8165 2行。例 utsuryo05-4「兵は朝廷に勝つ有り。原野に勝つ有り。市井に勝つ有り。闘えば則ち得、服すれば則ち失う。幸いにして以て敗れざるは、此れ不意に」"
+  },
+  {
+   "word": "去留",
+   "rank": 268,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きょりゅう",
+   "meaning": "去ることと留まること・去就。语料：曷ぞ心に委ねて去留を任せざる（歴史民俗用語辞典 キョリュウ）",
+   "dict_evidence": "weblio 歴史民俗用語辞典 去留 読み方：キョリュウ（cand_268_去留.txt）",
+   "corpus_evidence": "golden_8165 2行。例 kikyorainoji-51「曷ぞ心に委ねて去留を任せざる」"
+  },
+  {
+   "word": "及第",
+   "rank": 271,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きゅうだい",
+   "meaning": "試験に合格すること。语料：劉蛻舎人荊の解を以て及第す（大辞泉 きゅうだい）",
+   "dict_evidence": "weblio デジタル大辞泉；きゅう‐だい〔キフ‐〕【及第】；読み方：きゅうだい（cand_271_及第.txt）",
+   "corpus_evidence": "golden_8165 2行。例 hatenko-1「曰く、天荒解、と。劉蛻舎人、荊の解を以て及第す。号して破天荒と為す。」"
+  },
+  {
+   "word": "受命",
+   "rank": 277,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "じゅめい",
+   "meaning": "天子や上将の命を受けること。语料：之を重くするに受命の論を以てし（大辞泉 じゅめい）",
+   "dict_evidence": "weblio デジタル大辞泉；じゅ‐めい【受命】；読み方：じゅめい（cand_277_受命.txt）",
+   "corpus_evidence": "golden_8165 2行。例 utsuryo12-5「くするに廊廟の論を以てし、之を重くするに受命の論を以てし、之を鋭くするに踰垠の論を以てすれば、則ち敵国戦わずして服す可し」"
+  },
+  {
+   "word": "古法",
+   "rank": 278,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こほう",
+   "meaning": "古い方法・昔からの法。语料：蓋し古法の節制信に重んず可きなり（大辞泉 こほう）",
+   "dict_evidence": "weblio デジタル大辞泉；こ‐ほう〔‐ハフ〕【古法】；読み方：こほう（cand_278_古法.txt）",
+   "corpus_evidence": "golden_8165 2行。例 montai01-13「一には則ち力を治め、一には則ち前み拒ぎ、一には則ち部伍を束ね、三者迭いに用を相為す。斯れ馬隆の古法を得る所深きなり。」"
+  },
+  {
+   "word": "古道",
+   "rank": 279,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "こどう",
+   "meaning": "昔からの道。语料：古道人行少なり（大辞泉 こどう）",
+   "dict_evidence": "weblio デジタル大辞泉；こ‐どう〔‐ダウ〕【古道】；読み方：こどう（cand_279_古道.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen282-3「古道人行少なり」"
+  },
+  {
+   "word": "台榭",
+   "rank": 280,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "だいしゃ",
+   "meaning": "高台と木造の高殿・楼閣。语料：楚王の台榭は空しく山丘（歴史民俗用語辞典 ダイシャ）",
+   "dict_evidence": "weblio 歴史民俗用語辞典 台榭 読み方：ダイシャ（cand_280_台榭.txt）",
+   "corpus_evidence": "golden_8165 2行。例 toushisen022-8「楚王の台榭は空しく山丘」"
+  },
+  {
+   "word": "司徒",
+   "rank": 283,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "proper",
+   "reading": "しと",
+   "meaning": "古代の官名（教化・民政を掌る）。语料：契をして司徒たらしめ教うるに人倫を以てす（大辞泉 しと）",
+   "dict_evidence": "weblio デジタル大辞泉；し‐と【司徒】；読み方：しと（cand_283_司徒.txt）",
+   "corpus_evidence": "golden_8165 2行。例 p-choyo-1「聖人之を憂うる有り。契をして司徒たらしめ、教うるに人倫を以てす。父子親有り、君臣義有り、夫婦別有り、長幼序有り、朋友信有」"
+  },
+  {
+   "word": "合戦",
+   "rank": 284,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "かっせん",
+   "meaning": "戦いを交えること。语料：先ず出でて合戦するを正と為し（大辞泉 かっせん）",
+   "dict_evidence": "weblio デジタル大辞泉；かっ‐せん【合戦】；読み方：かっせん（cand_284_合戦.txt）",
+   "corpus_evidence": "golden_8165 2行。例 montai05-2「るに、曹公、孫子を注して曰く、先ず出でて合戦するを正と為し、後に出づるを奇と為す、と。此れ旁より撃つの説と異なれり。」"
+  },
+  {
+   "word": "合歓",
+   "rank": 285,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "ごうかん",
+   "meaning": "仲睦まじく楽しむこと・合歓扇。语料：裁ちて合歓の扇と為せば（大辞泉 ごうかん）",
+   "dict_evidence": "weblio デジタル大辞泉；ごう‐かん〔ガフクワン〕【合歓】；読み方：ごうかん（cand_285_合歓.txt）",
+   "corpus_evidence": "golden_8165 2行。例 enkako-3「裁ちて合歓の扇と為せば」"
+  },
+  {
+   "word": "吉日",
+   "rank": 286,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "きちじつ",
+   "meaning": "縁起の良い日。语料：吉日の辰も良し（大辞泉 きちじつ）",
+   "dict_evidence": "weblio デジタル大辞泉；きち‐じつ【吉日】；読み方：きちじつ（cand_286_吉日.txt）",
+   "corpus_evidence": "golden_8165 2行。例 soji02k01-1「吉日の辰も良し。穆みて将に上皇を愉ませんとす。」"
+  },
+  {
+   "word": "名誉",
+   "rank": 289,
+   "freq": 2,
+   "verdict": "include",
+   "cat": "noun",
+   "reading": "めいよ",
+   "meaning": "名声・ほまれ。语料：諸葛誕・鄧颺等名誉を馳せ（大辞泉 めいよ）",
+   "dict_evidence": "weblio デジタル大辞泉；めい‐よ【名誉】；読み方：めいよ（cand_289_名誉.txt）",
+   "corpus_evidence": "golden_8165 2行。例 gabei-1「此れより前、諸葛誕・鄧颺等、名誉を馳せ、四窗八達の誚り有り。帝之を疾む。」"
+  },
+  {
+   "word": "南容",
+   "rank": 252,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・人名（論語 南容）で辞書不載"
+  },
+  {
+   "word": "南斗",
+   "rank": 253,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "Wikipedia のみ保守排除（星宿名・翻案可を注明）"
+  },
+  {
+   "word": "南湖",
+   "rank": 257,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "専門辞典（河川・湖沼名辞典）のみ・未許可（N82 許可済みは実用日本語表現・植物名のみ）"
+  },
+  {
+   "word": "南門",
+   "rank": 258,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ：ウィキペディア小見出し辞書だけで国語辞書条目なし"
+  },
+  {
+   "word": "単車",
+   "rank": 260,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch：大辞泉＝オートバイ、语料＝一輌の戦車（単車辺を問わんと欲し）"
+  },
+  {
+   "word": "危石",
+   "rank": 263,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載（泉声危石に咽び）"
+  },
+  {
+   "word": "原上",
+   "rank": 265,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "sense-mismatch・専門辞典（地名辞典）のみ：読み ハルガミ＝日本の地名で语料（原の上）と対位せず・未許可"
+  },
+  {
+   "word": "厭然",
+   "rank": 267,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・大学語（厭然として其の不善を揜いて）で辞書不載"
+  },
+  {
+   "word": "又之",
+   "rank": 269,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：又之を相く（副詞＋代名詞）"
+  },
+  {
+   "word": "又能",
+   "rank": 270,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：又能く死節する者（副詞＋動詞）"
+  },
+  {
+   "word": "双双",
+   "rank": 272,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・畳語詩語で辞書不載（胡蝶双双）"
+  },
+  {
+   "word": "双峰",
+   "rank": 273,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "機械区のみ（ウィキペディア小見出し・寺名義で语料と対位せず）"
+  },
+  {
+   "word": "双闕",
+   "rank": 274,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・詩語で辞書不載（双闕の連甍）"
+  },
+  {
+   "word": "叔夏",
+   "rank": 275,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・人名（周八士）"
+  },
+  {
+   "word": "叔夜",
+   "rank": 276,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・人名（周八士）"
+  },
+  {
+   "word": "右背",
+   "rank": 281,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・孫子軍行語（高きを右背にし）で辞書不載"
+  },
+  {
+   "word": "右角",
+   "rank": 282,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・荘子語（蝸の右角）で辞書不載"
+  },
+  {
+   "word": "名姓",
+   "rank": 287,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文語で辞書不載（名姓を変じて）"
+  },
+  {
+   "word": "名正",
+   "rank": 288,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：名正しからざれば"
+  },
+  {
+   "word": "吏有",
+   "rank": 290,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+有系構文断片（里に吏有り）"
+  },
+  {
+   "word": "君去",
+   "rank": 291,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：君去って試みに看よ（主語＋動詞）"
+  },
+  {
+   "word": "君在",
+   "rank": 292,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：君在せば踧踖如たり"
+  },
+  {
+   "word": "君師",
+   "rank": 293,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文語で辞書不載（君師の位）"
+  },
+  {
+   "word": "君怒",
+   "rank": 294,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：君怒る"
+  },
+  {
+   "word": "君有",
+   "rank": 295,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・X+有系構文断片（夷狄の君有るは）"
+  },
+  {
+   "word": "君祭",
+   "rank": 296,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：君祭れば先ず飯す"
+  },
+  {
+   "word": "君自",
+   "rank": 297,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：君自ら寛うせよ"
+  },
+  {
+   "word": "君薨",
+   "rank": 298,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文断片：君薨ずれば"
+  },
+  {
+   "word": "君長",
+   "rank": 299,
+   "freq": 2,
+   "verdict": "exclude",
+   "exclude_reason": "404・構文語で辞書不載（西南夷の君長）"
+  }
+ ]
+}
