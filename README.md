@@ -11,7 +11,7 @@
 
 ---
 
-## 数字（2026-11-24 時点、master（Night 93 合并：night92-ruleq Rule Q 2 条（主 22e4e9e＋wrap-up a39e648）・合并提交 `3a64ff0`）のコード／アーカイブから実測）
+## 数字（2026-11-24 時点、master（Night 95 合并：night94-ruler Rule R 1 条（主 e820f83＋wrap-up efa818b＋step0 报告修正 f024951）・合并提交 `22a4445`）のコード／アーカイブから実測）
 
 | 項目 | 数値 |
 | --- | --- |
