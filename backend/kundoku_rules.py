@@ -771,6 +771,79 @@ def style_kana_to_kanji_n(text: str, hakubun: str = "") -> str:
     return text
 
 
+# ---------------------------------------------------------------------------
+# Rule O（N86）：假名 → 汉字（第十一批）＋はざる接続者補完＋爲-完了形族
+# 方法论 = Night 68/73/78（mine→probe→sim 0 変差→上线→真机逐位一致）第七遍。
+# 基线 = eval/night85_results_8165.json（N85 合并链尾真机归档，avgDist 13.505；
+#         与 night84_results_8165.json 逐位一致）。行分类＝N84 fallback 分支复现
+#         （engine 7916＋rerun 218＝規則可達 8134 行；echo 30＝白文直出・no_tail 1＝
+#         空串，規則不可達——sim/真跑双口径都排除）。
+#
+# 收录 3 条（night86_sim 单条全 0 変差；组合 15 行改写／改善 15／変差 0／幂等坏 0；
+# 4000 口径 13.495→13.491（s4000 段 8 行）／8165 口径 13.505→13.502）：
+#   はざる者→わざる者（guard=() 無条件・kanji 含み key＝M 何のごとし 前例）——
+#     N72 拍板待ち 2 行（roushi33-2/utsuryo06-2）＋N84 ruby fallback rerun 行追加
+#     4 行（utsuryo03-5/utsuryo19-2/utsuryo24-2/shiki001a-7）＝6 行全改善 0 変差。
+#     N72 拍板の「はざる→わざる blanket」は 24shihin10-4（はざるとも）1 変差で
+#     不通のまま（本夜再測 24 行 14 改善/1 変差/9 same＝拒案維持）；はざるか 7 行
+#     は 3 改善/Δ-0.000＝無益拒。L はざるなり/を 接続拆分と同型の第 3 段。
+#   たりせ→為ら（guard 爲/爲 新旧両形並查＝N72 移交①成文执行）——
+#     白文「使〜爲〜」構文でエンジンが 爲 を完了形 たり で出す（宰たりせしむ型）×
+#     exp は 為らしむ。6 行全改善 0 変差（moshisono-1/kanohitono-1/rongo0607-1/
+#     rongo0911-1/p-bunjiaru-1/p-choyo-1）。bare たり→為 族は exp 字形混在
+#     （為ること/為るや）で不収（B2 pair 記録のみ）。
+#   なきか→莫し（guard 莫）——
+#     白文「莫〜」反語構文の got「〜ことなきか」×exp「〜こと莫し」。3 行全改善
+#     0 変差（rongo1922-1/daigaku00a-2/montai12-10）＝M 何のごとく→奈何ぞ 3 行
+#     収録線 −0.001 同款（K なんぞ→胡 2 行の小型先例もある）。
+#
+# 拒绝（night86_sim/probe 実数归档）:
+#   べからざる→可からざる（82 行 79 改善／1 変差 shiseinishite-1）；べからず→
+#     可からず（89 行 79 改善／5 変差＝N72 拒案 5 行の再確認・exp 自写仮名 4＋
+#     可からざる 1）；ざるべからず prefix（1 変差 ryojo-3）；るべからず prefix
+#     （3 変差）——0 変差門不通、N78 §8-1 長键再検でも救えず
+#   なかれ→莫かれ post-N 17 行（13 改善/1 変差 kokyo09-5＝N78 备选⑥復活条件
+#     再確認：排除 guard なしでは不通＝拍板事項のまま）；き/ぶ/く/つ/ぶべき
+#     ことなかれ 5 key（各 1〜2 行・0 変差 Δ-0.000＝無益拒の再確認）
+#   はざる blanket（1 変差 24shihin10-4）・はざるか（無益 Δ-0.000）
+#   使役族 してしむる→使う（1 変差 sonshi05-3）/してしむ→使う（3 変差）/
+#     しむ→使う（72 変差）/して→使う（133 変差＝artifact 実証）——使役構文は
+#     exp 側構造差で規則層不可達（N24/25 STRUCTURAL 定性の再確認）
+#   べきか→可きか（2 変差 omoi-1/mobosansen-1＝exp 自写仮名）；とも→与に
+#     （137 変差＝N72 拒案再確認）；長尾 scan の 2 行 scramble patch 3 件
+#     （してなる→使うや・なるをしむるの→令・はなる→少くして——同一乱序文の
+#     重複行 2 行ずつ、repl が語彙対応でない＝過拟合拒）
+O_KANA_TO_KANJI = [
+    ("はざる者", "わざる者", ()),            # N72 拍板待ち翻案（N84 rerun 4 行追加で 6 行 0 変差）
+    ("たりせ", "為ら", ("爲", "為")),         # 白文 爲 の完了形 たり 出力（新旧両形 guard）
+    ("なきか", "莫し", ("莫",)),              # 莫〜 反語構文の読み替え（M 何のごとく 3 行先例）
+]
+
+# Rule O 的词界护栏（与 E〜N 分开维护）。全 3 条 probe/sim 実測无更长词冲突
+# （はざる者/たりせ/なきか の後続は成形語と交わらない＝night86_probe 実測）。
+O_LONGER_WORDS = {
+    "はざる者": (),
+    "たりせ": (),
+    "なきか": (),
+}
+
+
+def style_kana_to_kanji_o(text: str, hakubun: str = "") -> str:
+    """假名 → 汉字（第十一批）＋はざる接続者補完。N86 Rule O。
+
+    与 E〜N 同构的两道护栏，用 O 自己的更长词表。はざる者 は guard=() 無条件
+    （K 世代同款：空 guard＝白文不问适用；kanji 含み key＝M 何のごとし 前例）。
+    たりせ の守り字は旧字体 爲（新旧両形並查——N72 悪んぞ 同制式）。
+    全 3 条＝night86_sim 单条 0 変差・组合 15 行改善 15／変差 0／幂等 bad 0。
+    """
+    hb = re.sub(r"\s+", "", hakubun) if hakubun else ""
+    for kana, repl, guard in O_KANA_TO_KANJI:
+        if guard and hb and not any(g in hb for g in guard):
+            continue
+        text = _replace_word_boundary(text, kana, repl, O_LONGER_WORDS)
+    return text
+
+
 def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     """带白文上下文的规则总入口（D11 起后端实际调用这个）。
 
@@ -792,6 +865,7 @@ def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     t = style_kana_to_kanji_l(t, hakubun)   # N72 Rule L
     t = style_kana_to_kanji_m(t, hakubun)   # N73 Rule M
     t = style_kana_to_kanji_n(t, hakubun)   # N78 Rule N
+    t = style_kana_to_kanji_o(t, hakubun)   # N86 Rule O
     return t
 
 # ---------------------------------------------------------------------------

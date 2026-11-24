@@ -2,7 +2,8 @@
 """verify_readme_facts.py — 为 README.md（Night 65 合并后同步版）核对当前事实数字。只读。
 
 打印的每个数字都与 README.md 的「数字」一节一一对应，改 README 前先跑这个：
-  SHINJITAI_MAP / MERGE_WORDS / Rule E/F/G/H/I/J/K/L/M/N / night78 评测（N78 Rule N 上线后的 golden_4000 口径）
+  SHINJITAI_MAP / MERGE_WORDS / Rule E/F/G/H/I/J/K/L/M/N/O / night86 评测（N86 Rule O 上线后的
+  golden_4000 口径——N78 先例同款：登记归档切换＝README 数字行更新の必要伴随）
   / golden_4000 与 golden_7908 构成 / OCR GT 行数 / 割注右先率基线（night50 归档）／
   pytest 收集计数（N73 新增断言——N70 テスト行漂移漏网的再発防止＝N72 移交⑥）。
 """
@@ -20,7 +21,7 @@ from backend.kundoku_rules import (SHINJITAI_MAP, MERGE_WORDS, E_KANA_TO_KANJI, 
                                    F_KANA_TO_KANJI, G_KANA_TO_KANJI, H_KANA_TO_KANJI,
                                    I_KANA_TO_KANJI, J_KANA_TO_KANJI, K_KANA_TO_KANJI,
                                    L_KANA_TO_KANJI, M_KANA_TO_KANJI,
-                                   N_KANA_TO_KANJI)
+                                   N_KANA_TO_KANJI, O_KANA_TO_KANJI)
 
 print("SHINJITAI_MAP:", len(SHINJITAI_MAP), "对")
 print("MERGE_WORDS:", len(MERGE_WORDS), "条")
@@ -31,9 +32,10 @@ print("Rule K 假名→汉字:", len(K_KANA_TO_KANJI), "条")
 print("Rule L 假名→汉字:", len(L_KANA_TO_KANJI), "条")
 print("Rule M 假名→汉字:", len(M_KANA_TO_KANJI), "条")
 print("Rule N 假名→汉字:", len(N_KANA_TO_KANJI), "条")
-s = json.load(io.open(os.path.join(ROOT, "eval/night78_results_4000.json"), encoding="utf-8"))
+print("Rule O 假名→汉字:", len(O_KANA_TO_KANJI), "条")
+s = json.load(io.open(os.path.join(ROOT, "eval/night86_results_4000.json"), encoding="utf-8"))
 sm = s["summary"]
-print("night78(golden_4000): total=%s n=%s exact=%s avgDist=%s errors=%s"
+print("night86(golden_4000): total=%s n=%s exact=%s avgDist=%s errors=%s"
       % (s.get("total"), sm["n"], sm["exact"], sm["avg_edit_distance"], sm["errors"]))
 g = json.load(io.open(os.path.join(ROOT, "eval/golden_4000_stats.json"), encoding="utf-8"))
 print("golden_4000: total=%s uniq_hakubun=%s" % (g["total"], g["uniq_hakubun"]))
@@ -63,8 +65,8 @@ _flat_readme = _flat(README)
 CHECKS = [
     ("SHINJITAI 組数", "**%d 組**" % len(SHINJITAI_MAP)),
     ("MERGE_WORDS 語数", "**%d 語**" % len(MERGE_WORDS)),
-    ("night78 golden_4000 avgDist", "**%s**" % sm["avg_edit_distance"]),
-    ("night78 golden_4000 exact", "**%d/4000**" % sm["exact"]),
+    ("night86 golden_4000 avgDist", "**%s**" % sm["avg_edit_distance"]),
+    ("night86 golden_4000 exact", "**%d/4000**" % sm["exact"]),
     ("golden_4000 組数", "**%d 組**" % g["total"]),
     ("golden_4000 ユニーク", str(g["uniq_hakubun"])),
     ("golden_7908 組数", "**%d 組**" % g7["total"]),
@@ -78,6 +80,7 @@ CHECKS = [
     ("Rule L 語数", "**%d 語**" % len(L_KANA_TO_KANJI)),
     ("Rule M 語数", "**%d 語**" % len(M_KANA_TO_KANJI)),
     ("Rule N 語数", "**%d 語**" % len(N_KANA_TO_KANJI)),
+    ("Rule O 語数", "**%d 語**" % len(O_KANA_TO_KANJI)),
 ]
 
 # N73 新增：テスト行の pytest 計数断言（N72 移交⑥；--collect-only で実行せず数える）
