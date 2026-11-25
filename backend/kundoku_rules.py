@@ -1007,6 +1007,55 @@ def style_kana_to_kanji_s(text: str, hakubun: str = "") -> str:
 
 
 
+# ---------------------------------------------------------------------------
+# Rule T（N99・拍板夜）：假名 → 汉字（第十五批）。撤 0 変差硬门の三条収録
+# （用户 2026-11-25 拍板・N98 报告 §3/§4 决策表 1a/1b/1c/2 为据・変差 6 行許容）。
+#
+# 收录（night99_sim 実績・基线 night97_results_8165.json・変差行は全て N98 実測 ID と
+# 一致・実跑との逐位一致は night99_eval_* で确认）：
+#   べからず→可からず（guard 可）——白文「可〜」構文の got「〜べからず」×exp「〜可からず」
+#     （78 発火 70 改善 5 変差 Δ8165 −0.011 Δ4000 −0.008・変差 shushu-4/shukateki-1/
+#     ryojo-3/saio-x13/toushisen216-7＝exp 自写仮名死因・N86 定性）。
+#   べからざる→可からざる（guard 可）——82 発火 79 改善 1 変差 Δ8165 −0.011
+#     （変差 shiseinishite-1 73→74・同死因）。
+#   べきなり→可きなり（guard 可）——31 発火 29 改善 1 変差 Δ8165 −0.006
+#     （変差 p-gekirin-1 8→9・exp 自写仮名・白文 可＝可狎義と guard 可 非分離＝
+#     N88 §7 移交①「変差 1 行許容」拍板）。
+#   三条 combo：178 行改写（4000 内 93）・改善 165・変差 6 行（shushu-4/shukateki-1/
+#   ryojo-3/shiseinishite-1/toushisen216-7/p-gekirin-1・全 N98 実測 ID）・幂等 bad 0・
+#   Δ8165 −0.028 Δ4000 −0.026（golden_4000 13.488→13.462・golden_8165 13.496→13.469・
+#   exact 24/30 不変）。saio-x13 は T1 単独では変差（13→14）だが combo では 1b 同発火
+#   行の交互作用で 13→13 持平＝変差 6 行から外れる。
+#   禁区（本夜も一字不動）：なかれ复活・は系・がため/何のごとく・ことなき・嗟や・
+#   ことなく guard 外・N84 遗留（夹注残渣/echo）——別拍板。
+T_KANA_TO_KANJI = [
+    ("べからず", "可からず", ("可",)),        # 白文 可〜 のべからず族（N98 拍板 1a・変差 5 行許容）
+    ("べからざる", "可からざる", ("可",)),    # 白文 可〜 のべからざる（N98 拍板 1b・変差 1 行許容）
+    ("べきなり", "可きなり", ("可",)),        # 白文 可〜 のべきなり（N98 拍板 2・変差 1 行許容）
+]
+
+# Rule T 的词界护栏（与 E〜S 分开维护）。三键互不重叠（べからず は べからざる の
+# 部分文字列でない・べきなり 独立）＝长词冲突なし（night99_sim 実測・冪等 bad 0）。
+T_LONGER_WORDS = {
+    "べからず": (),
+    "べからざる": (),
+    "べきなり": (),
+}
+
+
+def style_kana_to_kanji_t(text: str, hakubun: str = "") -> str:
+    """假名 → 汉字（第十五批）。N99 Rule T（拍板夜・変差 6 行許容）。
+
+    与 E〜S 同构的两道护栏，用 T 自己的更长词表。guard は白文含字の正条件
+    （空白文で発火＝E〜K 世代同语义）。可 は新旧変異なし（guard_forms 并查＝同形）。
+    全 3 条＝night99_sim 変差 6 行（N98 実測 ID 一致）・幂等 bad 0。
+    """
+    hb = re.sub(r"\s+", "", hakubun) if hakubun else ""
+    for kana, repl, guard in T_KANA_TO_KANJI:
+        if guard and hb and not any(g in hb for g in guard):
+            continue
+        text = _replace_word_boundary(text, kana, repl, T_LONGER_WORDS)
+    return text
 def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     """带白文上下文的规则总入口（D11 起后端实际调用这个）。
 
@@ -1032,6 +1081,7 @@ def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     t = style_kana_to_kanji_q(t, hakubun)   # N92 Rule Q
     t = style_kana_to_kanji_r(t, hakubun)   # N94 Rule R
     t = style_kana_to_kanji_s(t, hakubun)   # N96 Rule S
+    t = style_kana_to_kanji_t(t, hakubun)   # N99 Rule T
     return t
 
 # ---------------------------------------------------------------------------
