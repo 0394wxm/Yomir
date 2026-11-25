@@ -1,0 +1,220 @@
+{
+ "script": "tools/night102_sim.py",
+ "night": 102,
+ "mode": "项 8 ことなく guard 扩展（莫→莫/勿/毋 併用）の sim 先验（全域発火）",
+ "verdict": "NO_GATHER_NO_GAIN",
+ "lexicon": {
+  "core": 500,
+  "core_old_size": 209,
+  "extra": 291,
+  "extra2": 1031,
+  "ordered_all": 1531
+ },
+ "n101_vs_n100_diff": 0,
+ "class": {
+  "engine": 7916,
+  "echo": 30,
+  "rerun": 218,
+  "no_tail": 1
+ },
+ "baseline": {
+  "avg4000": 13.462,
+  "avg8165": 13.469,
+  "exact4000": 24,
+  "exact8165": 30,
+  "archive": "night101_results_8165.json / night101_results_4000.json"
+ },
+ "s6_chain_order": "M<Q<S",
+ "s6_overlap_free": true,
+ "s8_distribution": {
+  "blanket": {
+   "blanket_莫": 135,
+   "blanket_勿": 47,
+   "blanket_毋": 15,
+   "blanket_罔": 8
+  },
+  "kotonaku_residual": {
+   "毋": 1,
+   "勿": 4
+  },
+  "kotonaku_residual_ids": [
+   "p-haigun-1",
+   "toushisen080-8",
+   "koshi19_01-8",
+   "rikutou04-2",
+   "rikutou21-2"
+  ]
+ },
+ "exploratory": {
+  "こと勿く": {
+   "changed": 4,
+   "changed4000": 1,
+   "better": 2,
+   "worse": 0,
+   "same": 8163,
+   "delta8165": -0.0,
+   "delta4000": -0.0,
+   "idempotent_bad": 0,
+   "worse_ids": []
+  },
+  "こと毋く": {
+   "changed": 1,
+   "changed4000": 1,
+   "better": 1,
+   "worse": 0,
+   "same": 8164,
+   "delta8165": -0.0,
+   "delta4000": -0.0,
+   "idempotent_bad": 0,
+   "worse_ids": []
+  }
+ },
+ "exploratory_combo": {
+  "changed": 5,
+  "changed4000": 2,
+  "better": 3,
+  "worse": 0,
+  "delta8165": -0.0,
+  "delta4000": -0.001,
+  "idempotent_bad": 0,
+  "worse_ids": [],
+  "note": "非本夜収録対象・次夜拍板材料の実数（sim 离线値）"
+ },
+ "sm_observation": {
+  "s_fired4": [
+   "azamukuko-1",
+   "sonshi09-19",
+   "sonshi10-12",
+   "rikutou21-2"
+  ],
+  "motsukare_rows_excl_S": [
+   "ayamachiteh-1",
+   "goshi05-2",
+   "goshi05-3",
+   "montai03-2",
+   "montai06-7",
+   "montai12-6",
+   "montai15-8",
+   "moshisono-1",
+   "onorenoho-1",
+   "onorenoho-2",
+   "onoreshika-1",
+   "rikutou03-1",
+   "rikutou07-3",
+   "rikutou09-5",
+   "rikutou09-6",
+   "rikutou09-7",
+   "rikutou09-9",
+   "rikutou14-2",
+   "rikutou40-2",
+   "rikutou40-3",
+   "rikutou59-2",
+   "rinkiohen-2",
+   "rongo1201-1",
+   "rongo1202-1",
+   "rongo1408-1",
+   "roushi30-2",
+   "seiseidodo-1",
+   "shiba04-10",
+   "shiba05-5",
+   "shibutsu-1",
+   "sonshi07-30",
+   "sonshi07-32",
+   "sonshi09-4",
+   "sonshi10-10",
+   "sonshi11-20",
+   "sonshi11-70",
+   "sonshi11-71",
+   "sonshi12-10"
+  ],
+  "note": "M/S 発火集合は構造証明 S6(a)(b)＋勿かれ保全 S6(c)(d)＋（収録時は eval 全行逐位一致）で不変確認"
+ },
+ "gates": {
+  "ext8165": {
+   "entries": 8165,
+   "changed_entries": 5,
+   "avg_old": 13.469,
+   "avg_new": 13.469,
+   "delta": 0.0,
+   "better": 0,
+   "worse": 0,
+   "same": 8165,
+   "worse_detail": []
+  },
+  "ext4000": {
+   "entries": 4000,
+   "changed_entries": 2,
+   "avg_old": 13.462,
+   "avg_new": 13.462,
+   "delta": 0.0,
+   "better": 0,
+   "worse": 0,
+   "same": 4000,
+   "worse_detail": []
+  },
+  "pred_exact4000": 24,
+  "pred_exact8165": 30,
+  "target5_detail": {
+   "p-haigun-1": {
+    "old": 58,
+    "new": 58,
+    "guard": [
+     "毋"
+    ],
+    "cls": "engine",
+    "exp_ctx": [
+     "信乃ち軍中に広武君を殺す毋かれ、能く生きて得る者"
+    ]
+   },
+   "toushisen080-8": {
+    "old": 12,
+    "new": 12,
+    "guard": [
+     "勿"
+    ],
+    "cls": "engine",
+    "exp_ctx": [
+     "慎んで清貧を厭う勿れ"
+    ]
+   },
+   "koshi19_01-8": {
+    "old": 22,
+    "new": 22,
+    "guard": [
+     "勿"
+    ],
+    "cls": "engine",
+    "exp_ctx": [
+     "棄捐せらるるも復た道う勿からん、努力して餐飯を加"
+    ]
+   },
+   "rikutou04-2": {
+    "old": 45,
+    "new": 45,
+    "guard": [
+     "勿"
+    ],
+    "cls": "rerun",
+    "exp_ctx": [
+     "文王曰く、主の聴は如何。太公曰く、妄りに許す勿か",
+     "文王曰く、主の聴は如何。太公曰く、妄りに許す勿か"
+    ]
+   },
+   "rikutou21-2": {
+    "old": 122,
+    "new": 122,
+    "guard": [
+     "勿"
+    ],
+    "cls": "rerun",
+    "exp_ctx": [
+     "復た斧を操り柄を持ちて、将に其の刃を授けて曰く、",
+     "復た斧を操り柄を持ちて、将に其の刃を授けて曰く、",
+     "復た斧を操り柄を持ちて、将に其の刃を授けて曰く、"
+    ]
+   }
+  }
+ },
+ "lev_impl": "纯 Python 回退（night85_eval 同一算法・归档逐位一致実績）",
+ "elapsed_sec": 22
+}
