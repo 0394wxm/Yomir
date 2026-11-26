@@ -1,0 +1,106 @@
+== S2 词库 import 实证（不動確認）==
+  {'core': 500, 'core_old_size': 209, 'extra': 291, 'extra2': 1031, 'ordered_all': 1531}
+== S1 行分类 {'engine': 7916, 'echo': 30, 'rerun': 218, 'no_tail': 1}（期待 {'engine': 7916, 'echo': 30, 'rerun': 218, 'no_tail': 1}）==
+  基线 avgDist 4000=13.460 8165=13.467（归档 13.460/13.467）exact 24/30（归档 24/30）
+
+== (iii) 現行対照 (a)：ことなき→こと莫き（guard 莫・N103 記録再現）==
+  発火 15 行 | better 12 / worse 2 / same 1（N103 記録 12/2/1 と一致）
+
+== 対位（got 莫-token × exp 莫-token × 白文 plain 莫・順序 1:1）＋后继字 census ==
+  mujun-2          [engine] token 1（白文 莫 1）｜ ことなき site 1：莫き@0(后继=能)
+  onoreshiru-1     [engine] token 1（白文 莫 1）｜ ことなき site 1：莫き@0(后继=己)
+  kagakujota-1     [engine] token 2（白文 莫 2）｜ ことなき site 2：莫き@0(后继=我)・莫からん@1(后继=知)
+  kanchuna-1       [engine] token 1（白文 莫 1）｜ ことなき site 1：莫き@0(后继=之)
+  rongo0615-1      [engine] token 1（白文 莫 1）｜ ことなき site 1：莫き@0(后继=由)
+  rongo0732-1      [engine] token 1（白文 莫 1）｜ ことなき site 1：莫からん@0(后继=吾)
+  rongo1315-1      [engine] token 3（白文 莫 3）｜ ことなき site 3：莫き@0(后继=予)・莫き@1(后继=之)・莫き@2(后继=之)
+  rongo1442-1      [engine] token 1（白文 莫 1）｜ ことなき site 1：莫くんば@0(后继=己)
+  p-danjoshitsu-1  [engine] token 1（白文 莫 1）｜ ことなき site 1：莫かる@0(后继=如)
+  tarekako-1       [engine] token 1（白文 莫 1）｜ ことなき site 1：莫き@0(后继=由)
+  tonan-1          [engine] token 1（白文 莫 1）｜ ことなき site 1：莫し@0(后继=之)
+  warekimi-1       [engine] token 1（白文 莫 1）｜ ことなき site 1：莫き@0(后继=予)
+  roushi46-2       [engine] token 3（白文 莫 3）｜ ことなき site 1：莫し@2(后继=大)
+  utsuryo03-7      [engine] token 1（白文 莫 1）｜ ことなき site 1：莫し@0(后继=能)
+  rikutou26-5      [rerun] token 4（白文 莫 4）｜ ことなき site 1：莫し@3(后继=大)
+
+  site 字形分布：{'莫き': 10, '莫からん': 2, '莫くんば': 1, '莫かる': 1, '莫し': 4}（N103 記録 莫き10/莫し4/莫からん2/莫くんば1/莫かる1）
+  后继字分布（1 字）：{'能': 2, '己': 2, '我': 1, '知': 1, '之': 4, '由': 2, '吾': 1, '予': 2, '如': 1, '大': 2}
+  follow_map（多数決・tie は语料多数形順）: {'能': '莫き', '己': '莫き', '我': '莫き', '知': '莫からん', '之': '莫き', '由': '莫き', '吾': '莫からん', '予': '莫き', '如': '莫かる', '大': '莫し'}
+  conflicted 後继字（同字複数形＝分離失敗 site の所在）: {'能': {'莫き': 1, '莫し': 1}, '己': {'莫き': 1, '莫くんば': 1}}
+
+== 每 site 判对／判错（follow_map 予測 vs exp 実字形）==
+  mujun-2          site#0 后继=能 予測=莫き 実=莫き ○判对（follow2=能陷）
+  onoreshiru-1     site#0 后继=己 予測=莫き 実=莫き ○判对（follow2=己知）
+  kagakujota-1     site#0 后继=我 予測=莫き 実=莫き ○判对（follow2=我知）
+  kagakujota-1     site#1 后继=知 予測=莫からん 実=莫からん ○判对（follow2=知子）
+  kanchuna-1       site#0 后继=之 予測=莫き 実=莫き ○判对（follow2=之知）
+  rongo0615-1      site#0 后继=由 予測=莫き 実=莫き ○判对（follow2=由斯）
+  rongo0732-1      site#0 后继=吾 予測=莫からん 実=莫からん ○判对（follow2=吾猶）
+  rongo1315-1      site#0 后继=予 予測=莫き 実=莫き ○判对（follow2=予違）
+  rongo1315-1      site#1 后继=之 予測=莫き 実=莫き ○判对（follow2=之違）
+  rongo1315-1      site#2 后继=之 予測=莫き 実=莫き ○判对（follow2=之違）
+  rongo1442-1      site#0 后继=己 予測=莫き 実=莫くんば ×判错（follow2=己知）
+  p-danjoshitsu-1  site#0 后继=如 予測=莫かる 実=莫かる ○判对（follow2=如舜）
+  tarekako-1       site#0 后继=由 予測=莫き 実=莫き ○判对（follow2=由斯）
+  tonan-1          site#0 后继=之 予測=莫き 実=莫し ×判错（follow2=之夭）
+  warekimi-1       site#0 后继=予 予測=莫き 実=莫き ○判对（follow2=予違）
+  roushi46-2       site#2 后继=大 予測=莫し 実=莫し ○判对（follow2=大於）
+  utsuryo03-7      site#0 后继=能 予測=莫き 実=莫し ×判错（follow2=能正）
+  rikutou26-5      site#3 后继=大 予測=莫し 実=莫し ○判对（follow2=大於）
+  → 判对 15 / 判错 3（15/18）｜三向（莫く/莫し/莫き）14 site 内の判对 12
+  2 字後继（follow2）でも衝突する字:{'己知': {'莫き': 1, '莫くんば': 1}}（前例 莫己知 型）
+
+== 原型 sim（got 側のみ・exp/golden 一字不改）==
+  [a] better 12 / worse 2 / same 1 | Δ8165 -0.001（-12 字）Δ4000 -0.004（4000 内 12 行）
+    kagakujota-1     27→26 BETTER
+    kanchuna-1       82→81 BETTER
+    mujun-2          11→10 BETTER
+    onoreshiru-1     18→17 BETTER
+    p-danjoshitsu-1  36→35 BETTER
+    rikutou26-5      53→54 WORSE
+    rongo0615-1      12→11 BETTER
+    rongo0732-1      23→22 BETTER
+    rongo1315-1      113→110 BETTER
+    rongo1442-1      55→54 BETTER
+    roushi46-2       34→35 WORSE
+    tarekako-1       12→11 BETTER
+    tonan-1          29→28 BETTER
+    utsuryo03-7      63→63 SAME
+    warekimi-1       35→34 BETTER
+  [ceiling] better 13 / worse 1 / same 1 | Δ8165 -0.003（-22 字）Δ4000 -0.005（4000 内 12 行）
+    kagakujota-1     27→24 BETTER
+    kanchuna-1       82→81 BETTER
+    mujun-2          11→10 BETTER
+    onoreshiru-1     18→17 BETTER
+    p-danjoshitsu-1  36→33 BETTER
+    rikutou26-5      53→54 WORSE
+    rongo0615-1      12→11 BETTER
+    rongo0732-1      23→20 BETTER
+    rongo1315-1      113→110 BETTER
+    rongo1442-1      55→53 BETTER
+    roushi46-2       34→34 SAME
+    tarekako-1       12→11 BETTER
+    tonan-1          29→27 BETTER
+    utsuryo03-7      63→62 BETTER
+    warekimi-1       35→34 BETTER
+  [follow] better 12 / worse 1 / same 2 | Δ8165 -0.002（-19 字）Δ4000 -0.005（4000 内 12 行）
+    kagakujota-1     27→24 BETTER
+    kanchuna-1       82→81 BETTER
+    mujun-2          11→10 BETTER
+    onoreshiru-1     18→17 BETTER
+    p-danjoshitsu-1  36→33 BETTER
+    rikutou26-5      53→54 WORSE
+    rongo0615-1      12→11 BETTER
+    rongo0732-1      23→20 BETTER
+    rongo1315-1      113→110 BETTER
+    rongo1442-1      55→54 BETTER
+    roushi46-2       34→34 SAME
+    tarekako-1       12→11 BETTER
+    tonan-1          29→28 BETTER
+    utsuryo03-7      63→63 SAME
+    warekimi-1       35→34 BETTER
+
+== rikutou26-5（N103 語順構造差行）の機構管轄判定 ==
+  対位可能性: 白文 莫 4 = got token 4（A2 gate 通過）＝機構は site に届く
+  后继字予測: 莫し（実 莫し）＝判对
+  それでも d1=54（d0=53）＝語順構造差の d 変差は機構でも救えない（got「識らざることなきを謀る」×exp「謀は…莫し」＝挿入 莫 が exp 莫 に届かない）

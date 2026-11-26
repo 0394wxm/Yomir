@@ -1,0 +1,377 @@
+{
+ "script": "tools/night106_dissect.py",
+ "night": 106,
+ "mode": "項 4 两行解剖＋候補判別式全域実測（報告-only・不収録・製品コード零改动）",
+ "verdict": "REPORT_ONLY_MEASURED",
+ "lexicon": {
+  "core": 500,
+  "core_old_size": 209,
+  "extra": 291,
+  "extra2": 1031,
+  "ordered_all": 1531
+ },
+ "class": {
+  "engine": 7916,
+  "echo": 30,
+  "rerun": 218,
+  "no_tail": 1
+ },
+ "baseline": {
+  "avg4000": 13.46,
+  "avg8165": 13.467,
+  "exact4000": 24,
+  "exact8165": 30,
+  "archive": "night104_results_8165.json / night104_results_4000.json"
+ },
+ "dissect": {
+  "rikutou37-2": {
+   "cls": "rerun",
+   "tail_raw": "武王曰、敵之地勢、不可以伏其両旁、車騎又無以越其前後、敵知我慮、先施其備、我士卒心傷、将帥恐懼、戦則不勝。為之奈何。",
+   "tail_norm": "武王曰、敵之地勢、不可以伏其両旁、車騎又無以越其前後、敵知我慮、先施其備、我士卒心傷、将帥恐懼、戦則不勝。為之奈何。",
+   "keepers_in_tail": [
+    "無",
+    "為",
+    "奈"
+   ],
+   "keepers_in_full": [
+    "無",
+    "為",
+    "奈"
+   ],
+   "got": "武王曰く、\n敵の地の勢、\n以て其が両の旁を伏可からず、\n車騎は又以て其の前後を越すこと無し、\n敵我が慮るを知る、\n先に其の備するを施す、\n我の士は卒して心を傷む、\n懼するを帥恐せんとす、\n戦して則ち勝たず。\n之がため奈何。",
+   "expected": "武王曰く、敵の地勢、以て其の両旁に伏す可からず、車騎、又以て其の前後を越ゆること無きに、敵、我が慮を知りて、先ず其の備えを施さば、我が士卒は心傷み、将帥は恐懼し、戦わば則ち勝たざらん。之を為すこと奈何。",
+   "hb_first_paren_pos": 79
+  },
+  "shiki050-4": {
+   "cls": "rerun",
+   "tail_raw": "今乃首率七國、紛亂天下。柰何續其後。",
+   "tail_norm": "今乃首率七國、紛亂天下。柰何續其後。",
+   "keepers_in_tail": [
+    "柰"
+   ],
+   "keepers_in_full": [
+    "爲",
+    "為",
+    "柰"
+   ],
+   "got": "今に乃に首七国を率す、\n紛なりて天下を乱す。\n何のごとく其の後を続す。",
+   "expected": "今乃ち首として七国を率いて、天下を紛乱せり。奈何ぞ其の後を続がしめん、と。",
+   "hb_first_paren_pos": 21
+  }
+ },
+ "nai_evidence": {
+  "rows": [
+   "shiki050-4"
+  ],
+  "note": "柰＝奈異体・语料内唯一出現＝guard (奈,柰) 全域波及 1 行"
+ },
+ "candidates": {
+  "C3_gatame_guard_ue_current": {
+   "fired": 0,
+   "better": [],
+   "worse": [],
+   "same": [],
+   "per_row": {}
+  },
+  "C1_gatame_guard_ue_shin": {
+   "fired": 1,
+   "better": [
+    "rikutou37-2"
+   ],
+   "worse": [],
+   "same": [],
+   "per_row": {
+    "rikutou37-2": [
+     44,
+     43
+    ]
+   }
+  },
+  "C2_gatame_guard_muo": {
+   "fired": 1,
+   "better": [
+    "rikutou37-2"
+   ],
+   "worse": [],
+   "same": [],
+   "per_row": {
+    "rikutou37-2": [
+     44,
+     43
+    ]
+   }
+  },
+  "C5_nanogotoku_guard_nai_current": {
+   "fired": 0,
+   "better": [],
+   "worse": [],
+   "same": [],
+   "per_row": {}
+  },
+  "C4_nanogotoku_guard_nai_dai": {
+   "fired": 1,
+   "better": [
+    "shiki050-4"
+   ],
+   "worse": [],
+   "same": [],
+   "per_row": {
+    "shiki050-4": [
+     25,
+     20
+    ]
+   }
+  },
+  "C6_nanogotoku_guard_nai_muo": {
+   "fired": 0,
+   "better": [],
+   "worse": [],
+   "same": [],
+   "per_row": {}
+  },
+  "C7_nangotoshi_guard_nai_dai": {
+   "fired": 0,
+   "better": [],
+   "worse": [],
+   "same": [],
+   "per_row": {}
+  },
+  "C9_tail_phrase": {
+   "rows": [
+    "rikutou37-2"
+   ],
+   "note": "rerun 行では guard(变体字) ≡ tail 句型判別（同一述語）・phrase 級（為之奈何）と containment 級（為）同発火集"
+  },
+  "C8_tail_to_full": {
+   "flip_rows": [
+    "goshi00_jo-2",
+    "goshi00_jo-3",
+    "goshi01-2",
+    "goshi01-3",
+    "goshi05-2",
+    "goshi05-3",
+    "goshi05-4",
+    "goshi05-5",
+    "goshi06-2",
+    "goshi06-3",
+    "ichiyorai-1",
+    "itteiji-1",
+    "kotoge-1",
+    "rikutou01-3",
+    "rikutou01-5",
+    "rikutou04-2",
+    "rikutou07-2",
+    "rikutou08-3",
+    "rikutou09-3",
+    "rikutou09-5",
+    "rikutou12-1",
+    "rikutou13-2",
+    "rikutou13-3",
+    "rikutou14-3",
+    "rikutou15-4",
+    "rikutou17-2",
+    "rikutou18-11",
+    "rikutou18-12",
+    "rikutou18-3",
+    "rikutou18-8",
+    "rikutou19-2",
+    "rikutou21-2",
+    "rikutou21-3",
+    "rikutou22-2",
+    "rikutou23-3",
+    "rikutou25-2",
+    "rikutou26-5",
+    "rikutou26-6",
+    "rikutou26-7",
+    "rikutou27-3",
+    "rikutou27-8",
+    "rikutou28-4",
+    "rikutou31-4",
+    "rikutou31-5",
+    "rikutou31-6",
+    "rikutou31-9",
+    "rikutou34-5",
+    "rikutou35-4",
+    "rikutou37-2",
+    "rikutou38-2",
+    "rikutou39-4",
+    "rikutou40-2",
+    "rikutou40-3",
+    "rikutou42-3",
+    "rikutou46-2",
+    "rikutou48-2",
+    "rikutou49-3",
+    "rikutou53-5",
+    "rikutou53-8",
+    "rikutou55-4",
+    "rikutou58-3",
+    "rikutou58-4",
+    "rikutou59-3",
+    "rikutou59-4",
+    "sanryaku01-11",
+    "sanryaku01-19",
+    "sanryaku01-23",
+    "sanryaku01-8",
+    "sanryaku02-3",
+    "sanryaku03-3",
+    "sanryaku03-5",
+    "shiba01-11",
+    "shiba01-2",
+    "shiba01-3",
+    "shiba01-4",
+    "shiba01-7",
+    "shiba02-10",
+    "shiba02-11",
+    "shiba02-12",
+    "shiba02-13",
+    "shiba02-14",
+    "shiba02-3",
+    "shiba02-5",
+    "shiba02-6",
+    "shiba03-10",
+    "shiba03-11",
+    "shiba03-2",
+    "shiba03-4",
+    "shiba03-6",
+    "shiba03-7",
+    "shiba03-9",
+    "shiba04-10",
+    "shiba04-3",
+    "shiba04-4",
+    "shiba04-6",
+    "shiba04-7",
+    "shiba04-8",
+    "shiba04-9",
+    "shiba05-3",
+    "shiba05-4",
+    "shiki001a-10",
+    "shiki001a-12",
+    "shiki001a-14",
+    "shiki001a-7",
+    "shiki001c-2",
+    "shiki001c-3",
+    "shiki001d-2",
+    "shiki001d-3",
+    "shiki001d-4",
+    "shiki001d-5",
+    "shiki001d-7",
+    "shiki001d-8",
+    "shiki001e-4",
+    "shiki001e-5",
+    "shiki050-2",
+    "shiki050-4",
+    "shiki050-5",
+    "shiki050-6",
+    "shiki064-2",
+    "shiki064-3",
+    "shiki082-2",
+    "shiki082-3",
+    "shiki082-4",
+    "shiki082-6",
+    "shiki082-7",
+    "shiki082-8",
+    "shiki082-9",
+    "soji02k01-3",
+    "soji02k03-2",
+    "soji02k03-5",
+    "soji02k04-5",
+    "soji02k04-6",
+    "soji02k04-7",
+    "soji02k05-5",
+    "soji02k06-5",
+    "soji02k06-6",
+    "soji02k07-2",
+    "soji02k07-3",
+    "soji02k09-2",
+    "soji02k09-3",
+    "soji02k10-2",
+    "soji11-2",
+    "soji12-6",
+    "utsuryo01-2",
+    "utsuryo01-4",
+    "utsuryo02-4",
+    "utsuryo02-6",
+    "utsuryo03-3",
+    "utsuryo03-5",
+    "utsuryo03-6",
+    "utsuryo03-8",
+    "utsuryo04-12",
+    "utsuryo04-13",
+    "utsuryo04-8",
+    "utsuryo05-2",
+    "utsuryo05-4",
+    "utsuryo06-4",
+    "utsuryo08-10",
+    "utsuryo08-13",
+    "utsuryo08-2",
+    "utsuryo08-3",
+    "utsuryo09-2",
+    "utsuryo11-2",
+    "utsuryo11-5",
+    "utsuryo14-2",
+    "utsuryo15-2",
+    "utsuryo17-3",
+    "utsuryo18-2",
+    "utsuryo18-3",
+    "utsuryo19-2",
+    "utsuryo21-2",
+    "utsuryo21-5",
+    "utsuryo22-5",
+    "utsuryo23-2",
+    "utsuryo23-6",
+    "utsuryo24-2",
+    "utsuryo24-3"
+   ],
+   "flip_total": 177,
+   "per_rule_flip": {
+    "E_KANA_TO_KANJI": 41,
+    "F_KANA_TO_KANJI": 49,
+    "G_KANA_TO_KANJI": 42,
+    "H_KANA_TO_KANJI": 9,
+    "I_KANA_TO_KANJI": 47,
+    "J_KANA_TO_KANJI": 50,
+    "K_KANA_TO_KANJI": 2,
+    "L_KANA_TO_KANJI": 75,
+    "M_KANA_TO_KANJI": 115,
+    "N_KANA_TO_KANJI": 14,
+    "O_KANA_TO_KANJI": 59,
+    "Q_KANA_TO_KANJI": 44,
+    "R_KANA_TO_KANJI": 48,
+    "S_KANA_TO_KANJI": 9,
+    "T_KANA_TO_KANJI": 32,
+    "U_KANA_TO_KANJI": 13
+   },
+   "pipeline_changed": 1,
+   "better": [],
+   "worse": [],
+   "same": [
+    "shiki064-2"
+   ],
+   "per_row": {
+    "shiki064-2": [
+     16,
+     16
+    ]
+   },
+   "note": "全 pipeline 再適用＝近似シミュレーション（archived got は既に tail 语境適用済み・idempotent 前提）"
+  }
+ },
+ "combo_preview": {
+  "rikutou37-2": [
+   44,
+   43
+  ],
+  "shiki050-4": [
+   25,
+   20
+  ]
+ },
+ "combo_delta": {
+  "8165": -0.0007,
+  "4000": 0.0,
+  "chars8165": -6,
+  "chars4000": 0
+ },
+ "lev_impl": "纯 Python 回退（night85_eval 同一算法・归档逐位一致実績）",
+ "elapsed_sec": 20
+}

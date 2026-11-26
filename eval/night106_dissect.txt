@@ -1,0 +1,59 @@
+== S2 词库 import 实证（不動確認）==
+  {'core': 500, 'core_old_size': 209, 'extra': 291, 'extra2': 1031, 'ordered_all': 1531}
+== S1 行分类 {'engine': 7916, 'echo': 30, 'rerun': 218, 'no_tail': 1}（期待 {'engine': 7916, 'echo': 30, 'rerun': 218, 'no_tail': 1}）==
+  reachable 8134 行
+  基线 avgDist 4000=13.460 8165=13.467（归档 13.460/13.467）exact 24/30（归档 24/30）
+
+== (a) 項 4 两行全文解剖（rikutou37-2・shiki050-4＝rerun 行）==
+  --- rikutou37-2 [rerun] ---
+  tail（rerun guard 上下文）: 武王曰、敵之地勢、不可以伏其両旁、車騎又無以越其前後、敵知我慮、先施其備、我士卒心傷、将帥恐懼、戦則不勝。為之奈何。
+  tail 守り字 census: ['無', '為', '奈']
+  全文守り字 census: ['無', '為', '奈']（全文 vs tail 差分＝[]）
+  got 含 'がため' @96 ctx='んとす、戦して則ち勝たず。之がため奈何。'
+  exp 含 '為' @94 ctx='、戦わば則ち勝たざらん。之を為すこと奈何。'
+  exp 含 '奈何' @98 ctx='則ち勝たざらん。之を為すこと奈何。'
+  --- shiki050-4 [rerun] ---
+  tail（rerun guard 上下文）: 今乃首率七國、紛亂天下。柰何續其後。
+  tail 守り字 census: ['柰']
+  全文守り字 census: ['爲', '為', '柰']（全文 vs tail 差分＝['爲', '為']）
+  got 含 '何のごとく' @21 ctx='を率す、紛なりて天下を乱す。何のごとく其の後を続す。'
+  exp 含 '奈何' @22 ctx='国を率いて、天下を紛乱せり。奈何ぞ其の後を続がしめん、と。'
+
+== 柰＝奈 異体 查证（语料内対照・ネット不使用）==
+  白文含 柰 の行（全文）: ['shiki050-4']（total 1）
+  shiki050-4: exp 奈何=True got 何のごとく=True | exp='今乃ち首として七国を率いて、天下を紛乱せり。奈何ぞ其の後を続がしめん、と。'
+  → shiki050-4 白文 柰何 ↔ exp 奈何ぞ＝语料内 1:1 対応（柰＝奈 異体の実証）
+
+== 候補判別式 × 全域発火集（reachable 8134 行走查）==
+  guard_forms(爲)=['爲', '為']
+  C3 がため→為 guard(爲)現行: 発火 0 行 | better 0 / worse 0 / same 0
+  C1 がため→為 guard(爲,為)变体字: 発火 1 行 | better 1 / worse 0 / same 0
+    rikutou37-2      [rerun・sites 1] 44→43 BETTER
+      got→new: '武王曰く、敵の地の勢、以て其が両の旁を伏可からず、車騎は又以て其の前後を越すこと無し、敵我が慮るを知る、先に其の備するを施す、我の士は卒して心を傷む、懼するを帥恐せんとす、戦して則ち勝たず。之為奈何。'
+      exp     : '武王曰く、敵の地勢、以て其の両旁に伏す可からず、車騎、又以て其の前後を越ゆること無きに、敵、我が慮を知りて、先ず其の備えを施さば、我が士卒は心傷み、将帥は恐懼し、戦わば則ち勝たざらん。之を為すこと奈何'
+  C2 がため→為 guard(爲,無,罔)字扩充: 発火 1 行 | better 1 / worse 0 / same 0
+    rikutou37-2      [rerun・sites 1] 44→43 BETTER
+      got→new: '武王曰く、敵の地の勢、以て其が両の旁を伏可からず、車騎は又以て其の前後を越すこと無し、敵我が慮るを知る、先に其の備するを施す、我の士は卒して心を傷む、懼するを帥恐せんとす、戦して則ち勝たず。之為奈何。'
+      exp     : '武王曰く、敵の地勢、以て其の両旁に伏す可からず、車騎、又以て其の前後を越ゆること無きに、敵、我が慮を知りて、先ず其の備えを施さば、我が士卒は心傷み、将帥は恐懼し、戦わば則ち勝たざらん。之を為すこと奈何'
+  → C2 与 C1 同発火集（ rikutou37-2 tail 恰含 無 の単なる偶然・语义的根拠なし＝不採）
+  C5 何のごとく→奈何ぞ guard(奈)現行: 発火 0 行 | better 0 / worse 0 / same 0
+  C4 何のごとく→奈何ぞ guard(奈,柰)变体字: 発火 1 行 | better 1 / worse 0 / same 0
+    shiki050-4       [rerun・sites 1] 25→20 BETTER
+      got→new: '今に乃に首七国を率す、紛なりて天下を乱す。奈何ぞ其の後を続す。'
+      exp     : '今乃ち首として七国を率いて、天下を紛乱せり。奈何ぞ其の後を続がしめん、と。'
+  C6 何のごとく→奈何ぞ guard(奈,無,罔)字扩充: 発火 0 行 | better 0 / worse 0 / same 0
+  → C6＝0 発火（実測）＝無/罔 扩充は shiki050-4 に効かない
+  C7 何のごとし→奈何 guard(奈,柰)兄弟键: 発火 0 行 | better 0 / worse 0 / same 0
+  C9 tail 句型「為之奈何」∩ got がため: ['rikutou37-2']（phrase 級と containment 級(為) 同発火集＝True）
+
+== C8 tail→全文 guard 上下文機構（rerun 218 行・全 pipeline blast radius）==
+  per-rule guard flip 行数（rerun 218 行・rule 表 E_KANA_TO_KANJI,F_KANA_TO_KANJI,G_KANA_TO_KANJI,H_KANA_TO_KANJI,I_KANA_TO_KANJI,J_KANA_TO_KANJI,K_KANA_TO_KANJI,L_KANA_TO_KANJI,M_KANA_TO_KANJI,N_KANA_TO_KANJI,O_KANA_TO_KANJI,Q_KANA_TO_KANJI,R_KANA_TO_KANJI,S_KANA_TO_KANJI,T_KANA_TO_KANJI,U_KANA_TO_KANJI）: {'E_KANA_TO_KANJI': 41, 'F_KANA_TO_KANJI': 49, 'G_KANA_TO_KANJI': 42, 'H_KANA_TO_KANJI': 9, 'I_KANA_TO_KANJI': 47, 'J_KANA_TO_KANJI': 50, 'K_KANA_TO_KANJI': 2, 'L_KANA_TO_KANJI': 75, 'M_KANA_TO_KANJI': 115, 'N_KANA_TO_KANJI': 14, 'O_KANA_TO_KANJI': 59, 'Q_KANA_TO_KANJI': 44, 'R_KANA_TO_KANJI': 48, 'S_KANA_TO_KANJI': 9, 'T_KANA_TO_KANJI': 32, 'U_KANA_TO_KANJI': 13}
+  flip 行 total 177 行: ['goshi00_jo-2', 'goshi00_jo-3', 'goshi01-2', 'goshi01-3', 'goshi05-2', 'goshi05-3', 'goshi05-4', 'goshi05-5', 'goshi06-2', 'goshi06-3', 'ichiyorai-1', 'itteiji-1', 'kotoge-1', 'rikutou01-3', 'rikutou01-5', 'rikutou04-2', 'rikutou07-2', 'rikutou08-3', 'rikutou09-3', 'rikutou09-5', 'rikutou12-1', 'rikutou13-2', 'rikutou13-3', 'rikutou14-3', 'rikutou15-4', 'rikutou17-2', 'rikutou18-11', 'rikutou18-12', 'rikutou18-3', 'rikutou18-8', 'rikutou19-2', 'rikutou21-2', 'rikutou21-3', 'rikutou22-2', 'rikutou23-3', 'rikutou25-2', 'rikutou26-5', 'rikutou26-6', 'rikutou26-7', 'rikutou27-3']
+  全 pipeline 再適用で変化 1 行 | better 0 / worse 0 / same 1
+    shiki064-2       16→16 SAME
+  → 目標 2 行（rikutou37-2/shiki050-4）は tail→全文で救われない（実測）: rikutou37-2 は tail に既に 為 あり（ guard 爲 の字形問題）・shiki050-4 は全文に 奈 無し（柰 のみ）
+
+== 組合 preview（C1+C4 同時適用＝報告書 §3 実施提案の収益寄与）==
+  rikutou37-2      44→43（BETTER）new='無し、敵我が慮るを知る、先に其の備するを施す、我の士は卒して心を傷む、懼するを帥恐せんとす、戦して則ち勝たず。之為奈何。'
+  shiki050-4       25→20（BETTER）new='今に乃に首七国を率す、紛なりて天下を乱す。奈何ぞ其の後を続す。'
+  Δ8165 -0.001（-6 字）Δ4000 0.000（0 字）
