@@ -2,7 +2,7 @@
 """verify_readme_facts.py — 为 README.md（Night 65 合并后同步版）核对当前事实数字。只读。
 
 打印的每个数字都与 README.md 的「数字」一节一一对应，改 README 前先跑这个：
-  SHINJITAI_MAP / MERGE_WORDS / Rule E/F/G/H/I/J/K/L/M/N/O/Q/R/S/T/U / night104 评测（N104 Rule U 上线后的
+  SHINJITAI_MAP / MERGE_WORDS / Rule E/F/G/H/I/J/K/L/M/N/O/Q/R/S/T/U / night107 评测（N107 項 4 実施夜 guard 変体字拡張後の
   golden_4000 口径——N78 先例同款：登记归档切换＝README 数字行更新の必要伴随）
   / golden_4000 与 golden_7908 构成 / OCR GT 行数 / 割注右先率基线（night50 归档）／
   pytest 收集计数（N73 新增断言——N70 テスト行漂移漏网的再発防止＝N72 移交⑥）。
@@ -40,9 +40,9 @@ print("Rule R 假名→汉字:", len(R_KANA_TO_KANJI), "条")
 print("Rule S 假名→汉字:", len(S_KANA_TO_KANJI), "条")
 print("Rule T 假名→汉字:", len(T_KANA_TO_KANJI), "条")
 print("Rule U 假名→汉字:", len(U_KANA_TO_KANJI), "条")
-s = json.load(io.open(os.path.join(ROOT, "eval/night104_results_4000.json"), encoding="utf-8"))
+s = json.load(io.open(os.path.join(ROOT, "eval/night107_results_4000.json"), encoding="utf-8"))
 sm = s["summary"]
-print("night104(golden_4000): total=%s n=%s exact=%s avgDist=%s errors=%s"
+print("night107(golden_4000): total=%s n=%s exact=%s avgDist=%s errors=%s"
       % (s.get("total"), sm["n"], sm["exact"], sm["avg_edit_distance"], sm["errors"]))
 g = json.load(io.open(os.path.join(ROOT, "eval/golden_4000_stats.json"), encoding="utf-8"))
 print("golden_4000: total=%s uniq_hakubun=%s" % (g["total"], g["uniq_hakubun"]))
@@ -61,6 +61,13 @@ print("割注右先率基线: off=%.2f%% on=%.2f%% strict=%.1f%%"
 # 只读；任一项不在位 → 打印 FAIL 井 exit 1（不再只是打印数值了事）。
 import re as _re
 
+
+# N107 新增：guard 変体字拡張断言（項 4 実施夜・N106 §2.1/§3 設計の実施——guard tuple 2 处のみ）
+_L_GATAME = [e for e in L_KANA_TO_KANJI if e[0] == "がため"][0]
+_M_GOTOKU = [e for e in M_KANA_TO_KANJI if e[0] == "何のごとく"][0]
+_GUARD_NEEDLE = ("N107 で guard 変体字拡張（Rule L がため guard %s・Rule M 何のごとく guard %s・規則数不変）"
+                 % ("/".join(_L_GATAME[2]), "/".join(_M_GOTOKU[2])))
+
 cer = json.load(io.open(os.path.join(ROOT, "eval/night68_gt_cer.json"), encoding="utf-8"))
 README = io.open(os.path.join(ROOT, "README.md"), encoding="utf-8").read()
 
@@ -72,8 +79,8 @@ _flat_readme = _flat(README)
 CHECKS = [
     ("SHINJITAI 組数", "**%d 組**" % len(SHINJITAI_MAP)),
     ("MERGE_WORDS 語数", "**%d 語**" % len(MERGE_WORDS)),
-    ("night104 golden_4000 avgDist", "**%.3f**" % sm["avg_edit_distance"]),  # 13.460＝尾零保持（README 3 档小数惯例・归档 float 13.46 と同値）
-    ("night104 golden_4000 exact", "**%d/4000**" % sm["exact"]),
+    ("night107 golden_4000 avgDist", "**%.3f**" % sm["avg_edit_distance"]),  # 13.460＝尾零保持（README 3 档小数惯例・归档 float 13.46 と同値）
+    ("night107 golden_4000 exact", "**%d/4000**" % sm["exact"]),
     ("golden_4000 組数", "**%d 組**" % g["total"]),
     ("golden_4000 ユニーク", str(g["uniq_hakubun"])),
     ("golden_7908 組数", "**%d 組**" % g7["total"]),
@@ -93,6 +100,7 @@ CHECKS = [
     ("Rule S 語数", "**%d 語**" % len(S_KANA_TO_KANJI)),
     ("Rule T 語数", "**%d 語**" % len(T_KANA_TO_KANJI)),
     ("Rule U 語数", "**%d 語**" % len(U_KANA_TO_KANJI)),
+    ("N107 guard 変体字拡張", _GUARD_NEEDLE),
 ]
 
 # N73 新增：テスト行の pytest 計数断言（N72 移交⑥；--collect-only で実行せず数える）
