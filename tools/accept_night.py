@@ -76,6 +76,7 @@ NIGHT_ARTIFACTS = {
     99: ["night99_results_4000.json"],   # N99 拍板夜 Rule T 3 条（べからず/べからざる/べきなり→可からず/可からざる/可きなり guard 可・13.462/24/0・8165 13.469・変差 6 行拍板許容）
     100: ["night100_results_4000.json"],   # N100 合并夜：night99-rulet Rule T 3 条入 master（与 night99 归档逐位一致 13.462/24/0・8165 13.469・diff 0 行）
     101: ["night101_results_4000.json"],   # N101 合并夜：night98-report 报告-only 状态审计入 master（与 night100 归档逐位一致 13.462/24/0・8165 13.469・diff 0 行・98 不补登记＝N91 先例）
+    104: ["night104_results_4000.json"],   # N104 拍板夜 Rule U 1 条（なかれ→莫かれ guard 莫・13.460/24/0・8165 13.467・変差 1 行 kokyo09-5 拍板許容）
     22: ["night22_results_full.json"],
     23: ["night23_results_rongo.json"],
     26: ["night26_results_full.json"],

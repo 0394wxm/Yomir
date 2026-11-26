@@ -1,0 +1,74 @@
+{
+ "script": "tools/night104_sim.py",
+ "night": 104,
+ "mode": "拍板夜 Rule U 1 条 sim 検証（なかれ→莫かれ guard 莫・変差 1 行 kokyo09-5 許容）",
+ "lexicon": {
+  "core": 500,
+  "core_old_size": 209,
+  "extra": 291,
+  "extra2": 1031,
+  "ordered_all": 1531
+ },
+ "n101_vs_n100_diff": 0,
+ "class": {
+  "engine": 7916,
+  "echo": 30,
+  "rerun": 218,
+  "no_tail": 1
+ },
+ "baseline": {
+  "avg4000": 13.462,
+  "avg8165": 13.469,
+  "exact4000": 24,
+  "exact8165": 30,
+  "archive": "night101_results_8165.json / night101_results_4000.json（N101 链尾＝Rule T 生效済み）"
+ },
+ "gates": {
+  "nakare": {
+   "keys": [
+    "nakare"
+   ],
+   "changed": 17,
+   "better": 13,
+   "worse": 1,
+   "same": 8120,
+   "changed4000": 12,
+   "better4000": 8,
+   "worse4000": 1,
+   "delta8165": -0.002,
+   "delta4000": -0.002,
+   "full8165": {
+    "avg_old": 13.469,
+    "avg_new": 13.467,
+    "delta": -0.002
+   },
+   "full4000": {
+    "avg_old": 13.462,
+    "avg_new": 13.46,
+    "delta": -0.002
+   },
+   "pred_exact8165": 30,
+   "pred_exact4000": 24,
+   "idempotent_bad": 0,
+   "worse_ids": [
+    "kokyo09-5"
+   ],
+   "worse_ids4000": [
+    "kokyo09-5"
+   ],
+   "worse_detail": [
+    {
+     "id": "kokyo09-5",
+     "old": 15,
+     "new": 16,
+     "got": "父を厳して大なりて天を配すことなかれ。",
+     "exp": "父を厳にするは天に配するより大なるは莫し。",
+     "newtext": "父を厳して大なりて天を配すこと莫かれ。"
+    }
+   ]
+  }
+ },
+ "lev_impl": "纯 Python 回退（night85_eval 同一算法・归档逐位一致実績）",
+ "elapsed_sec": 19,
+ "verdict": "PASS"
+}

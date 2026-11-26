@@ -1056,6 +1056,55 @@ def style_kana_to_kanji_t(text: str, hakubun: str = "") -> str:
             continue
         text = _replace_word_boundary(text, kana, repl, T_LONGER_WORDS)
     return text
+
+
+# ---------------------------------------------------------------------------
+# Rule U（N104・拍板夜）：假名 → 汉字（第十六批）。撤 0 変差硬门の一条収録
+# （用户 2026-11-26 拍板・N98 报告 §3 决策表項 3・N99 同框为据・変差 1 行許容）。
+#
+# 收录（night104_sim 実績・基线 night101_results_8165.json・変差行は N98 実測 ID と
+# 一致・実跑との逐位一致は night104_eval_* で确认）：
+#   なかれ→莫かれ（guard 莫）——禁止族 guard 分割の最後の一片（I 毋かれ・M 勿かれ に
+#     続き白文「莫」行を担当＝I→M→U で なかれ の守り字三分割完了）。N98 実測
+#     17 改写 13 改善 1 変差（kokyo09-5 15→16）＝night101 基线 sim で逐位复现
+#     （4000 内 12 行・Δ8165 -0.002 Δ4000 -0.002・冪等 bad 0）。17 行の内訳＝
+#     post-N 残量の 〜ことなかれ 系 15 行（如き/興す/学ぶ/掃く/勝つ 等・N78 umbrella
+#     拒の非 prefix 残量）＋裸 なかれ 2 行（kokyo12-2・kofuku-x13・両行持平）。
+#     変差 kokyo09-5：白文「嚴父莫大於配天」＝すことなかれ 行・莫大 co-occurrence
+#     死因（exp 側「…大なるは莫し」＝莫し/莫かれ 字形差・N58/N68/N73/N78 定性の
+#     再現・N78 実測で判别式は否定＝排除 guard 不另加・不修死因＝拍板条件）。
+#   禁区（本夜も一字不動）：がため/何のごとく・は系・ことなき・嗟や・ことなく guard 外・
+#   N84 遗留——別拍板。
+U_KANA_TO_KANJI = [
+    ("なかれ", "莫かれ", ("莫",)),           # 白文 莫〜 のなかれ（N98 拍板項 3・変差 1 行 kokyo09-5 許容）
+]
+
+# Rule U 的词界护栏（与 E〜T 分开维护）。U_LONGER_WORDS は現代語複合語マスク 1 件のみ
+# （事勿れ主義＝ことなかれ主義 を一字不動に守る＝N64 probe 守り・N73 もしの長詞 同款の
+# 安全弁。実語料 17 行に なかれ主義 非含有＝発火集合不変）。
+# 〜ことなかれ 系は N78 prefix keys で消費されなかった非 prefix 形も なかれ substring
+# として本規則の発火に含まれる（night104_sim 実測・別建て長詞は不要）。莫 は新旧
+# 変異なし（guard_forms 并查＝同形）。
+U_LONGER_WORDS = {
+    "なかれ": ("なかれ主義",),               # ことなかれ主義（事勿れ主義）マスク＝N64 probe 対応
+}
+
+
+def style_kana_to_kanji_u(text: str, hakubun: str = "") -> str:
+    """假名 → 汉字（第十六批）。N104 Rule U（拍板夜・変差 1 行 kokyo09-5 許容）。
+
+    与 E〜T 同构的两道护栏，用 U 自己的更长词表。guard は白文含字の正条件
+    （空白文で発火＝E〜K 世代同语义）。なかれ の消費は I（毋かれ）→M（勿かれ）→
+    U（莫かれ）の guard 分割完了（post-N 残量＝白文 莫 行のみ）。
+    全 1 条＝night104_sim 変差 1 行（N98 実測 ID 一致）・幂等 bad 0。
+    """
+    hb = re.sub(r"\s+", "", hakubun) if hakubun else ""
+    for kana, repl, guard in U_KANA_TO_KANJI:
+        if guard and hb and not any(g in hb for g in guard):
+            continue
+        text = _replace_word_boundary(text, kana, repl, U_LONGER_WORDS)
+    return text
+
 def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     """带白文上下文的规则总入口（D11 起后端实际调用这个）。
 
@@ -1082,6 +1131,7 @@ def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     t = style_kana_to_kanji_r(t, hakubun)   # N94 Rule R
     t = style_kana_to_kanji_s(t, hakubun)   # N96 Rule S
     t = style_kana_to_kanji_t(t, hakubun)   # N99 Rule T
+    t = style_kana_to_kanji_u(t, hakubun)   # N104 Rule U
     return t
 
 # ---------------------------------------------------------------------------
