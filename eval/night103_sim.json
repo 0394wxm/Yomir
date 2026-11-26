@@ -1,0 +1,534 @@
+{
+ "script": "tools/night103_sim.py",
+ "night": 103,
+ "mode": "项 6 ことなき字形统一・sim 再测（报告-only・不収録・製品コード零改动）",
+ "verdict": "REPORT_ONLY_MEASURED",
+ "lexicon": {
+  "core": 500,
+  "core_old_size": 209,
+  "extra": 291,
+  "extra2": 1031,
+  "ordered_all": 1531
+ },
+ "n101_vs_n100_diff": 0,
+ "class": {
+  "engine": 7916,
+  "echo": 30,
+  "rerun": 218,
+  "no_tail": 1
+ },
+ "baseline": {
+  "avg4000": 13.462,
+  "avg8165": 13.469,
+  "exact4000": 24,
+  "exact8165": 30,
+  "archive": "night101_results_8165.json / night101_results_4000.json"
+ },
+ "a_primary": {
+  "fired": 15,
+  "better": 12,
+  "worse": [
+   "rikutou26-5",
+   "roushi46-2"
+  ],
+  "same": [
+   "utsuryo03-7"
+  ],
+  "worse_detail": {
+   "rikutou26-5": [
+    53,
+    54
+   ],
+   "roushi46-2": [
+    34,
+    35
+   ]
+  },
+  "delta8165": -0.001,
+  "delta4000": -0.004,
+  "in4000": 12,
+  "per_row": {
+   "mujun-2": [
+    11,
+    10
+   ],
+   "onoreshiru-1": [
+    18,
+    17
+   ],
+   "kagakujota-1": [
+    27,
+    26
+   ],
+   "kanchuna-1": [
+    82,
+    81
+   ],
+   "rongo0615-1": [
+    12,
+    11
+   ],
+   "rongo0732-1": [
+    23,
+    22
+   ],
+   "rongo1315-1": [
+    113,
+    110
+   ],
+   "rongo1442-1": [
+    55,
+    54
+   ],
+   "p-danjoshitsu-1": [
+    36,
+    35
+   ],
+   "tarekako-1": [
+    12,
+    11
+   ],
+   "tonan-1": [
+    29,
+    28
+   ],
+   "warekimi-1": [
+    35,
+    34
+   ],
+   "roushi46-2": [
+    34,
+    35
+   ],
+   "utsuryo03-7": [
+    63,
+    63
+   ],
+   "rikutou26-5": [
+    53,
+    54
+   ]
+  }
+ },
+ "site_form_census": {
+  "莫き": 10,
+  "莫からん": 2,
+  "莫くんば": 1,
+  "莫かる": 1,
+  "莫し": 4
+ },
+ "unify": {
+  "moku": {
+   "target": "莫く",
+   "variants": [
+    "莫き",
+    "莫し"
+   ],
+   "better": [
+    "kagakujota-1",
+    "kanchuna-1",
+    "mujun-2",
+    "onoreshiru-1",
+    "p-danjoshitsu-1",
+    "rongo0615-1",
+    "rongo0732-1",
+    "rongo1315-1",
+    "rongo1442-1",
+    "tarekako-1",
+    "tonan-1",
+    "utsuryo03-7",
+    "warekimi-1"
+   ],
+   "worse": [
+    "rikutou26-5"
+   ],
+   "same": [
+    "roushi46-2"
+   ],
+   "resolved": {
+    "roushi46-2": "解消→持平",
+    "rikutou26-5": "未解消（仍変差 53→54）"
+   },
+   "new_worse_outside_n99_6": [
+    "rikutou26-5"
+   ],
+   "delta8165": -0.002,
+   "delta4000": -0.004,
+   "delta_chars8165": -16,
+   "exp_changed_rows": [
+    "kagakujota-1",
+    "kanchuna-1",
+    "mujun-2",
+    "onoreshiru-1",
+    "rikutou26-5",
+    "rongo0615-1",
+    "rongo1315-1",
+    "roushi46-2",
+    "tarekako-1",
+    "tonan-1",
+    "utsuryo03-7",
+    "warekimi-1"
+   ],
+   "exp_changed_count": 12,
+   "in4000": 12,
+   "per_row": {
+    "kagakujota-1": [
+     27,
+     28,
+     26
+    ],
+    "kanchuna-1": [
+     82,
+     83,
+     81
+    ],
+    "mujun-2": [
+     11,
+     11,
+     10
+    ],
+    "onoreshiru-1": [
+     18,
+     19,
+     17
+    ],
+    "p-danjoshitsu-1": [
+     36,
+     36,
+     35
+    ],
+    "rikutou26-5": [
+     53,
+     53,
+     54
+    ],
+    "rongo0615-1": [
+     12,
+     13,
+     11
+    ],
+    "rongo0732-1": [
+     23,
+     23,
+     22
+    ],
+    "rongo1315-1": [
+     113,
+     116,
+     110
+    ],
+    "rongo1442-1": [
+     55,
+     55,
+     53
+    ],
+    "roushi46-2": [
+     34,
+     34,
+     34
+    ],
+    "tarekako-1": [
+     12,
+     13,
+     11
+    ],
+    "tonan-1": [
+     29,
+     29,
+     27
+    ],
+    "utsuryo03-7": [
+     63,
+     63,
+     62
+    ],
+    "warekimi-1": [
+     35,
+     36,
+     34
+    ]
+   }
+  },
+  "moshi": {
+   "target": "莫し",
+   "variants": [
+    "莫き",
+    "莫く"
+   ],
+   "better": [
+    "kagakujota-1",
+    "kanchuna-1",
+    "mujun-2",
+    "onoreshiru-1",
+    "p-danjoshitsu-1",
+    "rongo0615-1",
+    "rongo0732-1",
+    "rongo1315-1",
+    "rongo1442-1",
+    "tarekako-1",
+    "tonan-1",
+    "utsuryo03-7",
+    "warekimi-1"
+   ],
+   "worse": [
+    "rikutou26-5"
+   ],
+   "same": [
+    "roushi46-2"
+   ],
+   "resolved": {
+    "roushi46-2": "解消→持平",
+    "rikutou26-5": "未解消（仍変差 53→54）"
+   },
+   "new_worse_outside_n99_6": [
+    "rikutou26-5"
+   ],
+   "delta8165": -0.002,
+   "delta4000": -0.004,
+   "delta_chars8165": -15,
+   "exp_changed_rows": [
+    "kagakujota-1",
+    "kanchuna-1",
+    "mujun-2",
+    "onoreshiru-1",
+    "rongo0615-1",
+    "rongo1315-1",
+    "tarekako-1",
+    "warekimi-1"
+   ],
+   "exp_changed_count": 8,
+   "in4000": 12,
+   "per_row": {
+    "kagakujota-1": [
+     27,
+     28,
+     26
+    ],
+    "kanchuna-1": [
+     82,
+     83,
+     81
+    ],
+    "mujun-2": [
+     11,
+     11,
+     10
+    ],
+    "onoreshiru-1": [
+     18,
+     19,
+     17
+    ],
+    "p-danjoshitsu-1": [
+     36,
+     36,
+     35
+    ],
+    "rikutou26-5": [
+     53,
+     53,
+     54
+    ],
+    "rongo0615-1": [
+     12,
+     13,
+     11
+    ],
+    "rongo0732-1": [
+     23,
+     23,
+     22
+    ],
+    "rongo1315-1": [
+     113,
+     116,
+     110
+    ],
+    "rongo1442-1": [
+     55,
+     55,
+     54
+    ],
+    "roushi46-2": [
+     34,
+     34,
+     34
+    ],
+    "tarekako-1": [
+     12,
+     13,
+     11
+    ],
+    "tonan-1": [
+     29,
+     29,
+     27
+    ],
+    "utsuryo03-7": [
+     63,
+     63,
+     62
+    ],
+    "warekimi-1": [
+     35,
+     36,
+     34
+    ]
+   }
+  },
+  "moki": {
+   "target": "莫き",
+   "variants": [
+    "莫く",
+    "莫し"
+   ],
+   "better": [
+    "kagakujota-1",
+    "kanchuna-1",
+    "mujun-2",
+    "onoreshiru-1",
+    "p-danjoshitsu-1",
+    "rongo0615-1",
+    "rongo0732-1",
+    "rongo1315-1",
+    "rongo1442-1",
+    "tarekako-1",
+    "tonan-1",
+    "utsuryo03-7",
+    "warekimi-1"
+   ],
+   "worse": [
+    "rikutou26-5"
+   ],
+   "same": [
+    "roushi46-2"
+   ],
+   "resolved": {
+    "roushi46-2": "解消→持平",
+    "rikutou26-5": "未解消（仍変差 53→54）"
+   },
+   "new_worse_outside_n99_6": [
+    "rikutou26-5"
+   ],
+   "delta8165": -0.002,
+   "delta4000": -0.004,
+   "delta_chars8165": -15,
+   "exp_changed_rows": [
+    "rikutou26-5",
+    "roushi46-2",
+    "tonan-1",
+    "utsuryo03-7"
+   ],
+   "exp_changed_count": 4,
+   "in4000": 12,
+   "per_row": {
+    "kagakujota-1": [
+     27,
+     27,
+     26
+    ],
+    "kanchuna-1": [
+     82,
+     82,
+     81
+    ],
+    "mujun-2": [
+     11,
+     11,
+     10
+    ],
+    "onoreshiru-1": [
+     18,
+     18,
+     17
+    ],
+    "p-danjoshitsu-1": [
+     36,
+     36,
+     35
+    ],
+    "rikutou26-5": [
+     53,
+     53,
+     54
+    ],
+    "rongo0615-1": [
+     12,
+     12,
+     11
+    ],
+    "rongo0732-1": [
+     23,
+     23,
+     22
+    ],
+    "rongo1315-1": [
+     113,
+     113,
+     110
+    ],
+    "rongo1442-1": [
+     55,
+     55,
+     54
+    ],
+    "roushi46-2": [
+     34,
+     34,
+     34
+    ],
+    "tarekako-1": [
+     12,
+     12,
+     11
+    ],
+    "tonan-1": [
+     29,
+     28,
+     27
+    ],
+    "utsuryo03-7": [
+     63,
+     62,
+     62
+    ],
+    "warekimi-1": [
+     35,
+     35,
+     34
+    ]
+   }
+  }
+ },
+ "unify_changed_exp_rows": {
+  "moku": 12,
+  "moshi": 8,
+  "moki": 4
+ },
+ "exploratory_m": {
+  "rule": "ことなき→こと毋き（guard 毋）",
+  "fired": 4,
+  "detail": {
+   "ichijicho-1": [
+    15,
+    14
+   ],
+   "shindoku-1": [
+    32,
+    31
+   ],
+   "daigaku06-1": [
+    12,
+    11
+   ],
+   "rongo1125-1": [
+    33,
+    32
+   ]
+  },
+  "delta_chars": -4,
+  "note": "非本夜収録対象・次夜拍板材料（recon 新知見：ことなき の毋系 4 行は項 6 の莫 guard 外＝別候補族）"
+ },
+ "lev_impl": "纯 Python 回退（night85_eval 同一算法・归档逐位一致実績）",
+ "elapsed_sec": 21
+}
