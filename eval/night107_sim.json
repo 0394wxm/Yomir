@@ -1,0 +1,211 @@
+{
+ "script": "tools/night107_sim.py",
+ "night": 107,
+ "mode": "項 4 実施夜 guard 変体字拡張 C1+C4 sim 検証（N106 §2.1/§3 設計の実施前复现・規則数不変）",
+ "lexicon": {
+  "core": 500,
+  "core_old_size": 209,
+  "extra": 291,
+  "extra2": 1031,
+  "ordered_all": 1531
+ },
+ "n104_vs_n101_diff_ids": [
+  "ichinenkoku-1",
+  "kofuku-x13",
+  "kokyo07-7",
+  "kokyo09-5",
+  "kokyo12-2",
+  "kunmotokyu-1",
+  "montai06-4",
+  "rikutou34-7",
+  "rongo1501-1",
+  "rongo1709-1",
+  "roushi59-1",
+  "roushi78-1",
+  "sakinzu-4",
+  "soko-3",
+  "toushisen034-4",
+  "toushisen409-3",
+  "yaro-1"
+ ],
+ "class": {
+  "engine": 7916,
+  "echo": 30,
+  "rerun": 218,
+  "no_tail": 1
+ },
+ "baseline": {
+  "avg4000": 13.46,
+  "avg8165": 13.467,
+  "exact4000": 24,
+  "exact8165": 30,
+  "archive": "night104_results_8165.json / night104_results_4000.json（N105 合并链尾＝Rule U 生效済み）"
+ },
+ "guard_forms_proof": {
+  "wei": [
+   "爲",
+   "為"
+  ],
+  "nai": [
+   "奈"
+  ],
+  "literal_idempotent": true
+ },
+ "guard_miss_c1": [
+  "rikutou37-2"
+ ],
+ "guard_miss_c4": [
+  "shiki050-4"
+ ],
+ "gates": {
+  "combo": {
+   "keys": [
+    "c1",
+    "c4"
+   ],
+   "changed": 2,
+   "better": 2,
+   "worse": 0,
+   "same": 8132,
+   "changed4000": 0,
+   "better4000": 0,
+   "worse4000": 0,
+   "delta8165": -0.001,
+   "delta4000": 0.0,
+   "full8165": {
+    "avg_old": 13.467,
+    "avg_new": 13.466,
+    "delta": -0.001
+   },
+   "full4000": {
+    "avg_old": 13.46,
+    "avg_new": 13.46,
+    "delta": 0.0
+   },
+   "pred_exact8165": 30,
+   "pred_exact4000": 24,
+   "idempotent_bad": 0,
+   "worse_ids": [],
+   "worse_ids4000": []
+  },
+  "c1": {
+   "keys": [
+    "c1"
+   ],
+   "changed": 1,
+   "better": 1,
+   "worse": 0,
+   "same": 8133,
+   "changed4000": 0,
+   "better4000": 0,
+   "worse4000": 0,
+   "delta8165": -0.0,
+   "delta4000": 0.0,
+   "full8165": {
+    "avg_old": 13.467,
+    "avg_new": 13.467,
+    "delta": -0.0
+   },
+   "full4000": {
+    "avg_old": 13.46,
+    "avg_new": 13.46,
+    "delta": 0.0
+   },
+   "pred_exact8165": 30,
+   "pred_exact4000": 24,
+   "idempotent_bad": 0,
+   "worse_ids": [],
+   "worse_ids4000": []
+  },
+  "c4": {
+   "keys": [
+    "c4"
+   ],
+   "changed": 1,
+   "better": 1,
+   "worse": 0,
+   "same": 8133,
+   "changed4000": 0,
+   "better4000": 0,
+   "worse4000": 0,
+   "delta8165": -0.001,
+   "delta4000": 0.0,
+   "full8165": {
+    "avg_old": 13.467,
+    "avg_new": 13.467,
+    "delta": -0.001
+   },
+   "full4000": {
+    "avg_old": 13.46,
+    "avg_new": 13.46,
+    "delta": 0.0
+   },
+   "pred_exact8165": 30,
+   "pred_exact4000": 24,
+   "idempotent_bad": 0,
+   "worse_ids": [],
+   "worse_ids4000": []
+  },
+  "c3_contrast": {
+   "keys": [
+    "c3_contrast"
+   ],
+   "changed": 0,
+   "better": 0,
+   "worse": 0,
+   "same": 8134,
+   "changed4000": 0,
+   "better4000": 0,
+   "worse4000": 0,
+   "delta8165": 0.0,
+   "delta4000": 0.0,
+   "full8165": {
+    "avg_old": 13.467,
+    "avg_new": 13.467,
+    "delta": 0.0
+   },
+   "full4000": {
+    "avg_old": 13.46,
+    "avg_new": 13.46,
+    "delta": 0.0
+   },
+   "pred_exact8165": 30,
+   "pred_exact4000": 24,
+   "idempotent_bad": 0,
+   "worse_ids": [],
+   "worse_ids4000": []
+  },
+  "c5_contrast": {
+   "keys": [
+    "c5_contrast"
+   ],
+   "changed": 0,
+   "better": 0,
+   "worse": 0,
+   "same": 8134,
+   "changed4000": 0,
+   "better4000": 0,
+   "worse4000": 0,
+   "delta8165": 0.0,
+   "delta4000": 0.0,
+   "full8165": {
+    "avg_old": 13.467,
+    "avg_new": 13.467,
+    "delta": 0.0
+   },
+   "full4000": {
+    "avg_old": 13.46,
+    "avg_new": 13.46,
+    "delta": 0.0
+   },
+   "pred_exact8165": 30,
+   "pred_exact4000": 24,
+   "idempotent_bad": 0,
+   "worse_ids": [],
+   "worse_ids4000": []
+  }
+ },
+ "lev_impl": "纯 Python 回退（night85_eval 同一算法・归档逐位一致実績）",
+ "elapsed_sec": 19,
+ "verdict": "PASS"
+}
