@@ -1,0 +1,605 @@
+{
+ "script": "tools/night106_guard_nxt.py",
+ "night": 106,
+ "mode": "守り字后继字 guard 拡張機構 設計＋原型実測（報告-only・不収録）",
+ "verdict": "REPORT_ONLY_MEASURED",
+ "a_primary": {
+  "fired": 15,
+  "better": [
+   "mujun-2",
+   "onoreshiru-1",
+   "kagakujota-1",
+   "kanchuna-1",
+   "rongo0615-1",
+   "rongo0732-1",
+   "rongo1315-1",
+   "rongo1442-1",
+   "p-danjoshitsu-1",
+   "tarekako-1",
+   "tonan-1",
+   "warekimi-1"
+  ],
+  "worse": [
+   "roushi46-2",
+   "rikutou26-5"
+  ],
+  "same": [
+   "utsuryo03-7"
+  ],
+  "per_row": {
+   "mujun-2": [
+    11,
+    10
+   ],
+   "onoreshiru-1": [
+    18,
+    17
+   ],
+   "kagakujota-1": [
+    27,
+    26
+   ],
+   "kanchuna-1": [
+    82,
+    81
+   ],
+   "rongo0615-1": [
+    12,
+    11
+   ],
+   "rongo0732-1": [
+    23,
+    22
+   ],
+   "rongo1315-1": [
+    113,
+    110
+   ],
+   "rongo1442-1": [
+    55,
+    54
+   ],
+   "p-danjoshitsu-1": [
+    36,
+    35
+   ],
+   "tarekako-1": [
+    12,
+    11
+   ],
+   "tonan-1": [
+    29,
+    28
+   ],
+   "warekimi-1": [
+    35,
+    34
+   ],
+   "roushi46-2": [
+    34,
+    35
+   ],
+   "utsuryo03-7": [
+    63,
+    63
+   ],
+   "rikutou26-5": [
+    53,
+    54
+   ]
+  }
+ },
+ "sites": [
+  {
+   "site_index": 0,
+   "got_pos": 21,
+   "exp_tok": "莫き",
+   "follow": "能",
+   "follow2": "能陷",
+   "hb_pos": 9,
+   "row_id": "mujun-2",
+   "pred": "莫き",
+   "ok": true
+  },
+  {
+   "site_index": 0,
+   "got_pos": 24,
+   "exp_tok": "莫き",
+   "follow": "己",
+   "follow2": "己知",
+   "hb_pos": 15,
+   "row_id": "onoreshiru-1",
+   "pred": "莫き",
+   "ok": true
+  },
+  {
+   "site_index": 0,
+   "got_pos": 8,
+   "exp_tok": "莫き",
+   "follow": "我",
+   "follow2": "我知",
+   "hb_pos": 3,
+   "row_id": "kagakujota-1",
+   "pred": "莫き",
+   "ok": true
+  },
+  {
+   "site_index": 1,
+   "got_pos": 29,
+   "exp_tok": "莫からん",
+   "follow": "知",
+   "follow2": "知子",
+   "hb_pos": 16,
+   "row_id": "kagakujota-1",
+   "pred": "莫からん",
+   "ok": true
+  },
+  {
+   "site_index": 0,
+   "got_pos": 148,
+   "exp_tok": "莫き",
+   "follow": "之",
+   "follow2": "之知",
+   "hb_pos": 82,
+   "row_id": "kanchuna-1",
+   "pred": "莫き",
+   "ok": true
+  },
+  {
+   "site_index": 0,
+   "got_pos": 25,
+   "exp_tok": "莫き",
+   "follow": "由",
+   "follow2": "由斯",
+   "hb_pos": 11,
+   "row_id": "rongo0615-1",
+   "pred": "莫き",
+   "ok": true
+  },
+  {
+   "site_index": 0,
+   "got_pos": 15,
+   "exp_tok": "莫からん",
+   "follow": "吾",
+   "follow2": "吾猶",
+   "hb_pos": 4,
+   "row_id": "rongo0732-1",
+   "pred": "莫からん",
+   "ok": true
+  },
+  {
+   "site_index": 0,
+   "got_pos": 184,
+   "exp_tok": "莫き",
+   "follow": "予",
+   "follow2": "予違",
+   "hb_pos": 104,
+   "row_id": "rongo1315-1",
+   "pred": "莫き",
+   "ok": true
+  },
+  {
+   "site_index": 1,
+   "got_pos": 205,
+   "exp_tok": "莫き",
+   "follow": "之",
+   "follow2": "之違",
+   "hb_pos": 113,
+   "row_id": "rongo1315-1",
+   "pred": "莫き",
+   "ok": true
+  },
+  {
+   "site_index": 2,
+   "got_pos": 232,
+   "exp_tok": "莫き",
+   "follow": "之",
+   "follow2": "之違",
+   "hb_pos": 127,
+   "row_id": "rongo1315-1",
+   "pred": "莫き",
+   "ok": true
+  },
+  {
+   "site_index": 0,
+   "got_pos": 62,
+   "exp_tok": "莫くんば",
+   "follow": "己",
+   "follow2": "己知",
+   "hb_pos": 37,
+   "row_id": "rongo1442-1",
+   "pred": "莫き",
+   "ok": false
+  },
+  {
+   "site_index": 0,
+   "got_pos": 45,
+   "exp_tok": "莫かる",
+   "follow": "如",
+   "follow2": "如舜",
+   "hb_pos": 25,
+   "row_id": "p-danjoshitsu-1",
+   "pred": "莫かる",
+   "ok": true
+  },
+  {
+   "site_index": 0,
+   "got_pos": 25,
+   "exp_tok": "莫き",
+   "follow": "由",
+   "follow2": "由斯",
+   "hb_pos": 11,
+   "row_id": "tarekako-1",
+   "pred": "莫き",
+   "ok": true
+  },
+  {
+   "site_index": 0,
+   "got_pos": 33,
+   "exp_tok": "莫し",
+   "follow": "之",
+   "follow2": "之夭",
+   "hb_pos": 13,
+   "row_id": "tonan-1",
+   "pred": "莫き",
+   "ok": false
+  },
+  {
+   "site_index": 0,
+   "got_pos": 78,
+   "exp_tok": "莫き",
+   "follow": "予",
+   "follow2": "予違",
+   "hb_pos": 42,
+   "row_id": "warekimi-1",
+   "pred": "莫き",
+   "ok": true
+  },
+  {
+   "site_index": 2,
+   "got_pos": 49,
+   "exp_tok": "莫し",
+   "follow": "大",
+   "follow2": "大於",
+   "hb_pos": 16,
+   "row_id": "roushi46-2",
+   "pred": "莫し",
+   "ok": true
+  },
+  {
+   "site_index": 0,
+   "got_pos": 16,
+   "exp_tok": "莫し",
+   "follow": "能",
+   "follow2": "能正",
+   "hb_pos": 9,
+   "row_id": "utsuryo03-7",
+   "pred": "莫き",
+   "ok": false
+  },
+  {
+   "site_index": 3,
+   "got_pos": 60,
+   "exp_tok": "莫し",
+   "follow": "大",
+   "follow2": "大於",
+   "hb_pos": 22,
+   "row_id": "rikutou26-5",
+   "pred": "莫し",
+   "ok": true
+  }
+ ],
+ "follow_map": {
+  "能": "莫き",
+  "己": "莫き",
+  "我": "莫き",
+  "知": "莫からん",
+  "之": "莫き",
+  "由": "莫き",
+  "吾": "莫からん",
+  "予": "莫き",
+  "如": "莫かる",
+  "大": "莫し"
+ },
+ "conflicted": {
+  "能": {
+   "莫き": 1,
+   "莫し": 1
+  },
+  "己": {
+   "莫き": 1,
+   "莫くんば": 1
+  }
+ },
+ "conflicted2": {
+  "己知": {
+   "莫き": 1,
+   "莫くんば": 1
+  }
+ },
+ "judge": {
+  "ok": 15,
+  "ng": 3,
+  "three_way_ok": 12
+ },
+ "sim": {
+  "a": {
+   "better": [
+    "kagakujota-1",
+    "kanchuna-1",
+    "mujun-2",
+    "onoreshiru-1",
+    "p-danjoshitsu-1",
+    "rongo0615-1",
+    "rongo0732-1",
+    "rongo1315-1",
+    "rongo1442-1",
+    "tarekako-1",
+    "tonan-1",
+    "warekimi-1"
+   ],
+   "worse": [
+    "rikutou26-5",
+    "roushi46-2"
+   ],
+   "same": [
+    "utsuryo03-7"
+   ],
+   "delta8165": -0.0015,
+   "delta_chars8165": -12,
+   "delta4000": -0.0035,
+   "in4000": 12,
+   "per_row": {
+    "mujun-2": [
+     11,
+     10
+    ],
+    "onoreshiru-1": [
+     18,
+     17
+    ],
+    "kagakujota-1": [
+     27,
+     26
+    ],
+    "kanchuna-1": [
+     82,
+     81
+    ],
+    "rongo0615-1": [
+     12,
+     11
+    ],
+    "rongo0732-1": [
+     23,
+     22
+    ],
+    "rongo1315-1": [
+     113,
+     110
+    ],
+    "rongo1442-1": [
+     55,
+     54
+    ],
+    "p-danjoshitsu-1": [
+     36,
+     35
+    ],
+    "tarekako-1": [
+     12,
+     11
+    ],
+    "tonan-1": [
+     29,
+     28
+    ],
+    "warekimi-1": [
+     35,
+     34
+    ],
+    "roushi46-2": [
+     34,
+     35
+    ],
+    "utsuryo03-7": [
+     63,
+     63
+    ],
+    "rikutou26-5": [
+     53,
+     54
+    ]
+   }
+  },
+  "ceiling": {
+   "better": [
+    "kagakujota-1",
+    "kanchuna-1",
+    "mujun-2",
+    "onoreshiru-1",
+    "p-danjoshitsu-1",
+    "rongo0615-1",
+    "rongo0732-1",
+    "rongo1315-1",
+    "rongo1442-1",
+    "tarekako-1",
+    "tonan-1",
+    "utsuryo03-7",
+    "warekimi-1"
+   ],
+   "worse": [
+    "rikutou26-5"
+   ],
+   "same": [
+    "roushi46-2"
+   ],
+   "delta8165": -0.0027,
+   "delta_chars8165": -22,
+   "delta4000": -0.0055,
+   "in4000": 12,
+   "per_row": {
+    "mujun-2": [
+     11,
+     10
+    ],
+    "onoreshiru-1": [
+     18,
+     17
+    ],
+    "kagakujota-1": [
+     27,
+     24
+    ],
+    "kanchuna-1": [
+     82,
+     81
+    ],
+    "rongo0615-1": [
+     12,
+     11
+    ],
+    "rongo0732-1": [
+     23,
+     20
+    ],
+    "rongo1315-1": [
+     113,
+     110
+    ],
+    "rongo1442-1": [
+     55,
+     53
+    ],
+    "p-danjoshitsu-1": [
+     36,
+     33
+    ],
+    "tarekako-1": [
+     12,
+     11
+    ],
+    "tonan-1": [
+     29,
+     27
+    ],
+    "warekimi-1": [
+     35,
+     34
+    ],
+    "roushi46-2": [
+     34,
+     34
+    ],
+    "utsuryo03-7": [
+     63,
+     62
+    ],
+    "rikutou26-5": [
+     53,
+     54
+    ]
+   }
+  },
+  "follow": {
+   "better": [
+    "kagakujota-1",
+    "kanchuna-1",
+    "mujun-2",
+    "onoreshiru-1",
+    "p-danjoshitsu-1",
+    "rongo0615-1",
+    "rongo0732-1",
+    "rongo1315-1",
+    "rongo1442-1",
+    "tarekako-1",
+    "tonan-1",
+    "warekimi-1"
+   ],
+   "worse": [
+    "rikutou26-5"
+   ],
+   "same": [
+    "roushi46-2",
+    "utsuryo03-7"
+   ],
+   "delta8165": -0.0023,
+   "delta_chars8165": -19,
+   "delta4000": -0.005,
+   "in4000": 12,
+   "per_row": {
+    "mujun-2": [
+     11,
+     10
+    ],
+    "onoreshiru-1": [
+     18,
+     17
+    ],
+    "kagakujota-1": [
+     27,
+     24
+    ],
+    "kanchuna-1": [
+     82,
+     81
+    ],
+    "rongo0615-1": [
+     12,
+     11
+    ],
+    "rongo0732-1": [
+     23,
+     20
+    ],
+    "rongo1315-1": [
+     113,
+     110
+    ],
+    "rongo1442-1": [
+     55,
+     54
+    ],
+    "p-danjoshitsu-1": [
+     36,
+     33
+    ],
+    "tarekako-1": [
+     12,
+     11
+    ],
+    "tonan-1": [
+     29,
+     28
+    ],
+    "warekimi-1": [
+     35,
+     34
+    ],
+    "roushi46-2": [
+     34,
+     34
+    ],
+    "utsuryo03-7": [
+     63,
+     63
+    ],
+    "rikutou26-5": [
+     53,
+     54
+    ]
+   }
+  }
+ },
+ "rikutou26_5_scope": {
+  "reachable": true,
+  "pred_ok": true,
+  "d_follow": [
+   53,
+   54
+  ],
+  "verdict": "機構管轄内（対位・字形選択とも可能）だが d 変差は語順構造差で残存＝項 4/5 の別機構（語順構造差）管轄という N103 結論を機構側から再確認"
+ },
+ "lev_impl": "纯 Python 回退（night85_eval 同一算法・归档逐位一致実績）",
+ "elapsed_sec": 19
+}
