@@ -79,6 +79,7 @@ NIGHT_ARTIFACTS = {
     104: ["night104_results_4000.json"],   # N104 拍板夜 Rule U 1 条（なかれ→莫かれ guard 莫・13.460/24/0・8165 13.467・変差 1 行 kokyo09-5 拍板許容）
     105: ["night104_results_4000.json"],   # N105 合并夜：N102+N103+N104 三分支顺序入 master（登记口径沿用 N104 归档 13.460/24/0・8165 13.467・102/103 报告-only 不补登记＝N91/N101 先例）
     107: ["night107_results_4000.json"],   # N107 項 4 実施夜：guard 変体字拡張 C1+C4（Rule L がため guard 爲/為・Rule M 何のごとく guard 奈/柰・規則数不変・4000 13.460/24/0＝night104 と全行逐位一致・8165 13.466/30/0 改写 2 行 rikutou37-2/shiki050-4 変差 0）
+    108: ["night107_results_4000.json"],   # N108 合并夜：night106-mech-design（报告-only 機構設計）＋night107-item4-impl（項 4 実施・guard 変体字拡張 C1+C4・規則数不変）を --no-ff 順次合流（归档源维持 night107・4000 13.460/24/0・8165 13.466/30/0 与 night107 归档全行逐位一致・106 报告-only 不登记＝N91/N101/N105 先例）
     22: ["night22_results_full.json"],
     23: ["night23_results_rongo.json"],
     26: ["night26_results_full.json"],

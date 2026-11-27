@@ -11,7 +11,7 @@
 
 ---
 
-## 数字（2026-11-26 時点、night107-item4-impl（Night 107 項 4 実施夜：guard 変体字拡張 C1+C4（Rule L がため guard 爲/為・Rule M 何のごとく guard 奈/柰）・規則数不変）・自 master f5e0bf3 分出）のコード／アーカイブから実測）
+## 数字（2026-11-27 時点、master（Night 108 合并夜：night106-mech-design（1f0ac2a＋f3c0779・报告-only 機構設計）＋night107-item4-impl（acfa938＋4b73d8f・項 4 実施 guard 変体字拡張 C1+C4・規則数不変）を --no-ff 順次合流・合并提交 bcb5cc7→939598a・分支起点 f5e0bf3）のコード／アーカイブから実測）
 
 | 項目 | 数値 |
 | --- | --- |
