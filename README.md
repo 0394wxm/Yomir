@@ -11,7 +11,7 @@
 
 ---
 
-## 数字（2026-11-27 時点、master（Night 108 合并夜：night106-mech-design（1f0ac2a＋f3c0779・报告-only 機構設計）＋night107-item4-impl（acfa938＋4b73d8f・項 4 実施 guard 変体字拡張 C1+C4・規則数不変）を --no-ff 順次合流・合并提交 bcb5cc7→939598a・分支起点 f5e0bf3）のコード／アーカイブから実測）
+## 数字（2026-11-27 時点、master（Night 109 合并夜：night109-inventory（0945e45・在庫盘点＋拍板表更新夜 報告-only＋bf50046・wrap-up）を --no-ff 一括合流・合并提交 7b7951e・分支起点 141a9bf）のコード／アーカイブから実測）
 
 | 項目 | 数値 |
 | --- | --- |
