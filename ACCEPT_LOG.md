@@ -155,3 +155,5 @@
 | 2026-11-26T15:49:17 | 107 | PASS | fail=0 skip=0 | 37.0s | accept_night_107.json |
 | 2026-11-27T12:04:26 | 108 | FAIL | fail=1 skip=0 | 32.5s | accept_night_108.json |
 | 2026-11-27T12:08:38 | 108 | PASS | fail=0 skip=0 | 33.1s | accept_night_108.json |
+| 2026-11-27T14:34:36 | 109 | FAIL | fail=1 skip=1 | 33.9s | accept_night_109.json |
+| 2026-11-27T14:35:59 | 109 | PASS | fail=0 skip=1 | 35.2s | accept_night_109.json |
