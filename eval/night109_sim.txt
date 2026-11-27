@@ -1,0 +1,143 @@
+== H1 词库 import 实证（不動確認）==
+  {'core': 500, 'core_old_size': 209, 'extra': 291, 'extra2': 1031, 'ordered_all': 1531} → 209+291+1031=1531
+== H5 链完整性：night101→104 diff 17 行（Rule U）・104→107 diff 2 行（C1/C4）・101→107 diff 19 行 ==
+  H5 PASS：C1/C4 恰 2 行（rikutou37-2・shiki050-4）・Rule U 恰 17 行・合计 19 行
+== H4 行分类 {'engine': 7916, 'echo': 30, 'rerun': 218, 'no_tail': 1}（期待 {'engine': 7916, 'echo': 30, 'rerun': 218, 'no_tail': 1}）==
+  reachable 8134 行
+== H8 echo/no_tail 全 key 不可達（0 行）＋reachable 全行 hb 非空 ✓ ==
+  基线 avgDist 4000=13.460 8165=13.466（归档 13.460/13.466）exact 24/30（归档 24/30）
+  guard_forms(嗟)=['嗟']
+  guard_forms(勿)=['勿']
+  guard_forms(毋)=['毋']
+
+== (a) 嗟や→嗟乎（guard 嗟・N94 在庫）単条測定 ==
+  改写 3(4000内 3) better 3/3 worse 0/0 same 8162 | Δ8165 -0.000367（-3 字）Δ4000 -0.001 | 幂等 bad 0
+  fired ['enjaku-3', 'shika-1', 'shiwaonore-2']
+    enjaku-3 12→11 | got 陳渉は太く息みて曰く、嗟や、燕雀が安んぞ鴻鵠のを知りて志か。
+    shiwaonore-2 51→50 | got 趙襄の子は最に智の伯を怨む、其の頭を漆して以て飲器を為す。予譲して遁逃して山の中に曰く、嗟や、士は己を知る者たりて死す、
+    shika-1 77→76 | got 上曰く、如し淮陰の侯に教して反すや。対えて曰く、然り、臣は固く之に教す。豎の子は臣の策を用せず、故に自らを此に夷するをし
+  census {'exp_嗟乎': 3, 'exp_嗟夫': 0, 'exp_呜呼': 0, 'exp_于嗟': 0, 'exp_嗟哉': 0, 'got_嗟': 12, 'exp_嗟': 12}（拡張参照 嗚呼/於嗟 {'exp_嗚呼': 7, 'exp_於嗟': 0}）
+  -- 旧数对照（N94/N96/N98 記録）--
+  [一致] a_zaiya.changed = 3
+  [一致] a_zaiya.better = 3
+  [一致] a_zaiya.worse = 0
+  [一致] a_zaiya.chars8165 = -3
+  [一致] a_zaiya.delta8165 = -0.000367
+  [一致] a_zaiya.census.exp_嗟乎 = 3
+  [一致] a_zaiya.census.exp_嗟夫 = 0
+  [一致] a_zaiya.census.exp_呜呼 = 0
+  [一致] a_zaiya.census.exp_于嗟 = 0
+  [一致] a_zaiya.census.exp_嗟哉 = 0
+  [一致] a_zaiya.census.got_嗟 = 12
+  [一致] a_zaiya.census.exp_嗟 = 12
+
+== (b) per-guard 変体 こと勿く/こと毋く（N102 在庫）＋combo 測定 ==
+  b1 こと勿く(guard 勿): 改写 4 better 2 worse 0 | fired ['koshi19_01-8', 'rikutou04-2', 'rikutou21-2', 'toushisen080-8']
+  b2 こと毋く(guard 毋): 改写 1 better 1 worse 0 | fired ['p-haigun-1']
+  combo: 改写 5(4000内 2) better 3/2 worse 0/0 | Δ8165 -0.000367（-3 字）Δ4000 -0.001 | 幂等 bad 0
+  combo fired ['koshi19_01-8', 'p-haigun-1', 'rikutou04-2', 'rikutou21-2', 'toushisen080-8']
+    p-haigun-1 58→57 | got 信じるは乃に軍の中をして広武の君を殺することなくせしむ、有る能く生得する者は千金を購す。是に広武の君を縛る有りて戯して下
+    toushisen080-8 12→11 | got 慎して厭することなく清貧す
+    koshi19_01-8 22→22 | got 棄捐して復た努力を道することなく加りて飯するを餐す
+    rikutou04-2 45→44 | got 文王曰く、主が聴するは何の如し。太公曰く、妄すことなく而して許す、逆することなく而して拒む。之を許せば則ち守るを失う、之
+    rikutou21-2 122→122 | got 復た斧を操りて柄を持す、将するに其の刃を授りて曰く、此の下より至る淵の者、将軍は之を制す。其の虚なるを見れば則ち進む、其
+  H7 勿かれ 出現行数 before=42 after=42（N102 記録 42）
+  [一致] b_combo.yukare_rows = 42
+  -- 旧数对照（N102 §6 記録）--
+  [一致] b1_motsu.changed = 4
+  [一致] b1_motsu.better = 2
+  [一致] b1_motsu.worse = 0
+  [一致] b2_bou.changed = 1
+  [一致] b2_bou.better = 1
+  [一致] b2_bou.worse = 0
+  [一致] b_combo.changed = 5
+  [一致] b_combo.better = 3
+  [一致] b_combo.worse = 0
+  [一致] b_combo.fired = ['koshi19_01-8', 'p-haigun-1', 'rikutou04-2', 'rikutou21-2', 'toushisen080-8']
+  [一致] b_combo.chars8165 = -3
+  [一致] b_combo.delta8165 = -0.000367
+  構造行（combo 発火内 d0==d1）実測 ['koshi19_01-8', 'rikutou21-2']
+  N102 §5 行 94 記録「残り 2 行」=['koshi19_01-8', 'toushisen080-8']
+  [DRIFT] b_combo.struct_no_gain.d0==d1 行（N102 記録 vs 実測） 旧 ['koshi19_01-8', 'toushisen080-8'] → 新 ['koshi19_01-8', 'rikutou21-2']
+  combo 5 行 got は night101/104/107 で逐字节同一（N102 sim と同一入力）✓
+
+== (c) 毋系 ことなき→こと毋き（guard 毋・N103 在庫）単条測定 ==
+  改写 4(4000内 3) better 4/3 worse 0/0 same 8161 | Δ8165 -0.000490（-4 字）Δ4000 -0.001 | 幂等 bad 0
+  fired ['daigaku06-1', 'ichijicho-1', 'rongo1125-1', 'shindoku-1']
+    ichijicho-1 15→14 | got 以て吾は一日に爾に長し、吾を以てすることなきなり。
+    shindoku-1 32→31 | got 所謂其が意するを誠なる者、自らを欺すことなきなり。如く悪臭を悪す、好むが如く色を好む。此は之自らを謙ると謂う。故に君子は
+    daigaku06-1 12→11 | got 所謂其が意するを誠なる者、自らを欺すことなきなり。
+    rongo1125-1 33→32 | got 1）子路曾晳冉有公西華は侍坐す。子曰く、以て吾は一日に爾に長し、吾を以てすることなきなり。居て則ち曰く、吾は知らざるなり
+  -- 旧数对照（N103 §3 記録 4/4/0 Δ−0.000490）--
+  [一致] c_boukei.changed = 4
+  [一致] c_boukei.better = 4
+  [一致] c_boukei.worse = 0
+  [一致] c_boukei.fired = ['daigaku06-1', 'ichijicho-1', 'rongo1125-1', 'shindoku-1']
+  [一致] c_boukei.chars8165 = -4
+  [一致] c_boukei.delta8165 = -0.00049
+  [一致] c_boukei.exp_tok = {'ichijicho-1': '毋かれ', 'rongo1125-1': '毋かれ', 'shindoku-1': '毋き', 'daigaku06-1': '毋き'}
+
+== (c) 付帯：N103 A1 再验＝Rule U は 15 行に触れない（night101/104/107 逐行）==
+  [一致] mujun-2 got 三归档同一・d0=11
+  [一致] onoreshiru-1 got 三归档同一・d0=18
+  [一致] kagakujota-1 got 三归档同一・d0=27
+  [一致] kanchuna-1 got 三归档同一・d0=82
+  [一致] rongo0615-1 got 三归档同一・d0=12
+  [一致] rongo0732-1 got 三归档同一・d0=23
+  [一致] rongo1315-1 got 三归档同一・d0=113
+  [一致] rongo1442-1 got 三归档同一・d0=55
+  [一致] p-danjoshitsu-1 got 三归档同一・d0=36
+  [一致] tarekako-1 got 三归档同一・d0=12
+  [一致] tonan-1 got 三归档同一・d0=29
+  [一致] warekimi-1 got 三归档同一・d0=35
+  [一致] roushi46-2 got 三归档同一・d0=34
+  [一致] utsuryo03-7 got 三归档同一・d0=63
+  [一致] rikutou26-5 got 三归档同一・d0=53
+  → 15 行中 Rule U/C1/C4 触れ 0 行（N103 A1 前提＝0）
+  [一致] census.got 含莫かれ 行数（night101 pre-U・N96/N98 記録） = 72
+  night107（Rule U 後）=88 行＝pre-U 72＋Rule U 17 行中既在 1/新規 16
+
+== (d) (c) 后继字機構 follow_map 実現値（N106 型・night107 基线）==
+  (a) 対照：発火 15 行 | better 12 / worse 2 / same 1
+  site 字形分布：{'莫き': 10, '莫からん': 2, '莫くんば': 1, '莫かる': 1, '莫し': 4}
+  后继字分布（1 字）：{'能': 2, '己': 2, '我': 1, '知': 1, '之': 4, '由': 2, '吾': 1, '予': 2, '如': 1, '大': 2}
+  follow_map: {'能': '莫き', '己': '莫き', '我': '莫き', '知': '莫からん', '之': '莫き', '由': '莫き', '吾': '莫からん', '予': '莫き', '如': '莫かる', '大': '莫し'}
+  conflicted: {'能': {'莫き': 1, '莫し': 1}, '己': {'莫き': 1, '莫くんば': 1}} | 2 字衝突: {'己知': {'莫き': 1, '莫くんば': 1}}
+  判对 15 / 判错 3（15/18）｜三向内判对 12
+  [a] better 12 / worse 2 / same 1 | Δ8165 -0.0015（-12 字）Δ4000 -0.0035（4000 内 12 行）
+  [ceiling] better 13 / worse 1 / same 1 | Δ8165 -0.0027（-22 字）Δ4000 -0.0055（4000 内 12 行）
+  [follow] better 12 / worse 1 / same 2 | Δ8165 -0.0023（-19 字）Δ4000 -0.0050（4000 内 12 行）
+  [follow] per_row {"mujun-2": [11, 10], "onoreshiru-1": [18, 17], "kagakujota-1": [27, 24], "kanchuna-1": [82, 81], "rongo0615-1": [12, 11], "rongo0732-1": [23, 20], "rongo1315-1": [113, 110], "rongo1442-1": [55, 54], "p-danjoshitsu-1": [36, 33], "tarekako-1": [12, 11], "tonan-1": [29, 28], "warekimi-1": [35, 34], "roushi46-2": [34, 34], "utsuryo03-7": [63, 63], "rikutou26-5": [53, 54]}
+  rikutou26-5（N103 語順構造差行）: pred 莫し / 実 莫し / 判对 → d 53→54（語順差 d 変差は機構でも不救＝N106 結論）
+  -- 旧数对照（N106 eval/night106_guard_nxt.json 記録）--
+  [一致] d_follow.judge.ok/ng = [15, 3]
+  [一致] d_follow.judge.three_way_ok = 12
+  [一致] d_follow.follow_map = {'能': '莫き', '己': '莫き', '我': '莫き', '知': '莫からん', '之': '莫き', '由': '莫き', '吾': '莫からん', '予': '莫き', '如': '莫かる', '大': '莫し'}
+  [一致] d_follow.conflicted = {'能': {'莫き': 1, '莫し': 1}, '己': {'莫き': 1, '莫くんば': 1}}
+  [一致] d_follow.conflicted2 = {'己知': {'莫き': 1, '莫くんば': 1}}
+  [一致] d_follow.exp_forms = {'莫き': 10, '莫からん': 2, '莫くんば': 1, '莫かる': 1, '莫し': 4}
+  [一致] d_follow.follow_chars = {'能': 2, '己': 2, '我': 1, '知': 1, '之': 4, '由': 2, '吾': 1, '予': 2, '如': 1, '大': 2}
+  [一致] d_follow.sites_pred = [['mujun-2', 0, '能', '莫き', '莫き', True], ['onoreshiru-1', 0, '己', '莫き', '莫き', True], ['kagakujota-1', 0, '我', '莫き', '莫き', True], ['kagakujota-1', 1, '知', '莫からん', '莫からん', True], ['kanchuna-1', 0, '之', '莫き', '莫き', True], ['rongo0615-1', 0, '由', '莫き', '莫き', True], ['rongo0732-1', 0, '吾', '莫からん', '莫からん', True], ['rongo1315-1', 0, '予', '莫き', '莫き', True], ['rongo1315-1', 1, '之', '莫き', '莫き', True], ['rongo1315-1', 2, '之', '莫き', '莫き', True], ['rongo1442-1', 0, '己', '莫き', '莫くんば', False], ['p-danjoshitsu-1', 0, '如', '莫かる', '莫かる', True], ['tarekako-1', 0, '由', '莫き', '莫き', True], ['tonan-1', 0, '之', '莫き', '莫し', False], ['warekimi-1', 0, '予', '莫き', '莫き', True], ['roushi46-2', 2, '大', '莫し', '莫し', True], ['utsuryo03-7', 0, '能', '莫き', '莫し', False], ['rikutou26-5', 3, '大', '莫し', '莫し', True]]
+  [一致] d_follow.a.better = ['kagakujota-1', 'kanchuna-1', 'mujun-2', 'onoreshiru-1', 'p-danjoshitsu-1', 'rongo0615-1', 'rongo0732-1', 'rongo1315-1', 'rongo1442-1', 'tarekako-1', 'tonan-1', 'warekimi-1']
+  [一致] d_follow.a.worse = ['rikutou26-5', 'roushi46-2']
+  [一致] d_follow.a.same = ['utsuryo03-7']
+  [一致] d_follow.a.chars = -12
+  [一致] d_follow.a.delta8165 = -0.0015
+  [一致] d_follow.a.delta4000 = -0.0035
+  [一致] d_follow.a.per_row = {'mujun-2': [11, 10], 'onoreshiru-1': [18, 17], 'kagakujota-1': [27, 26], 'kanchuna-1': [82, 81], 'rongo0615-1': [12, 11], 'rongo0732-1': [23, 22], 'rongo1315-1': [113, 110], 'rongo1442-1': [55, 54], 'p-danjoshitsu-1': [36, 35], 'tarekako-1': [12, 11], 'tonan-1': [29, 28], 'warekimi-1': [35, 34], 'roushi46-2': [34, 35], 'utsuryo03-7': [63, 63], 'rikutou26-5': [53, 54]}
+  [一致] d_follow.ceiling.better = ['kagakujota-1', 'kanchuna-1', 'mujun-2', 'onoreshiru-1', 'p-danjoshitsu-1', 'rongo0615-1', 'rongo0732-1', 'rongo1315-1', 'rongo1442-1', 'tarekako-1', 'tonan-1', 'utsuryo03-7', 'warekimi-1']
+  [一致] d_follow.ceiling.worse = ['rikutou26-5']
+  [一致] d_follow.ceiling.same = ['roushi46-2']
+  [一致] d_follow.ceiling.chars = -22
+  [一致] d_follow.ceiling.delta8165 = -0.0027
+  [一致] d_follow.ceiling.delta4000 = -0.0055
+  [一致] d_follow.ceiling.per_row = {'mujun-2': [11, 10], 'onoreshiru-1': [18, 17], 'kagakujota-1': [27, 24], 'kanchuna-1': [82, 81], 'rongo0615-1': [12, 11], 'rongo0732-1': [23, 20], 'rongo1315-1': [113, 110], 'rongo1442-1': [55, 53], 'p-danjoshitsu-1': [36, 33], 'tarekako-1': [12, 11], 'tonan-1': [29, 27], 'warekimi-1': [35, 34], 'roushi46-2': [34, 34], 'utsuryo03-7': [63, 62], 'rikutou26-5': [53, 54]}
+  [一致] d_follow.follow.better = ['kagakujota-1', 'kanchuna-1', 'mujun-2', 'onoreshiru-1', 'p-danjoshitsu-1', 'rongo0615-1', 'rongo0732-1', 'rongo1315-1', 'rongo1442-1', 'tarekako-1', 'tonan-1', 'warekimi-1']
+  [一致] d_follow.follow.worse = ['rikutou26-5']
+  [一致] d_follow.follow.same = ['roushi46-2', 'utsuryo03-7']
+  [一致] d_follow.follow.chars = -19
+  [一致] d_follow.follow.delta8165 = -0.0023
+  [一致] d_follow.follow.delta4000 = -0.005
+  [一致] d_follow.follow.per_row = {'mujun-2': [11, 10], 'onoreshiru-1': [18, 17], 'kagakujota-1': [27, 24], 'kanchuna-1': [82, 81], 'rongo0615-1': [12, 11], 'rongo0732-1': [23, 20], 'rongo1315-1': [113, 110], 'rongo1442-1': [55, 54], 'p-danjoshitsu-1': [36, 33], 'tarekako-1': [12, 11], 'tonan-1': [29, 28], 'warekimi-1': [35, 34], 'roushi46-2': [34, 34], 'utsuryo03-7': [63, 63], 'rikutou26-5': [53, 54]}
+
+== 盘点汇总：(a)–(d) 全重测完了・漂移 1 件 ['b_combo'] ==

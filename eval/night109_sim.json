@@ -1,0 +1,836 @@
+{
+ "script": "tools/night109_sim.py",
+ "night": 109,
+ "mode": "在庫盘点夜 (a)–(d) sim 全重测（night107 基线・报告-only・不収録）",
+ "verdict": "PASS_WITH_DRIFT",
+ "lev_impl": "纯 Python 回退（night85_eval 同一算法・归档逐位一致実績）",
+ "lexicon": {
+  "core": 500,
+  "core_old_size": 209,
+  "extra": 291,
+  "extra2": 1031,
+  "ordered_all": 1531
+ },
+ "baseline_archive": "night107_results_8165.json / night107_results_4000.json（N107 链尾＝Rule U＋C1/C4 生效済み）",
+ "chain": {
+  "n101_to_104_ruleu": [
+   "ichinenkoku-1",
+   "kofuku-x13",
+   "kokyo07-7",
+   "kokyo09-5",
+   "kokyo12-2",
+   "kunmotokyu-1",
+   "montai06-4",
+   "rikutou34-7",
+   "rongo1501-1",
+   "rongo1709-1",
+   "roushi59-1",
+   "roushi78-1",
+   "sakinzu-4",
+   "soko-3",
+   "toushisen034-4",
+   "toushisen409-3",
+   "yaro-1"
+  ],
+  "n104_to_107_c1c4": [
+   "rikutou37-2",
+   "shiki050-4"
+  ],
+  "n101_to_107": [
+   "ichinenkoku-1",
+   "kofuku-x13",
+   "kokyo07-7",
+   "kokyo09-5",
+   "kokyo12-2",
+   "kunmotokyu-1",
+   "montai06-4",
+   "rikutou34-7",
+   "rikutou37-2",
+   "rongo1501-1",
+   "rongo1709-1",
+   "roushi59-1",
+   "roushi78-1",
+   "sakinzu-4",
+   "shiki050-4",
+   "soko-3",
+   "toushisen034-4",
+   "toushisen409-3",
+   "yaro-1"
+  ]
+ },
+ "class": {
+  "engine": 7916,
+  "echo": 30,
+  "rerun": 218,
+  "no_tail": 1
+ },
+ "baseline": {
+  "avg4000": 13.46,
+  "avg8165": 13.466,
+  "exact4000": 24,
+  "exact8165": 30
+ },
+ "a_zaiya": {
+  "changed": 3,
+  "better": 3,
+  "worse": 0,
+  "same": 8162,
+  "changed4000": 3,
+  "better4000": 3,
+  "worse4000": 0,
+  "chars8165": -3,
+  "delta8165": -0.0,
+  "delta8165_round6": -0.000367,
+  "delta4000": -0.001,
+  "full8165": {
+   "avg_old": 13.466,
+   "avg_new": 13.466
+  },
+  "pred_exact8165": 30,
+  "pred_exact4000": 24,
+  "worse_ids": [],
+  "worse_ids4000": [],
+  "fired": [
+   "enjaku-3",
+   "shika-1",
+   "shiwaonore-2"
+  ],
+  "census": {
+   "exp_嗟乎": 3,
+   "exp_嗟夫": 0,
+   "exp_呜呼": 0,
+   "exp_于嗟": 0,
+   "exp_嗟哉": 0,
+   "got_嗟": 12,
+   "exp_嗟": 12
+  },
+  "census_ext": {
+   "exp_嗚呼": 7,
+   "exp_於嗟": 0
+  }
+ },
+ "b_per_guard": {
+  "b1": {
+   "changed": 4,
+   "better": 2,
+   "worse": 0,
+   "same": 8163,
+   "changed4000": 1,
+   "better4000": 1,
+   "worse4000": 0,
+   "chars8165": -2,
+   "delta8165": -0.0,
+   "delta8165_round6": -0.000245,
+   "delta4000": -0.0,
+   "full8165": {
+    "avg_old": 13.466,
+    "avg_new": 13.466
+   },
+   "pred_exact8165": 30,
+   "pred_exact4000": 24,
+   "worse_ids": [],
+   "worse_ids4000": [],
+   "fired": [
+    "koshi19_01-8",
+    "rikutou04-2",
+    "rikutou21-2",
+    "toushisen080-8"
+   ]
+  },
+  "b2": {
+   "changed": 1,
+   "better": 1,
+   "worse": 0,
+   "same": 8164,
+   "changed4000": 1,
+   "better4000": 1,
+   "worse4000": 0,
+   "chars8165": -1,
+   "delta8165": -0.0,
+   "delta8165_round6": -0.000122,
+   "delta4000": -0.0,
+   "full8165": {
+    "avg_old": 13.466,
+    "avg_new": 13.466
+   },
+   "pred_exact8165": 30,
+   "pred_exact4000": 24,
+   "worse_ids": [],
+   "worse_ids4000": [],
+   "fired": [
+    "p-haigun-1"
+   ]
+  },
+  "combo": {
+   "changed": 5,
+   "better": 3,
+   "worse": 0,
+   "same": 8162,
+   "changed4000": 2,
+   "better4000": 2,
+   "worse4000": 0,
+   "chars8165": -3,
+   "delta8165": -0.0,
+   "delta8165_round6": -0.000367,
+   "delta4000": -0.001,
+   "full8165": {
+    "avg_old": 13.466,
+    "avg_new": 13.466
+   },
+   "pred_exact8165": 30,
+   "pred_exact4000": 24,
+   "worse_ids": [],
+   "worse_ids4000": [],
+   "fired": [
+    "koshi19_01-8",
+    "p-haigun-1",
+    "rikutou04-2",
+    "rikutou21-2",
+    "toushisen080-8"
+   ]
+  },
+  "yukare_rows_before": 42,
+  "yukare_rows_after": 42,
+  "struct_no_gain_measured": [
+   "koshi19_01-8",
+   "rikutou21-2"
+  ],
+  "struct_no_gain_note": "N102 §5 行 94「残り 2 行（toushisen080-8・koshi19_01-8）」は行名复制错位の記録偏差（§4 死因表 72-73 行からの転記・N84 8 行/N96 rousxi46-2 先例）——実測＝rikutou21-2・koshi19_01-8（rikutou21-2 は長文 scramble 対位遠方＝§4 75 行・koshi19_01-8 は 勿からん 推量禁止形＝§4 73 行の死因どおり）。toushisen080-8 は こと勿く で 勿 が exp 勿れ と align し 12→11 改善（在庫总量 4/2/0・1/1/0・5/3/0・Δ−0.000367・勿かれ 42・幂等 0 は全部一致）。combo 5 行の got は night101/104/107 逐字节同一＝N102 per-guard sim と同一入力で aggregate が再現する＝总量一致・行名のみ偏差。"
+ },
+ "c_boukei": {
+  "changed": 4,
+  "better": 4,
+  "worse": 0,
+  "same": 8161,
+  "changed4000": 3,
+  "better4000": 3,
+  "worse4000": 0,
+  "chars8165": -4,
+  "delta8165": -0.0,
+  "delta8165_round6": -0.00049,
+  "delta4000": -0.001,
+  "full8165": {
+   "avg_old": 13.466,
+   "avg_new": 13.466
+  },
+  "pred_exact8165": 30,
+  "pred_exact4000": 24,
+  "worse_ids": [],
+  "worse_ids4000": [],
+  "fired": [
+   "daigaku06-1",
+   "ichijicho-1",
+   "rongo1125-1",
+   "shindoku-1"
+  ]
+ },
+ "c_ruleu_15rows": {
+  "untouched": {
+   "mujun-2": {
+    "got_101_104_same": true,
+    "got_101_107_same": true,
+    "d0_107": 11,
+    "d0_n103": 11,
+    "d0_same": true
+   },
+   "onoreshiru-1": {
+    "got_101_104_same": true,
+    "got_101_107_same": true,
+    "d0_107": 18,
+    "d0_n103": 18,
+    "d0_same": true
+   },
+   "kagakujota-1": {
+    "got_101_104_same": true,
+    "got_101_107_same": true,
+    "d0_107": 27,
+    "d0_n103": 27,
+    "d0_same": true
+   },
+   "kanchuna-1": {
+    "got_101_104_same": true,
+    "got_101_107_same": true,
+    "d0_107": 82,
+    "d0_n103": 82,
+    "d0_same": true
+   },
+   "rongo0615-1": {
+    "got_101_104_same": true,
+    "got_101_107_same": true,
+    "d0_107": 12,
+    "d0_n103": 12,
+    "d0_same": true
+   },
+   "rongo0732-1": {
+    "got_101_104_same": true,
+    "got_101_107_same": true,
+    "d0_107": 23,
+    "d0_n103": 23,
+    "d0_same": true
+   },
+   "rongo1315-1": {
+    "got_101_104_same": true,
+    "got_101_107_same": true,
+    "d0_107": 113,
+    "d0_n103": 113,
+    "d0_same": true
+   },
+   "rongo1442-1": {
+    "got_101_104_same": true,
+    "got_101_107_same": true,
+    "d0_107": 55,
+    "d0_n103": 55,
+    "d0_same": true
+   },
+   "p-danjoshitsu-1": {
+    "got_101_104_same": true,
+    "got_101_107_same": true,
+    "d0_107": 36,
+    "d0_n103": 36,
+    "d0_same": true
+   },
+   "tarekako-1": {
+    "got_101_104_same": true,
+    "got_101_107_same": true,
+    "d0_107": 12,
+    "d0_n103": 12,
+    "d0_same": true
+   },
+   "tonan-1": {
+    "got_101_104_same": true,
+    "got_101_107_same": true,
+    "d0_107": 29,
+    "d0_n103": 29,
+    "d0_same": true
+   },
+   "warekimi-1": {
+    "got_101_104_same": true,
+    "got_101_107_same": true,
+    "d0_107": 35,
+    "d0_n103": 35,
+    "d0_same": true
+   },
+   "roushi46-2": {
+    "got_101_104_same": true,
+    "got_101_107_same": true,
+    "d0_107": 34,
+    "d0_n103": 34,
+    "d0_same": true
+   },
+   "utsuryo03-7": {
+    "got_101_104_same": true,
+    "got_101_107_same": true,
+    "d0_107": 63,
+    "d0_n103": 63,
+    "d0_same": true
+   },
+   "rikutou26-5": {
+    "got_101_104_same": true,
+    "got_101_107_same": true,
+    "d0_107": 53,
+    "d0_n103": 53,
+    "d0_same": true
+   }
+  },
+  "touched": 0
+ },
+ "census_mokare": {
+  "n101_pre_u": 72,
+  "n107": 88,
+  "ruleu_overlap": 1,
+  "ruleu_new": 16,
+  "note": "N96/N98 記録 72＝pre-U 口径。Rule U（N104）発火 17 行のうち新規 16 行が 莫かれ を got に加え 88＝自然増。在庫候補との無関係は A1 gate（15 行 0 触れ）と (b) combo 5 行三归档同一 gate で実証済み"
+ },
+ "d_follow": {
+  "a_fired": 15,
+  "judge": {
+   "ok": 15,
+   "ng": 3,
+   "three_way_ok": 12
+  },
+  "follow_map": {
+   "能": "莫き",
+   "己": "莫き",
+   "我": "莫き",
+   "知": "莫からん",
+   "之": "莫き",
+   "由": "莫き",
+   "吾": "莫からん",
+   "予": "莫き",
+   "如": "莫かる",
+   "大": "莫し"
+  },
+  "conflicted": {
+   "能": {
+    "莫き": 1,
+    "莫し": 1
+   },
+   "己": {
+    "莫き": 1,
+    "莫くんば": 1
+   }
+  },
+  "conflicted2": {
+   "己知": {
+    "莫き": 1,
+    "莫くんば": 1
+   }
+  },
+  "exp_forms": {
+   "莫き": 10,
+   "莫からん": 2,
+   "莫くんば": 1,
+   "莫かる": 1,
+   "莫し": 4
+  },
+  "follow_chars": {
+   "能": 2,
+   "己": 2,
+   "我": 1,
+   "知": 1,
+   "之": 4,
+   "由": 2,
+   "吾": 1,
+   "予": 2,
+   "如": 1,
+   "大": 2
+  },
+  "sites_pred": [
+   [
+    "mujun-2",
+    0,
+    "能",
+    "莫き",
+    "莫き",
+    true
+   ],
+   [
+    "onoreshiru-1",
+    0,
+    "己",
+    "莫き",
+    "莫き",
+    true
+   ],
+   [
+    "kagakujota-1",
+    0,
+    "我",
+    "莫き",
+    "莫き",
+    true
+   ],
+   [
+    "kagakujota-1",
+    1,
+    "知",
+    "莫からん",
+    "莫からん",
+    true
+   ],
+   [
+    "kanchuna-1",
+    0,
+    "之",
+    "莫き",
+    "莫き",
+    true
+   ],
+   [
+    "rongo0615-1",
+    0,
+    "由",
+    "莫き",
+    "莫き",
+    true
+   ],
+   [
+    "rongo0732-1",
+    0,
+    "吾",
+    "莫からん",
+    "莫からん",
+    true
+   ],
+   [
+    "rongo1315-1",
+    0,
+    "予",
+    "莫き",
+    "莫き",
+    true
+   ],
+   [
+    "rongo1315-1",
+    1,
+    "之",
+    "莫き",
+    "莫き",
+    true
+   ],
+   [
+    "rongo1315-1",
+    2,
+    "之",
+    "莫き",
+    "莫き",
+    true
+   ],
+   [
+    "rongo1442-1",
+    0,
+    "己",
+    "莫き",
+    "莫くんば",
+    false
+   ],
+   [
+    "p-danjoshitsu-1",
+    0,
+    "如",
+    "莫かる",
+    "莫かる",
+    true
+   ],
+   [
+    "tarekako-1",
+    0,
+    "由",
+    "莫き",
+    "莫き",
+    true
+   ],
+   [
+    "tonan-1",
+    0,
+    "之",
+    "莫き",
+    "莫し",
+    false
+   ],
+   [
+    "warekimi-1",
+    0,
+    "予",
+    "莫き",
+    "莫き",
+    true
+   ],
+   [
+    "roushi46-2",
+    2,
+    "大",
+    "莫し",
+    "莫し",
+    true
+   ],
+   [
+    "utsuryo03-7",
+    0,
+    "能",
+    "莫き",
+    "莫し",
+    false
+   ],
+   [
+    "rikutou26-5",
+    3,
+    "大",
+    "莫し",
+    "莫し",
+    true
+   ]
+  ],
+  "modes": {
+   "a": {
+    "better": [
+     "kagakujota-1",
+     "kanchuna-1",
+     "mujun-2",
+     "onoreshiru-1",
+     "p-danjoshitsu-1",
+     "rongo0615-1",
+     "rongo0732-1",
+     "rongo1315-1",
+     "rongo1442-1",
+     "tarekako-1",
+     "tonan-1",
+     "warekimi-1"
+    ],
+    "worse": [
+     "rikutou26-5",
+     "roushi46-2"
+    ],
+    "same": [
+     "utsuryo03-7"
+    ],
+    "delta8165": -0.0015,
+    "chars": -12,
+    "delta4000": -0.0035,
+    "in4000": 12,
+    "per_row": {
+     "mujun-2": [
+      11,
+      10
+     ],
+     "onoreshiru-1": [
+      18,
+      17
+     ],
+     "kagakujota-1": [
+      27,
+      26
+     ],
+     "kanchuna-1": [
+      82,
+      81
+     ],
+     "rongo0615-1": [
+      12,
+      11
+     ],
+     "rongo0732-1": [
+      23,
+      22
+     ],
+     "rongo1315-1": [
+      113,
+      110
+     ],
+     "rongo1442-1": [
+      55,
+      54
+     ],
+     "p-danjoshitsu-1": [
+      36,
+      35
+     ],
+     "tarekako-1": [
+      12,
+      11
+     ],
+     "tonan-1": [
+      29,
+      28
+     ],
+     "warekimi-1": [
+      35,
+      34
+     ],
+     "roushi46-2": [
+      34,
+      35
+     ],
+     "utsuryo03-7": [
+      63,
+      63
+     ],
+     "rikutou26-5": [
+      53,
+      54
+     ]
+    }
+   },
+   "ceiling": {
+    "better": [
+     "kagakujota-1",
+     "kanchuna-1",
+     "mujun-2",
+     "onoreshiru-1",
+     "p-danjoshitsu-1",
+     "rongo0615-1",
+     "rongo0732-1",
+     "rongo1315-1",
+     "rongo1442-1",
+     "tarekako-1",
+     "tonan-1",
+     "utsuryo03-7",
+     "warekimi-1"
+    ],
+    "worse": [
+     "rikutou26-5"
+    ],
+    "same": [
+     "roushi46-2"
+    ],
+    "delta8165": -0.0027,
+    "chars": -22,
+    "delta4000": -0.0055,
+    "in4000": 12,
+    "per_row": {
+     "mujun-2": [
+      11,
+      10
+     ],
+     "onoreshiru-1": [
+      18,
+      17
+     ],
+     "kagakujota-1": [
+      27,
+      24
+     ],
+     "kanchuna-1": [
+      82,
+      81
+     ],
+     "rongo0615-1": [
+      12,
+      11
+     ],
+     "rongo0732-1": [
+      23,
+      20
+     ],
+     "rongo1315-1": [
+      113,
+      110
+     ],
+     "rongo1442-1": [
+      55,
+      53
+     ],
+     "p-danjoshitsu-1": [
+      36,
+      33
+     ],
+     "tarekako-1": [
+      12,
+      11
+     ],
+     "tonan-1": [
+      29,
+      27
+     ],
+     "warekimi-1": [
+      35,
+      34
+     ],
+     "roushi46-2": [
+      34,
+      34
+     ],
+     "utsuryo03-7": [
+      63,
+      62
+     ],
+     "rikutou26-5": [
+      53,
+      54
+     ]
+    }
+   },
+   "follow": {
+    "better": [
+     "kagakujota-1",
+     "kanchuna-1",
+     "mujun-2",
+     "onoreshiru-1",
+     "p-danjoshitsu-1",
+     "rongo0615-1",
+     "rongo0732-1",
+     "rongo1315-1",
+     "rongo1442-1",
+     "tarekako-1",
+     "tonan-1",
+     "warekimi-1"
+    ],
+    "worse": [
+     "rikutou26-5"
+    ],
+    "same": [
+     "roushi46-2",
+     "utsuryo03-7"
+    ],
+    "delta8165": -0.0023,
+    "chars": -19,
+    "delta4000": -0.005,
+    "in4000": 12,
+    "per_row": {
+     "mujun-2": [
+      11,
+      10
+     ],
+     "onoreshiru-1": [
+      18,
+      17
+     ],
+     "kagakujota-1": [
+      27,
+      24
+     ],
+     "kanchuna-1": [
+      82,
+      81
+     ],
+     "rongo0615-1": [
+      12,
+      11
+     ],
+     "rongo0732-1": [
+      23,
+      20
+     ],
+     "rongo1315-1": [
+      113,
+      110
+     ],
+     "rongo1442-1": [
+      55,
+      54
+     ],
+     "p-danjoshitsu-1": [
+      36,
+      33
+     ],
+     "tarekako-1": [
+      12,
+      11
+     ],
+     "tonan-1": [
+      29,
+      28
+     ],
+     "warekimi-1": [
+      35,
+      34
+     ],
+     "roushi46-2": [
+      34,
+      34
+     ],
+     "utsuryo03-7": [
+      63,
+      63
+     ],
+     "rikutou26-5": [
+      53,
+      54
+     ]
+    }
+   }
+  },
+  "rikutou26_5": {
+   "pred_ok": true,
+   "d_follow": [
+    53,
+    54
+   ]
+  }
+ },
+ "drift": [
+  {
+   "item": "b_combo.struct_no_gain",
+   "field": "d0==d1 行（N102 記録 vs 実測）",
+   "old": [
+    "koshi19_01-8",
+    "toushisen080-8"
+   ],
+   "new": [
+    "koshi19_01-8",
+    "rikutou21-2"
+   ]
+  }
+ ],
+ "elapsed_sec": 19
+}
