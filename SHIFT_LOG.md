@@ -1069,3 +1069,4 @@ Night 110 heartbeat: 2026-11-27T10:06:44Z merge night done: one --no-ff merge 7b
 2026-11-28 16:47 N113 收工：sim 25s+status 3s 全 PASS・数値漂移 0・accept 113 终跑 PASS fail=0 skip=1（试跑 FAIL=repo_clean 1 项設計行為）・两提交 306898f+wrap-up 未合 master 未推远程
 2026-11-28 17:55 N114 合并夜开工：master ed5b2db 核验 OK・night113-inventory fa71e23（父 306898f・merge-base ed5b2db）・pytest 両側 503 passed・SHIFT_LOG blob LF 形態 b[807]=63/b[800]=243 実測・心跳提交後 --no-ff 合并（合并前心跳＝N100 坑位①）
 2026-11-28 18:05 N114 进度心跳：merge 59ca4cd 完成（冲突 1 处 SHIFT_LOG 字节安全并集 162123 B・夜序 113<114・接缝 0・canary 双形态实测）・pytest 503・verify 26/26・词库 1531・golden_4000 [OK] 13.455/24/0 diff 0 行 exit 0・golden_8165 跑中
+2026-11-28 18:14 N114 收工：accept 114 终跑 PASS fail=0 skip=0 37.5s 七门全绿（试跑 FAIL=repo_clean 1 項設計行為・两行とも残す）・order_rate 98.57/98.63 不変・golden 4000/8165 diff 0 行・verify 26/26・词库 1531＝wrap-up 提交後收工：本夜 4 提交（a73989e/59ca4cd/cb4270d/wrap-up）＋N113 两提交带入＝rev-list 超前 6・未推远程
