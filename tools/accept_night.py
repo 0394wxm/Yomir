@@ -81,6 +81,7 @@ NIGHT_ARTIFACTS = {
     107: ["night107_results_4000.json"],   # N107 項 4 実施夜：guard 変体字拡張 C1+C4（Rule L がため guard 爲/為・Rule M 何のごとく guard 奈/柰・規則数不変・4000 13.460/24/0＝night104 と全行逐位一致・8165 13.466/30/0 改写 2 行 rikutou37-2/shiki050-4 変差 0）
     108: ["night107_results_4000.json"],   # N108 合并夜：night106-mech-design（报告-only 機構設計）＋night107-item4-impl（項 4 実施・guard 変体字拡張 C1+C4・規則数不変）を --no-ff 順次合流（归档源维持 night107・4000 13.460/24/0・8165 13.466/30/0 与 night107 归档全行逐位一致・106 报告-only 不登记＝N91/N101/N105 先例）
     110: ["night107_results_4000.json"],   # N110 合并夜：night109-inventory（在庫盘点＋拍板表更新夜 報告-only・新版拍板表＝REPORT_NIGHT109 §3 supersede N98 §3）を --no-ff 一括合流（归档源维持 night107・4000 13.460/24/0・8165 13.466/30/0 与 night107 归档全行逐位一致・109 报告-only 不登记＝N91/N101/N105/N108 先例）
+    111: ["night111_results_4000.json"],   # N111 実施夜：守り字後继字機構（follow_map・N106 §1 設計の実装・ことなき guard 莫 1 entry 4 元組・链尾追加）収録後の默认口径（4000 13.455/24/0・8165 13.464/30/0・発火 15 行/変体改写 5 行/d 改善 4 行・rikutou26-5 53→54 拍板許容・計画外 0 欠落 0）
     22: ["night22_results_full.json"],
     23: ["night23_results_rongo.json"],
     26: ["night26_results_full.json"],

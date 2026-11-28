@@ -1,0 +1,57 @@
+== S2 词库 import 实证(不動確認)==
+  {'core': 500, 'core_old_size': 209, 'extra': 291, 'extra2': 1031, 'ordered_all': 1531}
+== S1 行分类 {'engine': 7916, 'echo': 30, 'rerun': 218, 'no_tail': 1}(期待 {'engine': 7916, 'echo': 30, 'rerun': 218, 'no_tail': 1})==
+  基线 avgDist 4000=13.460 8165=13.466(归档 13.460/13.466)exact 24/30(归档 24/30)
+
+== A1 発火(guard 莫 containment 通過×got ことなき 残量)==
+  発火 15 行(site 計 18)
+
+== A2 対位(got 莫-token × exp 莫-token × 白文 莫・順序 1:1)==
+  15 行全対位成立・fail-safe 発火 0
+
+== A3 site 後继字判定(follow_map 10 字)==
+  mujun-2          site#0 後继=能 予測=莫き 実=莫き ○判対
+  onoreshiru-1     site#0 後继=己 予測=莫き 実=莫き ○判対
+  kagakujota-1     site#0 後继=我 予測=莫き 実=莫き ○判対
+  kagakujota-1     site#1 後继=知 予測=莫からん 実=莫からん ○判対
+  kanchuna-1       site#0 後继=之 予測=莫き 実=莫き ○判対
+  rongo0615-1      site#0 後继=由 予測=莫き 実=莫き ○判対
+  rongo0732-1      site#0 後继=吾 予測=莫からん 実=莫からん ○判対
+  rongo1315-1      site#0 後继=予 予測=莫き 実=莫き ○判対
+  rongo1315-1      site#1 後继=之 予測=莫き 実=莫き ○判対
+  rongo1315-1      site#2 後继=之 予測=莫き 実=莫き ○判対
+  rongo1442-1      site#0 後继=己 予測=莫き 実=莫くんば ×判错
+  p-danjoshitsu-1  site#0 後继=如 予測=莫かる 実=莫かる ○判対
+  tarekako-1       site#0 後继=由 予測=莫き 実=莫き ○判対
+  tonan-1          site#0 後继=之 予測=莫き 実=莫し ×判错
+  warekimi-1       site#0 後继=予 予測=莫き 実=莫き ○判対
+  roushi46-2       site#2 後继=大 予測=莫し 実=莫し ○判対
+  utsuryo03-7      site#0 後继=能 予測=莫き 実=莫し ×判错
+  rikutou26-5      site#3 後继=大 予測=莫し 実=莫し ○判対
+  判対 15/18(判错=['rongo1442-1', 'tonan-1', 'utsuryo03-7'])・表外後继字 0・10 字表で全 site 判定
+
+== A4 (a) 単一 repl per-row(N106 記録対照)==
+  15 行逐位一致(N106 per_row a)
+
+== A5 follow 機構 per-row(N106 記録対照)==
+  15 行逐位一致(N106 per_row follow)
+
+== A6 改写文本(follow got != (a) got)==
+  改写 5 行:{'kagakujota-1': 'こと莫からん', 'p-danjoshitsu-1': 'こと莫かる', 'rikutou26-5': 'こと莫し', 'rongo0732-1': 'こと莫からん', 'roushi46-2': 'こと莫し'}
+
+== A7 d 改善/変差((a)→follow 口径)==
+  kagakujota-1     26→24 BETTER
+  p-danjoshitsu-1  35→33 BETTER
+  rongo0732-1      22→20 BETTER
+  roushi46-2       35→34 BETTER
+  rikutou26-5 54→54 維持(拍板行・語順構造差は機構でも不救=N106 §1.4)
+
+== A8 Δ((a)→follow)==
+  Δ8165 -0.0009(-7 字)・Δ4000 -0.0015(-6 字・4000 内 12 行)
+
+== A9 raw→follow 総効果(N106 follow 記録 −19 字 対照)==
+  総効果 8165 -19 字・4000 内 -20 字(4000 内 12 行)
+  golden 理論予想:4000 13.455・8165 13.464(基线 13.460/13.466±実跑丸め)
+
+== A10 冪等(follow 適用後再適用=変化 0・(a) 後再適用=変化 0)==
+  冪等 bad 0(15 行)
