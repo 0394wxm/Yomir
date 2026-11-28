@@ -1066,3 +1066,4 @@ Night 110 heartbeat: 2026-11-27T10:06:44Z merge night done: one --no-ff merge 7b
 2026-11-28 13:44 N112 merge：--no-ff 一次・冲突恰 1 处（SHIFT_LOG 字节安全并集・夜序 111<112・canary blob[807]=63/CRLF[807]=243 实测确认・接缝 0・N111 群 6 行+N112 1 行全保留）＝merge 提交 77eae67；验证中（pytest/golden 4000+8165/verify）
 2026-11-28 13:53 N112 accept 112 PASS fail=0 skip=0 46.5s first-run PASS seven gates green（repo_clean 干净・pytest 503=503・eval_integrity night111_results_4000・rule_regression・engine_smoke・perf_envelope 7ms・order_rate 98.57/98.63 不変）;wrap-up 提交後收工：本夜 4 提交（5bc8718/77eae67/84eb7d0/wrap-up）＋N111 两提交带入＝rev-list 超前 6・未推远程
 2026-11-28 16:19 N113 开工：master=ed5b2db・branch night113-inventory 自 master・origin/master=ed5b2db rev-list=0・tracked 0 改动・pytest 后台跑(预期 503)
+2026-11-28 16:47 N113 收工：sim 25s+status 3s 全 PASS・数値漂移 0・accept 113 终跑 PASS fail=0 skip=1（试跑 FAIL=repo_clean 1 项設計行為）・两提交 306898f+wrap-up 未合 master 未推远程
