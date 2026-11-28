@@ -1,0 +1,46 @@
+SHINJITAI_MAP: 275 对
+MERGE_WORDS: 21 条
+Rule E/F/G/H/I/J 假名→汉字: 5 / 4 / 4 / 3 / 6 / 7
+Rule K 假名→汉字: 8 条
+Rule L 假名→汉字: 9 条
+Rule M 假名→汉字: 8 条
+Rule N 假名→汉字: 13 条
+Rule O 假名→汉字: 3 条
+Rule Q 假名→汉字: 2 条
+Rule R 假名→汉字: 1 条
+Rule S 假名→汉字: 1 条
+Rule T 假名→汉字: 3 条
+Rule U 假名→汉字: 1 条
+night116(golden_4000): total=4000 n=4000 exact=24 avgDist=13.455 errors=0
+golden_4000: total=4000 uniq_hakubun=3975
+golden_7908: total=7908 uniq_hakubun=7883（已入库；默认评测口径仍 golden_4000）
+ocr_gt_100.tsv: 93 行（GT 92 行＋表头 1 行）
+割注右先率基线: off=98.57% on=98.63% strict=100.0%
+pytest --collect-only: 511 tests
+README 比对 SHINJITAI 組数           OK（期望含 '**275 組**'）
+README 比对 MERGE_WORDS 語数         OK（期望含 '**21 語**'）
+README 比对 night111 golden_4000 avgDist OK（期望含 '**13.455**'）
+README 比对 night111 golden_4000 exact OK（期望含 '**24/4000**'）
+README 比对 golden_4000 組数         OK（期望含 '**4000 組**'）
+README 比对 golden_4000 ユニーク       OK（期望含 '3975'）
+README 比对 golden_7908 組数         OK（期望含 '**7908 組**'）
+README 比对 OCR GT 行数              OK（期望含 '**92 行**'）
+README 比对 OCR CER raw            OK（期望含 '**0.3568**'）
+README 比对 OCR CER norm           OK（期望含 '**0.3053**'）
+README 比对 右先率 off/on             OK（期望含 '98.57% / 98.63%'）
+README 比对 右先率 严格層対数              OK（期望含 '296 対'）
+README 比对 Rule J 語数              OK（期望含 '**7 語**'）
+README 比对 Rule K 語数              OK（期望含 '**8 語**'）
+README 比对 Rule L 語数              OK（期望含 '**9 語**'）
+README 比对 Rule M 語数              OK（期望含 '**8 語**'）
+README 比对 Rule N 語数              OK（期望含 '**13 語**'）
+README 比对 Rule O 語数              OK（期望含 '**3 語**'）
+README 比对 Rule Q 語数              OK（期望含 '**2 語**'）
+README 比对 Rule R 語数              OK（期望含 '**1 語**'）
+README 比对 Rule S 語数              OK（期望含 '**1 語**'）
+README 比对 Rule T 語数              OK（期望含 '**3 語**'）
+README 比对 Rule U 語数              OK（期望含 '**1 語**'）
+README 比对 N107 guard 変体字拡張       OK（期望含 'N107 で guard 変体字拡張（Rule L がため guard 爲/為・Rule M 何のごとく guard 奈/柰・規則数不変）'）
+README 比对 N111 守り字後继字機構          OK（期望含 'N111 で守り字後继字機構を収録（ことなき guard 莫・follow_map 10 字・default こと莫き・链尾追加）'）
+README 比对 テスト行 pytest 計数         OK（期望含 '**511 passed**'）
+README 比对: 26/26 对上

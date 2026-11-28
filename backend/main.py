@@ -158,6 +158,26 @@ def _ruby_tail_kanbun(text: str) -> str:
     return tail
 
 
+# N116（Night 116）：剥夹注管線（N115 设计 Stage 0/1 实施）。
+# 背景（N115 §2(B)）：engine 分支行若含 ruby 夹注，引擎会把注记括号卷进插助词/
+# 送り仮名加工，got 残留（いわを曰いて）等加工残渣（8165 实测恰 2 行：
+# rikutou59-2・soji07-6）。处置：kundoku() engine 分支在进规则链前剥掉含假名的
+# 全角（…）span（剥下物丢弃＝N115 拍板①）；detect_text_type 本体、kana 分支
+# （N84 尾段路径）一字不动。rongo「N）」编号（无开括号）、无假名 （…）、空 （）、
+# ASCII 括号（corpus 实测均 0 行）天然不触发。
+RUBY_SPAN_RE = re.compile(r"（[^（）]*[ぁ-ゖー][^（）]*）")
+
+
+def has_ruby_annotation(text: str) -> bool:
+    """白文是否含 ruby 夹注（含假名的全角（…）span；N98 B9 证据式同口径）。"""
+    return bool(RUBY_SPAN_RE.search(text))
+
+
+def strip_annotation(text: str) -> str:
+    """剥掉全部含假名的全角（…）span（剥下物丢弃；幂等；非注记行恒等）。"""
+    return RUBY_SPAN_RE.sub("", text)
+
+
 ENGINE = None          # udkundoku pipeline, 启动时惰性加载一次
 ENGINE_ERROR = ""
 
@@ -419,6 +439,16 @@ def kundoku(
             detail="udkundoku 引擎未加载成功: %s；请先运行 python -I tools/make_qkana_shim.py 并重启" % (ENGINE_ERROR or "unknown"),
         )
 
+    # N116：engine 分支行若含 ruby 夹注，先剥掉含假名的全角（…）span 再进规则链
+    # （剥下物丢弃＝N115 拍板①；scope＝engine 分支注记行，8165 实测恰 2 行）。
+    # kana 分支（上方 N84 尾段路径）不动；modern/glossary/db 收剥后 text
+    # （N115 Stage 3・行级缓存键随剥后白文自然分离）；hakubun 返原文（拍板③＝N84 先例）。
+    hakubun_orig = text
+    strip_note = ""
+    if has_ruby_annotation(text):
+        text = strip_annotation(text)
+        strip_note = "白文含全角括号 ruby 夹注（N116）：已剥离夹注，对剥后白文重新訓読。"
+
     try:
         kaeriten_text, kaeriten_raw, kakikudashi = _kundoku_result_for(
             text, merge, ortho, use_cache=cache, seg=seg)
@@ -455,12 +485,13 @@ def kundoku(
         )
 
     return KundokuResponse(
-        hakubun=text,
+        hakubun=hakubun_orig,
         kaeriten_text=kaeriten_text,
         kaeriten_text_raw=kaeriten_raw,
         kakikudashi=normalize_shinjitai(kakikudashi) if ortho else kakikudashi,
         modern=modern,
         glossary=glossary,
+        note=(strip_note + DISCLAIMER) if strip_note else "",
         request_id=request_id,
     )
 

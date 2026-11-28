@@ -1,0 +1,7 @@
+helpers import OK, RUBY_SPAN_RE=（[^（）]*[ぁ-ゖー][^（）]*）
+rikutou59-2: has=True spans_before=14 spans_after=0 idem=True
+soji07-6: has=True spans_before=3 spans_after=0 idem=True
+rongo 6 行 has_ruby_annotation 全假: [False, False, False, False, False, False]
+dangling ） 6 行 identity: True
+8165: identity 7914/7914 idem 8165/8165 f1 251 clean_after 251/251
+sonshi09-38 strip 后 detect=kana (须 kana)
