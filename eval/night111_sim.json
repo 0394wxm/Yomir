@@ -1,0 +1,334 @@
+{
+ "script": "tools/night111_sim.py",
+ "night": 111,
+ "mode": "守り字后继字機構 follow_map 実施夜・sim 先行(基线 night107 归档)",
+ "verdict": "PASS",
+ "per_row_a": {
+  "mujun-2": [
+   11,
+   10
+  ],
+  "onoreshiru-1": [
+   18,
+   17
+  ],
+  "kagakujota-1": [
+   27,
+   26
+  ],
+  "kanchuna-1": [
+   82,
+   81
+  ],
+  "rongo0615-1": [
+   12,
+   11
+  ],
+  "rongo0732-1": [
+   23,
+   22
+  ],
+  "rongo1315-1": [
+   113,
+   110
+  ],
+  "rongo1442-1": [
+   55,
+   54
+  ],
+  "p-danjoshitsu-1": [
+   36,
+   35
+  ],
+  "tarekako-1": [
+   12,
+   11
+  ],
+  "tonan-1": [
+   29,
+   28
+  ],
+  "warekimi-1": [
+   35,
+   34
+  ],
+  "roushi46-2": [
+   34,
+   35
+  ],
+  "utsuryo03-7": [
+   63,
+   63
+  ],
+  "rikutou26-5": [
+   53,
+   54
+  ]
+ },
+ "per_row_follow": {
+  "mujun-2": [
+   11,
+   10
+  ],
+  "onoreshiru-1": [
+   18,
+   17
+  ],
+  "kagakujota-1": [
+   27,
+   24
+  ],
+  "kanchuna-1": [
+   82,
+   81
+  ],
+  "rongo0615-1": [
+   12,
+   11
+  ],
+  "rongo0732-1": [
+   23,
+   20
+  ],
+  "rongo1315-1": [
+   113,
+   110
+  ],
+  "rongo1442-1": [
+   55,
+   54
+  ],
+  "p-danjoshitsu-1": [
+   36,
+   33
+  ],
+  "tarekako-1": [
+   12,
+   11
+  ],
+  "tonan-1": [
+   29,
+   28
+  ],
+  "warekimi-1": [
+   35,
+   34
+  ],
+  "roushi46-2": [
+   34,
+   34
+  ],
+  "utsuryo03-7": [
+   63,
+   63
+  ],
+  "rikutou26-5": [
+   53,
+   54
+  ]
+ },
+ "sites": [
+  {
+   "row_id": "mujun-2",
+   "site_index": 0,
+   "hb_pos": 9,
+   "follow": "能",
+   "exp_tok": "莫き",
+   "pred": "莫き",
+   "repl": "こと莫き",
+   "ok": true
+  },
+  {
+   "row_id": "onoreshiru-1",
+   "site_index": 0,
+   "hb_pos": 15,
+   "follow": "己",
+   "exp_tok": "莫き",
+   "pred": "莫き",
+   "repl": "こと莫き",
+   "ok": true
+  },
+  {
+   "row_id": "kagakujota-1",
+   "site_index": 0,
+   "hb_pos": 3,
+   "follow": "我",
+   "exp_tok": "莫き",
+   "pred": "莫き",
+   "repl": "こと莫き",
+   "ok": true
+  },
+  {
+   "row_id": "kagakujota-1",
+   "site_index": 1,
+   "hb_pos": 16,
+   "follow": "知",
+   "exp_tok": "莫からん",
+   "pred": "莫からん",
+   "repl": "こと莫からん",
+   "ok": true
+  },
+  {
+   "row_id": "kanchuna-1",
+   "site_index": 0,
+   "hb_pos": 82,
+   "follow": "之",
+   "exp_tok": "莫き",
+   "pred": "莫き",
+   "repl": "こと莫き",
+   "ok": true
+  },
+  {
+   "row_id": "rongo0615-1",
+   "site_index": 0,
+   "hb_pos": 11,
+   "follow": "由",
+   "exp_tok": "莫き",
+   "pred": "莫き",
+   "repl": "こと莫き",
+   "ok": true
+  },
+  {
+   "row_id": "rongo0732-1",
+   "site_index": 0,
+   "hb_pos": 4,
+   "follow": "吾",
+   "exp_tok": "莫からん",
+   "pred": "莫からん",
+   "repl": "こと莫からん",
+   "ok": true
+  },
+  {
+   "row_id": "rongo1315-1",
+   "site_index": 0,
+   "hb_pos": 104,
+   "follow": "予",
+   "exp_tok": "莫き",
+   "pred": "莫き",
+   "repl": "こと莫き",
+   "ok": true
+  },
+  {
+   "row_id": "rongo1315-1",
+   "site_index": 1,
+   "hb_pos": 113,
+   "follow": "之",
+   "exp_tok": "莫き",
+   "pred": "莫き",
+   "repl": "こと莫き",
+   "ok": true
+  },
+  {
+   "row_id": "rongo1315-1",
+   "site_index": 2,
+   "hb_pos": 127,
+   "follow": "之",
+   "exp_tok": "莫き",
+   "pred": "莫き",
+   "repl": "こと莫き",
+   "ok": true
+  },
+  {
+   "row_id": "rongo1442-1",
+   "site_index": 0,
+   "hb_pos": 37,
+   "follow": "己",
+   "exp_tok": "莫くんば",
+   "pred": "莫き",
+   "repl": "こと莫き",
+   "ok": false
+  },
+  {
+   "row_id": "p-danjoshitsu-1",
+   "site_index": 0,
+   "hb_pos": 25,
+   "follow": "如",
+   "exp_tok": "莫かる",
+   "pred": "莫かる",
+   "repl": "こと莫かる",
+   "ok": true
+  },
+  {
+   "row_id": "tarekako-1",
+   "site_index": 0,
+   "hb_pos": 11,
+   "follow": "由",
+   "exp_tok": "莫き",
+   "pred": "莫き",
+   "repl": "こと莫き",
+   "ok": true
+  },
+  {
+   "row_id": "tonan-1",
+   "site_index": 0,
+   "hb_pos": 13,
+   "follow": "之",
+   "exp_tok": "莫し",
+   "pred": "莫き",
+   "repl": "こと莫き",
+   "ok": false
+  },
+  {
+   "row_id": "warekimi-1",
+   "site_index": 0,
+   "hb_pos": 42,
+   "follow": "予",
+   "exp_tok": "莫き",
+   "pred": "莫き",
+   "repl": "こと莫き",
+   "ok": true
+  },
+  {
+   "row_id": "roushi46-2",
+   "site_index": 2,
+   "hb_pos": 16,
+   "follow": "大",
+   "exp_tok": "莫し",
+   "pred": "莫し",
+   "repl": "こと莫し",
+   "ok": true
+  },
+  {
+   "row_id": "utsuryo03-7",
+   "site_index": 0,
+   "hb_pos": 9,
+   "follow": "能",
+   "exp_tok": "莫し",
+   "pred": "莫き",
+   "repl": "こと莫き",
+   "ok": false
+  },
+  {
+   "row_id": "rikutou26-5",
+   "site_index": 3,
+   "hb_pos": 22,
+   "follow": "大",
+   "exp_tok": "莫し",
+   "pred": "莫し",
+   "repl": "こと莫し",
+   "ok": true
+  }
+ ],
+ "delta_follow_vs_a": {
+  "chars8165": -7,
+  "delta8165": -0.0009,
+  "chars4000": -6,
+  "delta4000": -0.0015,
+  "in4000": 12,
+  "better": [
+   "kagakujota-1",
+   "p-danjoshitsu-1",
+   "rongo0732-1",
+   "roushi46-2"
+  ],
+  "worse": []
+ },
+ "delta_raw_to_follow": {
+  "chars8165": -19,
+  "chars4000": -20,
+  "est_golden_4000": 13.455,
+  "est_golden_8165": 13.464
+ },
+ "lev_impl": "纯 Python 回退(night85_eval 同一算法・归档逐位一致実績)",
+ "elapsed_sec": 22
+}

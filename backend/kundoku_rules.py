@@ -1105,6 +1105,126 @@ def style_kana_to_kanji_u(text: str, hakubun: str = "") -> str:
         text = _replace_word_boundary(text, kana, repl, U_LONGER_WORDS)
     return text
 
+
+# ---------------------------------------------------------------------------
+# 守り字后继字機構（N111・用户拍板 2026-11-28：「(d) follow_map 実施夜」）。N106 §1
+# 機構設計＋§2.3 原型実測、N109 §2(d) 逐位再验済みの実装（tools/night111_sim.py が
+# 同一アルゴリズムの sim 先行・硬断言全过後に収録＝N73 方法論）。
+#
+# 機構（N106 §1.1/§1.2 の通り・新 Rule 字母は切らない＝既存 rule loop への差し替え
+# 接続を chain 尾（U の後）1 行で足す形＝N106 §1.3 第 5 条「链尾追加のみ＝既存链
+# 不変式」。I 毋→M 勿→U 莫 の守り字三分割の後にことなき族を載せる）：
+#   entry = (kana, guard, follow_map, default_repl) の 4 元組。
+#     follow_map   : 白文 guard 字直後 1 字（後继字）→ repl 変体
+#     default_repl : 対位失敗／表外後继字の fallback（単一 repl=(a) 動作と完全同値＝
+#                    発火不増・変差不増の構造保証）
+#   処理順序（N106 §1.2）：
+#     1) containment guard（row 級・現行 guard 規則と同一語义）→ 通過しなければ不発火
+#     2) 対位：got 中 莫-token 出現列 × hb 中 guard 字出現列（順序 1:1）
+#        − 個数不一致 → default_repl で全置換（現行動作・fail-safe）
+#     3) 各 site の後继字 = hb[guard 字位置+1] → follow_map にあればその repl 変体、
+#        なければ default_repl
+#     4) site ごとに repl を差し替え
+#   対位 token は こと系 莫-token（ことなき＋既存 N/Q/U 出力形 こと莫かれ/こと莫く/
+#   こと莫き/こと莫し）全体で 1:1 対位する（N106 原型実測同款。rikutou26-5 は got
+#   莫-token 4↔白文 莫 4 で token#3↔莫#4 対位＝実測済み。ことなき だけ数えると
+#   対位がずれるため）。entry 追設時は token 族の再確定が要る（本夜は ことなき のみ）。
+#
+# 収録（night111_sim 実績・基线 night107_results_8165/4000.json・実跑との逐位一致は
+# night111_eval_* で确认）：
+#   ことなき→(follow_map 10 字) default こと莫き（guard 莫）——N92 拒案「ことなき→
+#     こと莫き 2 変差」の後継機構解。N103 在庫 18 site の後继字多数決表（N106 §2.3：
+#     判対 15/18・判错 3 行 rongo1442-1/tonan-1/utsuryo03-7 は衝突字 能/己/之 の多数
+#     決 莫き で (a) 値維持＝got/exp の文法構造差行）。実現値＝発火 15 行・変体改写
+#     5 行（大→こと莫し 2・知/吾→こと莫からん 2・如→こと莫かる 1）・d 改善 4 行
+#     （kagakujota-1 26→24・p-danjoshitsu-1 35→33・rongo0732-1 22→20・roushi46-2
+#     35→34）・変差新增 0 行。rikutou26-5 53→54 は拍板許容行（用户 2026-11-28：
+#     N106/N109 既知の語順構造差＝機構でも不救・N103 結論の機構側再確認、0-worsening
+#     门はこの 1 行のみ讓歩＝N99 kokyo09-5/N104 同框）。
+#   禁区（本夜も一字不動）：毋系 ことなき（N103 在庫・guard 毋＝別拍板）・per-guard
+#     変体（N102 在庫）・嗟や（N94 在庫）・項 3/5/6/7/8/9・Rule N ことなかれ 系・
+#     Q ことなく・O なきか・S なきなり・U なかれ——本機構は guard 莫 行にしか届かない。
+GUARD_FOLLOWUP_RULES = [
+    ("ことなき", ("莫",),
+     {"由": "こと莫き", "予": "こと莫き", "我": "こと莫き", "之": "こと莫き",
+      "能": "こと莫き", "己": "こと莫き",          # ←能/己/之 は衝突字（N106 §2.3）＝多数決 莫き
+      "大": "こと莫し",
+      "知": "こと莫からん", "吾": "こと莫からん",
+      "如": "こと莫かる"},
+     "こと莫き"),
+]
+
+# 対位 token（こと系 莫-token 全体＝N106 原型実測同款。ことなき と既存 N/Q/U 出力形）。
+GUARD_FOLLOWUP_TOKEN_RE = re.compile("こと莫かれ|こと莫く|こと莫き|こと莫し|ことなき")
+
+# 词界护栏（ことなき 长词衝突なし＝N106 18 site 実測で後続成形語なし・空表維持）。
+GUARD_FOLLOWUP_LONGER_WORDS = {
+    "ことなき": (),
+}
+
+
+def _guard_followup_sites(text: str, hb: str, kana: str, guard,
+                          follow_map, default_repl):
+    """機構の対位＋repl 選択（純粋関数・tests から site 判定表を検証する）。
+
+    戻り値 = (spans, sites, mode)。spans = [(start, end, repl)]、sites = 後继字判定
+    明細（ site 級）、mode = None(不発火)/"fail_safe"(対位失敗→default 全置換)/
+    "follow"(対位成立)。"""
+    # 1) containment guard（第一 gate・row 級・現行 guard 規則と同一語义）
+    if guard and not any(g in hb for g in guard):
+        return [], [], None
+    tokens = list(GUARD_FOLLOWUP_TOKEN_RE.finditer(text))
+    if not any(t.group() == kana for t in tokens):
+        return [], [], None
+    # 2) 対位（順序 1:1）・個数不一致 → fail-safe（default_repl 全置換＝(a) 同値）
+    guard_iter = list(re.finditer(re.escape(guard[0]), hb)) if guard else []
+    if len(tokens) != len(guard_iter):
+        spans = [(m.start(), m.end(), default_repl) for m in re.finditer(re.escape(kana), text)]
+        return spans, [], "fail_safe" if spans else None
+    # 3)+4) site ごとに後继字判定 → repl 選択
+    spans, sites = [], []
+    for gi, gm in enumerate(tokens):
+        if gm.group() != kana:
+            continue            # 既存 N/Q/U 出力形（こと莫かれ 等）＝site 外
+        mo = guard_iter[gi]
+        nxt = hb[mo.end():mo.end() + 1] or "⏎"
+        repl = follow_map.get(nxt, default_repl)
+        spans.append((gm.start(), gm.end(), repl))
+        sites.append({"site_index": gi, "hb_pos": mo.start(), "follow": nxt,
+                      "repl": repl})
+    return spans, sites, "follow"
+
+
+def style_guard_followup(text: str, hakubun: str = "") -> str:
+    """守り字後继字機構（N111・N106 §1 設計実装）。链尾追加＝既存 E〜U 全規則は
+    一字も変えない（無 follow_map の既有規則零改动）。
+
+    containment guard は第一 gate、対位失敗／表外後继字は default_repl（＝単一
+    repl 動作と完全同値）fallback＝機構の追加で新規発火・新規変差は原理的に増えない
+    （N106 §1.3 第 3 条）。冪等：repl に ことなき 非含有（再発火なし）。
+    全 1 条＝night111_sim 発火 15 行・変体改写 5 行・d 改善 4 行／変差新增 0 行
+    （rikutou26-5 53→54 拍板行）・冪等 bad 0。
+    """
+    hb = re.sub(r"\s+", "", hakubun) if hakubun else ""
+    if not hb:
+        return text
+    for kana, guard, follow_map, default_repl in GUARD_FOLLOWUP_RULES:
+        spans, _sites, mode = _guard_followup_sites(text, hb, kana, guard,
+                                                    follow_map, default_repl)
+        if not spans:
+            continue            # 不発火（guard 外／kana 残量なし）
+        if mode == "fail_safe":
+            # 対位失敗＝単一 repl と完全同値の全置換（site 級対位なし・fail-safe）
+            out = text
+            for s0, s1, repl in sorted(spans, key=lambda x: -x[0]):
+                out = out[:s0] + repl + out[s1:]
+            text = out
+            continue
+        for s0, s1, repl in sorted(spans, key=lambda x: -x[0]):
+            text = text[:s0] + repl + text[s1:]
+    return text
+
+
 def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     """带白文上下文的规则总入口（D11 起后端实际调用这个）。
 
@@ -1132,6 +1252,7 @@ def style_fix_with_hakubun(text: str, hakubun: str) -> str:
     t = style_kana_to_kanji_s(t, hakubun)   # N96 Rule S
     t = style_kana_to_kanji_t(t, hakubun)   # N99 Rule T
     t = style_kana_to_kanji_u(t, hakubun)   # N104 Rule U
+    t = style_guard_followup(t, hakubun)    # N111 守り字後继字機構（链尾追加・N106 §1.2 差し替え接続）
     return t
 
 # ---------------------------------------------------------------------------

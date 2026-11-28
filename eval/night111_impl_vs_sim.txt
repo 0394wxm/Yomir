@@ -1,0 +1,16 @@
+mujun-2 d_raw=11 d1=10 expect=10 OK
+onoreshiru-1 d_raw=18 d1=17 expect=17 OK
+kagakujota-1 d_raw=27 d1=24 expect=24 OK
+kanchuna-1 d_raw=82 d1=81 expect=81 OK
+rongo0615-1 d_raw=12 d1=11 expect=11 OK
+rongo0732-1 d_raw=23 d1=20 expect=20 OK
+rongo1315-1 d_raw=113 d1=110 expect=110 OK
+rongo1442-1 d_raw=55 d1=54 expect=54 OK
+p-danjoshitsu-1 d_raw=36 d1=33 expect=33 OK
+tarekako-1 d_raw=12 d1=11 expect=11 OK
+tonan-1 d_raw=29 d1=28 expect=28 OK
+warekimi-1 d_raw=35 d1=34 expect=34 OK
+roushi46-2 d_raw=34 d1=34 expect=34 OK
+utsuryo03-7 d_raw=63 d1=63 expect=63 OK
+rikutou26-5 d_raw=53 d1=54 expect=54 OK
+ALL MATCH
