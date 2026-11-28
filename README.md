@@ -11,7 +11,7 @@
 
 ---
 
-## 数字（2026-11-28 時点、night111-followmap-impl 分支（Night 111 実施夜：守り字後继字機構 follow_map 収録・自 master（Night 110 wrap-up 5633eca）分出・分支 tip＝本提交・未合 master 未推远程）のコード／アーカイブから実測）
+## 数字（2026-11-28 時点、master（Night 111 合并夜：night111-followmap-impl（ba25beb・守り字後继字機構 follow_map 収録＋e1e0344・wrap-up）を --no-ff 一括合流・合并提交 77eae67・分支起点 5633eca）のコード／アーカイブから実測）
 
 | 項目 | 数値 |
 | --- | --- |
