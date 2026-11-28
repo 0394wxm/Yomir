@@ -85,6 +85,7 @@ NIGHT_ARTIFACTS = {
     112: ["night111_results_4000.json"],   # N112 合并夜：night111-followmap-impl（ba25beb 機構収録＋e1e0344 wrap-up）を --no-ff 一括合流（归档源维持 night111・4000 13.455/24/0・8165 13.464/30/0 与 night111 归档全行逐位一致・111 不补登记＝分支侧已登记・N108/N110 先例）
     114: ["night111_results_4000.json"],   # N114 合并夜：night113-inventory（306898f 在庫盘点＋拍板表更新夜（報告-only）＋fa71e23 wrap-up）を --no-ff 一括合流（归档源维持 night111・4000 13.455/24/0・8165 13.464/30/0 与 night111 归档全行逐位一致・113 不登记＝報告-only N98/N102/N103/N106/N109 先例）
     116: ["night116_results_4000.json"],   # N116 実施夜：剥夹注管線（N115 Stage 0/1・engine 分支注记行進規則鏈前剥離・backend/main.py 两处）収録後の默认口径（4000 13.455/24/0 vs night111 全行 byte-identical・8165 13.464→13.454/30/0 sum 109934→109852 diff 恰残渣 2 行 rikutou59-2 224→155・soji07-6 36→23・115 不登记＝設計夜 N98/N102/N103/N106/N109/N113 先例）
+    117: ["night116_results_4000.json"],   # N117 合并夜：night115-annotation-design（56cd695 設計夜＋632f8c3 wrap-up）＋night116-annotation-impl（a1383e2 実施夜＋a47e686 wrap-up）を --no-ff 順次合流（归档源维持 night116・4000 13.455/24/0・8165 13.454/30/0 sum 109852 与 night116 归档全行逐位一致・115 不登记＝設計夜 N98/N102/N103/N106/N109/N113 先例）
     22: ["night22_results_full.json"],
     23: ["night23_results_rongo.json"],
     26: ["night26_results_full.json"],

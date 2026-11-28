@@ -11,7 +11,7 @@
 
 ---
 
-## 数字（2026-11-28 時点、night116-annotation-impl（Night 116 実施夜：剥夹注管線＝N115 Stage 0/1 backend 実施・backend/main.py 两处＋tests/test_night115_strip.py・分支起点 4e335ac・未合 master）のコード／アーカイブから実測）
+## 数字（2026-11-28 時点、master（Night 117 合并夜：night115-annotation-design（56cd695 剥夹注管線設計夜（報告-only）＋632f8c3・wrap-up）＋night116-annotation-impl（a1383e2 剥夹注管線実施夜＋a47e686・wrap-up）を --no-ff 順次合流・合并提交 094b408＋0557e59・分支起点 4e335ac）のコード／アーカイブから実測）
 
 | 項目 | 数値 |
 | --- | --- |
