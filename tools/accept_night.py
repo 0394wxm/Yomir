@@ -83,6 +83,7 @@ NIGHT_ARTIFACTS = {
     110: ["night107_results_4000.json"],   # N110 合并夜：night109-inventory（在庫盘点＋拍板表更新夜 報告-only・新版拍板表＝REPORT_NIGHT109 §3 supersede N98 §3）を --no-ff 一括合流（归档源维持 night107・4000 13.460/24/0・8165 13.466/30/0 与 night107 归档全行逐位一致・109 报告-only 不登记＝N91/N101/N105/N108 先例）
     111: ["night111_results_4000.json"],   # N111 実施夜：守り字後继字機構（follow_map・N106 §1 設計の実装・ことなき guard 莫 1 entry 4 元組・链尾追加）収録後の默认口径（4000 13.455/24/0・8165 13.464/30/0・発火 15 行/変体改写 5 行/d 改善 4 行・rikutou26-5 53→54 拍板許容・計画外 0 欠落 0）
     112: ["night111_results_4000.json"],   # N112 合并夜：night111-followmap-impl（ba25beb 機構収録＋e1e0344 wrap-up）を --no-ff 一括合流（归档源维持 night111・4000 13.455/24/0・8165 13.464/30/0 与 night111 归档全行逐位一致・111 不补登记＝分支侧已登记・N108/N110 先例）
+    114: ["night111_results_4000.json"],   # N114 合并夜：night113-inventory（306898f 在庫盘点＋拍板表更新夜（報告-only）＋fa71e23 wrap-up）を --no-ff 一括合流（归档源维持 night111・4000 13.455/24/0・8165 13.464/30/0 与 night111 归档全行逐位一致・113 不登记＝報告-only N98/N102/N103/N106/N109 先例）
     22: ["night22_results_full.json"],
     23: ["night23_results_rongo.json"],
     26: ["night26_results_full.json"],

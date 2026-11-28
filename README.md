@@ -11,7 +11,7 @@
 
 ---
 
-## 数字（2026-11-28 時点、master（Night 111 合并夜：night111-followmap-impl（ba25beb・守り字後继字機構 follow_map 収録＋e1e0344・wrap-up）を --no-ff 一括合流・合并提交 77eae67・分支起点 5633eca）のコード／アーカイブから実測）
+## 数字（2026-11-28 時点、master（Night 114 合并夜：night113-inventory（306898f・在庫盘点＋拍板表更新夜（報告-only）＋fa71e23・wrap-up）を --no-ff 一括合流・合并提交 59ca4cd・分支起点 ed5b2db）のコード／アーカイブから実測）
 
 | 項目 | 数値 |
 | --- | --- |
