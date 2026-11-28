@@ -1,0 +1,102 @@
+== night111 归档読込（双口径）==
+  4000: avgDist 13.455 / exact 24 / error 0（N114 記録 13.455/24/0）
+  8165: avgDist 13.464 / exact 30 / error 0（N114 記録 13.464/30/0）
+  [一致] baseline.avg4000 = 13.455
+  [一致] baseline.exact4000 = 24
+  [一致] baseline.avg8165 = 13.464
+  [一致] baseline.exact8165 = 30
+
+== (A) 行分类復核（N113 記録 7916/30/218/1・reachable 8134）==
+  行分类 {'engine': 7916, 'echo': 30, 'rerun': 218, 'no_tail': 1}
+  reachable（engine+rerun＝引擎可达）8134 行
+  [一致] cls.engine = 7916
+  [一致] cls.echo = 30
+  [一致] cls.rerun = 218
+  [一致] cls.no_tail = 1
+  [一致] cls.reachable = 8134
+
+== (B) 夹注残渣 2 行・B9 判定式逐位重测 ==
+  夹注残渣行：2 行（N98/N109/N113 実測 2＝rikutou59-2・soji07-6）
+    rikutou59-2 d0=224 d1(白文)=182
+      白文（位置 [13, 20, 27, 32, 37, 43, 49, 54, 69, 73, 78, 85, 90, 99]
+      白文 太公曰、騎有十勝九敗。太公（たいこう）曰（いわ）く、騎（き）に十（じっ）勝（しょう）九（きゅう）敗（はい）有（あ）り。武王曰、十勝奈何。武（ぶ）王（おう）曰（いわ）く、十（じっ）勝（しょう）とは奈何（いかん）。太公曰、敵人始至、行陳未定、前
+      got（…仮名…）形態 span '（たいこうは）'
+      got（…仮名…）形態 span '（いわと曰いて）'
+      got（…仮名…）形態 span '（きは）'
+      got（…仮名…）形態 span '（じっ）'
+      got（…仮名…）形態 span '（しょう）'
+      got（…仮名…）形態 span '（きゅうは）'
+      got（…仮名…）形態 span '（はい）'
+      got（…仮名…）形態 span '（あ）'
+      got（…仮名…）形態 span '（ぶ）'
+      got（…仮名…）形態 span '（おうは）'
+      got（…仮名…）形態 span '（いわを曰いて）'
+      got（…仮名…）形態 span '（じっは）'
+      got  太公曰く、騎するは十勝つ有りて九敗る。太公が（たいこうは）（いわと曰いて）く、騎するが（きは）に十（じっ）勝ちて（しょう）九（きゅうは）敗りて（はい）有りて（あ）り。武王曰く、十勝つは何の如し。武は（ぶ）王は（おうは）（いわを曰いて）く、十
+      exp  太公曰く、敵人始めて至り、行陣未だ定まらず、前後属かざるには、其の前騎を陥れ、其の左右を撃たば、敵人必ず走らん。敵人の行陣、整斉堅固にして、士卒闘わんと欲するには、吾が騎、翼して去る勿く、或いは馳せて往き、或いは馳せて来り、其の疾きこと風の
+    soji07-6 d0=36 d1(白文)=31
+      白文（位置 [5, 10, 14]
+      白文 漁父曰、漁（ぎょ）父（ほ）曰（いわ）く、聖人不凝滯於物、而能與世推移。
+      got（…仮名…）形態 span '（ぎょ）'
+      got（…仮名…）形態 span '（ほは）'
+      got（…仮名…）形態 span '（いわを曰いて）'
+      got  漁父に曰く、漁（ぎょ）父は（ほは）（いわを曰いて）く、聖の人は物に凝滞せず、而して能く世に推移して与う。
+      exp  聖人は物に凝滞せずして、能く世と推移す。
+  [一致] paren_residue.count = 2
+  [一致] paren_residue.ids = ['rikutou59-2', 'soji07-6']
+
+== (C) sonshi09-38（no_tail・管線外の設計入力）==
+  sonshi09-38: cls=no_tail tail='' got='' d0=13（N98/N109/N113 記録 d0=13）
+  [一致] sonshi09_38.cls = no_tail
+  [一致] sonshi09_38.tail_empty = True
+  [一致] sonshi09_38.d0 = 13
+
+== (D) echo 30 行・構成重测＋逐行分類（管線範囲内かの設計入力）==
+  echo 30 行 | 直出 14 | 新字体化 16 | other 0 | d0==0 0 行
+  逐行分類：白文含（…仮名…）注记 30 行・与夹注无关 0 行
+    nekowoma-3 kind=shinjitai d0=7 hb（x5 kana注=True tail=祭與飯與魚
+    toushisen006-10 kind=shinjitai d0=3 hb（x4 kana注=True tail=借問大將誰
+    toushisen007-1 kind=direct d0=4 hb（x5 kana注=True tail=蒼鼠竄古瓦
+    toushisen007-2 kind=direct d0=1 hb（x3 kana注=True tail=遺構絶壁下
+    toushisen007-7 kind=shinjitai d0=8 hb（x5 kana注=True tail=況乃粉黛假
+    toushisen007-10 kind=direct d0=6 hb（x5 kana注=True tail=浩歌涙盈把
+    toushisen013-5 kind=direct d0=4 hb（x10 kana注=True tail=羈禽響幽谷
+    toushisen013-8 kind=shinjitai d0=5 hb（x5 kana注=True tail=孤生易爲感
+    toushisen013-12 kind=shinjitai d0=6 hb（x4 kana注=True tail=當與此心期
+    toushisen048-6 kind=shinjitai d0=7 hb（x5 kana注=True tail=寧爲百夫長
+    toushisen088-2 kind=direct d0=5 hb（x4 kana注=True tail=浮雲連海岱
+    toushisen089-6 kind=direct d0=5 hb（x5 kana注=True tail=驍騰有如此
+    toushisen092-5 kind=shinjitai d0=1 hb（x3 kana注=True tail=關河霜雪清
+    toushisen096-2 kind=direct d0=3 hb（x4 kana注=True tail=荒庭垂橘柚
+    toushisen103-1 kind=shinjitai d0=3 hb（x4 kana注=True tail=日出正東峯
+    toushisen188-3 kind=shinjitai d0=8 hb（x5 kana注=True tail=曉聞天籟發清機
+    toushisen209-1 kind=shinjitai d0=6 hb（x10 kana注=True tail=錦江春色來天地
+    toushisen209-2 kind=shinjitai d0=5 hb（x24 kana注=True tail=日暮聊爲梁甫吟
+    toushisen211-1 kind=shinjitai d0=4 hb（x6 kana注=True tail=日日江樓坐翠微
+    toushisen212-2 kind=direct d0=9 hb（x6 kana注=True tail=西望瑤池降王母
+    toushisen212-3 kind=shinjitai d0=9 hb（x21 kana注=True tail=幾囘青瑣點朝班
+    toushisen213-1 kind=direct d0=5 hb（x6 kana注=True tail=武帝旌旗在眼中
+    toushisen384-1 kind=direct d0=6 hb（x6 kana注=True tail=匹馬今朝不少留
+    toushisen384-2 kind=shinjitai d0=5 hb（x6 kana注=True tail=滿堂絲竹爲君愁
+    shiba01-12 kind=direct d0=11 hb（x145 kana注=True tail=賊殺其親則正之。
+    shiba04-11 kind=shinjitai d0=11 hb（x39 kana注=True tail=讓以和、人自洽。
+    shiba05-9 kind=direct d0=6 hb（x26 kana注=True tail=自古之政也。
+    soji07-10 kind=direct d0=3 hb（x2 kana注=True tail=吾聞之、
+    kenkon-1 kind=shinjitai d0=2 hb（x6 kana注=True tail=億萬蒼生性命存
+    ryuryu-1 kind=direct d0=3 hb（x14 kana注=True tail=粒粒皆辛苦
+  [一致] echo.count = 30
+  [一致] echo.got_eq_tail = 14
+  [一致] echo.shinjitai = 16
+  [一致] echo.other = 0
+  [一致] echo.d0_zero = 0
+
+== (E) census：管線影響面定量（8165・4000 双口径）==
+  白文含（ 251 行（分類別 {'echo': 30, 'rerun': 218, 'engine': 2, 'no_tail': 1}）｜4000 内 0 行
+  got 含（ 2 行｜4000 内 0 行
+  got 含（…仮名…） 2 行（B9 残渣 2 行＝そのうち engine 分支）｜4000 内 0 行
+
+== 汇总：基线 4000 13.455/24/0・8165 13.464/30/0・行分类 {'engine': 7916, 'echo': 30, 'rerun': 218, 'no_tail': 1}・reachable 8134・残渣 2 行・sonshi d0=13・echo 30（直出 14＋新字体化 16・含注记 30／无关 0）・census 白文含（ 251/got 含（ 2/got 含（…仮名…） 2・漂移 0 件 ==
+
+written: eval/night115_recheck.json / night115_recheck.txt
+DRIFT=0 verdict=PASS
+elapsed 4s

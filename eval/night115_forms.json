@@ -1,0 +1,52 @@
+{
+ "script": "tools/night115_forms.py",
+ "night": 115,
+ "mode": "夹注形态分类（corpus 実測・未実測形態不記載）",
+ "verdict": "PASS",
+ "form1": {
+  "rows": 251,
+  "by_cls": {
+   "echo": 30,
+   "rerun": 218,
+   "engine": 2,
+   "no_tail": 1
+  },
+  "spans": 13419,
+  "after_kanji": 13395,
+  "span_len_max": 6,
+  "span_len_min": 1
+ },
+ "form2": {
+  "rows": 6,
+  "ids": [
+   "rongo1125-1",
+   "rongo1125b-1",
+   "rongo1125c-1",
+   "rongo1125d-1",
+   "rongo1125e-1",
+   "rongo1125f-1"
+  ]
+ },
+ "form3": {
+  "rows": 1,
+  "ids": [
+   "sonshi09-38"
+  ],
+  "tail_has_kana": true
+ },
+ "got_residue": [
+  {
+   "id": "rikutou59-2",
+   "got_spans": 13,
+   "verbatim": 5,
+   "engine_processed": 8
+  },
+  {
+   "id": "soji07-6",
+   "got_spans": 3,
+   "verbatim": 1,
+   "engine_processed": 2
+  }
+ ],
+ "elapsed_sec": 3
+}

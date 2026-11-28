@@ -1,0 +1,1786 @@
+{
+ "script": "tools/night115_sim.py",
+ "night": 115,
+ "mode": "剥夹注管線設計 sim（Stage 0–3・backend 零改動）",
+ "verdict": "PASS",
+ "invariants": {
+  "identity": 7914,
+  "idempotent": 8165,
+  "f1_clean": 251,
+  "f1": 251,
+  "sonshi_after": "kana"
+ },
+ "scope_design": [
+  {
+   "id": "rikutou59-2",
+   "d0": 224,
+   "d1": 155,
+   "verdict": "改善",
+   "delta": -69
+  },
+  {
+   "id": "soji07-6",
+   "d0": 36,
+   "d1": 23,
+   "verdict": "改善",
+   "delta": -13
+  }
+ ],
+ "alt_partial": {
+  "counts": {
+   "変差": 239,
+   "exception": 1
+  }
+ },
+ "alt_rejected": {
+  "counts": {
+   "変差": 247,
+   "exception": 1
+  },
+  "per_cls": {
+   "echo|変差": 30,
+   "rerun|変差": 217,
+   "rerun|exception": 1
+  },
+  "rows": [
+   {
+    "id": "nekowoma-3",
+    "cls": "echo",
+    "d0": 7,
+    "d1_full": 25,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen006-10",
+    "cls": "echo",
+    "d0": 3,
+    "d1_full": 31,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen007-1",
+    "cls": "echo",
+    "d0": 4,
+    "d1_full": 23,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen007-2",
+    "cls": "echo",
+    "d0": 1,
+    "d1_full": 28,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen007-7",
+    "cls": "echo",
+    "d0": 8,
+    "d1_full": 27,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen007-10",
+    "cls": "echo",
+    "d0": 6,
+    "d1_full": 42,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen013-5",
+    "cls": "echo",
+    "d0": 4,
+    "d1_full": 66,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen013-8",
+    "cls": "echo",
+    "d0": 5,
+    "d1_full": 32,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen013-12",
+    "cls": "echo",
+    "d0": 6,
+    "d1_full": 30,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen048-6",
+    "cls": "echo",
+    "d0": 7,
+    "d1_full": 28,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen088-2",
+    "cls": "echo",
+    "d0": 5,
+    "d1_full": 32,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen089-6",
+    "cls": "echo",
+    "d0": 5,
+    "d1_full": 33,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen092-5",
+    "cls": "echo",
+    "d0": 1,
+    "d1_full": 14,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen096-2",
+    "cls": "echo",
+    "d0": 3,
+    "d1_full": 21,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen103-1",
+    "cls": "echo",
+    "d0": 3,
+    "d1_full": 33,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen188-3",
+    "cls": "echo",
+    "d0": 8,
+    "d1_full": 39,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen209-1",
+    "cls": "echo",
+    "d0": 6,
+    "d1_full": 75,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen209-2",
+    "cls": "echo",
+    "d0": 5,
+    "d1_full": 154,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen211-1",
+    "cls": "echo",
+    "d0": 4,
+    "d1_full": 34,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen212-2",
+    "cls": "echo",
+    "d0": 9,
+    "d1_full": 28,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen212-3",
+    "cls": "echo",
+    "d0": 9,
+    "d1_full": 132,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen213-1",
+    "cls": "echo",
+    "d0": 5,
+    "d1_full": 29,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen384-1",
+    "cls": "echo",
+    "d0": 6,
+    "d1_full": 45,
+    "verdict": "変差"
+   },
+   {
+    "id": "toushisen384-2",
+    "cls": "echo",
+    "d0": 5,
+    "d1_full": 38,
+    "verdict": "変差"
+   },
+   {
+    "id": "goshi00_jo-2",
+    "cls": "rerun",
+    "d0": 36,
+    "d1_full": 340,
+    "verdict": "変差"
+   },
+   {
+    "id": "goshi00_jo-3",
+    "cls": "rerun",
+    "d0": 22,
+    "d1_full": 205,
+    "verdict": "変差"
+   },
+   {
+    "id": "goshi01-2",
+    "cls": "rerun",
+    "d0": 34,
+    "d1_full": 244,
+    "verdict": "変差"
+   },
+   {
+    "id": "goshi01-3",
+    "cls": "rerun",
+    "d0": 36,
+    "d1_full": 1943,
+    "verdict": "変差"
+   },
+   {
+    "id": "goshi05-2",
+    "cls": "rerun",
+    "d0": 57,
+    "d1_full": 1720,
+    "verdict": "変差"
+   },
+   {
+    "id": "goshi05-3",
+    "cls": "rerun",
+    "d0": 30,
+    "d1_full": 607,
+    "verdict": "変差"
+   },
+   {
+    "id": "goshi05-4",
+    "cls": "rerun",
+    "d0": 28,
+    "d1_full": 1144,
+    "verdict": "変差"
+   },
+   {
+    "id": "goshi05-5",
+    "cls": "rerun",
+    "d0": 15,
+    "d1_full": 269,
+    "verdict": "変差"
+   },
+   {
+    "id": "goshi06-2",
+    "cls": "rerun",
+    "d0": 55,
+    "d1_full": 1486,
+    "verdict": "変差"
+   },
+   {
+    "id": "goshi06-3",
+    "cls": "rerun",
+    "d0": 29,
+    "d1_full": 241,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou01-3",
+    "cls": "rerun",
+    "d0": 102,
+    "d1_full": 359,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou01-5",
+    "cls": "rerun",
+    "d0": 46,
+    "d1_full": 231,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou03-3",
+    "cls": "rerun",
+    "d0": 36,
+    "d1_full": 342,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou04-2",
+    "cls": "rerun",
+    "d0": 45,
+    "d1_full": 226,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou06-2",
+    "cls": "rerun",
+    "d0": 48,
+    "d1_full": 220,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou07-2",
+    "cls": "rerun",
+    "d0": 48,
+    "d1_full": 418,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou08-3",
+    "cls": "rerun",
+    "d0": 46,
+    "d1_full": 321,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou09-3",
+    "cls": "rerun",
+    "d0": 32,
+    "d1_full": 202,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou09-5",
+    "cls": "rerun",
+    "d0": 44,
+    "d1_full": 411,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou12-1",
+    "cls": "rerun",
+    "d0": 43,
+    "d1_full": 256,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou13-2",
+    "cls": "rerun",
+    "d0": 15,
+    "d1_full": 258,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou13-3",
+    "cls": "rerun",
+    "d0": 40,
+    "d1_full": 298,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou13-4",
+    "cls": "rerun",
+    "d0": 42,
+    "d1_full": 191,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou13-6",
+    "cls": "rerun",
+    "d0": 28,
+    "d1_full": 183,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou14-3",
+    "cls": "rerun",
+    "d0": 20,
+    "d1_full": 791,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou15-3",
+    "cls": "rerun",
+    "d0": 45,
+    "d1_full": 306,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou15-4",
+    "cls": "rerun",
+    "d0": 104,
+    "d1_full": 1360,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou17-2",
+    "cls": "rerun",
+    "d0": 46,
+    "d1_full": 460,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou18-3",
+    "cls": "rerun",
+    "d0": 41,
+    "d1_full": 205,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou18-7",
+    "cls": "rerun",
+    "d0": 29,
+    "d1_full": 140,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou18-8",
+    "cls": "rerun",
+    "d0": 36,
+    "d1_full": 141,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou18-11",
+    "cls": "rerun",
+    "d0": 20,
+    "d1_full": 342,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou18-12",
+    "cls": "rerun",
+    "d0": 23,
+    "d1_full": 290,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou19-2",
+    "cls": "rerun",
+    "d0": 64,
+    "d1_full": 609,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou21-2",
+    "cls": "rerun",
+    "d0": 122,
+    "d1_full": 466,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou21-3",
+    "cls": "rerun",
+    "d0": 40,
+    "d1_full": 799,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou22-2",
+    "cls": "rerun",
+    "d0": 56,
+    "d1_full": 315,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou23-3",
+    "cls": "rerun",
+    "d0": 62,
+    "d1_full": 433,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou25-2",
+    "cls": "rerun",
+    "d0": 40,
+    "d1_full": 238,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou26-5",
+    "cls": "rerun",
+    "d0": 54,
+    "d1_full": 300,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou26-6",
+    "cls": "rerun",
+    "d0": 18,
+    "d1_full": 542,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou26-7",
+    "cls": "rerun",
+    "d0": 30,
+    "d1_full": 240,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou27-3",
+    "cls": "rerun",
+    "d0": 39,
+    "d1_full": 270,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou27-6",
+    "cls": "rerun",
+    "d0": 45,
+    "d1_full": 294,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou27-8",
+    "cls": "rerun",
+    "d0": 67,
+    "d1_full": 240,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou28-4",
+    "cls": "rerun",
+    "d0": 48,
+    "d1_full": 691,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou29-3",
+    "cls": "rerun",
+    "d0": 46,
+    "d1_full": 234,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou30-3",
+    "cls": "rerun",
+    "d0": 44,
+    "d1_full": 239,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou31-4",
+    "cls": "rerun",
+    "d0": 73,
+    "d1_full": 445,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou31-5",
+    "cls": "rerun",
+    "d0": 61,
+    "d1_full": 487,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou31-6",
+    "cls": "rerun",
+    "d0": 52,
+    "d1_full": 752,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou31-8",
+    "cls": "rerun",
+    "d0": 44,
+    "d1_full": 161,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou31-9",
+    "cls": "rerun",
+    "d0": 92,
+    "d1_full": 514,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou34-5",
+    "cls": "rerun",
+    "d0": 59,
+    "d1_full": 400,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou34-7",
+    "cls": "rerun",
+    "d0": 80,
+    "d1_full": 210,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou35-4",
+    "cls": "rerun",
+    "d0": 49,
+    "d1_full": 186,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou37-2",
+    "cls": "rerun",
+    "d0": 43,
+    "d1_full": 378,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou38-2",
+    "cls": "rerun",
+    "d0": 30,
+    "d1_full": 264,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou39-4",
+    "cls": "rerun",
+    "d0": 40,
+    "d1_full": 178,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou40-2",
+    "cls": "rerun",
+    "d0": 64,
+    "d1_full": 545,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou40-3",
+    "cls": "rerun",
+    "d0": 76,
+    "d1_full": 294,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou42-3",
+    "cls": "rerun",
+    "d0": 45,
+    "d1_full": 254,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou46-2",
+    "cls": "rerun",
+    "d0": 4,
+    "d1_full": 118,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou48-2",
+    "cls": "rerun",
+    "d0": 60,
+    "d1_full": 1105,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou49-3",
+    "cls": "rerun",
+    "d0": 28,
+    "d1_full": 181,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou53-4",
+    "cls": "rerun",
+    "d0": 30,
+    "d1_full": 136,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou53-5",
+    "cls": "rerun",
+    "d0": 28,
+    "d1_full": 247,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou53-7",
+    "cls": "rerun",
+    "d0": 27,
+    "d1_full": 138,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou53-8",
+    "cls": "rerun",
+    "d0": 4,
+    "d1_full": 123,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou55-4",
+    "cls": "rerun",
+    "d0": 38,
+    "d1_full": 279,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou58-3",
+    "cls": "rerun",
+    "d0": 93,
+    "d1_full": 383,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou58-4",
+    "cls": "rerun",
+    "d0": 83,
+    "d1_full": 222,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou59-3",
+    "cls": "rerun",
+    "d0": 29,
+    "d1_full": 347,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou59-4",
+    "cls": "rerun",
+    "d0": 16,
+    "d1_full": 1265,
+    "verdict": "変差"
+   },
+   {
+    "id": "rikutou59-5",
+    "cls": "rerun",
+    "d0": 12,
+    "d1_full": 143,
+    "verdict": "変差"
+   },
+   {
+    "id": "roushi23-2",
+    "cls": "rerun",
+    "d0": 44,
+    "d1_full": 127,
+    "verdict": "変差"
+   },
+   {
+    "id": "roushi28-2",
+    "cls": "rerun",
+    "d0": 25,
+    "d1_full": 136,
+    "verdict": "変差"
+   },
+   {
+    "id": "roushi34-2",
+    "cls": "rerun",
+    "d0": 24,
+    "d1_full": 88,
+    "verdict": "変差"
+   },
+   {
+    "id": "roushi38-3",
+    "cls": "rerun",
+    "d0": 23,
+    "d1_full": 130,
+    "verdict": "変差"
+   },
+   {
+    "id": "roushi60-3",
+    "cls": "rerun",
+    "d0": 12,
+    "d1_full": 61,
+    "verdict": "変差"
+   },
+   {
+    "id": "sanryaku01-8",
+    "cls": "rerun",
+    "d0": 23,
+    "d1_full": 612,
+    "verdict": "変差"
+   },
+   {
+    "id": "sanryaku01-11",
+    "cls": "rerun",
+    "d0": 102,
+    "d1_full": 516,
+    "verdict": "変差"
+   },
+   {
+    "id": "sanryaku01-16",
+    "cls": "rerun",
+    "d0": 119,
+    "d1_full": 372,
+    "verdict": "変差"
+   },
+   {
+    "id": "sanryaku01-19",
+    "cls": "rerun",
+    "d0": 89,
+    "d1_full": 395,
+    "verdict": "変差"
+   },
+   {
+    "id": "sanryaku01-23",
+    "cls": "rerun",
+    "d0": 81,
+    "d1_full": 821,
+    "verdict": "変差"
+   },
+   {
+    "id": "sanryaku02-3",
+    "cls": "rerun",
+    "d0": 170,
+    "d1_full": 1053,
+    "verdict": "変差"
+   },
+   {
+    "id": "sanryaku03-3",
+    "cls": "rerun",
+    "d0": 56,
+    "d1_full": 1011,
+    "verdict": "変差"
+   },
+   {
+    "id": "sanryaku03-5",
+    "cls": "rerun",
+    "d0": 123,
+    "d1_full": 709,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba01-2",
+    "cls": "rerun",
+    "d0": 37,
+    "d1_full": 246,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba01-3",
+    "cls": "rerun",
+    "d0": 14,
+    "d1_full": 235,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba01-4",
+    "cls": "rerun",
+    "d0": 36,
+    "d1_full": 96,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba01-7",
+    "cls": "rerun",
+    "d0": 16,
+    "d1_full": 263,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba01-8",
+    "cls": "rerun",
+    "d0": 17,
+    "d1_full": 183,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba01-11",
+    "cls": "rerun",
+    "d0": 13,
+    "d1_full": 315,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba01-12",
+    "cls": "echo",
+    "d0": 11,
+    "d1_full": 1021,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba01-14",
+    "cls": "rerun",
+    "d0": 7,
+    "d1_full": 54,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba02-3",
+    "cls": "rerun",
+    "d0": 7,
+    "d1_full": 144,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba02-5",
+    "cls": "rerun",
+    "d0": 11,
+    "d1_full": 666,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba02-6",
+    "cls": "rerun",
+    "d0": 8,
+    "d1_full": 213,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba02-10",
+    "cls": "rerun",
+    "d0": 20,
+    "d1_full": 891,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba02-11",
+    "cls": "rerun",
+    "d0": 7,
+    "d1_full": 1328,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba02-12",
+    "cls": "rerun",
+    "d0": 8,
+    "d1_full": 507,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba02-13",
+    "cls": "rerun",
+    "d0": 11,
+    "d1_full": 435,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba02-14",
+    "cls": "rerun",
+    "d0": 13,
+    "d1_full": 121,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba03-2",
+    "cls": "rerun",
+    "d0": 6,
+    "d1_full": 838,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba03-4",
+    "cls": "rerun",
+    "d0": 8,
+    "d1_full": 229,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba03-5",
+    "cls": "rerun",
+    "d0": 21,
+    "d1_full": 759,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba03-6",
+    "cls": "rerun",
+    "d0": 16,
+    "d1_full": 589,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba03-7",
+    "cls": "rerun",
+    "d0": 11,
+    "d1_full": 85,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba03-8",
+    "cls": "rerun",
+    "d0": 23,
+    "d1_full": 86,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba03-9",
+    "cls": "rerun",
+    "d0": 10,
+    "d1_full": 165,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba03-10",
+    "cls": "rerun",
+    "d0": 7,
+    "d1_full": 1057,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba03-11",
+    "cls": "rerun",
+    "d0": 8,
+    "d1_full": 200,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba03-15",
+    "cls": "rerun",
+    "d0": 17,
+    "d1_full": 141,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba04-3",
+    "cls": "rerun",
+    "d0": 17,
+    "d1_full": 813,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba04-4",
+    "cls": "rerun",
+    "d0": 22,
+    "d1_full": 799,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba04-5",
+    "cls": "rerun",
+    "d0": 24,
+    "d1_full": 133,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba04-6",
+    "cls": "rerun",
+    "d0": 5,
+    "d1_full": 525,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba04-7",
+    "cls": "rerun",
+    "d0": 19,
+    "d1_full": 172,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba04-8",
+    "cls": "rerun",
+    "d0": 59,
+    "d1_full": 159,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba04-9",
+    "cls": "rerun",
+    "d0": 10,
+    "d1_full": 119,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba04-10",
+    "cls": "rerun",
+    "d0": 26,
+    "d1_full": 358,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba04-11",
+    "cls": "echo",
+    "d0": 11,
+    "d1_full": 271,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba05-3",
+    "cls": "rerun",
+    "d0": 22,
+    "d1_full": 266,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba05-4",
+    "cls": "rerun",
+    "d0": 9,
+    "d1_full": 487,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiba05-9",
+    "cls": "echo",
+    "d0": 6,
+    "d1_full": 194,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo01-2",
+    "cls": "rerun",
+    "d0": 12,
+    "d1_full": 480,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo01-4",
+    "cls": "rerun",
+    "d0": 44,
+    "d1_full": 203,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo02-4",
+    "cls": "rerun",
+    "d0": 45,
+    "d1_full": 306,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo02-6",
+    "cls": "rerun",
+    "d0": 63,
+    "d1_full": 213,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo03-3",
+    "cls": "rerun",
+    "d0": 53,
+    "d1_full": 1020,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo03-5",
+    "cls": "rerun",
+    "d0": 57,
+    "d1_full": 525,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo03-6",
+    "cls": "rerun",
+    "d0": 66,
+    "d1_full": 190,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo03-8",
+    "cls": "rerun",
+    "d0": 51,
+    "d1_full": 546,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo04-4",
+    "cls": "rerun",
+    "d0": 21,
+    "d1_full": 500,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo04-8",
+    "cls": "rerun",
+    "d0": 48,
+    "d1_full": 266,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo04-12",
+    "cls": "rerun",
+    "d0": 41,
+    "d1_full": 191,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo04-13",
+    "cls": "rerun",
+    "d0": 46,
+    "d1_full": 158,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo05-2",
+    "cls": "rerun",
+    "d0": 45,
+    "d1_full": 1005,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo05-4",
+    "cls": "rerun",
+    "d0": 51,
+    "d1_full": 627,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo05-8",
+    "cls": "rerun",
+    "d0": 34,
+    "d1_full": 556,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo06-4",
+    "cls": "rerun",
+    "d0": 50,
+    "d1_full": 213,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo08-2",
+    "cls": "rerun",
+    "d0": 57,
+    "d1_full": null,
+    "verdict": "exception"
+   },
+   {
+    "id": "utsuryo08-3",
+    "cls": "rerun",
+    "d0": 79,
+    "d1_full": 509,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo08-10",
+    "cls": "rerun",
+    "d0": 39,
+    "d1_full": 632,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo08-13",
+    "cls": "rerun",
+    "d0": 40,
+    "d1_full": 455,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo09-2",
+    "cls": "rerun",
+    "d0": 63,
+    "d1_full": 830,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo10-2",
+    "cls": "rerun",
+    "d0": 64,
+    "d1_full": 208,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo11-2",
+    "cls": "rerun",
+    "d0": 55,
+    "d1_full": 627,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo11-5",
+    "cls": "rerun",
+    "d0": 91,
+    "d1_full": 385,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo14-2",
+    "cls": "rerun",
+    "d0": 20,
+    "d1_full": 645,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo15-2",
+    "cls": "rerun",
+    "d0": 18,
+    "d1_full": 398,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo17-2",
+    "cls": "rerun",
+    "d0": 56,
+    "d1_full": 183,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo17-3",
+    "cls": "rerun",
+    "d0": 50,
+    "d1_full": 205,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo18-2",
+    "cls": "rerun",
+    "d0": 15,
+    "d1_full": 291,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo18-3",
+    "cls": "rerun",
+    "d0": 44,
+    "d1_full": 274,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo19-2",
+    "cls": "rerun",
+    "d0": 25,
+    "d1_full": 173,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo21-2",
+    "cls": "rerun",
+    "d0": 35,
+    "d1_full": 328,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo21-4",
+    "cls": "rerun",
+    "d0": 32,
+    "d1_full": 546,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo21-5",
+    "cls": "rerun",
+    "d0": 64,
+    "d1_full": 356,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo22-5",
+    "cls": "rerun",
+    "d0": 30,
+    "d1_full": 674,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo22-6",
+    "cls": "rerun",
+    "d0": 28,
+    "d1_full": 249,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo23-2",
+    "cls": "rerun",
+    "d0": 67,
+    "d1_full": 308,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo23-6",
+    "cls": "rerun",
+    "d0": 23,
+    "d1_full": 221,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo24-2",
+    "cls": "rerun",
+    "d0": 40,
+    "d1_full": 755,
+    "verdict": "変差"
+   },
+   {
+    "id": "utsuryo24-3",
+    "cls": "rerun",
+    "d0": 50,
+    "d1_full": 744,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji02k01-3",
+    "cls": "rerun",
+    "d0": 18,
+    "d1_full": 120,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji02k03-2",
+    "cls": "rerun",
+    "d0": 20,
+    "d1_full": 140,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji02k03-5",
+    "cls": "rerun",
+    "d0": 16,
+    "d1_full": 495,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji02k03-6",
+    "cls": "rerun",
+    "d0": 11,
+    "d1_full": 51,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji02k04-5",
+    "cls": "rerun",
+    "d0": 5,
+    "d1_full": 347,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji02k04-6",
+    "cls": "rerun",
+    "d0": 15,
+    "d1_full": 109,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji02k04-7",
+    "cls": "rerun",
+    "d0": 20,
+    "d1_full": 210,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji02k05-5",
+    "cls": "rerun",
+    "d0": 19,
+    "d1_full": 209,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji02k06-4",
+    "cls": "rerun",
+    "d0": 12,
+    "d1_full": 45,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji02k06-5",
+    "cls": "rerun",
+    "d0": 14,
+    "d1_full": 275,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji02k06-6",
+    "cls": "rerun",
+    "d0": 18,
+    "d1_full": 74,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji02k07-2",
+    "cls": "rerun",
+    "d0": 20,
+    "d1_full": 139,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji02k07-3",
+    "cls": "rerun",
+    "d0": 19,
+    "d1_full": 407,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji02k09-2",
+    "cls": "rerun",
+    "d0": 15,
+    "d1_full": 144,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji02k09-3",
+    "cls": "rerun",
+    "d0": 19,
+    "d1_full": 555,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji02k10-2",
+    "cls": "rerun",
+    "d0": 16,
+    "d1_full": 233,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji06-5",
+    "cls": "rerun",
+    "d0": 16,
+    "d1_full": 30,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji07-3",
+    "cls": "rerun",
+    "d0": 8,
+    "d1_full": 25,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji07-10",
+    "cls": "echo",
+    "d0": 3,
+    "d1_full": 19,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji11-2",
+    "cls": "rerun",
+    "d0": 93,
+    "d1_full": 1457,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji12-6",
+    "cls": "rerun",
+    "d0": 18,
+    "d1_full": 229,
+    "verdict": "変差"
+   },
+   {
+    "id": "soji12-9",
+    "cls": "rerun",
+    "d0": 11,
+    "d1_full": 58,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001a-7",
+    "cls": "rerun",
+    "d0": 25,
+    "d1_full": 495,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001a-10",
+    "cls": "rerun",
+    "d0": 31,
+    "d1_full": 369,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001a-12",
+    "cls": "rerun",
+    "d0": 17,
+    "d1_full": 65,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001a-13",
+    "cls": "rerun",
+    "d0": 16,
+    "d1_full": 60,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001a-14",
+    "cls": "rerun",
+    "d0": 9,
+    "d1_full": 133,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001b-2",
+    "cls": "rerun",
+    "d0": 12,
+    "d1_full": 340,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001b-3",
+    "cls": "rerun",
+    "d0": 8,
+    "d1_full": 54,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001c-2",
+    "cls": "rerun",
+    "d0": 48,
+    "d1_full": 157,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001c-3",
+    "cls": "rerun",
+    "d0": 25,
+    "d1_full": 449,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001d-2",
+    "cls": "rerun",
+    "d0": 29,
+    "d1_full": 1235,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001d-3",
+    "cls": "rerun",
+    "d0": 9,
+    "d1_full": 687,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001d-4",
+    "cls": "rerun",
+    "d0": 28,
+    "d1_full": 242,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001d-5",
+    "cls": "rerun",
+    "d0": 12,
+    "d1_full": 732,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001d-7",
+    "cls": "rerun",
+    "d0": 34,
+    "d1_full": 319,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001d-8",
+    "cls": "rerun",
+    "d0": 33,
+    "d1_full": 593,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001e-3",
+    "cls": "rerun",
+    "d0": 41,
+    "d1_full": 147,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001e-4",
+    "cls": "rerun",
+    "d0": 14,
+    "d1_full": 575,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki001e-5",
+    "cls": "rerun",
+    "d0": 28,
+    "d1_full": 1844,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki050-2",
+    "cls": "rerun",
+    "d0": 19,
+    "d1_full": 344,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki050-4",
+    "cls": "rerun",
+    "d0": 20,
+    "d1_full": 929,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki050-5",
+    "cls": "rerun",
+    "d0": 18,
+    "d1_full": 540,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki050-6",
+    "cls": "rerun",
+    "d0": 26,
+    "d1_full": 1130,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki064-2",
+    "cls": "rerun",
+    "d0": 16,
+    "d1_full": 2068,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki064-3",
+    "cls": "rerun",
+    "d0": 22,
+    "d1_full": 1719,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki082-2",
+    "cls": "rerun",
+    "d0": 15,
+    "d1_full": 194,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki082-3",
+    "cls": "rerun",
+    "d0": 17,
+    "d1_full": 1693,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki082-4",
+    "cls": "rerun",
+    "d0": 27,
+    "d1_full": 769,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki082-6",
+    "cls": "rerun",
+    "d0": 20,
+    "d1_full": 349,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki082-7",
+    "cls": "rerun",
+    "d0": 21,
+    "d1_full": 343,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki082-8",
+    "cls": "rerun",
+    "d0": 36,
+    "d1_full": 405,
+    "verdict": "変差"
+   },
+   {
+    "id": "shiki082-9",
+    "cls": "rerun",
+    "d0": 17,
+    "d1_full": 769,
+    "verdict": "変差"
+   },
+   {
+    "id": "ichiyorai-1",
+    "cls": "rerun",
+    "d0": 28,
+    "d1_full": 158,
+    "verdict": "変差"
+   },
+   {
+    "id": "itteiji-1",
+    "cls": "rerun",
+    "d0": 16,
+    "d1_full": 100,
+    "verdict": "変差"
+   },
+   {
+    "id": "kenkon-1",
+    "cls": "echo",
+    "d0": 2,
+    "d1_full": 37,
+    "verdict": "変差"
+   },
+   {
+    "id": "kotoge-1",
+    "cls": "rerun",
+    "d0": 8,
+    "d1_full": 107,
+    "verdict": "変差"
+   },
+   {
+    "id": "ryuryu-1",
+    "cls": "echo",
+    "d0": 3,
+    "d1_full": 81,
+    "verdict": "変差"
+   }
+  ]
+ },
+ "design_ok": true,
+ "elapsed_sec": 183
+}
