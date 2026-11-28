@@ -1061,3 +1061,4 @@ Night 110 heartbeat: 2026-11-27T10:06:44Z merge night done: one --no-ff merge 7b
 2026-11-28 12:25 N111 sim PASS：発火15・改写5・改善4行逐位（26→24/35→33/22→20/35→34）・変差0・rikutou26-5 54維持・Δ8165−7字/Δ4000−6字・冪等bad0・N106 per_row 15行逐位一致；golden理論予想 4000 13.455/8165 13.464（raw→follow −19/−20字，default_repl収録効果含む＝REPORT記録偏差予定）
 2026-11-28 12:38 N111 golden_4000 实跑 PASS：13.455/24/0・diff 恰発火 12 行(4000 内)・変体 5 行 sim 逐位一致・計画外 0・欠落 0・機構予測不一致 0；实测 Δ=−20 字(raw→follow 総効果)＝sim A9 理论值一致、任務書 golden 预想 −6 字是 sim Δ 口径转记差(REPORT 记录偏差)
 2026-11-28 12:43 N111 golden_8165 实跑 PASS：13.464/30/0・diff 恰発火 15 行・変体 5 行 sim 逐位一致・計画外 0・欠落 0・新增変差 0・归档 written；4000 归档重跑中(首跑时归档代码未加・断言已 PASS 13.455/24/0)
+2026-11-28 12:55 N111 accept 111 PASS fail=0 skip=0 37.9s first-run PASS seven gates green（repo_clean=已跟踪无改动・pytest 503=503・eval_integrity night111_results_4000 登记源・rule_regression・engine_smoke・perf_envelope 7ms・order_rate 98.57/98.63 不変）;wrap-up 提交後收工：两提交未合 master・未推远程
